@@ -1,0 +1,4660 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "LuskanStreets - QuestGiverA", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "PEASANT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_7467223", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7467223|", 
+                "", 
+                "BK I know Indra wants to find out who killed her father, but she should leave it to the authorities. Offering a reward will only complicate matters.", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Luskan Streets - QuestGiverB", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "PEASANT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_3724609", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3724609|", 
+                "", 
+                "BK Have you heard about the murder? Indra is offering a large reward for anyone that can bring her justice.", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_StartedQuest", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Lucere House - Indra", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "INDRA"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_8506047", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8506047|", 
+                "", 
+                "", 
+                [
+                    "LINE_7528080", 
+                    "LINE_5647802", 
+                    "LINE_4900390"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_TalkedToIndra", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_StartedQuest", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_IndraIconUtilityFlag", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "CH2_TDC_TalkedToIndra", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "is false", 
+                                    "Flag": "CH2_TDC_DefeatTheCultLeader", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_DefeatTheDemon", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7528080", 
+                "LINE_8506047", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7528080|", 
+                "", 
+                "", 
+                [
+                    "LINE_0648570"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5647802", 
+                "LINE_8506047", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5647802|", 
+                "", 
+                "BK Overheard some townspeople say you were looking for help.", 
+                [
+                    "LINE_0452935"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4900390", 
+                "LINE_8506047", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4900390|", 
+                "", 
+                "If there's a reward involved, count me in.", 
+                [
+                    "LINE_7510157"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0452935", 
+                "LINE_5647802", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0452935|", 
+                "", 
+                "Two days ago, I found my father, Bertrand, in this very room with his throat slit. He was a well-known trader, and some of his goods were stolen.\nBK fact: 'throat slit'", 
+                [
+                    "LINE_0991506", 
+                    "LINE_7583850"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7510157", 
+                "LINE_4900390", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7510157|", 
+                "", 
+                "", 
+                [
+                    "LINE_0452935"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0648570", 
+                "LINE_7528080", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0648570|", 
+                "", 
+                "BK she seemed rather rude here.\nIf you're not here to help, do not waste my time any longer.", 
+                [
+                    "LINE_0622652", 
+                    "LINE_4900390"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0622652", 
+                "LINE_0648570", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0622652|", 
+                "", 
+                "No, I want to help. Tell me what happened.", 
+                [
+                    "LINE_5035338"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5035338", 
+                "LINE_0622652", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5035338|", 
+                "", 
+                "", 
+                [
+                    "LINE_0452935"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0991506", 
+                "LINE_0452935", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0991506|", 
+                "", 
+                "BK too much personality\nThat's horrible!", 
+                [
+                    "LINE_0953554"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7583850", 
+                "LINE_0452935", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7583850|", 
+                "", 
+                "", 
+                [
+                    "LINE_0953554"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0953554", 
+                "LINE_7583850", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0953554|", 
+                "", 
+                "BK It gets worse. My fiance, Edwin, has not been seen since that night. The town watch assumes he killed my father and made off with the loot, but Edwin would never do that!", 
+                [
+                    "LINE_4808330", 
+                    "LINE_8934763"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4808330", 
+                "LINE_0953554", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4808330|", 
+                "", 
+                "BK Why are you so sure he's innocent?", 
+                [
+                    "LINE_7626799"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8934763", 
+                "LINE_0953554", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8934763|", 
+                "", 
+                "", 
+                [
+                    "LINE_7626799"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7626799", 
+                "LINE_4808330", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7626799|", 
+                "", 
+                "I know it sounds naive, but I trust him wholeheartedly. He doesn't have the heart, or honestly the ambition, for that sort of thing.", 
+                [
+                    "LINE_2213582"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2213582", 
+                "LINE_7626799", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2213582|", 
+                "", 
+                "BK - I reshuffled the order of player responses and removed a dialog node\nBK And I am afraid that whoever killed my father may have taken him, or worse!", 
+                [
+                    "LINE_7377724", 
+                    "LINE_9528524", 
+                    "LINE_5386516", 
+                    "LINE_7807617"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7377724", 
+                "LINE_2213582", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7377724|", 
+                "", 
+                "BK What can you tell me about Bertrand?", 
+                [
+                    "LINE_3689302"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9528524", 
+                "LINE_2213582", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9528524|", 
+                "", 
+                "What kinds of goods were taken from the crime scene?", 
+                [
+                    "LINE_3342209"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5386516", 
+                "LINE_2213582", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5386516|", 
+                "", 
+                "", 
+                [
+                    "LINE_1278401"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7807617", 
+                "LINE_2213582", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7807617|", 
+                "", 
+                "", 
+                [
+                    "LINE_3116004"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3116004", 
+                "LINE_7807617", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3116004|", 
+                "", 
+                "", 
+                [
+                    "LINE_4653736"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3689302", 
+                "LINE_7377724", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3689302|", 
+                "", 
+                "BK He worked his way up by building a business that traded in-demand bulk materials such as lumber and iron. In the past few years, though, he began moving into specialty goods that were more difficult to acquire, like rare herbs used in potions or minerals with alchemic properties.", 
+                [
+                    "LINE_3907144"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3907144", 
+                "LINE_3689302", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3907144|", 
+                "", 
+                "BK He knew how to make his profit, but everything he did was legal. Some people may not have liked it, but I don't believe anyone killed him over his business ethics.", 
+                [
+                    "LINE_9528524", 
+                    "LINE_5386516", 
+                    "LINE_8943814"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3342209", 
+                "LINE_9528524", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3342209|", 
+                "", 
+                "BK That's the puzzling thing, and what really bothers me. Several valuables were taken from his most recent shipment, but many others were left untouched. I don't understand why a thief would leave anything behind after going so far as to kill a man....", 
+                [
+                    "LINE_1019892"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1019892", 
+                "LINE_3342209", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_1019892|", 
+                "", 
+                "BK It may just be a coincidence, but among the stolen goods all contained various bits of jewelry. It's not terribly valuable, but maybe that makes it easier to sell on the street. I don't know if that helps, but that's all I can think of.", 
+                [
+                    "LINE_7377724", 
+                    "LINE_5386516", 
+                    "LINE_8943814"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1278401", 
+                "LINE_5386516", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_1278401|", 
+                "", 
+                "BK - Edited this further. the players gets a KEY and his pick of treasure.\nBK I'm upset, and my father left me a substantial inheritance. So, if a sense of justice isn't enough to motivate you, know that you will be fairly compensated. A choice of a magic item from my father's collection or a sum of gold, if that is more to your liking.", 
+                [
+                    "LINE_7377724", 
+                    "LINE_9528524", 
+                    "LINE_8259069"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8943814", 
+                "LINE_3907144", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8943814|", 
+                "", 
+                "", 
+                [
+                    "LINE_4653736"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4653736", 
+                "LINE_8943814", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_7808284"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_GetInfoFromIndra", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8259069", 
+                "LINE_1278401", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8259069|", 
+                "", 
+                "Sounds good. I'm on it.", 
+                [
+                    "LINE_4653736"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3947631", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3947631|", 
+                "", 
+                "You're back. Can I help you with anything?", 
+                [
+                    "LINE_7377724", 
+                    "LINE_9528524", 
+                    "LINE_5386516", 
+                    "LINE_5427609"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "CH2_TDC_TalkedToIndra", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "is false", 
+                                    "Flag": "CH2_TDC_DefeatTheCultLeader", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_DefeatTheDemon", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5427609", 
+                "LINE_3947631", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5427609|", 
+                "", 
+                "I've got it under control.", 
+                [
+                    "LINE_6952396"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6952396", 
+                "LINE_5427609", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4511113", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4511113|", 
+                "", 
+                "[Indra smiles as you approach her.]", 
+                [
+                    "LINE_4534316"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_HelpEdwin", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_ReportToIndra", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4534316", 
+                "LINE_4511113", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4534316|", 
+                "", 
+                "", 
+                [
+                    "LINE_3185336"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3185336", 
+                "LINE_4534316", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3185336|", 
+                "", 
+                "", 
+                [
+                    "LINE_4531141"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4531141", 
+                "LINE_3185336", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4531141|", 
+                "", 
+                "BK Edwin already told me everything. You've brought my love back to me and delivered justice to that cult.", 
+                [
+                    "LINE_9059536", 
+                    "LINE_5418854"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9059536", 
+                "LINE_4531141", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9059536|", 
+                "", 
+                "Happy to be able to help.", 
+                [
+                    "LINE_7376457"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5418854", 
+                "LINE_4531141", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5418854|", 
+                "", 
+                "", 
+                [
+                    "LINE_7376457"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7376457", 
+                "LINE_9059536", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7376457|", 
+                "", 
+                "Yes, and as promised, here is your reward. The chest in the back has some of my father's unsold items. Here's the key, they're all yours. Thank you for everything.", 
+                [
+                    "LINE_2218590"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0723432", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0723432|", 
+                "", 
+                "", 
+                [
+                    "LINE_3910080"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_LootTheRelicAfter", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_ReportToIndra", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3910080", 
+                "LINE_0723432", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3910080|", 
+                "", 
+                "", 
+                [
+                    "LINE_7545976", 
+                    "LINE_3665725", 
+                    "LINE_0824666"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4472217", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4472217|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "CH2_TDC_ReportToIndra", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7545976", 
+                "LINE_3910080", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7545976|", 
+                "", 
+                "", 
+                [
+                    "LINE_0863413"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3665725", 
+                "LINE_3910080", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3665725|", 
+                "", 
+                "", 
+                [
+                    "LINE_0863413"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0824666", 
+                "LINE_3910080", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0824666|", 
+                "", 
+                "", 
+                [
+                    "LINE_8186335"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0863413", 
+                "LINE_7545976", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0863413|", 
+                "", 
+                "", 
+                [
+                    "LINE_7538741", 
+                    "LINE_2745371"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7538741", 
+                "LINE_0863413", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7538741|", 
+                "", 
+                "BK I am sorry for your loss, but we did take care of those responsible.\nBK there was a broken link here.", 
+                [
+                    "LINE_8389450"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2745371", 
+                "LINE_0863413", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2745371|", 
+                "", 
+                "It was a demon cult, but they are no more. I believe you owe us something.", 
+                [
+                    "LINE_8389450"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8186335", 
+                "LINE_0824666", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8186335|", 
+                "", 
+                "", 
+                [
+                    "LINE_7538741", 
+                    "LINE_2745371"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8389450", 
+                "LINE_2745371", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8389450|", 
+                "", 
+                "", 
+                [
+                    "LINE_8964071"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8964071", 
+                "LINE_8389450", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8964071|", 
+                "", 
+                "Yes, thank you. Here is your reward. The chest in the back has some of my father's unsold items. Here's the key, they're all yours. Now please leave me to grieve.", 
+                [
+                    "LINE_2218590"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2218590", 
+                "LINE_8964071", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_ReportToIndra", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ICA_ObtainedRelicA", 
+                        "Quest": "CH2_SQ_InvestigateCultActivity", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:LuskanCultist_LucereKey"
+                ], 
+                [
+                    "Misc:DemonCultist_SQ_AlchemistOrder", 
+                    "Misc:DemonCultist_SQ_IcewindMixture"
+                ], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7808284", 
+                "LINE_4653736", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7808284|", 
+                "", 
+                "BK this may be overkill to fix bug https://jira.n-space.com:8101/browse/HOTU-11749 but I thought it would make the \"Do you know Betrand\" dialog that pops up in all the NPCs more natural if Indra suggests investigating them.", 
+                [
+                    "LINE_7273145"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7273145", 
+                "LINE_7808284", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Potion Shop - Herbalist", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "SHERM"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9982599", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9982599|", 
+                "", 
+                "", 
+                [
+                    "LINE_2937213", 
+                    "LINE_4417922", 
+                    "LINE_3420948", 
+                    "LINE_9040696"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_TalkedToSherm", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "CH2_TDC_TalkedToSherm", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6884220", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_6884220|", 
+                "", 
+                "", 
+                [
+                    "LINE_2937213", 
+                    "LINE_3420948", 
+                    "LINE_9040696"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "CH2_TDC_TalkedToSherm", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2937213", 
+                "LINE_9982599", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2937213|", 
+                "", 
+                "Show me what you're selling.", 
+                [
+                    "LINE_4179371"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4417922", 
+                "LINE_9982599", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4417922|", 
+                "", 
+                "", 
+                [
+                    "LINE_8497830"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3420948", 
+                "LINE_9982599", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3420948|", 
+                "", 
+                "Bk Did you ever deal with Bertrand?", 
+                [
+                    "LINE_2460343"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "CH2_TDC_GetInfoFromIndra", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9040696", 
+                "LINE_9982599", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9040696|", 
+                "", 
+                "", 
+                [
+                    "LINE_0077250"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0077250", 
+                "LINE_9040696", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0077250|", 
+                "", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0077250|", 
+                [
+                    "LINE_2958376"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8497830", 
+                "LINE_4417922", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8497830|", 
+                "", 
+                "Oooooh, I've tried just about everything there is. And let me tell you, I only sell the highest quality stuff here.", 
+                [
+                    "LINE_2937213", 
+                    "LINE_3420948", 
+                    "LINE_9040696"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4179371", 
+                "LINE_2937213", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_7701190"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "OpenVendor", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7701190", 
+                "LINE_4179371", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2460343", 
+                "LINE_3420948", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2460343|", 
+                "", 
+                "", 
+                [
+                    "LINE_7329594"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7329594", 
+                "LINE_2460343", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7329594|", 
+                "", 
+                "BK Hopefully, they find Edwin soon. But I bet he's skipped town by now.", 
+                [
+                    "LINE_9983473", 
+                    "LINE_3177813", 
+                    "LINE_9613261"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9983473", 
+                "LINE_7329594", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9983473|", 
+                "", 
+                "", 
+                [
+                    "LINE_7784567"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3177813", 
+                "LINE_7329594", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3177813|", 
+                "", 
+                "", 
+                [
+                    "LINE_4179371"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7784567", 
+                "LINE_9983473", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7784567|", 
+                "", 
+                "", 
+                [
+                    "LINE_9649704", 
+                    "LINE_2771268", 
+                    "LINE_1482875", 
+                    "LINE_8419186"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9649704", 
+                "LINE_7784567", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9649704|", 
+                "", 
+                "", 
+                [
+                    "LINE_6828537"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9613261", 
+                "LINE_7329594", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9613261|", 
+                "", 
+                "", 
+                [
+                    "LINE_0077250"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2771268", 
+                "LINE_7784567", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2771268|", 
+                "", 
+                "", 
+                [
+                    "LINE_3312124"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1482875", 
+                "LINE_7784567", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_1482875|", 
+                "", 
+                "BK How did you know exactly what was stolen?", 
+                [
+                    "LINE_8356748"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "CH2_TDC_InvestigateMurder", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6828537", 
+                "LINE_9649704", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_6828537|", 
+                "", 
+                "", 
+                [
+                    "LINE_2771268", 
+                    "LINE_1482875", 
+                    "LINE_8419186"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3312124", 
+                "LINE_2771268", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3312124|", 
+                "", 
+                "Who? And why? If it was a robbery, they already got away with it. Take the coin and run.", 
+                [
+                    "LINE_9649704", 
+                    "LINE_1482875", 
+                    "LINE_8419186"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8356748", 
+                "LINE_1482875", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8356748|", 
+                "", 
+                "BK Oh, um... did I say that? I must have overheard it somewhere.", 
+                [
+                    "LINE_8727157", 
+                    "LINE_7979164"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8727157", 
+                "LINE_8356748", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8727157|", 
+                "", 
+                "It must have been a coincidence that you were asking about jewels in the alchemy shop earlier.", 
+                [
+                    "LINE_8353669"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8353669", 
+                "LINE_8727157", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8353669|", 
+                "", 
+                "", 
+                [
+                    "LINE_2875595", 
+                    "LINE_4150219"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7979164", 
+                "LINE_8356748", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7979164|", 
+                "", 
+                "", 
+                [
+                    "LINE_1302298"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1302298", 
+                "LINE_7979164", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_1302298|", 
+                "", 
+                "<Sherm sighs> Well... you're right...", 
+                [
+                    "LINE_7757395"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7757395", 
+                "LINE_1302298", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7757395|", 
+                "", 
+                "...and now you're going to die.", 
+                [
+                    "LINE_6670055"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6670055", 
+                "LINE_7757395", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_RevealedSherm", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2875595", 
+                "LINE_8353669", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2875595|", 
+                "", 
+                "BK added reference as librarian, because her name is only mentioned once in dialog. Also dropped the Trusting Her bit because it could be read that she was involved in the plot. But what was meant is that he should have not left any witnesses. Which I don't think we need to get into.\nBK Don't play dumb. Orina told me all about it. Trusting her was not a good idea.", 
+                [
+                    "LINE_1302298"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4150219", 
+                "LINE_8353669", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4150219|", 
+                "", 
+                "I saw you in there myself. I guess you didn't notice me. So, you're into demons? <Lie.>", 
+                [
+                    "LINE_1302298"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8419186", 
+                "LINE_7784567", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8419186|", 
+                "", 
+                "", 
+                [
+                    "LINE_0077250"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2958376", 
+                "LINE_0077250", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Potion Shop - Herbs", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "RPE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2554894", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2554894|", 
+                "", 
+                "[Vibrantly colored plants are growing here]", 
+                [
+                    "LINE_3914609", 
+                    "LINE_9654828"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3914609", 
+                "LINE_2554894", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9654828", 
+                "LINE_2554894", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9654828|", 
+                "", 
+                "[SLEIGHT OF HAND] Pour the alchemist's gift on the plants.", 
+                [
+                    "LINE_3153715"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3153715", 
+                "LINE_9654828", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "HerbalistGate", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "RPE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6374382", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_6374382|", 
+                "", 
+                "BK trying to restructure this to reflect the state of \"vine coverage\". Please let me know if I broke anything. Apologies in advance.\n[A wooden hatch appears to lead to a basement. Thick green vines are interwoven around its handles and appear to lead inside the handles.]", 
+                [
+                    "LINE_2026064", 
+                    "LINE_6254640"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7304747", 
+                "LINE_6254640", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7304747|", 
+                "", 
+                "", 
+                [
+                    "LINE_0607613", 
+                    "LINE_5179394"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9868043", 
+                "LINE_6254640", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9868043|", 
+                "", 
+                "", 
+                [
+                    "LINE_3826437", 
+                    "LINE_6081272"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_VinesRemoved", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7368627", 
+                "LINE_6254640", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7368627|", 
+                "", 
+                "", 
+                [
+                    "LINE_5219803"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_GotMixture", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_VinesRemoved", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_UsedMixtureOnHatch", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_UsedStrength", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0607613", 
+                "LINE_7304747", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0607613|", 
+                "", 
+                "[The hatch opens, and you can now travel below.]", 
+                [
+                    "LINE_0889081"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_VinesRemoved", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_UsedStrength", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "OR", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5179394", 
+                "LINE_7304747", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5179394|", 
+                "", 
+                "[The vines prevent you from opening the hatch. Perhaps you should try to remove them.]", 
+                [
+                    "LINE_9868043", 
+                    "LINE_7368627", 
+                    "LINE_9175005"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0889081", 
+                "LINE_0607613", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_SearchTheCultHQ", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9175005", 
+                "LINE_6254640", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9175005|", 
+                "", 
+                "", 
+                [
+                    "LINE_5605748"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5605748", 
+                "LINE_9175005", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3826437", 
+                "LINE_9868043", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3826437|", 
+                "", 
+                "", 
+                [
+                    "LINE_7304747", 
+                    "LINE_9175005"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_VinesRemoved", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_UsedMixtureOnHatch", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6081272", 
+                "LINE_9868043", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_6081272|", 
+                "", 
+                "", 
+                [
+                    "LINE_1020398", 
+                    "LINE_7304747", 
+                    "LINE_7368627", 
+                    "LINE_9175005"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1020398", 
+                "LINE_6081272", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_1020398|", 
+                "", 
+                "", 
+                [
+                    "LINE_9803786", 
+                    "LINE_0061990"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9803786", 
+                "LINE_1020398", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9803786|", 
+                "", 
+                "", 
+                [
+                    "LINE_7304747"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_UsedStrength", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 18, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "str", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:DemonCultist_SQ_AlchemistOrder", 
+                    "Misc:DemonCultist_SQ_IcewindMixture"
+                ], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5219803", 
+                "LINE_7368627", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5219803|", 
+                "", 
+                "[You pour a single drop of the Icewind Mixture onto the vines. Almost immediately, a chilling wave passes through the vines, freezing them immediately.]", 
+                [
+                    "LINE_7304747", 
+                    "LINE_9868043", 
+                    "LINE_9175005"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_UsedMixtureOnHatch", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2026064", 
+                "LINE_6374382", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2026064|", 
+                "", 
+                "", 
+                [
+                    "LINE_6254640"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_VinesRemoved", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6254640", 
+                "LINE_6374382", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_7304747", 
+                    "LINE_9868043", 
+                    "LINE_7368627", 
+                    "LINE_9175005"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0061990", 
+                "LINE_1020398", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0061990|", 
+                "", 
+                "BK I modified this to be a proper strength check here", 
+                [
+                    "LINE_7304747", 
+                    "LINE_9868043", 
+                    "LINE_7368627", 
+                    "LINE_9175005"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Cyrano - Cult Leader", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "CULTLEADER"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_8679507", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8679507|", 
+                "", 
+                "WHY ISN'T THIS WORKING??? I DON'T...", 
+                [
+                    "LINE_5652919"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5652919", 
+                "LINE_8679507", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5652919|", 
+                "", 
+                "BK Hey! This area is closed to the public! Sherm! Sherm!!", 
+                [
+                    "LINE_0288731", 
+                    "LINE_4907573"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0288731", 
+                "LINE_5652919", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0288731|", 
+                "", 
+                "Sherm's not coming.", 
+                [
+                    "LINE_7526168"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7526168", 
+                "LINE_0288731", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7526168|", 
+                "", 
+                "BK Are you kidding me? Gah! Some days, I swear! What else could go wrong!", 
+                [
+                    "LINE_8271300"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5060748", 
+                "LINE_8271300", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5060748|", 
+                "", 
+                "BK Sounds like you're having a bit of trouble with your little ritual.", 
+                [
+                    "LINE_0188359"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0188359", 
+                "LINE_5060748", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0188359|", 
+                "", 
+                "BK Shut up! It's only a minor setback! And you! you're as good as dead!", 
+                [
+                    "LINE_1673078"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1673078", 
+                "LINE_0188359", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_ExploreBasement", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8271300", 
+                "LINE_7526168", 
+                "EDWIN", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8271300|", 
+                "", 
+                "", 
+                [
+                    "LINE_5060748", 
+                    "LINE_6284911"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4907573", 
+                "LINE_5652919", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4907573|", 
+                "", 
+                "", 
+                [
+                    "LINE_7526168"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6284911", 
+                "LINE_8271300", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_6284911|", 
+                "", 
+                "", 
+                [
+                    "LINE_8468682"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8468682", 
+                "LINE_6284911", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8468682|", 
+                "", 
+                "", 
+                [
+                    "LINE_1673078"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Edwin - After Battle", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "EDWIN"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6272986", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_6272986|", 
+                "", 
+                "..", 
+                [
+                    "LINE_6700870"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_LootedRelic", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_HelpEdwin", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5685757", 
+                "LINE_4343702", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5685757|", 
+                "", 
+                "BK I'm sure my celebration would seem more exuberant if I could move. He at least got that part of the ritual correct.", 
+                [
+                    "LINE_5146864", 
+                    "LINE_1559094", 
+                    "LINE_2781612", 
+                    "LINE_4085609", 
+                    "LINE_0483269"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5146864", 
+                "LINE_5685757", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_5146864|", 
+                "", 
+                "", 
+                [
+                    "LINE_1382376"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1559094", 
+                "LINE_5685757", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_1559094|", 
+                "", 
+                "", 
+                [
+                    "LINE_7278605"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_CanInspectAmulet", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_CanInspectAmulet", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4085609", 
+                "LINE_5685757", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4085609|", 
+                "", 
+                "", 
+                [
+                    "LINE_4516812"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1382376", 
+                "LINE_5146864", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_1382376|", 
+                "", 
+                "This may surprise you, but I'm not exactly an expert on the subject of demonic rituals. Maybe if you disrupt the ritual somehow?", 
+                [
+                    "LINE_1559094", 
+                    "LINE_2781612", 
+                    "LINE_4085609", 
+                    "LINE_0483269"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7278605", 
+                "LINE_1559094", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7278605|", 
+                "", 
+                "BK If I had to wager a guess, perhaps it's this amulet I'm wearing. Maybe it actually has protective elements! Wouldn't that be something?", 
+                [
+                    "LINE_5146864", 
+                    "LINE_2781612", 
+                    "LINE_4085609", 
+                    "LINE_0483269"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4516812", 
+                "LINE_4085609", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4516812|", 
+                "", 
+                "Bertrand and I were taking inventory of his recent acquisitions, which included that weird relic. Out of nowhere a bunch of cultists burst into the house, ran him through, and threw a sack over my head.", 
+                [
+                    "LINE_7254706"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2781612", 
+                "LINE_5685757", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2781612|", 
+                "", 
+                "", 
+                [
+                    "LINE_9001704"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_CanInspectAmulet", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9001704", 
+                "LINE_2781612", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9001704|", 
+                "", 
+                "", 
+                [
+                    "LINE_2480798"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2480798", 
+                "LINE_9001704", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_2480798|", 
+                "", 
+                "", 
+                [
+                    "LINE_9546520", 
+                    "LINE_5146864", 
+                    "LINE_4085609"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9546520", 
+                "LINE_2480798", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9546520|", 
+                "", 
+                "", 
+                [
+                    "LINE_4354558"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0483269", 
+                "LINE_5685757", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_0483269|", 
+                "", 
+                "I'll see what I can do to free you.", 
+                [
+                    "LINE_9359051"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9359051", 
+                "LINE_0483269", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9359051|", 
+                "", 
+                "", 
+                [
+                    "LINE_8303832"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8303832", 
+                "LINE_9359051", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7254706", 
+                "LINE_4516812", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7254706|", 
+                "", 
+                "BK I blacked out at some point, and when I came to, I was here and unable to move. It's been some time, and I would appreciate being able to relieve myself once again, so please hurry.", 
+                [
+                    "LINE_5146864", 
+                    "LINE_1559094", 
+                    "LINE_2781612", 
+                    "LINE_0483269"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4354558", 
+                "LINE_9546520", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4354558|", 
+                "", 
+                "", 
+                [
+                    "LINE_3569816"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6856338", 
+                "LINE_3569816", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_KilledEdwin", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "KillCharacter", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4343702", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4343702|", 
+                "", 
+                "", 
+                [
+                    "LINE_5685757"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_TalkedToEdwin", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_DefeatTheCultLeader", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_TalkedToEdwin", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3569816", 
+                "LINE_4354558", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6856338"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "KillCircleFX", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4559111", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_4559111|", 
+                "", 
+                "", 
+                [
+                    "LINE_5146864", 
+                    "LINE_1559094", 
+                    "LINE_2781612", 
+                    "LINE_4085609", 
+                    "LINE_0483269"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_DefeatTheCultLeader", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_TalkedToEdwin", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "True"
+            ], 
+            [
+                "LINE_6700870", 
+                "LINE_6272986", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_6700870|", 
+                "", 
+                "BK I have to head back right now! Indra must be worried sick! Please come see us as soon as possible!", 
+                [
+                    "LINE_0237043"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0237043", 
+                "LINE_6700870", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "CallFade 2.0 CH2_SQ_TheDemonCultist CH2_TDC_HelpEdwin 1.0", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "ambient fake convo to kill particle effect", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5486925", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4023812"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_PlayedFakeAmbientConvo", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "KillCircleFX", 
+                        "SpeakerTag": "EDWIN"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_KilledEdwin", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_PlayedFakeAmbientConvo", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4023812", 
+                "LINE_5486925", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "StandUp", 
+                        "SpeakerTag": "EDWIN"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "GRUXHAR", 
+                "NoBegFade": "True", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "GRUXHAR"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_7683803", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_7683803|", 
+                "", 
+                "", 
+                [
+                    "LINE_6084362", 
+                    "LINE_3622652", 
+                    "LINE_9885586"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6084362", 
+                "LINE_7683803", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_6084362|", 
+                "", 
+                "That would be me. I guess we're going to fight now.", 
+                [
+                    "LINE_8071974"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3622652", 
+                "LINE_7683803", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3622652|", 
+                "", 
+                "Umm... it was that guy. I took care of him for you.", 
+                [
+                    "LINE_3563920"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9885586", 
+                "LINE_7683803", 
+                "<PLAYER>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_9885586|", 
+                "", 
+                "", 
+                [
+                    "LINE_8071974"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8071974", 
+                "LINE_6084362", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_8071974|", 
+                "", 
+                "I will enjoy feasting on your flesh!", 
+                [
+                    "LINE_7198372"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7198372", 
+                "LINE_8071974", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_DemonAttacksParty", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "MakeCreatureFactionHostileForCombat", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3563920", 
+                "LINE_3622652", 
+                "<DEFAULT>", 
+                "|Ch2_SideQuest_DemonCultist_LINE_3563920|", 
+                "", 
+                "BK It matters not. I will devour you all the same!", 
+                [
+                    "LINE_7198372"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

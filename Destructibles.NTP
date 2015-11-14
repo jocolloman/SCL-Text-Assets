@@ -1,0 +1,276 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_DestructibleSets"
+{
+     FORMAT
+     {
+          XREF             ""    "Destructible01"
+          XREF             ""    "Destructible02"
+          XREF             ""    "Destructible03"
+          XREF             ""    "Destructible04"
+          XREF             ""    "Destructible05"
+          XREF             ""    "Destructible06"
+          XREF             ""    "Destructible07"
+     }
+
+     TEMPLATE "D_SC_Barrels"
+     {
+     }
+
+     TEMPLATE "Destructible_TestGroup"
+     {
+     }
+
+     TEMPLATE "PD_Small"
+     {
+     }
+
+     TEMPLATE "PD_Medium"
+     {
+     }
+
+     TEMPLATE "PD_Large"
+     {
+     }
+
+     TEMPLATE "PD_DUE_Small"
+     {
+     }
+
+     TEMPLATE "PD_DUE_Cart"
+     {
+     }
+
+     TEMPLATE "TownDestructibles"
+     {
+     }
+
+     TEMPLATE "Basic Dungeon Destructibles"
+     {
+     }
+
+     TEMPLATE "BanditCaveDestructibles"
+     {
+     }
+
+     TEMPLATE "CastleDestructibles"
+     {
+     }
+
+     TEMPLATE "CatacombsDestructibles"
+     {
+     }
+
+     TEMPLATE "DrowCaveDestructibles"
+     {
+     }
+
+     TEMPLATE "DuergarDestructibles"
+     {
+     }
+
+     TEMPLATE "SewersDestructibles"
+     {
+     }
+
+     TEMPLATE "SpiderCastleDestructibles"
+     {
+     }
+
+}
+
+GROUP "RT_Destructibles"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "PrefabPath"
+          INTEGER          "Weight"
+          HASH             "Type"
+          NUMBER           "Radius"
+          HASH             "DisplayName"
+          INTEGER          "TeamID"
+          INTEGER          "Level"
+          INTEGER          "Health"
+          HASH             "Loot_Table"
+          RESOURCE         ""    "Death_FX"
+          RESOURCE         ""    "SfxDestructibleType"
+     }
+
+     TEMPLATE "PD_Barrel"
+     {
+     }
+
+     TEMPLATE "PD_Cart"
+     {
+     }
+
+     TEMPLATE "PD_Table"
+     {
+     }
+
+     TEMPLATE "PD_DuergarBarrel"
+     {
+     }
+
+     TEMPLATE "PD_DuergarCart"
+     {
+     }
+
+     TEMPLATE "D_SC_Barrel"
+     {
+     }
+
+     TEMPLATE "Ch1_IntroForest_ExplodingCartA"
+     {
+     }
+
+     TEMPLATE "Ch1_IntroForest_ExplodingCartB"
+     {
+     }
+
+     TEMPLATE "PD_Tombstone01"
+     {
+     }
+
+     TEMPLATE "PD_TombstoneGDC"
+     {
+     }
+
+     TEMPLATE "Ch4_Darklake_ThangarBarrel"
+     {
+     }
+
+     TEMPLATE "MarkedRubies_SQ_SewerBarrel"
+     {
+     }
+
+     TEMPLATE "PD_Tombstone02"
+     {
+     }
+
+     TEMPLATE "PD_PracticeDummy"
+     {
+     }
+
+     TEMPLATE "CAS_Destrct_Bust00"
+     {
+     }
+
+     TEMPLATE "CAS_Destrct_Bust01"
+     {
+     }
+
+     TEMPLATE "CAS_Destrct_Bust02"
+     {
+     }
+
+     TEMPLATE "CAS_Destrct_Bust03"
+     {
+     }
+
+     TEMPLATE "CAS_Destruct_Vase01"
+     {
+     }
+
+     TEMPLATE "CAS_Destruct_Vase02"
+     {
+     }
+
+     TEMPLATE "CAT_Destruct_Stature01"
+     {
+     }
+
+     TEMPLATE "CAT_Destruct_Stature02"
+     {
+     }
+
+     TEMPLATE "CAT_Destruct_Stature03"
+     {
+     }
+
+     TEMPLATE "CAT_Destruct_Vase01"
+     {
+     }
+
+     TEMPLATE "CAT_Destruct_Vase02"
+     {
+     }
+
+     TEMPLATE "AshPriest_Destruct_Urn01"
+     {
+     }
+
+     TEMPLATE "AshPriest_Destruct_Urn02"
+     {
+     }
+
+     TEMPLATE "AshPriest_Destruct_Urn03"
+     {
+     }
+
+     TEMPLATE "AshPriest_Destruct_Urn04"
+     {
+     }
+
+     TEMPLATE "DUE_Destrct_Bust00"
+     {
+     }
+
+     TEMPLATE "DUE_Destrct_Bust01"
+     {
+     }
+
+     TEMPLATE "DUE_Destrct_Bust02"
+     {
+     }
+
+     TEMPLATE "DUE_Destrct_Bust03"
+     {
+     }
+
+     TEMPLATE "DUE_Destrct_Vase01"
+     {
+     }
+
+     TEMPLATE "DUE_Destrct_Barrel"
+     {
+     }
+
+     TEMPLATE "SEW_Destruct_Barrel"
+     {
+     }
+
+     TEMPLATE "SEW_Destruct_Vase01"
+     {
+     }
+
+     TEMPLATE "SEW_Destruct_Vase02"
+     {
+     }
+
+     TEMPLATE "SPI_Destrct_Barrel"
+     {
+     }
+
+     TEMPLATE "SPI_Destrct_Bust00"
+     {
+     }
+
+     TEMPLATE "SPI_Destrct_Bust01"
+     {
+     }
+
+     TEMPLATE "SPI_Destrct_Bust02"
+     {
+     }
+
+     TEMPLATE "SPI_Destrct_Bust03"
+     {
+     }
+
+     TEMPLATE "SPI_Destrct_Vase01"
+     {
+     }
+
+}
+

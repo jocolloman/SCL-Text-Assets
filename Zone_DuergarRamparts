@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ZoneConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Settings InteriorLoadPath="Levels/Interiors/Zone_DuergarRamparts"/>
+
+    <!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DuergarSet01" /> 
+        <CreatureSet Name="DerroSet1" />       
+	</CreatureSets>
+
+ <!-- No interiors in this zone as of yet -->
+    
+    <Interiors>
+      <Interior  Name="Ramparts_Top_Interior"/>    <!-- The room at the top of the stairs behind the gate -->
+      <Interior  Name="Ramparts_Cave"/>      <!-- the cave at the bottom at the bottom of the ramparts -->
+    </Interiors>
+    
+</ZoneConfig>

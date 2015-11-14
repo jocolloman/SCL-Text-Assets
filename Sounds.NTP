@@ -1,0 +1,2121 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_SFX_CHARACTERS"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "Spawn"
+          RESOURCE         ""    "Impact"
+          RESOURCE         ""    "Pain"
+          RESOURCE         ""    "Death"
+          RESOURCE         ""    "Attack"
+          Resource         "MadeCriticalHit"
+          RESOURCE         ""    "KilledEnemy"
+          RESOURCE         ""    "Footstep"
+          RESOURCE         ""    "Fall"
+          a                "MovementOrder"
+          RESOURCE         ""    "EnterCombat"
+          RESOURCE         ""    "ExitCombat"
+     }
+
+     TEMPLATE "Zombie"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_CHAR_Zombie_Spawn"
+          DATA             "Play_IMPACT_Hit_Flesh"
+          DATA             "Play_CHAR_Zom_Pain"
+          DATA             "Play_CHAR_Zombie_Death"
+          DATA             "Play_CHAR_Zombie_Melee_Swipe"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Skeleton_Melee"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_CHAR_Skeleton_Spawn"
+          DATA             "Play_IMPACT_Hit_Bone"
+          DATA             "Play_CHAR_Skel_Pain"
+          DATA             "Play_CHAR_Skeleton_Death"
+          DATA             "Play_CHAR_Skeleton_Melee_Swipe"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Skeleton_Ranged"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_CHAR_Skeleton_Spawn"
+          DATA             "Play_IMPACT_Hit_Bone"
+          DATA             "Play_CHAR_Ske_Pain"
+          DATA             "Play_CHAR_Skeleton_Death"
+          DATA             "Play_CHAR_Skeleton_Attack"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Wolf"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_CHAR_Wolf_Spawn"
+          DATA             "Play_IMPACT_Hit_Flesh"
+          DATA             "Play_CHAR_Wolf_Pain"
+          DATA             "Play_CHAR_Wolf_Death"
+          DATA             "Play_CHAR_Wolf_Melee_Swipe"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Boss_AshenPriest"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_IMPACT_Hit_Bone"
+          DATA             "Play_VO_AP_Boss_Pain_Crit"
+          DATA             "Play_VO_BOSS_AP_KO"
+          DATA             "Play_VO_Boss_AP_Attack"
+          DATA             "Play_VO_Boss_AP_Attack_Crit"
+          DATA             "Play_VO_Boss_AP_Laugh"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "Play_VO_Boss_AP_CombatStart"
+          DATA             ""
+     }
+
+     TEMPLATE "Cleric"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_Cleric_Spawn"
+          DATA             "Play_Impact_Armor_Mail"
+          DATA             "Play_VO_Cleric_Pain"
+          DATA             "Play_VO_Cleric_KO"
+          DATA             ""
+          DATA             "Play_VO_Cleric_Attack_Crit"
+          DATA             ""
+          DATA             "Play_FOOTSTEP_"
+          DATA             "Play_UI_PlayerDeath"
+          DATA             "Play_VO_Cleric_Affirm"
+          DATA             "Play_VO_Cleric_Combat_Start"
+          DATA             "Play_VO_Cleric_Combat_End"
+     }
+
+     TEMPLATE "Fighter"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_Fighter_Spawn"
+          DATA             "Play_Impact_Armor_Plate"
+          DATA             "Play_VO_Fighter_Pain"
+          DATA             "Play_VO_Fighter_KO"
+          DATA             ""
+          DATA             "Play_VO_Fighter_Attack_Crit"
+          DATA             ""
+          DATA             "Play_FOOTSTEP_"
+          DATA             "Play_UI_PlayerDeath"
+          DATA             "Play_VO_Fighter_Affirm"
+          DATA             "Play_VO_Fighter_Combat_Start"
+          DATA             "Play_VO_Fighter_Combat_End"
+     }
+
+     TEMPLATE "Mage"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_Mage_Spawn"
+          DATA             "Play_Impact_Armor_Mail"
+          DATA             "Play_VO_Mage_Pain"
+          DATA             "Play_VO_Mage_KO"
+          DATA             ""
+          DATA             "Play_VO_Mage_Attack_Crit"
+          DATA             ""
+          DATA             "Play_FOOTSTEP_"
+          DATA             "Play_UI_PlayerDeath"
+          DATA             "Play_VO_Mage_Affirm"
+          DATA             "Play_VO_Mage_Combat_Start"
+          DATA             "Play_VO_Mage_Combat_End"
+     }
+
+     TEMPLATE "Rogue"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_Rogue_Spawn"
+          DATA             "Play_Impact_Armor_Leather"
+          DATA             ""
+          DATA             "Play_VO_Rogue_KO"
+          DATA             ""
+          DATA             "Play_VO_Rogue_Attack_Crit"
+          DATA             ""
+          DATA             "Play_FOOTSTEP_"
+          DATA             "Play_UI_PlayerDeath"
+          DATA             "Play_VO_Rogue_Affirm"
+          DATA             "Play_VO_Rogue_Combat_Start"
+          DATA             "Play_VO_Rogue_Combat_End"
+     }
+
+     TEMPLATE "MiniBoss_Izzaku"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_izz_burn_loop"
+          DATA             ""
+          DATA             ""
+          DATA             "Stop_izz_burn_loop"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+}
+
+GROUP "RT_BARKS"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "WwiseEvent"
+          STRING           "StringIDBase"
+          INTEGER          "PlayChance"
+          INTEGER          "MaxRandomVal"
+     }
+
+     TEMPLATE "Death"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_Death"
+          DATA             "Death"
+          DATA             "100"
+          DATA             "5"
+     }
+
+     TEMPLATE "EnterCombat"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_EnterCombat"
+          DATA             "EnterCombat"
+          DATA             "50"
+          DATA             "5"
+     }
+
+     TEMPLATE "ExitCombat"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_ExitCombat"
+          DATA             "ExitCombat"
+          DATA             "50"
+          DATA             "5"
+     }
+
+     TEMPLATE "LowHealth"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_LowHealth"
+          DATA             "LowHealth"
+          DATA             "50"
+          DATA             "5"
+     }
+
+     TEMPLATE "LandCritical"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_LandCritical"
+          DATA             "LandCritical"
+          DATA             "25"
+          DATA             "5"
+     }
+
+     TEMPLATE "BuffAlly"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_BuffAlly"
+          DATA             "BuffAlly"
+          DATA             "20"
+          DATA             "5"
+     }
+
+     TEMPLATE "BuffedByAlly"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_BuffedByAlly"
+          DATA             "BuffedByAlly"
+          DATA             "20"
+          DATA             "5"
+     }
+
+     TEMPLATE "CastResurrect"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_CastResurrect"
+          DATA             "CastResurrect"
+          DATA             "100"
+          DATA             "5"
+     }
+
+     TEMPLATE "IsResurrected"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_IsResurrected"
+          DATA             "IsResurrected"
+          DATA             "100"
+          DATA             "5"
+     }
+
+     TEMPLATE "TrapSpotted"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_TrapSpotted"
+          DATA             "TrapSpotted"
+          DATA             "100"
+          DATA             "5"
+     }
+
+     TEMPLATE "TrapDisarmedPass"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_TrapDisarmedPass"
+          DATA             "TrapDisarmedPass"
+          DATA             "100"
+          DATA             "5"
+     }
+
+     TEMPLATE "TrapDisarmFail"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_TrapDisarmFail"
+          DATA             "TrapDisarmFail"
+          DATA             "100"
+          DATA             "5"
+     }
+
+     TEMPLATE "DoorUnlock"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_DoorUnlock"
+          DATA             "DoorUnlock"
+          DATA             "100"
+          DATA             "5"
+     }
+
+     TEMPLATE "SecretDoorSpotted"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_SecretDoorSpotted"
+          DATA             "SecretDoorSpotted"
+          DATA             "100"
+          DATA             "5"
+     }
+
+     TEMPLATE "LootChest"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_LootChest"
+          DATA             "LootChest"
+          DATA             "20"
+          DATA             "5"
+     }
+
+     TEMPLATE "LootCorpse"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_LootCorpse"
+          DATA             "LootCorpse"
+          DATA             "20"
+          DATA             "5"
+     }
+
+     TEMPLATE "UseAOESpell"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_UseAOESpell"
+          DATA             "UseAOESpell"
+          DATA             "20"
+          DATA             "5"
+     }
+
+     TEMPLATE "ChestUnlock"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_ChestUnlock"
+          DATA             "ChestUnlock"
+          DATA             "100"
+          DATA             "5"
+     }
+
+     TEMPLATE "UnlockFail"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_VO_BARK_UnlockFail"
+          DATA             "UnlockFail"
+          DATA             "100"
+          DATA             "5"
+     }
+
+}
+
+GROUP "RT_FOOTSTEP_INFO"
+{
+     FORMAT
+     {
+          INTEGER          "ValidSlots"
+          RESOURCE         ""    "Slot0"
+          RESOURCE         ""    "Slot1"
+          RESOURCE         ""    "Slot2"
+          RESOURCE         ""    "Slot3"
+     }
+
+     TEMPLATE "VS_Overworld_Terrain"
+     {
+          DESCRIPTION      ""
+          DATA             "4"
+          DATA             "Metal"
+          DATA             "Ice"
+          DATA             "Water"
+          DATA             "Wood_Creaky"
+     }
+
+     TEMPLATE "VS_Overworld_Bridge"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "IntroForest"
+     {
+          DESCRIPTION      ""
+          DATA             "4"
+          DATA             "Grass_Forest"
+          DATA             "Dirt"
+          DATA             "Dirt"
+          DATA             "Wood_Creaky"
+     }
+
+}
+
+GROUP "RT_SFX_WEAPONS"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "Attack"
+          RESOURCE         ""    "Impact"
+     }
+
+     TEMPLATE "CLUB"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "MACE"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "MORNINGSTAR"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "SICKLE"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "HAND_AXE"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "SCIMITAR"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "LONG_SWORD"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "BATTLE_AXE"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "DAGGER"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "SHORT_SPEAR"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "SHORT_SWORD"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "RAPIER"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "THROWING_HAMMER"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "THROWING_DAGGER"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "THROWING_AXE"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "THROWING_JAVELIN"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "GREAT_CLUB"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "MAUL"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "GREAT_SWORD"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "GREAT_AXE"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "PIKE"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "QUARTERSTAFF"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "HALBERD"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "SHORT_BOW"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_WEP_Arrow_Fire"
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "LONG_BOW"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_WEP_Arrow_Fire"
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "LIGHT_CROSSBOW"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_WEP_Arrow_Fire"
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "HEAVY_CROSSBOW"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_WEP_Arrow_Fire"
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+     TEMPLATE "SHIELD"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Play_WEP_Blade_Impact"
+     }
+
+}
+
+GROUP "RT_SFX_LOOT"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "Drop"
+          RESOURCE         ""    "Pickup"
+     }
+
+     TEMPLATE "Gold"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_LOOT_Drop_Gold"
+          DATA             "Play_LOOT_Pickup_Gen"
+     }
+
+     TEMPLATE "Armor"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_LOOT_Drop_Armor"
+          DATA             "Play_LOOT_Pickup_Gen"
+     }
+
+}
+
+GROUP "RT_SFX_DESTRUCTIBLES"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "Destroy"
+          RESOURCE         ""    "Hit"
+     }
+
+     TEMPLATE "Barrel"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_OBJ_Barrel_Destroy"
+          DATA             ""
+     }
+
+     TEMPLATE "Oyster"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_OBJ_Oyster_Destroy"
+          DATA             ""
+     }
+
+     TEMPLATE "PD_Barrel"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "PD_Cart"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "PD_Table"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "PD_DuergarBarrel"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "PD_DuergarCart"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "D_SC_Barrel"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "Ch1_IntroForest_ExplodingCartA"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "Ch1_IntroForest_ExplodingCartB"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "PD_Tombstone01"
+     {
+          DESCRIPTION      ""
+          DATA             "Stone"
+          DATA             ""
+     }
+
+     TEMPLATE "PD_TombstoneGDC"
+     {
+          DESCRIPTION      ""
+          DATA             "Stone"
+          DATA             ""
+     }
+
+     TEMPLATE "Ch4_Darklake_ThangarBarrel"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "PD_Tombstone02"
+     {
+          DESCRIPTION      ""
+          DATA             "Stone"
+          DATA             ""
+     }
+
+     TEMPLATE "PD_PracticeDummy"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             "Play_PracticeDummy_HIT"
+     }
+
+     TEMPLATE "CAS_Destrct_Bust00"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "CAS_Destrct_Bust01"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "CAS_Destrct_Bust02"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "CAS_Destrct_Bust03"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "CAS_Destruct_Vase01"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "CAS_Destruct_Vase02"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "CAT_Destruct_Stature01"
+     {
+          DESCRIPTION      ""
+          DATA             "Stone"
+          DATA             ""
+     }
+
+     TEMPLATE "CAT_Destruct_Stature02"
+     {
+          DESCRIPTION      ""
+          DATA             "Stone"
+          DATA             ""
+     }
+
+     TEMPLATE "CAT_Destruct_Stature03"
+     {
+          DESCRIPTION      ""
+          DATA             "Stone"
+          DATA             ""
+     }
+
+     TEMPLATE "CAT_Destruct_Vase01"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "CAT_Destruct_Vase02"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "AshPriest_Destruct_Urn01"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "AshPriest_Destruct_Urn02"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "AshPriest_Destruct_Urn03"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "AshPriest_Destruct_Urn04"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "DUE_Destrct_Bust00"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "DUE_Destrct_Bust01"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "DUE_Destrct_Bust02"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "DUE_Destrct_Bust03"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "DUE_Destrct_Vase01"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "DUE_Destrct_Barrel"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "SEW_Destruct_Barrel"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "SEW_Destruct_Vase01"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "SEW_Destruct_Vase02"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+     TEMPLATE "SPI_Destrct_Barrel"
+     {
+          DESCRIPTION      ""
+          DATA             "Barrel"
+          DATA             ""
+     }
+
+     TEMPLATE "SPI_Destrct_Bust00"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "SPI_Destrct_Bust01"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "SPI_Destrct_Bust02"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "SPI_Destrct_Bust03"
+     {
+          DESCRIPTION      ""
+          DATA             "Bust"
+          DATA             ""
+     }
+
+     TEMPLATE "SPI_Destrct_Vase01"
+     {
+          DESCRIPTION      ""
+          DATA             "Vase"
+          DATA             ""
+     }
+
+}
+
+GROUP "RT_SFX_ATTRIBUTES"
+{
+     FORMAT
+     {
+          INTEGER          "Probability"
+          RESOURCE         ""    "LimitGroup"
+     }
+
+     TEMPLATE "Play_VO_Cleric_Affirm"
+     {
+          DESCRIPTION      ""
+          DATA             "25"
+          DATA             "VOPlayerMovement"
+     }
+
+     TEMPLATE "Play_VO_Fighter_Affirm"
+     {
+          DESCRIPTION      ""
+          DATA             "25"
+          DATA             "VOPlayerMovement"
+     }
+
+     TEMPLATE "Play_VO_Mage_Affirm"
+     {
+          DESCRIPTION      ""
+          DATA             "25"
+          DATA             "VOPlayerMovement"
+     }
+
+     TEMPLATE "Play_VO_Rogue_Affirm"
+     {
+          DESCRIPTION      ""
+          DATA             "25"
+          DATA             "VOPlayerMovement"
+     }
+
+     TEMPLATE "Play_VO_Cleric_Spawn"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VOPlayerSpawn"
+     }
+
+     TEMPLATE "Play_VO_Fighter_Spawn"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VOPlayerSpawn"
+     }
+
+     TEMPLATE "Play_VO_Mage_Spawn"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VOPlayerSpawn"
+     }
+
+     TEMPLATE "Play_VO_Rogue_Spawn"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VOPlayerSpawn"
+     }
+
+     TEMPLATE "Play_VO_Cleric_Combat_Start"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VOPlayerEnterCombat"
+     }
+
+     TEMPLATE "Play_VO_Fighter_Combat_Start"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VOPlayerEnterCombat"
+     }
+
+     TEMPLATE "vVO_Mage_Combat_Start"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VOPlayerEnterCombat"
+     }
+
+     TEMPLATE "VO_Rogue_Combat_Start"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VOPlayerEnterCombat"
+     }
+
+     TEMPLATE "VO_Cleric_Combat_End"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VoPlayerExitCombat"
+     }
+
+     TEMPLATE "VO_Fighter_Combat_End"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VoPlayerExitCombat"
+     }
+
+     TEMPLATE "VO_Mage_Combat_End"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VoPlayerExitCombat"
+     }
+
+     TEMPLATE "VO_Rogue_Combat_End"
+     {
+          DESCRIPTION      ""
+          DATA             "50"
+          DATA             "VoPlayerExitCombat"
+     }
+
+}
+
+GROUP "RT_MUSIC"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "CombatMusic"
+     }
+
+     TEMPLATE "ArtTilesLostMines_0"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+     }
+
+     TEMPLATE "BanditCave"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "BanditCave_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "BanditCave_1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "BanditCave_2"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "BanditCave_3"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "BanditCave_B4"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Castle"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Castle_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Castle_1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Castle_2"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Castle_3"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Castle_Boss"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Catacombs"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Catacombs_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Cave"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Cave_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Cave_B1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Cellar_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Chapterhouse"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Chapterhouse_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Chapterhouse_1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Chapterhouse_B2"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "CutlassCellar_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "CutlassSewer_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "CutlassSewer_B1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_06"
+     }
+
+     TEMPLATE "DalanirCQ_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "DM_LostMines"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_06"
+     }
+
+     TEMPLATE "Drow"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "DrowCaves"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "DrowCaves_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "DrowCaves_B1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "DrowCaves_B2"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "DrowCaves_B3"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "DrowCaves_Boss"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Duergar"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "DuergarStronghold_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "DuergarStronghold_1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "DuergarStronghold_2"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "DuergarStronghold_3"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "EvermoorsCave"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "EvermoorsSpiderKeep_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "EvermoorsSpiderKeep_B1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "ForestEncounter_Wizard"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "IllydiaCQ_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "IntroForest_Den"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "IntroForest_Den_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "introforestden_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "jarhildcq_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "laretharcqdbfort_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "LostMines"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "LostMines_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "LuskanCave_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_06"
+     }
+
+     TEMPLATE "luskancultbasementsq_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "LuskanSewers"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "LuskanSewers_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "LuskanSewers_B1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "MaferilsLab_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "MagicTent"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Magictent_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "notmafa_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "notmafb_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "notmafc_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "ragewolfden_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "RareVintageSQ_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Sewers"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Sewers_B1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Sewers_B2"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Sewers_B3"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Sewers_Boss"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "SlimeCultCastlesq_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "SpiderCastle"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "TavernDungeon_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "TavernWalla"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "UnderdarkDescent_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "VelopsLair"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Wizardslair_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "WolfDen_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DarkLakeDistrict"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_DM_Camp"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Zone_DM_DarkLakeDistrict"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Zone_DM_DuergarRamparts"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DM_EndOfTime"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "Zone_DM_FinalBoss"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_06"
+     }
+
+     TEMPLATE "Zone_DM_Forest"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DM_Forest_Camp"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_DM_Forest_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Zone_DM_Forest_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Zone_DM_Forest_Encounter_C"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DM_GracklstughStreets"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "Zone_DM_Grassland_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_DM_Grassland_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DM_IntroCamp"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_DM_IntroForest"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Zone_DM_LurkwoodBog"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Zone_DM_LuskanSlums"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DM_LuskanStreets"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "Zone_DM_LuskanStreets_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_06"
+     }
+
+     TEMPLATE "Zone_DM_LuskanStreets_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DM_LuskanStreets_Encounter_C"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_DM_LuskanStreets_Encounter_D"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Zone_DM_LuskanStreets_Encounter_E"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Zone_DM_MiddleDark"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DM_Mountain_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "Zone_DM_Mountain_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_DM_Swamp_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DM_Swamp_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_DM_Underdark_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_DM_Underdark_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Zone_DM_Underdark_Encounter_C"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_DuergarRamparts"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "Zone_EndOfTime"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+     }
+
+     TEMPLATE "Zone_FinalBoss"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+     }
+
+     TEMPLATE "Zone_Forest"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_Forest_Camp"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Zone_Forest_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Zone_Forest_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_Forest_Encounter_C"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_Forest_Encounter_Wizard"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_06"
+     }
+
+     TEMPLATE "Zone_Forest_EncounterA"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_GracklstughStreets"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_Grassland_Camp"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_Grassland_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Zone_Grassland_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_Grassland_Encounter_Cart"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "Zone_IntroCamp"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_IntroForest"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+     }
+
+     TEMPLATE "Zone_LurkwoodBog"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_LurkwoodForest"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Zone_LuskanChapterhouse"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Zone_LuskanSlums"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_LuskanSlums_Demons"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "Zone_LuskanStreets"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_06"
+     }
+
+     TEMPLATE "Zone_LuskanStreets_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_LuskanStreets_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Zone_LuskanStreets_Encounter_C"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "Zone_LuskanStreets_Encounter_D"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_LuskanStreets_Encounter_Demons"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_LuskanStreets_Encounter_E"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_06"
+     }
+
+     TEMPLATE "Zone_MiddleDark"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_Mountain_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_Mountain_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Zone_Mountain_Encounter_Bear"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_NeverwinterForest"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_NM1"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+     }
+
+     TEMPLATE "Zone_NM2"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+     }
+
+     TEMPLATE "Zone_NM3"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+     }
+
+     TEMPLATE "Zone_NM4"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+     }
+
+     TEMPLATE "Zone_Swamp_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_Swamp_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Zone_Underdark_Camp"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_Underdark_Encounter_A"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "Zone_Underdark_Encounter_B"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "Zone_Underdark_Encounter_C"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "Zone_Underdark_Encounter_OgreCave"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "trollcavesq_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "thangarsstash_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_03"
+     }
+
+     TEMPLATE "nmonedungeon_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+     TEMPLATE "LaretharCQDBFort_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_05"
+     }
+
+     TEMPLATE "LaretharCQDBFort_B1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_06"
+     }
+
+     TEMPLATE "catacombsnorth"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "hommetcq_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_01"
+     }
+
+     TEMPLATE "Zone_Forest_Encounter_JavenAmbush"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_02"
+     }
+
+     TEMPLATE "Chapterhouse_B1"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_07"
+     }
+
+     TEMPLATE "RampartsDungeon_0"
+     {
+          DESCRIPTION      ""
+          DATA             "Play_Battle_04"
+     }
+
+}
+
+GROUP "RT_CHARACTER_VO"
+{
+     FORMAT
+     {
+          INTEGER          "CharacterSlot"
+          RESOURCE         ""    "WwiseEvent"
+          RESOURCE         ""    "FollowUpRow"
+     }
+
+     TEMPLATE "Play_VO_Trigger_ApproachDungeon"
+     {
+          DESCRIPTION      ""
+          DATA             "1"
+          DATA             "Play_VO_Trigger_ApproachDungeon"
+          DATA             "Play_VO_Trigger_ApproachDungeon2"
+     }
+
+     TEMPLATE "Play_VO_Trigger_ApproachDungeon2"
+     {
+          DESCRIPTION      ""
+          DATA             "2"
+          DATA             "Play_VO_Trigger_ApproachDungeon"
+          DATA             ""
+     }
+
+}
+

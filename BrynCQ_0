@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->  
+    <CreatureSets>
+        <CreatureSet Name="BanditSet1" />
+    </CreatureSets>
+    <Groups>
+
+        <Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="Bryn_CQ_Staging"/>   
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+        <Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="Tav_Hallway" ForceEntryPort="Port01" ForceExitPort="Port08" PortExtensionMin= "2" PortExtensionMax = "2"  />   
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="Tav_Closet"/>
+                </Tiles>
+            </Branch>  
+        </Group>
+        
+        <Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="Tav_KegRoom"/>   
+                </Tiles>
+            </Trunk>          
+        </Group>
+        
+
+    </Groups> 
+</DungeonConfig>

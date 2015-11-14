@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" 
+
+MaxHallwayDistance="40"
+MaxHallwayTiles="4" >
+<HallwayTiles>
+    <Tile Name="DUE_10_I_Hall" TransitionOverride="DuergarArch02" />  
+</HallwayTiles>
+</Settings>
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DC_Duergar" />  <!-- wolves obv -->
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="RAMPARTS_Staging"/>   
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >	
+					<Tile Name="DUE_S_C_Platform"  PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>		
+					
+                </Tiles>
+            </Trunk>
+         </Group> 
+		 
+		 <Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="DUE_10_C_Hall" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" ForceEntryPort = "01" ForceExitPort = "04" />                                                           
+                </Tiles>
+            </Trunk>
+        </Group>
+
+         <Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="DUE_Diaghall" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" ForceEntryPort = "01" />                                                           
+                </Tiles>
+            </Trunk>
+        </Group> 
+        <Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="DUE_S_T_Anchor"  PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1"  ForceEntryPort = "01" ForceExitPort = "02"/>                                        
+                </Tiles>
+            </Trunk>
+			 <Branch Min="1" Max="1" Probability="100">
+                <Tiles>
+					<Tile XMLID="CrownChamber" Name="DUE_Secret"  PortExtensionMin= "1" PortExtensionMax = "3" OpenAllPorts= "1" TransitionOverride="DuergarDoor_Crown_LC" />  
+                </Tiles>
+            </Branch>
+        </Group> 
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+
+					<Tile Name="DUE_S_C_Antechamber"  PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" ForceEntryPort = "06" ForceExitPort = "04"/>	
+
+                </Tiles>
+            </Trunk>
+         </Group>
+
+		 <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+					<Tile Name="DUE_S_C_Prongs"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_DUE_Small" ForceEntryPort = "01" ForceExitPort = "02"/>
+                </Tiles>
+            </Trunk>
+         </Group> 
+		 <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="RAMPARTS_Exit" />
+                </Tiles>
+            </Trunk>
+        </Group> 
+  
+    </Groups>  
+</DungeonConfig>

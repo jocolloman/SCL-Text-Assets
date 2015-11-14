@@ -1,0 +1,752 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "AmbientConversationBeforeRitual", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "NARRATOR"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_9085184", 
+                "<ROOT>", 
+                "DALANIR", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_9085184|", 
+                "", 
+                "", 
+                [
+                    "LINE_5029905", 
+                    "LINE_5531138", 
+                    "LINE_3687550", 
+                    "LINE_7468036", 
+                    "LINE_6999690", 
+                    "LINE_5998627"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8214390", 
+                "LINE_5998627", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3514801", 
+                "<ROOT>", 
+                "ILLYDIA", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_3514801|", 
+                "", 
+                "", 
+                [
+                    "LINE_5504744", 
+                    "LINE_5029905", 
+                    "LINE_3687550", 
+                    "LINE_7468036", 
+                    "LINE_6999690", 
+                    "LINE_5998627"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4149081", 
+                "<ROOT>", 
+                "JAVEN", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_4149081|", 
+                "", 
+                "", 
+                [
+                    "LINE_3687550", 
+                    "LINE_5504744", 
+                    "LINE_5531138", 
+                    "LINE_7468036", 
+                    "LINE_6999690", 
+                    "LINE_5998627"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JAVEN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1520923", 
+                "<ROOT>", 
+                "BRYN", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_1520923|", 
+                "", 
+                "", 
+                [
+                    "LINE_5504744", 
+                    "LINE_5029905", 
+                    "LINE_5531138", 
+                    "LINE_7468036", 
+                    "LINE_6999690", 
+                    "LINE_5998627"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "BRYN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2230228", 
+                "<ROOT>", 
+                "JARHILD", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_2230228|", 
+                "", 
+                "", 
+                [
+                    "LINE_5504744", 
+                    "LINE_5029905", 
+                    "LINE_3687550", 
+                    "LINE_5531138", 
+                    "LINE_6999690", 
+                    "LINE_5998627"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7817009", 
+                "<ROOT>", 
+                "HOMMET", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_7817009|", 
+                "", 
+                "", 
+                [
+                    "LINE_5504744", 
+                    "LINE_5029905", 
+                    "LINE_3687550", 
+                    "LINE_5531138", 
+                    "LINE_7468036", 
+                    "LINE_5998627"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5998627", 
+                "LINE_3514801", 
+                "LARETHAR", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_5998627|", 
+                "", 
+                "", 
+                [
+                    "LINE_8214390"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6999690", 
+                "LINE_3514801", 
+                "HOMMET", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_6999690|", 
+                "", 
+                "", 
+                [
+                    "LINE_8214390"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3687550", 
+                "LINE_3514801", 
+                "BRYN", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_3687550|", 
+                "", 
+                "", 
+                [
+                    "LINE_8214390"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "BRYN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5504744", 
+                "LINE_3514801", 
+                "DALANIR", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_5504744|", 
+                "", 
+                "", 
+                [
+                    "LINE_8214390"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7468036", 
+                "LINE_3514801", 
+                "JARHILD", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_7468036|", 
+                "", 
+                "they->the", 
+                [
+                    "LINE_8214390"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5531138", 
+                "LINE_9085184", 
+                "ILLYDIA", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_5531138|", 
+                "", 
+                "", 
+                [
+                    "LINE_8214390"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7577180", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_7577180|", 
+                "", 
+                "", 
+                [
+                    "LINE_5504744", 
+                    "LINE_5029905", 
+                    "LINE_3687550", 
+                    "LINE_5531138", 
+                    "LINE_7468036", 
+                    "LINE_6999690"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9516545", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_9516545|", 
+                "", 
+                "", 
+                [
+                    "LINE_8214390"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5029905", 
+                "LINE_9085184", 
+                "JAVEN", 
+                "|Ch3_EvermoorsCastle_EncounterCultists_LINE_5029905|", 
+                "", 
+                "", 
+                [
+                    "LINE_8214390"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JAVEN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

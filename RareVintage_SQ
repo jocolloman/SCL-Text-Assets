@@ -1,0 +1,351 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "RareVintage_SQ": [
+            "RareVintage_SQ_Quest 0_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "RareVintage_QuestFlags": {
+                    "RareVintageSQ_Start": [
+                        "RareVintage_SQ_RareVintage_SQ_Flag 1_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "RareVintage_SQ_RareVintage_SQ_Flag 1_JournalEntry", 
+                        "RareVintageSQ_Start_Reward", 
+                        {}, 
+                        "", 
+                        1, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "RareVintageSQ_FindWine": [
+                        "RareVintage_SQ_RareVintage_SQ_Flag 5_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "RareVintage_SQ_RareVintage_SQ_Flag 5_JournalEntry", 
+                        "RareVintageSQ_FindWine_Reward", 
+                        [
+                            {
+                                "flag": "RareVintageSQ_Start", 
+                                "quest": "RareVintage_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "RareVintageSQ", 
+                        []
+                    ], 
+                    "RareVintageSQ_HasWine": [
+                        "RareVintage_SQ_RareVintage_SQ_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "RareVintage_SQ_RareVintage_SQ_Flag 2_JournalEntry", 
+                        "RareVintageSQ_HasWine_Reward", 
+                        [
+                            {
+                                "flag": "RareVintageSQ_FindWine", 
+                                "quest": "RareVintage_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LuskanStreets", 
+                        []
+                    ], 
+                    "RareVintageSQ_TurnedInWine": [
+                        "RareVintage_SQ_RareVintage_SQ_Flag 4_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "RareVintage_SQ_RareVintage_SQ_Flag 4_JournalEntry", 
+                        "RareVintageSQ_TurnedInWine_Reward", 
+                        [
+                            {
+                                "flag": "RareVintageSQ_HasWine", 
+                                "quest": "RareVintage_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "RareVintageSQ_PourOutWine": [
+                        "RareVintage_SQ_RareVintage_SQ_Flag 6_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "RareVintage_SQ_RareVintage_SQ_Flag 6_JournalEntry", 
+                        "RareVintageSQ_PourOutWine_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "RareVintageSQ_TookABottle": [
+                        "RareVintage_SQ_RareVintage_SQ_Flag 7_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "RareVintage_SQ_RareVintage_SQ_Flag 7_JournalEntry", 
+                        "RareVintageSQ_TookABottle_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "RareVinatege_SQ_Final": [
+                        "RareVintage_SQ_RareVintage_SQ_Flag 8_Name", 
+                        7, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "RareVintage_SQ_RareVintage_SQ_Flag 8_JournalEntry", 
+                        "RareVinatege_SQ_Final_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "RareVintageSQ_TurnedInWine", 
+                                        "quest": "RareVintage_SQ", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "RareVintageSQ_PourOutWine", 
+                                        "quest": "RareVintage_SQ", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "RareVintageSQ_TookABottle", 
+                                        "quest": "RareVintage_SQ", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        true, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }, 
+                "RareVintage_UtilityFlags": {
+                    "RareVintageSQ_MapPinEnabled": [
+                        "RareVintage_SQ_RareVintage_SQ_Flag 0_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "RareVintage_SQ_RareVintage_SQ_Flag 0_JournalEntry", 
+                        "RareVintageSQ_MapPinEnabled_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "RareVintageSQ_DeclinedStory": [
+                        "RareVintage_SQ_RareVintage_SQ_Flag 3_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "RareVintage_SQ_RareVintage_SQ_Flag 3_JournalEntry", 
+                        "RareVintageSQ_DeclinedStory_Reward", 
+                        {}, 
+                        "Player said \"I dont have time for this\"", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "LuskanStreets", 
+            "Location"
+        ]
+    }
+}

@@ -1,0 +1,751 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "WTFisGraveDusFOUNDFIRST", 
+                "NoBegFade": "False", 
+                "NeedsVO": "True", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5328678", 
+                "<ROOT>", 
+                "JARHILD", 
+                "|Ch2_IntoTheDeadCity_LINE_5328678|", 
+                "", 
+                "", 
+                [
+                    "LINE_7784650"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7784650", 
+                "LINE_5328678", 
+                "ILLYDIA", 
+                "|Ch2_IntoTheDeadCity_LINE_7784650|", 
+                "", 
+                "", 
+                [
+                    "LINE_6287934"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6287934", 
+                "LINE_7784650", 
+                "LARETHAR", 
+                "|Ch2_IntoTheDeadCity_LINE_6287934|", 
+                "", 
+                "", 
+                [
+                    "LINE_1944525"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1944525", 
+                "LINE_6287934", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ITDC_HeardDust", 
+                        "Quest": "C2.2_Into_The_Dead_City", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "BlackCandle", 
+                "NoBegFade": "False", 
+                "NeedsVO": "True", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_9539588", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch2_IntoTheDeadCity_LINE_9539588|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_ITDC_FindRitualObject1", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4993204", 
+                "<ROOT>", 
+                "ILLYDIA", 
+                "|Ch2_IntoTheDeadCity_LINE_4993204|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "C2_ITDC_FindRitualObject1", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "RitualCutscene", 
+                "NoBegFade": "False", 
+                "NeedsVO": "True", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "HOMMET"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6872788", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_IntoTheDeadCity_LINE_6872788|", 
+                "", 
+                "WE'RE not requiring Hommet to be in the party - each of these lines is spoken by whomever is in slots 0,1,2,and 3 respectively.  They should be generic enough so that'll fly.", 
+                [
+                    "LINE_3973461"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3973461", 
+                "LINE_6872788", 
+                "<DEFAULT>", 
+                "|Ch2_IntoTheDeadCity_LINE_3973461|", 
+                "", 
+                "", 
+                [
+                    "LINE_2555107"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2555107", 
+                "LINE_3973461", 
+                "<DEFAULT>", 
+                "|Ch2_IntoTheDeadCity_LINE_2555107|", 
+                "", 
+                "", 
+                [
+                    "LINE_1763725"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1763725", 
+                "LINE_2555107", 
+                "<DEFAULT>", 
+                "|Ch2_IntoTheDeadCity_LINE_1763725|", 
+                "", 
+                "", 
+                [
+                    "LINE_9040878"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9040878", 
+                "LINE_1763725", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "THIS is setting the force action on the door - do not change or remove this line or you will DESTROY EVERYTHING\nAlso I am removing the quest items here as of 7/29/15", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ITDC_Warp", 
+                        "Quest": "C2.2_Into_The_Dead_City", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Misc:CH2_Hommet_BlackCandle", 
+                    "Misc:CH2_Hommet_GlassJar", 
+                    "Misc:CH2_Hommet_ZombieTooth", 
+                    "Misc:CH2_Hommet_GraveDust"
+                ], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "WTFisGraveDust", 
+                "NoBegFade": "False", 
+                "NeedsVO": "True", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0732469", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch2_IntoTheDeadCity_LINE_0732469|", 
+                "", 
+                "", 
+                [
+                    "LINE_7273714", 
+                    "LINE_5052608"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8166735", 
+                "LINE_7273714", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7273714", 
+                "LINE_0732469", 
+                "ILLYDIA", 
+                "|Ch2_IntoTheDeadCity_LINE_7273714|", 
+                "", 
+                "BK presense -> presence", 
+                [
+                    "LINE_8166735"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5052608", 
+                "LINE_0732469", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "ZombieTooth", 
+                "NoBegFade": "False", 
+                "NeedsVO": "True", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_3629258", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch2_IntoTheDeadCity_LINE_3629258|", 
+                "", 
+                "Trigger around an ogre zombie", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3201606", 
+                "<ROOT>", 
+                "JARHILD", 
+                "|Ch2_IntoTheDeadCity_LINE_3201606|", 
+                "", 
+                "", 
+                [
+                    "LINE_2296350"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2296350", 
+                "LINE_3201606", 
+                "LARETHAR", 
+                "|Ch2_IntoTheDeadCity_LINE_2296350|", 
+                "", 
+                "BK take -> grab", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "CrystalJar", 
+                "NoBegFade": "False", 
+                "NeedsVO": "True", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_1095598", 
+                "<ROOT>", 
+                "ILLYDIA", 
+                "|Ch2_IntoTheDeadCity_LINE_1095598|", 
+                "", 
+                "", 
+                [
+                    "LINE_8311869"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8311869", 
+                "LINE_1095598", 
+                "JARHILD", 
+                "|Ch2_IntoTheDeadCity_LINE_8311869|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

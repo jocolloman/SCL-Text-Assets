@@ -1,0 +1,259 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "SpiderKeep_SQ_Ritual": [
+            "SpiderKeep_SQ_SpiderKeep_SQ_Ritual_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "SK_Ritual_Activate": [
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Ritual_SK_Ritual_Activate_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Ritual_SK_Ritual_Activate_JournalEntry", 
+                    "SK_Ritual_Activate_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "SK_Ritual_Defeat": [
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Ritual_SK_Ritual_Defeat_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Ritual_SK_Ritual_Defeat_JournalEntry", 
+                    "SK_Ritual_Defeat_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ], 
+        "SpiderKeep_SQ_Worshipper": [
+            "SpiderKeep_SQ_Quest 1_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "SK_SQ_FoundDerro": [
+                    "SpiderKeep_SQ_Quest 1_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpiderKeep_SQ_Quest 1_Flag 0_JournalEntry", 
+                    "SK_SQ_FoundDerro_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "SK_SQ_SpokeToDerro": [
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Worshipper_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Worshipper_Flag 1_JournalEntry", 
+                    "SK_SQ_SpokeToDerro_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "SK_SQ_HostileDerro": [
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Worshipper_Flag 2_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Worshipper_Flag 2_JournalEntry", 
+                    "SK_SQ_HostileDerro_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "SK_SQ_KilledRhylfang": [
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Worshipper_Flag 3_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpiderKeep_SQ_SpiderKeep_SQ_Worshipper_Flag 3_JournalEntry", 
+                    "SK_SQ_KilledRhylfang_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

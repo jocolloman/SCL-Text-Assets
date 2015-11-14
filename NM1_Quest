@@ -1,0 +1,1119 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "NM1": [
+            "NM1_Quest_Quest 0_Name", 
+            1, 
+            "NM1", 
+            "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\CritPathQuests\\Chapter1", 
+            "", 
+            {
+                "Tracked": {
+                    "NM1_Start": [
+                        "NM1_Quest_NM1_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        1, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_Armory": [
+                        "NM1_Quest_NM1_Flag 40_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 40_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_Start", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_LootChest": [
+                        "NM1_Quest_NM1_Flag 1_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 1_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_Armory", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "You woke up to an attack in your guild hall. Your fellow guild members Gill and Neddy have gone downstairs to defend the building.  Get your gear in the armory so you can join the fight.", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_PickUpMace": [
+                        "NM1_Quest_NM1_Flag 12_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 12_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_LootChest", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_PickUpArmor": [
+                        "NM1_Quest_NM1_Flag 13_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 13_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_LootChest", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_PickedUpAll": [
+                        "NM1_Quest_NM1_Flag 18_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 18_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_PickUpMace", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "NM1_PickUpArmor", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_EquipWeapon": [
+                        "NM1_Quest_NM1_Flag 2_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 2_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_LootChest", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_EquipArmor": [
+                        "NM1_Quest_NM1_Flag 3_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 3_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_LootChest", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_GearUp": [
+                        "NM1_Quest_NM1_Flag 15_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 15_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_EquipWeapon", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "NM1_EquipArmor", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_ExitArmory": [
+                        "NM1_Quest_NM1_Flag 41_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 41_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_GearUp", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_Defeat Demon": [
+                        "NM1_Quest_NM1_Flag 4_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 4_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_Defeat2ndDemon": [
+                        "NM1_Quest_NM1_Flag 26_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 26_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_ExitArmory", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_DefeatInvasion": [
+                        "NM1_Quest_NM1_Flag 6_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 6_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_Defeat2ndDemon", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_DownstairsCombat": [
+                        "NM1_Quest_NM1_Flag 1381_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 1381_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_DefeatInvasion", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        {}
+                    ], 
+                    "NM1_ActionDoor": [
+                        "NM1_Quest_NM1_Flag 28_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 28_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_DownstairsCombat", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_UnlockBasement": [
+                        "NM1_Quest_NM1_Flag 27_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 27_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_ActionDoor", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_BasementRitual": [
+                        "NM1_Quest_NM1_Flag 30_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 30_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_UnlockBasement", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_GoOutside": [
+                        "NM1_Quest_NM1_Flag 7_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 7_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_BasementRitual", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_AddFollower": [
+                        "NM1_Quest_NM1_Flag 37_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 37_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_GoOutside", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_InvestigateSource": [
+                        "NM1_Quest_NM1_Flag 22_Name", 
+                        20, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "NM1_Quest_NM1_Flag 22_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_AddFollower", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_DefeatBelaphoss": [
+                        "NM1_Quest_NM1_Flag 8_Name", 
+                        21, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 8_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "NM1_InvestigateSource", 
+                                "quest": "NM1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }, 
+                "Untracked": {
+                    "NM1_GilAndNeddyLeave": [
+                        "NM1_Quest_NM1_Flag 9_Name", 
+                        22, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 9_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_GilNeddyDeSpawn": [
+                        "NM1_Quest_NM1_Flag 25_Name", 
+                        23, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 25_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_DemonSpawn2": [
+                        "NM1_Quest_NM1_Flag 11_Name", 
+                        24, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 11_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_DemonSpawn": [
+                        "NM1_Quest_NM1_Flag 23_Name", 
+                        25, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 23_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_DemonsInvade": [
+                        "NM1_Quest_NM1_Flag 10_Name", 
+                        26, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 10_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_CutDoorNav": [
+                        "NM1_Quest_NM1_Flag 14_Name", 
+                        27, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 14_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_JoinGroup": [
+                        "NM1_Quest_NM1_Flag 16_Name", 
+                        28, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 16_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_OpenHint01": [
+                        "NM1_Quest_NM1_Flag 17_Name", 
+                        29, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 17_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_PopUp04Done": [
+                        "NM1_Quest_NM1_Flag 19_Name", 
+                        30, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 19_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_PopUp09Done": [
+                        "NM1_Quest_NM1_Flag 21_0_Name", 
+                        31, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 21_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_DownstairsConvoDone": [
+                        "NM1_Quest_NM1_Flag 20_Name", 
+                        32, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 20_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_TalkToBelamy": [
+                        "NM1_Quest_NM1_Flag 5_Name", 
+                        33, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 5_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_WarpToIntro": [
+                        "NM1_Quest_NM1_Flag 24_Name", 
+                        34, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 24_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_MoreKnightsDone": [
+                        "NM1_Quest_NM1_Flag 29_Name", 
+                        35, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 29_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_StartBelaSpawn": [
+                        "NM1_Quest_NM1_Flag 31_Name", 
+                        36, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 31_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_EndBelaSpawn": [
+                        "NM1_Quest_NM1_Flag 32_Name", 
+                        37, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 32_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_BrynCorpse": [
+                        "NM1_Quest_NM1_Flag 33_Name", 
+                        38, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 33_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_JarhildCorpse": [
+                        "NM1_Quest_NM1_Flag 34_Name", 
+                        39, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 34_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_RotatePopUp": [
+                        "NM1_Quest_NM1_Flag 35_Name", 
+                        40, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 35_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_BeforePanCam": [
+                        "NM1_Quest_NM1_Flag 44_Name", 
+                        41, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 44_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_AfterCamPan": [
+                        "NM1_Quest_NM1_Flag 36_Name", 
+                        42, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 36_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_BasementCombat01": [
+                        "NM1_Quest_NM1_Flag 38_Name", 
+                        43, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 38_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_BasementCombat02": [
+                        "NM1_Quest_NM1_Flag 39_Name", 
+                        44, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 39_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_DoorSeqDone": [
+                        "NM1_Quest_NM1_Flag 42_Name", 
+                        45, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 42_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_ActionChest": [
+                        "NM1_Quest_NM1_Flag 43_Name", 
+                        46, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 43_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "NM1_StartCollapse": [
+                        "NM1_Quest_NM1_Flag 45_Name", 
+                        47, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "NM1_Quest_NM1_Flag 45_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "None", 
+            "Prologue"
+        ]
+    }
+}

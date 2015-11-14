@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds: 2080970629
+-->
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAS_FlortalUP"  />   
+                </Tiles>
+            </Trunk>
+        </Group>
+        <Group>
+            <Trunk Min="26" Max="26">
+                <Tiles >
+					<Tile Name="CAS_36_C_ChamberStairs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+                    <Tile Name="CAS_BasicCross_01"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+                    <Tile Name="CAS_S_C_TwinCornersDown"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_TwinCornersUP"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_Prongs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_Altar"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_Platform"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_Angle"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_SixLegs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_RaisedCorner"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_36_C_NarrowHalls"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_CurvedCross"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_DiagHall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_Upstairs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_I_LilDip"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_T_Anchor"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_T_SplitStairs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_36_C_Ballroom"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_10_i_Hall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_10_C_Hall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_Steps"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_OpenCross"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_Armor"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_M_C_HammerStairs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_31_C_Hall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAS_S_C_Antechamber"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+
+                </Tiles>
+            </Trunk>
+        </Group>
+
+		<Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAS_FlortalDOWN"  />   
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+    </Groups>
+		<PostBuildTiles>
+        <Tiles>
+			<Tile Name="CAS_Closet" TransitionOverride="lostminesSecretDoor01" Max="1" /> 
+		</Tiles>
+		</PostBuildTiles>
+</DungeonConfig>
+

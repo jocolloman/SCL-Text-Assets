@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="-100" PortWeightZ="-100" />
+ 
+ <!-- CREATURES -->	
+    <CreatureSets>
+        <CreatureSet Name="SkeletonSet1" />            
+	</CreatureSets>
+	
+<!-- DUNGEON -->	
+    <Groups>
+        
+<!-- Starting Tile & Stairs down -->
+        <Group>  
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                   <Tile Name="CAV_StagingHommetCQ" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+        <Group>
+			<Trunk Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_S_I_Bridge" ForceEntryPort="Port02" ForceExitPort="Port03" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="Drow_HallArch" />
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+		<Group>
+			<Trunk Min="1" Max="1" >  
+				<Tiles>
+                    <Tile Name="CAV_36_T_Tadpole" ForceEntryPort="Port01" ForceExitPort="Port02" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02"
+                    XMLID = "Corpse01"/>
+				</Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1" >  
+				<Tiles>
+                    <Tile Name="CAV_36_C_Lagoon" ForceEntryPort="Port04" ForceExitPort="Port05" PortExtensionMin="2" PortExtensionMax="2" OpenAllPorts = "1" TransitionOverride="DrowArch02" 
+                    XMLID = "Corpse02"/>
+                    <!-- 
+                     <Tile Name="CAV_36_C_Lagoon" ForceEntryPort="Port05" ForceExitPort="Port04" PortExtensionMin="2" PortExtensionMax="2" OpenAllPorts = "1" TransitionOverride="DrowArch02" 
+                    XMLID = "Corpse03"/> tricky tricky - faking a random flip here -->
+				</Tiles>
+            </Branch>
+            
+            <Leaf Min="1" Max="1" >  
+				<Tiles>
+                    <Tile Name="CAV_Closet" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />
+				</Tiles>
+            </Leaf>   
+        </Group>
+        
+        <Group>
+			<Trunk Min="1" Max="1" >  
+				<Tiles>
+                <!-- this is the altar tile - where the players can open the secret door -->
+                    <Tile Name="CAV_S_C_Platform" ForceEntryPort="Port04" ForceExitPort="Port03" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" 
+                    XMLID = "Altar"/>  
+				</Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1" >  
+				<Tiles>
+                    <Tile Name="CAV_S_I_Noodle" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02"
+                   XMLID = "Corpse03" />
+				</Tiles>
+            </Branch>
+        </Group>
+        
+        <Group>
+			<Trunk Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_S_T_Why" ForceEntryPort="Port02" ForceExitPort="Port01" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1"  XMLID = "PriestDoor" />  
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_Closet" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />
+                </Tiles>
+            </Branch>
+            
+        </Group>
+            
+		<Group>
+			<Trunk>
+				<Tiles>
+				  <Tile Name="Cav_BossHommetCQ" TransitionOverride="DrowArch02" />
+                </Tiles>
+            </Trunk>
+        </Group>
+ 
+    </Groups>  
+
+    <PostBuildTiles>
+        <Tiles>
+            <Tile Name="CAV_ClosetTreasure" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowSecretDoor01" />
+        </Tiles>
+    </PostBuildTiles>
+
+</DungeonConfig>

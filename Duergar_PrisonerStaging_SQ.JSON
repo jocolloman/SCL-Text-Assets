@@ -1,0 +1,1976 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Duergar_PrisonerStaging_SQ_PrisonerOnes_Story", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "ONE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1645508", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8047224", 
+                    "LINE_1667162", 
+                    "LINE_6616621"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8047224", 
+                "LINE_1645508", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_8047224|", 
+                "", 
+                "", 
+                [
+                    "LINE_5868952", 
+                    "LINE_0167536", 
+                    "LINE_2097586", 
+                    "LINE_0938299"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "OpenedDoorOne", 
+                                    "Quest": "DuergarPrisonStaging_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_PM_FindKeys", 
+                                    "Quest": "C4.2_Prison_For_The_Mind", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5868952", 
+                "LINE_8047224", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_5868952|", 
+                "", 
+                "", 
+                [
+                    "LINE_3306234"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DuergarPrisonStaging_SQ_SpokeOne", 
+                                    "Quest": "DuergarPrisonStaging_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0167536", 
+                "LINE_8047224", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_0167536|", 
+                "", 
+                "", 
+                [
+                    "LINE_0476286"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0476286", 
+                "LINE_0167536", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_0476286|", 
+                "", 
+                "", 
+                [
+                    "LINE_7291357"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7291357", 
+                "LINE_0476286", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_7291357|", 
+                "", 
+                "", 
+                [
+                    "LINE_0811887"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0811887", 
+                "LINE_7291357", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_0811887|", 
+                "", 
+                "", 
+                [
+                    "LINE_3149374"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3149374", 
+                "LINE_0811887", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_3149374|", 
+                "", 
+                "", 
+                [
+                    "LINE_5763302", 
+                    "LINE_8506927", 
+                    "LINE_7062595"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DuergarPrisonStaging_SQ_SpokeOne", 
+                        "Quest": "DuergarPrisonStaging_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5763302", 
+                "LINE_3149374", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_5763302|", 
+                "", 
+                "", 
+                [
+                    "LINE_3306234"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3306234", 
+                "LINE_5763302", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_3306234|", 
+                "", 
+                "", 
+                [
+                    "LINE_9345084"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9345084", 
+                "LINE_3306234", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0294060"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "OpenedDoorOne", 
+                        "Quest": "DuergarPrisonStaging_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "MoveToPoint", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0294060", 
+                "LINE_9345084", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8506927", 
+                "LINE_3149374", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_8506927|", 
+                "", 
+                "", 
+                [
+                    "LINE_9557710"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9557710", 
+                "LINE_8506927", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_9557710|", 
+                "", 
+                "", 
+                [
+                    "LINE_0991541"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0991541", 
+                "LINE_9557710", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_0991541|", 
+                "", 
+                "But please if you can, let me out of here...ever since they put us in here my mind has felt...fuzzy. I can't put my finger on it, but...it doesn't feel right....", 
+                [
+                    "LINE_0130093"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7062595", 
+                "LINE_3149374", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_7062595|", 
+                "", 
+                "", 
+                [
+                    "LINE_2979146"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2097586", 
+                "LINE_8047224", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_2097586|", 
+                "", 
+                "BK really modern sounding\nYou and the guy across the hall clearly have some beef. What's up with that?", 
+                [
+                    "LINE_0425940"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0425940", 
+                "LINE_2097586", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_0425940|", 
+                "", 
+                "", 
+                [
+                    "LINE_7291357"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0938299", 
+                "LINE_8047224", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_0938299|", 
+                "", 
+                "", 
+                [
+                    "LINE_2979146"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2979146", 
+                "LINE_0938299", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_2979146|", 
+                "", 
+                "", 
+                [
+                    "LINE_0991541"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6616621", 
+                "LINE_1645508", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_6616621|", 
+                "", 
+                "", 
+                [
+                    "LINE_0146434"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1667162", 
+                "LINE_1645508", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_1667162|", 
+                "", 
+                "", 
+                [
+                    "LINE_8568370"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "OpenedDoorOne", 
+                                    "Quest": "DuergarPrisonStaging_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0146434", 
+                "LINE_6616621", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8568370", 
+                "LINE_1667162", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0130093", 
+                "LINE_0991541", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Duergar_PrisonerStaging_SQ_PrisonerTwos_Story", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "TWO"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5950478", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8566129", 
+                    "LINE_2307616", 
+                    "LINE_7110873"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8566129", 
+                "LINE_5950478", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_8566129|", 
+                "", 
+                "", 
+                [
+                    "LINE_2151129", 
+                    "LINE_0327262", 
+                    "LINE_9577556", 
+                    "LINE_0101553"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "OpenedDoorTwo", 
+                                    "Quest": "DuergarPrisonStaging_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_PM_FindKeys", 
+                                    "Quest": "C4.2_Prison_For_The_Mind", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2151129", 
+                "LINE_8566129", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_2151129|", 
+                "", 
+                "", 
+                [
+                    "LINE_5607434"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DuergarPrisonStaging_SQ_SpokeTwo", 
+                                    "Quest": "DuergarPrisonStaging_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0327262", 
+                "LINE_8566129", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_0327262|", 
+                "", 
+                "", 
+                [
+                    "LINE_2534481"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2534481", 
+                "LINE_0327262", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_2534481|", 
+                "", 
+                "Hah! Oh, a little angry!? A saint would go insane from staying in here! ", 
+                [
+                    "LINE_5898146"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9577556", 
+                "LINE_8566129", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_9577556|", 
+                "", 
+                "", 
+                [
+                    "LINE_8731370"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8731370", 
+                "LINE_9577556", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_8731370|", 
+                "", 
+                "", 
+                [
+                    "LINE_5898146"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5898146", 
+                "LINE_8731370", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_5898146|", 
+                "", 
+                "", 
+                [
+                    "LINE_5428205"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5428205", 
+                "LINE_5898146", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_5428205|", 
+                "", 
+                "", 
+                [
+                    "LINE_3435253"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3435253", 
+                "LINE_5428205", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_3435253|", 
+                "", 
+                "Then not only that, he accuses me of... of... poetry!? Something about the lake, and the stars with some woman... pah! Do I look like the kind of duergar that gives a rat's arse about that kind of nonsense!?", 
+                [
+                    "LINE_4338167"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4338167", 
+                "LINE_3435253", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_4338167|", 
+                "", 
+                "I threatened him to get off my property before I call the guards... but they had already arrived before I set a foot outside my door! Blasted....", 
+                [
+                    "LINE_1274663", 
+                    "LINE_3765999"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DuergarPrisonStaging_SQ_SpokeTwo", 
+                        "Quest": "DuergarPrisonStaging_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1274663", 
+                "LINE_4338167", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_1274663|", 
+                "", 
+                "", 
+                [
+                    "LINE_5607434"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5607434", 
+                "LINE_1274663", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_5607434|", 
+                "", 
+                "Finally, someone that has some sense around here. The bastards have been starving me though...I'll need to rest for a moment. But thanks.", 
+                [
+                    "LINE_6255194"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6255194", 
+                "LINE_5607434", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_5726444"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "OpenedDoorTwo", 
+                        "Quest": "DuergarPrisonStaging_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "MoveToPoint", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5726444", 
+                "LINE_6255194", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3765999", 
+                "LINE_4338167", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_3765999|", 
+                "", 
+                "", 
+                [
+                    "LINE_2425292"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2425292", 
+                "LINE_3765999", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_2425292|", 
+                "", 
+                "BK Yeah? It'll be a ridiculous one, I bet.", 
+                [
+                    "LINE_3791413"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3791413", 
+                "LINE_2425292", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_3791413|", 
+                "", 
+                "", 
+                [
+                    "LINE_0299531"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0101553", 
+                "LINE_8566129", 
+                "<PLAYER>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_0101553|", 
+                "", 
+                "", 
+                [
+                    "LINE_2656098"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2656098", 
+                "LINE_0101553", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_2656098|", 
+                "", 
+                "BK Yeah, you do that, brat!", 
+                [
+                    "LINE_3791413"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2307616", 
+                "LINE_5950478", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_2307616|", 
+                "", 
+                "BK Thanks for letting me out. I'll get out on my own.", 
+                [
+                    "LINE_6803550"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "OpenedDoorTwo", 
+                                    "Quest": "DuergarPrisonStaging_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7110873", 
+                "LINE_5950478", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_7110873|", 
+                "", 
+                "[The duergar ignores you as you stare into his cell. Maybe he'll be more attentive if you had a way to let him out.]", 
+                [
+                    "LINE_4786425"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4786425", 
+                "LINE_7110873", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6803550", 
+                "LINE_2307616", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0299531", 
+                "LINE_3791413", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Duergar_PrisonerStaging_SQ_Confrontation", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "TWO"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5299375", 
+                "<ROOT>", 
+                "ONE", 
+                "|Duergar_PrisonerStaging_SQ_LINE_5299375|", 
+                "", 
+                "", 
+                [
+                    "LINE_9058786"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "SetFactionFromConvo NeutralToPlayer_HateNPC_01", 
+                        "SpeakerTag": "ONE"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "SetFactionFromConvo NeutralToPlayer_HateNPC_02", 
+                        "SpeakerTag": "TWO"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "MoveToPoint", 
+                        "SpeakerTag": "ONE"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "MoveToPoint", 
+                        "SpeakerTag": "TWO"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3449258", 
+                "LINE_9058786", 
+                "TWO", 
+                "|Duergar_PrisonerStaging_SQ_LINE_3449258|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9058786", 
+                "LINE_5299375", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "TODO: Add a delay?", 
+                [
+                    "LINE_3449258"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "PrisonerAmbient_Intro", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "ONE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_8476863", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_8476863|", 
+                "", 
+                "", 
+                [
+                    "LINE_7526314"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C4_PM_FindKeys", 
+                                    "Quest": "C4.2_Prison_For_The_Mind", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7526314", 
+                "LINE_8476863", 
+                "TWO", 
+                "|Duergar_PrisonerStaging_SQ_LINE_7526314|", 
+                "", 
+                "", 
+                [
+                    "LINE_0576636"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0576636", 
+                "LINE_7526314", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_0576636|", 
+                "", 
+                "", 
+                [
+                    "LINE_7388234"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7388234", 
+                "LINE_0576636", 
+                "TWO", 
+                "|Duergar_PrisonerStaging_SQ_LINE_7388234|", 
+                "", 
+                "Hahaha!! Oh, I'm going to enjoy pummeling you down, monster.", 
+                [
+                    "LINE_3920516"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3920516", 
+                "LINE_7388234", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "PrisonerOne_ReturnAmbient", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "ONE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1381644", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Duergar_PrisonerStaging_SQ_LINE_1381644|", 
+                "", 
+                "", 
+                [
+                    "LINE_8403693"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DuergarPrisonStaging_SQ_HeardOneAmbient", 
+                                    "Quest": "DuergarPrisonStaging_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_PM_FindKeys", 
+                                    "Quest": "C4.2_Prison_For_The_Mind", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8403693", 
+                "LINE_1381644", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_2526528"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DuergarPrisonStaging_SQ_HeardOneAmbient", 
+                        "Quest": "DuergarPrisonStaging_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2526528", 
+                "LINE_8403693", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "PrisonerTwo_AmbientReturn", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "TWO"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1127066", 
+                "<ROOT>", 
+                "TWO", 
+                "|Duergar_PrisonerStaging_SQ_LINE_1127066|", 
+                "", 
+                "", 
+                [
+                    "LINE_7655895"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7655895", 
+                "LINE_1127066", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_7361433"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DuergarPrisonStaging_SQ_HeardTwoAmbient", 
+                        "Quest": "DuergarPrisonStaging_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7361433", 
+                "LINE_7655895", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

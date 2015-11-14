@@ -1,0 +1,664 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_TransitionSets"
+{
+     FORMAT
+     {
+          XREF             ""    "Arch01"
+          XREF             ""    "Arch02"
+          RESOURCE         ""    "Arch03"
+          RESOURCE         ""    "Door01"
+          RESOURCE         ""    "Door02"
+          RESOURCE         ""    "Door03"
+          RESOURCE         ""    "SecretDoor01"
+          RESOURCE         ""    "SecretDoor02"
+          RESOURCE         ""    "SecretDoor03"
+          RESOURCE         ""    "EndCap01"
+          RESOURCE         ""    "EndCap02"
+          RESOURCE         ""    "EndCap03"
+     }
+
+     TEMPLATE "WhiteBoxTransitions"
+     {
+     }
+
+     TEMPLATE "DrowCavesTransitions"
+     {
+     }
+
+     TEMPLATE "SmallInteriorsTransitions"
+     {
+     }
+
+     TEMPLATE "WolfDenTransitions"
+     {
+     }
+
+     TEMPLATE "CastleTransitions"
+     {
+     }
+
+     TEMPLATE "SewerTransitions"
+     {
+     }
+
+     TEMPLATE "CaveTransitions"
+     {
+     }
+
+     TEMPLATE "LurkwoodTransitions"
+     {
+     }
+
+     TEMPLATE "DuergarTransitions"
+     {
+     }
+
+     TEMPLATE "BarbarianCaveTransitions"
+     {
+     }
+
+     TEMPLATE "SpiderCastleTransitions"
+     {
+     }
+
+     TEMPLATE "BanditCavesTransitions"
+     {
+     }
+
+     TEMPLATE "CatacombsTransitions"
+     {
+     }
+
+     TEMPLATE "NightmareTransitions"
+     {
+     }
+
+     TEMPLATE "MagicTentTransitions"
+     {
+     }
+
+     TEMPLATE "LostMinesTransitions"
+     {
+     }
+
+}
+
+GROUP "RT_Transitions"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "Type"
+          RESOURCE         ""    "PrefabPath"
+          INTEGER          "Weight"
+          INTEGER          "ThreatCost"
+          INTEGER          "LockedThreatCost"
+          HASH             "Name"
+          HASH             "Desc"
+          HASH             "Icon"
+     }
+
+     TEMPLATE "StorySecretDoor"
+     {
+     }
+
+     TEMPLATE "WhiteBoxDoor"
+     {
+     }
+
+     TEMPLATE "WhiteBoxSecretDoor"
+     {
+     }
+
+     TEMPLATE "WhiteBoxArch"
+     {
+     }
+
+     TEMPLATE "DrowArch01"
+     {
+     }
+
+     TEMPLATE "DrowArch02"
+     {
+     }
+
+     TEMPLATE "Drow_HallArch"
+     {
+     }
+
+     TEMPLATE "DrowDoor01"
+     {
+     }
+
+     TEMPLATE "DrowSecretDoor01"
+     {
+     }
+
+     TEMPLATE "Hommet_CQ_SecretDoor"
+     {
+     }
+
+     TEMPLATE "Dalanir_CQ_SecretDoor"
+     {
+     }
+
+     TEMPLATE "Dalanir_CQ_CrystalPuzzleDoor"
+     {
+     }
+
+     TEMPLATE "BurningAmbition_SQ_LockedDoor"
+     {
+     }
+
+     TEMPLATE "TavernArch01"
+     {
+     }
+
+     TEMPLATE "TavernDoor01"
+     {
+     }
+
+     TEMPLATE "TavernSecretDoor01"
+     {
+     }
+
+     TEMPLATE "WolfColumn01"
+     {
+     }
+
+     TEMPLATE "CastleArch01"
+     {
+     }
+
+     TEMPLATE "CastleArch02"
+     {
+     }
+
+     TEMPLATE "Castle_HallArch"
+     {
+     }
+
+     TEMPLATE "CastleDoor01"
+     {
+     }
+
+     TEMPLATE "CastleDoor_Room"
+     {
+     }
+
+     TEMPLATE "CastleSecretDoor01"
+     {
+     }
+
+     TEMPLATE "CastleSecretBookcase"
+     {
+     }
+
+     TEMPLATE "CastleSecretBookcaseDM"
+     {
+     }
+
+     TEMPLATE "CastleCellDoor01"
+     {
+     }
+
+     TEMPLATE "Chapterhouse_StoryLockedB1StairsDoor"
+     {
+     }
+
+     TEMPLATE "Chapterhouse_StoryLockedArmoryDoor"
+     {
+     }
+
+     TEMPLATE "Chapterhouse_StoryLockedArchivesDoor_01"
+     {
+     }
+
+     TEMPLATE "Chapterhouse_StoryLockedArchivesDoor_02"
+     {
+     }
+
+     TEMPLATE "Chapterhouse_StoryLockedPrisonDoor"
+     {
+     }
+
+     TEMPLATE "Chapterhouse_SecretDoorToCatacombs"
+     {
+     }
+
+     TEMPLATE "CastleCellDoorDog01"
+     {
+     }
+
+     TEMPLATE "CastleCellDoorDog02"
+     {
+     }
+
+     TEMPLATE "Chapterhouse_StoryLockedStatuePuzzleDoor"
+     {
+     }
+
+     TEMPLATE "SpiderCastle_StorySealedDoor"
+     {
+     }
+
+     TEMPLATE "WizardCastleSecretDoor"
+     {
+     }
+
+     TEMPLATE "WizardCastleDoor"
+     {
+     }
+
+     TEMPLATE "WizardCastleLockedDoor"
+     {
+     }
+
+     TEMPLATE "WizardCastleArch"
+     {
+     }
+
+     TEMPLATE "SewerArch01"
+     {
+     }
+
+     TEMPLATE "SewerArch02"
+     {
+     }
+
+     TEMPLATE "SewerArch03"
+     {
+     }
+
+     TEMPLATE "SewerHallArch01"
+     {
+     }
+
+     TEMPLATE "SewerDoor01"
+     {
+     }
+
+     TEMPLATE "SewerPortcullisDoor"
+     {
+     }
+
+     TEMPLATE "SewerSecretDoor01"
+     {
+     }
+
+     TEMPLATE "SewerDoor_DeadRats"
+     {
+     }
+
+     TEMPLATE "SewerDoor_Jarhild_CQ"
+     {
+     }
+
+     TEMPLATE "SewerDoor_ReqKey"
+     {
+     }
+
+     TEMPLATE "CaveArch01"
+     {
+     }
+
+     TEMPLATE "CaveArch02"
+     {
+     }
+
+     TEMPLATE "CaveDoor01"
+     {
+     }
+
+     TEMPLATE "CaveSecretDoor01"
+     {
+     }
+
+     TEMPLATE "BearCaveSecretDoor"
+     {
+     }
+
+     TEMPLATE "DuergarArch01"
+     {
+     }
+
+     TEMPLATE "DuergarArch02"
+     {
+     }
+
+     TEMPLATE "DuergarArch03"
+     {
+     }
+
+     TEMPLATE "DuergarDoor"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor"
+     {
+     }
+
+     TEMPLATE "DuergarVaultDoor"
+     {
+     }
+
+     TEMPLATE "DuergarSecretDoor"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor01"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor02"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor03"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor04"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor05"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor06"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor07"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor08"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor09"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor10"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor11"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonDoor12"
+     {
+     }
+
+     TEMPLATE "DuergarPrisonSecretDoor"
+     {
+     }
+
+     TEMPLATE "DuergarDoor_Crown_LC"
+     {
+     }
+
+     TEMPLATE "BanditDoor01"
+     {
+     }
+
+     TEMPLATE "BanditArch01"
+     {
+     }
+
+     TEMPLATE "BanditArch02"
+     {
+     }
+
+     TEMPLATE "BanditCellarArch01"
+     {
+     }
+
+     TEMPLATE "Bandit_HallArch"
+     {
+     }
+
+     TEMPLATE "BanditCaves_StoryLockedDoor"
+     {
+     }
+
+     TEMPLATE "BanditDoor01_Trapped"
+     {
+     }
+
+     TEMPLATE "BanditDoor01_Locked"
+     {
+     }
+
+     TEMPLATE "CatacombsArch01"
+     {
+     }
+
+     TEMPLATE "CatacombsArch02"
+     {
+     }
+
+     TEMPLATE "CatacombsArch03"
+     {
+     }
+
+     TEMPLATE "CatacombsDoor01"
+     {
+     }
+
+     TEMPLATE "CatacombsDoor_PuzzleLocked"
+     {
+     }
+
+     TEMPLATE "CatacombsDoor_PuzzleLocked2"
+     {
+     }
+
+     TEMPLATE "CatacombsSecretDoor01"
+     {
+     }
+
+     TEMPLATE "CatacombsImpossibleSecretDoor"
+     {
+     }
+
+     TEMPLATE "CatacombsBossDoor"
+     {
+     }
+
+     TEMPLATE "SpiderCastleDoor"
+     {
+     }
+
+     TEMPLATE "SpiderCastleArch01"
+     {
+     }
+
+     TEMPLATE "SpiderCastleArch02"
+     {
+     }
+
+     TEMPLATE "EndOfTimeStagingDoor"
+     {
+     }
+
+     TEMPLATE "SpiderCastleSecretDoor"
+     {
+     }
+
+     TEMPLATE "NightmareArch01"
+     {
+     }
+
+     TEMPLATE "NightmareDoor01"
+     {
+     }
+
+     TEMPLATE "GDC_SewerSecretDoor"
+     {
+     }
+
+     TEMPLATE "LuskanCultBasement_Door"
+     {
+     }
+
+     TEMPLATE "ReturnOfTheChief_SQ_StoryDoor1"
+     {
+     }
+
+     TEMPLATE "SpiderCastleArch03"
+     {
+     }
+
+     TEMPLATE "SpiderCastleArch04"
+     {
+     }
+
+     TEMPLATE "SpiderCastleArch05"
+     {
+     }
+
+     TEMPLATE "SlimeCastleDoor"
+     {
+     }
+
+     TEMPLATE "LostMinesArch01"
+     {
+     }
+
+     TEMPLATE "LostMinesArch02"
+     {
+     }
+
+     TEMPLATE "LostMinesHallArch"
+     {
+     }
+
+     TEMPLATE "LostMinesDoor01"
+     {
+     }
+
+     TEMPLATE "LostMinesSecretDoor01"
+     {
+     }
+
+     TEMPLATE "BanditDoor_Trapped"
+     {
+     }
+
+     TEMPLATE "CastleDoor_Trapped"
+     {
+     }
+
+     TEMPLATE "CatacombsDoor_Trapped"
+     {
+     }
+
+     TEMPLATE "DrowDoor_Trapped"
+     {
+     }
+
+     TEMPLATE "DuergarDoor_Trapped"
+     {
+     }
+
+     TEMPLATE "SewerDoor_Trapped"
+     {
+     }
+
+     TEMPLATE "SpiderCastleDoor_Trapped"
+     {
+     }
+
+}
+
+GROUP "RT_EndCaps"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "PrefabPath"
+          INTEGER          "Weight"
+     }
+
+     TEMPLATE "CastleCap"
+     {
+     }
+
+     TEMPLATE "CastleCap_Blank"
+     {
+     }
+
+     TEMPLATE "Drow_EndCap"
+     {
+     }
+
+     TEMPLATE "SmInterior_Cap"
+     {
+     }
+
+     TEMPLATE "Bandit_EndCap"
+     {
+     }
+
+     TEMPLATE "SewerCap"
+     {
+     }
+
+     TEMPLATE "CaveCap01"
+     {
+     }
+
+     TEMPLATE "DuergarCap"
+     {
+     }
+
+     TEMPLATE "SpiderCastleCap"
+     {
+     }
+
+     TEMPLATE "SpiderCastleCap_Blank"
+     {
+     }
+
+     TEMPLATE "CatacombsCap"
+     {
+     }
+
+     TEMPLATE "CatacombsCap_Blank"
+     {
+     }
+
+     TEMPLATE "EndCap"
+     {
+     }
+
+     TEMPLATE "Drow_HallEndCap"
+     {
+     }
+
+     TEMPLATE "Bandit_HallEndCap"
+     {
+     }
+
+     TEMPLATE "WizardCap"
+     {
+     }
+
+     TEMPLATE "LostMinesEndCap"
+     {
+     }
+
+     TEMPLATE "LostMinesHallEndCap"
+     {
+     }
+
+     TEMPLATE "Drow_SpecialCurve"
+     {
+     }
+
+}
+

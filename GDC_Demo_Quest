@@ -1,0 +1,716 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.8"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "GDC_Demo_Quest": [
+            "GDC_Demo_Quest_GDC_Demo_Quest_Name", 
+            0, 
+            "QS_GDC_Demo", 
+            "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\CritPathQuests", 
+            "", 
+            {
+                "GDC_Demo_Start": [
+                    "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_Start_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_Start_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "Tracked Flags": {
+                    "GDC_Demo_LuskanFakery01": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 15_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 15_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "GDC_Demo_Start", 
+                                "quest": "GDC_Demo_Quest", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Demo_LuskanFakery02": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 16_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 16_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "GDC_Demo_Start", 
+                                "quest": "GDC_Demo_Quest", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Demo_GoToStreets": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_GoToStreets_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_GoToStreets_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Demo_GoToCutlass": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_GoToCutlass_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_GoToCutlass_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "GDC_Demo_GoToStreets", 
+                                "quest": "GDC_Demo_Quest", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Demo_MeetContact": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_MeetContact_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_MeetContact_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "GDC_Demo_GoToCutlass", 
+                                "quest": "GDC_Demo_Quest", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Demo_GoToSlums": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_GoToSlums_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_GoToSlums_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "GDC_Demo_MeetContact", 
+                                "quest": "GDC_Demo_Quest", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Demo_KillBanagar": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_KillBoss_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_KillBoss_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "GDC_Demo_GoToSlums", 
+                                "quest": "GDC_Demo_Quest", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Demo_Body": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 18_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 18_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "GDC_Demo_KillBanagar", 
+                                "quest": "GDC_Demo_Quest", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Demo_KillZombies": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_StopDemons_Name", 
+                        10, 
+                        false, 
+                        true, 
+                        false, 
+                        true, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_GDC_Demo_StopDemons_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "GDC_Demo_Body", 
+                                "quest": "GDC_Demo_Quest", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Untracked Flags": {
+                    "GDC_Slums_BanLeaves": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 7_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 7_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Slums_FightBan": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 8_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 8_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Slums_ZombieEnc_1": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 9_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 9_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Slums_ZombieEnc_2": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 10_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 10_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Slums_ZombieEnc_3": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 11_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 11_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Luskan_RunningHalfling": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 12_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 12_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Luskan_PeeingPeasant": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 13_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 13_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GDC_Sewer_DeadRatsFight": [
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 14_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "GDC_Demo_Quest_GDC_Demo_Quest_Flag 14_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            ""
+        ], 
+        "GDC_MainMenu_Quest": [
+            "GDC_Demo_Quest_Quest 1_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "GDC_MainMenu_Return": [
+                    "GDC_Demo_Quest_GDC_MainMenu_Quest_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "GDC_Demo_Quest_GDC_MainMenu_Quest_Flag 0_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            ""
+        ], 
+        "GDC_Demo_Sidequest": [
+            "GDC_Demo_Quest_Quest 2_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "GDC_SQ_Start": [
+                    "GDC_Demo_Quest_GDC_Demo_Sidequest_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "GDC_Demo_Quest_GDC_Demo_Sidequest_Flag 0_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "GDC_SQ_FoundSeal": [
+                    "GDC_Demo_Quest_GDC_Demo_Sidequest_Flag 2_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "GDC_Demo_Quest_GDC_Demo_Sidequest_Flag 2_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "GDC_SQ_Start", 
+                            "quest": "GDC_Demo_Sidequest", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "GDC_SQ_ReturnSeal": [
+                    "GDC_Demo_Quest_GDC_Demo_Sidequest_Flag 1_Name", 
+                    3, 
+                    false, 
+                    true, 
+                    false, 
+                    true, 
+                    "GDC_Demo_Quest_GDC_Demo_Sidequest_Flag 1_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "GDC_SQ_FoundSeal", 
+                            "quest": "GDC_Demo_Sidequest", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            ""
+        ], 
+        "GDC_FakeContinue": [
+            "GDC_Demo_Quest_Quest 3_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "GDC_Fake_Start": [
+                    "GDC_Demo_Quest_GDC_FakeContinue_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "GDC_Demo_Quest_GDC_FakeContinue_Flag 0_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "GDC_Fake_01": [
+                    "GDC_Demo_Quest_GDC_FakeContinue_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "GDC_Demo_Quest_GDC_FakeContinue_Flag 1_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "GDC_Fake_Start", 
+                            "quest": "GDC_FakeContinue", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            ""
+        ], 
+        "GDC_DungeonCrawl_Quest": [
+            "GDC_Demo_Quest_Quest 4_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "GDC_DC_KillPriest": [
+                    "GDC_Demo_Quest_GDC_DungeonCrawl_Quest_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "GDC_Demo_Quest_GDC_DungeonCrawl_Quest_Flag 0_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "GDC_DC_AfterPriestConvo": [
+                    "GDC_Demo_Quest_GDC_DungeonCrawl_Quest_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "GDC_Demo_Quest_GDC_DungeonCrawl_Quest_Flag 1_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "GDC_DC_TurnOnExitDoor": [
+                    "GDC_Demo_Quest_GDC_DungeonCrawl_Quest_Flag 2_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "GDC_Demo_Quest_GDC_DungeonCrawl_Quest_Flag 2_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            ""
+        ]
+    }
+}

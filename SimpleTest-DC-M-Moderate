@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DuergarSet01" /> 
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>
+
+<!-- FLORTAL - Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DUE_FlortalUP" />    
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- Tree 1 -->       
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_S_C_Steps"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+<!--END tree 1 -->
+
+<!-- Tree 2 -->       
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_S_C_Steps"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+<!--END tree 2 -->
+
+
+        <Group>
+            <Trunk>
+                <Tiles >
+                  <Tile Name="DUE_FlortalDOWN" />    
+                </Tiles>
+            </Trunk>
+        </Group> 
+
+    </Groups>  
+</DungeonConfig>

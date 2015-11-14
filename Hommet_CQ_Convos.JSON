@@ -1,0 +1,5708 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Hommet_CQ_Librarian", 
+                "NoBegFade": "False", 
+                "IsFinal": "True", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "LIBRARIAN"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_3731760", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3731760|", 
+                "", 
+                "Never spoken before - GIVING THE PLAYER A BOOK ITEM", 
+                [
+                    "LINE_4731333", 
+                    "LINE_1539157"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_Start", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_SpeakToLibrarian", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7395610", 
+                "LINE_5185331", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "SETTING THE NEXT QUEST FLAG HERE  - unlocking map pin here", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_SpeakToLibrarian", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_MapPin", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Hommet_CQ_Book"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3403690", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3403690|", 
+                "", 
+                "Spoken but havent finished quest", 
+                [
+                    "LINE_2528972", 
+                    "LINE_4379400", 
+                    "LINE_6446889"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_SpeakToLibrarian", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_DefeatPriest", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2619426", 
+                "LINE_8570747", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_2619426|", 
+                "", 
+                "", 
+                [
+                    "LINE_5689032"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1986197", 
+                "LINE_3147262", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "REMOVING BOOK AND PAGES HERE", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_ReturnToLibrary", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_Final", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Misc:Hommet_CQ_Book", 
+                    "Misc:Hommet_CQ_Page1", 
+                    "Misc:Hommet_CQ_Page2", 
+                    "Misc:Hommet_CQ_Page3"
+                ], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8570747", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_8570747|", 
+                "", 
+                "Finished quest, havent spoken yet", 
+                [
+                    "LINE_2619426", 
+                    "LINE_1915829", 
+                    "LINE_9749277"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_DefeatPriest", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_ReturnToLibrary", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2528972", 
+                "LINE_3403690", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_2528972|", 
+                "", 
+                "", 
+                [
+                    "LINE_7909205"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4212545", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_4212545|", 
+                "", 
+                "finished quest, spoke once", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_ReturnToLibrary", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4731333", 
+                "LINE_3731760", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_4731333|", 
+                "", 
+                "", 
+                [
+                    "LINE_1094811"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1094811", 
+                "LINE_4731333", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1094811|", 
+                "", 
+                "BK dropped \"I think\"", 
+                [
+                    "LINE_9374734", 
+                    "LINE_2677225", 
+                    "LINE_1804720"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1539157", 
+                "LINE_3731760", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1539157|", 
+                "", 
+                "For HOTU 25942 - Hommet no longer has to be in the party to get the quest", 
+                [
+                    "LINE_4594192"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "ALWAYS_TRUE", 
+                                    "Quest": "UtilityQuestFlags", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4594192", 
+                "LINE_1539157", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_4594192|", 
+                "", 
+                "", 
+                [
+                    "LINE_2661962"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9374734", 
+                "LINE_1094811", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_9374734|", 
+                "", 
+                "", 
+                [
+                    "LINE_1264952"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2677225", 
+                "LINE_1094811", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_2677225|", 
+                "", 
+                "", 
+                [
+                    "LINE_6469133"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1804720", 
+                "LINE_1094811", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_1804720|", 
+                "", 
+                "", 
+                [
+                    "LINE_3227339"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3227339", 
+                "LINE_1804720", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3227339|", 
+                "", 
+                "BK rephrased from \"I've been known to spend some time at Longsaddle now and again. I'd heard he was... excused... and I thought maybe one of my books could help!\"", 
+                [
+                    "LINE_9374734", 
+                    "LINE_2677225"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6469133", 
+                "LINE_2677225", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_6469133|", 
+                "", 
+                "", 
+                [
+                    "LINE_0221642"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0221642", 
+                "LINE_6469133", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_0221642|", 
+                "", 
+                "", 
+                [
+                    "LINE_9374734", 
+                    "LINE_1804720"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1264952", 
+                "LINE_9374734", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1264952|", 
+                "", 
+                "WOTC asked for a larger tweak. Original line \"It is a tome that details the life and death of an ancient wizard known as the Ashen Priest. In it, you'll find the rumored location of his tomb and hints regarding what might be found inside!\"\nBK rephrased \", and some information on the knowledge you can find inside!\"", 
+                [
+                    "LINE_6771912"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5805911", 
+                "LINE_6771912", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_5805911|", 
+                "", 
+                "", 
+                [
+                    "LINE_9283884"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7133154", 
+                "LINE_6771912", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_7133154|", 
+                "", 
+                "", 
+                [
+                    "LINE_8626271"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5665779", 
+                "LINE_6771912", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_5665779|", 
+                "", 
+                "", 
+                [
+                    "LINE_4626513"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9283884", 
+                "LINE_5805911", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_9283884|", 
+                "", 
+                "", 
+                [
+                    "LINE_0701432"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0701432", 
+                "LINE_9283884", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_0701432|", 
+                "", 
+                "BK I dropped the reference to \"a thousand years ago\" because on another node she says \"No one has heard from him in a thousand years\" So I wasn't sure if he was slain 1000 yrs ago, rose, took his vengence, and then was not heard of for another 1000 yrs? Made my head hurt so I got rid of it.", 
+                [
+                    "LINE_3349193", 
+                    "LINE_0791872"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3349193", 
+                "LINE_0701432", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_3349193|", 
+                "", 
+                "", 
+                [
+                    "LINE_1663089", 
+                    "LINE_7133154", 
+                    "LINE_5665779"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_SpeakToLibrarian", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3588999", 
+                "LINE_1663089", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3588999|", 
+                "", 
+                "BK rephrased \"I'm not saying this won't be dangerous, Hommet. But I will say that anyone who can recover the knowledge of the Ashen Priest would be a powerful force indeed.\"", 
+                [
+                    "LINE_6648292"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6648292", 
+                "LINE_3588999", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_6648292|", 
+                "", 
+                "BK \"come back\" -> return", 
+                [
+                    "LINE_8590723"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8626271", 
+                "LINE_7133154", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_8626271|", 
+                "", 
+                "", 
+                [
+                    "LINE_1663089", 
+                    "LINE_5805911", 
+                    "LINE_5665779"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1663089", 
+                "LINE_6771912", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_1663089|", 
+                "", 
+                "", 
+                [
+                    "LINE_3588999"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_SpeakToLibrarian", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4626513", 
+                "LINE_5665779", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_4626513|", 
+                "", 
+                "BK cut \", not for a simple walk in the park\" and \"out the truth of \"", 
+                [
+                    "LINE_1663089", 
+                    "LINE_5805911", 
+                    "LINE_7133154"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8590723", 
+                "LINE_6648292", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_8590723|", 
+                "", 
+                "", 
+                [
+                    "LINE_5185331"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5185331", 
+                "LINE_8590723", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_5185331|", 
+                "", 
+                "", 
+                [
+                    "LINE_7395610"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6771912", 
+                "LINE_1264952", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_6771912|", 
+                "", 
+                "BK cut \" you're pretty intuitive,\" because she can't know this", 
+                [
+                    "LINE_6446889", 
+                    "LINE_1663089", 
+                    "LINE_5805911", 
+                    "LINE_7133154", 
+                    "LINE_5665779"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2661962", 
+                "LINE_4594192", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6446889", 
+                "LINE_6771912", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_6446889|", 
+                "", 
+                "", 
+                [
+                    "LINE_5763568"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_SpeakToLibrarian", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5763568", 
+                "LINE_6446889", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_5763568|", 
+                "", 
+                "", 
+                [
+                    "LINE_7395610"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4379400", 
+                "LINE_3403690", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_4379400|", 
+                "", 
+                "", 
+                [
+                    "LINE_0894399"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0894399", 
+                "LINE_4379400", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_0894399|", 
+                "", 
+                "WOTC As discussed, Alchemists shouldn't make potions. \"As a matter of fact, I have! It was a most delightful book of herbal remedies. It contained recipes for everything from healing poultices to a soup that would hold off the deepest of coughs.\"\n\nAs a matter of fact, I have! It was a most delightful book of alchemical formulas. It contained recipes for everything from healing poultices to potions to increase mental acuity.", 
+                [
+                    "LINE_5055275"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5055275", 
+                "LINE_0894399", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_5055275|", 
+                "", 
+                "", 
+                [
+                    "LINE_2528972", 
+                    "LINE_6446889", 
+                    "LINE_5971583"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7909205", 
+                "LINE_2528972", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_7909205|", 
+                "", 
+                "", 
+                [
+                    "LINE_8550046", 
+                    "LINE_9374619", 
+                    "LINE_4898098", 
+                    "LINE_9999828"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8550046", 
+                "LINE_7909205", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_8550046|", 
+                "", 
+                "", 
+                [
+                    "LINE_9283884"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0791872", 
+                "LINE_0701432", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_0791872|", 
+                "", 
+                "BK I cut \" Even the tome puts forth that he may have been a myth, but the knowledge contained in his tomb is believed to be very real.\" because it seems to distract from the thrust... he's been gone a long time.", 
+                [
+                    "LINE_9374619", 
+                    "LINE_4898098", 
+                    "LINE_9999828"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_SpeakToLibrarian", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9374619", 
+                "LINE_7909205", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_9374619|", 
+                "", 
+                "", 
+                [
+                    "LINE_9725674"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4898098", 
+                "LINE_7909205", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_4898098|", 
+                "", 
+                "", 
+                [
+                    "LINE_8561639"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9999828", 
+                "LINE_7909205", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_9999828|", 
+                "", 
+                "", 
+                [
+                    "LINE_5763568"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9725674", 
+                "LINE_9374619", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_9725674|", 
+                "", 
+                "", 
+                [
+                    "LINE_8635871", 
+                    "LINE_1588973"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8635871", 
+                "LINE_9725674", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_8635871|", 
+                "", 
+                "", 
+                [
+                    "LINE_1413579"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1413579", 
+                "LINE_8635871", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1413579|", 
+                "", 
+                "", 
+                [
+                    "LINE_7591572"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7591572", 
+                "LINE_1413579", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_7591572|", 
+                "", 
+                "", 
+                [
+                    "LINE_9112006"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9112006", 
+                "LINE_7591572", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_9112006|", 
+                "", 
+                "", 
+                [
+                    "LINE_8550046", 
+                    "LINE_4898098", 
+                    "LINE_9999828"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1588973", 
+                "LINE_9725674", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1588973|", 
+                "", 
+                "\"find what you need\" -> \"do so\"", 
+                [
+                    "LINE_8550046", 
+                    "LINE_4898098", 
+                    "LINE_9999828"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8561639", 
+                "LINE_4898098", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_8561639|", 
+                "", 
+                "BK revised from \"Yes! Very astute of you! There are, to my reckoning, three absent pages. They don't seem to be of any importance, but they do seem to have been torn out of the book by hand, because the binding otherwise seems solid.\"", 
+                [
+                    "LINE_4470315"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4470315", 
+                "LINE_8561639", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_4470315|", 
+                "", 
+                "", 
+                [
+                    "LINE_8550046", 
+                    "LINE_9374619", 
+                    "LINE_9999828"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5971583", 
+                "LINE_5055275", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_5971583|", 
+                "", 
+                "", 
+                [
+                    "LINE_7342290"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7342290", 
+                "LINE_5971583", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_7342290|", 
+                "", 
+                "", 
+                [
+                    "LINE_6503992"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6503992", 
+                "LINE_7342290", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1915829", 
+                "LINE_8570747", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_1915829|", 
+                "", 
+                "", 
+                [
+                    "LINE_6866473"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9749277", 
+                "LINE_8570747", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_9749277|", 
+                "", 
+                "", 
+                [
+                    "LINE_3082121"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5689032", 
+                "LINE_2619426", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_5689032|", 
+                "", 
+                "", 
+                [
+                    "LINE_6317882"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6317882", 
+                "LINE_5689032", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_6317882|", 
+                "", 
+                "", 
+                [
+                    "LINE_3802140"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3802140", 
+                "LINE_6317882", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_3802140|", 
+                "", 
+                "", 
+                [
+                    "LINE_6593990"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6593990", 
+                "LINE_3802140", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_6593990|", 
+                "", 
+                "", 
+                [
+                    "LINE_4316128"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6866473", 
+                "LINE_1915829", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_6866473|", 
+                "", 
+                "", 
+                [
+                    "LINE_6317882"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3082121", 
+                "LINE_9749277", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3082121|", 
+                "", 
+                "", 
+                [
+                    "LINE_6317882"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4316128", 
+                "LINE_6593990", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_4316128|", 
+                "", 
+                "", 
+                [
+                    "LINE_9443400", 
+                    "LINE_8973849", 
+                    "LINE_6444168", 
+                    "LINE_6464048"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6464048", 
+                "LINE_4316128", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_6464048|", 
+                "", 
+                "", 
+                [
+                    "LINE_0555579"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9443400", 
+                "LINE_4316128", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_9443400|", 
+                "", 
+                "", 
+                [
+                    "LINE_4341518"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6444168", 
+                "LINE_4316128", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_6444168|", 
+                "", 
+                "", 
+                [
+                    "LINE_0782597", 
+                    "LINE_2025666"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8973849", 
+                "LINE_4316128", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_8973849|", 
+                "", 
+                "", 
+                [
+                    "LINE_6970132"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0555579", 
+                "LINE_6464048", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_0555579|", 
+                "", 
+                "", 
+                [
+                    "LINE_2025666"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4341518", 
+                "LINE_9443400", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_4341518|", 
+                "", 
+                "", 
+                [
+                    "LINE_2025666"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6970132", 
+                "LINE_8973849", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_6970132|", 
+                "", 
+                "", 
+                [
+                    "LINE_2025666"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0782597", 
+                "LINE_6444168", 
+                "LARETHAR", 
+                "|Hommet_CQ_Convos_LINE_0782597|", 
+                "", 
+                "", 
+                [
+                    "LINE_2025666"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2025666", 
+                "LINE_6444168", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2025666|", 
+                "", 
+                "", 
+                [
+                    "LINE_9973376"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9973376", 
+                "LINE_2025666", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_9973376|", 
+                "", 
+                "", 
+                [
+                    "LINE_8721100"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8721100", 
+                "LINE_9973376", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_8721100|", 
+                "", 
+                "", 
+                [
+                    "LINE_5132743", 
+                    "LINE_3274892", 
+                    "LINE_1167556"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5132743", 
+                "LINE_8721100", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_5132743|", 
+                "", 
+                "", 
+                [
+                    "LINE_2391230"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3274892", 
+                "LINE_8721100", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_3274892|", 
+                "", 
+                "", 
+                [
+                    "LINE_1250750"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1167556", 
+                "LINE_8721100", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_1167556|", 
+                "", 
+                "", 
+                [
+                    "LINE_2773146"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2773146", 
+                "LINE_1167556", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2773146|", 
+                "", 
+                "", 
+                [
+                    "LINE_2391230"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1250750", 
+                "LINE_3274892", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1250750|", 
+                "", 
+                "", 
+                [
+                    "LINE_2391230"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2391230", 
+                "LINE_5132743", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2391230|", 
+                "", 
+                "", 
+                [
+                    "LINE_7428695"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7428695", 
+                "LINE_2391230", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_7428695|", 
+                "", 
+                "", 
+                [
+                    "LINE_2304135"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2304135", 
+                "LINE_7428695", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2304135|", 
+                "", 
+                "", 
+                [
+                    "LINE_2496410", 
+                    "LINE_1979014", 
+                    "LINE_9909544", 
+                    "LINE_9261579"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9909544", 
+                "LINE_2304135", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_9909544|", 
+                "", 
+                "", 
+                [
+                    "LINE_4053200"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2496410", 
+                "LINE_2304135", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_2496410|", 
+                "", 
+                "", 
+                [
+                    "LINE_3372179"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1979014", 
+                "LINE_2304135", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_1979014|", 
+                "", 
+                "", 
+                [
+                    "LINE_1979418"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9261579", 
+                "LINE_2304135", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_9261579|", 
+                "", 
+                "", 
+                [
+                    "LINE_7482367"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7482367", 
+                "LINE_9261579", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_7482367|", 
+                "", 
+                "", 
+                [
+                    "LINE_2423809"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1979418", 
+                "LINE_1979014", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_1979418|", 
+                "", 
+                "", 
+                [
+                    "LINE_3386803"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4053200", 
+                "LINE_9909544", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_4053200|", 
+                "", 
+                "", 
+                [
+                    "LINE_3386803"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2423809", 
+                "LINE_7482367", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_2423809|", 
+                "", 
+                "", 
+                [
+                    "LINE_3386803"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3386803", 
+                "LINE_3372179", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3386803|", 
+                "", 
+                "", 
+                [
+                    "LINE_0993389"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0993389", 
+                "LINE_3386803", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_0993389|", 
+                "", 
+                "", 
+                [
+                    "LINE_3634353"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3634353", 
+                "LINE_0993389", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3634353|", 
+                "", 
+                "", 
+                [
+                    "LINE_3328185", 
+                    "LINE_8347908", 
+                    "LINE_4013096"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3328185", 
+                "LINE_3634353", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_3328185|", 
+                "", 
+                "", 
+                [
+                    "LINE_2061010"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8347908", 
+                "LINE_3634353", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_8347908|", 
+                "", 
+                "", 
+                [
+                    "LINE_6415096"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4013096", 
+                "LINE_3634353", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_4013096|", 
+                "", 
+                "", 
+                [
+                    "LINE_3147262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6415096", 
+                "LINE_8347908", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_6415096|", 
+                "", 
+                "", 
+                [
+                    "LINE_8963861"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3147262", 
+                "LINE_4013096", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3147262|", 
+                "", 
+                "", 
+                [
+                    "LINE_1986197"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2061010", 
+                "LINE_3328185", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2061010|", 
+                "", 
+                "", 
+                [
+                    "LINE_3147262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8963861", 
+                "LINE_6415096", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_8963861|", 
+                "", 
+                "", 
+                [
+                    "LINE_3147262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3372179", 
+                "LINE_2496410", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3372179|", 
+                "", 
+                "", 
+                [
+                    "LINE_3386803"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Hommet_CQ_RPEAltar", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "HOMMET"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_6961874", 
+                "<ROOT>", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_6961874|", 
+                "", 
+                "!!!!!!!!!  ", 
+                [
+                    "LINE_4509828"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages0", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages1", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages2", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_UnlockSecretDoor", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_ActionedAltarOnce", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0524455", 
+                "LINE_4509828", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_0524455|", 
+                "", 
+                "Has 0 pages", 
+                [
+                    "LINE_3419081", 
+                    "LINE_6724511"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_HasPage1", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5272088", 
+                "LINE_4509828", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_5272088|", 
+                "", 
+                "Has 1 page", 
+                [
+                    "LINE_2713384", 
+                    "LINE_7248912"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_U_HasPage1", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_HasPage2", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8285996", 
+                "LINE_4509828", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_8285996|", 
+                "", 
+                "Has 2 pages", 
+                [
+                    "LINE_7000789", 
+                    "LINE_6221080"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_U_HasPage2", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_HasPage3", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0361039", 
+                "LINE_4509828", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_0361039|", 
+                "", 
+                "Has 3 (all pages)", 
+                [
+                    "LINE_2485212"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_U_HasPage3", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6724511", 
+                "LINE_0524455", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_6724511|", 
+                "", 
+                "", 
+                [
+                    "LINE_4689649", 
+                    "LINE_5814917"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4689649", 
+                "LINE_6724511", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_4689649|", 
+                "", 
+                "WOTC Yes we're ready, speak some words as best you can.\nCHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED", 
+                [
+                    "LINE_7868942"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages0", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5814917", 
+                "LINE_6724511", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_5814917|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED", 
+                [
+                    "LINE_1793278"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages0", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7248912", 
+                "LINE_5272088", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_7248912|", 
+                "", 
+                "", 
+                [
+                    "LINE_3947724", 
+                    "LINE_0990103"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3947724", 
+                "LINE_7248912", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_3947724|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED", 
+                [
+                    "LINE_7738236"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages1", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0990103", 
+                "LINE_7248912", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_0990103|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED", 
+                [
+                    "LINE_1793278"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages1", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6221080", 
+                "LINE_8285996", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_6221080|", 
+                "", 
+                "", 
+                [
+                    "LINE_3993056", 
+                    "LINE_8904324"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3993056", 
+                "LINE_6221080", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_3993056|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED BK cut \"Yes, speak the two words and just fake the third.  \"", 
+                [
+                    "LINE_7970848"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages2", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8904324", 
+                "LINE_6221080", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_8904324|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED", 
+                [
+                    "LINE_1793278"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages2", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2485212", 
+                "LINE_0361039", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2485212|", 
+                "", 
+                "", 
+                [
+                    "LINE_2068773", 
+                    "LINE_0622670"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2068773", 
+                "LINE_2485212", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_2068773|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED BK replaced \"Yes, we know all the words.  Speak them Hommet.\"", 
+                [
+                    "LINE_5077388"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0622670", 
+                "LINE_2485212", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_0622670|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED", 
+                [
+                    "LINE_1793278"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7738236", 
+                "LINE_3947724", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_7738236|", 
+                "", 
+                "", 
+                [
+                    "LINE_3217637"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7970848", 
+                "LINE_3993056", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_7970848|", 
+                "", 
+                "", 
+                [
+                    "LINE_6727597"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5077388", 
+                "LINE_2068773", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_5077388|", 
+                "", 
+                "", 
+                [
+                    "LINE_5625937"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1793278", 
+                "LINE_5814917", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1793278|", 
+                "", 
+                "", 
+                [
+                    "LINE_7126464"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9881004", 
+                "LINE_7868942", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_9881004|", 
+                "", 
+                "", 
+                [
+                    "LINE_9230031"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9230031", 
+                "LINE_9881004", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_9230031|", 
+                "", 
+                "", 
+                [
+                    "LINE_2874101"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7126464", 
+                "LINE_1793278", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "JUST KICK US OUT OF THE CONVO w/o SETTING FLAGS", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_ActionedAltarOnce", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3217637", 
+                "LINE_7738236", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_3217637|", 
+                "", 
+                "", 
+                [
+                    "LINE_3916322"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3916322", 
+                "LINE_3217637", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_3916322|", 
+                "", 
+                "", 
+                [
+                    "LINE_4368475"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6727597", 
+                "LINE_7970848", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_6727597|", 
+                "", 
+                "", 
+                [
+                    "LINE_2620787"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2620787", 
+                "LINE_6727597", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2620787|", 
+                "", 
+                "", 
+                [
+                    "LINE_9285438"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5625937", 
+                "LINE_5077388", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_5625937|", 
+                "", 
+                "", 
+                [
+                    "LINE_2952583"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2952583", 
+                "LINE_5625937", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_2952583|", 
+                "", 
+                "", 
+                [
+                    "LINE_0658660"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0658660", 
+                "LINE_2952583", 
+                "ASHEN PRIEST", 
+                "|Hommet_CQ_Convos_LINE_0658660|", 
+                "", 
+                "!!!!!!!!!!!!!    UNLOCKING THE SECRET DOOR HERE", 
+                [
+                    "LINE_5548131"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_UnlockSecretDoor", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2203205", 
+                "LINE_9558821", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "3, count em, 3 actions on this line...  Open the door with script  SETTING TRACKED FLAG HERE", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_UnlockAltar", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_ActionedAltarOnce", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_P_IntroConvo", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9285438", 
+                "LINE_2620787", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "!!! SPAWN ENCOUNTER 3", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_AltarEncounterPages2", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_ActionedAltarOnce", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4368475", 
+                "LINE_3916322", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "!!! SPAWN ENCOUNTER 2", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_AltarEncounterPages1", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_ActionedAltarOnce", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2874101", 
+                "LINE_9230031", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "!!! SPAWN ENCOUNTER 1   - maybe some particles", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_AltarEncounterPages0", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_ActionedAltarOnce", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3795200", 
+                "<ROOT>", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_3795200|", 
+                "", 
+                "ACTIONED THE ALTAR ONCE AND/OR GOT NEW PAGES", 
+                [
+                    "LINE_1985772"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1985772", 
+                "LINE_3795200", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_1985772|", 
+                "", 
+                "", 
+                [
+                    "LINE_4509828"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4509828", 
+                "LINE_6961874", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_4509828|", 
+                "", 
+                "", 
+                [
+                    "LINE_0524455", 
+                    "LINE_5272088", 
+                    "LINE_8285996", 
+                    "LINE_0361039", 
+                    "LINE_4032291"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7251689", 
+                "LINE_3419081", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_7251689|", 
+                "", 
+                "", 
+                [
+                    "LINE_0277179"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0277179", 
+                "LINE_7251689", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_ActionedAltarOnce", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3419081", 
+                "LINE_0524455", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3419081|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED", 
+                [
+                    "LINE_7251689"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages0", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2713384", 
+                "LINE_5272088", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2713384|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED", 
+                [
+                    "LINE_7251689"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages1", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7000789", 
+                "LINE_8285996", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_7000789|", 
+                "", 
+                "CHECKING IF THE ENCOUNTER FOR THIS HAS SPAWNED", 
+                [
+                    "LINE_7251689"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_U_AltarEncounterPages2", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7868942", 
+                "LINE_4689649", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_7868942|", 
+                "", 
+                "", 
+                [
+                    "LINE_9881004"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4032291", 
+                "LINE_4509828", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_4032291|", 
+                "", 
+                "", 
+                [
+                    "LINE_7828350"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7828350", 
+                "LINE_4032291", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_7828350|", 
+                "", 
+                "", 
+                [
+                    "LINE_8446202"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8446202", 
+                "LINE_7828350", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5548131", 
+                "LINE_0658660", 
+                "ASHEN PRIEST", 
+                "|Hommet_CQ_Convos_LINE_5548131|", 
+                "", 
+                "", 
+                [
+                    "LINE_6050046"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6050046", 
+                "LINE_5548131", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_6050046|", 
+                "", 
+                "", 
+                [
+                    "LINE_6233526", 
+                    "LINE_7152354", 
+                    "LINE_5315051", 
+                    "LINE_6433896"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6233526", 
+                "LINE_6050046", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_6233526|", 
+                "", 
+                "", 
+                [
+                    "LINE_9558821"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7152354", 
+                "LINE_6050046", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_7152354|", 
+                "", 
+                "", 
+                [
+                    "LINE_2381499"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5315051", 
+                "LINE_6050046", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_5315051|", 
+                "", 
+                "", 
+                [
+                    "LINE_3553792"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6433896", 
+                "LINE_6050046", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_6433896|", 
+                "", 
+                "", 
+                [
+                    "LINE_0852402"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9558821", 
+                "LINE_6233526", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_9558821|", 
+                "", 
+                "", 
+                [
+                    "LINE_2203205"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2381499", 
+                "LINE_7152354", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2381499|", 
+                "", 
+                "", 
+                [
+                    "LINE_9558821"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3553792", 
+                "LINE_5315051", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_3553792|", 
+                "", 
+                "", 
+                [
+                    "LINE_9558821"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0852402", 
+                "LINE_6433896", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_0852402|", 
+                "", 
+                "", 
+                [
+                    "LINE_9558821"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Hommet_CQ_Priest", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "ASHEN PRIEST"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_1979139", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1979139|", 
+                "", 
+                "", 
+                [
+                    "LINE_0084620"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_P_IntroConvo", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_P_Outro", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0084620", 
+                "LINE_1979139", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_0084620|", 
+                "", 
+                "", 
+                [
+                    "LINE_8899468"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7693062", 
+                "LINE_4703158", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_7693062|", 
+                "", 
+                "", 
+                [
+                    "LINE_3031046"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9639943", 
+                "LINE_1091229", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "CONFRONT PRIEST = TRUE", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_ConfrontPriest", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "GENERATE_SAVE", 
+                        "Quest": "UtilityQuestFlags", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8899468", 
+                "LINE_0084620", 
+                "ASHEN PRIEST", 
+                "|Hommet_CQ_Convos_LINE_8899468|", 
+                "", 
+                "", 
+                [
+                    "LINE_2270051"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2270051", 
+                "LINE_8899468", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_2270051|", 
+                "", 
+                "", 
+                [
+                    "LINE_1879700"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9418529", 
+                "LINE_4703158", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_9418529|", 
+                "", 
+                "", 
+                [
+                    "LINE_1523460"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3031046", 
+                "LINE_7693062", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_3031046|", 
+                "", 
+                "", 
+                [
+                    "LINE_7854922"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1523460", 
+                "LINE_9418529", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_1523460|", 
+                "", 
+                "", 
+                [
+                    "LINE_7854922"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1091229", 
+                "LINE_7854922", 
+                "ASHEN PRIEST", 
+                "|Hommet_CQ_Convos_LINE_1091229|", 
+                "", 
+                "", 
+                [
+                    "LINE_9639943"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7752878", 
+                "LINE_4703158", 
+                "<PLAYER>", 
+                "|Hommet_CQ_Convos_LINE_7752878|", 
+                "", 
+                "", 
+                [
+                    "LINE_1612621"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1612621", 
+                "LINE_7752878", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_1612621|", 
+                "", 
+                "", 
+                [
+                    "LINE_7854922"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7854922", 
+                "LINE_1612621", 
+                "ASHEN PRIEST", 
+                "|Hommet_CQ_Convos_LINE_7854922|", 
+                "", 
+                "", 
+                [
+                    "LINE_1091229"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1879700", 
+                "LINE_2270051", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1879700|", 
+                "", 
+                "", 
+                [
+                    "LINE_4703158"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4703158", 
+                "LINE_1879700", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_4703158|", 
+                "", 
+                "", 
+                [
+                    "LINE_7752878", 
+                    "LINE_9418529", 
+                    "LINE_7693062"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Hommet_CQ_CorpsePages", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "HOMMET"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9198218", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_9198218|", 
+                "", 
+                "", 
+                [
+                    "LINE_9287412"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_HasPage1", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1783339", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_1783339|", 
+                "", 
+                "", 
+                [
+                    "LINE_6177098"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_U_HasPage1", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Hommet_CQ_U_HasPage2", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2116827", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2116827|", 
+                "", 
+                "", 
+                [
+                    "LINE_4263218"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Hommet_CQ_U_HasPage2", 
+                                    "Quest": "Hommet_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9287412", 
+                "LINE_9198218", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "ADDING PAGE 1 quest item here", 
+                [
+                    "LINE_5337182"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_HasPage1", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Hommet_CQ_Page1"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6177098", 
+                "LINE_1783339", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "ADDING PAGE 2 quest item here", 
+                [
+                    "LINE_6061848"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_HasPage2", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Hommet_CQ_Page2"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4263218", 
+                "LINE_2116827", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "ADDING PAGE 3 quest item here", 
+                [
+                    "LINE_6938466"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_U_HasPage3", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Hommet_CQ_Page3"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5337182", 
+                "LINE_9287412", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6061848", 
+                "LINE_6177098", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6938466", 
+                "LINE_4263218", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Hommet_CQ_DungeonStaging", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "HOMMET"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5850179", 
+                "<ROOT>", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_5850179|", 
+                "", 
+                "", 
+                [
+                    "LINE_2931717"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Hommet_CQ_VisitTomb", 
+                        "Quest": "Hommet_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2931717", 
+                "LINE_5850179", 
+                "<DEFAULT>", 
+                "|Hommet_CQ_Convos_LINE_2931717|", 
+                "", 
+                "", 
+                [
+                    "LINE_3728610"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3728610", 
+                "LINE_2931717", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_3728610|", 
+                "", 
+                "", 
+                [
+                    "LINE_2188255"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2188255", 
+                "LINE_3728610", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Hommet_CQ_PriesDEATH", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_4882310", 
+                "<ROOT>", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_4882310|", 
+                "", 
+                "HOMMET STARTS AN AMBIENT DIALOG RIGHT AFTER PRIEST DEATH (DURING SHOCKWAVE)", 
+                [
+                    "LINE_7381747"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9258184", 
+                "LINE_7381747", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_9258184|", 
+                "", 
+                "", 
+                [
+                    "LINE_6220073"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7381747", 
+                "LINE_4882310", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_7381747|", 
+                "", 
+                "YO!   ADDING SWEET QUEST REWARD HERE.", 
+                [
+                    "LINE_9258184"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6220073", 
+                "LINE_9258184", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "HommetCQ_ZombieTooth", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6779891", 
+                "<ROOT>", 
+                "JARHILD", 
+                "|Hommet_CQ_Convos_LINE_6779891|", 
+                "", 
+                "Bk was |Hommet_CQ_Convos_LINE_6779891|", 
+                [
+                    "LINE_0892184"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_ON_TEAM", 
+                                    "Quest": "CompanionUnlocked", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0892184", 
+                "LINE_6779891", 
+                "HOMMET", 
+                "|Hommet_CQ_Convos_LINE_0892184|", 
+                "", 
+                "", 
+                [
+                    "LINE_0513885"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2984788", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Hommet_CQ_Convos_LINE_2984788|", 
+                "", 
+                "", 
+                [
+                    "LINE_0892184"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0513885", 
+                "LINE_0892184", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

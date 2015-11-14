@@ -1,0 +1,2406 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "OpeningConversation_Fletcher", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "True", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "FLETCHER"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0326098", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "BK: Decided to leave the mentions of Middledark in this conversation while changing most to Underdark -- gives this one flavor (This task was a WOTC request 5/13/2015)", 
+                [
+                    "LINE_6567384", 
+                    "LINE_6138713", 
+                    "LINE_4508027"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4508027", 
+                "LINE_0326098", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_4508027|", 
+                "", 
+                "CK - tweaked", 
+                [
+                    "LINE_2909338"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "PuzzlingPortals_SQ_START_Untracked", 
+                                    "Quest": "PuzzlingPortals_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2909338", 
+                "LINE_4508027", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2909338|", 
+                "", 
+                "Y-you there! I seem to be stuck in a predicament...could you do a favor for this poor fool?", 
+                [
+                    "LINE_8198183", 
+                    "LINE_1430282", 
+                    "LINE_7320668"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8198183", 
+                "LINE_2909338", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_8198183|", 
+                "", 
+                "", 
+                [
+                    "LINE_6939821"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6939821", 
+                "LINE_8198183", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_6939821|", 
+                "", 
+                "So that's a funny question! Or well, this is a funny situation. Or...this is all terrible.", 
+                [
+                    "LINE_9165245"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9165245", 
+                "LINE_6939821", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_9165245|", 
+                "", 
+                "Name's Fletcher. I'm of the Divination School of Magic! I've always loved figuring out the hidden gems of this world, and its secrets...pulling back the curtain, if you would.", 
+                [
+                    "LINE_1475118"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1475118", 
+                "LINE_9165245", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_1475118|", 
+                "", 
+                "So what better place to explore than the Middledark!? It's wonderful down here! Aside from all of the chaotic demons around, I'm having the time of my life!", 
+                [
+                    "LINE_6071707", 
+                    "LINE_9316442", 
+                    "LINE_0420683"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9316442", 
+                "LINE_1475118", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_9316442|", 
+                "", 
+                "", 
+                [
+                    "LINE_2417144", 
+                    "LINE_4970547"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2417144", 
+                "LINE_9316442", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2417144|", 
+                "", 
+                "[SUCCESS] W-whoa! Alright, I get it! Put those strong fists of yours down!", 
+                [
+                    "LINE_2756833"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 7, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "str", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4970547", 
+                "LINE_9316442", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_4970547|", 
+                "", 
+                "", 
+                [
+                    "LINE_9982052"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6071707", 
+                "LINE_1475118", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_6071707|", 
+                "", 
+                "", 
+                [
+                    "LINE_9982052"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9982052", 
+                "LINE_6071707", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_9982052|", 
+                "", 
+                "The secrets these walls hold is immense! Who built these portals? What kind of magic controls it? I need to answer these questions!", 
+                [
+                    "LINE_0287842"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0287842", 
+                "LINE_9982052", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_0287842|", 
+                "", 
+                "I came down to the Middledark to find if the great Diviner Gromph Baenre left anything behind...sure, he was incredibly dangerous, but...", 
+                [
+                    "LINE_9843560"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9843560", 
+                "LINE_0287842", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_9843560|", 
+                "", 
+                "", 
+                [
+                    "LINE_2419371", 
+                    "LINE_9733774"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0420683", 
+                "LINE_1475118", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_0420683|", 
+                "", 
+                "I'm familiar with the Divination school. What have you discovered while down here? Namely, the portals?", 
+                [
+                    "LINE_2861887"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Class", 
+                                    "Class": "Wizard"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2861887", 
+                "LINE_0420683", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2861887|", 
+                "", 
+                "", 
+                [
+                    "LINE_2231970"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2231970", 
+                "LINE_2861887", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2231970|", 
+                "", 
+                "", 
+                [
+                    "LINE_2991961", 
+                    "LINE_3373885"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2991961", 
+                "LINE_2231970", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_2991961|", 
+                "", 
+                "", 
+                [
+                    "LINE_0064401"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0064401", 
+                "LINE_2991961", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_0064401|", 
+                "", 
+                "", 
+                [
+                    "LINE_4827902"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4827902", 
+                "LINE_0064401", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_1984879"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1984879", 
+                "LINE_4827902", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_1984879|", 
+                "", 
+                "So as I was studying this portal, I must've spent too much time inside it! I can't get out now! But I have a way out! I swear!", 
+                [
+                    "LINE_2756833"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2756833", 
+                "LINE_1984879", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2756833|", 
+                "", 
+                "I need you to find the other portal where my...other half is. I'll kick around as hard as I can so you can see it clearly!", 
+                [
+                    "LINE_7912881"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7912881", 
+                "LINE_2756833", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_7912881|", 
+                "", 
+                "I have my spellbook back there. If you can retrieve it for me and return it here, I can get myself out. Probably just need to figure out how this one specific portal works...", 
+                [
+                    "LINE_8632671", 
+                    "LINE_0936289", 
+                    "LINE_4604431"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0936289", 
+                "LINE_7912881", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_0936289|", 
+                "", 
+                "", 
+                [
+                    "LINE_2914145"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "ObtainSpellbook", 
+                                    "Quest": "PuzzlingPortals_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4604431", 
+                "LINE_7912881", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_4604431|", 
+                "", 
+                "", 
+                [
+                    "LINE_6555914"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6555914", 
+                "LINE_4604431", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_6555914|", 
+                "", 
+                "Pull me out!? Oh no, I'm afraid that's impossible. Whatever magic is keeping me stuck...it's doing a good job!", 
+                [
+                    "LINE_4835720", 
+                    "LINE_0936289", 
+                    "LINE_8632671"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4835720", 
+                "LINE_6555914", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_4835720|", 
+                "", 
+                "", 
+                [
+                    "LINE_5644750"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5644750", 
+                "LINE_4835720", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_5644750|", 
+                "", 
+                "", 
+                [
+                    "LINE_3995573", 
+                    "LINE_6083686"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6083686", 
+                "LINE_5644750", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_6083686|", 
+                "", 
+                "[FAILURE] [As you pull Fletcher, he doesn't budge, no matter your strength. There's no way he's budging.]", 
+                [
+                    "LINE_2347433"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2347433", 
+                "LINE_6083686", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2347433|", 
+                "", 
+                "Oww!! I swear I felt something pop just now...", 
+                [
+                    "LINE_8632671", 
+                    "LINE_0936289"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2914145", 
+                "LINE_0936289", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2914145|", 
+                "", 
+                "", 
+                [
+                    "LINE_2301157"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "PuzzlingPortals_SQ_START_Untracked", 
+                        "Quest": "PuzzlingPortals_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "SpokeToFletcherFirst", 
+                        "Quest": "PuzzlingPortals_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1430282", 
+                "LINE_2909338", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_1430282|", 
+                "", 
+                "", 
+                [
+                    "LINE_8763079"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8763079", 
+                "LINE_1430282", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_8763079|", 
+                "", 
+                "", 
+                [
+                    "LINE_9165245"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7320668", 
+                "LINE_2909338", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_7320668|", 
+                "", 
+                "", 
+                [
+                    "LINE_2048301"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2048301", 
+                "LINE_7320668", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2048301|", 
+                "", 
+                "", 
+                [
+                    "LINE_2254951"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2254951", 
+                "LINE_2048301", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2254951|", 
+                "", 
+                "", 
+                [
+                    "LINE_9031510"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9031510", 
+                "LINE_2254951", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6138713", 
+                "LINE_0326098", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_6138713|", 
+                "", 
+                "", 
+                [
+                    "LINE_4058682", 
+                    "LINE_7981891", 
+                    "LINE_2373429"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "ReturnSpellbook_FINAL", 
+                                    "Quest": "PuzzlingPortals_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "PuzzlingPortals_SQ_START_Untracked", 
+                                    "Quest": "PuzzlingPortals_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "True"
+            ], 
+            [
+                "LINE_7981891", 
+                "LINE_6138713", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_7981891|", 
+                "", 
+                "", 
+                [
+                    "LINE_8643884"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2373429", 
+                "LINE_6138713", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_2373429|", 
+                "", 
+                "", 
+                [
+                    "LINE_6555914"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4058682", 
+                "LINE_6138713", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_4058682|", 
+                "", 
+                "We got the spellbook right here. ", 
+                [
+                    "LINE_6955434"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ObtainSpellbook", 
+                                    "Quest": "PuzzlingPortals_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8643884", 
+                "LINE_7981891", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6955434", 
+                "LINE_4058682", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_6955434|", 
+                "", 
+                "Excellent! Thank you so much! ", 
+                [
+                    "LINE_1566429"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9693969", 
+                "LINE_1566429", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ReturnSpellbook", 
+                        "Quest": "PuzzlingPortals_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6567384", 
+                "LINE_0326098", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_6567384|", 
+                "", 
+                "Thank you so much again for getting me out of that mess! But boy, do I really need to get some new robes...oh, bother...", 
+                [
+                    "LINE_9866892"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ReturnSpellbook_FINAL", 
+                                    "Quest": "PuzzlingPortals_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9866892", 
+                "LINE_6567384", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1566429", 
+                "LINE_6955434", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_1566429|", 
+                "", 
+                "", 
+                [
+                    "LINE_9693969"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Misc:PuzzlingPortals_SQ_Spellbook"
+                ], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8632671", 
+                "LINE_7912881", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_8632671|", 
+                "", 
+                "e quest hasn't started yet, and they found fletcher's butt first, and picked up the spellbook", 
+                [
+                    "LINE_4439756"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ObtainSpellbook", 
+                                    "Quest": "PuzzlingPortals_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4439756", 
+                "LINE_8632671", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_4439756|", 
+                "", 
+                "", 
+                [
+                    "LINE_1566429"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4375625", 
+                "LINE_3995573", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_4375625|", 
+                "", 
+                "[With your incredible strength, you're able to pull Fletcher's top half out, but...the rest of him doesn't. Uh-oh.]", 
+                [
+                    "LINE_5941497"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3995573", 
+                "LINE_5644750", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4375625"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ObliterateFletcher_Untracked", 
+                        "Quest": "PuzzlingPortals_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "GibSelf", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 19, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "str", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5941497", 
+                "LINE_4375625", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ObliterateFletcher_FINAL", 
+                        "Quest": "PuzzlingPortals_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Misc:PuzzlingPortals_SQ_Spellbook"
+                ], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2419371", 
+                "LINE_9843560", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_2419371|", 
+                "", 
+                "", 
+                [
+                    "LINE_1984879"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9733774", 
+                "LINE_9843560", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_9733774|", 
+                "", 
+                "", 
+                [
+                    "LINE_1984879"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3373885", 
+                "LINE_2231970", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_3373885|", 
+                "", 
+                "", 
+                [
+                    "LINE_1984879"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2301157", 
+                "LINE_2914145", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "ButtTalk", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "BUTT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_3750165", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9761177"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9761177", 
+                "LINE_3750165", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_9761177|", 
+                "", 
+                "", 
+                [
+                    "LINE_1352656", 
+                    "LINE_4178210", 
+                    "LINE_4952294", 
+                    "LINE_7254860", 
+                    "LINE_8310656"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1352656", 
+                "LINE_9761177", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_1352656|", 
+                "", 
+                "", 
+                [
+                    "LINE_1919936"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1919936", 
+                "LINE_1352656", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_1919936|", 
+                "", 
+                "", 
+                [
+                    "LINE_4178210", 
+                    "LINE_4952294", 
+                    "LINE_7254860", 
+                    "LINE_8310656"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4178210", 
+                "LINE_9761177", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_4178210|", 
+                "", 
+                "", 
+                [
+                    "LINE_1919936"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4952294", 
+                "LINE_9761177", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_4952294|", 
+                "", 
+                "", 
+                [
+                    "LINE_4625008"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4625008", 
+                "LINE_4952294", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_4625008|", 
+                "", 
+                "", 
+                [
+                    "LINE_1352656", 
+                    "LINE_4178210", 
+                    "LINE_7254860", 
+                    "LINE_8310656"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7254860", 
+                "LINE_9761177", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_7254860|", 
+                "", 
+                "", 
+                [
+                    "LINE_6321117"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8310656", 
+                "LINE_9761177", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_8310656|", 
+                "", 
+                "", 
+                [
+                    "LINE_4853266", 
+                    "LINE_8680913"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Pickpocket", 
+                                    "Quest": "PuzzlingPortals_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4853266", 
+                "LINE_8310656", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_4853266|", 
+                "", 
+                "", 
+                [
+                    "LINE_8277744"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Pickpocket", 
+                        "Quest": "PuzzlingPortals_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 14, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "dex", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8680913", 
+                "LINE_8310656", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_8680913|", 
+                "", 
+                "[FAILURE] [The legs are swift enough to kick your hands away as you get too close>", 
+                [
+                    "LINE_1352656", 
+                    "LINE_4178210", 
+                    "LINE_4952294", 
+                    "LINE_7254860"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8277744", 
+                "LINE_4853266", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_1352656", 
+                    "LINE_4178210", 
+                    "LINE_4952294", 
+                    "LINE_7254860"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 100", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6321117", 
+                "LINE_7254860", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FinalConvo_2ndPart", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "FLETCHER"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0906427", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_5149796"
+                ], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "True", 
+                "False"
+            ], 
+            [
+                "LINE_5149796", 
+                "LINE_0906427", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_5149796|", 
+                "", 
+                "", 
+                [
+                    "LINE_2931254"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2931254", 
+                "LINE_5149796", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_2931254|", 
+                "", 
+                "", 
+                [
+                    "LINE_4263383", 
+                    "LINE_3126355"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8505850", 
+                "LINE_1116626", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_8505850|", 
+                "", 
+                "", 
+                [
+                    "LINE_9482236"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ReturnSpellbook_Untracked", 
+                        "Quest": "PuzzlingPortals_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9482236", 
+                "LINE_8505850", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8961566"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ReturnSpellbook_FINAL", 
+                        "Quest": "PuzzlingPortals_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Weapon:FletcherStaff_Reward"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8961566", 
+                "LINE_9482236", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3126355", 
+                "LINE_2931254", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_3126355|", 
+                "", 
+                "", 
+                [
+                    "LINE_1116626"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4263383", 
+                "LINE_2931254", 
+                "<PLAYER>", 
+                "|PuzzlingPortals_SQ_LINE_4263383|", 
+                "", 
+                "", 
+                [
+                    "LINE_5849951"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1116626", 
+                "LINE_3126355", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_1116626|", 
+                "", 
+                "", 
+                [
+                    "LINE_8505850"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5849951", 
+                "LINE_4263383", 
+                "<DEFAULT>", 
+                "|PuzzlingPortals_SQ_LINE_5849951|", 
+                "", 
+                "", 
+                [
+                    "LINE_8505850"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

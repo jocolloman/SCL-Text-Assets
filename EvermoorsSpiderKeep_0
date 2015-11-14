@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<Settings   
+    PortWeightX="0" 
+    PortWeightZ="-100" 
+    PlayerLighting="DrowCavesPlayerLighting" 
+    MaxHallwayDistance="30"
+    MaxHallwayTiles="2" >
+
+    <HallwayTiles>
+        <Tile Name="SPI_10_C_hall" TransitionOverride="SpiderCastleArch01" EndCapOverride="SpiderCastleCap_Blank" />
+    </HallwayTiles>
+
+</Settings>
+
+<!--
+Seeds:
+2074001712
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="SpiderSet01" />
+        <CreatureSet Name="DrowSet01" />
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                     <Tile Name="SPI_SpiderStaging"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- Tree 1, room w/locked door to the FlortalDown/Boss Floor, first ritual encounter, branch that leads to rest of dungeon, and (?)dead-end branch-->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SPI_S_C_SixLegs"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" ForceEntryPort="Port03" ForceExitPort="Port02" 
+                    TransitionOverride="SpiderCastleDoor"/>
+                </Tiles>
+            </Trunk>
+           
+            <Branch Min="1" Max="1">
+                <Tiles>
+                  <Tile Name="SPI_FlortalDown" TransitionOverride="SpiderCastle_StorySealedDoor" XMLID="RitualLockedDoor"/>  
+                </Tiles>
+            </Branch>
+        </Group>
+        
+
+<!-- Tree 2 -->
+        <Group>
+        <!-- Big connecting hallway tile to the west-->
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SPI_36_C_NarrowHalls" PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" ForceEntryPort="Port07" ForceExitPort="Port02" SecretRoom="1"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <!-->Ritual Encounter<-->
+                    <Tile Name="SPI_S_C_Platform"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"/>
+                     <!-->Ritual Encounter<-->
+                    <Tile Name="SPI_S_C_BasicCross"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"/>
+                    
+                    <Tile Name="SPI_S_C_TwinCornersDown"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"/>
+                   
+                </Tiles>
+            </Branch>
+        </Group>
+        
+<!-- Tree 3 -->       
+<!-- Looping tile north of the Exit/FlortalDown tile-->
+        <Group>
+            <Trunk Min="1" Max="1">
+               <Tiles>
+                    <Tile Name="SPI_S_C_TwinCornersDown"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port04" ForceExitPort="Port02"/>
+                    <!-->Ritual Encounter<-->
+                    <Tile Name="SPI_S_C_BasicCross"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port01" ForceExitPort="Port02"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <!-->Ritual Encounter<-->
+                    <Tile Name="SPI_S_C_Platform"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"/>
+                     <!-->Ritual Encounter<-->
+                    <Tile Name="SPI_S_C_BasicCross"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"/>
+                </Tiles>
+            </Branch>
+            
+        </Group> 
+        
+<!-- Tree 4 -->        
+<!-- Tile to the NorthEast -->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                     
+                     <Tile Name="SPI_S_C_OpenCross"  PortExtensionMin= "1" PortExtensionMax= "1" Max="1" ForceEntryPort="Port01" ForceExitPort ="Port011"/>
+                     
+                     <Tile Name="SPI_s_c_hall"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port01" ForceExitPort ="Port04"/> <!--Ambush Encounter tile -->
+                     
+                     <!-->Ritual Encounter<-->
+                     <Tile Name="SPI_S_C_Platform"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port02" ForceExitPort ="Port04"/>
+                     <!-->Ritual Encounter<-->
+                     <Tile Name="SPI_S_C_BasicCross"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port04" ForceExitPort ="Port01"/> 
+                </Tiles>
+            </Trunk>
+        </Group> 
+
+ <!-- Tree 5 -->       
+ <!-- Tile to the East, a little north of the flortal-->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SPI_s_c_armor"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port05" MaxDynamicHallways="2"/> <!--Ambush Encounter tile -->
+                   
+                    <Tile Name="SPI_S_C_OpenCross"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port03" MaxDynamicHallways="2"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch>
+                <Tiles>
+                    <Tile Name="SPI_Closet" TransitionOverride="SpiderCastleSecretDoor" Max="1" ForceEntryPort="Port01"/> 
+                </Tiles>
+            </Branch>
+      
+        </Group>    
+
+    </Groups>  
+</DungeonConfig>

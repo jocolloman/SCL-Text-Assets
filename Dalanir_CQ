@@ -1,0 +1,1736 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "Dalanir Companion Quest": {
+            "Dalanir_CQ": [
+                "Dalanir_CQ_Quest 0_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "QuestFlags": {
+                        "Dalanir_CQ_Start": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 0_Name", 
+                            1, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 0_JournalEntry", 
+                            "Dalanir_CQ_Start_Reward", 
+                            [
+                                {
+                                    "flag": "C4_IEN_FindTheCamp", 
+                                    "quest": "C4.0_Into_Eternal_Night", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            1, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_MeetDarklakeContact": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 1_Name", 
+                            2, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 1_JournalEntry", 
+                            "Dalanir_CQ_MeetDarklakeContact_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_Start", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "Dalanir_CQ_TravelToCave": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 2_Name", 
+                            3, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 2_JournalEntry", 
+                            "Dalanir_CQ_TravelToCave_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_MeetDarklakeContact", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "Dalanir_CQ_DalanirBackstoryExplained", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_FindSisterInCave": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 3_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 3_JournalEntry", 
+                            "Dalanir_CQ_FindSisterInCave_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_TravelToCave", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_DecideSistersFate": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 4_Name", 
+                            5, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 4_JournalEntry", 
+                            "Dalanir_CQ_DecideSistersFate_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_FindSisterInCave", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_DefeatSister": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 5_Name", 
+                            6, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 5_JournalEntry", 
+                            "Dalanir_CQ_DefeatSister_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_DecidedToKillSister", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_JournalEntryA": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 67_Name", 
+                            7, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 67_JournalEntry", 
+                            "Dalanir_CQ_JournalEntryA_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_AllowedSisterToLive", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SpeakWithGuard": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 44_Name", 
+                            8, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 44_JournalEntry", 
+                            "Dalanir_CQ_SpeakWithGuard_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "OR", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_DefeatSister", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "Dalanir_CQ_AllowedSisterToLive", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ReturnToMysteriousStranger": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 6_Name", 
+                            9, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 6_JournalEntry", 
+                            "Dalanir_CQ_ReturnToMysteriousStranger_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_SpeakWithGuard", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "Dalanir_CQ_DefeatSister", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            2, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            [
+                                "COMPLETE_DALANIRS_QUEST"
+                            ]
+                        ], 
+                        "Dalanir_CQ_JournalEntryB": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 68_Name", 
+                            10, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 68_JournalEntry", 
+                            "Dalanir_CQ_JournalEntryB_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_ReturnToMysteriousStranger", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_RemoveCurse": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 7_Name", 
+                            11, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 7_JournalEntry", 
+                            "Dalanir_CQ_RemoveCurse_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_AllowedSisterToLive", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "Dalanir_CQ_SpeakWithGuard", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            [
+                                "COMPLETE_DALANIRS_QUEST"
+                            ]
+                        ], 
+                        "Dalanir_CQ_GainEvilBuff": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 46_Name", 
+                            12, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 46_JournalEntry", 
+                            "Dalanir_CQ_GainEvilBuff_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_GainGoodBuff": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 47_Name", 
+                            13, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 47_JournalEntry", 
+                            "Dalanir_CQ_GainGoodBuff_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_JournalEntryC": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 69_Name", 
+                            14, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 69_JournalEntry", 
+                            "Dalanir_CQ_JournalEntryC_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_GainEvilBuff", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_JournalEntryD": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 70_Name", 
+                            15, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 70_JournalEntry", 
+                            "Dalanir_CQ_JournalEntryD_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Dalanir_CQ_GainGoodBuff", 
+                                            "quest": "Dalanir_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ]
+                    }, 
+                    "ConversationFlags": {
+                        "Dalanir_CQ_DalanirBackstoryExplained": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 11_Name", 
+                            16, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 11_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SpokeWithGoodPriest": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 48_Name", 
+                            17, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 48_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SpokeWithEvilPriestess": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 49_Name", 
+                            18, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 49_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_OfferedPriestessGold": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 50_Name", 
+                            19, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 50_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_OfferedPriestessAmulet": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 51_Name", 
+                            20, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 51_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_OfferedPriestessInformation": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 52_Name", 
+                            21, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 52_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_PriestIntroduced": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 55_Name", 
+                            22, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 55_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_OfferedPriestGold": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 56_Name", 
+                            23, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 56_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_OfferedPriestAmulet": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 57_Name", 
+                            24, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 57_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_TriedToBarterPriest": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 58_Name", 
+                            25, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 58_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ]
+                    }, 
+                    "InventoryFlags": {}, 
+                    "MiscFlags": {
+                        "Dalanir_CQ_AllowedSisterToLive": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 8_Name", 
+                            26, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 8_JournalEntry", 
+                            "Dalanir_CQ_AllowedSisterToLive_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_DecidedToKillSister": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 9_Name", 
+                            27, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 9_JournalEntry", 
+                            "Dalanir_CQ_DecidedToKillSister_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ReceivedPassword": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 10_Name", 
+                            28, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 10_JournalEntry", 
+                            "Dalanir_CQ_ReceivedPassword_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_FoundCrystalPuzzleConvo": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 36_Name", 
+                            29, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 36_JournalEntry", 
+                            "Dalanir_CQ_FoundCrystalPuzzleConvo_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_InteractWithSigilAltarConvo": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 37_Name", 
+                            30, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 37_JournalEntry", 
+                            "Dalanir_CQ_InteractWithSigilAltarConvo_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_InteractWithSigilWallConvo": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 38_Name", 
+                            31, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 38_JournalEntry", 
+                            "Dalanir_CQ_InteractWithSigilWallConvo_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_RemoveCrystalPuzzleConvo": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 39_Name", 
+                            32, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 39_JournalEntry", 
+                            "Dalanir_CQ_RemoveCrystalPuzzleConvo_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_FoundSigilPuzzleConvo": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 40_Name", 
+                            33, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 40_JournalEntry", 
+                            "Dalanir_CQ_FoundSigilPuzzleConvo_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_TrapTriggered": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 41_Name", 
+                            34, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 41_JournalEntry", 
+                            "Dalanir_CQ_TrapTriggered_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_TrapComplete": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 42_Name", 
+                            35, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 42_JournalEntry", 
+                            "Dalanir_CQ_TrapComplete_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_TrapReopened": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 45_Name", 
+                            36, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 45_JournalEntry", 
+                            "Dalanir_CQ_TrapReopened_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_AgreedWithPriestess": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 53_Name", 
+                            37, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 53_JournalEntry", 
+                            "Dalanir_CQ_AgreedWithPriestess_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_AgreedWithPriest": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 54_Name", 
+                            38, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 54_JournalEntry", 
+                            "Dalanir_CQ_AgreedWithPriest_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SpawnBarrierRemovalFX": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 71_Name", 
+                            39, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 71_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SpawnDalanir": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 72_Name", 
+                            40, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 72_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SpawnDalanirOutside": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 73_Name", 
+                            41, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 73_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "Dalanir_CQ_AppliedBuffToDalanir": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 74_Name", 
+                            42, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 74_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "Dalanir_CQ_AppliedCurseToDalanir": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 75_Name", 
+                            43, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 75_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SpawnDalanirAtSister": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 76_Name", 
+                            44, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 76_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SpawnDalanirAtGuard": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 77_Name", 
+                            45, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 77_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ]
+                    }, 
+                    "PuzzleFlags": {
+                        "Dalanir_CQ_ShardA_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 12_0_Name", 
+                            46, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 12_0_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardB_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 13_Name", 
+                            47, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 13_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardC_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 14_Name", 
+                            48, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 14_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardD_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 15_Name", 
+                            49, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 15_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardE_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 16_Name", 
+                            50, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 16_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardA_InThisPillar": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 17_Name", 
+                            51, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 17_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardB_InThisPillar": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 18_Name", 
+                            52, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 18_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardC_InThisPillar": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 19_Name", 
+                            53, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 19_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardD_InThisPillar": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 20_Name", 
+                            54, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 20_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardE_InThisPillar": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 21_Name", 
+                            55, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 21_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilA_InThisSocket": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 22_Name", 
+                            56, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 22_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilB_InThisSocket": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 23_Name", 
+                            57, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 23_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilC_InThisSocket": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 24_Name", 
+                            58, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 24_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilD_InThisSocket": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 25_Name", 
+                            59, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 25_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilE_InThisSocket": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 26_Name", 
+                            60, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 26_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilA_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 27_Name", 
+                            61, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 27_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilB_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 28_Name", 
+                            62, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 28_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilC_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 29_Name", 
+                            63, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 29_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilD_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 30_Name", 
+                            64, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 30_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilE_Inventory": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 31_Name", 
+                            65, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 31_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_ShardPuzzleComplete": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 32_Name", 
+                            66, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 32_JournalEntry", 
+                            "Dalanir_CQ_ShardPuzzleComplete_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilPuzzleTrapComplete": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 33_Name", 
+                            67, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 33_JournalEntry", 
+                            "Dalanir_CQ_SigilPuzzleTrapComplete_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilPuzzleComplete": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 34_Name", 
+                            68, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 34_JournalEntry", 
+                            "Dalanir_CQ_SigilPuzzleComplete_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_SigilPuzzleBonusComplete": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 35_Name", 
+                            69, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 35_JournalEntry", 
+                            "Dalanir_CQ_SigilPuzzleBonusComplete_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_CQ_InteractingWithSigilAltar": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 43_Name", 
+                            70, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 43_JournalEntry", 
+                            "Dalanir_CQ_InteractingWithSigilAltar_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "deleteme": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 59_Name", 
+                            71, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 59_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ]
+                    }, 
+                    "CampFlags": {
+                        "Dalanir_BG_1_1": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 60_Name", 
+                            72, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 60_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_BG_1_2": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 61_Name", 
+                            73, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 61_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_BG_1_3": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 62_Name", 
+                            74, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 62_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_BG_2_1": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 63_Name", 
+                            75, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 63_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_BG_2_2": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 64_Name", 
+                            76, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 64_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Dalanir_BG_2_3": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 65_Name", 
+                            77, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 65_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Talked_About_Dalanir": [
+                            "Dalanir_CQ_Dalanir_CQ_Flag 66_Name", 
+                            78, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Dalanir_CQ_Dalanir_CQ_Flag 66_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "PartyCamp_Forest", 
+                "Hommet"
+            ]
+        }
+    }
+}

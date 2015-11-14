@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" 
+MaxHallwayDistance="100"
+MaxHallwayTiles="2" >
+
+<HallwayTiles>
+    <Tile Name="CAT_10_C_Hall"  TransitionOverride= "CatacombsArch01"/>   
+</HallwayTiles>
+
+</Settings>
+<!--
+Seeds: 
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="MafCatacombs1" />  
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles>
+                       <Tile Name="MAF_Staging_B" />                       
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- End Staging -->        
+      
+<!-- Tree 1--> 
+       <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >                                                                          
+                       <Tile Name="CAT_S_C_Prongs" PortExtensionMin= "3" PortExtensionMax = "3" OpenAllPorts = "1" />                                          
+                       <Tile Name="CAT_S_C_Angle" PortExtensionMin= "3" PortExtensionMax = "3" OpenAllPorts = "1"/>                                                
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles >                                                                    
+                       <Tile Name="CAT_S_C_SixLegs" PortExtensionMin= "3" PortExtensionMax = "3" OpenAllPorts = "1" />                       
+                       <Tile Name="CAT_S_C_Armor"  PortExtensionMin= "3" PortExtensionMax = "3" OpenAllPorts = "1"/>              
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="CAT_10_C_Hall" OpenAllPorts = "1" TransitionOverride= "CatacombsArch01" />          
+                </Tiles>
+            </Leaf>
+     </Group>
+
+<!--Boss Tile -->
+     <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="Necro_Boss_EmptyB" PortExtensionMin= "3" PortExtensionMax = "3" OpenAllPorts = "1" />                              
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="CAT_10_I_Hall" OpenAllPorts = "1" TransitionOverride= "CatacombsArch01" />          
+                </Tiles>
+            </Branch>
+     </Group>
+</Groups>  
+    
+     <PostBuildTiles>
+        <Tiles>
+            <Tile Name="CAT_10_Secret" Max = "1" TransitionOverride = "CatacombsSecretDoor01" PlacementDistanceRequired="100"/>  
+		</Tiles>
+    </PostBuildTiles>
+     
+
+</DungeonConfig>

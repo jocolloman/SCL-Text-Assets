@@ -1,0 +1,402 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch1_BanditCave_CubeBones", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_3159289", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch1_BanditCave_CubeBones_LINE_3159289|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8730509", 
+                "<ROOT>", 
+                "RPE", 
+                "|Ch1_BanditCave_CubeBones_LINE_8730509|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Cube_Spotted", 
+                "NoBegFade": "False", 
+                "IsFinal": "True", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_7327526", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch1_BanditCave_CubeBones_LINE_7327526|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Cube_Defeated", 
+                "NoBegFade": "False", 
+                "IsFinal": "True", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2081236", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch1_BanditCave_CubeBones_LINE_2081236|", 
+                "", 
+                "BK wanted to change word wallet because sounds modern, but technically it is an old word....", 
+                [
+                    "LINE_0036150", 
+                    "LINE_2540681"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0036150", 
+                "LINE_2081236", 
+                "ILLYDIA", 
+                "|Ch1_BanditCave_CubeBones_LINE_0036150|", 
+                "", 
+                "", 
+                [
+                    "LINE_1714110"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1714110", 
+                "LINE_0036150", 
+                "LARETHAR", 
+                "|Ch1_BanditCave_CubeBones_LINE_1714110|", 
+                "", 
+                "", 
+                [
+                    "LINE_2540681"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2540681", 
+                "LINE_1714110", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1369483", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

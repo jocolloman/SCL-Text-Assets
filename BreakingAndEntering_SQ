@@ -1,0 +1,576 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "BreakingAndEntering_SQ": [
+            "BreakingAndEntering_SQ_Quest 0_Name", 
+            0, 
+            "BreakingEntering_SQ", 
+            "..\\..\\..\\..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+            "", 
+            {
+                "InteractedWithChest": [
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 0_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "HomeOwnerRanInside": [
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 1_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "DefeatedHomeOwner": [
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 2_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 2_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "LootedChest": [
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 3_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 3_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "EnteredHouse": [
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 4_Name", 
+                    5, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 4_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "Part2": {
+                    "InteractedWithChest2": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 5_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 5_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "HomeOwnerRanInside2": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 7_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 7_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DefeatedHomeOwner2": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 8_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 8_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "LootedChest2": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 9_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 9_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "EnteredHouse2": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 10_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 10_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Part3": {
+                    "InteractedWithChest3": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 6_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 6_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "HomeOwnerRanInside3": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 11_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 11_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DefeatedHomeOwner3": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 12_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 12_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "LootedChest3": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 13_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 13_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "EnteredHouse3": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 14_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 14_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DexCheckSuccess": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 15_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 15_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "SpawnedChests": {
+                    "SpawnedChest1": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 16_0_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 16_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SpawnedChest2": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 17_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 17_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SpawnedChest3": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 18_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 18_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "ConditionFlags": {
+                    "SpawnedChest1AndInteracted": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 19_Name", 
+                        20, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 19_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SpawnedChest2AndInteracted": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 20_Name", 
+                        21, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 20_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SpawnedChest3AndInteracted": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 21_Name", 
+                        22, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 21_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "CurrentHouse": {
+                    "currentHouse_A": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 22_Name", 
+                        23, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 22_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "currentHouse_B": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 23_Name", 
+                        24, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 23_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "currentHouse_C": [
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 24_Name", 
+                        25, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BreakingAndEntering_SQ_BreakingAndEntering_SQ_Flag 24_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

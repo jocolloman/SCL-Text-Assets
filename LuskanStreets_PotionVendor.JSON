@@ -1,0 +1,352 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "LuskanStreets_PotionVendor", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "LUSKANPOTIONVENDOR"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5750178", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|LuskanStreets_PotionVendor_LINE_5750178|", 
+                "", 
+                "", 
+                [
+                    "LINE_0515237", 
+                    "LINE_6843461", 
+                    "LINE_5131502"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0515237", 
+                "LINE_5750178", 
+                "<PLAYER>", 
+                "|LuskanStreets_PotionVendor_LINE_0515237|", 
+                "", 
+                "", 
+                [
+                    "LINE_9737173"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9737173", 
+                "LINE_0515237", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "OpenVendor", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6843461", 
+                "LINE_5750178", 
+                "<PLAYER>", 
+                "|LuskanStreets_PotionVendor_LINE_6843461|", 
+                "", 
+                "Have you heard of an Infernal Stone?", 
+                [
+                    "LINE_6813728"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_CQ_Start", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Bryn_CQ_FindMerchant", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C4_B_BrynEscaped", 
+                                    "Quest": "C4.3_Betrayal", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6813728", 
+                "LINE_6843461", 
+                "<DEFAULT>", 
+                "|LuskanStreets_PotionVendor_LINE_6813728|", 
+                "", 
+                "", 
+                [
+                    "LINE_1924942"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1924942", 
+                "LINE_6813728", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_CQ_FindMerchant", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_CQ_MapUnlockWarehouse", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5131502", 
+                "LINE_5750178", 
+                "<PLAYER>", 
+                "|LuskanStreets_PotionVendor_LINE_5131502|", 
+                "", 
+                "", 
+                [
+                    "LINE_1003918"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1003918", 
+                "LINE_5131502", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

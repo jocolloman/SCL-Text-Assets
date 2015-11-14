@@ -1,0 +1,344 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.9"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "Gossip": [
+            "Gossip_Gossip_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "Luskan_Gossip": {
+                    "Gossip_Luskan_HeardAbout_Caravan": [
+                        "Gossip_Gossip_DidTjat_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_DidTjat_JournalEntry", 
+                        "", 
+                        {}, 
+                        "The player's waylaid caravan", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Luskan_HeardAbout_SlumsFire": [
+                        "Gossip_Gossip_Flag 2_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 2_JournalEntry", 
+                        "", 
+                        {}, 
+                        "The demon attack", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Luskan_HeardAbout_RareVintage": [
+                        "Gossip_Gossip_Flag 6_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 6_JournalEntry", 
+                        "", 
+                        {}, 
+                        "the rare wine - cutlass cook", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Luskan_HeardAbout_Blix": [
+                        "Gossip_Gossip_Flag 7_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 7_JournalEntry", 
+                        "", 
+                        {}, 
+                        "The goblin outside the luskan gates", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Luskan_HeardAbout\u001f_DeadRatsQuests": [
+                        "Gossip_Gossip_Flag 8_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 8_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Did dead rats quests (titus)", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Luskan_HeardAbout_DeadZombieOgre": [
+                        "Gossip_Gossip_Flag 9_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 9_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Killed Ogre Zombie", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "Darklake_Gossip": {
+                    "Gossip_Darklake_HeardAbout_Mindflayer": [
+                        "Gossip_Gossip_DidThis_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_DidThis_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Before going to stronghold ", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Darklake_HeardAbout_PortalsRealigned": [
+                        "Gossip_Gossip_Flag 3_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 3_JournalEntry", 
+                        "", 
+                        {}, 
+                        "First convo - after middledark", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Darklake_HeardAbout_DuergarKing": [
+                        "Gossip_Gossip_Flag 4_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 4_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Darklake_HeardAbout_ThangarsStash": [
+                        "Gossip_Gossip_Flag 10_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 10_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Killed guards in stash", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Darklake_HeardAbout_DemonAttack": [
+                        "Gossip_Gossip_Flag 11_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 11_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Final - after bryn rpe", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Gossip_Darklake_HeardAbout_DeadIllithid": [
+                        "Gossip_Gossip_Flag 12_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Gossip_Gossip_Flag 12_JournalEntry", 
+                        "", 
+                        {}, 
+                        "killed mindflayer - probably wont happen because of (demonattack)", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            ""
+        ]
+    }
+}

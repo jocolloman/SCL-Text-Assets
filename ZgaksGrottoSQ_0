@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="0" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>   <!-- NO ENEMIES IN THIS DUNGEON! -->
+		<!-- <CreatureSet Name="BanditSet1" /> -->
+		<!-- <CreatureSet Name="HumanSet1" /> -->
+	</CreatureSets>
+    <Groups>
+
+        <Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="BAN_Staging" TransitionOverride = "BanditDoor01_Locked" />   
+                </Tiles>
+            </Trunk>
+        </Group>
+
+        <Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="BAN_36_C_Lagoon" ForceEntryPort ="06" ForceExitPort ="03" XMLID = "OppressedRoom" />   
+                </Tiles>
+            </Trunk>
+
+        </Group>
+		
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+					<Tile Name="BAN_S_T_Donut" PortExtensionMin = "1" PortExtensionMax = "1" ForceEntryPort = "03" ForceExitPort = "01" OpenAllPorts = "1"/>
+                </Tiles>
+            </Trunk>
+			
+			<Branch Min ="2" Max="2" Sequential = "1">
+				<Tiles>
+					<Tile Name="BAN_S_I_Bridge" PortExtentionMin = "1" PortExtensionMax = "1" ForceEntryPort = "02" OpenAllPorts = "1" TransitionOverride = "BanditArch01"/>
+					<Tile Name="BAN_S_I_TwoPlat" PortExtentionMin = "1" PortExtensionMax = "1" ForceEntryPort = "02" OpenAllPorts = "1"/>
+                </Tiles>
+			</Branch>
+			
+			</Group>
+			
+			<!--
+			<Branch Min ="1" Max="1">
+				<Tiles>
+					<Tile Name="BAN_S_I_Bridge" PortExtentionMin = "1" PortExtensionMax = "1" ForceEntryPort = "02" OpenAllPorts = "1" TransitionOverride = "BanditArch01"/>
+                </Tiles>
+			</Branch>
+			<Leaf Min ="1" Max="1">
+				<Tiles>
+					<Tile Name="BAN_S_I_TwoPlat" PortExtentionMin = "1" PortExtensionMax = "1" ForceEntryPort = "02" OpenAllPorts = "1"/>
+                </Tiles>
+			</Leaf>
+        </Group>
+		-->
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="BAN_S_C_Platform" TransitionOverride = "BanditArch01" ForceEntryPort ="03" ForceExitPort ="01" XMLID = "ZgakSecret" />   
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="BAN_36_C_River" TransitionOverride = "BanditArch01" ForceEntryPort ="04" ForceExitPort ="03" />   
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="BAN_S_E_Comma" ForceEntryPort ="02" ForceExitPort ="01" XMLID = "LeverRoom"/>   
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="BAN_S_C_Psi" ForceEntryPort ="02" ForceExitPort ="01" OpenAllPorts = "1" TransitionOverride = "BanditDoor01" />   
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="BAN_S_D1_Secret" TransitionOverride = "BanditArch01" />   
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+
+    </Groups> 
+</DungeonConfig>

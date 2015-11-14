@@ -1,0 +1,1124 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "Map_Pin_Toggle": [
+            "Map_Pin_Toggle_Map_Pins_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "IntroForest": {
+                    "Map_Pin_IntroForest": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IntroForest_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IntroForest_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C1_WU_Start", 
+                                "quest": "C1.1_Waking_Up", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_BanditCave": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_BanditCave_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_BanditCave_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C1_AT_EnterHideout", 
+                                "quest": "C1.2_After_Them", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_IntroForestDen": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IntroForestDen_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IntroForestDen_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Ch1_SQ_FD_EnteredDen", 
+                                "quest": "Ch1_SQ_ForestDen", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "IntroCamp": {
+                    "Map_Pin_IntroCamp": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IntroCamp_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IntroCamp_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C1_AT_ReturnToJarhild", 
+                                "quest": "C1.2_After_Them", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_LuskanCave": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanCave_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanCave_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_RageWolfDen": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_RageWolfDen_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_RageWolfDen_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_LuskanSewers": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanSewers_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanSewers_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C2_ANQ_EnterTheSewers", 
+                                "quest": "C2.1_A_New_Quest", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "LuskanStreets": {
+                    "Map_Pin_LuskanStreets": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanStreets_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanStreets_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_CutlassCellar": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_CutlassCellar_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_CutlassCellar_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_CutlassSewer": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_CutlassSewer_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_CutlassSewer_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_JarhildCQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_JarhildCQ_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_JarhildCQ_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_LuskanCultBasementSQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanCultBasementSQ_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanCultBasementSQ_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "LuskanSlums": {
+                    "Map_Pin_LuskanSlums": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanSlums_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanSlums_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_TC_Final", 
+                                                "quest": "C2.15_The_Contact", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C3_CBL_GoToCutlass", 
+                                                "quest": "C3.2_Chaos_Breaks_Loose", 
+                                                "set": 0
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C3_CBL_DyingDrow", 
+                                                "quest": "C3.2_Chaos_Breaks_Loose", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_LuskanSlumsDemons": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanSlumsDemons_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LuskanSlumsDemons_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "C3_CBL_GoToCutlass", 
+                                        "quest": "C3.2_Chaos_Breaks_Loose", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "C3_CBL_DyingDrow", 
+                                        "quest": "C3.2_Chaos_Breaks_Loose", 
+                                        "set": 0
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_WizardsLair": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_WizardsLair_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_WizardsLair_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C2_TMOM_TakePortal", 
+                                "quest": "C2.3_The_Mind_Of_Madness", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_LaretharCQDBFort": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LaretharCQDBFort_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LaretharCQDBFort_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Larethar_CQ_Gate_Guard_Gone", 
+                                "quest": "Larethar_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_BrynCQHideout": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_BrynCQHideout_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_BrynCQHideout_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Bryn_CQ_FindHideout", 
+                                "quest": "Bryn_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_BrynCQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_BrynCQ_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_BrynCQ_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Bryn_CQ_FindMerchant", 
+                                "quest": "Bryn_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_IzhkinCQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IzhkinCQ_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IzhkinCQ_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "RandomCatacombs": {
+                        "Map_Pin_Catacombs_West": [
+                            "Map_Pin_Toggle_Map_Pins_Map_Pin_MaferilsLab_Name", 
+                            20, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Map_Pin_Toggle_Map_Pins_Map_Pin_MaferilsLab_JournalEntry", 
+                            "", 
+                            [], 
+                            "What could possibly go wron?", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            ""
+                        ], 
+                        "Map_Pin_Catacombs_North": [
+                            "Map_Pin_Toggle_Map_Pins_Map_Pin_NotMafA_Name", 
+                            21, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Map_Pin_Toggle_Map_Pins_Map_Pin_NotMafA_JournalEntry", 
+                            "", 
+                            [], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            ""
+                        ], 
+                        "Map_Pin_Catacombs_East": [
+                            "Map_Pin_Toggle_Map_Pins_Map_Pin_NotMafB_Name", 
+                            22, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Map_Pin_Toggle_Map_Pins_Map_Pin_NotMafB_JournalEntry", 
+                            "", 
+                            [], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            ""
+                        ]
+                    }
+                }, 
+                "Forest": {
+                    "Map_Pin_Forest": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_Forest_Name", 
+                        23, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_Forest_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3_TNM_ReturnToTraitor", 
+                                "quest": "C3.0_The_Next_Move", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_WolfDen": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_WolfDen_Name", 
+                        24, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_WolfDen_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_Chapterhouse": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_Chapterhouse_Name", 
+                        25, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_Chapterhouse_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3_CD_EnterChapterhouse", 
+                                "quest": "C3.1_Chasing_Dawn", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "LurkwoodBog": {
+                    "Map_Pin_LurkwoodBog": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LurkwoodBog_Name", 
+                        26, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_LurkwoodBog_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3_TLOR_Start", 
+                                "quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_EvermoorsSpiderKeep": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_EvermoorsSpiderKeep_Name", 
+                        27, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_EvermoorsSpiderKeep_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3_TLOR_EnterRhylfangsLair", 
+                                "quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_TrollCaveSQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_TrollCaveSQ_Name", 
+                        28, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_TrollCaveSQ_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "Middledark": {
+                    "Map_Pin_Middledark": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_Middledark_Name", 
+                        29, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_Middledark_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3_TLOR_DescendDeeper", 
+                                "quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_UnderdarkDescent": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_UnderdarkDescent_Name", 
+                        30, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_UnderdarkDescent_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C4_IEN_EnterUnderdarkCave", 
+                                "quest": "C4.0_Into_Eternal_Night", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_BurningAmbitionSQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_BurningAmbitionSQ_Name", 
+                        31, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_BurningAmbitionSQ_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Ch4_SQ_DC_DoorOpened", 
+                                "quest": "Ch4_SQ_DuergarCamp", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "DarkLakeDistrict": {
+                    "Map_Pin_DarklakeDistrict": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_DarklakeDistrict_Name", 
+                        32, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_DarklakeDistrict_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C4_COTGD_Start", 
+                                "quest": "C4.1_City_Of_The_Grey_Dwarves", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_ThangarsStash": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_ThangarsStash_Name", 
+                        33, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_ThangarsStash_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_GracklstughStreets": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_GracklstughStreets_Name", 
+                        34, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_GracklstughStreets_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C4_COTGD_StreetsMapPin", 
+                                "quest": "C4.1_City_Of_The_Grey_Dwarves", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_DuergarStronghold": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_DuergarStronghold_Name", 
+                        35, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_DuergarStronghold_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C4_PM_FindKeys", 
+                                "quest": "C4.2_Prison_For_The_Mind", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_DuergarRamparts": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_DuergarRamparts_Name", 
+                        36, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_DuergarRamparts_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C4_PM_GetToRamparts", 
+                                "quest": "C4.2_Prison_For_The_Mind", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_RampartsDungeon": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_RampartsDungeon_Name", 
+                        37, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_RampartsDungeon_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "FinalBoss": {
+                    "Map_Pin_FinalBoss": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_FinalBoss_Name", 
+                        38, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_FinalBoss_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C4_TC_ExitToBoss", 
+                                "quest": "C4.5_The_Calling", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "SoloPins": {
+                    "Map_Pin_HommetCQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_HommetCQ_Name", 
+                        39, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_HommetCQ_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Hommet_CQ_U_MapPin", 
+                                "quest": "Hommet_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_SlimeCultCastleSQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_SlimeCultCastleSQ_Name", 
+                        40, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_SlimeCultCastleSQ_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "SlimeCult_SQ_Start", 
+                                "quest": "SlimeCult_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_RareVintageSQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_RareVintageSQ_Name", 
+                        41, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_RareVintageSQ_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "RareVintageSQ_MapPinEnabled", 
+                                "quest": "RareVintage_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_IllydiaCQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IllydiaCQ_Name", 
+                        42, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_IllydiaCQ_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Illydia_CQ_U_MapPin", 
+                                "quest": "Illydia_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_DalanirCQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_DalanirCQ_Name", 
+                        43, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_DalanirCQ_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Dalanir_CQ_MeetDarklakeContact", 
+                                "quest": "Dalanir_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "Map_Pin_ZgaksGrottoSQ": [
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_ZgaksGrottoSQ_Name", 
+                        44, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Map_Pin_Toggle_Map_Pins_Map_Pin_ZgaksGrottoSQ_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "ROTC_SQ_Start", 
+                                "quest": "ReturnOfTheChief_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

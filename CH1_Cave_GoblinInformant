@@ -1,0 +1,1344 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "CH1_Cave_GoblinInformant": [
+            "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Name", 
+            0, 
+            "QS_GoblinInformant", 
+            "..\\..\\..\\..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+            "", 
+            {
+                "MainFlags": {
+                    "CH1_C_GI_Start": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 44_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 44_JournalEntry", 
+                        "CH1_C_GI_Start_Reward", 
+                        [
+                            {
+                                "flag": "C1_AT_Start", 
+                                "quest": "C1.2_After_Them", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        1, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_JournalFlagA": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 48_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 48_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_TollinMentionedMartumal", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_C_GI_FoundLetter": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 6_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 6_JournalEntry", 
+                        "CH1_C_GI_FoundLetter_Reward", 
+                        [], 
+                        "This flag is set if the player has discovered the letter proving Martumal's guilt", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "BanditCave", 
+                        []
+                    ], 
+                    "CH1_C_GI_Discovered": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 7_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 7_JournalEntry", 
+                        "CH1_C_GI_Discovered_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_Start", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "This flag is set when the player finds Martumal for the first time in the torture chamber", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "BanditCave", 
+                        []
+                    ], 
+                    "CH1_C_GI_SaveFromGoblins": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 28_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 28_JournalEntry", 
+                        "CH1_C_GI_SaveFromGoblins_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_DiscoveredHelperFlag", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "BanditCave", 
+                        []
+                    ], 
+                    "CH1_C_GI_SpeakWithPrisoner": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 29_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 29_JournalEntry", 
+                        "CH1_C_GI_SpeakWithPrisoner_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_SaveFromGoblins", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "BanditCave", 
+                        []
+                    ], 
+                    "CH1_C_GI_DecideMartumalsFate": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 31_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 31_JournalEntry", 
+                        "CH1_C_GI_DecideMartumalsFate_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_Revealed", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "BanditCave", 
+                        []
+                    ], 
+                    "CH1_C_GI_Revealed": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Revealed_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Revealed_JournalEntry", 
+                        "CH1_C_GI_Revealed_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": []
+                            }
+                        ], 
+                        "This flag is set once Martumal confesses", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_ReleasedQuestTracker": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 30_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 30_JournalEntry", 
+                        "CH1_C_GI_ReleasedQuestTracker_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_Released", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "CH1_C_GI_Revealed", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 0
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "BanditCave", 
+                        []
+                    ], 
+                    "CH1_C_GI_VengeanceOnMartumal": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 32_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 32_JournalEntry", 
+                        "CH1_C_GI_VengeanceOnMartumal_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_DecidedToKill", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "BanditCave", 
+                        []
+                    ], 
+                    "CH1_C_GI_ReportToCaravanLeader": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 34_Name", 
+                        11, 
+                        false, 
+                        true, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 34_JournalEntry", 
+                        "CH1_C_GI_ReportToCaravanLeader_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_VengeanceOnMartumal", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_ReportToCaravanLeaderTracker": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 40_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 40_JournalEntry", 
+                        "CH1_C_GI_ReportToCaravanLeaderTracker_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_ReportToCaravanLeader", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_CaravanComplete": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 12_Name", 
+                        13, 
+                        false, 
+                        true, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 12_JournalEntry", 
+                        "CH1_C_GI_CaravanComplete_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_Released", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "CH1_C_GI_Revealed", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 0
+                                    }
+                                ]
+                            }
+                        ], 
+                        "This flag is to let you turn in to Martumal at the Caravan for an extra reward", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_CaravanCompleteTracker": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 42_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 42_JournalEntry", 
+                        "CH1_C_GI_CaravanCompleteTracker_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_CaravanComplete", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_CaravanCompleteBetrayalVersion": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 41_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 41_JournalEntry", 
+                        "CH1_C_GI_CaravanCompleteBetrayalVersion_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_Released", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "CH1_C_GI_Revealed", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_AcceptMartumalDealTracker": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 37_Name", 
+                        16, 
+                        false, 
+                        true, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 37_JournalEntry", 
+                        "CH1_C_GI_AcceptMartumalDealTracker_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_AcceptMartumalDeal", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_RejectMartumalDealTracker": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 38_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 38_JournalEntry", 
+                        "CH1_C_GI_RejectMartumalDealTracker_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_RejectMartumalDeal", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_ReportMartumalFinal": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 39_Name", 
+                        18, 
+                        false, 
+                        true, 
+                        false, 
+                        true, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 39_JournalEntry", 
+                        "CH1_C_GI_ReportMartumalFinal_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_RejectMartumalDealTracker", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "CH1_C_GI_ToldTollin", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "BK: Added an OR. If you tattle to Tollin then plot ends", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_ReportMartumalFinalTracker": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 43_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 43_JournalEntry", 
+                        "CH1_C_GI_ReportMartumalFinalTracker_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_ReportMartumalFinal", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "C2_ANQ_Start", 
+                                        "quest": "C2.1_A_New_Quest", 
+                                        "set": 0
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "CH1_C_GI_ReportNothing": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 47_Name", 
+                        20, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 47_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH1_C_GI_RejectMartumalDealTracker", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "CH1_C_GI_ReportMartumalFinalTracker", 
+                                        "quest": "CH1_Cave_GoblinInformant", 
+                                        "set": 0
+                                    }, 
+                                    {
+                                        "flag": "C2_ANQ_Start", 
+                                        "quest": "C2.1_A_New_Quest", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_C_GI_QuestFailed": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 2388_Name", 
+                        21, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 2388_JournalEntry", 
+                        "CH1_C_GI_DecideMartumalsFate_Reward", 
+                        [
+                            {
+                                "flag": "CH1_C_GI_SpeakWithPrisoner", 
+                                "quest": "CH1_Cave_GoblinInformant", 
+                                "set": 0
+                            }, 
+                            {
+                                "flag": "C1_AT_HeadToLuskan", 
+                                "quest": "C1.2_After_Them", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "CH1_C_GI_Start", 
+                                "quest": "CH1_Cave_GoblinInformant", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "", 
+                        {}
+                    ]
+                }, 
+                "Convo Helper Flags": {
+                    "CH1_C_GI_TalkedOnce": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 17_Name", 
+                        22, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 17_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Flag to know we talked to him the first time already", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_WhoAreYou": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 9_Name", 
+                        23, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 9_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_Threatened": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 13_Name", 
+                        24, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 13_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Flag to see if we threatened him before releasing him", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_WhyAreThe": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 10_Name", 
+                        25, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 10_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_FadeOut": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 27_Name", 
+                        26, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 27_JournalEntry", 
+                        "", 
+                        {}, 
+                        "This flag tells us to fade to black so we can remove Martumal (after you save him, let him go)", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_ToldTollin": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 21_Name", 
+                        27, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 21_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_TollinBeforeAmbush": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 22_Name", 
+                        28, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 22_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_TollinAfterAmbush": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 23_Name", 
+                        29, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 23_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_TollinAfterCaves": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 24_Name", 
+                        30, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 24_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_TollinMentionedMartumal": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 25_Name", 
+                        31, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 25_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_TookTollinTincture": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 26_Name", 
+                        32, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 26_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_Released": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 5_Name", 
+                        33, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 5_JournalEntry", 
+                        "", 
+                        [], 
+                        "This flag is set if the player lets Martumal out of the Torture Device", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "BanditCave", 
+                        []
+                    ], 
+                    "CH1_C_GI_DecidedToKill": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 33_Name", 
+                        34, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 33_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_C_GI_RunAway": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 15_Name", 
+                        35, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 15_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Flag to tell Martumal to get the hell out of here", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_InformantGone": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 16_Name", 
+                        36, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 16_JournalEntry", 
+                        "", 
+                        [], 
+                        "Flag for when Martumal is gone (so we can turn off his encounter). Hijacking it for a tracked objective to talk to Martumal, which could go away if we decide to auto-convo after releasing him", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_AcceptMartumalDeal": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 35_Name", 
+                        37, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 35_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_C_GI_RejectMartumalDeal": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 36_Name", 
+                        38, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 36_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_C_GI_TollinDoneTalkingAboutMartumal_BK": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 45_Name", 
+                        39, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 45_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Brent: A plot flag I added 7/22/2015 to make sure TOllin does not keep talking about Martumal after this is resolved (i.e., he kept on asking for the player to look for Martumal).", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_C_GI_MartumalNoteAmbientPlayed": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 46_Name", 
+                        40, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 46_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_C_GI_DiscoveredHelperFlag": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 49_Name", 
+                        41, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 49_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }, 
+                "Puzzle Helper Flags": {
+                    "CH1_C_GI_PuzzleSolved": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 11_Name", 
+                        42, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 11_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_CloseLeftDoor": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 18_Name", 
+                        43, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 18_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Animation tied to trigger box", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_CloseRightDoor": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 19_Name", 
+                        44, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 19_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Animation tied to trigger box", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_PulledLever": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 8_Name", 
+                        45, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 8_JournalEntry", 
+                        "", 
+                        [], 
+                        "This used to be important, but now I just want to use it to play FX", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }, 
+                "Damage / NPC Flags": {
+                    "CH1_C_GI_Damaged1": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Damaged1_Name", 
+                        46, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Damaged1_JournalEntry", 
+                        "", 
+                        [], 
+                        "These flags track how many times the player pulls the lever incorrectly", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_Damaged2": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Damaged2_Name", 
+                        47, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Damaged2_JournalEntry", 
+                        "", 
+                        [], 
+                        "These flags track how many times the player pulls the lever incorrectly", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_Damaged3": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Damaged3_Name", 
+                        48, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Damaged3_JournalEntry", 
+                        "", 
+                        [], 
+                        "These flags track how many times the player pulls the lever incorrectly", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_TrapKill": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 14_Name", 
+                        49, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 14_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Just a flag to catch in script to kill from the torture device (as opposed to the player kill option later)", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_ConvoKill": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 20_Name", 
+                        50, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_Flag 20_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Needed since setting Dead directly deletes his body now for some reason", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH1_C_GI_Dead": [
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Dead_Name", 
+                        51, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "CH1_Cave_GoblinInformant_CH1_Cave_GoblinInformant_CH1_C_GI_Dead_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": []
+                            }
+                        ], 
+                        "This flag indicates if Martumal is dead or not. Made is final for now since we dont' have the \"get his treasure from the caravan\" portion of the quest yet.", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }
+            }, 
+            "Eventually we need to add quest flags for the additional options, such as \"luskan justice\". \nChanged the name of the Quest from \"The Informant\" since we could complete this quest without finding out his seedy past.", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "IntroForest", 
+            "Location"
+        ]
+    }
+}

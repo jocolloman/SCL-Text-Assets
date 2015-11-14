@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="0" PlayerLighting="DrowCavesPlayerLighting"
+EncounterProbabilityMin ="85"
+EncounterProbabilityMax ="95"
+MaxHallwayDistance="50"
+MaxHallwayTiles="5" >
+<HallwayTiles>
+<Tile Name="SEW_10_C_Hall"/>
+</HallwayTiles>
+</Settings>
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="SpiderSet01" /> 
+		<CreatureSet Name="RatSet1" /> 
+		<CreatureSet Name="SewerSet1" /> 
+		<CreatureSet Name="OozeSet1" />   
+	</CreatureSets>
+    
+ <Groups>
+
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="SEWB_Staging"  />   
+                </Tiles>
+            </Trunk>
+        </Group> 
+<!-- Group 1 -->
+
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="SEW_S_T_Bandstand" PortExtensionMin= "2" PortExtensionMax = "2" ForceEntryPort = "Port 02" />
+                </Tiles>
+            </Trunk>
+			<Branch Min="1" Max="1">
+				<Tiles>
+					<Tile Name="SEW_S_C_Cesspit" MaxDynamicHallways = "0" TransitionOverride="SewerDoor_Trapped"/>
+					<!--<Tile Name="SEW_S_T_Op" MaxDynamicHallways = "0" TransitionOverride="SewerDoor_Trapped"/>-->
+                </Tiles>
+			</Branch>
+		</Group>
+<!-- Group 2 -->
+
+		<Group>
+            <Trunk Min="1" Max="1" >
+                <Tiles>
+				
+					<Tile Name="SEW_36_T_Wander" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="2" ForceExitPort="1"/>
+					<Tile Name="SEW_36_T_Wander" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="5" ForceExitPort="3"/>
+					<Tile Name="SEW_36_T_Wander" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="1" ForceExitPort="2"/>
+					<Tile Name="SEW_36_T_Wander" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="3" ForceExitPort="5"/>
+
+					<Tile Name="SEW_36_C_Snipers" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="3" ForceExitPort="4"/>
+					<Tile Name="SEW_36_C_Snipers" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="2" ForceExitPort="1"/>
+					<Tile Name="SEW_36_C_Snipers" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="5" ForceExitPort="4"/>
+					<Tile Name="SEW_36_C_Snipers" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="1" ForceExitPort="2"/>
+					<Tile Name="SEW_36_C_Snipers" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="4" ForceExitPort="3"/>
+
+                </Tiles>
+            </Trunk>
+		</Group>
+		
+<!-- Group 3 -->
+        <Group>
+            <Trunk Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="SEW_S_T_SmallFalls" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort = "Port01" ForceExitPort = "Port03" />
+                </Tiles>
+            </Trunk>
+			
+			<Branch Min ="1" Max="1">
+				<Tiles>
+                    <Tile Name="SEWA_ExitB" OpenAllPorts = "1"/>
+				</Tiles>
+			</Branch>
+        </Group>
+		
+<!-- Group 4 -->
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+					<Tile Name="SEW_S_T_DualPlat" PortExtensionMin = "1" PortExtensionMax = "1" ForceEntryPort = "Port03" ForceExitPort = "Port02" OpenAllPorts = "1" XMLID = "DalanirRoom"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- Group 6 -->
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+					<Tile Name="SEW_S_C_CircleCross" PortExtensionMin = "1" PortExtensionMax = "1" ForceEntryPort = "Port03" ForceExitPort = "Port01" />
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+					<Tile Name="SEW_S_T_Curvy" PortExtensionMin = "1" PortExtensionMax = "1" ForceEntryPort = "Port02" ForceExitPort = "Port01" TransitionOverride="SewerSecretDoor01" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- Group 8 -->
+		<Group>
+            <Trunk Min="1" Max="1" >
+                <Tiles>
+					<Tile Name="SEW_S_T_SimpleT" PortExtensionMin = "1" PortExtensionMax = "1" OpenAllPorts = "1" ForceEntryPort = "Port01" TransitionOverride = "SewerArch02"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+        <Group>
+			<Trunk Min = "1" Max = "1" Sequential = "1">
+				<Tiles>
+					<Tile Name="SEW_S_C_CornerCross" PortExtensionMin = "2" PortExtensionMax = "2" XMLID = "DemonAmbush" ForceEntryPort = "3" ForceExitPort = "2"/> <!--KEEP -->
+					<Tile Name="SEW_S_I_Four" OpenAllPorts = "1" Max = "1" TransitionOverride = "SewerDoor01" XMLID = "PostDemonAmbush"/> <!--KEEP -->
+					<Tile Name="SEW_FlortalDOWN" OpenAllPorts = "1" Max ="1" TransitionOverride = "SewerArch01"/>  <!--KEEP -->
+				</Tiles>
+			</Trunk>
+
+            <Branch Min = "1" Max = "1">
+				<Tiles>
+					<Tile Name="SEW_Secret" OpenAllPorts = "1" TransitionOverride="SewerSecretDoor01" Max = "1"/>
+				</Tiles>
+			</Branch>
+        </Group>
+	
+    </Groups> 
+</DungeonConfig>

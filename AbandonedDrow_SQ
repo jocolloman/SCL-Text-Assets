@@ -1,0 +1,175 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "AbandonedDrow_SQ": [
+            "AbandonedDrow_SQ_Left BehindDrow_SQ_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "AbandonedDrow_SQ_Fight": [
+                    "AbandonedDrow_SQ_Left BehindDrow_SQ_LeftBehind_SQ_Start_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "AbandonedDrow_SQ_Left BehindDrow_SQ_LeftBehind_SQ_Start_JournalEntry", 
+                    "AbandonedDrow_SQ_Fight_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "AbandonedDrow_SQ_Release": [
+                    "AbandonedDrow_SQ_AbandonedDrow_SQ_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "AbandonedDrow_SQ_AbandonedDrow_SQ_Flag 1_JournalEntry", 
+                    "AbandonedDrow_SQ_Release_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

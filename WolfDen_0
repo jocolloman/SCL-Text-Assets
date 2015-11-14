@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="BearSet01" />  <!-- wolves obv -->
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DEN_Staging"/>   
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+        <Group>
+             <Trunk Min="1" Max="1">
+                    <Tiles >
+                           <Tile Name="DEN_S_C_Bolt" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" />                       
+                           <Tile Name="DEN_S_C_Goat"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1"/>                                                                                                                                          
+                    </Tiles>
+            </Trunk>
+        </Group> 
+        
+         <Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="DEN_S_E_Comma" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" ForceEntryPort = "01" />                                                           
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+        <Group>
+             <Trunk Min="1" Max="1">  <!--stub in a sidequest here? -->
+                <Tiles >                                    
+                       <Tile Name="DEN_S_T_Why" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1"/>                                                
+                </Tiles>
+            </Trunk>
+            
+             <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DEN_S_C_ZCross" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1"/>   <!-- Dire Bear OMG -->
+                </Tiles>
+            </Branch>
+        </Group> 
+        
+         <Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="DEN_S_E_Comma" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" ForceEntryPort = "02" />                                                           
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+        <Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >                                                          
+                       <Tile Name="DEN_S_C_Psi" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" />                                                                                                                   
+                </Tiles>
+            </Trunk>
+        </Group> 
+ 
+        <Group>
+            <Trunk>
+                <Tiles >
+                     <Tile Name="DEN_S_E_Comma_Builder"  TransitionOverride= "BearCaveSecretDoor" XMLID="CHDoorCode"/>     <!-- seeeecrets -->
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+         <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DEN_Exit"  TransitionOverride= "CaveArch02" />   
+                </Tiles>
+            </Trunk>
+        </Group> 
+  
+    </Groups>  
+</DungeonConfig>

@@ -1,0 +1,1458 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "RitualQuest", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2916073", 
+                "LINE_0596193", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_2916073|", 
+                "", 
+                " We need cases for Illydia, and whoever else as well...", 
+                [
+                    "LINE_7175733"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6719362", 
+                "LINE_7285123", 
+                "JARHILD", 
+                "|Ch2_Catacombs_RitualQuest_LINE_6719362|", 
+                "", 
+                "", 
+                [
+                    "LINE_8601918"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8601918", 
+                "LINE_6719362", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "SETTING QUEST FLAG HERE TO FIND ITEMS", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ITDC_Redux_SpellInfo", 
+                        "Quest": "C2.2_Into_The_Dead_City", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "GENERATE_SAVE", 
+                        "Quest": "UtilityQuestFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6058976", 
+                "LINE_8951899", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_6058976|", 
+                "", 
+                "", 
+                [
+                    "LINE_4991084", 
+                    "LINE_1396052"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8951899", 
+                "LINE_7001920", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_8951899|", 
+                "", 
+                "", 
+                [
+                    "LINE_6058976"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9745209", 
+                "LINE_1396052", 
+                "ILLYDIA", 
+                "|Ch2_Catacombs_RitualQuest_LINE_9745209|", 
+                "", 
+                "", 
+                [
+                    "LINE_7285123"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7285123", 
+                "LINE_9745209", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_7285123|", 
+                "", 
+                "", 
+                [
+                    "LINE_6719362"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0501007", 
+                "LINE_7001920", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_0501007|", 
+                "", 
+                "", 
+                [
+                    "LINE_1499636"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1499636", 
+                "LINE_0501007", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_1499636|", 
+                "", 
+                "", 
+                [
+                    "LINE_3029481"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0671093", 
+                "LINE_1857529", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_0671093|", 
+                "", 
+                "", 
+                [
+                    "LINE_8135674"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "C2_ITDC_FindRitualObject1", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8135674", 
+                "LINE_0671093", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_8135674|", 
+                "", 
+                "", 
+                [
+                    "LINE_5438561"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0496696", 
+                "LINE_1857529", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_0496696|", 
+                "", 
+                "", 
+                [
+                    "LINE_3406177"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "C2_ITDC_FindRitualObject3", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3406177", 
+                "LINE_0496696", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_3406177|", 
+                "", 
+                "", 
+                [
+                    "LINE_1000365"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0128697", 
+                "LINE_1857529", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_0128697|", 
+                "", 
+                "", 
+                [
+                    "LINE_5712099"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "C2_ITDC_FindRitualObject2", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5712099", 
+                "LINE_0128697", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_5712099|", 
+                "", 
+                "", 
+                [
+                    "LINE_3524430"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0622170", 
+                "LINE_1309917", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ITDC_StartFadeOut", 
+                        "Quest": "C2.2_Into_The_Dead_City", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0561482", 
+                "LINE_7001920", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_0561482|", 
+                "", 
+                "", 
+                [
+                    "LINE_4352878"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4352878", 
+                "LINE_0561482", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_4352878|", 
+                "", 
+                "BK WOTC tweaked this line to match up with later \"Zero out of Zero\"", 
+                [
+                    "LINE_0985624"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0985624", 
+                "LINE_4352878", 
+                "JARHILD", 
+                "|Ch2_Catacombs_RitualQuest_LINE_0985624|", 
+                "", 
+                "", 
+                [
+                    "LINE_8888243"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8888243", 
+                "LINE_0985624", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_8888243|", 
+                "", 
+                "BK dropped pretty", 
+                [
+                    "LINE_5736056", 
+                    "LINE_8951899", 
+                    "LINE_0501007"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5736056", 
+                "LINE_8888243", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_5736056|", 
+                "", 
+                "BK removed \"for faiilure\" because it was on previous line", 
+                [
+                    "LINE_2207109"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2207109", 
+                "LINE_5736056", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_2207109|", 
+                "", 
+                "", 
+                [
+                    "LINE_9829761"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9829761", 
+                "LINE_2207109", 
+                "LARETHAR", 
+                "|Ch2_Catacombs_RitualQuest_LINE_9829761|", 
+                "", 
+                "", 
+                [
+                    "LINE_8060654"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8060654", 
+                "LINE_9829761", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_8060654|", 
+                "", 
+                "", 
+                [
+                    "LINE_8951899", 
+                    "LINE_0501007"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0596193", 
+                "<ROOT>", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "USING THIS LINE TO TEST CONDITIONALS:  First time visiting the tile.  ", 
+                [
+                    "LINE_2916073"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ITDC_FindCrypts", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_ITDC_Redux_SpellInfo", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9999509", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "CONDITIONALS:     We had the intro convo ", 
+                [
+                    "LINE_0510208", 
+                    "LINE_3729706"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ITDC_Redux_SpellInfo", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_ITDC_FOUND_ALL_OBJECTS", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1309917", 
+                "LINE_4796806", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_1309917|", 
+                "", 
+                "POINT OF NO RETURN", 
+                [
+                    "LINE_0622170"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8590752", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "CONDITIONALS:  We have ALL of the components\n", 
+                [
+                    "LINE_4796806"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ITDC_FOUND_ALL_OBJECTS", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_ITDC_Final", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4796806", 
+                "LINE_8590752", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_4796806|", 
+                "", 
+                "Again, we need cases for Illydia, and whoever else as well...", 
+                [
+                    "LINE_1309917", 
+                    "LINE_4486007"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7175733", 
+                "LINE_2916073", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_7175733|", 
+                "", 
+                "", 
+                [
+                    "LINE_7001920"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7001920", 
+                "LINE_7175733", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_7001920|", 
+                "", 
+                "", 
+                [
+                    "LINE_8951899", 
+                    "LINE_0501007", 
+                    "LINE_0561482"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3729706", 
+                "LINE_9999509", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "CONDITIONALS:      We have SOME of the components", 
+                [
+                    "LINE_1857529"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ITDC_FindRitualObject1", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ITDC_FindRitualObject2", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ITDC_FindRitualObject3", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ITDC_FindRitualObject4", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "OR", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1857529", 
+                "LINE_3729706", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_1857529|", 
+                "", 
+                " We need cases for Illydia, and whoever else as well...", 
+                [
+                    "LINE_0128697", 
+                    "LINE_0496696", 
+                    "LINE_0671093", 
+                    "LINE_6420721"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9276667", 
+                "LINE_0510208", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_9276667|", 
+                "", 
+                "BK: cleaned up sentence (missing words)", 
+                [
+                    "LINE_4121514"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4121514", 
+                "LINE_9276667", 
+                "JARHILD", 
+                "|Ch2_Catacombs_RitualQuest_LINE_4121514|", 
+                "", 
+                "", 
+                [
+                    "LINE_8650363"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8650363", 
+                "LINE_4121514", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4486007", 
+                "LINE_4796806", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_4486007|", 
+                "", 
+                "", 
+                [
+                    "LINE_8571226"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8571226", 
+                "LINE_4486007", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "Kick us out.", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0510208", 
+                "LINE_9999509", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "CONDITIONALS:     Players have NONE of the components", 
+                [
+                    "LINE_9276667"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_ITDC_FindRitualObject1", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_ITDC_FindRitualObject2", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_ITDC_FindRitualObject3", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_ITDC_FindRitualObject4", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3524430", 
+                "LINE_5712099", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1000365", 
+                "LINE_3406177", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5438561", 
+                "LINE_8135674", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3029481", 
+                "LINE_1499636", 
+                "HOMMET", 
+                "|Ch2_Catacombs_RitualQuest_LINE_3029481|", 
+                "", 
+                "", 
+                [
+                    "LINE_0561482", 
+                    "LINE_8951899"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6420721", 
+                "LINE_1857529", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_6420721|", 
+                "", 
+                "", 
+                [
+                    "LINE_5712099"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ITDC_FindRitualObject4", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4991084", 
+                "LINE_6058976", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_4991084|", 
+                "", 
+                "", 
+                [
+                    "LINE_7285123"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1396052", 
+                "LINE_6058976", 
+                "<PLAYER>", 
+                "|Ch2_Catacombs_RitualQuest_LINE_1396052|", 
+                "", 
+                "", 
+                [
+                    "LINE_9745209"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="0" PlayerLighting="DrowCavesPlayerLighting" 
+EncounterProbabilityMin ="75"
+EncounterProbabilityMax ="85"
+DMAllowedChests ="2"
+MaxHallwayDistance="35"
+MaxHallwayTiles="3" >
+<HallwayTiles>
+<Tile Name="CAT_10_I_Hall" TransitionOverride="CatacombsArch02" />
+</HallwayTiles>
+</Settings>
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DC_Duergar" /> 
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>    
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAT_FlortalUP" CanDMSpawn= "0" />
+                </Tiles>
+            </Trunk>
+        </Group>
+      
+        <Group>
+            <Trunk Min="1" Max="1">
+				<!-- Main Tiles -->
+                <Tiles >
+					<Tile Name="CAT_36_C_Hall"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Altar"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Angle"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Armor"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Cesspit"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Prongs"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_RaisedCorner" PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_SixLegs"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_Curvy"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_DualPlat"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+				<!-- Branch & Leaf Tiles -->
+                <Tiles >
+					<Tile Name="CAT_S_I_Four"  		  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Ramp"  		  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Sides"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_TightI"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_DualPlat" 	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_CornerCross"  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Hall"		  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_DiagHall"	 	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_I_Sauron"      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Flank"	      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Grand"	      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Hall"	      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_NarrowHalls" PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_TripleH"     PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_I_Sauron"      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_T_BigM"	      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Altar"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Angle"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Armor"        PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Cesspit"      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Prongs"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_RaisedCorner" PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+			
+			<Leaf Min="1" Max="1">
+                <!-- Leaf Tiles -->
+                <Tiles >
+					<Tile Name="CAT_36_C_Flank"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Grand"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Hall"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_NarrowHalls" PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_TripleH"     PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_I_Sauron"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_T_BigM"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Altar"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Angle"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Armor"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Cesspit"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Prongs"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_RaisedCorner" PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+		</Group>
+		 
+        <Group>
+            <Trunk Min="1" Max="1">
+                <!-- Transition Tiles -->
+                <Tiles >
+					<Tile Name="CAT_S_I_Four"  		  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Ramp"  		  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Sides"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_TightI"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Hall"		  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_DiagHall"	 	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_I_Sauron"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_DualPlat" 	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_CornerCross"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_DualPlat" 	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_CornerCross"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+		 
+		<Group>
+            <Trunk Min="1" Max="1">
+                <!-- Main Tiles -->
+                <Tiles >
+					<Tile Name="CAT_36_C_Hall"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_I_Sauron"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Altar"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Angle"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Armor"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Cesspit"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Prongs"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_RaisedCorner" PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_SixLegs"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Hall"		  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_Curvy"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_DualPlat"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <!-- Branch & Leaf Tiles -->
+                <Tiles >
+					<Tile Name="CAT_S_I_Four"  		  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Ramp"  		  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Sides"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_TightI"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_DualPlat" 	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_CornerCross"  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Hall"		  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_DiagHall"	 	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_I_Sauron"      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Flank"	      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Grand"	      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Hall"	      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_NarrowHalls" PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_TripleH"     PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_I_Sauron"      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_T_BigM"	      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Altar"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Angle"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Armor"        PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Cesspit"      PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Prongs"  	  PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_RaisedCorner" PortExtensionMin= "0" PortExtensionMax= "0" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+			
+			<Leaf Min="1" Max="1">
+                <!-- Leaf Tiles -->
+                <Tiles >
+					<Tile Name="CAT_36_C_Flank"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Grand"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_Hall"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_NarrowHalls" PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_C_TripleH"     PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_I_Sauron"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_T_BigM"	      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Altar"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Angle"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Armor"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Cesspit"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_Prongs"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_RaisedCorner" PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+		</Group>
+        
+        <Group>
+            <Trunk Min="1" Max="1">
+                <!-- Transition Tiles -->
+                <Tiles >
+					<Tile Name="CAT_S_I_Four"  		  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Ramp"  		  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Sides"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_TightI"  	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_I_Hall"		  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_DiagHall"	 	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_36_I_Sauron"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_DualPlat" 	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_CornerCross"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_T_DualPlat" 	  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAT_S_C_CornerCross"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+        <Group>
+            <Trunk IsBossGroup= "1">
+                <Tiles >
+                  <Tile Name="CAT_FlortalDOWN" Destructible="PD_Small"/>    
+				  <Tile Name="CAT_Boss" IsBossTile= "1" />
+				  <Tile Name="CAT_DM_FlortalOUT" IsExitTile= "1" />
+                </Tiles>
+            </Trunk>
+        </Group> 
+    </Groups>  
+	
+	<PostBuildTiles>
+        <Tiles>
+            <Tile Name="CAT_Secret" TransitionOverride="CatacombsSecretDoor01" Max="1" /> 
+		</Tiles>
+    </PostBuildTiles>
+</DungeonConfig>

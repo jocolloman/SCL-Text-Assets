@@ -1,0 +1,983 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "Hommet_CQ": [
+            "Hommet_CQ_Quest 0_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "Hommet_TrackedFlags": {
+                    "Hommet_CQ_Start": [
+                        "Hommet_CQ_Homemt_CQ_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Homemt_CQ_Flag 0_JournalEntry", 
+                        "Hommet_CQ_Start_Reward", 
+                        [
+                            {
+                                "flag": "C3_TNM_Start", 
+                                "quest": "C3.0_The_Next_Move", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        1, 
+                        false, 
+                        "", 
+                        "", 
+                        "PartyCamp_Forest", 
+                        []
+                    ], 
+                    "Hommet_CQ_SpeakToLibrarian": [
+                        "Hommet_CQ_Hommet_CQ_Flag 2_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Hommet_CQ_Hommet_CQ_Flag 2_JournalEntry", 
+                        "Hommet_CQ_SpeakToLibrarian_Reward", 
+                        [
+                            {
+                                "flag": "Hommet_CQ_Start", 
+                                "quest": "Hommet_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LuskanStreets", 
+                        []
+                    ], 
+                    "Hommet_CQ_VisitTomb": [
+                        "Hommet_CQ_Hommet_CQ_Flag 3_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Hommet_CQ_Hommet_CQ_Flag 3_JournalEntry", 
+                        "Hommet_CQ_VisitTomb_Reward", 
+                        [
+                            {
+                                "flag": "Hommet_CQ_SpeakToLibrarian", 
+                                "quest": "Hommet_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "HommetCQ", 
+                        []
+                    ], 
+                    "Hommet_CQ_DiscoverAltar": [
+                        "Hommet_CQ_Hommet_CQ_Flag 4_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Hommet_CQ_Hommet_CQ_Flag 4_JournalEntry", 
+                        "Hommet_CQ_DiscoverAltar_Reward", 
+                        [
+                            {
+                                "flag": "Hommet_CQ_VisitTomb", 
+                                "quest": "Hommet_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "HommetCQ", 
+                        []
+                    ], 
+                    "Hommet_CQ_UnlockAltar": [
+                        "Hommet_CQ_Hommet_CQ_Flag 17_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Hommet_CQ_Hommet_CQ_Flag 17_JournalEntry", 
+                        "Hommet_CQ_UnlockAltar_Reward", 
+                        [
+                            {
+                                "flag": "Hommet_CQ_DiscoverAltar", 
+                                "quest": "Hommet_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "HommetCQ", 
+                        []
+                    ], 
+                    "Hommet_CQ_ConfrontPriest": [
+                        "Hommet_CQ_Hommet_CQ_Flag 5_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Hommet_CQ_Hommet_CQ_Flag 5_JournalEntry", 
+                        "Hommet_CQ_ConfrontPriest_Reward", 
+                        [
+                            {
+                                "flag": "Hommet_CQ_UnlockAltar", 
+                                "quest": "Hommet_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "HommetCQ", 
+                        []
+                    ], 
+                    "Hommet_CQ_DefeatPriest": [
+                        "Hommet_CQ_Hommet_CQ_Flag 6_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Hommet_CQ_Hommet_CQ_Flag 6_JournalEntry", 
+                        "Hommet_CQ_DefeatPriest_Reward", 
+                        [
+                            {
+                                "flag": "Hommet_CQ_ConfrontPriest", 
+                                "quest": "Hommet_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "HommetCQ", 
+                        []
+                    ], 
+                    "Hommet_CQ_ReturnToLibrary": [
+                        "Hommet_CQ_Hommet_CQ_Flag 7_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Hommet_CQ_Hommet_CQ_Flag 7_JournalEntry", 
+                        "Hommet_CQ_ReturnToLibrary_Reward", 
+                        [
+                            {
+                                "flag": "Hommet_CQ_DefeatPriest", 
+                                "quest": "Hommet_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LuskanStreets", 
+                        []
+                    ], 
+                    "Hommet_CQ_Final": [
+                        "Hommet_CQ_Hommet_CQ_Flag 42_Name", 
+                        9, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 42_JournalEntry", 
+                        "Hommet_CQ_Final_Reward", 
+                        [
+                            {
+                                "flag": "Hommet_CQ_ReturnToLibrary", 
+                                "quest": "Hommet_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "Hommet learns the true meaning of Christmas 2", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        [
+                            "COMPLETE_HOMMETS_QUEST"
+                        ]
+                    ]
+                }, 
+                "Hommet_UtilityFlags": {
+                    "Hommet_CQ_U_MapPin": [
+                        "Hommet_CQ_Hommet_CQ_Flag 8_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 8_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_HasBook": [
+                        "Hommet_CQ_Hommet_CQ_Flag 10_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 10_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_HasPage1": [
+                        "Hommet_CQ_Hommet_CQ_Flag 11_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 11_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_HasPage2": [
+                        "Hommet_CQ_Hommet_CQ_Flag 12_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 12_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_HasPage3": [
+                        "Hommet_CQ_Hommet_CQ_Flag 13_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 13_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_ActionedBody1": [
+                        "Hommet_CQ_Hommet_CQ_Flag 14_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 14_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Set when you action the first corpse (in any order)", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_ActionedBody2": [
+                        "Hommet_CQ_Hommet_CQ_Flag 15_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 15_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Set when you action the second corpse (in any order)", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_ActionedBody3": [
+                        "Hommet_CQ_Hommet_CQ_Flag 16_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 16_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Set when you action the third corpse (in any order)", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_AltarEncounterPages0": [
+                        "Hommet_CQ_Hommet_CQ_Flag 18_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 18_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_AltarEncounterPages1": [
+                        "Hommet_CQ_Hommet_CQ_Flag 19_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 19_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_AltarEncounterPages2": [
+                        "Hommet_CQ_Hommet_CQ_Flag 20_Name", 
+                        20, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 20_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_ActionedAltarOnce": [
+                        "Hommet_CQ_Hommet_CQ_Flag 21_Name", 
+                        21, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 21_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_UnlockSecretDoor": [
+                        "Hommet_CQ_Hommet_CQ_Flag 1_Name", 
+                        22, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 1_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_DespawnLibrarian": [
+                        "Hommet_CQ_Hommet_CQ_Flag 9_Name", 
+                        23, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 9_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_U_FINISHED": [
+                        "Hommet_CQ_Hommet_CQ_Flag 28_Name", 
+                        24, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 28_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }, 
+                "Hommet_PriestConfrontation": {
+                    "Hommet_CQ_P_IntroConvo": [
+                        "Hommet_CQ_Hommet_CQ_Flag 23_Name", 
+                        25, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 23_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_P_Outro": [
+                        "Hommet_CQ_Hommet_CQ_Flag 23_0_Name", 
+                        26, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 23_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_P_Skeletons1": [
+                        "Hommet_CQ_Hommet_CQ_Flag 24_Name", 
+                        27, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 24_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_P_Skeletons2": [
+                        "Hommet_CQ_Hommet_CQ_Flag 25_Name", 
+                        28, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 25_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_P_Skeletons3": [
+                        "Hommet_CQ_Hommet_CQ_Flag 26_Name", 
+                        29, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 26_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Hommet_CQ_P_Skeletons4": [
+                        "Hommet_CQ_Hommet_CQ_Flag 27_Name", 
+                        30, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 27_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }, 
+                "Camp flags": {
+                    "ThankedForCQ": [
+                        "Hommet_CQ_Hommet_CQ_Flag 29_Name", 
+                        31, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 29_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Hommet_BG_1_1": [
+                        "Hommet_CQ_Hommet_CQ_Flag 30_Name", 
+                        32, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 30_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Hommet_BG_1_2": [
+                        "Hommet_CQ_Hommet_CQ_Flag 31_Name", 
+                        33, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 31_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Hommet_BG_1_3": [
+                        "Hommet_CQ_Hommet_CQ_Flag 32_Name", 
+                        34, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 32_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Hommet_BG_2_1": [
+                        "Hommet_CQ_Hommet_CQ_Flag 33_Name", 
+                        35, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 33_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Hommet_BG_2_2": [
+                        "Hommet_CQ_Hommet_CQ_Flag 34_Name", 
+                        36, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 34_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Hommet_BG_2_3": [
+                        "Hommet_CQ_Hommet_CQ_Flag 35_Name", 
+                        37, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 35_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Hommet_BG_3_1": [
+                        "Hommet_CQ_Hommet_CQ_Flag 36_Name", 
+                        38, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 36_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Hommet_BG_3_2": [
+                        "Hommet_CQ_Hommet_CQ_Flag 37_Name", 
+                        39, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 37_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Hommet_BG_3_3": [
+                        "Hommet_CQ_Hommet_CQ_Flag 38_Name", 
+                        40, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 38_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "TalkedAboutDalanir": [
+                        "Hommet_CQ_Hommet_CQ_Flag 39_Name", 
+                        41, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 39_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "TalkedAboutIzhkin": [
+                        "Hommet_CQ_Hommet_CQ_Flag 40_Name", 
+                        42, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 40_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "TalkedAboutMaferil": [
+                        "Hommet_CQ_Hommet_CQ_Flag 41_Name", 
+                        43, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Hommet_CQ_Hommet_CQ_Flag 41_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "PartyCamp_Forest", 
+            "Hommet"
+        ]
+    }
+}

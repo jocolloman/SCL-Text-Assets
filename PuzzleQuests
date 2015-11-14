@@ -1,0 +1,583 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "Puz_StatueEquip": [
+            "PuzzleQuests_Quest 0_Name", 
+            0, 
+            "Puz_StatueEquip", 
+            "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\CritPathQuests\\Chapter3", 
+            "", 
+            {
+                "Puz_StatEq_PuzSolved": [
+                    "PuzzleQuests_Puz_StatueEquip_Flag 3_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "PuzzleQuests_Puz_StatueEquip_Flag 3_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "Puz_StatEq_PuzWarrior": [
+                    "PuzzleQuests_Puz_StatueEquip_Flag 4_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "PuzzleQuests_Puz_StatueEquip_Flag 4_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "Puz_StatEq_PuzWizard": [
+                    "PuzzleQuests_Puz_StatueEquip_Flag 5_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "PuzzleQuests_Puz_StatueEquip_Flag 5_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "Puz_StatEq_PuzRogue": [
+                    "PuzzleQuests_Puz_StatueEquip_Flag 6_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "PuzzleQuests_Puz_StatueEquip_Flag 6_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "Warrior Gear": {
+                    "Puz_StatEq_HavePlateHelm": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 10_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 10_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_HavePlateChest": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 11_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 11_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_Have1hSword": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 12_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 12_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_PlacedPlateHelm": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 18_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 18_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_PlacedPlateChest": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 19_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 19_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_Placed1hSword": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 20_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 20_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }, 
+                "Wizard Gear": {
+                    "Puz_StatEq_HaveStaff": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 13_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 13_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_HaveRobe": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 14_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 14_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_PlacedStaff": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 21_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 21_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_PlacedRobe": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 22_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 22_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_HaveCirclet": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 20_0_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 20_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Puz_StatEq_PlacedCirclet": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 21_0_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 21_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }, 
+                "Rogue Gear": {
+                    "Puz_StatEq_HaveLeatherHelm": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 15_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 15_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_HaveLeatherChest": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 16_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 16_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_HaveDagger": [
+                        "PuzzleQuests_Puz_StatueEquip_Flag 17_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "PuzzleQuests_Puz_StatueEquip_Flag 17_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_PlacedLeatherHelm": [
+                        "quests0_Puz_StatueEquip_Puz_StatEq_PlacedLeatherHelm_Name", 
+                        20, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "quests0_Puz_StatueEquip_Puz_StatEq_PlacedLeatherHelm_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_PlacedLeatherChest": [
+                        "quests0_Puz_StatueEquip_Puz_StatEq_PlacedLeatherChest_Name", 
+                        21, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "quests0_Puz_StatueEquip_Puz_StatEq_PlacedLeatherChest_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Puz_StatEq_PlacedDagger": [
+                        "quests0_Puz_StatueEquip_Puz_StatEq_PlacedDagger_Name", 
+                        22, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "quests0_Puz_StatueEquip_Puz_StatEq_PlacedDagger_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }, 
+                "Puz_StatEq_SpawnEnemiesTrap": [
+                    "PuzzleQuests_Puz_StatueEquip_Flag 22_0_Name", 
+                    23, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "PuzzleQuests_Puz_StatueEquip_Flag 22_0_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    []
+                ], 
+                "ObtainedWarriorGem": [
+                    "PuzzleQuests_Puz_StatueEquip_Flag 2701_Name", 
+                    24, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "PuzzleQuests_Puz_StatueEquip_Flag 2701_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    {}
+                ]
+            }, 
+            "May need to evolve these flags as we add more item potentials.\n\nEvery time you add a new item, you need a new flag! And probably new scripting!", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

@@ -1,0 +1,2652 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Calantha", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "CALANTHA"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_4945598", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_4945598|", 
+                "", 
+                "", 
+                [
+                    "LINE_4281278", 
+                    "LINE_6995369"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TGC_MetCalantha", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4281278", 
+                "LINE_4945598", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_4281278|", 
+                "", 
+                "", 
+                [
+                    "LINE_9216461"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "MinGold", 
+                                    "G": 5
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6995369", 
+                "LINE_4945598", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_6995369|", 
+                "", 
+                "", 
+                [
+                    "LINE_1051593"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1051593", 
+                "LINE_6995369", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_1051593|", 
+                "", 
+                "", 
+                [
+                    "LINE_8046173"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8046173", 
+                "LINE_1051593", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1179823", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_1179823|", 
+                "", 
+                "Hey there. Anything else you'd like to ask me?", 
+                [
+                    "LINE_8783166", 
+                    "LINE_1375920", 
+                    "LINE_0967237", 
+                    "LINE_2197933"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9216461", 
+                "LINE_4281278", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_9216461|", 
+                "", 
+                "", 
+                [
+                    "LINE_7220129"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TGC_MetCalantha", 
+                        "Quest": "CH2_SQ_TheGrazztCult", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "RemoveGold 5", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7220129", 
+                "LINE_9216461", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_7220129|", 
+                "", 
+                "I've had a few jobs. Traveled a bit, but shiplife is a bit more work than I care for. Now I serve with the night watch at the docks, and that suits me fine.", 
+                [
+                    "LINE_8783166", 
+                    "LINE_1375920", 
+                    "LINE_0967237", 
+                    "LINE_5327297"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8783166", 
+                "LINE_7220129", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_8783166|", 
+                "", 
+                "", 
+                [
+                    "LINE_6963462"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1375920", 
+                "LINE_7220129", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_1375920|", 
+                "", 
+                "", 
+                [
+                    "LINE_0244057"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0967237", 
+                "LINE_7220129", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_0967237|", 
+                "", 
+                "", 
+                [
+                    "LINE_1615174"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TGC_FindShipMembers", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TGC_Start", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5327297", 
+                "LINE_7220129", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_5327297|", 
+                "", 
+                "", 
+                [
+                    "LINE_4311954"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6963462", 
+                "LINE_8783166", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_6963462|", 
+                "", 
+                "This place? You mean Luskan or the Cutlass? Either way, it's pretty much what you'd expect. A bunch of people loosely governed by one rule - mind your own business. Keep that in mind, and you'll be fine.", 
+                [
+                    "LINE_1375920", 
+                    "LINE_0967237", 
+                    "LINE_5327297"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0244057", 
+                "LINE_1375920", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_0244057|", 
+                "", 
+                "Perhaps. But since I hardly know ya, I'm not going to vouch for you. And you seem a bit too adventurous to get caught up in that sort of stuff.", 
+                [
+                    "LINE_8783166", 
+                    "LINE_0967237", 
+                    "LINE_5327297"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4311954", 
+                "LINE_5327297", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_4311954|", 
+                "", 
+                "", 
+                [
+                    "LINE_1912960"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1912960", 
+                "LINE_4311954", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1615174", 
+                "LINE_0967237", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_1615174|", 
+                "", 
+                "Yeah, I do. I was there. Not much to tell, really. There were pretty careful - got in and out before most of us realized anything was up. I'm not sure what all they took, but it couldn't have been much.", 
+                [
+                    "LINE_6287466"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6287466", 
+                "LINE_1615174", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_6287466|", 
+                "", 
+                "The person you'd want to ask is old Bardithas. He actually ran one of them through. I think he picked up some weird item from him, too. I'd introduce you, but he left in a bit of a drunken stupor. But I'm sure he hasn't gone far.", 
+                [
+                    "LINE_8783166", 
+                    "LINE_1375920", 
+                    "LINE_5327297"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TGC_FindShipMembers", 
+                        "Quest": "CH2_SQ_TheGrazztCult", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2197933", 
+                "LINE_1179823", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_2197933|", 
+                "", 
+                "", 
+                [
+                    "LINE_4311954"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Bardithas", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "BARDITHAS"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9192689", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_9192689|", 
+                "", 
+                "Hands off, begger! Or I'll cut ye'!", 
+                [
+                    "LINE_1965539"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TGC_MetBardithas", 
+                        "Quest": "CH2_SQ_TheGrazztCult", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TGC_MetBardithas", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8811633", 
+                "LINE_1965539", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_8811633|", 
+                "", 
+                "Ah, then you're a thief then! Matters not! I'll cut you down all the same!", 
+                [
+                    "LINE_5208659", 
+                    "LINE_9996493", 
+                    "LINE_1266338"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1965539", 
+                "LINE_9192689", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_1965539|", 
+                "", 
+                "", 
+                [
+                    "LINE_8811633"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5208659", 
+                "LINE_8811633", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_5208659|", 
+                "", 
+                "", 
+                [
+                    "LINE_9987874"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9996493", 
+                "LINE_8811633", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_9996493|", 
+                "", 
+                "BK I dropped the \"hero bit\" because that felt more like a CHA check.\nORIGINAL: I just wanted to hear about the dock raid from the hero of Rethnor.", 
+                [
+                    "LINE_3224843"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1266338", 
+                "LINE_8811633", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_1266338|", 
+                "", 
+                "", 
+                [
+                    "LINE_4128606"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4128606", 
+                "LINE_1266338", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_4128606|", 
+                "", 
+                "", 
+                [
+                    "LINE_9488849"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9488849", 
+                "LINE_4128606", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TGC_FoughtBardithas", 
+                        "Quest": "CH2_SQ_TheGrazztCult", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "MakeCreatureFactionHostileForCombat", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8277682", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_8277682|", 
+                "", 
+                "", 
+                [
+                    "LINE_0769672", 
+                    "LINE_1913927"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TGC_AgreedToGetWine", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TGC_FindDrunkGuard", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9987874", 
+                "LINE_5208659", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_9987874|", 
+                "", 
+                "", 
+                [
+                    "LINE_9996493"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3224843", 
+                "LINE_9996493", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_3224843|", 
+                "", 
+                "Hah hah! That I can appreciate! Yep, cowards raided in the dead of the night. Took some things from a smuggling ship we \"acquired.\" Not sure what.", 
+                [
+                    "LINE_7622775"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7622775", 
+                "LINE_3224843", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_7622775|", 
+                "", 
+                "Fought three of 'em myself! Cut one that got away, but plunger my rapier through his friend's gut! Went down like a sack of potatoes.", 
+                [
+                    "LINE_0352746", 
+                    "LINE_7482138"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0352746", 
+                "LINE_7622775", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_0352746|", 
+                "", 
+                "", 
+                [
+                    "LINE_8841952"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7482138", 
+                "LINE_7622775", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_7482138|", 
+                "", 
+                "", 
+                [
+                    "LINE_2028022"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2028022", 
+                "LINE_7482138", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_2028022|", 
+                "", 
+                "", 
+                [
+                    "LINE_7053345"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8841952", 
+                "LINE_0352746", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_8841952|", 
+                "", 
+                "Nope. A nameless woman. But she did have something on her.", 
+                [
+                    "LINE_7053345"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7053345", 
+                "LINE_2028022", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_7053345|", 
+                "", 
+                "", 
+                [
+                    "LINE_8064211"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6364330", 
+                "LINE_8064211", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_6364330|", 
+                "", 
+                "", 
+                [
+                    "LINE_1913927", 
+                    "LINE_0769672"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8064211", 
+                "LINE_7053345", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "Sure. For a price. A bottle of Arrhenish should do the trick.", 
+                [
+                    "LINE_6364330"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TGC_AgreedToGetWine", 
+                        "Quest": "CH2_SQ_TheGrazztCult", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0769672", 
+                "LINE_6364330", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_0769672|", 
+                "", 
+                "I'll be right back.", 
+                [
+                    "LINE_5922140"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1913927", 
+                "LINE_6364330", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_1913927|", 
+                "", 
+                "", 
+                [
+                    "LINE_2514953"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Consumable_Drink_Arrhenish", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0037367", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_0037367|", 
+                "", 
+                "", 
+                [
+                    "LINE_7472555"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TGC_FindDrunkGuard", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2514953", 
+                "LINE_1913927", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_2514953|", 
+                "", 
+                "", 
+                [
+                    "LINE_1798931"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TGC_FindDrunkGuard", 
+                        "Quest": "CH2_SQ_TheGrazztCult", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5922140", 
+                "LINE_0769672", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_5922140|", 
+                "", 
+                "", 
+                [
+                    "LINE_7336778"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7336778", 
+                "LINE_5922140", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1798931", 
+                "LINE_2514953", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Misc:GrazztCult_SQ_PolishedStone"
+                ], 
+                [
+                    "Consumable:Consumable_Drink_Arrhenish"
+                ], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4719842", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_4719842|", 
+                "", 
+                "", 
+                [
+                    "LINE_5208659", 
+                    "LINE_9996493", 
+                    "LINE_1266338"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7472555", 
+                "LINE_0037367", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Special Rock", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "RPE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_7011456", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_7011456|", 
+                "", 
+                "", 
+                [
+                    "LINE_1346923", 
+                    "LINE_5936814", 
+                    "LINE_0869993", 
+                    "LINE_0496968"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TGC_FindUseForStone", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1346923", 
+                "LINE_7011456", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_1346923|", 
+                "", 
+                "", 
+                [
+                    "LINE_9435554"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5936814", 
+                "LINE_7011456", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_5936814|", 
+                "", 
+                "", 
+                [
+                    "LINE_0739455"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0869993", 
+                "LINE_7011456", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_0869993|", 
+                "", 
+                "", 
+                [
+                    "LINE_2912685"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TGC_GotStone", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0496968", 
+                "LINE_7011456", 
+                "<PLAYER>", 
+                "|TheGrazztCult_SQ_LINE_0496968|", 
+                "", 
+                "", 
+                [
+                    "LINE_4263554"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9435554", 
+                "LINE_1346923", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_9435554|", 
+                "", 
+                "", 
+                [
+                    "LINE_1346923", 
+                    "LINE_5936814", 
+                    "LINE_0869993", 
+                    "LINE_0496968"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0739455", 
+                "LINE_5936814", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_0739455|", 
+                "", 
+                "", 
+                [
+                    "LINE_1346923", 
+                    "LINE_5936814", 
+                    "LINE_0869993", 
+                    "LINE_0496968"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2912685", 
+                "LINE_0869993", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_2912685|", 
+                "", 
+                "", 
+                [
+                    "LINE_4867748"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4867748", 
+                "LINE_2912685", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TGC_FindUseForStone", 
+                        "Quest": "CH2_SQ_TheGrazztCult", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "OpenDoors", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4263554", 
+                "LINE_0496968", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Grazzt Cult Leader", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "CULTLEADER"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_7293886", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_7293886|", 
+                "", 
+                "", 
+                [
+                    "LINE_5561474"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TGC_InvestigateHiddenCave", 
+                        "Quest": "CH2_SQ_TheGrazztCult", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6606447", 
+                "LINE_5561474", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_6606447|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_9059930"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9042682", 
+                "LINE_9059930", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_9042682|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_0694157"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9059930", 
+                "LINE_6606447", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_9059930|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_9042682"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0694157", 
+                "LINE_9042682", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_0694157|", 
+                "", 
+                "Honor? That is the path of a fool. A set of rules meant to restrain us.", 
+                [
+                    "LINE_6657749", 
+                    "LINE_2292918"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2292918", 
+                "LINE_0694157", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_2292918|", 
+                "", 
+                "Those at the top of the mountain would love for us to abide by their rules.", 
+                [
+                    "LINE_6657749", 
+                    "LINE_3831126"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3831126", 
+                "LINE_2292918", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_3831126|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_2785378"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2785378", 
+                "LINE_3831126", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_2785378|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_4616644"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4616644", 
+                "LINE_2785378", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_4616644|", 
+                "", 
+                "Our influence is growing rapidly. And more victories will follow.", 
+                [
+                    "LINE_6657749", 
+                    "LINE_7139227"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7139227", 
+                "LINE_4616644", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_7139227|", 
+                "", 
+                "For I have spoken with an avatar of Graz'zt, and he has told me his plan.", 
+                [
+                    "LINE_6657749", 
+                    "LINE_3625802"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3625802", 
+                "LINE_7139227", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_3625802|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_6485198"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2602485", 
+                "LINE_6485198", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_2602485|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_3822273"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6485198", 
+                "LINE_3625802", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_6485198|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_2602485"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3822273", 
+                "LINE_2602485", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_3822273|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_2466704"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2466704", 
+                "LINE_3822273", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_2466704|", 
+                "", 
+                "And they will fall, just like the rest of them.", 
+                [
+                    "LINE_6657749", 
+                    "LINE_2750696"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2750696", 
+                "LINE_2466704", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_2750696|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_6447064"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6447064", 
+                "LINE_2750696", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_7574733"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7574733", 
+                "LINE_6447064", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_3819837"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3819837", 
+                "LINE_7574733", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_5717332"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5717332", 
+                "LINE_3819837", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_7325180"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7325180", 
+                "LINE_5717332", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_9581723"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9581723", 
+                "LINE_7325180", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_9162116"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9162116", 
+                "LINE_9581723", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_9162116|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_8714306"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8714306", 
+                "LINE_9162116", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_8714306|", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_3595733"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3595733", 
+                "LINE_8714306", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_3595733|", 
+                "", 
+                "That is quite a task, but those in charge are ripe to fall.", 
+                [
+                    "LINE_6657749", 
+                    "LINE_7293886"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6657749", 
+                "LINE_3595733", 
+                "<DEFAULT>", 
+                "|TheGrazztCult_SQ_LINE_6657749|", 
+                "", 
+                "Intruders! You will die!!", 
+                [
+                    "LINE_2610653"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TGC_DetectedByCultLeader", 
+                                    "Quest": "CH2_SQ_TheGrazztCult", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2610653", 
+                "LINE_6657749", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5561474", 
+                "LINE_7293886", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6657749", 
+                    "LINE_6606447"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

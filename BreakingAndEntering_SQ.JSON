@@ -1,0 +1,1604 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "DarklakeHouse", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "DUERGAR_HOMEOWNER1"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_4969764", 
+                "LINE_6026250", 
+                "<DEFAULT>", 
+                "|BreakingAndEntering_SQ_LINE_4969764|", 
+                "", 
+                "", 
+                [
+                    "LINE_5156538"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5156538", 
+                "LINE_4969764", 
+                "<DEFAULT>", 
+                "|BreakingAndEntering_SQ_LINE_5156538|", 
+                "", 
+                "", 
+                [
+                    "LINE_1160550", 
+                    "LINE_9690173", 
+                    "LINE_0757309"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1160550", 
+                "LINE_5156538", 
+                "<PLAYER>", 
+                "|BreakingAndEntering_SQ_LINE_1160550|", 
+                "", 
+                "", 
+                [
+                    "LINE_0262614"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9690173", 
+                "LINE_5156538", 
+                "<PLAYER>", 
+                "|BreakingAndEntering_SQ_LINE_9690173|", 
+                "", 
+                "", 
+                [
+                    "LINE_0262614"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0757309", 
+                "LINE_5156538", 
+                "<PLAYER>", 
+                "|BreakingAndEntering_SQ_LINE_0757309|", 
+                "", 
+                "", 
+                [
+                    "LINE_4223313"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4223313", 
+                "LINE_0757309", 
+                "<DEFAULT>", 
+                "|BreakingAndEntering_SQ_LINE_4223313|", 
+                "", 
+                "", 
+                [
+                    "LINE_9228991"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9228991", 
+                "LINE_4223313", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0215596"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HomeOwnerRanInside", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0215596", 
+                "LINE_9228991", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0262614", 
+                "LINE_1160550", 
+                "<DEFAULT>", 
+                "|BreakingAndEntering_SQ_LINE_0262614|", 
+                "", 
+                "", 
+                [
+                    "LINE_9228991"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5794815", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4343422"
+                ], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "LootedChest", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4343422", 
+                "LINE_5794815", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6026250"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6026250", 
+                "LINE_4343422", 
+                "<DEFAULT>", 
+                "|BreakingAndEntering_SQ_LINE_6026250|", 
+                "", 
+                "", 
+                [
+                    "LINE_4969764"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FadeAndStartConvo", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2917605", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4192612"
+                ], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "LootedChest", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4192612", 
+                "LINE_2917605", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FadeStartConvo2", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5058846", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_1229623"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1229623", 
+                "LINE_5058846", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_5493914"
+                ], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "LootedChest2", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5493914", 
+                "LINE_1229623", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FadeStartConvo3", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_7306817", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4242206"
+                ], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "LootedChest3", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4242206", 
+                "LINE_7306817", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "DarklakeHouse2", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "DUERGAR_HOMEOWNER2"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2213599", 
+                "LINE_6645659", 
+                "<DEFAULT>", 
+                "|BreakingAndEntering_SQ_LINE_2213599|", 
+                "", 
+                "", 
+                [
+                    "LINE_4513101"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4513101", 
+                "LINE_2213599", 
+                "<DEFAULT>", 
+                "|BreakingAndEntering_SQ_LINE_4513101|", 
+                "", 
+                "", 
+                [
+                    "LINE_9080443", 
+                    "LINE_3988995", 
+                    "LINE_6581164"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9080443", 
+                "LINE_4513101", 
+                "<PLAYER>", 
+                "|BreakingAndEntering_SQ_LINE_9080443|", 
+                "", 
+                "", 
+                [
+                    "LINE_8702150"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3988995", 
+                "LINE_4513101", 
+                "<PLAYER>", 
+                "|BreakingAndEntering_SQ_LINE_3988995|", 
+                "", 
+                "", 
+                [
+                    "LINE_8702150"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6581164", 
+                "LINE_4513101", 
+                "<PLAYER>", 
+                "|BreakingAndEntering_SQ_LINE_6581164|", 
+                "", 
+                "", 
+                [
+                    "LINE_8702150"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8702150", 
+                "LINE_9080443", 
+                "<DEFAULT>", 
+                "|BreakingAndEntering_SQ_LINE_8702150|", 
+                "", 
+                "", 
+                [
+                    "LINE_8570881"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HomeOwnerRanInside2", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8570881", 
+                "LINE_8702150", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6156984", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_1500605"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1500605", 
+                "LINE_6156984", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6645659"
+                ], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "LootedChest2", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6645659", 
+                "LINE_1500605", 
+                "<DEFAULT>", 
+                "|BreakingAndEntering_SQ_LINE_6645659|", 
+                "", 
+                "", 
+                [
+                    "LINE_2213599"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "DarklakeHouse3", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "DUERGAR_HOMEOWNER1_HURT"
+                }, 
+                "NoEndFade": "True", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_3651829", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9011495"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "True"
+            ], 
+            [
+                "LINE_8198554", 
+                "LINE_9011495", 
+                "DUERGAR_HOMEOWNER1_HURT", 
+                "|BreakingAndEntering_SQ_LINE_8198554|", 
+                "", 
+                "", 
+                [
+                    "LINE_1938312"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1938312", 
+                "LINE_8198554", 
+                "DUERGAR_HOMEOWNER2_HURT", 
+                "|BreakingAndEntering_SQ_LINE_1938312|", 
+                "", 
+                "BK cut \" What kind of moral grounds do you stand on!?\"\nBK cut th e\"use your rogue skill chain... Dex already covers this.", 
+                [
+                    "LINE_0336001", 
+                    "LINE_1580935", 
+                    "LINE_2293143"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0336001", 
+                "LINE_1938312", 
+                "<PLAYER>", 
+                "|BreakingAndEntering_SQ_LINE_0336001|", 
+                "", 
+                "", 
+                [
+                    "LINE_5738961", 
+                    "LINE_2302680"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1580935", 
+                "LINE_1938312", 
+                "<PLAYER>", 
+                "|BreakingAndEntering_SQ_LINE_1580935|", 
+                "", 
+                "", 
+                [
+                    "LINE_8357505", 
+                    "LINE_2293143"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2293143", 
+                "LINE_1938312", 
+                "<PLAYER>", 
+                "|BreakingAndEntering_SQ_LINE_2293143|", 
+                "", 
+                "", 
+                [
+                    "LINE_8357505"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5738961", 
+                "LINE_0336001", 
+                "DUERGAR_HOMEOWNER1_HURT", 
+                "|BreakingAndEntering_SQ_LINE_5738961|", 
+                "", 
+                "", 
+                [
+                    "LINE_0131310"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 20, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "dex", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2302680", 
+                "LINE_0336001", 
+                "DUERGAR_HOMEOWNER2_HURT", 
+                "|BreakingAndEntering_SQ_LINE_2302680|", 
+                "", 
+                "", 
+                [
+                    "LINE_1580935"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0131310", 
+                "LINE_5738961", 
+                "DUEGAR_HOMEOWNER3", 
+                "|BreakingAndEntering_SQ_LINE_0131310|", 
+                "", 
+                "", 
+                [
+                    "LINE_8398979"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 1000", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8398979", 
+                "LINE_0131310", 
+                "DUEGAR_HOMEOWNER3", 
+                "|BreakingAndEntering_SQ_LINE_8398979|", 
+                "", 
+                "", 
+                [
+                    "LINE_7122133"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7122133", 
+                "LINE_8398979", 
+                "DUERGAR_HOMEOWNER2_HURT", 
+                "|BreakingAndEntering_SQ_LINE_7122133|", 
+                "", 
+                "", 
+                [
+                    "LINE_4202189"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4202189", 
+                "LINE_7122133", 
+                "DUEGAR_HOMEOWNER3", 
+                "|BreakingAndEntering_SQ_LINE_4202189|", 
+                "", 
+                "", 
+                [
+                    "LINE_6818352"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6818352", 
+                "LINE_4202189", 
+                "DUERGAR_HOMEOWNER1_HURT", 
+                "|BreakingAndEntering_SQ_LINE_6818352|", 
+                "", 
+                "", 
+                [
+                    "LINE_0315131"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0315131", 
+                "LINE_6818352", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.25, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DexCheckSuccess", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.25, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8357505", 
+                "LINE_2293143", 
+                "DUERGAR_HOMEOWNER2_HURT", 
+                "|BreakingAndEntering_SQ_LINE_8357505|", 
+                "", 
+                "", 
+                [
+                    "LINE_6108532"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6108532", 
+                "LINE_8357505", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 0.5, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.25, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HomeOwnerRanInside3", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.25, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 0.5, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9011495", 
+                "LINE_3651829", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8198554"
+                ], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "LootedChest3", 
+                        "Quest": "BreakingAndEntering_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "True"
+            ]
+        ]
+    ]
+}

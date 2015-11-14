@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds: 2080970629
+-->
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAV_FlortalUP"  />   
+                </Tiles>
+            </Trunk>
+        </Group>
+        <Group>
+            <Trunk Min="19" Max="19">
+                <Tiles >
+					<Tile Name="CAV_36_T_JStairs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_C_ZCross"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_C_Goat"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_C_Hyundai"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_C_Psi"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_C_Platform"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_T_Why"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_T_Donut"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_M_C_Skull"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_M_C_Pretzel"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_I_Noodle"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_I_Bridge"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_36_C_Lagoon"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_36_C_River"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_M_C_Choke"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_E_Platform"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_36_C_Ramps"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_D_Lolth"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAV_S_I_Ramp"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+
+                </Tiles>
+            </Trunk>
+        </Group>
+
+		<Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAV_FlortalDOWN"  />   
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+    </Groups>
+		<PostBuildTiles>
+        <Tiles>
+			<Tile Name="CAV_Secret" TransitionOverride="lostminesSecretDoor01" Max="1" /> 
+		</Tiles>
+		</PostBuildTiles>
+</DungeonConfig>
+

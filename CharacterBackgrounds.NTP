@@ -1,0 +1,594 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_Backgrounds"
+{
+     FORMAT
+     {
+          INTEGER          "Strength"
+          INTEGER          "Dexterity"
+          INTEGER          "Constitution"
+          INTEGER          "Intelligence"
+          INTEGER          "Wisdom"
+          INTEGER          "Charisma"
+          STRING           "StartingAbilities"
+          INTEGER          "StartingGold"
+          STRING           "StartingConsumables"
+     }
+
+     TEMPLATE "Acolyte"
+     {
+          DESCRIPTION      "TODO: Flasks of Holy Water (radiant damage projectile)"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             "BG_Acolyte"
+          DATA             "15"
+          DATA             "Scroll_Shatter, Scroll_Restoration, Scroll_Restoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Charlatan"
+     {
+          DESCRIPTION      "wine"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             "BG_Charlatan"
+          DATA             "15"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Criminal"
+     {
+          DESCRIPTION      "Poison Vial"
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Criminal"
+          DATA             "50"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Spy"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Spy"
+          DATA             "50"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Entertainer"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             "BG_Entertainer"
+          DATA             "15"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Gladiator"
+     {
+          DESCRIPTION      ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Gladiator"
+          DATA             "15"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "FolkHero"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             "BG_FolkHero"
+          DATA             "10"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "GuildArtisan"
+     {
+          DESCRIPTION      "lots of consumables"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "15"
+          DATA             "Scroll_Monster, Scroll_Monster, Scroll_Monster, Scroll_ConeOfCold, consumable_potionofhealing, consumable_potionofhealing, consumable_potionofhealing, consumable_potionofhealing, consumable_potionofhealing, Consumable_Thunderstone, Consumable_Thunderstone, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "GuildMerchant"
+     {
+          DESCRIPTION      "lots of consumables"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             "15"
+          DATA             "consumable_potionofhealing, consumable_potionofhealing, consumable_potionofhealing, consumable_potionofhealing, consumable_potionofhealing, Consumable_OilOfSharpness, Consumable_PotionOfHillGiantStrength, Consumable_HealersKit, Consumable_HealersKit, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Hermit"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             "BG_Hermit,BG_Hermit2"
+          DATA             "5"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Noble"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "800"
+          DATA             "Consumable_Drink_CormyrBrandy, Consumable_Drink_CormyrBrandy, Consumable_Drink_CormyrBrandy, Consumable_Food_VilholnCherrybread, Consumable_Food_VilholnCherrybread, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Knight"
+     {
+          DESCRIPTION      ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Knight"
+          DATA             "25"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, Consumable_potionofhealing"
+     }
+
+     TEMPLATE "Outlander"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Outlander"
+          DATA             "10"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Sage"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Sage"
+          DATA             "10"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Sailor"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Sailor"
+          DATA             "10"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Pirate"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Pirate"
+          DATA             "15"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+     TEMPLATE "Soldier"
+     {
+          DESCRIPTION      ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Solider"
+          DATA             "10"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration, consumable_potionofhealing, consumable_potionofhealing"
+     }
+
+     TEMPLATE "Urchin"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "BG_Urchin"
+          DATA             "5"
+          DATA             "Consumable_PotionOfRestoration, Consumable_PotionOfRestoration"
+     }
+
+}
+
+GROUP "RT_Deities"
+{
+     FORMAT
+     {
+          STRING           "Name"
+          STRING           "Desc"
+          INTEGER          "CG"
+          INTEGER          "CN"
+          INTEGER          "CE"
+          INTEGER          "NG"
+          INTEGER          "N"
+          INTEGER          "NE"
+          INTEGER          "LG"
+          INTEGER          "LN"
+          INTEGER          "LE"
+     }
+
+     TEMPLATE "None"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_None"
+          DATA             "Deity_None_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Auril"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_NE_Auril"
+          DATA             "Deity_NE_Auril_Desc"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Azuth"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_LN_Azuth"
+          DATA             "Deity_LN_Azuth_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Bane"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_LE_Bane"
+          DATA             "Deity_LE_Bane_Desc"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Bhaal"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_NE_Bhaal"
+          DATA             "Deity_NE_Bhaal_Desc"
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Chauntea"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_NG_Chauntea"
+          DATA             "Deity_NG_Chauntea_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+     }
+
+     TEMPLATE "CorellonLarethian"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_CG_CorellonLarethian"
+          DATA             "Deity_CG_CorellonLarethian_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+     }
+
+     TEMPLATE "Gond"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_NN_Gond"
+          DATA             "Deity_NN_Gond_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Helm"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_LN_Helm"
+          DATA             "Deity_LN_Helm_Desc"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Ilmater"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_LG_Ilmater"
+          DATA             "Deity_LG_Ilmater_Desc"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+     }
+
+     TEMPLATE "Kelemvor"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_LN_Kelemvor"
+          DATA             "Deity_LN_Kelemvor_Desc"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+     }
+
+     TEMPLATE "Lathander"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_NG_Lathander"
+          DATA             "Deity_NG_Lathander_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+     }
+
+     TEMPLATE "Moradin"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_LG_Moradin"
+          DATA             "Deity_LG_Moradin_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+     }
+
+     TEMPLATE "Mystra"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_NG_Mystra"
+          DATA             "Deity_NG_Mystra_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+     }
+
+     TEMPLATE "SehanineMoonbow"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_CG_SehanineMoonbow"
+          DATA             "Deity_CG_SehanineMoonbow_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+     }
+
+     TEMPLATE "Silvanus"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_NN_Silvanus"
+          DATA             "Deity_NN_Silvanus_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Tempus"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_NN_Tempus"
+          DATA             "Deity_NN_Tempus_Desc"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Torm"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_LG_Torm"
+          DATA             "Deity_LG_Torm_Desc"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+     }
+
+     TEMPLATE "Umberlee"
+     {
+          DESCRIPTION      ""
+          DATA             "Deity_CE_Umberlee"
+          DATA             "Deity_CE_Umberlee_Desc"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+     }
+
+}
+

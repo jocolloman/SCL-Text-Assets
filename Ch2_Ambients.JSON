@@ -1,0 +1,5742 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_LuskanGates_Cliff", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_1485994", 
+                "<ROOT>", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_1485994|", 
+                "", 
+                "", 
+                [
+                    "LINE_9237234", 
+                    "LINE_1132378", 
+                    "LINE_4561534", 
+                    "LINE_5227555", 
+                    "LINE_1773945"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8692130", 
+                "LINE_9237234", 
+                "HOMMET", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_LuskanGates_Cliff", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2497678", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_2497678|", 
+                "", 
+                "", 
+                [
+                    "LINE_9237234", 
+                    "LINE_1132378", 
+                    "LINE_4561534", 
+                    "LINE_1773945", 
+                    "LINE_4886775"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7715225", 
+                "<ROOT>", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_7715225|", 
+                "", 
+                "", 
+                [
+                    "LINE_9237234", 
+                    "LINE_1132378", 
+                    "LINE_4561534", 
+                    "LINE_5227555", 
+                    "LINE_4886775"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7278706", 
+                "<ROOT>", 
+                "SORONIL", 
+                "|Ch2_Ambients_LINE_7278706|", 
+                "", 
+                "", 
+                [
+                    "LINE_9237234", 
+                    "LINE_5227555", 
+                    "LINE_1773945", 
+                    "LINE_4886775"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SORONIL_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0790358", 
+                "<ROOT>", 
+                "DALANIR", 
+                "|Ch2_Ambients_LINE_0790358|", 
+                "", 
+                "", 
+                [
+                    "LINE_9237234", 
+                    "LINE_5227555", 
+                    "LINE_1773945", 
+                    "LINE_4886775"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4561534", 
+                "LINE_1485994", 
+                "SORONIL", 
+                "|Ch2_Ambients_LINE_4561534|", 
+                "", 
+                "BK  dropped second it's", 
+                [
+                    "LINE_8692130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SORONIL_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5227555", 
+                "LINE_1485994", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_5227555|", 
+                "", 
+                "", 
+                [
+                    "LINE_8692130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1773945", 
+                "LINE_1485994", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_1773945|", 
+                "", 
+                "", 
+                [
+                    "LINE_8692130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9237234", 
+                "LINE_1485994", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_9237234|", 
+                "", 
+                "", 
+                [
+                    "LINE_8692130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1132378", 
+                "LINE_1485994", 
+                "DALANIR", 
+                "|Ch2_Ambients_LINE_1132378|", 
+                "", 
+                "BK  dropped second it's", 
+                [
+                    "LINE_8692130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8100773", 
+                "<ROOT>", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_8100773|", 
+                "", 
+                "BK WOTC", 
+                [
+                    "LINE_1132378", 
+                    "LINE_4561534", 
+                    "LINE_5227555", 
+                    "LINE_1773945", 
+                    "LINE_4886775"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4886775", 
+                "LINE_2497678", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_4886775|", 
+                "", 
+                "", 
+                [
+                    "LINE_8692130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_LuskanGates_Camp", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_4270045", 
+                "<ROOT>", 
+                "HOMMET", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4334252", 
+                    "LINE_5203206", 
+                    "LINE_7991456", 
+                    "LINE_5327204"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4334252", 
+                "LINE_4270045", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_4334252|", 
+                "", 
+                "", 
+                [
+                    "LINE_8358438"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7991456", 
+                "LINE_4270045", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_7991456|", 
+                "", 
+                "", 
+                [
+                    "LINE_8358438"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5327204", 
+                "LINE_4270045", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_5327204|", 
+                "", 
+                "", 
+                [
+                    "LINE_8358438"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5203206", 
+                "LINE_4270045", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_5203206|", 
+                "", 
+                "", 
+                [
+                    "LINE_8358438"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8358438", 
+                "LINE_4334252", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_LuskanGates_Camp", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_LuskanGates_Tower", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_0610250", 
+                "LINE_4947636", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_0610250|", 
+                "", 
+                "", 
+                [
+                    "LINE_8161822"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8161822", 
+                "LINE_0610250", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_8161822|", 
+                "", 
+                "", 
+                [
+                    "LINE_4987554"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4987554", 
+                "LINE_8161822", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_4987554|", 
+                "", 
+                "", 
+                [
+                    "LINE_2447744"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3536766", 
+                "LINE_4947636", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_3536766|", 
+                "", 
+                "", 
+                [
+                    "LINE_6998072"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6998072", 
+                "LINE_3536766", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_6998072|", 
+                "", 
+                "", 
+                [
+                    "LINE_7324501"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2447744", 
+                "LINE_4987554", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_LuskanGates_Tower", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5131706", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4947636", 
+                    "LINE_4564399", 
+                    "LINE_1598470"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4947636", 
+                "LINE_5131706", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_4947636|", 
+                "", 
+                "", 
+                [
+                    "LINE_3536766", 
+                    "LINE_0610250", 
+                    "LINE_3828806", 
+                    "LINE_7324501"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7324501", 
+                "LINE_6998072", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_LuskanGates_Tower", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3828806", 
+                "LINE_4947636", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_3828806|", 
+                "", 
+                "", 
+                [
+                    "LINE_7324501"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4564399", 
+                "LINE_5131706", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_4564399|", 
+                "", 
+                "", 
+                [
+                    "LINE_7991344", 
+                    "LINE_6302511", 
+                    "LINE_7324501"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7991344", 
+                "LINE_4564399", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_7991344|", 
+                "", 
+                "", 
+                [
+                    "LINE_9437150"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9437150", 
+                "LINE_7991344", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_9437150|", 
+                "", 
+                "", 
+                [
+                    "LINE_7324501"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1598470", 
+                "LINE_5131706", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_1598470|", 
+                "", 
+                "", 
+                [
+                    "LINE_7324501"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6302511", 
+                "LINE_4564399", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_6302511|", 
+                "", 
+                "", 
+                [
+                    "LINE_9191728"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9191728", 
+                "LINE_6302511", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_9191728|", 
+                "", 
+                "", 
+                [
+                    "LINE_7324501"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_WolfDen_Entrance", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_6201559", 
+                "LINE_3516168", 
+                "ILLYDIA", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2__WolfDen_Entrance", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7944119", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_1608135", 
+                    "LINE_0341482", 
+                    "LINE_3529019", 
+                    "LINE_2264458", 
+                    "LINE_8636957", 
+                    "LINE_1646207", 
+                    "LINE_6201559"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1608135", 
+                "LINE_7944119", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_1608135|", 
+                "", 
+                "", 
+                [
+                    "LINE_3516168", 
+                    "LINE_1995866", 
+                    "LINE_7110781", 
+                    "LINE_4161392", 
+                    "LINE_3323627", 
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3516168", 
+                "LINE_1608135", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_3516168|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1995866", 
+                "LINE_1608135", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_1995866|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7110781", 
+                "LINE_1608135", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_7110781|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4161392", 
+                "LINE_1608135", 
+                "DALANIR", 
+                "|Ch2_Ambients_LINE_4161392|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3323627", 
+                "LINE_1608135", 
+                "SORONIL", 
+                "|Ch2_Ambients_LINE_3323627|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SORONIL_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0341482", 
+                "LINE_7944119", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_0341482|", 
+                "", 
+                "", 
+                [
+                    "LINE_5009241", 
+                    "LINE_8444429", 
+                    "LINE_7142300", 
+                    "LINE_3761520", 
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3529019", 
+                "LINE_7944119", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_3529019|", 
+                "", 
+                "", 
+                [
+                    "LINE_9273220", 
+                    "LINE_1403401", 
+                    "LINE_4864492", 
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2264458", 
+                "LINE_7944119", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_2264458|", 
+                "", 
+                "", 
+                [
+                    "LINE_7103203", 
+                    "LINE_7516990", 
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8636957", 
+                "LINE_7944119", 
+                "DALANIR", 
+                "|Ch2_Ambients_LINE_8636957|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1646207", 
+                "LINE_7944119", 
+                "SORONIL", 
+                "|Ch2_Ambients_LINE_1646207|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SORONIL_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5009241", 
+                "LINE_0341482", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_5009241|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8444429", 
+                "LINE_0341482", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_8444429|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7142300", 
+                "LINE_0341482", 
+                "DALANIR", 
+                "|Ch2_Ambients_LINE_7142300|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3761520", 
+                "LINE_0341482", 
+                "SORONIL", 
+                "|Ch2_Ambients_LINE_3761520|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SORONIL_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9273220", 
+                "LINE_3529019", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_9273220|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1403401", 
+                "LINE_3529019", 
+                "DALANIR", 
+                "|Ch2_Ambients_LINE_1403401|", 
+                "", 
+                "", 
+                [
+                    "LINE_7198146"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4864492", 
+                "LINE_3529019", 
+                "SORONIL", 
+                "|Ch2_Ambients_LINE_4864492|", 
+                "", 
+                "", 
+                [
+                    "LINE_7198146"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SORONIL_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7103203", 
+                "LINE_2264458", 
+                "DALANIR", 
+                "|Ch2_Ambients_LINE_7103203|", 
+                "", 
+                "", 
+                [
+                    "LINE_6464722"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7516990", 
+                "LINE_2264458", 
+                "SORONIL", 
+                "|Ch2_Ambients_LINE_7516990|", 
+                "", 
+                "", 
+                [
+                    "LINE_4729888"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SORONIL_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7198146", 
+                "LINE_1403401", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_7198146|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6464722", 
+                "LINE_7103203", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_6464722|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4729888", 
+                "LINE_7516990", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_4729888|", 
+                "", 
+                "", 
+                [
+                    "LINE_6201559"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_Sewer_Entrance", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_4086028", 
+                "LINE_6518046", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_4086028|", 
+                "", 
+                "", 
+                [
+                    "LINE_7380069"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9511443", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6518046", 
+                    "LINE_0431939", 
+                    "LINE_7040793", 
+                    "LINE_1215625", 
+                    "LINE_7380069"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6518046", 
+                "LINE_9511443", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_6518046|", 
+                "", 
+                "", 
+                [
+                    "LINE_4086028", 
+                    "LINE_0911913", 
+                    "LINE_7647979", 
+                    "LINE_7380069"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0431939", 
+                "LINE_9511443", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_0431939|", 
+                "", 
+                "", 
+                [
+                    "LINE_7568047", 
+                    "LINE_7647979", 
+                    "LINE_7380069"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7040793", 
+                "LINE_9511443", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_7040793|", 
+                "", 
+                "", 
+                [
+                    "LINE_5819198", 
+                    "LINE_7380069"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1215625", 
+                "LINE_9511443", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_1215625|", 
+                "", 
+                "", 
+                [
+                    "LINE_7380069"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0911913", 
+                "LINE_6518046", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_0911913|", 
+                "", 
+                "", 
+                [
+                    "LINE_7380069"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7647979", 
+                "LINE_6518046", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_7647979|", 
+                "", 
+                "", 
+                [
+                    "LINE_7380069"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7568047", 
+                "LINE_0431939", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_7568047|", 
+                "", 
+                "", 
+                [
+                    "LINE_7380069"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7380069", 
+                "LINE_9511443", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_Sewer_Entrance", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5819198", 
+                "LINE_7040793", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_5819198|", 
+                "", 
+                "", 
+                [
+                    "LINE_7380069"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_Sewer_InfectedRat", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_3312129", 
+                "LINE_9147913", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_3312129|", 
+                "", 
+                "", 
+                [
+                    "LINE_4213101"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5636248", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9147913", 
+                    "LINE_2573679", 
+                    "LINE_1770388", 
+                    "LINE_5087925", 
+                    "LINE_4213101"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9147913", 
+                "LINE_5636248", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_9147913|", 
+                "", 
+                "JAW: Added checks to these lines for HOTU-22415", 
+                [
+                    "LINE_3312129", 
+                    "LINE_5869326", 
+                    "LINE_5091938", 
+                    "LINE_4213101"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1770388", 
+                "LINE_5636248", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_1770388|", 
+                "", 
+                "", 
+                [
+                    "LINE_8749129"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5087925", 
+                "LINE_5636248", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_5087925|", 
+                "", 
+                "", 
+                [
+                    "LINE_2777706"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2573679", 
+                "LINE_5636248", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_2573679|", 
+                "", 
+                "", 
+                [
+                    "LINE_2295479", 
+                    "LINE_2680357", 
+                    "LINE_4213101"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4213101", 
+                "LINE_3312129", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_Sewer_InfectedRat", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5869326", 
+                "LINE_9147913", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_5869326|", 
+                "", 
+                "", 
+                [
+                    "LINE_2322752"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5091938", 
+                "LINE_9147913", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_5091938|", 
+                "", 
+                "BK spelling", 
+                [
+                    "LINE_4213101"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8749129", 
+                "LINE_1770388", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_8749129|", 
+                "", 
+                "", 
+                [
+                    "LINE_4213101"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2680357", 
+                "LINE_2573679", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_2680357|", 
+                "", 
+                "", 
+                [
+                    "LINE_4213101"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2295479", 
+                "LINE_2573679", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_2295479|", 
+                "", 
+                "", 
+                [
+                    "LINE_4213101"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2322752", 
+                "LINE_5869326", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_2322752|", 
+                "", 
+                "", 
+                [
+                    "LINE_4213101"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2777706", 
+                "LINE_5087925", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_2777706|", 
+                "", 
+                "", 
+                [
+                    "LINE_4213101"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_Sewer_DeadRats", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_0981043", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0804812", 
+                    "LINE_5545977", 
+                    "LINE_0255295", 
+                    "LINE_1571440", 
+                    "LINE_5581331"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1571440", 
+                "LINE_0981043", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_1571440|", 
+                "", 
+                "", 
+                [
+                    "LINE_5581331"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0804812", 
+                "LINE_0981043", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_0804812|", 
+                "", 
+                "", 
+                [
+                    "LINE_9389798", 
+                    "LINE_4477409", 
+                    "LINE_4055544", 
+                    "LINE_5581331"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5545977", 
+                "LINE_0981043", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_5545977|", 
+                "", 
+                "", 
+                [
+                    "LINE_4361650", 
+                    "LINE_1113541", 
+                    "LINE_5581331"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0255295", 
+                "LINE_0981043", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_0255295|", 
+                "", 
+                "BK removed double \"that\"", 
+                [
+                    "LINE_1715634", 
+                    "LINE_5581331"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5581331", 
+                "LINE_0981043", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_Sewer_DeadRats", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9389798", 
+                "LINE_0804812", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_9389798|", 
+                "", 
+                "", 
+                [
+                    "LINE_5581331"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4477409", 
+                "LINE_0804812", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_4477409|", 
+                "", 
+                "", 
+                [
+                    "LINE_4182535"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4055544", 
+                "LINE_0804812", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_4055544|", 
+                "", 
+                "", 
+                [
+                    "LINE_5581331"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4361650", 
+                "LINE_5545977", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_4361650|", 
+                "", 
+                "", 
+                [
+                    "LINE_5581331"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1113541", 
+                "LINE_5545977", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_1113541|", 
+                "", 
+                "", 
+                [
+                    "LINE_5581331"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1715634", 
+                "LINE_0255295", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_1715634|", 
+                "", 
+                "", 
+                [
+                    "LINE_5581331"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4182535", 
+                "LINE_4477409", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_4182535|", 
+                "", 
+                "", 
+                [
+                    "LINE_5581331"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_Sewer_Illusk", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_8690600", 
+                "<ROOT>", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_8690600|", 
+                "", 
+                "", 
+                [
+                    "LINE_1337620", 
+                    "LINE_6275941", 
+                    "LINE_0581385", 
+                    "LINE_7615295"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1337620", 
+                "LINE_8690600", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_1337620|", 
+                "", 
+                "", 
+                [
+                    "LINE_7615295"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6147557", 
+                "<ROOT>", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_6147557|", 
+                "", 
+                "", 
+                [
+                    "LINE_6309122", 
+                    "LINE_5977180", 
+                    "LINE_7615295"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3869782", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_3869782|", 
+                "", 
+                "", 
+                [
+                    "LINE_2043074", 
+                    "LINE_7615295"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6263572", 
+                "<ROOT>", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_6263572|", 
+                "", 
+                "", 
+                [
+                    "LINE_7615295"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6275941", 
+                "LINE_8690600", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_6275941|", 
+                "", 
+                "", 
+                [
+                    "LINE_6113056"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0581385", 
+                "LINE_8690600", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_0581385|", 
+                "", 
+                "", 
+                [
+                    "LINE_7615295"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7615295", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_Sewer_Illusk", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6309122", 
+                "LINE_6147557", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_6309122|", 
+                "", 
+                "", 
+                [
+                    "LINE_6497357"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5977180", 
+                "LINE_6147557", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_5977180|", 
+                "", 
+                "", 
+                [
+                    "LINE_7689100"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2043074", 
+                "LINE_3869782", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_2043074|", 
+                "", 
+                "", 
+                [
+                    "LINE_7615295"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6113056", 
+                "LINE_6275941", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_6113056|", 
+                "", 
+                "", 
+                [
+                    "LINE_6575819"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6575819", 
+                "LINE_6113056", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_6575819|", 
+                "", 
+                "", 
+                [
+                    "LINE_7615295"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6497357", 
+                "LINE_6309122", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_6497357|", 
+                "", 
+                "", 
+                [
+                    "LINE_8977331"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7689100", 
+                "LINE_5977180", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_7689100|", 
+                "", 
+                "", 
+                [
+                    "LINE_7843185"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7843185", 
+                "LINE_7689100", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_7843185|", 
+                "", 
+                "", 
+                [
+                    "LINE_7615295"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8977331", 
+                "LINE_6497357", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_8977331|", 
+                "", 
+                "", 
+                [
+                    "LINE_7615295"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_Sewer_Hilt", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_3546221", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_5425416", 
+                    "LINE_0504596", 
+                    "LINE_5747851", 
+                    "LINE_5675700", 
+                    "LINE_5865423"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0705069", 
+                "LINE_0504596", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_0705069|", 
+                "", 
+                "", 
+                [
+                    "LINE_0025443"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0504596", 
+                "LINE_3546221", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_0504596|", 
+                "", 
+                "", 
+                [
+                    "LINE_0705069", 
+                    "LINE_6557169", 
+                    "LINE_5865423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5425416", 
+                "LINE_3546221", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_5425416|", 
+                "", 
+                "", 
+                [
+                    "LINE_5049553", 
+                    "LINE_8138226", 
+                    "LINE_0667615", 
+                    "LINE_5865423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5747851", 
+                "LINE_3546221", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_5747851|", 
+                "", 
+                "", 
+                [
+                    "LINE_4717409", 
+                    "LINE_5865423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5675700", 
+                "LINE_3546221", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_5675700|", 
+                "", 
+                "", 
+                [
+                    "LINE_5865423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6557169", 
+                "LINE_0504596", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_6557169|", 
+                "", 
+                "", 
+                [
+                    "LINE_4621244"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5865423", 
+                "LINE_3546221", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_Sewer_Hilt", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8138226", 
+                "LINE_5425416", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_8138226|", 
+                "", 
+                "", 
+                [
+                    "LINE_5865423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0667615", 
+                "LINE_5425416", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_0667615|", 
+                "", 
+                "", 
+                [
+                    "LINE_7082379"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4717409", 
+                "LINE_5747851", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_4717409|", 
+                "", 
+                "", 
+                [
+                    "LINE_4910543"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0025443", 
+                "LINE_0705069", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_0025443|", 
+                "", 
+                "", 
+                [
+                    "LINE_5865423"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4621244", 
+                "LINE_6557169", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_4621244|", 
+                "", 
+                "", 
+                [
+                    "LINE_5865423"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7082379", 
+                "LINE_0667615", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_7082379|", 
+                "", 
+                "", 
+                [
+                    "LINE_4443173"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4443173", 
+                "LINE_7082379", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_4443173|", 
+                "", 
+                "", 
+                [
+                    "LINE_5865423"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4910543", 
+                "LINE_4717409", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_4910543|", 
+                "", 
+                "", 
+                [
+                    "LINE_5865423"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5049553", 
+                "LINE_5425416", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_5049553|", 
+                "", 
+                "", 
+                [
+                    "LINE_5865423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_Sewer_TripleH", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_9067067", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9330825", 
+                    "LINE_6685303", 
+                    "LINE_6461612", 
+                    "LINE_6809083", 
+                    "LINE_2793072"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6847283", 
+                "LINE_9330825", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_6847283|", 
+                "", 
+                "", 
+                [
+                    "LINE_2793072"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_Sewer_TripleH", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9330825", 
+                "LINE_9067067", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_9330825|", 
+                "", 
+                "", 
+                [
+                    "LINE_6847283", 
+                    "LINE_9797852", 
+                    "LINE_9724001", 
+                    "LINE_2793072"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6685303", 
+                "LINE_9067067", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_6685303|", 
+                "", 
+                "", 
+                [
+                    "LINE_3814460", 
+                    "LINE_4136729", 
+                    "LINE_2793072"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6461612", 
+                "LINE_9067067", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_6461612|", 
+                "", 
+                "", 
+                [
+                    "LINE_4655783", 
+                    "LINE_2793072"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6809083", 
+                "LINE_9067067", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_6809083|", 
+                "", 
+                "", 
+                [
+                    "LINE_3196674"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2793072", 
+                "LINE_9067067", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Ch2_Sewer_TripleH", 
+                        "Quest": "AmbientDialogFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9797852", 
+                "LINE_9330825", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_9797852|", 
+                "", 
+                "", 
+                [
+                    "LINE_5259703"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9724001", 
+                "LINE_9330825", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_9724001|", 
+                "", 
+                "", 
+                [
+                    "LINE_8129754"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3814460", 
+                "LINE_6685303", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_3814460|", 
+                "", 
+                "", 
+                [
+                    "LINE_8976070"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4136729", 
+                "LINE_6685303", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_4136729|", 
+                "", 
+                "", 
+                [
+                    "LINE_2793072"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4655783", 
+                "LINE_6461612", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_4655783|", 
+                "", 
+                "", 
+                [
+                    "LINE_2793072"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5259703", 
+                "LINE_9797852", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_5259703|", 
+                "", 
+                "BK WOTC - tweaked as per WOTC", 
+                [
+                    "LINE_2793072"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8129754", 
+                "LINE_9724001", 
+                "HOMMET", 
+                "|Ch2_Ambients_LINE_8129754|", 
+                "", 
+                "BK WOTC - removed modern reference", 
+                [
+                    "LINE_2793072"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8976070", 
+                "LINE_3814460", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_8976070|", 
+                "", 
+                "", 
+                [
+                    "LINE_1294586"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1294586", 
+                "LINE_8976070", 
+                "ILLYDIA", 
+                "|Ch2_Ambients_LINE_1294586|", 
+                "", 
+                "", 
+                [
+                    "LINE_6106264"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6106264", 
+                "LINE_1294586", 
+                "LARETHAR", 
+                "|Ch2_Ambients_LINE_6106264|", 
+                "", 
+                "", 
+                [
+                    "LINE_2793072"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3196674", 
+                "LINE_6809083", 
+                "JARHILD", 
+                "|Ch2_Ambients_LINE_3196674|", 
+                "", 
+                "", 
+                [
+                    "LINE_2793072"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

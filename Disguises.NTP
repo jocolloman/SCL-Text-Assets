@@ -1,0 +1,23 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_Disguises"
+{
+     FORMAT
+     {
+          STRING           "QuestActivator"
+          STRING           "QuestFlagActivator"
+          XREF             ""    "WhoAmI"
+          XREF             ""    "DyeSet"
+     }
+
+     TEMPLATE "Dalanir"
+     {
+          DESCRIPTION      "This will change Soronil to Dalanir the next time Soronil is loaded and the quest flag is true"
+          DATA             "C3.2_Chaos_Breaks_Loose"
+          DATA             "C3_CBL_SwitchToDalanir"
+          DATA             "Companion_Dalanir"
+          DATA             "SH_Companion_Dalanir"
+     }
+
+}
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="0" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DC_Undead" /> 
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>    
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAT_Staging_IzhkinCQ" CanDMSpawn = "0" />
+                </Tiles>
+            </Trunk>
+        </Group>
+      
+        <Group>
+            <Trunk>
+                <Tiles >
+					<Tile Name="CAT_S_C_Angle" 		PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+		</Group>
+		
+		<Group>
+            <Trunk>
+                <Tiles > 
+					<Tile Name="CAT_S_C_Altar"		ForceEntryPort="Port01" ForceExitPort="Port04"  PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+		<Group>
+            <Trunk>
+                <Tiles > 
+					<Tile Name="CAT_S_I_Four"		ForceEntryPort="Port01" PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>				
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+        <Group>
+            <Trunk>
+                <Tiles > 
+					<Tile Name="CAT_S_T_BandStand"  ForceEntryPort="Port02"	PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group> 
+    </Groups>  
+</DungeonConfig>

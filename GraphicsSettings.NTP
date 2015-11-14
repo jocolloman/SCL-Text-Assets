@@ -1,0 +1,70 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_GraphicsSettings"
+{
+     FORMAT
+     {
+          INTEGER          "UseSSAO"
+          INTEGER          "UseBloom"
+          INTEGER          "UseDOF"
+          INTEGER          "TextureQuality"
+          INTEGER          "ShadowQuality"
+          INTEGER          "ShadowAmount"
+          INTEGER          "ShadowDistance"
+          INTEGER          "UseAnisoFiltering"
+     }
+
+     TEMPLATE "Best"
+     {
+          DATA             "0"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "0"
+          DATA             "0"
+          DATA             "0"
+          DATA             "500"
+          DATA             "1"
+     }
+
+     TEMPLATE "High"
+     {
+          DATA             "0"
+          DATA             "0"
+          DATA             "1"
+          DATA             "1"
+          DATA             "0"
+          DATA             "1"
+          DATA             "1"
+          DATA             "400"
+          DATA             "1"
+     }
+
+     TEMPLATE "Medium"
+     {
+          DATA             "0"
+          DATA             "0"
+          DATA             "1"
+          DATA             "0"
+          DATA             "0"
+          DATA             "2"
+          DATA             "2"
+          DATA             "200"
+          DATA             "0"
+     }
+
+     TEMPLATE "Low"
+     {
+          DATA             "1"
+          DATA             "0"
+          DATA             "0"
+          DATA             "0"
+          DATA             "1"
+          DATA             "3"
+          DATA             "3"
+          DATA             "40"
+          DATA             "0"
+     }
+
+}
+

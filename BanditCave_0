@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Settings
+        PortWeightX="0"
+        PortWeightZ="-100"
+        PlayerLighting="DrowCavesPlayerLighting"
+        MaxHallwayDistance="300"
+        MaxHallwayTiles="4" >
+
+        <HallwayTiles>
+			<Tile Name="BAN_10_C_Hall" TransitionOverride="Drow_HallArch" EndCapOverride="Drow_SpecialCurve" />
+        </HallwayTiles>
+
+    </Settings>
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="MercCh1Set" />
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+        <Group>  
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_Staging"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- Tree 3 - Trap Room -->
+        <Group>    
+            <Trunk  Min="1" Max="1" >
+                <Tiles>    
+                    <!-- This tile has a trap encounter that only spawns in this dungeon -->
+                    <Tile Name="BAN_S_C_ZCross"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_S_C_Goat" Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="BAN_S_C_Psi"  Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="BAN_S_C_Bolt" Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Branch>
+        </Group>
+
+<!-- Tree 1 - includes key!!!  -->
+       <Group>
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_S_C_Goat" Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="BAN_S_C_Psi"  Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="BAN_S_C_Bolt" Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+
+            <Branch Min="1" Max="1">
+                <Tiles >
+                  <!-- This is where you get the key! -->
+                  <Tile XMLID="MercKey" Name="BAN_S_C_Hyundai" ForceEntryPort="Port01" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"  Max="1" />
+                </Tiles>
+            </Branch>
+        </Group>
+
+<!-- Tree 2 - Amulet Guy  -->
+         <Group>
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_S_C_Goat" Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="BAN_S_C_Psi"  Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="BAN_S_C_Bolt" Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_S_C_Goat" Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="BAN_S_C_Psi"  Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="BAN_S_C_Bolt" Max="2" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Branch>
+        </Group>
+
+<!-- Hallway -->
+		<Group>
+            <Trunk>
+                <Tiles >
+                    <Tile XMLID="Fireplace" Name="BAN_S_I_Noodle"  MaxDynamicHallways="0"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- Guildmates get slaughtered -->
+<!-- Forced Wrap Around back to Mid Tile -->
+        <Group>
+            <Trunk Sequential="1">
+                <Tiles>
+                    <Tile XMLID="Locked" Name="BAN_Mid" ForceEntryPort="Port04" ForceExitPort="Port03" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"  MaxDynamicHallways="0"/>
+                    <Tile Name="BAN_36_C_River"     ForceEntryPort="Port01" ForceExitPort="Port04"  MaxDynamicHallways="0" XMLID = "AfterBanagar"/>
+                    <!-- <Tile Name="BAN_S_E_Comma"      ForceEntryPort="Port01"  /> -->
+        			<Tile XMLID="MercDad" Name="BAN_S_E_Platform" ForceEntryPort="Port01" ForceExitPort="Port02"  MaxDynamicHallways="0"/>
+                    <Tile Name="BAN_S_T_Why" ForceEntryPort="Port01" ForceExitPort="Port02"  MaxDynamicHallways="0"/>
+                    <Tile Name="BAN_S_E_Comma"      ForceEntryPort="Port01"  MaxDynamicHallways="0"/>
+                </Tiles>
+            </Trunk>
+            <!-- Shouldn't need this tile anymore, flortal is built into the mid tile
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_FlortalUP"/>
+                </Tiles>
+            </Branch>
+            -->
+        </Group>
+
+    </Groups>
+
+    <!-- Side Quest Tiles!! -->
+    <PostBuildTiles>
+        <Tiles>
+            <!-- Shield Guy -->
+            <Tile XMLID="FamilyShield" Name="BAN_S_C_Platform"  PortExtensionMin= "1" PortExtensionMax = "1" />
+
+            <!-- Amulet Guy - Moved above to force it in the crit path
+			<Tile XMLID="MercDad" Name="BAN_S_E_Platform" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+            -->
+        </Tiles>
+    </PostBuildTiles>
+
+</DungeonConfig>
+
+<!--
+<Tile Name="CAV_36_T_JStairs"   ForceEntryPort="Port01" ForceExitPort="Port02"  /> \
+-->

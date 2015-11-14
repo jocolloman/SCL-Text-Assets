@@ -1,0 +1,3233 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "Critical Path Quests": {
+            "C4_Darklake_CP_TheRustedAmulet": [
+                "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Name", 
+                10, 
+                "", 
+                "", 
+                "", 
+                {
+                    "QuestFlags": {
+                        "C4_Darklake_TRA_Start": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_C4_Darklake_TRA_Start_Name", 
+                            1, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_C4_Darklake_TRA_Start_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TRA_SpeakWithTzor": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 1_Name", 
+                            2, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 1_JournalEntry", 
+                            "C4_Darklake_TRA_SpeakWithTzor_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TRA_Start", 
+                                            "quest": "C4_Darklake_CP_TheRustedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TRA_FindAWay": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 2_Name", 
+                            3, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 2_JournalEntry", 
+                            "C4_Darklake_TRA_FindAWay_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TRA_SpeakWithTzor", 
+                                            "quest": "C4_Darklake_CP_TheRustedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TRA_CollectMushrooms": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 3_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 3_JournalEntry", 
+                            "C4_Darklake_TRA_CollectMushrooms_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TRA_FindAWay", 
+                                            "quest": "C4_Darklake_CP_TheRustedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TRA_GiveDrinkToTzor": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 4_Name", 
+                            5, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 4_JournalEntry", 
+                            "C4_Darklake_TRA_GiveDrinkToTzor_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TRA_CollectMushrooms", 
+                                            "quest": "C4_Darklake_CP_TheRustedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TRA_TakeAmulet": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 5_Name", 
+                            6, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 5_JournalEntry", 
+                            "C4_Darklake_TRA_TakeAmulet_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TRA_GiveDrinkToTzor", 
+                                            "quest": "C4_Darklake_CP_TheRustedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            2, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ]
+                    }, 
+                    "MiscFlags": {
+                        "C4_Darklake_TRA_BartenderAmbient": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 6_Name", 
+                            7, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 6_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TRA_T'zorAmbient": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 7_Name", 
+                            8, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 7_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TRA_CollectMushrooms", 
+                                            "quest": "C4_Darklake_CP_TheRustedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TRA_FinalJournalEntry": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 8_Name", 
+                            9, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 8_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TRA_TakeAmulet", 
+                                            "quest": "C4_Darklake_CP_TheRustedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TRA_MossPickUp": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 7192_Name", 
+                            10, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheRustedAmulet_Flag 7192_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "flag": "C4_Darklake_TRA_FindAWay", 
+                                    "quest": "C4_Darklake_CP_TheRustedAmulet", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            {}
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "DarkLakeDistrict", 
+                "Act3"
+            ], 
+            "C4_Darklake_CP_TheDentedAmulet": [
+                "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Name", 
+                10, 
+                "", 
+                "", 
+                "", 
+                {
+                    "QuestFlags": {
+                        "C4_Darklake_TDA_Start": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_Start_Name", 
+                            1, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_Start_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ]
+                    }, 
+                    "QuestFlags2": {
+                        "C4_Darklake_TDA_SpeakWithGorstaf": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_SpeakWithGorstaf_Name", 
+                            2, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_SpeakWithGorstaf_JournalEntry", 
+                            "C4_Darklake_TDA_SpeakWithGorstaf_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_Start", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_SpeakWithLinzin": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_SpeakWithLinzin_Name", 
+                            3, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_SpeakWithLinzin_JournalEntry", 
+                            "C4_Darklake_TDA_SpeakWithLinzin_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_SpeakWithGorstaf", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_ReturnToGorstaf": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_ReturnToGorstaf_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_ReturnToGorstaf_JournalEntry", 
+                            "C4_Darklake_TDA_ReturnToGorstaf_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_SpeakWithLinzin", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_DeliverToBrumnum": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_DeliverToBrumnum_Name", 
+                            5, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_DeliverToBrumnum_JournalEntry", 
+                            "C4_Darklake_TDA_DeliverToBrumnum_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_ObtainedPie", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TDA_PaidLinzinDebt", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 0
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TDA_PaidBothDebt", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 0
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TDA_LiedToLinzin", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_JournalFlagG": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 21_Name", 
+                            6, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 21_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_ObtainedPie", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_CloseLinzinDebt": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_CloseLinzinDebt_Name", 
+                            7, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_CloseLinzinDebt_JournalEntry", 
+                            "C4_Darklake_TDA_CloseLinzinDebt_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_ReturnToGorstaf", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_GetDentedAmulet": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_GetDentedAmulet_Name", 
+                            8, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_GetDentedAmulet_JournalEntry", 
+                            "C4_Darklake_TDA_GetDentedAmulet_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_CloseLinzinDebt", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            2, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ]
+                    }, 
+                    "MiscFlags2": {
+                        "C4_Darklake_TDA_LiedToLinzin": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_LiedToLinzin_Name", 
+                            9, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_LiedToLinzin_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_DeliveredPie": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_DeliveredPie_Name", 
+                            10, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_DeliveredPie_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_PaidLinzinDebt": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_PaidLinzinDebt_Name", 
+                            11, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_PaidLinzinDebt_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_PaidBothDebt": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_PaidBothDebt_Name", 
+                            12, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_PaidBothDebt_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_ObtainedPie": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_ObtainedPie_Name", 
+                            13, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_ObtainedPie_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_SpokeWithBrumnum": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_SpokeWithBrumnum_Name", 
+                            14, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_SpokeWithBrumnum_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_AskAboutDebt": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_AskAboutDebt_Name", 
+                            15, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_AskAboutDebt_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_LinzinRevealed": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_LinzinRevealed_Name", 
+                            16, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_C4_Darklake_TDA_LinzinRevealed_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_JournalFlagA": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 15_Name", 
+                            17, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 15_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_ObtainedPie", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TDA_PaidLinzinDebt", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_JournalFlagB": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 16_Name", 
+                            18, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 16_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_PaidBothDebt", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_JournalFlagC": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 17_Name", 
+                            19, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 17_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_ObtainedPie", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 0
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TDA_PaidLinzinDebt", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_JournalFlagD": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 18_Name", 
+                            20, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 18_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_LiedToLinzin", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TDA_GetDentedAmulet", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_JournalFlagH": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 22_Name", 
+                            21, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 22_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_DeliverToBrumnum", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TDA_CloseLinzinDebt", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_JournalFlagF": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 20_Name", 
+                            22, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 20_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_CloseLinzinDebt", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TDA_LiedToLinzin", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_JournalFlagE": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 19_Name", 
+                            23, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheDentedAmulet_Flag 19_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TDA_GetDentedAmulet", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TDA_LiedToLinzin", 
+                                            "quest": "C4_Darklake_CP_TheDentedAmulet", 
+                                            "set": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "DarkLakeDistrict", 
+                "Act3"
+            ], 
+            "C4_Darklake_CP_TheFilthyAmulet": [
+                "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_Name", 
+                10, 
+                "", 
+                "", 
+                "", 
+                {
+                    "QuestFlags": {
+                        "C4_Darklake_TFA_Start": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_Start_Name", 
+                            1, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_Start_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_EnterThangarsStash": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_EnterThangarsStash_Name", 
+                            2, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_EnterThangarsStash_JournalEntry", 
+                            "C4_Darklake_TFA_EnterThangarsStash_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TFA_Start", 
+                                            "quest": "C4_Darklake_CP_TheFilthyAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "ThangarsStash", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_SpeakWithOddDerro": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_SpeakWithOddDerro_Name", 
+                            3, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_SpeakWithOddDerro_JournalEntry", 
+                            "C4_Darklake_TFA_SpeakWithOddDerro_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TFA_EnterThangarsStash", 
+                                            "quest": "C4_Darklake_CP_TheFilthyAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "ThangarsStash", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_DefeatTheOddDerro": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_DefeatTheOddDerro_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_DefeatTheOddDerro_JournalEntry", 
+                            "C4_Darklake_TFA_DefeatTheOddDerro_Reward", 
+                            [
+                                {
+                                    "flag": "C4_Darklake_TFA_SpeakWithOddDerro", 
+                                    "quest": "C4_Darklake_CP_TheFilthyAmulet", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "ThangarsStash", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_LootFilthyAmulet": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootFilthyAmulet_Name", 
+                            5, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootFilthyAmulet_JournalEntry", 
+                            "C4_Darklake_TFA_LootFilthyAmulet_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TFA_DefeatTheOddDerro", 
+                                            "quest": "C4_Darklake_CP_TheFilthyAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            2, 
+                            false, 
+                            "", 
+                            "", 
+                            "ThangarsStash", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_LootedFilthyAmulet": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootedFilthyAmulet_Name", 
+                            6, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootedFilthyAmulet_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "flag": "C4_COTGD_GotAmulet3", 
+                                    "quest": "C4.1_City_Of_The_Grey_Dwarves", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            2, 
+                            true, 
+                            "", 
+                            "", 
+                            "ThangarsStash", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_OpenedHiddenDoor": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_OpenedHiddenDoor_Name", 
+                            7, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_OpenedHiddenDoor_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ]
+                    }, 
+                    "MiscFlags": {
+                        "C4_Darklake_TFA_HadFinalConvo": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_HadFinalConvo_Name", 
+                            8, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_HadFinalConvo_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TDA_ConversationWithStuckDoor": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TDA_ConversationWithStuckDoor_Name", 
+                            9, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TDA_ConversationWithStuckDoor_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_FoundThangarKey": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_FoundThangarKey_Name", 
+                            10, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_FoundThangarKey_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_BrokeIntoHouse": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_BrokeIntoHouse_Name", 
+                            11, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_BrokeIntoHouse_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_ConversationOutsideThangar": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_ConversationOutsideThangar_Name", 
+                            12, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_ConversationOutsideThangar_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_ConversationAfterLootingKey": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_ConversationAfterLootingKey_Name", 
+                            13, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_ConversationAfterLootingKey_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_TalkedOutOfFight": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_TalkedOutOfFight_Name", 
+                            14, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_TalkedOutOfFight_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_DefeatedDuergarAmbush": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_DefeatedDuergarAmbush_Name", 
+                            15, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_DefeatedDuergarAmbush_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_CaveRevealed": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_CaveRevealed_Name", 
+                            16, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_CaveRevealed_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_SlaveDied": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_SlaveDied_Name", 
+                            17, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_SlaveDied_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_PlacedHeavyBookOnScale": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PlacedHeavyBookOnScale_Name", 
+                            18, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PlacedHeavyBookOnScale_JournalEntry", 
+                            "", 
+                            [], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_PlacedMediumBookOnScale": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PlacedMediumBookOnScale_Name", 
+                            19, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PlacedMediumBookOnScale_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_PlacedLightBookOnScale": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PlacedLightBookOnScale_Name", 
+                            20, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PlacedLightBookOnScale_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_PlacedCorrectBooksOnScale": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PlacedCorrectBooksOnScale_Name", 
+                            21, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PlacedCorrectBooksOnScale_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TFA_PlacedMediumBookOnScale", 
+                                            "quest": "C4_Darklake_CP_TheFilthyAmulet", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TFA_PlacedLightBookOnScale", 
+                                            "quest": "C4_Darklake_CP_TheFilthyAmulet", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TFA_PlacedHeavyBookOnScale", 
+                                            "quest": "C4_Darklake_CP_TheFilthyAmulet", 
+                                            "set": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_LootedHeavyBook": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootedHeavyBook_Name", 
+                            22, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootedHeavyBook_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_LootedMediumBook": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootedMediumBook_Name", 
+                            23, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootedMediumBook_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_LootedLightBook": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootedLightBook_Name", 
+                            24, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_LootedLightBook_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_SlaveSurvivedBattle": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_SlaveSurvivedBattle_Name", 
+                            25, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_SlaveSurvivedBattle_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_DecidedToKillSlave": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_DecidedToKillSlave_Name", 
+                            26, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_DecidedToKillSlave_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_PickedUpABook": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PickedUpABook_Name", 
+                            27, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_PickedUpABook_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TFA_StartedAmbush": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_StartedAmbush_Name", 
+                            28, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_C4_Darklake_TFA_StartedAmbush_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "_ThangarEnteredAmbientFinished": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_Flag 28_Name", 
+                            29, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_Flag 28_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "_ThangarAmbientWithWeightFinished": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_Flag 29_Name", 
+                            30, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_Flag 29_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "_EnteringTaxCollectorOfficeFinished": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_Flag 30_Name", 
+                            31, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheFilthyAmulet_Flag 30_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "DarkLakeDistrict", 
+                "Act3"
+            ], 
+            "C4_Darklake_CP_TheItchyAmulet": [
+                "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_Name", 
+                10, 
+                "", 
+                "", 
+                "", 
+                {
+                    "QuestFlags": {
+                        "C4_Darklake_TIA_Start": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_Start_Name", 
+                            1, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_Start_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TIA_SpeakWithElf": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_SpeakWithElf_Name", 
+                            2, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_SpeakWithElf_JournalEntry", 
+                            "C4_Darklake_TIA_SpeakWithElf_Reward", 
+                            [
+                                {
+                                    "flag": "C4_Darklake_TIA_Start", 
+                                    "quest": "C4_Darklake_CP_TheItchyAmulet", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_ReceivedItchyAmulet": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_ReceivedItchyAmulet_Name", 
+                            3, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_ReceivedItchyAmulet_JournalEntry", 
+                            "C4_Darklake_ReceivedItchyAmulet_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_COTGD_GotAmulet4", 
+                                            "quest": "C4.1_City_Of_The_Grey_Dwarves", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C4_Darklake_TIA_SpeakWithContacts", 
+                                            "quest": "C4_Darklake_CP_TheItchyAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            2, 
+                            true, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TIA_HeardGuardConversation": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_HeardGuardConversation_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_HeardGuardConversation_JournalEntry", 
+                            "C4_Darklake_TIA_HeardGuardConversation_Reward", 
+                            [
+                                {
+                                    "flag": "C4_Darklake_TIA_GuardConversation", 
+                                    "quest": "C4_Darklake_CP_TheItchyAmulet", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TIA_FollowBloodTrail": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_FollowBloodTrail_Name", 
+                            5, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_FollowBloodTrail_JournalEntry", 
+                            "C4_Darklake_TIA_FollowBloodTrail_Reward", 
+                            [
+                                {
+                                    "flag": "C4_Darklake_TIA_FoundBloodTrail", 
+                                    "quest": "C4_Darklake_CP_TheItchyAmulet", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TIA_SpeakWithContacts": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_SpeakWithContacts_Name", 
+                            6, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_SpeakWithContacts_JournalEntry", 
+                            "C4_Darklake_TIA_SpeakWithContacts_Reward", 
+                            [
+                                {
+                                    "flag": "SpokeWithEradin", 
+                                    "quest": "C4_Darklake_CP_TheItchyAmulet", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ]
+                    }, 
+                    "MiscFlags": {
+                        "C4_Darklake_TIA_GuardConversation": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_GuardConversation_Name", 
+                            7, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_GuardConversation_JournalEntry", 
+                            "", 
+                            {}, 
+                            "Set to true after you hear a conversation w/the guard.\n", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TIA_FoundBloodTrail": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_FoundBloodTrail_Name", 
+                            8, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_C4_Darklake_TIA_FoundBloodTrail_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "SpokeWithEradin": [
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_Flag 8_Name", 
+                            9, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_TheItchyAmulet_Flag 8_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "DarkLakeDistrict", 
+                "Act3"
+            ], 
+            "C4_Darklake_CP_SpikeTheDrink": [
+                "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_Name", 
+                10, 
+                "Ch4_Darklake_KhalessPoison", 
+                "..\\..\\..\\..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+                "", 
+                {
+                    "QuestFlags": {
+                        "C4_Darklake_STD_Start": [
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_C4_Darklake_STD_Start_Name", 
+                            1, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_C4_Darklake_STD_Start_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TRA_BartenderAmbient", 
+                                            "quest": "C4_Darklake_CP_TheRustedAmulet", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            1, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_STD_CollectMushrooms": [
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_C4_Darklake_STD_CollectMushrooms_Name", 
+                            2, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_C4_Darklake_STD_CollectMushrooms_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_STD_Start", 
+                                            "quest": "C4_Darklake_CP_SpikeTheDrink", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "UnderdarkDescent", 
+                            []
+                        ], 
+                        "C4_Darklake_STD_ReturnToBartender": [
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_C4_Darklake_STD_ReturnToBartender_Name", 
+                            3, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_C4_Darklake_STD_ReturnToBartender_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_STD_CollectMushrooms", 
+                                            "quest": "C4_Darklake_CP_SpikeTheDrink", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            2, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_STD_JournalFlagA": [
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_Flag 3_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_Flag 3_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_STD_ReturnToBartender", 
+                                            "quest": "C4_Darklake_CP_SpikeTheDrink", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_STD_SkipQuest": [
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_Flag 4_Name", 
+                            5, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_C4_Darklake_CP_SpikeTheDrink_Flag 4_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "DarkLakeDistrict", 
+                "Act3"
+            ], 
+            "Ch4_Darklake_TheGoblinChief": [
+                "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "QuestFlags": {
+                        "C4_Darklake_TGC_Start": [
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_C4_Darklake_TGC_Start_Name", 
+                            1, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_C4_Darklake_TGC_Start_JournalEntry", 
+                            "C4_Darklake_TGC_Start_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TGC_FindSymbol": [
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_C4_Darklake_TGC_FindSymbol_Name", 
+                            2, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_C4_Darklake_TGC_FindSymbol_JournalEntry", 
+                            "C4_Darklake_TGC_FindSymbol_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TGC_Start", 
+                                            "quest": "Ch4_Darklake_TheGoblinChief", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ], 
+                        "C4_Darklake_TGC_ReturnWithSymbol": [
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_C4_Darklake_TGC_ReturnWithSymbol_Name", 
+                            3, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_C4_Darklake_TGC_ReturnWithSymbol_JournalEntry", 
+                            "C4_Darklake_TGC_ReturnWithSymbol_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TGC_FindSymbol", 
+                                            "quest": "Ch4_Darklake_TheGoblinChief", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "DarkLakeDistrict", 
+                            []
+                        ]
+                    }, 
+                    "Misc": {
+                        "C4_Darklake_TGC_DespawnFirstChief": [
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_C4_Darklake_TGC_DespawnFirstChief_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_C4_Darklake_TGC_DespawnFirstChief_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "C4_Darklake_TGC_JournalEntryA": [
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_Flag 4_Name", 
+                            5, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_Ch4_Darklake_TheGoblinChief_Flag 4_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "C4_Darklake_TGC_ReturnWithSymbol", 
+                                            "quest": "Ch4_Darklake_TheGoblinChief", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "ThangarsStash", 
+                "Location"
+            ]
+        }, 
+        "Related Sidequests": {
+            "ReturnOfTheChief_SQ": [
+                "Ch4_Darklake_ReturnOfTheChief_SQ_Name", 
+                0, 
+                "ReturnOfTheChief_SQ", 
+                "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\CritPathQuests\\Chapter3", 
+                "", 
+                {
+                    "QuestFlags": {
+                        "ROTC_SQ_Start": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_Start_Name", 
+                            1, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_Start_JournalEntry", 
+                            "ROTC_SQ_Start_Reward", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "ROTC_SQ_FollowZgak": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_FollowZgak_Name", 
+                            2, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_FollowZgak_JournalEntry", 
+                            "ROTC_SQ_FollowZgak_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "ROTC_SQ_Start", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "ROTC_SQ_SpeakWithZgak": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 38_Name", 
+                            3, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 38_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "flag": "ROTC_SQ_FollowZgak", 
+                                    "quest": "ReturnOfTheChief_SQ", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "ROTC_SQ_EnterZgak": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 37_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 37_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "flag": "ROTC_SQ_SpeakWithZgak", 
+                                    "quest": "ReturnOfTheChief_SQ", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            3, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "ROTC_SQ_HelpZgak": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_HelpZgak_Name", 
+                            5, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_HelpZgak_JournalEntry", 
+                            "ROTC_SQ_HelpZgak_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "ROTC_SQ_EnterZgak", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "ROTC_SQ_DefeatKazak": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_DefeatKazak_Name", 
+                            6, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_DefeatKazak_JournalEntry", 
+                            "ROTC_SQ_DefeatKazak_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "ROTC_SQ_HelpZgak", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "ROTC_SQ_RestoreZgakAsChief": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_RestoreZgakAsChief_Name", 
+                            7, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ROTC_SQ_RestoreZgakAsChief_JournalEntry", 
+                            "ROTC_SQ_RestoreZgakAsChief_Reward", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "ROTC_SQ_DefeatKazak", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "ROTC_SQ_ZgakFollow": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 35_Name", 
+                            8, 
+                            false, 
+                            false, 
+                            true, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 35_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "ROTC_SQ_ZgakDead": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 36_Name", 
+                            9, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 36_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "flag": "ROTC_SQ_ZgakFollow", 
+                                    "quest": "ReturnOfTheChief_SQ", 
+                                    "set": 1
+                                }, 
+                                {
+                                    "flag": "ROTC_SQ_DefeatKazak", 
+                                    "quest": "ReturnOfTheChief_SQ", 
+                                    "set": 0
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ]
+                    }, 
+                    "MiscFlags": {
+                        "OppressedGoblinAmbient1": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OppressedGoblinAmbient1_Name", 
+                            10, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OppressedGoblinAmbient1_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "OppressedGoblinCharge1": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OppressedGoblinCharge1_Name", 
+                            11, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OppressedGoblinCharge1_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "OppressedGoblinCharge1Activated": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OppressedGoblinCharge1Activated_Name", 
+                            12, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OppressedGoblinCharge1Activated_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "DefeatedEncounter2": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_DefeatedEncounter2_Name", 
+                            13, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_DefeatedEncounter2_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "HaveAnExtraFollower": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_HaveAnExtraFollower_Name", 
+                            14, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_HaveAnExtraFollower_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "OpenedZgakDoor": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OpenedZgakDoor_Name", 
+                            15, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OpenedZgakDoor_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "DefeatedSecretDoorEncounter": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_DefeatedSecretDoorEncounter_Name", 
+                            16, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_DefeatedSecretDoorEncounter_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "UsedSecretLever": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_UsedSecretLever_Name", 
+                            17, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_UsedSecretLever_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "KazakAggro": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_KazakAggro_Name", 
+                            18, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_KazakAggro_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "ZgakAggro": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ZgakAggro_Name", 
+                            19, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ZgakAggro_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "SwitchEncountersToGoblin": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_SwitchEncountersToGoblin_Name", 
+                            20, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_SwitchEncountersToGoblin_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "KazakIntroAmbientFired": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_KazakIntroAmbientFired_Name", 
+                            21, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_KazakIntroAmbientFired_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CharismaReward": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_CharismaReward_Name", 
+                            22, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_CharismaReward_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "StrengthReward": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_StrengthReward_Name", 
+                            23, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_StrengthReward_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "IntelligenceReward": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_IntelligenceReward_Name", 
+                            24, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_IntelligenceReward_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "RewardChestALooted": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_RewardChestALooted_Name", 
+                            25, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_RewardChestALooted_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "RewardChestBLooted": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_RewardChestBLooted_Name", 
+                            26, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_RewardChestBLooted_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "RewardChestCLooted": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_RewardChestCLooted_Name", 
+                            27, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_RewardChestCLooted_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "TooManyChestsAggro": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_TooManyChestsAggro_Name", 
+                            28, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_TooManyChestsAggro_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "ZgakAggro", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 0
+                                        }, 
+                                        {
+                                            "groupStart": 1, 
+                                            "join": "OR", 
+                                            "groupItems": [
+                                                {
+                                                    "groupStart": 1, 
+                                                    "join": "AND", 
+                                                    "groupItems": [
+                                                        {
+                                                            "flag": "RewardChestALooted", 
+                                                            "quest": "ReturnOfTheChief_SQ", 
+                                                            "set": 1
+                                                        }, 
+                                                        {
+                                                            "flag": "RewardChestBLooted", 
+                                                            "quest": "ReturnOfTheChief_SQ", 
+                                                            "set": 1
+                                                        }
+                                                    ]
+                                                }, 
+                                                {
+                                                    "groupStart": 1, 
+                                                    "join": "AND", 
+                                                    "groupItems": [
+                                                        {
+                                                            "flag": "RewardChestBLooted", 
+                                                            "quest": "ReturnOfTheChief_SQ", 
+                                                            "set": 1
+                                                        }, 
+                                                        {
+                                                            "flag": "RewardChestCLooted", 
+                                                            "quest": "ReturnOfTheChief_SQ", 
+                                                            "set": 1
+                                                        }
+                                                    ]
+                                                }, 
+                                                {
+                                                    "groupStart": 1, 
+                                                    "join": "AND", 
+                                                    "groupItems": [
+                                                        {
+                                                            "flag": "RewardChestALooted", 
+                                                            "quest": "ReturnOfTheChief_SQ", 
+                                                            "set": 1
+                                                        }, 
+                                                        {
+                                                            "flag": "RewardChestCLooted", 
+                                                            "quest": "ReturnOfTheChief_SQ", 
+                                                            "set": 1
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "groupStart": 1, 
+                                            "join": "OR", 
+                                            "groupItems": [
+                                                {
+                                                    "flag": "CharismaReward", 
+                                                    "quest": "ReturnOfTheChief_SQ", 
+                                                    "set": 1
+                                                }, 
+                                                {
+                                                    "flag": "StrengthReward", 
+                                                    "quest": "ReturnOfTheChief_SQ", 
+                                                    "set": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "OneChestAggro": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OneChestAggro_Name", 
+                            29, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_OneChestAggro_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "ZgakAggro", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 0
+                                        }, 
+                                        {
+                                            "flag": "CharismaReward", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 0
+                                        }, 
+                                        {
+                                            "flag": "StrengthReward", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 0
+                                        }, 
+                                        {
+                                            "flag": "IntelligenceReward", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 0
+                                        }, 
+                                        {
+                                            "groupStart": 1, 
+                                            "join": "OR", 
+                                            "groupItems": [
+                                                {
+                                                    "flag": "RewardChestALooted", 
+                                                    "quest": "ReturnOfTheChief_SQ", 
+                                                    "set": 1
+                                                }, 
+                                                {
+                                                    "flag": "RewardChestBLooted", 
+                                                    "quest": "ReturnOfTheChief_SQ", 
+                                                    "set": 1
+                                                }, 
+                                                {
+                                                    "flag": "RewardChestCLooted", 
+                                                    "quest": "ReturnOfTheChief_SQ", 
+                                                    "set": 1
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "InformedOfButton": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_InformedOfButton_Name", 
+                            30, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_InformedOfButton_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "ClickedOnSkull": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ClickedOnSkull_Name", 
+                            31, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_ClickedOnSkull_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "JournalFlagA": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 27_Name", 
+                            32, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 27_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "CharismaReward", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "JournalFlagB": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 28_Name", 
+                            33, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 28_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "StrengthReward", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "JournalFlagC": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 29_Name", 
+                            34, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 29_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "IntelligenceReward", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "JournalFlagD": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 30_Name", 
+                            35, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 30_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "TooManyChestsAggro", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "JournalFlagE": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 31_Name", 
+                            36, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 31_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "TooManyChestsAggro", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 0
+                                        }, 
+                                        {
+                                            "flag": "ZgakAggro", 
+                                            "quest": "ReturnOfTheChief_SQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "AttemptedCharismaCheck": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 32_Name", 
+                            37, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 32_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "AttemptedIntelligenceCheck": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 33_Name", 
+                            38, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 33_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "AttemptedStrengthCheck": [
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 34_Name", 
+                            39, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch4_Darklake_ReturnOfTheChief_SQ_Flag 34_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "ThangarsStash", 
+                "Location"
+            ]
+        }
+    }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<Settings   
+    PortWeightX="0" 
+    PortWeightZ="-100" 
+    PlayerLighting="DrowCavesPlayerLighting" 
+    MaxHallwayDistance="30"
+    MaxHallwayTiles="4" >
+</Settings>
+
+<!--
+Seeds:
+
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+        <CreatureSet Name="DrowSet01" />
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+       <Group>
+            <Trunk>
+                <Tiles>
+                     <Tile Name="SPI_LaretharCQStaging" />
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- hallway-->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SPI_DiagHall"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" ForceEntryPort="01"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+
+<!-- Tree 2 --> <!-- Guard will be in this room -->
+        <Group>
+        <!-- Big connecting hallway tile-->
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                   <Tile Name="SPI_36_C_NarrowHalls" PortExtensionMin= "8" PortExtensionMax= "8" OpenAllPorts="1" ForceEntryPort="09" ForceExitPort="04"/>
+                </Tiles>
+            </Trunk>
+            
+            <!-- Flortal/Exit to the 2nd floor where the stash and miniboss is. Locked.-->
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SPI_FlortalDOWN"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"
+                    TransitionOverride="SpiderCastleDoor" XMLID="LaretharCQ_DescendTile"/>
+                </Tiles>
+            </Branch>
+        </Group>
+        
+ <!-- Tree 3 , loot-captain room w/keys and blackmail-->       
+        <Group>
+            <Trunk>
+                <Tiles>
+                    <Tile Name="SPI_S_C_Armor"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="04" ForceExitPort="06" TransitionOverride="SpiderCastleArch01"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- Tree 4, hallway-->
+        <Group>
+            <Trunk>
+                <Tiles>
+                    <Tile Name="SPI_S_C_Hall"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="03"/>
+                 </Tiles>
+            </Trunk>
+        </Group>  
+
+    </Groups>  
+    
+    <PostBuildTiles>
+       <Tiles>
+            <Tile Name="SPI_Closet" TransitionOverride="SpiderCastleSecretDoor" Max="1"/> 
+        </Tiles>
+    </PostBuildTiles>
+</DungeonConfig>

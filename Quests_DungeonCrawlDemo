@@ -1,0 +1,592 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.8"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "DC_AshenPriest": [
+            "Quests_DungeonCrawlDemo_DC_AshenPriest_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "DC_AshenPriest_Start": [
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 2_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 2_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "DC_AshenPriest_Find": [
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_DC_AshenPriest_Find_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_DC_AshenPriest_Find_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "DC_AshenPriest_Start", 
+                            "quest": "DC_AshenPriest", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "DC_AshenPriest_Kill": [
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_DC_AshenPriest_Kill_Name", 
+                    3, 
+                    false, 
+                    true, 
+                    false, 
+                    true, 
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_DC_AshenPriest_Kill_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "DC_AshenPriest_Find", 
+                            "quest": "DC_AshenPriest", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "DC_100": [
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 3_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 3_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "DC_80": [
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 4_Name", 
+                    5, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 4_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "DC_60": [
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 5_Name", 
+                    6, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 5_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "DC_40": [
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 6_Name", 
+                    7, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Quests_DungeonCrawlDemo_DC_AshenPriest_Flag 6_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            ""
+        ], 
+        "SideQuests": {
+            "DC_AidThePriest": [
+                "Quests_DungeonCrawlDemo_Quest 1_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "ConversationFlags": {
+                        "DC_ATP_TalkedToPriest": [
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 0_Name", 
+                            1, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 0_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None"
+                        ]
+                    }, 
+                    "QuestFlags": {
+                        "DC_ATP_StartedQuest": [
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 2_Name", 
+                            2, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 2_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None"
+                        ], 
+                        "DC_ATP_PriestJoinedParty": [
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 1_Name", 
+                            3, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 1_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None"
+                        ], 
+                        "DC_ATP_DefeatedAshenPriest": [
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 3_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 3_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "DC_ATP_PriestJoinedParty", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "DC_ATP_PriestDied", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None"
+                        ], 
+                        "DC_ATP_ReceivedRewardFromPriest": [
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 4_Name", 
+                            5, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Quests_DungeonCrawlDemo_AidThePriest_Flag 4_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "DC_ATP_PriestJoinedParty", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "DC_ATP_DefeatedAshenPriest", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "DC_ATP_PriestDied", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None"
+                        ], 
+                        "DC_ATP_AvengeThePriest": [
+                            "Quests_DungeonCrawlDemo_DC_AidThePriest_Flag 8_Name", 
+                            6, 
+                            false, 
+                            true, 
+                            false, 
+                            true, 
+                            "Quests_DungeonCrawlDemo_DC_AidThePriest_Flag 8_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "DC_ATP_PriestJoinedParty", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "DC_ATP_LeftPriestDead", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "DC_ATP_DefeatedAshenPriest", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None"
+                        ]
+                    }, 
+                    "MiscFlags": {
+                        "DC_ATP_PriestDied": [
+                            "Quests_DungeonCrawlDemo_DC_AidThePriest_Flag 5_Name", 
+                            7, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Quests_DungeonCrawlDemo_DC_AidThePriest_Flag 5_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None"
+                        ], 
+                        "DC_ATP_RevivePriestQuestTrack": [
+                            "Quests_DungeonCrawlDemo_DC_AidThePriest_Flag 6_Name", 
+                            8, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Quests_DungeonCrawlDemo_DC_AidThePriest_Flag 6_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "DC_ATP_PriestDied", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "DC_ATP_LeftPriestDead", 
+                                            "quest": "DC_AidThePriest", 
+                                            "set": 0
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None"
+                        ], 
+                        "DC_ATP_LeftPriestDead": [
+                            "Quests_DungeonCrawlDemo_DC_AidThePriest_Flag 7_Name", 
+                            9, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Quests_DungeonCrawlDemo_DC_AidThePriest_Flag 7_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None"
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                ""
+            ]
+        }, 
+        "DC_MercLeader": [
+            "Quests_DungeonCrawlDemo_Quest 2_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "DC_MercLeaderStart": [
+                    "Quests_DungeonCrawlDemo_DC_MercLeader_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Quests_DungeonCrawlDemo_DC_MercLeader_Flag 0_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "None"
+                ], 
+                "DC_MercLeaderFind": [
+                    "Quests_DungeonCrawlDemo_DC_MercLeader_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Quests_DungeonCrawlDemo_DC_MercLeader_Flag 1_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "DC_MercLeaderStart", 
+                            "quest": "DC_MercLeader", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "None"
+                ], 
+                "DC_MercLeaderKill": [
+                    "Quests_DungeonCrawlDemo_DC_MercLeader_Flag 2_Name", 
+                    3, 
+                    false, 
+                    true, 
+                    false, 
+                    true, 
+                    "Quests_DungeonCrawlDemo_DC_MercLeader_Flag 2_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "DC_MercLeaderFind", 
+                            "quest": "DC_MercLeader", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            ""
+        ]
+    }
+}

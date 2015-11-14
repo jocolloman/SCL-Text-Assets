@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>   <!-- NO ENEMIES IN THIS DUNGEON! -->
+		<!-- <CreatureSet Name="BanditSet1" /> -->
+		<!-- <CreatureSet Name="HumanSet1" /> -->
+	</CreatureSets>
+    <Groups>
+
+        <Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="Necro_Staging" TransitionOverride = "TavernDoor01"/>   
+                </Tiles>
+            </Trunk>
+        </Group>
+
+        <Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="Tav_Hallway" PortExtensionMin= "2" PortExtensionMax = "2" ForceEntryPort="01" ForceExitPort = "02" XMLID = "HALLWAY" />   
+                </Tiles>
+            </Trunk>
+            
+             <Branch Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="Tav_Closet_A" Max = "1"/>
+                    <Tile Name="Tav_Closet" Max = "1"/>
+                </Tiles>
+            </Branch>
+        </Group>
+		
+		<Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+					<Tile Name="Tav_Kegroom" ForceEntryPort = "03" TransitionOverride = "TavernDoor01" XMLID = "BOSS"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+
+    </Groups> 
+</DungeonConfig>

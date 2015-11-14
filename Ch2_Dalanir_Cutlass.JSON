@@ -1,0 +1,2843 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_Dalanir_TheCutlass", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "SORONIL"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_2259150", 
+                "<ROOT>", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_2259150|", 
+                "", 
+                "", 
+                [
+                    "LINE_6756525"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_Final", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "C2_TC_DefeatGildedEye", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6756525", 
+                "LINE_2259150", 
+                "ILLYDIA", 
+                "|Ch2_Dalanir_Cutlass_LINE_6756525|", 
+                "", 
+                "", 
+                [
+                    "LINE_6394262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6394262", 
+                "LINE_6756525", 
+                "JARHILD", 
+                "|Ch2_Dalanir_Cutlass_LINE_6394262|", 
+                "", 
+                "", 
+                [
+                    "LINE_8212122", 
+                    "LINE_1563294", 
+                    "LINE_3571816"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8212122", 
+                "LINE_6394262", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_8212122|", 
+                "", 
+                "", 
+                [
+                    "LINE_1189438"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1189438", 
+                "LINE_8212122", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_1189438|", 
+                "", 
+                "", 
+                [
+                    "LINE_7658957"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1563294", 
+                "LINE_6394262", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_1563294|", 
+                "", 
+                "", 
+                [
+                    "LINE_3883149"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3571816", 
+                "LINE_6394262", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_3571816|", 
+                "", 
+                "", 
+                [
+                    "LINE_2117924"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2117924", 
+                "LINE_3571816", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_2117924|", 
+                "", 
+                "", 
+                [
+                    "LINE_7658957"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3883149", 
+                "LINE_1563294", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_3883149|", 
+                "", 
+                "", 
+                [
+                    "LINE_7658957"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7658957", 
+                "LINE_3883149", 
+                "LARETHAR", 
+                "|Ch2_Dalanir_Cutlass_LINE_7658957|", 
+                "", 
+                "", 
+                [
+                    "LINE_8788749"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8788749", 
+                "LINE_7658957", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_8788749|", 
+                "", 
+                "BK Burning Eye -> Burning Dawn", 
+                [
+                    "LINE_4155627"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4155627", 
+                "LINE_8788749", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_4155627|", 
+                "", 
+                "", 
+                [
+                    "LINE_8404326", 
+                    "LINE_5558085", 
+                    "LINE_4732703"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8404326", 
+                "LINE_4155627", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_8404326|", 
+                "", 
+                "", 
+                [
+                    "LINE_8930762"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5558085", 
+                "LINE_4155627", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_5558085|", 
+                "", 
+                "", 
+                [
+                    "LINE_0747052", 
+                    "LINE_2592254"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4732703", 
+                "LINE_4155627", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_4732703|", 
+                "", 
+                "", 
+                [
+                    "LINE_1187333"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8930762", 
+                "LINE_8404326", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_8930762|", 
+                "", 
+                "", 
+                [
+                    "LINE_0639187"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0639187", 
+                "LINE_8930762", 
+                "ILLYDIA", 
+                "|Ch2_Dalanir_Cutlass_LINE_0639187|", 
+                "", 
+                "", 
+                [
+                    "LINE_2592254"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2592254", 
+                "LINE_0639187", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_2592254|", 
+                "", 
+                "", 
+                [
+                    "LINE_0510409"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0747052", 
+                "LINE_5558085", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_0747052|", 
+                "", 
+                "", 
+                [
+                    "LINE_5484998"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5484998", 
+                "LINE_0747052", 
+                "JARHILD", 
+                "|Ch2_Dalanir_Cutlass_LINE_5484998|", 
+                "", 
+                "", 
+                [
+                    "LINE_2592254"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1187333", 
+                "LINE_4732703", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_1187333|", 
+                "", 
+                "", 
+                [
+                    "LINE_9781550"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9781550", 
+                "LINE_1187333", 
+                "JARHILD", 
+                "|Ch2_Dalanir_Cutlass_LINE_9781550|", 
+                "", 
+                "", 
+                [
+                    "LINE_2592254"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0510409", 
+                "LINE_2592254", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_0510409|", 
+                "", 
+                "", 
+                [
+                    "LINE_6816309", 
+                    "LINE_2360343", 
+                    "LINE_6621894"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6816309", 
+                "LINE_0510409", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_6816309|", 
+                "", 
+                "", 
+                [
+                    "LINE_8037559"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TC_HeardAboutMaferil", 
+                        "Quest": "C2.15_The_Contact", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_HeardAboutMaferil", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2360343", 
+                "LINE_0510409", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_2360343|", 
+                "", 
+                "", 
+                [
+                    "LINE_0371089"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6621894", 
+                "LINE_0510409", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_6621894|", 
+                "", 
+                "", 
+                [
+                    "LINE_6020224"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6020224", 
+                "LINE_6621894", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_6020224|", 
+                "", 
+                "", 
+                [
+                    "LINE_7413141", 
+                    "LINE_6816309", 
+                    "LINE_2360343", 
+                    "LINE_6621894"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8037559", 
+                "LINE_6816309", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_8037559|", 
+                "", 
+                "", 
+                [
+                    "LINE_2309829"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0371089", 
+                "LINE_2360343", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_0371089|", 
+                "", 
+                "BK trimmed this sentence", 
+                [
+                    "LINE_7413141", 
+                    "LINE_6816309", 
+                    "LINE_2360343", 
+                    "LINE_6621894"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7413141", 
+                "LINE_3729898", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_7413141|", 
+                "", 
+                "", 
+                [
+                    "LINE_2986896"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TC_HeardAboutMaferil", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2986896", 
+                "LINE_7413141", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_2986896|", 
+                "", 
+                "", 
+                [
+                    "LINE_4730427"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4730427", 
+                "LINE_2986896", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TC_Final", 
+                        "Quest": "C2.15_The_Contact", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ITDC_Start", 
+                        "Quest": "C2.2_Into_The_Dead_City", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Map_LuskanSlums_1", 
+                        "Quest": "Map_Pins_CriticalPath", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "GENERATE_SAVE", 
+                        "Quest": "UtilityQuestFlags", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7897237", 
+                "<ROOT>", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_7897237|", 
+                "", 
+                "", 
+                [
+                    "LINE_0267008", 
+                    "LINE_6816309", 
+                    "LINE_2360343", 
+                    "LINE_6621894", 
+                    "LINE_6240253"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "C2_TC_Final", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0267008", 
+                "LINE_7897237", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_0267008|", 
+                "", 
+                "", 
+                [
+                    "LINE_9448096"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9448096", 
+                "LINE_0267008", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_9448096|", 
+                "", 
+                "", 
+                [
+                    "LINE_5013743"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5013743", 
+                "LINE_9448096", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2309829", 
+                "LINE_8037559", 
+                "HOMMET", 
+                "|Ch2_Dalanir_Cutlass_LINE_2309829|", 
+                "", 
+                "", 
+                [
+                    "LINE_2710458"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2710458", 
+                "LINE_2309829", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_2710458|", 
+                "", 
+                "", 
+                [
+                    "LINE_0288346"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0288346", 
+                "LINE_2710458", 
+                "HOMMET", 
+                "|Ch2_Dalanir_Cutlass_LINE_0288346|", 
+                "", 
+                "", 
+                [
+                    "LINE_7658480", 
+                    "LINE_0470624", 
+                    "LINE_4778420"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7658480", 
+                "LINE_0288346", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_7658480|", 
+                "", 
+                "", 
+                [
+                    "LINE_3142193"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0470624", 
+                "LINE_0288346", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_0470624|", 
+                "", 
+                "", 
+                [
+                    "LINE_1174881"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4778420", 
+                "LINE_0288346", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_4778420|", 
+                "", 
+                "", 
+                [
+                    "LINE_2335193"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2335193", 
+                "LINE_4778420", 
+                "<DEFAULT>", 
+                "|Ch2_Dalanir_Cutlass_LINE_2335193|", 
+                "", 
+                "", 
+                [
+                    "LINE_8049074"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1174881", 
+                "LINE_0470624", 
+                "<DEFAULT>", 
+                "|Ch2_Dalanir_Cutlass_LINE_1174881|", 
+                "", 
+                "", 
+                [
+                    "LINE_2784374"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2784374", 
+                "LINE_1174881", 
+                "HOMMET", 
+                "|Ch2_Dalanir_Cutlass_LINE_2784374|", 
+                "", 
+                "", 
+                [
+                    "LINE_3395860"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3395860", 
+                "LINE_2784374", 
+                "HOMMET", 
+                "|Ch2_Dalanir_Cutlass_LINE_3395860|", 
+                "", 
+                "", 
+                [
+                    "LINE_3019211", 
+                    "LINE_4740264", 
+                    "LINE_1881204"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3142193", 
+                "LINE_7658480", 
+                "HOMMET", 
+                "|Ch2_Dalanir_Cutlass_LINE_3142193|", 
+                "", 
+                "", 
+                [
+                    "LINE_3395860"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8049074", 
+                "LINE_2335193", 
+                "HOMMET", 
+                "|Ch2_Dalanir_Cutlass_LINE_8049074|", 
+                "", 
+                "", 
+                [
+                    "LINE_3395860"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3019211", 
+                "LINE_3395860", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_3019211|", 
+                "", 
+                "", 
+                [
+                    "LINE_4504600"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4740264", 
+                "LINE_3395860", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_4740264|", 
+                "", 
+                "", 
+                [
+                    "LINE_3729898"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1881204", 
+                "LINE_3395860", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_1881204|", 
+                "", 
+                "", 
+                [
+                    "LINE_8367559"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8367559", 
+                "LINE_1881204", 
+                "HOMMET", 
+                "|Ch2_Dalanir_Cutlass_LINE_8367559|", 
+                "", 
+                "", 
+                [
+                    "LINE_3729898"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4504600", 
+                "LINE_3019211", 
+                "HOMMET", 
+                "|Ch2_Dalanir_Cutlass_LINE_4504600|", 
+                "", 
+                "", 
+                [
+                    "LINE_3729898"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3729898", 
+                "LINE_4740264", 
+                "<DEFAULT>", 
+                "|Ch2_Dalanir_Cutlass_LINE_3729898|", 
+                "", 
+                "I'd imagine -> I imagine to reflect VO (BK 18/08/2015", 
+                [
+                    "LINE_7413141", 
+                    "LINE_2360343", 
+                    "LINE_6621894", 
+                    "LINE_6240253"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6240253", 
+                "LINE_7897237", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_6240253|", 
+                "", 
+                "", 
+                [
+                    "LINE_4106250"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4106250", 
+                "LINE_6240253", 
+                "<DEFAULT>", 
+                "|Ch2_Dalanir_Cutlass_LINE_4106250|", 
+                "", 
+                "", 
+                [
+                    "LINE_9026614"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9026614", 
+                "LINE_4106250", 
+                "<DEFAULT>", 
+                "|Ch2_Dalanir_Cutlass_LINE_9026614|", 
+                "", 
+                "", 
+                [
+                    "LINE_0524102", 
+                    "LINE_7413141", 
+                    "LINE_6816309", 
+                    "LINE_2360343", 
+                    "LINE_6621894"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0524102", 
+                "LINE_9026614", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_0524102|", 
+                "", 
+                "", 
+                [
+                    "LINE_4879581"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Class", 
+                                    "Class": "Wizard"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "StatValue": 14, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "int", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "OR", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4879581", 
+                "LINE_0524102", 
+                "<DEFAULT>", 
+                "|Ch2_Dalanir_Cutlass_LINE_4879581|", 
+                "", 
+                "", 
+                [
+                    "LINE_6498789"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6498789", 
+                "LINE_4879581", 
+                "<DEFAULT>", 
+                "|Ch2_Dalanir_Cutlass_LINE_6498789|", 
+                "", 
+                "", 
+                [
+                    "LINE_7413141", 
+                    "LINE_6816309", 
+                    "LINE_2360343", 
+                    "LINE_6621894"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "OutsideSafehouseTrigger1", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2296152", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch2_Dalanir_Cutlass_LINE_2296152|", 
+                "", 
+                "", 
+                [
+                    "LINE_0359951"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_FindContact", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0359951", 
+                "LINE_2296152", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "OutsideSafehouseTrigger2", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6514208", 
+                "<ROOT>", 
+                "JARHILD", 
+                "|Ch2_Dalanir_Cutlass_LINE_6514208|", 
+                "", 
+                "", 
+                [
+                    "LINE_6257857"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_FindContact", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6257857", 
+                "LINE_6514208", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "OutsideSafehouseTrigger3", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0305765", 
+                "<ROOT>", 
+                "ILLYDIA", 
+                "|Ch2_Dalanir_Cutlass_LINE_0305765|", 
+                "", 
+                "", 
+                [
+                    "LINE_2890853"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_FindContact", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2890853", 
+                "LINE_0305765", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "OutsideSafehouseTrigger4", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6696656", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch2_Dalanir_Cutlass_LINE_6696656|", 
+                "", 
+                "", 
+                [
+                    "LINE_5503848"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_FindContact", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5503848", 
+                "LINE_6696656", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "NotSafehouseInterior1", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5551126", 
+                "<ROOT>", 
+                "ILLYDIA", 
+                "|Ch2_Dalanir_Cutlass_LINE_5551126|", 
+                "", 
+                "", 
+                [
+                    "LINE_1113682"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TC_GetSafehouseLocations", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_DefeatGildedEye", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1113682", 
+                "LINE_5551126", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "NotSafehouseInterior2", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2880266", 
+                "<ROOT>", 
+                "LARETHAR", 
+                "|Ch2_Dalanir_Cutlass_LINE_2880266|", 
+                "", 
+                "", 
+                [
+                    "LINE_1556070"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TC_GetSafehouseLocations", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_DefeatGildedEye", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1556070", 
+                "LINE_2880266", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "NotSafehouseTrigger3", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_4649446", 
+                "<ROOT>", 
+                "ILLYDIA", 
+                "|Ch2_Dalanir_Cutlass_LINE_4649446|", 
+                "", 
+                "", 
+                [
+                    "LINE_3778055"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TC_GetSafehouseLocations", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_DefeatGildedEye", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3778055", 
+                "LINE_4649446", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Dalanir and Guards 1", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "SORONIL"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9067186", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0092226", 
+                    "LINE_0877541"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0092226", 
+                "LINE_9067186", 
+                "GILDED EYE AGENT", 
+                "|Ch2_Dalanir_Cutlass_LINE_0092226|", 
+                "", 
+                "", 
+                [
+                    "LINE_2098665"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_TC_GetSafehouseLocations", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_TC_FinishedGildedEyeConvo1", 
+                                    "Quest": "C2.15_The_Contact", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7341683", 
+                "LINE_5509617", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_7341683|", 
+                "", 
+                "", 
+                [
+                    "LINE_5787687"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2098665", 
+                "LINE_0092226", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_2098665|", 
+                "", 
+                "", 
+                [
+                    "LINE_5509617"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5509617", 
+                "LINE_2098665", 
+                "GILDED EYE AGENT", 
+                "|Ch2_Dalanir_Cutlass_LINE_5509617|", 
+                "", 
+                "", 
+                [
+                    "LINE_7341683"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5787687", 
+                "LINE_7341683", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0877541"
+                ], 
+                [
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 2/DalanirAndGildedEye", 
+                        "Async": true
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TC_FinishedGildedEyeConvo1", 
+                        "Quest": "C2.15_The_Contact", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 1.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0877541", 
+                "LINE_9067186", 
+                "LUSKAN MERCENARY", 
+                "|Ch2_Dalanir_Cutlass_LINE_0877541|", 
+                "", 
+                "", 
+                [
+                    "LINE_9809137", 
+                    "LINE_1815058", 
+                    "LINE_4269640"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4854402", 
+                "LINE_7071382", 
+                "GILDED EYE AGENT", 
+                "|Ch2_Dalanir_Cutlass_LINE_4854402|", 
+                "", 
+                "", 
+                [
+                    "LINE_7237237"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9809137", 
+                "LINE_0877541", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_9809137|", 
+                "", 
+                "", 
+                [
+                    "LINE_7071382"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1815058", 
+                "LINE_0877541", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_1815058|", 
+                "", 
+                "", 
+                [
+                    "LINE_2215264"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4269640", 
+                "LINE_0877541", 
+                "<PLAYER>", 
+                "|Ch2_Dalanir_Cutlass_LINE_4269640|", 
+                "", 
+                "", 
+                [
+                    "LINE_5067879"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5067879", 
+                "LINE_4269640", 
+                "LUSKAN MERCENARY", 
+                "|Ch2_Dalanir_Cutlass_LINE_5067879|", 
+                "", 
+                "", 
+                [
+                    "LINE_4854402"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7071382", 
+                "LINE_9809137", 
+                "LUSKAN MERCENARY", 
+                "|Ch2_Dalanir_Cutlass_LINE_7071382|", 
+                "", 
+                "BK place -> position", 
+                [
+                    "LINE_4854402"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2215264", 
+                "LINE_1815058", 
+                "LUSKAN MERCENARY", 
+                "|Ch2_Dalanir_Cutlass_LINE_2215264|", 
+                "", 
+                "", 
+                [
+                    "LINE_4854402"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7237237", 
+                "LINE_4854402", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_TC_FindContact", 
+                        "Quest": "C2.15_The_Contact", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "ChangeFactionRelationship players dalanirassault hostile", 
+                        "SpeakerTag": "GILDED EYE AGENT"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Dalanir Battle Ambient", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0834111", 
+                "<ROOT>", 
+                "SORONIL", 
+                "|Ch2_Dalanir_Cutlass_LINE_0834111|", 
+                "", 
+                "", 
+                [
+                    "LINE_5602805"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5602805", 
+                "LINE_0834111", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

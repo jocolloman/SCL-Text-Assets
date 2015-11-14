@@ -1,0 +1,663 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "PotionPuzzle": [
+            "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "CorrectSequence": [
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 0_JournalEntry", 
+                    "CorrectSequence_Reward", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "FoundPotionBook": [
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 1_JournalEntry", 
+                    "FoundPotionBook_Reward", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "FailedPotionONE": [
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 3_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 3_JournalEntry", 
+                    "FailedPotionONE_Reward", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "FailedPotionTWO": [
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 4_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 4_JournalEntry", 
+                    "FailedPotionTWO_Reward", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "FailedPotionTHREE": [
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 5_Name", 
+                    5, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 5_JournalEntry", 
+                    "FailedPotionTHREE_Reward", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "FailedPotionFOUR": [
+                    "quests0_PotionPuzzle_FailedPotionFOUR_Name", 
+                    6, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "quests0_PotionPuzzle_FailedPotionFOUR_JournalEntry", 
+                    "FailedPotionFOUR_Reward", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "FailedPotionFIVE": [
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 6_Name", 
+                    7, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 6_JournalEntry", 
+                    "FailedPotionFIVE_Reward", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "Potion Flags": {
+                    "C2_SQ_PP_MixedRed": [
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 7_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 7_JournalEntry", 
+                        "C2_SQ_PP_MixedRed_Reward", 
+                        [], 
+                        "", 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "None"
+                    ], 
+                    "C2_SQ_PP_MixedBlue": [
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 8_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 8_JournalEntry", 
+                        "C2_SQ_PP_MixedBlue_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "None"
+                    ], 
+                    "C2_SQ_PP_MixedYellow": [
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 9_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 9_JournalEntry", 
+                        "C2_SQ_PP_MixedYellow_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "None"
+                    ], 
+                    "C2_SQ_PP_MixedGreen": [
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 10_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 10_JournalEntry", 
+                        "C2_SQ_PP_MixedGreen_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "None"
+                    ], 
+                    "C2_SQ_PP_Finished": [
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 11_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 11_JournalEntry", 
+                        "C2_SQ_PP_Finished_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "C2_SQ_PP_MixedGreen", 
+                                        "quest": "PotionPuzzle", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "C2_SQ_PP_MixedYellow", 
+                                        "quest": "PotionPuzzle", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "C2_SQ_PP_MixedBlue", 
+                                        "quest": "PotionPuzzle", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "C2_SQ_PP_MixedRed", 
+                                        "quest": "PotionPuzzle", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "None"
+                    ], 
+                    "C2_SQ_PP_FoundGreen": [
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 12_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 12_JournalEntry", 
+                        "C2_SQ_PP_FoundGreen_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "None"
+                    ], 
+                    "C2_SQ_PP_AddedOne": [
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 13_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 13_JournalEntry", 
+                        "C2_SQ_PP_AddedOne_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "C2_SQ_PP_MixedRed", 
+                                        "quest": "PotionPuzzle", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "C2_SQ_PP_MixedBlue", 
+                                        "quest": "PotionPuzzle", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "C2_SQ_PP_MixedYellow", 
+                                        "quest": "PotionPuzzle", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "C2_SQ_PP_MixedGreen", 
+                                        "quest": "PotionPuzzle", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "None"
+                    ], 
+                    "C2_SQ_PP_AddedThree": [
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 15_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 15_JournalEntry", 
+                        "C2_SQ_PP_AddedThree_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedRed", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedBlue", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedYellow", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedRed", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedBlue", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedGreen", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedRed", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedYellow", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedGreen", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedBlue", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedYellow", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedGreen", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "None"
+                    ], 
+                    "C2_SQ_PP_AddedTwo": [
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 14_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch2_Crypts_PotionPuzzle_PotionPuzzle_Flag 14_JournalEntry", 
+                        "C2_SQ_PP_AddedTwo_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedRed", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedBlue", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedRed", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedGreen", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedRed", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedYellow", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedBlue", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedYellow", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedBlue", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedGreen", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "groupStart": 1, 
+                                        "join": "AND", 
+                                        "groupItems": [
+                                            {
+                                                "flag": "C2_SQ_PP_MixedYellow", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }, 
+                                            {
+                                                "flag": "C2_SQ_PP_MixedGreen", 
+                                                "quest": "PotionPuzzle", 
+                                                "set": 1
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "None"
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

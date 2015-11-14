@@ -1,0 +1,1292 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "BurningAmbition_SQ_Smith", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "TORGAR"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "NeedsVO": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_4427466", 
+                "<ROOT>", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_4427466|", 
+                "", 
+                "", 
+                [
+                    "LINE_5620618", 
+                    "LINE_2297343"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "BA_SQ_SearchCaves", 
+                                    "Quest": "BurningAmbitionSQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5620618", 
+                "LINE_4427466", 
+                "<PLAYER>", 
+                "|BurningAmbitionSQ_LINE_5620618|", 
+                "", 
+                "", 
+                [
+                    "LINE_5675043"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2297343", 
+                "LINE_4427466", 
+                "<PLAYER>", 
+                "|BurningAmbitionSQ_LINE_2297343|", 
+                "", 
+                "", 
+                [
+                    "LINE_3751484"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5675043", 
+                "LINE_5620618", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_5675043|", 
+                "", 
+                "", 
+                [
+                    "LINE_4059015"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4059015", 
+                "LINE_5675043", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_4059015|", 
+                "", 
+                "", 
+                [
+                    "LINE_9508367"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9508367", 
+                "LINE_4059015", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_9508367|", 
+                "", 
+                "BK cut \" enough to become my greatest creation\"", 
+                [
+                    "LINE_3092273", 
+                    "LINE_7285999"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8945062", 
+                "LINE_3092273", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_8945062|", 
+                "", 
+                "Doug - \"We used their runes and altars to pull an elemental into this world, foolishly thinking we could harness its flame in our work.\"", 
+                [
+                    "LINE_1779128"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1779128", 
+                "LINE_8945062", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_1779128|", 
+                "", 
+                "", 
+                [
+                    "LINE_5986976"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5986976", 
+                "LINE_1779128", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_5986976|", 
+                "", 
+                "", 
+                [
+                    "LINE_4050417", 
+                    "LINE_5806731"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4050417", 
+                "LINE_5986976", 
+                "<PLAYER>", 
+                "|BurningAmbitionSQ_LINE_4050417|", 
+                "", 
+                "", 
+                [
+                    "LINE_3679979"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5806731", 
+                "LINE_5986976", 
+                "<PLAYER>", 
+                "|BurningAmbitionSQ_LINE_5806731|", 
+                "", 
+                "", 
+                [
+                    "LINE_8681513"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8681513", 
+                "LINE_5806731", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_8681513|", 
+                "", 
+                "", 
+                [
+                    "LINE_4050417", 
+                    "LINE_0510149"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3679979", 
+                "LINE_4050417", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_3679979|", 
+                "", 
+                "BK rewrote \"We came here for a purpose, my friend.  It's our destiny to forge a weapon of legend, and we will not die until that task is done!\"\nBK - I cut the dialog line. It was just too wordy, too long a chain.", 
+                [
+                    "LINE_8068220"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8068220", 
+                "LINE_3679979", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_8068220|", 
+                "", 
+                "BK heavily revised", 
+                [
+                    "LINE_5331404"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5331404", 
+                "LINE_8068220", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_5331404|", 
+                "", 
+                "BK revised", 
+                [
+                    "LINE_3521346"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3521346", 
+                "LINE_5331404", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_3521346|", 
+                "", 
+                "BK heavily revised.", 
+                [
+                    "LINE_1600792"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1600792", 
+                "LINE_3521346", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BA_SQ_SearchCaves", 
+                        "Quest": "BurningAmbitionSQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:BurningAmbitionSQ_Key"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3751484", 
+                "LINE_2297343", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_3751484|", 
+                "", 
+                "BK \"make jokes at their expense\" -> \"mock me\"", 
+                [
+                    "LINE_0418174"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0418174", 
+                "LINE_3751484", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_0418174|", 
+                "", 
+                "", 
+                [
+                    "LINE_5675043"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6228248", 
+                "<ROOT>", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_6228248|", 
+                "", 
+                "BK cut \"All our hopes ride on you, my friend! \"", 
+                [
+                    "LINE_6766898"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "BA_SQ_SearchCaves", 
+                                    "Quest": "BurningAmbitionSQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6766898", 
+                "LINE_6228248", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3092273", 
+                "LINE_9508367", 
+                "<PLAYER>", 
+                "|BurningAmbitionSQ_LINE_3092273|", 
+                "", 
+                "", 
+                [
+                    "LINE_8945062"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7285999", 
+                "LINE_9508367", 
+                "<PLAYER>", 
+                "|BurningAmbitionSQ_LINE_7285999|", 
+                "", 
+                "", 
+                [
+                    "LINE_8945062"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0510149", 
+                "LINE_8681513", 
+                "<PLAYER>", 
+                "|BurningAmbitionSQ_LINE_0510149|", 
+                "", 
+                "", 
+                [
+                    "LINE_3649100"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3649100", 
+                "LINE_0510149", 
+                "<DEFAULT>", 
+                "|BurningAmbitionSQ_LINE_3649100|", 
+                "", 
+                "BK WOTC: Wonderful! Great! ... I'm very excited.", 
+                [
+                    "LINE_5331404"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "BurningAmbition_SQ_ElementalDefeated", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoFadeIn": "True", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "True", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "NeedsVO": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9549904", 
+                "<ROOT>", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_9549904|", 
+                "", 
+                "", 
+                [
+                    "LINE_4201273"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BA_SQ_FadeDwarvesIn", 
+                        "Quest": "BurningAmbitionSQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4201273", 
+                "LINE_9549904", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_4201273|", 
+                "", 
+                "", 
+                [
+                    "LINE_4027357"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4027357", 
+                "LINE_4201273", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_4027357|", 
+                "", 
+                "BK revised from \"It will make all these years here worth it.  Stand back, adventurers!  You've done your part, and now I will fufill mine!\"", 
+                [
+                    "LINE_1262451"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1262451", 
+                "LINE_4027357", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_1262451|", 
+                "", 
+                "BK tweaked\nBK for WOTC dropped use of \"men\"", 
+                [
+                    "LINE_0004313"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BA_SQ_FadeDwarvesIn", 
+                        "Quest": "BurningAmbitionSQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0004313", 
+                "LINE_1262451", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BA_SQ_FollowupConvo", 
+                        "Quest": "BurningAmbitionSQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "BurningAmbition_SQ_WeaponForged", 
+                "NoBegFade": "True", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoFadeIn": "True", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "NeedsVO": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_4901783", 
+                "<ROOT>", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_4901783|", 
+                "", 
+                "", 
+                [
+                    "LINE_0000865"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0000865", 
+                "LINE_4901783", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_0000865|", 
+                "", 
+                "BK cut distracting line \"All of our life was spent in the making of that weapon, its legacy is now in your hands.  \"", 
+                [
+                    "LINE_0563752"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BA_SQ_UnequipWeapon", 
+                        "Quest": "BurningAmbitionSQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Weapon:BurningAmbitionSQ_Sword"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0563752", 
+                "LINE_0000865", 
+                "TORGAR", 
+                "|BurningAmbitionSQ_LINE_0563752|", 
+                "", 
+                "", 
+                [
+                    "LINE_6726344"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BA_SQ_FadeDwarvesOut", 
+                        "Quest": "BurningAmbitionSQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6726344", 
+                "LINE_0563752", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BA_SQ_WeaponForged", 
+                        "Quest": "BurningAmbitionSQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 1.0, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "BurningAmbition_SQ_Ghost", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "RPE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "NeedsVO": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6517891", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BurningAmbitionSQ_LINE_6517891|", 
+                "", 
+                "", 
+                [
+                    "LINE_4467267"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 30
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4467267", 
+                "LINE_6517891", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7957901", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BurningAmbitionSQ_LINE_7957901|", 
+                "", 
+                "", 
+                [
+                    "LINE_3341153"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 60
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2619843", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BurningAmbitionSQ_LINE_2619843|", 
+                "", 
+                "", 
+                [
+                    "LINE_8925312"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3341153", 
+                "LINE_7957901", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8925312", 
+                "LINE_2619843", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

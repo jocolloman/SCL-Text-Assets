@@ -1,0 +1,1209 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "SewerGrate", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "RPE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6337089", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_6337089|", 
+                "", 
+                "", 
+                [
+                    "LINE_7119285", 
+                    "LINE_4115879"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0291869", 
+                "LINE_9902753", 
+                "<PLAYER>", 
+                "|Ch2_SewerGrate_LINE_0291869|", 
+                "", 
+                "", 
+                [
+                    "LINE_2498576", 
+                    "LINE_5611190"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5304315", 
+                "LINE_9902753", 
+                "<PLAYER>", 
+                "|Ch2_SewerGrate_LINE_5304315|", 
+                "", 
+                "", 
+                [
+                    "LINE_8035714"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "SewerGrate_Weakened", 
+                        "Quest": "Ch2_LG_RPE_SewerGrate", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Consumable_FlaskOfAcid", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Consumable:Consumable_FlaskOfAcid"
+                ], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4388348", 
+                "LINE_9902753", 
+                "<PLAYER>", 
+                "|Ch2_SewerGrate_LINE_4388348|", 
+                "", 
+                "", 
+                [
+                    "LINE_9519541"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "BurkinsKey", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7119285", 
+                "LINE_6337089", 
+                "<PLAYER>", 
+                "|Ch2_SewerGrate_LINE_7119285|", 
+                "", 
+                "", 
+                [
+                    "LINE_9902753"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4115879", 
+                "LINE_6337089", 
+                "<PLAYER>", 
+                "|Ch2_SewerGrate_LINE_4115879|", 
+                "", 
+                "", 
+                [
+                    "LINE_9617951"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9902753", 
+                "LINE_7119285", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_9902753|", 
+                "", 
+                "", 
+                [
+                    "LINE_0291869", 
+                    "LINE_8764462", 
+                    "LINE_7127718", 
+                    "LINE_5152785", 
+                    "LINE_5304315", 
+                    "LINE_4388348", 
+                    "LINE_4115879"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "", 
+                                    "Flag": "", 
+                                    "Quest": "Ch2_LG_RPE_SewerGrate", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2498576", 
+                "LINE_0291869", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_2498576|", 
+                "", 
+                "", 
+                [
+                    "LINE_0128258"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 20, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "str", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "OR", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5611190", 
+                "LINE_0291869", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_5611190|", 
+                "", 
+                "", 
+                [
+                    "LINE_7127718", 
+                    "LINE_5304315", 
+                    "LINE_4388348", 
+                    "LINE_8764462", 
+                    "LINE_4115879", 
+                    "LINE_4142549", 
+                    "LINE_5672925"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8035714", 
+                "LINE_5304315", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_8035714|", 
+                "", 
+                "", 
+                [
+                    "LINE_0128258"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9519541", 
+                "LINE_4388348", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_9519541|", 
+                "", 
+                "", 
+                [
+                    "LINE_9769034"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Misc:BurkinsKey"
+                ], 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7127718", 
+                "LINE_9902753", 
+                "<PLAYER>", 
+                "|Ch2_SewerGrate_LINE_7127718|", 
+                "", 
+                "", 
+                [
+                    "LINE_3194415", 
+                    "LINE_9020410", 
+                    "LINE_9924931", 
+                    "LINE_9049554"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "LuskinGuardKey", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2692902", 
+                "LINE_9924931", 
+                "JARHILD", 
+                "|Ch2_SewerGrate_LINE_2692902|", 
+                "", 
+                "", 
+                [
+                    "LINE_3477269", 
+                    "LINE_9049554"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "SewerGrate_KeyFailed", 
+                        "Quest": "Ch2_LG_RPE_SewerGrate", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:LuskinGuardKey"
+                ], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0128258", 
+                "LINE_2498576", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "SewerGrate_Unlocked", 
+                        "Quest": "Ch2_LG_RPE_SewerGrate", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ANQ_HiddenGateFlag", 
+                        "Quest": "C2.1_A_New_Quest", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ANQ_FindAWayIntoLuskan", 
+                        "Quest": "C2.1_A_New_Quest", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ANQ_EnterTheSewers", 
+                        "Quest": "C2.1_A_New_Quest", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9769034", 
+                "LINE_9519541", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "SewerGrate_Unlocked", 
+                        "Quest": "Ch2_LG_RPE_SewerGrate", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ANQ_BurkinsKey", 
+                        "Quest": "C2.1_A_New_Quest", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ANQ_FindAWayIntoLuskan", 
+                        "Quest": "C2.1_A_New_Quest", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_ANQ_EnterTheSewers", 
+                        "Quest": "C2.1_A_New_Quest", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Misc:BurkinsKey"
+                ], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9617951", 
+                "LINE_4115879", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5672925", 
+                "LINE_5611190", 
+                "ILLYDIA", 
+                "|Ch2_SewerGrate_LINE_5672925|", 
+                "", 
+                "", 
+                [
+                    "LINE_7127718", 
+                    "LINE_5304315", 
+                    "LINE_4388348", 
+                    "LINE_8764462", 
+                    "LINE_4115879"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "SewerGrate_StrengthFailedOnce", 
+                        "Quest": "Ch2_LG_RPE_SewerGrate", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "SewerGrate_StrengthFailedOnce", 
+                                    "Quest": "Ch2_LG_RPE_SewerGrate", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4142549", 
+                "LINE_5611190", 
+                "LARETHAR", 
+                "|Ch2_SewerGrate_LINE_4142549|", 
+                "", 
+                "", 
+                [
+                    "LINE_7127718", 
+                    "LINE_5304315", 
+                    "LINE_4388348", 
+                    "LINE_8764462", 
+                    "LINE_4115879"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SewerGrate_StrengthFailedOnce", 
+                                    "Quest": "Ch2_LG_RPE_SewerGrate", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3194415", 
+                "LINE_7127718", 
+                "LARETHAR", 
+                "|Ch2_SewerGrate_LINE_3194415|", 
+                "", 
+                "", 
+                [
+                    "LINE_0291869", 
+                    "LINE_5304315", 
+                    "LINE_4388348", 
+                    "LINE_4115879"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SewerGrate_KeyFailed", 
+                                    "Quest": "Ch2_LG_RPE_SewerGrate", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3477269", 
+                "LINE_2692902", 
+                "LARETHAR", 
+                "|Ch2_SewerGrate_LINE_3477269|", 
+                "", 
+                "", 
+                [
+                    "LINE_0340700", 
+                    "LINE_9049554"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0340700", 
+                "LINE_3477269", 
+                "ILLYDIA", 
+                "|Ch2_SewerGrate_LINE_0340700|", 
+                "", 
+                "BK scumbags -> scum", 
+                [
+                    "LINE_4116796"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4116796", 
+                "LINE_0340700", 
+                "LARETHAR", 
+                "|Ch2_SewerGrate_LINE_4116796|", 
+                "", 
+                "", 
+                [
+                    "LINE_4115879", 
+                    "LINE_0291869", 
+                    "LINE_5304315", 
+                    "LINE_4388348"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5152785", 
+                "LINE_9902753", 
+                "<PLAYER>", 
+                "|Ch2_SewerGrate_LINE_5152785|", 
+                "", 
+                "", 
+                [
+                    "LINE_8035714"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "AbilityValue": 1, 
+                                    "Type": "MinAbility", 
+                                    "Ability": "Conjure_MelfsAcidArrow"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5225576", 
+                "LINE_8764462", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_5225576|", 
+                "", 
+                "", 
+                [
+                    "LINE_0128258"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Consumable:Consumable_RagePotion"
+                ], 
+                [], 
+                "", 
+                "True", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8764462", 
+                "LINE_9902753", 
+                "<PLAYER>", 
+                "|Ch2_SewerGrate_LINE_8764462|", 
+                "", 
+                "", 
+                [
+                    "LINE_5225576"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Consumable_RagePotion", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9020410", 
+                "LINE_7127718", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9049554"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "SewerGrate_KeyFailed", 
+                                    "Quest": "Ch2_LG_RPE_SewerGrate", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9049554", 
+                "LINE_9020410", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_9049554|", 
+                "", 
+                "", 
+                [
+                    "LINE_0291869", 
+                    "LINE_5304315", 
+                    "LINE_4388348", 
+                    "LINE_4115879"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9924931", 
+                "LINE_7127718", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_9924931|", 
+                "", 
+                "", 
+                [
+                    "LINE_2692902", 
+                    "LINE_3477269", 
+                    "LINE_5680285"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "SewerGrate_KeyFailed", 
+                                    "Quest": "Ch2_LG_RPE_SewerGrate", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5680285", 
+                "LINE_9924931", 
+                "<DEFAULT>", 
+                "|Ch2_SewerGrate_LINE_5680285|", 
+                "", 
+                "", 
+                [
+                    "LINE_0291869", 
+                    "LINE_5304315", 
+                    "LINE_4388348", 
+                    "LINE_4115879"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "True", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "CONV_8801", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False"
+            }
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "CONV_1554", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False"
+            }
+        ]
+    ]
+}

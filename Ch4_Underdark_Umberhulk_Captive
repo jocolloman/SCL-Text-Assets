@@ -1,0 +1,226 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "CaptiveUmberhulk": [
+            "Ch4_Underdark_Umberhulk_Captive_Quest 1_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "ReleaseUmberhulk": [
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 0_JournalEntry", 
+                    "ReleaseUmberhulk_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "OpenUmberhulkCage": [
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 1_JournalEntry", 
+                    "OpenUmberhulkCage_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "Group01Clear": [
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 2_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 2_JournalEntry", 
+                    "Group01Clear_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "Group02Clear": [
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 3_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 3_JournalEntry", 
+                    "Group02Clear_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "Group03Clear": [
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 4_Name", 
+                    5, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Ch4_Underdark_Umberhulk_Captive_CaptiveUmberhulk_Flag 4_JournalEntry", 
+                    "Group03Clear_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

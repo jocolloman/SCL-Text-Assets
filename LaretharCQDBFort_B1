@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<Settings   
+    PortWeightX="0" 
+    PortWeightZ="-100" 
+    PlayerLighting="DrowCavesPlayerLighting" 
+    MaxHallwayDistance="30"
+    MaxHallwayTiles="4" >
+</Settings>
+
+<!--
+Seeds:
+
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+        <CreatureSet Name="DrowSet01" />
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                     <Tile Name="SPI_FlortalUp"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- Captain mini-boss will be in this room -->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                     <Tile Name="SPI_S_C_Prongs"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port01" ForceExitPort="Port02" TransitionOverride="SpiderCastleDoor"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- stash room -->       
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                     <Tile Name="SPI_S_C_Altar"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"
+                     ForceEntryPort="Port03"/> 
+                </Tiles>
+            </Trunk>
+        </Group>
+    </Groups>  
+</DungeonConfig>

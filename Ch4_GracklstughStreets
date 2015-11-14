@@ -1,0 +1,444 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.8"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "Conversations": {
+            "C4.1_Enter_Gracklstugh_Streets": [
+                "Ch4_GracklstughStreets_Quest 0_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "C4_EGS_EnterZoneConversation": [
+                        "Ch4_GracklstughStreets_C4_Enter_Gracklstugh_Streets_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4_Enter_Gracklstugh_Streets_Flag 0_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                ""
+            ], 
+            "C4.1_Encounter_Spotter": [
+                "Ch4_GracklstughStreets_Quest 1_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "C4_ES_EncounterSpotterConversation": [
+                        "Ch4_GracklstughStreets_C4.1_Encounter_Spotter_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Encounter_Spotter_Flag 0_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                ""
+            ], 
+            "C4.1_Gorflun": [
+                "Ch4_GracklstughStreets_Quest 2_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "C4_G_Introduction": [
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 0_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C4_G_FoughtGorflun": [
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 1_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C4_G_TrustedGorflun": [
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 2_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C4_G_CurrentlyHostile": [
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 3_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 3_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C4_G_AmbientIntro": [
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 4_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Gorflun_Flag 4_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                ""
+            ]
+        }, 
+        "SideQuests": {
+            "DragonTracker": [
+                "Ch4_GracklstughStreets_Quest 5_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "DragonFlewOverhead": [
+                        "Ch4_GracklstughStreets_DragonTracker_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_DragonTracker_Flag 0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "HitDragonTrigger": [
+                        "Ch4_GracklstughStreets_DragonTracker_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_DragonTracker_Flag 1_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "PlayedConvo": [
+                        "Ch4_GracklstughStreets_DragonTracker_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_DragonTracker_Flag 2_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                ""
+            ]
+        }, 
+        "Misc": {
+            "C4.1_Kill_Tracker": [
+                "Ch4_GracklstughStreets_Quest 3_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "C4_KT_KilledOne": [
+                        "Ch4_GracklstughStreets_C4.1_Kill_Tracker_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Kill_Tracker_Flag 0_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C4_KT_KilledFive": [
+                        "Ch4_GracklstughStreets_C4.1_Kill_Tracker_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Kill_Tracker_Flag 1_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C4_KT_KilledTen": [
+                        "Ch4_GracklstughStreets_C4.1_Kill_Tracker_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Kill_Tracker_Flag 2_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C4_KT_KilledTwenty": [
+                        "Ch4_GracklstughStreets_C4.1_Kill_Tracker_Flag 3_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch4_GracklstughStreets_C4.1_Kill_Tracker_Flag 3_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                ""
+            ], 
+            "C4.1_DragonFliesOverhead": [
+                "Ch4_GracklstughStreets_Quest 4_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {}, 
+                "", 
+                false, 
+                "", 
+                "", 
+                ""
+            ]
+        }
+    }
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="100" PortWeightZ="-100" />
+ 
+ <!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="MiddledarkCaveSet01" />    
+	</CreatureSets>
+	
+<!-- DUNGEON -->	
+    <Groups>
+        
+<!-- Group 00 -->
+        <Group>  
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                   <Tile Name="BurningAmbitionSQ_FlortalUP" TransitionOverride="DrowArch01" />
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- Group 01 -->  
+        <Group>
+			<Trunk Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_S_T_Donut" ForceEntryPort="Port02" ForceExitPort="Port03" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch01" />
+                </Tiles>
+            </Trunk>   
+               
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="CAV_S_E_Comma" ForceEntryPort="Port02" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />
+                </Tiles>
+            </Branch> 
+                 
+            <Leaf Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="CAV_S_C_Goat" ForceEntryPort="Port01" ForceExitPort="Port02" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02"/>
+                    <Tile Name="CAV_S_C_Hyundai" ForceEntryPort="Port01" ForceExitPort="Port02" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02"/>
+                    <Tile Name="CAV_S_C_Bolt" ForceEntryPort="Port03" ForceExitPort="Port04" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02"/> 
+                </Tiles>
+            </Leaf>
+		</Group>
+		
+<!-- Group 02 -->       
+		<Group>
+			<Trunk Min="1" Max="1" >  
+				<Tiles>
+                    <Tile Name="CAV_S_C_Goat" ForceEntryPort="Port01" ForceExitPort="Port02" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch01"/>
+                    <Tile Name="CAV_S_C_Hyundai" ForceEntryPort="Port01" ForceExitPort="Port02" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch01"/>
+                    <Tile Name="CAV_S_C_Bolt" ForceEntryPort="Port03" ForceExitPort="Port04" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch01"/>        
+				</Tiles>
+            </Trunk>
+		</Group>
+				  
+<!-- Group 03 -->
+		<Group>
+			<Trunk  Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_S_E_Comma" ForceEntryPort="Port01" PortExtensionMin="0" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowDoor_Trapped" />   
+                </Tiles>
+            </Trunk>
+		</Group>
+				
+<!-- Group 04 -->
+		<Group>
+			<Trunk Min="1" Max="1" >
+				<Tiles>
+					<Tile Name="CAV_36_T_Tadpole" ForceEntryPort="Port03" ForceExitPort="Port02" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />
+                </Tiles>
+            </Trunk>
+		</Group>
+        
+<!-- Group 05 -->
+         <Group>
+			<Trunk Min="1" Max="1" >
+				<Tiles>             
+                    <Tile Name="CAV_M_C_Pretzel" ForceEntryPort="Port01" ForceExitPort="Port04" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" />
+                </Tiles>
+            </Trunk>
+		</Group>
+        
+<!-- Group 06 -->        
+        <Group>
+			<Trunk Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_S_I_Bridge" XMLID="BurningAmbitionSQ_Door" ForceEntryPort="Port02" ForceExitPort="Port03" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch01" />
+                </Tiles>
+            </Trunk>
+		</Group>
+		
+<!-- Group 07 -->        
+		<Group>
+			<Trunk>
+				<Tiles>
+				  <Tile Name="Cav_BossBurningAmbitionSQ" TransitionOverride="DrowArch01" />
+                </Tiles>
+            </Trunk>
+        </Group>
+ 
+    </Groups>  
+
+    <PostBuildTiles>
+        <Tiles>
+            <Tile Name="CAV_Secret" TransitionOverride="DrowSecretDoor01" Max="1" PlacementDistanceRequired="100"/>  
+        </Tiles>
+    </PostBuildTiles>
+
+</DungeonConfig>

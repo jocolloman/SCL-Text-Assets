@@ -1,0 +1,3134 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "UDAdventurers_SQ", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "True", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6978550", 
+                "<ROOT>", 
+                "UDPARTYONE", 
+                "|UDAdventurers_SQ_LINE_6978550|", 
+                "", 
+                "", 
+                [
+                    "LINE_9531450"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8364349", 
+                "LINE_9029182", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_8364349|", 
+                "", 
+                "", 
+                [
+                    "LINE_6123746"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7288258", 
+                "LINE_1772124", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "JUST WALK AWAY w/o the quest.", 
+                [
+                    "LINE_5319578"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_Leave", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1678959", 
+                "LINE_9531450", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_1678959|", 
+                "", 
+                "", 
+                [
+                    "LINE_9029182"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9029182", 
+                "LINE_1678959", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_9029182|", 
+                "", 
+                "", 
+                [
+                    "LINE_5045701", 
+                    "LINE_8290433", 
+                    "LINE_8364349"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9531450", 
+                "LINE_6978550", 
+                "UDPARTYTWO", 
+                "|UDAdventurers_SQ_LINE_9531450|", 
+                "", 
+                "BK Indeed, indeed! And this amulet I looted will look lovely hanging with my collection of amulets.", 
+                [
+                    "LINE_1678959"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5045701", 
+                "LINE_9029182", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_5045701|", 
+                "", 
+                "", 
+                [
+                    "LINE_6120666"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4870351", 
+                "LINE_8931525", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "FIGHT", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_Hostile", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "MakeCreatureFactionHostile", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8290433", 
+                "LINE_9029182", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_8290433|", 
+                "", 
+                "", 
+                [
+                    "LINE_3691933"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6120666", 
+                "LINE_5045701", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_6120666|", 
+                "", 
+                "How... trite. Lucky for you, a spot just opened up for a porter.", 
+                [
+                    "LINE_6986350"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3691933", 
+                "LINE_8290433", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_3691933|", 
+                "", 
+                "", 
+                [
+                    "LINE_6986350"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6123746", 
+                "LINE_8364349", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_6123746|", 
+                "", 
+                "", 
+                [
+                    "LINE_6986350"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6986350", 
+                "LINE_6120666", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_6986350|", 
+                "", 
+                "", 
+                [
+                    "LINE_1163262", 
+                    "LINE_1779648", 
+                    "LINE_4902755", 
+                    "LINE_4756712"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1163262", 
+                "LINE_6986350", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_1163262|", 
+                "", 
+                "", 
+                [
+                    "LINE_2412729"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4902755", 
+                "LINE_6986350", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_4902755|", 
+                "", 
+                "", 
+                [
+                    "LINE_4519394", 
+                    "LINE_4669100"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4756712", 
+                "LINE_6986350", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_4756712|", 
+                "", 
+                "How about we slaughter you all and then we carry your loot?", 
+                [
+                    "LINE_8931525"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8931525", 
+                "LINE_4756712", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_8931525|", 
+                "", 
+                "", 
+                [
+                    "LINE_4870351"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4519394", 
+                "LINE_4902755", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_4519394|", 
+                "", 
+                "", 
+                [
+                    "LINE_4467547"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 14, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "cha", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2412729", 
+                "LINE_1163262", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_2412729|", 
+                "", 
+                "", 
+                [
+                    "LINE_3738733", 
+                    "LINE_0786411", 
+                    "LINE_6460667"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3738733", 
+                "LINE_2412729", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_3738733|", 
+                "", 
+                "Bk removed condition check on the [STR] line else it won't appear -- and the failure option won't have a chance to show up.", 
+                [
+                    "LINE_5415481", 
+                    "LINE_3057660"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0786411", 
+                "LINE_2412729", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_0786411|", 
+                "", 
+                "", 
+                [
+                    "LINE_8646682", 
+                    "LINE_7282176"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6460667", 
+                "LINE_2412729", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_6460667|", 
+                "", 
+                "", 
+                [
+                    "LINE_6362532"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5415481", 
+                "LINE_3738733", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_5415481|", 
+                "", 
+                "", 
+                [
+                    "LINE_6830376"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 16, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "str", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3057660", 
+                "LINE_3738733", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_3057660|", 
+                "", 
+                "", 
+                [
+                    "LINE_6460667", 
+                    "LINE_4756712"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2793525", 
+                "LINE_6830376", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_2793525|", 
+                "", 
+                "", 
+                [
+                    "LINE_9051435"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8646682", 
+                "LINE_0786411", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_8646682|", 
+                "", 
+                "", 
+                [
+                    "LINE_6830376"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 14, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "con", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7282176", 
+                "LINE_0786411", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_7282176|", 
+                "", 
+                "", 
+                [
+                    "LINE_6460667", 
+                    "LINE_4756712"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4669100", 
+                "LINE_4902755", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_4669100|", 
+                "", 
+                "", 
+                [
+                    "LINE_2412729"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6362532", 
+                "LINE_6460667", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_6362532|", 
+                "", 
+                "BK - Awesome line.", 
+                [
+                    "LINE_6830376"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9051435", 
+                "LINE_2793525", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_9051435|", 
+                "", 
+                "", 
+                [
+                    "LINE_4402296"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1779648", 
+                "LINE_6986350", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_1779648|", 
+                "", 
+                "", 
+                [
+                    "LINE_1772124"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1772124", 
+                "LINE_1779648", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_1772124|", 
+                "", 
+                "BK I wanted to \"snotty\" up this line a bit\nOriginal Well in that case, we'll be forced to look elsewhere for porters...", 
+                [
+                    "LINE_7288258"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5319578", 
+                "LINE_7288258", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_5319578|", 
+                "", 
+                "", 
+                [
+                    "LINE_9285623"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9285623", 
+                "LINE_5319578", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_9285623|", 
+                "", 
+                "", 
+                [
+                    "LINE_1269321"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1269321", 
+                "LINE_9285623", 
+                "UDPARTYONE", 
+                "|UDAdventurers_SQ_LINE_1269321|", 
+                "", 
+                "", 
+                [
+                    "LINE_5834215"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5834215", 
+                "LINE_1269321", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "END THE QUEST w/o starting it...", 
+                [
+                    "LINE_2827038"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6830376", 
+                "LINE_5415481", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_6830376|", 
+                "", 
+                "", 
+                [
+                    "LINE_2793525", 
+                    "LINE_1779648", 
+                    "LINE_4756712"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4402296", 
+                "LINE_9051435", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_4402296|", 
+                "", 
+                "Here is our sealed strongbox for you to carry.", 
+                [
+                    "LINE_7565185"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7565185", 
+                "LINE_4402296", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_7565185|", 
+                "", 
+                "", 
+                [
+                    "LINE_3588507"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0416123", 
+                "LINE_3588507", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_0416123|", 
+                "", 
+                "", 
+                [
+                    "LINE_4592906"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4592906", 
+                "LINE_0416123", 
+                "UDPARTYONE", 
+                "|UDAdventurers_SQ_LINE_4592906|", 
+                "", 
+                "", 
+                [
+                    "LINE_9381919"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9381919", 
+                "LINE_4592906", 
+                "UDPARTYTWO", 
+                "|UDAdventurers_SQ_LINE_9381919|", 
+                "", 
+                "", 
+                [
+                    "LINE_5661831", 
+                    "LINE_4651332", 
+                    "LINE_9701525"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4651332", 
+                "LINE_9381919", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_4651332|", 
+                "", 
+                "", 
+                [
+                    "LINE_6684282"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9701525", 
+                "LINE_9381919", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_9701525|", 
+                "", 
+                "", 
+                [
+                    "LINE_3254274"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3588507", 
+                "LINE_7565185", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "ADDING THE ITEM and setting the flag here too", 
+                [
+                    "LINE_0416123"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_HaveStrongbox", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:UDAdventurers_SQ_Strongbox"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5661831", 
+                "LINE_9381919", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_5661831|", 
+                "", 
+                "", 
+                [
+                    "LINE_6684282"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8608354", 
+                "LINE_3103477", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_8608354|", 
+                "", 
+                "", 
+                [
+                    "LINE_0355311"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0355311", 
+                "LINE_8608354", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_0355311|", 
+                "", 
+                "Nothing but the best for us you see.", 
+                [
+                    "LINE_7117216"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7117216", 
+                "LINE_0355311", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_7117216|", 
+                "", 
+                "See you there porter.", 
+                [
+                    "LINE_6929860"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6684282", 
+                "LINE_5661831", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_6684282|", 
+                "", 
+                "We'll be at the room at the top of the stairs.", 
+                [
+                    "LINE_3103477"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3254274", 
+                "LINE_9701525", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_3254274|", 
+                "", 
+                "", 
+                [
+                    "LINE_4675538"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4675538", 
+                "LINE_3254274", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_4675538|", 
+                "", 
+                "", 
+                [
+                    "LINE_6684282"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5040168", 
+                "LINE_6929860", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_2827038"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_TakeQuest", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3103477", 
+                "LINE_6684282", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "START WALKING AWAY", 
+                [
+                    "LINE_8608354"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_Leave", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4467547", 
+                "LINE_4519394", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "Add plus one gold on payment", 
+                [
+                    "LINE_2412729"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_FIRST_PlusOneG", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6929860", 
+                "LINE_7117216", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_5040168"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_AdventurersSpawnAtCutlass", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2827038", 
+                "LINE_5040168", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "FADE OUT", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.2, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UdAdventurers_SQ_Despawn", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 1.0, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 1.2, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "UDAdventurers_SQ_Cutlass", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "True", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9119512", 
+                "<ROOT>", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_9119512|", 
+                "", 
+                "", 
+                [
+                    "LINE_5936280"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1384987", 
+                "LINE_5936280", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_1384987|", 
+                "", 
+                "", 
+                [
+                    "LINE_8196598"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5936280", 
+                "LINE_9119512", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_5936280|", 
+                "", 
+                "", 
+                [
+                    "LINE_5401943", 
+                    "LINE_1384987", 
+                    "LINE_4454980"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4454980", 
+                "LINE_5936280", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_4454980|", 
+                "", 
+                "", 
+                [
+                    "LINE_2350761"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5401943", 
+                "LINE_5936280", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_5401943|", 
+                "", 
+                "", 
+                [
+                    "LINE_4145504"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4145504", 
+                "LINE_5401943", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_4145504|", 
+                "", 
+                "", 
+                [
+                    "LINE_5153862"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8697314", 
+                "LINE_5153862", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_8697314|", 
+                "", 
+                "", 
+                [
+                    "LINE_1030147"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1192635", 
+                "LINE_5153862", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_1192635|", 
+                "", 
+                "[CHA] We're going to need more coin for the job.", 
+                [
+                    "LINE_3755893", 
+                    "LINE_6931694"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1030147", 
+                "LINE_8697314", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_1030147|", 
+                "", 
+                "", 
+                [
+                    "LINE_4984210"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1546492", 
+                "LINE_7342786", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_1546492|", 
+                "", 
+                "", 
+                [
+                    "LINE_4701863"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4701863", 
+                "LINE_1546492", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "Complete the quest", 
+                [
+                    "LINE_9921407"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_ReturnTheStrongbox", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7342786", 
+                "LINE_4984210", 
+                "UDPARTYONE", 
+                "|UDAdventurers_SQ_LINE_7342786|", 
+                "", 
+                "", 
+                [
+                    "LINE_1546492"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4984210", 
+                "LINE_1030147", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "ADventurers leave", 
+                [
+                    "LINE_7342786"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_LeaveCutlass", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2350761", 
+                "LINE_4454980", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_2350761|", 
+                "", 
+                "", 
+                [
+                    "LINE_5153862"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5153862", 
+                "LINE_4145504", 
+                "UDPARTYTWO", 
+                "|UDAdventurers_SQ_LINE_5153862|", 
+                "", 
+                "", 
+                [
+                    "LINE_1192635", 
+                    "LINE_8697314", 
+                    "LINE_5511053"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8196598", 
+                "LINE_1384987", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_8196598|", 
+                "", 
+                "", 
+                [
+                    "LINE_5153862"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3755893", 
+                "LINE_1192635", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_3755893|", 
+                "", 
+                "[SUCCESS] You've convinced me! We'll add one more gold piece on to the tally.", 
+                [
+                    "LINE_6097442"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 19, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "cha", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6931694", 
+                "LINE_1192635", 
+                "UDPARTYFOUR", 
+                "|UDAdventurers_SQ_LINE_6931694|", 
+                "", 
+                "", 
+                [
+                    "LINE_8697314", 
+                    "LINE_5511053"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6097442", 
+                "LINE_3755893", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "SET +1 Gold", 
+                [
+                    "LINE_8697314", 
+                    "LINE_5511053"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SECOND_PlusOneG", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3232157", 
+                "LINE_9921407", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "Gold Checks", 
+                [
+                    "LINE_1058018"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "UDAdventurers_FIRST_PlusOneG", 
+                                    "Quest": "UDAdventurers_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "UDAdventurers_SECOND_PlusOneG", 
+                                    "Quest": "UDAdventurers_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9921407", 
+                "LINE_4701863", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "Give 2 gold", 
+                [
+                    "LINE_5153546", 
+                    "LINE_6720863", 
+                    "LINE_3232157", 
+                    "LINE_2837202"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 2", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2837202", 
+                "LINE_9921407", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "Gold Checks", 
+                [
+                    "LINE_1137962"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "UDAdventurers_FIRST_PlusOneG", 
+                                    "Quest": "UDAdventurers_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "UDAdventurers_SECOND_PlusOneG", 
+                                    "Quest": "UDAdventurers_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6720863", 
+                "LINE_9921407", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "Gold Checks", 
+                [
+                    "LINE_7390599"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "UDAdventurers_FIRST_PlusOneG", 
+                                    "Quest": "UDAdventurers_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "UDAdventurers_SECOND_PlusOneG", 
+                                    "Quest": "UDAdventurers_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4837668", 
+                "LINE_5153546", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "LINK BACK TO HERE", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_DespawnCutlass", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 1.0, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 1.2, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_FINAL", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5153546", 
+                "LINE_9921407", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "Gold Checks", 
+                [
+                    "LINE_4837668"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "UDAdventurers_FIRST_PlusOneG", 
+                                    "Quest": "UDAdventurers_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "UDAdventurers_SECOND_PlusOneG", 
+                                    "Quest": "UDAdventurers_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7390599", 
+                "LINE_6720863", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4837668"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 1", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1058018", 
+                "LINE_3232157", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4837668"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 1", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1137962", 
+                "LINE_2837202", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4837668"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 2", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5511053", 
+                "LINE_5153862", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_5511053|", 
+                "", 
+                "", 
+                [
+                    "LINE_2505493"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2505493", 
+                "LINE_5511053", 
+                "UDPARTYTWO", 
+                "|UDAdventurers_SQ_LINE_2505493|", 
+                "", 
+                "", 
+                [
+                    "LINE_7530022"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0076614", 
+                "LINE_7530022", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_0076614|", 
+                "", 
+                "Reduced to bar room brawlers? You must be joking.", 
+                [
+                    "LINE_5350464", 
+                    "LINE_7814430", 
+                    "LINE_3937167"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3937167", 
+                "LINE_0076614", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_3937167|", 
+                "", 
+                "", 
+                [
+                    "LINE_8979500"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5350464", 
+                "LINE_0076614", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_5350464|", 
+                "", 
+                "", 
+                [
+                    "LINE_5657287"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5657287", 
+                "LINE_5350464", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_5657287|", 
+                "", 
+                "", 
+                [
+                    "LINE_1606030", 
+                    "LINE_0764130"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1606030", 
+                "LINE_5657287", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_1606030|", 
+                "", 
+                "", 
+                [
+                    "LINE_5078658"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8979500", 
+                "LINE_3937167", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_8979500|", 
+                "", 
+                "", 
+                [
+                    "LINE_8697314"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5078658", 
+                "LINE_1606030", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_5078658|", 
+                "", 
+                "When next we meet, we'll meet as enemies.", 
+                [
+                    "LINE_5355435"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0764130", 
+                "LINE_5657287", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_0764130|", 
+                "", 
+                "", 
+                [
+                    "LINE_5078658"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7530022", 
+                "LINE_2505493", 
+                "UDPARTYONE", 
+                "|UDAdventurers_SQ_LINE_7530022|", 
+                "", 
+                "", 
+                [
+                    "LINE_0076614"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7814430", 
+                "LINE_0076614", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_7814430|", 
+                "", 
+                "", 
+                [
+                    "LINE_5657287"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0019224", 
+                "LINE_5355435", 
+                "UDPARTYTHREE", 
+                "|UDAdventurers_SQ_LINE_0019224|", 
+                "", 
+                "", 
+                [
+                    "LINE_4984210"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5355435", 
+                "LINE_5078658", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "SETTING FIGHT OPTION HERE", 
+                [
+                    "LINE_0019224"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_FightInTheStreets", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "UDAdventurers_SQ_MapEncounters", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "NeedsVO": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9243568", 
+                "<ROOT>", 
+                "UDPARTYONE", 
+                "|UDAdventurers_SQ_LINE_9243568|", 
+                "", 
+                "", 
+                [
+                    "LINE_9208638"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9208638", 
+                "LINE_9243568", 
+                "UDPARTYTWO", 
+                "|UDAdventurers_SQ_LINE_9208638|", 
+                "", 
+                "", 
+                [
+                    "LINE_8636234", 
+                    "LINE_7606527", 
+                    "LINE_7062256"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8636234", 
+                "LINE_9208638", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_8636234|", 
+                "", 
+                "", 
+                [
+                    "LINE_2263702"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7606527", 
+                "LINE_9208638", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_7606527|", 
+                "", 
+                "", 
+                [
+                    "LINE_3982364"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7062256", 
+                "LINE_9208638", 
+                "<PLAYER>", 
+                "|UDAdventurers_SQ_LINE_7062256|", 
+                "", 
+                "", 
+                [
+                    "LINE_7302185"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7302185", 
+                "LINE_7062256", 
+                "UDPARTYTWO", 
+                "|UDAdventurers_SQ_LINE_7302185|", 
+                "", 
+                "", 
+                [
+                    "LINE_3375674"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2263702", 
+                "LINE_8636234", 
+                "UDPARTYTWO", 
+                "|UDAdventurers_SQ_LINE_2263702|", 
+                "", 
+                "", 
+                [
+                    "LINE_3375674"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3375674", 
+                "LINE_2263702", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "UDAdventurers_SQ_Hostile", 
+                        "Quest": "UDAdventurers_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "MakeCreatureFactionHostile", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3982364", 
+                "LINE_7606527", 
+                "UDPARTYTWO", 
+                "|UDAdventurers_SQ_LINE_3982364|", 
+                "", 
+                "", 
+                [
+                    "LINE_3375674"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="WolfSet1" /> 
+		<CreatureSet Name="BanditSet1" /> 
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="IntroForest_01"  />   
+                </Tiles>
+            </Trunk>
+        </Group> 
+
+    </Groups>  
+</DungeonConfig>

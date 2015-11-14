@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Settings
+
+        PortWeightX="0"
+        PortWeightZ="-100"
+        PlayerLighting="DrowCavesPlayerLighting"
+        TransitionSetOverride="catacombstransitions"
+        EncounterProbabilityMin="100"
+        EncounterProbabilityMax="100"
+        MaxHallwayDistance="300"
+        MaxHallwayTiles="6" >
+
+        <HallwayTiles>
+            <Tile Name="CAT_10_C_Hall" TransitionOverride="CatacombsArch, CatacombsArch2" EndCapOverride="CatacombsCap_Blank" />
+        </HallwayTiles>
+
+    </Settings>
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="GildedEyeAssassinsSet" />
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                       <Tile Name="CAT_FlortalUP"  />
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- End Staging -->
+
+<!-- Tree 2-->
+         <Group PortWeightX="0" PortWeightZ="0">
+            <Trunk Min ="1" Max="1">
+                <Tiles >
+                   <!--   Removed because this tile is used in Wizard's Lair, but the following tiles are only used in this dungeon <Tile Name="CAT_36_C_Flank" CreatureSet="RatSet1" ForceEntryPort="Port06" ForceExitPort="Port011" PortExtensionMin="2" PortExtensionMax="2" OpenAllPorts="1" MaxDynamicHallways="0" /> -->
+                    <Tile Name="CAT_36_C_Grand" CreatureSet="RatSet1" ForceEntryPort="Port04" ForceExitPort="Port02" PortExtensionMin="2" PortExtensionMax="2" OpenAllPorts="1" MaxDynamicHallways="0" />  
+                    <Tile Name="CAT_36_C_Hall"  CreatureSet="RatSet1" ForceEntryPort="Port01" ForceExitPort="Port04" PortExtensionMin="2" PortExtensionMax="2" OpenAllPorts="1" MaxDynamicHallways="0" />
+                    <Tile Name="CAT_36_C_Hall"  CreatureSet="RatSet1" ForceEntryPort="Port04" ForceExitPort="Port01" PortExtensionMin="2" PortExtensionMax="2" OpenAllPorts="1" MaxDynamicHallways="0" />
+                </Tiles>
+            </Trunk>
+
+            <!--CAT S C ANGLE has the busts inside it. One more non-essential tile for variety. TODO NATE: incorporate the other tiles that are commented out after puzzle is functional-->
+            <Branch Min ="1" Max="1" >
+                <Tiles >
+                    <Tile Name="CAT_S_C_Angle"          CreatureSet="RatSet1" PortExtensionMin="0" PortExtensionMax="0" OpenAllPorts="1" Max="1" />
+                   
+                    <Tile Name="CAT_S_T_DualPlat"       CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" ForceEntryPort="Port02" />
+                  
+                    <!--<Tile Name="CAT_S_C_CornerCross"    CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" />  -->
+                     <!--<Tile Name="CAT_S_C_Prongs"         CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" />-->
+                    <!--<Tile Name="CAT_S_C_Altar"          CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" />-->
+                    <!-- <Tile Name="CAT_S_C_Armor"          CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" />-->
+                </Tiles>
+            </Branch>
+        </Group>
+<!-- End Tree 2-->
+
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile
+                        XMLID="PuzzleTile"
+                        Name="CAT_S_C_Cesspit"
+                        CreatureSet="RatSet1"
+                        ForceEntryPort="Port07"
+                        ForceExitPort="Port02"
+                        PortExtensionMin="2"
+                        PortExtensionMax="2"
+                        OpenAllPorts="0"
+                        BranchingPriority="-1"
+                        MaxDynamicHallways="0"/>
+                    />
+                </Tiles>
+            </Trunk>
+
+            <!-- Can't guarantee these build on opposite sides of the tile... but when it does, it's great!
+            <Branch Min="2" Max="2" Sequential="1">
+                <Tiles>
+                    <Tile Name="CAT_10_I_Hall" OpenAllPorts="0" TransitionOverride="CatacombsArch01" MaxDynamicHallways="0" />
+                    <Tile Name="CAT_10_I_Hall" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="0" TransitionOverride="CatacombsArch01" MaxDynamicHallways="0" />
+                </Tiles>
+            </Branch>
+            -->
+
+            <Branch Min ="1" Max="1" >
+                <Tiles >
+                <!--TODO: Uncomment the tiles when the puzzle is functional, it'll give us more variety. We should be getting two tiles from this set. -->
+                    <Tile Name="CAT_S_C_Prongs"         CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" />
+                    <Tile Name="CAT_S_C_Armor"          CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" />
+                    <!--><Tile Name="CAT_S_C_Angle"          CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" /><-->
+                    <!--><Tile Name="CAT_S_C_CornerCross"    CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" /><-->
+                    <!--> <Tile Name="CAT_S_C_Altar"          CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" /><-->
+                </Tiles>
+            </Branch>
+        </Group>
+
+<!-- I Break -->
+        <Group>
+            <Trunk Min="2" Max="2" Sequential="1">
+                <Tiles >
+                    <Tile XMLID="TrapHall" Name="CAT_31_C_Hall" ForceEntryPort="Port01" ForceExitPort="Port08" TransitionOverride="CatacombsArch, CatacombsArch2" EndCapOverride="CatacombsCap_Blank" MaxDynamicHallways="0" MaxPostBuildTiles="0" />
+                    <Tile Name="CAT_31_C_Hall" ForceEntryPort="Port05" ForceExitPort="Port06" OpenAllPorts="1" TransitionOverride="CatacombsDoor01" MaxDynamicHallways="2" />
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- Tree 1-->
+       <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+
+                    <Tile Name="CAT_S_C_SixLegs"        PortExtensionMin="1" PortExtensionMax="1" Max="1" />
+
+                </Tiles>
+            </Trunk>
+
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="CAT_31_C_Hall" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" TransitionOverride="CatacombsArch, CatacombsArch2" MaxDynamicHallways="1" />
+                </Tiles>
+            </Branch>
+
+            <Leaf Min="1" Max="1" Sequential="1">
+                <Tiles >
+					<Tile Name="CAT_S_T_Anchor"         PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" ForceEntryPort="Port03" />
+                    <Tile Name="CAT_S_T_BandStand"      CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" ForceEntryPort="Port02" />
+                    <Tile Name="CAT_S_T_Curvy"          CreatureSet="RatSet1" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" Max="1" ForceEntryPort="Port02" />
+
+                </Tiles>
+            </Leaf>
+        </Group>
+<!-- End Tree 1-->
+
+<!-- I Break -->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+
+                    <Tile Name="CAT_S_I_Hall"       OpenAllPorts="1" TriggerAutoSave="true" ForceEntryPort="Port02" />
+
+                </Tiles>
+            </Trunk>
+        </Group>
+
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile XMLID="BossTile" Name="CAT_M_I_Spokes" ForceEntryPort="Port01" EndCapOverride="CatacombsCap_Blank" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+    </Groups> 
+
+</DungeonConfig>

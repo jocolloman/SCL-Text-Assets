@@ -1,0 +1,1770 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "Bryn_CQ": [
+            "Bryn_SQ_Bryn_SQ_Name", 
+            0, 
+            "Bryn_CQ", 
+            "..\\..\\Design\\Quests\\Scripts\\CompanionQuests", 
+            "", 
+            {
+                "Bryn_CQ_Start": [
+                    "Bryn_SQ_Bryn_SQ_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Bryn_SQ_Bryn_SQ_Flag 0_JournalEntry", 
+                    "Bryn_CQ_Start_Reward", 
+                    {}, 
+                    "", 
+                    1, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "Bryn_CQ_FindMerchant": [
+                    "Bryn_SQ_Bryn_SQ_Flag 2_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_SQ_Bryn_SQ_Flag 2_JournalEntry", 
+                    "Bryn_CQ_FindMerchant_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_Start", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanStreets", 
+                    []
+                ], 
+                "Bryn_CQ_GoToWarehouse": [
+                    "Bryn_SQ_Bryn_SQ_Flag 5_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_SQ_Bryn_SQ_Flag 5_JournalEntry", 
+                    "Bryn_CQ_GoToWarehouse_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_FindMerchant", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQ", 
+                    []
+                ], 
+                "Bryn_CQ_GetPastGuard": [
+                    "Bryn_SQ_Bryn_SQ_Flag 4_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_SQ_Bryn_SQ_Flag 4_JournalEntry", 
+                    "Bryn_CQ_GetPastGuard_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_GoToWarehouse", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQ", 
+                    []
+                ], 
+                "Bryn_CQ_CheckWarehouse": [
+                    "Bryn_SQ_Bryn_SQ_Flag 3_Name", 
+                    5, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_SQ_Bryn_SQ_Flag 3_JournalEntry", 
+                    "Bryn_CQ_CheckWarehouse_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_GetPastGuard", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQ", 
+                    []
+                ], 
+                "Bryn_CQ_ReturnToGuard": [
+                    "Bryn_CQ_Bryn_CQ_Flag 22_Name", 
+                    6, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_CQ_Bryn_CQ_Flag 22_JournalEntry", 
+                    "Bryn_CQ_ReturnToGuard_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_CheckWarehouse", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQ", 
+                    []
+                ], 
+                "Bryn_CQ_AmbushConvo": [
+                    "Bryn_CQ_Bryn_CQ_Flag 23_0_Name", 
+                    7, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Bryn_CQ_Bryn_CQ_Flag 23_0_JournalEntry", 
+                    "Bryn_CQ_AmbushConvo_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_CheckWarehouse", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQ", 
+                    []
+                ], 
+                "Bryn_CQ_DefeatAmbush": [
+                    "Bryn_SQ_Bryn_SQ_Flag 6_Name", 
+                    8, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Bryn_SQ_Bryn_SQ_Flag 6_JournalEntry", 
+                    "Bryn_CQ_DefeatAmbush_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_AmbushConvo", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQ", 
+                    []
+                ], 
+                "Bryn_CQ_AfterAmbushConvo": [
+                    "Bryn_SQ_Bryn_SQ_Flag 13_Name", 
+                    9, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Bryn_SQ_Bryn_SQ_Flag 13_JournalEntry", 
+                    "Bryn_CQ_AfterAmbushConvo_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_DefeatAmbush", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQ", 
+                    []
+                ], 
+                "Bryn_CQ_FindHideout": [
+                    "Bryn_SQ_Bryn_SQ_Flag 8_Name", 
+                    10, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_SQ_Bryn_SQ_Flag 8_JournalEntry", 
+                    "Bryn_CQ_FindHideout_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_ReturnToGuard", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanSlums", 
+                    []
+                ], 
+                "Bryn_CQ_SearchHideout": [
+                    "Bryn_CQ_Bryn_CQ_Flag 50_Name", 
+                    11, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_CQ_Bryn_CQ_Flag 50_JournalEntry", 
+                    "Bryn_CQ_SearchHideout_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_FindHideout", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQHideout", 
+                    []
+                ], 
+                "Bryn_CQ_MercDealt": [
+                    "Bryn_CQ_Bryn_CQ_Flag 14_Name", 
+                    12, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_CQ_Bryn_CQ_Flag 14_JournalEntry", 
+                    "Bryn_CQ_MercDealt_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_SearchHideout", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQHideout", 
+                    []
+                ], 
+                "Bryn_CQ_MercKilled": [
+                    "Bryn_CQ_Bryn_CQ_Flag 33_Name", 
+                    13, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Bryn_CQ_Bryn_CQ_Flag 33_JournalEntry", 
+                    "Bryn_CQ_MercKilled_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQHideout", 
+                    []
+                ], 
+                "Bryn_CQ_MercBargained": [
+                    "Bryn_CQ_Bryn_CQ_Flag 34_Name", 
+                    14, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Bryn_CQ_Bryn_CQ_Flag 34_JournalEntry", 
+                    "Bryn_CQ_MercBargained_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQHideout", 
+                    []
+                ], 
+                "Bryn_CQ_MercNote": [
+                    "Bryn_CQ_Bryn_CQ_Flag 35_Name", 
+                    15, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_CQ_Bryn_CQ_Flag 35_JournalEntry", 
+                    "Bryn_CQ_MercNote_Reward", 
+                    [
+                        {
+                            "groupStart": 1, 
+                            "join": "AND", 
+                            "groupItems": [
+                                {
+                                    "flag": "Bryn_CQ_MercDealt", 
+                                    "quest": "Bryn_CQ", 
+                                    "set": 1
+                                }, 
+                                {
+                                    "flag": "Bryn_CQ_MercKilled", 
+                                    "quest": "Bryn_CQ", 
+                                    "set": 1
+                                }, 
+                                {
+                                    "flag": "Bryn_CQ_Failed", 
+                                    "quest": "Bryn_CQ", 
+                                    "set": 0
+                                }
+                            ]
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQHideout", 
+                    []
+                ], 
+                "Bryn_CQ_MercNoteConvo": [
+                    "Bryn_CQ_Bryn_CQ_Flag 16_Name", 
+                    16, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Bryn_CQ_Bryn_CQ_Flag 16_JournalEntry", 
+                    "Bryn_CQ_MercNoteConvo_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_MercNote", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "BrynCQHideout", 
+                    []
+                ], 
+                "Bryn_CQ_FindRethnorHome": [
+                    "Bryn_SQ_Bryn_SQ_Flag 9_Name", 
+                    17, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_SQ_Bryn_SQ_Flag 9_JournalEntry", 
+                    "Bryn_CQ_FindRethnorHome_Reward", 
+                    [
+                        {
+                            "groupStart": 1, 
+                            "join": "AND", 
+                            "groupItems": [
+                                {
+                                    "flag": "Bryn_CQ_Failed", 
+                                    "quest": "Bryn_CQ", 
+                                    "set": 0
+                                }, 
+                                {
+                                    "groupStart": 1, 
+                                    "join": "OR", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "Bryn_CQ_MercBargained", 
+                                            "quest": "Bryn_CQ", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "Bryn_CQ_MercNoteConvo", 
+                                            "quest": "Bryn_CQ", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanStreets", 
+                    []
+                ], 
+                "Bryn_CQ_CheckSailor": [
+                    "Bryn_CQ_Bryn_CQ_Flag 37_0_Name", 
+                    18, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_CQ_Bryn_CQ_Flag 37_0_JournalEntry", 
+                    "Bryn_CQ_CheckSailor_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_FindRethnorHome", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanStreets", 
+                    []
+                ], 
+                "Bryn_CQ_SearchHouse": [
+                    "Bryn_SQ_Bryn_SQ_Flag 10_Name", 
+                    19, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_SQ_Bryn_SQ_Flag 10_JournalEntry", 
+                    "Bryn_CQ_SearchHouse_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_CheckSailor", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanStreets", 
+                    []
+                ], 
+                "Bryn_CQ_ReturnSailor": [
+                    "Bryn_CQ_Bryn_CQ_Flag 47_Name", 
+                    20, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_CQ_Bryn_CQ_Flag 47_JournalEntry", 
+                    "Bryn_CQ_ReturnSailor_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_SearchHouse", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanStreets", 
+                    []
+                ], 
+                "Bryn_CQ_SuccubusConvo": [
+                    "Bryn_CQ_Bryn_CQ_Flag 17_Name", 
+                    21, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Bryn_CQ_Bryn_CQ_Flag 17_JournalEntry", 
+                    "Bryn_CQ_SuccubusConvo_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_ReturnSailor", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanStreets", 
+                    []
+                ], 
+                "Bryn_CQ_DefeatSuccubus": [
+                    "Bryn_SQ_Bryn_SQ_Flag 11_Name", 
+                    22, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "Bryn_SQ_Bryn_SQ_Flag 11_JournalEntry", 
+                    "Bryn_CQ_DefeatSuccubus_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_SuccubusConvo", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanStreets", 
+                    []
+                ], 
+                "Bryn_CQ_RecoverStone": [
+                    "Bryn_SQ_Bryn_SQ_Flag 12_Name", 
+                    23, 
+                    false, 
+                    true, 
+                    false, 
+                    true, 
+                    "Bryn_SQ_Bryn_SQ_Flag 12_JournalEntry", 
+                    "Bryn_CQ_RecoverStone_Reward", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_DefeatSuccubus", 
+                            "quest": "Bryn_CQ", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "Bryn_CQ_Failed", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    2, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanStreets", 
+                    [
+                        "COMPLETE_BRYNS_QUEST"
+                    ]
+                ], 
+                "Bryn_CQ_Finished": [
+                    "Bryn_CQ_Bryn_CQ_Flag 73_Name", 
+                    24, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "Bryn_CQ_Bryn_CQ_Flag 73_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    []
+                ], 
+                "Bryn_CQ_Failed": [
+                    "Bryn_CQ_Bryn_CQ_Flag 72_Name", 
+                    25, 
+                    false, 
+                    true, 
+                    false, 
+                    false, 
+                    "Bryn_CQ_Bryn_CQ_Flag 72_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "Bryn_CQ_Finished", 
+                            "quest": "Bryn_CQ", 
+                            "set": 0
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    []
+                ], 
+                "UtilityFlags": {
+                    "Bryn_CQ_BrynPersuadeMerchant": [
+                        "Bryn_CQ_Bryn_CQ_Flag 18_Name", 
+                        26, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 18_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_BrynPersuadeGuard": [
+                        "Bryn_CQ_Bryn_CQ_Flag 19_Name", 
+                        27, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 19_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_BrynPersuadeMerc": [
+                        "Bryn_CQ_Bryn_CQ_Flag 20_Name", 
+                        28, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 20_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_WarehouseCheckConvo": [
+                        "Bryn_CQ_Bryn_CQ_Flag 21_Name", 
+                        29, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 21_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_BribedGuard400": [
+                        "Bryn_CQ_Bryn_CQ_Flag 23_Name", 
+                        30, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 23_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_BribedGuard200": [
+                        "Bryn_CQ_Bryn_CQ_Flag 24_Name", 
+                        31, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 24_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_GuardHostile": [
+                        "Bryn_CQ_Bryn_CQ_Flag 25_Name", 
+                        32, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 25_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_GuardDead": [
+                        "Bryn_CQ_Bryn_CQ_Flag 26_Name", 
+                        33, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 26_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_FoundSword": [
+                        "Bryn_CQ_Bryn_CQ_Flag 27_Name", 
+                        34, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 27_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_FoundQuartz": [
+                        "Bryn_CQ_Bryn_CQ_Flag 29_Name", 
+                        35, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 29_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_TriggerWarehouseConvo": [
+                        "Bryn_CQ_Bryn_CQ_Flag 32_0_Name", 
+                        36, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 32_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_MercHideoutHostile": [
+                        "Bryn_CQ_Bryn_CQ_Flag 36_Name", 
+                        37, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 36_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_MercHideoutConvo": [
+                        "Bryn_CQ_Bryn_CQ_Flag 37_Name", 
+                        38, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 37_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "Bryn_CQ_MercBargained", 
+                                        "quest": "Bryn_CQ", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "Bryn_CQ_MercHideoutHostile", 
+                                        "quest": "Bryn_CQ", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_RethnorEnter": [
+                        "Bryn_CQ_Bryn_CQ_Flag 38_Name", 
+                        39, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 38_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_SuccubusPhase1End": [
+                        "Bryn_CQ_Bryn_CQ_Flag 39_Name", 
+                        40, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 39_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_SuccubusPhase2Start": [
+                        "Bryn_CQ_Bryn_CQ_Flag 40_Name", 
+                        41, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 40_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_SuccubusAppear": [
+                        "Bryn_CQ_Bryn_CQ_Flag 41_Name", 
+                        42, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 41_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_ThesianBuff": [
+                        "Bryn_CQ_Bryn_CQ_Flag 42_Name", 
+                        43, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 42_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_ThesianStand": [
+                        "Bryn_CQ_Bryn_CQ_Flag 43_Name", 
+                        44, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 43_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_HouseItem_Books01": [
+                        "Bryn_CQ_Bryn_CQ_Flag 44_Name", 
+                        45, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 44_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_HouseItem_Books02": [
+                        "Bryn_CQ_Bryn_CQ_Flag 45_Name", 
+                        46, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 45_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_HouseItem_Amulet": [
+                        "Bryn_CQ_Bryn_CQ_Flag 46_Name", 
+                        47, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 46_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_HouseItem_Chest": [
+                        "Bryn_CQ_Bryn_CQ_Flag 48_Name", 
+                        48, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 48_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_HouseItem_Note": [
+                        "Bryn_CQ_Bryn_CQ_Flag 49_Name", 
+                        49, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 49_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_HideoutEnter": [
+                        "Bryn_CQ_Bryn_CQ_Flag 51_Name", 
+                        50, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 51_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_WarehouseKey": [
+                        "Bryn_CQ_Bryn_CQ_Flag 52_Name", 
+                        51, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 52_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_FoundCrate01": [
+                        "Bryn_CQ_Bryn_CQ_Flag 50_0_Name", 
+                        52, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 50_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_FoundCrate02": [
+                        "Bryn_CQ_Bryn_CQ_Flag 51_0_Name", 
+                        53, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 51_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_FoundCrate03": [
+                        "Bryn_CQ_Bryn_CQ_Flag 52_0_Name", 
+                        54, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 52_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_WarehouseStack": [
+                        "Bryn_CQ_Bryn_CQ_Flag 53_Name", 
+                        55, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 53_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_WarehouseShowBryn": [
+                        "Bryn_CQ_Bryn_CQ_Flag 54_Name", 
+                        56, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 54_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_HideoutLatch": [
+                        "Bryn_CQ_Bryn_CQ_Flag 55_Name", 
+                        57, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 55_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_SuccubusDie": [
+                        "Bryn_CQ_Bryn_CQ_Flag 55_0_Name", 
+                        58, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 55_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_AfterDefeatWarpA": [
+                        "Bryn_CQ_Bryn_CQ_Flag 56_Name", 
+                        59, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 56_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_AfterDefeatWarpB": [
+                        "Bryn_CQ_Bryn_CQ_Flag 57_Name", 
+                        60, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 57_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_RethnorManFollowup": [
+                        "Bryn_CQ_Bryn_CQ_Flag 58_Name", 
+                        61, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 58_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_RethnorManDead": [
+                        "Bryn_CQ_Bryn_CQ_Flag 59_Name", 
+                        62, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 59_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_TookAmulet": [
+                        "Bryn_CQ_Bryn_CQ_Flag 60_Name", 
+                        63, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 60_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_LeftGuard": [
+                        "Bryn_CQ_Bryn_CQ_Flag 61_Name", 
+                        64, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 61_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Bryn_CQ_TookSword": [
+                        "Bryn_CQ_Bryn_CQ_Flag 69_Name", 
+                        65, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 69_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Bryn_CQ_MapUnlockHideout": [
+                        "Bryn_CQ_Bryn_CQ_Flag 70_Name", 
+                        66, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 70_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Bryn_CQ_FindHideout", 
+                                "quest": "Bryn_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Bryn_CQ_MapUnlockWarehouse": [
+                        "Bryn_CQ_Bryn_CQ_Flag 71_Name", 
+                        67, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 71_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Bryn_CQ_FindMerchant", 
+                                "quest": "Bryn_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Bryn_CQ_DespawnMadelith": [
+                        "Bryn_CQ_Bryn_CQ_Flag 2900_Name", 
+                        68, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 2900_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        {}
+                    ]
+                }, 
+                "CampFlags": {
+                    "Bryn_BG_1_1": [
+                        "Bryn_CQ_Bryn_CQ_Flag 62_Name", 
+                        69, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 62_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Bryn_BG_1_2": [
+                        "Bryn_CQ_Bryn_CQ_Flag 63_Name", 
+                        70, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 63_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Bryn_BG_1_3": [
+                        "Bryn_CQ_Bryn_CQ_Flag 64_Name", 
+                        71, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 64_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Bryn_BG_2_1": [
+                        "Bryn_CQ_Bryn_CQ_Flag 65_Name", 
+                        72, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 65_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Bryn_BG_2_2": [
+                        "Bryn_CQ_Bryn_CQ_Flag 66_Name", 
+                        73, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 66_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Bryn_BG_2_3": [
+                        "Bryn_CQ_Bryn_CQ_Flag 67_Name", 
+                        74, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 67_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "ThankedForQuest": [
+                        "Bryn_CQ_Bryn_CQ_Flag 68_Name", 
+                        75, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Bryn_CQ_Bryn_CQ_Flag 68_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "PartyCamp_Forest", 
+            "Hommet"
+        ]
+    }
+}

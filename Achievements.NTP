@@ -1,0 +1,565 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_Achievements"
+{
+     FORMAT
+     {
+          STRING           "Description"
+          STRING           "ProgressStats"
+          INTEGER          "StatUnlockValue"
+          INTEGER          "AchievementType"
+          INTEGER          "RequireAllStatsToUnlock"
+          STRING           "DependsOn"
+          INTEGER          "Hidden"
+          STRING           "IconLocked"
+          STRING           "IconUnlocked"
+     }
+
+     TEMPLATE "COMPLETE_CHAPTER_1"
+     {
+          DATA             "Achieve_Name_Act1"
+          DATA             "Achieve_Desc_Act1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_CHAPTER_2"
+     {
+          DATA             "Achieve_Name_Act2"
+          DATA             "Achieve_Desc_Act2"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_CHAPTER_3"
+     {
+          DATA             "Achieve_Name_Act3"
+          DATA             "Achieve_Desc_Act3"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "SAVE_KILL_BANAGAR"
+     {
+          DATA             "Achieve_Name_Choice_Banagar"
+          DATA             "Achieve_Desc_Choice_Banagar"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "RECRUIT_DENY_JAVEN"
+     {
+          DATA             "Achieve_Name_Choice_Javen"
+          DATA             "Achieve_Desc_Choice_Javen"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "PURIFY_DESTROY_MOONTEAR"
+     {
+          DATA             "Achieve_Name_Choice_Moontear"
+          DATA             "Achieve_Desc_Choice_Moontear"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "RECRUIT_ALL_COMPANIONS"
+     {
+          DATA             "Achieve_Name_All_Companions"
+          DATA             "Achieve_Desc_All_Companions"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_ALL_COMPANION_QUESTS"
+     {
+          DATA             "Achieve_Name_All_Companion_Quests"
+          DATA             "Achieve_Desc_All_Companion_Quests"
+          DATA             ""
+          DATA             ""
+          DATA             "3"
+          DATA             ""
+          DATA             "COMPLETE_BRYNS_QUEST,COMPLETE_JARHIDS_QUEST,COMPLETE_ILLYDIAS_QUEST,COMPLETE_IZHKINS_QUEST,COMPLETE_JAVENS_QUEST,COMPLETE_HOMMETS_QUEST,COMPLETE_DALANIRS_QUEST,COMPLETE_LARETHARS_QUEST"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_BRYNS_QUEST"
+     {
+          DATA             "Achieve_Name_Bryn_Quest"
+          DATA             "Achieve_Desc_Bryn_Quest"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_JARHIDS_QUEST"
+     {
+          DATA             "Achieve_Name_Jarhild_Quest"
+          DATA             "Achieve_Desc_Jarhild_Quest"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_ILLYDIAS_QUEST"
+     {
+          DATA             "Achieve_Name_Illydia_Quest"
+          DATA             "Achieve_Desc_Illydia_Quest"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_IZHKINS_QUEST"
+     {
+          DATA             "Achieve_Name_Izhkin_Quest"
+          DATA             "Achieve_Desc_Izhkin_Quest"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_JAVENS_QUEST"
+     {
+          DATA             "Achieve_Name_Javen_Quest"
+          DATA             "Achieve_Desc_Javen_Quest"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_HOMMETS_QUEST"
+     {
+          DATA             "Achieve_Name_Hommet_Quest"
+          DATA             "Achieve_Desc_Hommet_Quest"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_DALANIRS_QUEST"
+     {
+          DATA             "Achieve_Name_Dalanir_Quest"
+          DATA             "Achieve_Desc_Dalanir_Quest"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "TUT_STABILIZE_UNCONSIOUS_CHARACTER"
+     {
+          DATA             "Achieve_Name_Stabilize"
+          DATA             "Achieve_Desc_Stabilize"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "TUT_DRINK_HEALING_POTIONS"
+     {
+          DATA             "Achieve_Name_Potions"
+          DATA             "Achieve_Desc_Potions"
+          DATA             "used_healing_potions"
+          DATA             "5"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "TUT_FIND_SECRET_DOOR"
+     {
+          DATA             "Achieve_Name_Secret_Door"
+          DATA             "Achieve_Desc_Secret_Door"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "TUT_DISABLE_TRAPS"
+     {
+          DATA             "Achieve_Name_Traps"
+          DATA             "Achieve_Desc_Traps"
+          DATA             "traps_disabled"
+          DATA             "10"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "TUT_PICK_OR_BASH_LOCKS"
+     {
+          DATA             "Achieve_Name_Locks"
+          DATA             "Achieve_Desc_Locks"
+          DATA             "locks_picked"
+          DATA             "10"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "STAT_REACH_LEVEL_X_WITH_ONE_CLASS"
+     {
+          DATA             "Achieve_Name_MaxLevel_OneClass"
+          DATA             "Achieve_Desc_MaxLevel_OneClass"
+          DATA             "max_level_fighter,max_level_cleric,max_level_rogue,max_level_wizard,max_level_paladin,max_level_ranger"
+          DATA             "20"
+          DATA             "2"
+          DATA             "0"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "STAT_REACH_LEVEL_X_WITH_ALL_CLASSES"
+     {
+          DATA             "Achieve_Name_MaxLevel_AllClasses"
+          DATA             "Achieve_Desc_MaxLevel_AllClasses"
+          DATA             "max_level_fighter,max_level_cleric,max_level_rogue,max_level_wizard,max_level_paladin,max_level_ranger"
+          DATA             "20"
+          DATA             "2"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "STAT_COLLECT_GOLD_GLOBAL"
+     {
+          DATA             "Achieve_Name_Gold"
+          DATA             "Achieve_Desc_Gold"
+          DATA             "total_gold_collected"
+          DATA             "10000"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "STAT_GIB_X_ENEMIES"
+     {
+          DATA             "Achieve_Name_Gib"
+          DATA             "Achieve_Desc_Gib"
+          DATA             "num_enemies_gibbed"
+          DATA             "10"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "STAT_KILL_X_ENEMIES"
+     {
+          DATA             "Achieve_Name_Kill"
+          DATA             "Achieve_Desc_Kill"
+          DATA             "num_enemies_killed"
+          DATA             "5000"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "STAT_SUMMON_X_ENEMIES_AS_DM"
+     {
+          DATA             "Achieve_Name_Summon"
+          DATA             "Achieve_Desc_Summon"
+          DATA             "num_enemies_summoned"
+          DATA             "1000"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "STAT_POSSESS_X_ENEMIES_AS_DM"
+     {
+          DATA             "Achieve_Name_Possess"
+          DATA             "Achieve_Desc_Possess"
+          DATA             "num_enemies_possessed"
+          DATA             "500"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "DC_COMPLETE_1"
+     {
+          DATA             "Achieve_Name_Crawl1"
+          DATA             "Achieve_Desc_Crawl1"
+          DATA             "num_dungeoncrawls_completed"
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "DC_COMPLETE_2"
+     {
+          DATA             "Achieve_Name_Crawl2"
+          DATA             "Achieve_Desc_Crawl2"
+          DATA             "num_dungeoncrawls_completed"
+          DATA             "10"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "DC_COMPLETE_3"
+     {
+          DATA             "Achieve_Name_Crawl3"
+          DATA             "Achieve_Desc_Crawl3"
+          DATA             "num_dungeoncrawls_completed"
+          DATA             "50"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "DC_RUN_AS_DM_1"
+     {
+          DATA             "Achieve_Name_DM1"
+          DATA             "Achieve_Desc_DM1"
+          DATA             "num_dungeoncrawls_ran_as_dm"
+          DATA             "1"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "DC_RUN_AS_DM_2"
+     {
+          DATA             "Achieve_Name_DM2"
+          DATA             "Achieve_Desc_DM2"
+          DATA             "num_dungeoncrawls_ran_as_dm"
+          DATA             "25"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_CHAPTER_4"
+     {
+          DATA             "Achieve_Name_Act4"
+          DATA             "Achieve_Desc_Act4"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_LARETHARS_QUEST"
+     {
+          DATA             "Achieve_Name_Larethar_Quest"
+          DATA             "Achieve_Desc_Larethar_Quest"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_COOP"
+     {
+          DATA             "Achieve_Name_Complete_Coop"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_STORYMODE_HARD"
+     {
+          DATA             "achieve_name_storymode_hard"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "PUBLISH_CUSTOM_CAMPAIGN"
+     {
+          DATA             "achieve_name_create_custom_campaign"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "STAT_THREE_TWENTY_PLUS"
+     {
+          DATA             "achieve_name_three_stats_past_twenty"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "COMPLETE_STORY_ALL_RACES_CLASSES"
+     {
+          DATA             "achieve_name_complete_story_all_races_and_classes"
+          DATA             ""
+          DATA             "finished_class_fighter,finished_class_cleric,finished_class_rogue,finished_class_wizard,finished_class_paladin,finished_class_ranger,finished_race_human,finished_race_elf,finished_race_dwarf,finished_race_halfling,finished_race_halfelf"
+          DATA             "1"
+          DATA             "2"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+}
+

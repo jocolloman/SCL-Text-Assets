@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting"
+MaxHallwayDistance="40"
+MaxHallwayTiles="4" >
+<HallwayTiles>
+<Tile Name="CAT_10_C_Hall" TransitionOverride = "CatacombsArch01" />
+</HallwayTiles>
+</Settings>
+
+<!--  ********************ATTENTION PATRICK:   Forcing port entries and exits on the 30x60s to get the lights out puzzle's leaf tiles to spawn  -->
+
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="MafCatacombs1" /> 
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk Min = "1" Max = "1">
+                <Tiles >
+                       <Tile Name="MAF_StagingWizard"  />                       
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- End Staging -->        
+        
+<!-- Tree 1--> 
+       <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >  
+                        <Tile Name="CAT_S_I_Hall" ForceEntryPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" TransitionOverride = "CatacombsDoor01"  OpenAllPorts = "1"/> 
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- End Tree 1--> 
+
+<!-- Tree 2-->        
+         <Group>
+            <Trunk Min ="1" Max="1">
+                <Tiles >                   
+                        <Tile Name="CAT_36_C_Flank" ForceEntryPort = "12" ForceExitPort = "07" PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts = "1" TransitionOverride = "CatacombsArch02" XMLID = "TileAfterJostin"/>                                                                            
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min ="1" Max="1" >
+                <Tiles >    
+                    <Tile Name="CAT_S_C_Armor"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts = "1" XMLID = "MaferilLibrary" Max = "1"/>
+					<Tile Name="CAT_S_C_Angle" PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts = "1" XMLID = "VampireRoom" Max = "1"/>
+                </Tiles>
+            </Branch>
+
+        </Group>
+<!-- End Tree 2--> 
+
+<!-- Tree 3-->        
+         <Group>
+            <Trunk Min ="1" Max="1">
+                <Tiles >                                                
+                       <Tile Name="CAT_36_C_NarrowHalls"  ForceEntryPort = "03" ForceExitPort = "10" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" />                                         
+                </Tiles>
+            </Trunk>
+            
+			<Branch Min ="1" Max="1" >
+                <Tiles >
+						<Tile Name="CAT_S_C_CornerCross" PortExtensionMin= "3" PortExtensionMax = "3" OpenAllPorts = "1"/>
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min ="1" Max="1" >
+                <Tiles >                                           
+                       <Tile Name="CAT_10_I_Hall" PortExtensionMin="0" PortExtensionMax="0" MaxDynamicHallways="0" TransitionOverride = "CatacombsDoor_PuzzleLocked" XMLID = "PuzzleTreasure" Max = "1" ForceEntryPort = "01"/>
+					   <Tile Name="CAT_10_I_Hall2" PortExtensionMin="0" PortExtensionMax="0" MaxDynamicHallways="0" TransitionOverride = "CatacombsDoor_PuzzleLocked2" XMLID = "PuzzleBoss" Max = "1" ForceEntryPort = "01"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+
+
+<!-- Stairs Break -->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >  
+                    <Tile Name="CAT_S_C_RaisedCorner" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" PortWeight = "-100" ForceEntryPort = "01" ForceExitPort = "04" />                                   
+                </Tiles>
+            </Trunk>
+   
+            <Branch Min ="1" Max="1" >
+                <Tiles >
+                        <Tile Name="CAT_10_Secret" Max = "1" TransitionOverride = "CatacombsImpossibleSecretDoor"/>  <!-- ONLY EXISTS SO FLAME TRAP WORKS DUE TO OFFSET, SIGH -->       
+                </Tiles>
+            </Branch> 
+        </Group>
+
+<!-- Tree 4 -->   
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >                
+					<Tile Name="CAT_S_C_Prongs" PortExtensionMin= "1" PortExtensionMax = "1" Max = "1" XMLID = "PotionPuzzle" ForceEntryPort = "01" ForceExitPort = "02"/>       <!--Potion Puzzle -->      
+					<Tile Name="CAT_S_C_Prongs" PortExtensionMin= "1" PortExtensionMax = "1" Max = "1" XMLID = "PotionPuzzle" ForceEntryPort = "03" ForceExitPort = "02"/>       <!--Potion Puzzle -->  
+					<Tile Name="CAT_S_C_Prongs" PortExtensionMin= "1" PortExtensionMax = "1" Max = "1" XMLID = "PotionPuzzle" ForceEntryPort = "04" ForceExitPort = "02"/>       <!--Potion Puzzle -->  					  
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >                
+                    <Tile Name="CAT_MaferilBoss"/>                                                        
+                </Tiles>
+            </Trunk>
+        </Group>
+    </Groups>  
+<!-- End Tree 4 --> 
+
+</DungeonConfig>

@@ -1,0 +1,65 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_Bolts"
+{
+     FORMAT
+     {
+          INTEGER          "LifeSpan"
+          NUMBER           "Width"
+          NUMBER           "Length"
+          NUMBER           "Speed"
+          RESOURCE         ""    "BoltVFXPrefab"
+          INTEGER          "CanHitCreator"
+          INTEGER          "MaxHitsPerTarget"
+          INTEGER          "DestroyOnCasterDeath"
+          INTEGER          "TickWhileCasterIsDead"
+          INTEGER          "DestroyOnHit"
+     }
+
+     TEMPLATE "Bolt_Lightning"
+     {
+          DESCRIPTION      ""
+          DATA             "1"
+          DATA             "3.2"
+          DATA             "6"
+          DATA             "18"
+          DATA             "FX_LightningBolt_PJT"
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             "0"
+     }
+
+     TEMPLATE "Bolt_ShadeSlash"
+     {
+          DESCRIPTION      ""
+          DATA             "2"
+          DATA             "3.2"
+          DATA             "1"
+          DATA             "14"
+          DATA             "FX_Slashing_PJT"
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             "0"
+     }
+
+     TEMPLATE "Bolt_ShadePierce"
+     {
+          DESCRIPTION      ""
+          DATA             "2"
+          DATA             "3.2"
+          DATA             "1"
+          DATA             "16"
+          DATA             "FX_Piercing_PJT"
+          DATA             ""
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             "0"
+     }
+
+}
+

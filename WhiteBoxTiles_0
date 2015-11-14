@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!-- FIRST PASS GDC DEMO DUNGEON -->
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->  
+    <CreatureSets>
+        <CreatureSet Name="DC_Duergar" /> 
+    </CreatureSets>
+
+    <Groups>
+    
+         <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="CAV_Staging"  PortExtensionMin= "8" PortExtensionMax = "10" OpenAllPorts= "1"  />  <!-- Door LOCKED between groups in level settings  -->
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+    </Groups>
+</DungeonConfig>

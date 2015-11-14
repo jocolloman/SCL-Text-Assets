@@ -1,0 +1,238 @@
+<?xml version= "1.0" encoding= "utf-8"?>
+<DungeonConfig xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd= "http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX= "0" PortWeightZ= "0" PlayerLighting= "DrowCavesPlayerLighting" 
+EncounterProbabilityMin= "75"
+EncounterProbabilityMax= "85"
+DMAllowedChests ="3"
+MaxHallwayDistance= "35"
+MaxHallwayTiles= "3" >
+<HallwayTiles>
+<Tile Name= "SEW_10_I_Hall" TransitionOverride= "SewerArch01" OpenAllPorts= "1" />
+</HallwayTiles>
+</Settings>
+
+<!--
+Notes - Small Simple - 4 Trunk tiles, 1-4 Branches/Leaves
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name= "DC_Duergar" /> 
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>
+        <Group>
+			<!-- Entrance -->
+            <Trunk>
+                <Tiles >
+                    <Tile Name= "SEW_FlortalUP" CanDMSpawn= "0" />    <!-- FLORTAL - Only ONE tile IN THIS GROUP   -->
+                </Tiles>
+            </Trunk>
+        </Group>
+      
+        <Group>
+			<!-- Main Tiles -->
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SEW_S_C_Cesspit"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CircleCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_PitCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Curvy"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_DualPlat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SimpleT"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SmallFalls"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Wrap"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>    
+
+			<!-- Branch & Leaf Tiles -->
+            <Branch Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SEW_S_I_Four"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Hall"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Ramp"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Sides"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_TightI"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SimpleT"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_DiagHall"	  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Four"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Hall"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Ramp"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Sides"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_TightI"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SimpleT"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_DiagHall"	  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_Cesspit"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CircleCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_DualPlat"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SmallFalls"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Corpses"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Flank"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_NarrowHalls"	  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Snipers"			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_TripleH"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_WaterfallStairs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_K_oolAid"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_T_BigM"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_T_Wander"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Bandstand" 		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Op"  				PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+			
+			<!-- Leaf Tiles -->
+			<Leaf Min= "1" Max= "1">
+				<Tiles >
+					<Tile Name= "SEW_S_C_Cesspit"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CircleCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_DualPlat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SimpleT"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SmallFalls"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Corpses"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Flank"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_NarrowHalls"	  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Snipers"			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_TripleH"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_WaterfallStairs"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_K_oolAid"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_T_BigM"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_T_Wander"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Bandstand" 		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Op"  				PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+				</Tiles>
+			</Leaf>
+		</Group>
+      
+        <Group>
+			<!-- Transition Tiles -->
+			<Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SEW_S_I_Four"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Hall"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Ramp"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Sides"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_TightI"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SimpleT"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_DiagHall"	  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+		</Group>
+		 
+		<Group>
+			<!-- Main Tiles -->
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SEW_S_C_Cesspit"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CircleCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_PitCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Curvy"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_DualPlat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SimpleT"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SmallFalls"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Wrap"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+			
+			<!-- Branch & Leaf Tiles -->
+            <Branch Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SEW_S_I_Four"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Hall"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Ramp"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Sides"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_TightI"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SimpleT"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_DiagHall"	  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Four"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Hall"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Ramp"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Sides"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_TightI"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SimpleT"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_DiagHall"	  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_Cesspit"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CircleCross"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_DualPlat"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SmallFalls"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Corpses"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Flank"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_NarrowHalls"	  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Snipers"			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_TripleH"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_WaterfallStairs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_K_oolAid"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_T_BigM"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_T_Wander"  			PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Bandstand" 		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Op"  				PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+		
+			<!-- Leaf Tiles -->
+            <Leaf Min= "1" Max= "1">
+                <Tiles >
+                    <Tile Name= "SEW_S_C_Cesspit"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CircleCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_DualPlat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SmallFalls"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Corpses"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Flank"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_NarrowHalls"	  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_Snipers"			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_TripleH"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_C_WaterfallStairs"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_K_oolAid"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_T_BigM"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_36_T_Wander"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Bandstand" 		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_Op"  				PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+        
+        <Group>
+			<!-- Transition Tiles -->
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+                    <Tile Name= "SEW_S_I_Four"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Hall"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Ramp"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_Sides"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_I_TightI"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_T_SimpleT"  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_DiagHall"	  			PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SEW_S_C_CornerCross"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+		</Group>
+	
+		<Group>
+			<!-- Exit -->
+            <Trunk IsBossGroup= "1">
+                <Tiles >
+                  <Tile Name= "SEW_FlortalDOWN" 				Destructible= "PD_Small"/>    
+				  <Tile Name= "SEW_Boss" 					IsBossTile= "1" />
+				  <Tile Name= "SEW_DM_FlortalOUT" 			IsExitTile= "1" />
+                </Tiles>
+            </Trunk>
+        </Group> 
+    </Groups>  
+	
+	<PostBuildTiles>
+        <Tiles>
+            <Tile Name="SEW_Secret" TransitionOverride="SewerSecretDoor01" Max="1" /> 
+		</Tiles>
+    </PostBuildTiles>
+</DungeonConfig>

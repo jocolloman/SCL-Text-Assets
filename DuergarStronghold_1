@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" 
+
+MaxHallwayDistance="30"
+MaxHallwayTiles="3" >
+<HallwayTiles>
+    <Tile Name="DUE_10_I_Hall" TransitionOverride="DuergarArch02" />
+</HallwayTiles>
+</Settings>
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DuergarSet01" />    
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>
+
+<!-- FLORTAL - Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DUE_FlortalDOWN" TransitionOverride="DuergarDoor"/>    
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- Tree 1 -->       
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_S_C_Platform"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" /> 
+                </Tiles>
+            </Trunk>
+            
+        <!-- Tree 1 Branch -->
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DUE_S_C_Steps"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />       
+                    <Tile Name="DUE_S_C_Prongs"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />   
+                    <Tile Name="DUE_S_C_Altar"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />            
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min="1" Max="1">
+                <Tiles>
+                    <!-- <Tile Name="DUE_Closet"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />  -->
+                    <Tile Name="DUE_10_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" /> 
+                </Tiles>
+            </Leaf>
+            
+            
+        </Group>
+<!--END tree 1 -->
+
+<!-- Tree  2 -->    
+<Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+
+                    <Tile Name="DUE_S_C_Steps"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />       
+                    <Tile Name="DUE_S_C_Prongs"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />   
+                    <Tile Name="DUE_S_C_Altar"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />                   
+                </Tiles>
+            </Trunk>
+            
+        <!-- Tree 2 Branch -->
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DUE_S_C_Steps"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />       
+                    <Tile Name="DUE_S_C_Prongs"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />   
+                    <Tile Name="DUE_S_C_Altar"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />                        
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DUE_10_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" /> 
+                   <!-- <Tile Name="DUE_10_I_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />   -->
+                  <!--  <Tile Name="DUE_Secret" TransitionOverride="DuergarSecretDoor" Max="1" PlacementDistanceRequired="100"/>   ADDED TO POST BUILD -->
+                </Tiles>
+            </Leaf>
+        </Group>
+   
+<!-- Tree 3 -->       
+        <Group>
+            <Trunk Min="1" Max="1">  <!-- MAXED OUT THE possible ports on all of these tiles -->
+                <Tiles >
+                   <Tile Name="DUE_36_C_Ballroom"  PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1"/> <!-- RPP added , convo added-->
+                   <Tile Name="DUE_36_C_Grand"  PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1"/>      <!-- RPP added , convo added-->
+                     <!--  <Tile Name="DUE_36_T_Speed" PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1" />    RPP added -->
+                </Tiles>
+            </Trunk>
+            
+        <!-- Tree 3 BranchTiles -->
+            <Branch Min="1" Max="1">
+                <Tiles>
+                   <Tile Name="DUE_Closet"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />  
+                </Tiles>
+            </Branch>
+        </Group>
+<!--END tree 3 -->
+
+ <!-- Tree 4 -->       
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                     <Tile Name="DUE_S_I_LilDip" PortExtensionMin= "1" PortExtensionMax = "1" /> 
+                    <Tile Name="DUE_S_I_Regal" PortExtensionMin= "1" PortExtensionMax = "1" /> 
+                </Tiles>
+            </Trunk>
+            
+        <!-- Tree 4 Branch -->
+            <Branch Min="1" Max="2" Probability="66">
+                <Tiles>
+                    <Tile Name="DUE_Closet"  PortExtensionMin= "0" PortExtensionMax = "1" OpenAllPorts= "1"/>
+                </Tiles>
+            </Branch>
+        </Group>
+        
+         <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_S_T_Anchor" TransitionOverride="DuergarArch01" PortExtensionMin= "2" PortExtensionMax = "2" /> 
+                </Tiles>
+            </Trunk>
+            
+        <!-- Tree 4 Branch -->
+            <Branch Min="1" Max="2" >
+                <Tiles>
+                    <Tile Name="DUE_10_C_Hall" TransitionOverride="DuergarArch02" PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "0" /> 
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min="1" Max="2" >
+                <Tiles>
+                    <Tile Name="DUE_Bedroom01" TransitionOverride="DuergarDoor" Max = "1" />
+                    <Tile Name="DUE_StorageRoom01" TransitionOverride="DuergarDoor_Trapped" Max = "1" />
+                </Tiles>
+            </Leaf>
+        </Group>
+        
+        
+<!--END tree 4 -->
+ 
+        <Group>
+            <Trunk>
+                <Tiles >
+                  <Tile Name="DUE_FlortalUP" />    
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+    </Groups>  
+    
+    <PostBuildTiles>
+        <Tiles>
+            <Tile Name="DUE_Secret" TransitionOverride="DuergarSecretDoor" Max="1" PlacementDistanceRequired="100"/>  
+		</Tiles>
+    </PostBuildTiles>
+    
+</DungeonConfig>

@@ -1,0 +1,383 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "ImpHideSeek_SQ": [
+            "ImpHideSeek_SQ_ImpHideSeek_SQ_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "ImpHS_SQ_Discovered": [
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 0_JournalEntry", 
+                    "ImpHS_SQ_Discovered_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "ImpHS_SQ_Found01": [
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 2_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 2_JournalEntry", 
+                    "ImpHS_SQ_Found01_Reward", 
+                    [
+                        {
+                            "flag": "ImpHS_SQ_Discovered", 
+                            "quest": "ImpHideSeek_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "ImpHS_SQ_Found02": [
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 3_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 3_JournalEntry", 
+                    "ImpHS_SQ_Found02_Reward", 
+                    [
+                        {
+                            "flag": "ImpHS_SQ_Found01", 
+                            "quest": "ImpHideSeek_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "ImpHS_SQ_Found03": [
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 4_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 4_JournalEntry", 
+                    "ImpHS_SQ_Found03_Reward", 
+                    [
+                        {
+                            "flag": "ImpHS_SQ_Found02", 
+                            "quest": "ImpHideSeek_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "ImpHS_SQ_Found04": [
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 11_Name", 
+                    5, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 11_JournalEntry", 
+                    "ImpHS_SQ_Found04_Reward", 
+                    [
+                        {
+                            "flag": "ImpHS_SQ_Found03", 
+                            "quest": "ImpHideSeek_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    ""
+                ], 
+                "ImpHS_SQ_Hostile": [
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 6_Name", 
+                    6, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 6_JournalEntry", 
+                    "ImpHS_SQ_Hostile_Reward", 
+                    [
+                        {
+                            "flag": "ImpHS_SQ_Found04", 
+                            "quest": "ImpHideSeek_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "ImpHS_SQ_Dead": [
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 7_Name", 
+                    7, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 7_JournalEntry", 
+                    "ImpHS_SQ_Dead_Reward", 
+                    [
+                        {
+                            "flag": "ImpHS_SQ_Hostile", 
+                            "quest": "ImpHideSeek_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "Utility Flags": {
+                    "ImpHS_SQ_Run01": [
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 8_0_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 8_0_JournalEntry", 
+                        "ImpHS_SQ_Run01_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "ImpHS_SQ_Run02": [
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 9_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 9_JournalEntry", 
+                        "ImpHS_SQ_Run02_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "ImpHS_SQ_Run03": [
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 10_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 10_JournalEntry", 
+                        "ImpHS_SQ_Run03_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "ImpHS_SQ_Run04": [
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 12_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 12_JournalEntry", 
+                        "ImpHS_SQ_Run04_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "ImpHS_SQ_Leave": [
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 11_0_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ImpHideSeek_SQ_ImpHideSeek_SQ_Flag 11_0_JournalEntry", 
+                        "ImpHS_SQ_Leave_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

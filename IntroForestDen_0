@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="0" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="SpiderDenSet01" />  <!-- Spiders and shit -->
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+        <Group>  
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DEN_IntroForestStaging"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        <Group>    
+            <Trunk Min ="2" Max = "2">
+                <Tiles>    
+                    <Tile Name="DEN_S_C_Bolt"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_C_Goat"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_C_Psi"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_T_Why"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_E_Comma"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        <Group>    
+            <Trunk Min ="1" Max = "1">
+                <Tiles>    
+                    <Tile Name="DEN_Boss" SecretRoom = "1" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+    </Groups>
+
+</DungeonConfig>

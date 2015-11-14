@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="0" PlayerLighting="DrowCavesPlayerLighting" 
+EncounterProbabilityMin ="75"
+EncounterProbabilityMax ="85"
+DMAllowedChests ="7"
+MaxHallwayDistance="35"
+MaxHallwayTiles="3" >
+<HallwayTiles>
+<Tile Name="CAV_10_C_Hall" OpenAllPorts="1" TransitionOverride="Drow_HallArch" EndCapOverride="Drow_HallEndCap"/>
+</HallwayTiles>
+</Settings>
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DC_Duergar" /> 
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>
+    
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAV_FlortalUP" CanDMSpawn= "0" />    <!-- FLORTAL - Only ONE tile IN THIS GROUP   -->
+                </Tiles>
+            </Trunk>
+        </Group>
+      
+        <Group>
+            <Trunk Min="1" Max="1">
+				<!-- Main Tiles -->
+                <Tiles >
+                    <Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="2" Max="2">
+				<!-- Branch & Leaf Tiles -->
+                <Tiles >
+					<Tile Name="CAV_S_C_Bolt"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Comma"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_TwoPlat"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Bridge"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Noodle"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Lagoon"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min="1" Max="1">
+				<!-- Leaf Tiles -->
+                <Tiles >
+                    <Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Tadpole"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Lagoon"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+        
+        <Group>
+            <Trunk Min="1" Max="1">
+				<!-- Transition Tiles -->
+                <Tiles >
+					<Tile Name="CAV_S_C_Bolt"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Comma"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_TwoPlat"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Bridge"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Noodle"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+         </Group>
+		 
+		 <Group>
+            <Trunk Min="1" Max="1">
+				<!-- Main Tiles -->
+                <Tiles >
+                    <Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+				<!-- Branch & Leaf Tiles -->
+                <Tiles >
+					<Tile Name="CAV_S_C_Bolt"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Comma"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_TwoPlat"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Bridge"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Noodle"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Lagoon"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min="1" Max="1">
+				<!-- Leaf Tiles -->
+                <Tiles >
+                    <Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Tadpole"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Lagoon"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+        
+        <Group>
+            <Trunk Min="1" Max="1">
+				<!-- Transition Tiles -->
+                <Tiles >
+					<Tile Name="CAV_S_C_Bolt"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Comma"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_TwoPlat"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Bridge"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Noodle"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+         </Group>
+		 
+		 <Group>
+            <Trunk Min="1" Max="1">
+				<!-- Main Tiles -->
+                <Tiles >
+                    <Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "1" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+				<!-- Branch & Leaf Tiles -->
+                <Tiles >
+					<Tile Name="CAV_S_C_Bolt"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Comma"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_TwoPlat"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Bridge"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Noodle"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Lagoon"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min="1" Max="1">
+				<!-- Leaf Tiles -->
+                <Tiles >
+                    <Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Tadpole"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Lagoon"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+        
+        <Group>
+            <Trunk Min="1" Max="1">
+				<!-- Transition Tiles -->
+                <Tiles >
+					<Tile Name="CAV_S_C_Bolt"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Comma"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_TwoPlat"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Bridge"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Noodle"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+         </Group>
+		 
+		 <Group>
+            <Trunk Min="1" Max="1">
+                <!-- Main Tiles -->
+                <Tiles >
+                    <Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+			
+            <Branch Min="2" Max="2">
+                <!-- Branch & Leaf Tiles -->
+                <Tiles >
+					<Tile Name="CAV_S_C_Bolt"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Comma"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_TwoPlat"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Bridge"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Noodle"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Lagoon"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+
+            <Leaf Min="1" Max="1">
+                <!-- Leaf Tiles -->
+                <Tiles >
+                    <Tile Name="CAV_36_C_Ramps"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>	
+					<Tile Name="CAV_36_C_River"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Tadpole"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_36_C_Lagoon"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Goat"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Hyundai"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_Psi"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_C_ZCross"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Platform"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Donut"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_T_Why"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+
+		<Group>
+            <Trunk Min="1" Max="1">
+                <!-- Transition Tiles -->
+                <Tiles >
+					<Tile Name="CAV_S_C_Bolt"  		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_Comma"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_E_TwoPlat"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Bridge"  	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+					<Tile Name="CAV_S_I_Noodle"		PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible="PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+		 
+        <Group>
+            <Trunk IsBossGroup= "1">
+                <Tiles >
+                  <Tile Name="CAV_FlortalDOWN" Destructible="PD_DUE_Small"/>    
+				  <Tile Name="CAV_Boss" IsBossTile= "1" />
+				  <Tile Name="CAV_DM_FlortalOUT" IsExitTile= "1" />
+                </Tiles>
+            </Trunk>
+        </Group> 
+    </Groups>
+
+	<PostBuildTiles>
+        <Tiles>
+            <Tile Name="CAV_Secret" TransitionOverride="DrowSecretDoor01" Max="1" /> 
+		</Tiles>
+    </PostBuildTiles>	
+</DungeonConfig>

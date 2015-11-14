@@ -1,0 +1,391 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "DemonInside_SQ": [
+            "DemonInside_SQ_DemonInside_SQ_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "Untracked": {
+                    "DemonInside_SQ_Start": [
+                        "DemonInside_SQ_DemonInside_SQ_DemonInside_SQ_Start_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DemonInside_SQ_DemonInside_SQ_DemonInside_SQ_Start_JournalEntry", 
+                        "DemonInside_SQ_Start_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "Chapterhouse"
+                    ], 
+                    "DemonInside_SQ_MetBeggars": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 4_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 4_JournalEntry", 
+                        "DemonInside_SQ_MetBeggars_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DemonInside_SQ_RefusedToPay": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 5_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 5_JournalEntry", 
+                        "DemonInside_SQ_RefusedToPay_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DemonInside_SQ_BoughtButton": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 6_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 6_JournalEntry", 
+                        "DemonInside_SQ_BoughtButton_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DemonInside_SQ_KillPrereq": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 8_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 8_JournalEntry", 
+                        "DemonInside_SQ_KillPrereq_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DemonInside_SQ_GetWepPrereq": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 9_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 9_JournalEntry", 
+                        "DemonInside_SQ_GetWepPrereq_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DemonInside_SQ_Final_Kill": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 10_Name", 
+                        7, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 10_JournalEntry", 
+                        "DemonInside_SQ_Final_Kill_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "DemonInside_SQ_KillDemon", 
+                                        "quest": "DemonInside_SQ", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "DarkLakeDistrict"
+                    ], 
+                    "DemonInside_SQ_Final_Weapon": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 11_Name", 
+                        8, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 11_JournalEntry", 
+                        "DemonInside_SQ_Final_Weapon_Reward", 
+                        [
+                            {
+                                "flag": "DemonInside_SQ_GetWeapon", 
+                                "quest": "DemonInside_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "LuskanStreets"
+                    ]
+                }, 
+                "Tracked": {
+                    "DemonInside_SQ_GoToLuskan": [
+                        "DemonInside_SQ_DemonInside_SQ_DemonInside_SQ_GoToLuskan_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "DemonInside_SQ_DemonInside_SQ_DemonInside_SQ_GoToLuskan_JournalEntry", 
+                        "DemonInside_SQ_GoToLuskan_Reward", 
+                        [
+                            {
+                                "flag": "DemonInside_SQ_Start", 
+                                "quest": "DemonInside_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LuskanStreets"
+                    ], 
+                    "DemonInside_SQ_Darklake": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 2_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 2_JournalEntry", 
+                        "DemonInside_SQ_Darklake_Reward", 
+                        [
+                            {
+                                "flag": "DemonInside_SQ_GoToLuskan", 
+                                "quest": "DemonInside_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "DarkLakeDistrict"
+                    ], 
+                    "DemonInside_SQ_KillDemon": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 3_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 3_JournalEntry", 
+                        "DemonInside_SQ_KillDemon_Reward", 
+                        [
+                            {
+                                "flag": "DemonInside_SQ_KillPrereq", 
+                                "quest": "DemonInside_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "DarkLakeDistrict"
+                    ], 
+                    "DemonInside_SQ_GetWeapon": [
+                        "DemonInside_SQ_DemonInside_SQ_Flag 7_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "DemonInside_SQ_DemonInside_SQ_Flag 7_JournalEntry", 
+                        "DemonInside_SQ_GetWeapon_Reward", 
+                        [
+                            {
+                                "flag": "DemonInside_SQ_GetWepPrereq", 
+                                "quest": "DemonInside_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LuskanStreets"
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "Chapterhouse", 
+            "Location"
+        ]
+    }
+}

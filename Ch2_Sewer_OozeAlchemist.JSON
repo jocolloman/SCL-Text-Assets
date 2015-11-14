@@ -1,0 +1,618 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch2_Ooze_Apprentice", 
+                "NoBegFade": "False", 
+                "NeedsVO": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "APPRENTICE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_7647042", 
+                "<ROOT>", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_7647042|", 
+                "", 
+                "", 
+                [
+                    "LINE_7639409", 
+                    "LINE_6891778"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "CH2_OA_Start", 
+                                    "Quest": "Ch2_SQ_OozeAlchemist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7639409", 
+                "LINE_7647042", 
+                "<PLAYER>", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_7639409|", 
+                "", 
+                "", 
+                [
+                    "LINE_0009513"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0009513", 
+                "LINE_7639409", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_0009513|", 
+                "", 
+                "", 
+                [
+                    "LINE_4966930"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4966930", 
+                "LINE_0009513", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_4966930|", 
+                "", 
+                "BK CUT:  where no one is watching", 
+                [
+                    "LINE_7309352", 
+                    "LINE_1386379"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7309352", 
+                "LINE_4966930", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_7309352|", 
+                "", 
+                "", 
+                [
+                    "LINE_4227329"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C2_ANQ_FindAWayIntoLuskan", 
+                                    "Quest": "C2.1_A_New_Quest", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4227329", 
+                "LINE_7309352", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_4227329|", 
+                "", 
+                "", 
+                [
+                    "LINE_2242551", 
+                    "LINE_5589658"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1386379", 
+                "LINE_4966930", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_1386379|", 
+                "", 
+                "", 
+                [
+                    "LINE_2242551", 
+                    "LINE_5589658"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C2_ANQ_FindAWayIntoLuskan", 
+                                    "Quest": "C2.1_A_New_Quest", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2242551", 
+                "LINE_4227329", 
+                "<PLAYER>", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_2242551|", 
+                "", 
+                "", 
+                [
+                    "LINE_9568996"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5589658", 
+                "LINE_4227329", 
+                "<PLAYER>", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_5589658|", 
+                "", 
+                "", 
+                [
+                    "LINE_3156574"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9568996", 
+                "LINE_2242551", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_9568996|", 
+                "", 
+                "", 
+                [
+                    "LINE_3657720"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3657720", 
+                "LINE_9568996", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_3657720|", 
+                "", 
+                "BK tweaked line", 
+                [
+                    "LINE_8737671"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8737671", 
+                "LINE_3657720", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_OA_Start", 
+                        "Quest": "Ch2_SQ_OozeAlchemist", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_OA_TalkedToApprentice", 
+                        "Quest": "Ch2_SQ_OozeAlchemist", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3156574", 
+                "LINE_5589658", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_3156574|", 
+                "", 
+                "", 
+                [
+                    "LINE_5119402"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5119402", 
+                "LINE_3156574", 
+                "<SKIP>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0340035", 
+                "<ROOT>", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_0340035|", 
+                "", 
+                "", 
+                [
+                    "LINE_6310181"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "CH2_OA_Start", 
+                                    "Quest": "Ch2_SQ_OozeAlchemist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6891778", 
+                "LINE_7647042", 
+                "<PLAYER>", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_6891778|", 
+                "", 
+                "", 
+                [
+                    "LINE_5834806"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5834806", 
+                "LINE_6891778", 
+                "APPRENTICE", 
+                "|Ch2_Sewer_OozeAlchemist_LINE_5834806|", 
+                "", 
+                "BK removed pickle comment", 
+                [
+                    "LINE_0009513"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6310181", 
+                "LINE_0340035", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

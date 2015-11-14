@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="0" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="" />  <!-- Wolves and shit -->
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+        <Group>  
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DEN_Staging"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+
+        <Group>    
+            <Trunk Min ="3" Max = "3">
+                <Tiles>    
+                    <Tile Name="DEN_36_C_Lagoon"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_36_C_Ramps"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_36_C_River"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_C_Bolt"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_C_Goat"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_C_Hyundai"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_C_Platform"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_C_Psi"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_E_Comma"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_E_Platform"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_I_Bridge"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_I_Noodle"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_I_Story"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_I_TwoPlat"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_T_Donut"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                    <Tile Name="DEN_S_T_Why"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+    </Groups>
+
+</DungeonConfig>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="-100" PortWeightZ="-50" PlayerLighting="DrowCavesPlayerLighting" 
+EncounterProbabilityMin ="85"
+EncounterProbabilityMax ="95"
+MaxHallwayDistance="100"
+MaxHallwayTiles="5" >
+<HallwayTiles>
+<Tile Name="SEW_10_C_Hall" TransitionOverride="SewerHallArch01"/>
+</HallwayTiles>
+</Settings>
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="SewerSet1" />  
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                       <Tile Name="SEW_FlortalUp"/>  
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- End Staging -->
+
+<!-- 1 - Intro Hall -->    
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_S_I_Ramp" ForceEntryPort="Port02" ForceExitPort="Port01" PortExtensionMin= "1" PortExtensionMax = "1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- 2 - Dead Rat Ambush --> 
+            
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_36_C_WaterfallStairs" ForceEntryPort="Port03" ForceExitPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" TransitionOverride="SewerHallArch01" />                
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- 3 - Hall --> 
+            
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_36_K_oolAid" ForceEntryPort="Port03" ForceExitPort="Port06" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" TransitionOverride="SewerHallArch01" />                
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_S_T_SmallFalls" ForceEntryPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>   
+                </Tiles>
+            </Branch>
+        </Group>
+        
+ <!-- Group 4 -->    
+ 		<Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SEW_S_T_Op" ForceEntryPort="Port07" ForceExitPort="Port03" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>-->
+            
+<!--            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_S_T_Curvy" ForceEntryPort="Port03" ForceExitPort="Port01" PortExtensionMin= "1" PortExtensionMax = "1" BranchingPriority="-1" OpenAllPorts= "1"/>   
+                </Tiles>
+            </Branch>-->
+        </Group>
+                
+<!-- Group 5 -->    
+ 		<Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+             		 <Tile Name="SEW_36_T_BigM"  TransitionOverride="SewerDoor_Trapped"  ForceEntryPort="Port06" ForceExitPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+
+ <!-- Group 6-->    
+ 		<Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SEW_S_C_Cesspit" ForceEntryPort="Port10" ForceExitPort="Port01" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- Group 7 -->    
+ 		<Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SEW_36_C_Snipers" ForceEntryPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/> 
+                </Tiles>
+            </Trunk>
+            
+        </Group>
+
+    </Groups>    
+  
+<!-- Secret Tiles -->     
+    <PostBuildTiles>
+        <Tiles>
+            <Tile Name="SEW_Secret" TransitionOverride="SewerSecretDoor01" Max="2" PlacementDistanceRequired="100"/> 
+        </Tiles>
+    </PostBuildTiles>
+            
+</DungeonConfig>

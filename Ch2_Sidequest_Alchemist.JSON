@@ -1,0 +1,1395 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Alchemist", 
+                "NoBegFade": "False", 
+                "IsFinal": "True", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "RELONA"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5260739", 
+                "<ROOT>", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_5260739|", 
+                "", 
+                "BK I'm a busy woman. Tell me what you need, or let me get back to work.", 
+                [
+                    "LINE_9158243", 
+                    "LINE_7672632", 
+                    "LINE_7199308", 
+                    "LINE_4617364", 
+                    "LINE_6335483", 
+                    "LINE_4590654", 
+                    "LINE_6524508", 
+                    "LINE_6980760"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9158243", 
+                "LINE_5260739", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_9158243|", 
+                "", 
+                "", 
+                [
+                    "LINE_5556320"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_BP_AlchemistIntroduction", 
+                        "Quest": "CH2_SQ_BlackPudding", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_BP_AlchemistIntroduction", 
+                                    "Quest": "CH2_SQ_BlackPudding", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7672632", 
+                "LINE_5260739", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_7672632|", 
+                "", 
+                "", 
+                [
+                    "LINE_7628070"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4617364", 
+                "LINE_5260739", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_4617364|", 
+                "", 
+                "", 
+                [
+                    "LINE_2346517"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_BP_BertrandConvo", 
+                        "Quest": "CH2_SQ_BlackPudding", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_BP_BertrandConvo", 
+                                    "Quest": "CH2_SQ_BlackPudding", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_GetInfoFromIndra", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_InvestigateMurder", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6335483", 
+                "LINE_5260739", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_6335483|", 
+                "", 
+                "", 
+                [
+                    "LINE_6167061"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "CH2_OA_CollectOoze", 
+                                    "Quest": "Ch2_SQ_OozeAlchemist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_OA_ReturnToAlchemist", 
+                                    "Quest": "Ch2_SQ_OozeAlchemist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6524508", 
+                "LINE_5260739", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_6524508|", 
+                "", 
+                "", 
+                [
+                    "LINE_4829927"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "is true", 
+                                    "Flag": "C2_BP_ObtainPuddingSample", 
+                                    "Quest": "CH2_SQ_BlackPudding", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_BP_ReturnToAlchemist", 
+                                    "Quest": "CH2_SQ_BlackPudding", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6980760", 
+                "LINE_5260739", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_6980760|", 
+                "", 
+                "", 
+                [
+                    "LINE_1941960"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5556320", 
+                "LINE_9158243", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_5556320|", 
+                "", 
+                "BK WOTC sunrods cut\nBK What, are all these chemicals not evidence enough? Alchemy! Such a wonderful science. And I can create anything you want. Need a sunrod? Or some lockslip grease? Or maybe just a couple vials of acid. You can never have too much acid, right?", 
+                [
+                    "LINE_7672632", 
+                    "LINE_4617364", 
+                    "LINE_6335483", 
+                    "LINE_6524508", 
+                    "LINE_6980760"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2346517", 
+                "LINE_4617364", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_2346517|", 
+                "", 
+                "BK Bertrand? That he's dead, and I can't say I'm too bothered by it. He cornered the market on half my components and charged me quite the premium. He was a leech for my business, so good riddance.", 
+                [
+                    "LINE_0839843"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1238377", 
+                "LINE_0839843", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_1238377|", 
+                "", 
+                "BK With that sentiment, I imagine some believe you're involved with his death.", 
+                [
+                    "LINE_7701272"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7701272", 
+                "LINE_1238377", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_7701272|", 
+                "", 
+                "BK There was a player response after this of \"I suppose that makes sense\". But I didn't see the point of it, since there was only one response, so I got rid of it.\nBK Perhaps it does, but think about it - if I were involved with the murder, wouldn't I be more careful about what I say?", 
+                [
+                    "LINE_4421359"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4421359", 
+                "LINE_7701272", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_4421359|", 
+                "", 
+                "", 
+                [
+                    "LINE_9158243", 
+                    "LINE_7672632", 
+                    "LINE_4617364", 
+                    "LINE_6335483", 
+                    "LINE_6524508", 
+                    "LINE_6980760"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6167061", 
+                "LINE_6335483", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_6167061|", 
+                "", 
+                "", 
+                [
+                    "LINE_3554271"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3554271", 
+                "LINE_6167061", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_3554271|", 
+                "", 
+                "BK Here. It's a paltry sum, but you can't expect much for such a simple task.", 
+                [
+                    "LINE_2264509"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_OA_ReturnToAlchemist", 
+                        "Quest": "Ch2_SQ_OozeAlchemist", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 40", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2264509", 
+                "LINE_3554271", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_2264509|", 
+                "", 
+                "BK Though, if you want to make some real coin... I've got a slightly more dangerous task that would suit someone of your skills.", 
+                [
+                    "LINE_8544533", 
+                    "LINE_9322579"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0735658", 
+                "LINE_8544533", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_0735658|", 
+                "", 
+                "BK A few tendays ago a particularly powerful black pudding took up residence just outside of the city. And with the ooze samples you brought me... one minute....", 
+                [
+                    "LINE_4290626"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4829927", 
+                "LINE_6524508", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_4829927|", 
+                "", 
+                "", 
+                [
+                    "LINE_0503458", 
+                    "LINE_2436384"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0503458", 
+                "LINE_4829927", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_0503458|", 
+                "", 
+                "", 
+                [
+                    "LINE_9577409"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9577409", 
+                "LINE_0503458", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_9577409|", 
+                "", 
+                "BK Possibly, but that's not important now. Here is your payment.", 
+                [
+                    "LINE_8290669"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Consumable:Consumable_AntiPuddingFlask", 
+                    "Misc:Ch2_SQ_BlackPuddingSample"
+                ], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7199308", 
+                "LINE_5260739", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_7199308|", 
+                "", 
+                "", 
+                [
+                    "LINE_2951036"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH2_TDC_LootedReceipt", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH2_TDC_GotMixture", 
+                                    "Quest": "CH2_SQ_TheDemonCultist", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2951036", 
+                "LINE_7199308", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_2951036|", 
+                "", 
+                "BK Let me see your receipt... aha, yes! I have it! Turned out quite beautifully, in fact. Not sure why he wants to freeze organic material, but not my place to question. This'll do just the trick, though!", 
+                [
+                    "LINE_4421359"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH2_TDC_LootedReceipt", 
+                        "Quest": "CH2_SQ_TheDemonCultist", 
+                        "FlagState": "Clear"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:DemonCultist_SQ_IcewindMixture"
+                ], 
+                [
+                    "Misc:DemonCultist_SQ_AlchemistOrder"
+                ], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1941960", 
+                "LINE_6980760", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7628070", 
+                "LINE_7672632", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "OpenVendor", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0839843", 
+                "LINE_2346517", 
+                "<DEFAULT>", 
+                "|Ch2_Sidequest_Alchemist_LINE_0839843|", 
+                "", 
+                "", 
+                [
+                    "LINE_1238377", 
+                    "LINE_9261421"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6561764", 
+                "LINE_4290626", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_6561764|", 
+                "", 
+                "Just douse the pudding with it... ideally from a distance. And bring me back a sample when you're done.", 
+                [
+                    "LINE_1132264", 
+                    "LINE_5815949"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_BP_StartedQuest", 
+                        "Quest": "CH2_SQ_BlackPudding", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Consumable:Consumable_AntiPuddingFlask"
+                ], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1132264", 
+                "LINE_6561764", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_1132264|", 
+                "", 
+                "", 
+                [
+                    "LINE_4242710"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5815949", 
+                "LINE_6561764", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_5815949|", 
+                "", 
+                "BK added this response to make it less chainey", 
+                [
+                    "LINE_5609792"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4290626", 
+                "LINE_0735658", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_4290626|", 
+                "", 
+                "", 
+                [
+                    "LINE_6561764"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8290669", 
+                "LINE_9577409", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_8290669|", 
+                "", 
+                "", 
+                [
+                    "LINE_3275196"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3275196", 
+                "LINE_8290669", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_3275196|", 
+                "", 
+                "", 
+                [
+                    "LINE_3673732"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3673732", 
+                "LINE_3275196", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_3673732|", 
+                "", 
+                "BK Possibly, but that's not important now. Here is your payment.", 
+                [
+                    "LINE_4421359"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_BP_ReturnToAlchemist", 
+                        "Quest": "CH2_SQ_BlackPudding", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 140", 
+                        "SpeakerTag": "<PLAYER>"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C2_BP_Complete", 
+                        "Quest": "CH2_SQ_BlackPudding", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Armor:Unique_AlchemistGloves", 
+                    "Armor:Unique_AlchemistBoots"
+                ], 
+                [
+                    "Consumable:Consumable_AntiPuddingFlask", 
+                    "Misc:Ch2_SQ_BlackPuddingSample"
+                ], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9261421", 
+                "LINE_0839843", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_9261421|", 
+                "", 
+                "", 
+                [
+                    "LINE_4421359"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8544533", 
+                "LINE_2264509", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_8544533|", 
+                "", 
+                "", 
+                [
+                    "LINE_0735658"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9322579", 
+                "LINE_2264509", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_9322579|", 
+                "", 
+                "", 
+                [
+                    "LINE_0523928"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0523928", 
+                "LINE_9322579", 
+                "<DEFAULT>", 
+                "|Ch2_Sidequest_Alchemist_LINE_0523928|", 
+                "", 
+                "", 
+                [
+                    "LINE_0735658"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2436384", 
+                "LINE_4829927", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_2436384|", 
+                "", 
+                "", 
+                [
+                    "LINE_1654262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1654262", 
+                "LINE_2436384", 
+                "<DEFAULT>", 
+                "|Ch2_Sidequest_Alchemist_LINE_1654262|", 
+                "", 
+                "", 
+                [
+                    "LINE_8290669"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4590654", 
+                "LINE_5260739", 
+                "<PLAYER>", 
+                "|Ch2_Sidequest_Alchemist_LINE_4590654|", 
+                "", 
+                "", 
+                [
+                    "LINE_5641042"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_BP_StartedQuest", 
+                                    "Quest": "CH2_SQ_BlackPudding", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_BP_KilledPudding", 
+                                    "Quest": "CH2_SQ_BlackPudding", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C2_BP_HasPotion", 
+                                    "Quest": "CH2_SQ_BlackPudding", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5641042", 
+                "LINE_4590654", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_5641042|", 
+                "", 
+                "", 
+                [
+                    "LINE_2285679"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2285679", 
+                "LINE_5641042", 
+                "RELONA", 
+                "|Ch2_Sidequest_Alchemist_LINE_2285679|", 
+                "", 
+                "", 
+                [
+                    "LINE_1677696"
+                ], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Consumable:Consumable_AntiPuddingFlask"
+                ], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1677696", 
+                "LINE_2285679", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4242710", 
+                "LINE_1132264", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5609792", 
+                "LINE_5815949", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="100" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="SewerSet1" />
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DEN_LuskanGatesStaging"  />   
+                </Tiles>
+            </Trunk>
+        </Group>   
+
+<!-- Tree 1 -->
+        <Group>
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DEN_S_C_Goat"  Destructible="D_SC_Barrels" PortExtensionMin= "2" PortExtensionMax = "4" OpenAllPorts= "1"/>
+                    <Tile Name="DEN_S_C_Psi"  Destructible="D_SC_Barrels" PortExtensionMin= "2" PortExtensionMax = "4" OpenAllPorts= "1"/>
+                    <Tile Name="DEN_S_C_Bolt"  Destructible="D_SC_Barrels" PortExtensionMin= "2" PortExtensionMax = "4" OpenAllPorts= "1"/>
+                </Tiles>
+            </Trunk>
+
+        </Group>
+
+<!-- Tree 2 -->
+        <Group>
+            <Trunk  Min="2" Max="2" >
+                <Tiles> 
+            		<Tile Name="DEN_S_E_Comma"  Destructible="D_SC_Barrels" PortExtensionMin= "3" PortExtensionMax = "3" OpenAllPorts= "1"/>  
+
+                </Tiles>
+            </Trunk>
+
+        </Group>
+        
+<!-- Stairs -->
+         <Group>
+            <Trunk Min="1" Max="1"  HeightWeight="-100">
+                <Tiles >
+                    <Tile Name="DEN_S_T_Why" ForceEntryPort = "01" ForceExitPort = "03" OpenAllPorts = "1" Destructible="D_SC_Barrels"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+		<Group>
+			<Trunk Min="2" Max="2"  Sequential ="1">
+				<Tiles >
+					<Tile Name="DEN_S_I_Noodle" ForceEntryPort = "01" Destructible="D_SC_Barrels" XMLID = "CULT_HALLWAY" />
+					<Tile Name="DEN_S_C_Platform" ForceEntryPort = "03"  Destructible="D_SC_Barrels" XMLID = "CULT_ROOM" />
+				</Tiles>
+			</Trunk>
+		</Group>
+        
+ 
+  
+    </Groups>  
+</DungeonConfig>

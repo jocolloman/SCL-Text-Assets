@@ -1,0 +1,2422 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "MeetHunter", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "VAN-HYDE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1036719", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_1324946", 
+                    "LINE_3556282"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3556282", 
+                "LINE_1036719", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1324946", 
+                "LINE_1036719", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_1324946|", 
+                "", 
+                "", 
+                [
+                    "LINE_2452035"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "HydeAddedToParty", 
+                                    "Quest": "BigGameHunting_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2452035", 
+                "LINE_1324946", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_2452035|", 
+                "", 
+                "", 
+                [
+                    "LINE_9297784", 
+                    "LINE_7030039"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9297784", 
+                "LINE_2452035", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_9297784|", 
+                "", 
+                "", 
+                [
+                    "LINE_5636617"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5636617", 
+                "LINE_9297784", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_5636617|", 
+                "", 
+                "WOTC BK Week -> tenday", 
+                [
+                    "LINE_6486208"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6486208", 
+                "LINE_5636617", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_6486208|", 
+                "", 
+                "BK reordered sentence", 
+                [
+                    "LINE_3836859"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3836859", 
+                "LINE_6486208", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_3836859|", 
+                "", 
+                "BK dropped the \" after he took an arrow to the body\" sounds weak", 
+                [
+                    "LINE_8730378"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8730378", 
+                "LINE_3836859", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_8730378|", 
+                "", 
+                "", 
+                [
+                    "LINE_5826202", 
+                    "LINE_1864338"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5826202", 
+                "LINE_8730378", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_5826202|", 
+                "", 
+                "", 
+                [
+                    "LINE_9518907"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9518907", 
+                "LINE_5826202", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9518907|", 
+                "", 
+                "", 
+                [
+                    "LINE_0653516", 
+                    "LINE_9624603", 
+                    "LINE_9181786"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0653516", 
+                "LINE_9518907", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_0653516|", 
+                "", 
+                "", 
+                [
+                    "LINE_2229374"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2229374", 
+                "LINE_0653516", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_2229374|", 
+                "", 
+                "", 
+                [
+                    "LINE_0477437"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "JoinPartyAsFollower", 
+                        "SpeakerTag": "VAN-HYDE"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0477437", 
+                "LINE_2229374", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8854951"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BigGameHunting_SQ_Start", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HydeAddedToParty", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8854951", 
+                "LINE_0477437", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9624603", 
+                "LINE_9518907", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_9624603|", 
+                "", 
+                "", 
+                [
+                    "LINE_6898468"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6898468", 
+                "LINE_9624603", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_6898468|", 
+                "", 
+                "BK: trim and removed double but", 
+                [
+                    "LINE_9002312"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3252195", 
+                "LINE_9002312", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_3252195|", 
+                "", 
+                "", 
+                [
+                    "LINE_9015346"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9015346", 
+                "LINE_3252195", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9015346|", 
+                "", 
+                "", 
+                [
+                    "LINE_9088052"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BigGameHunting_SQ_Start", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "30_Split", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HydeAddedToParty", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "JoinPartyAsFollower", 
+                        "SpeakerTag": "VAN-HYDE"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9088052", 
+                "LINE_9015346", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1641817", 
+                "LINE_9002312", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_1641817|", 
+                "", 
+                "BK edited", 
+                [
+                    "LINE_7212973", 
+                    "LINE_9279269"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7212973", 
+                "LINE_1641817", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_7212973|", 
+                "", 
+                "", 
+                [
+                    "LINE_6818972"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 19, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "cha", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6818972", 
+                "LINE_7212973", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_6818972|", 
+                "", 
+                "BK shortened", 
+                [
+                    "LINE_5328413"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5328413", 
+                "LINE_6818972", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_5328413|", 
+                "", 
+                "BK shortened", 
+                [
+                    "LINE_8940277"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BigGameHunting_SQ_Start", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "70_Split", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HydeAddedToParty", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "JoinPartyAsFollower", 
+                        "SpeakerTag": "VAN-HYDE"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8940277", 
+                "LINE_5328413", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9839113", 
+                "LINE_9002312", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_9839113|", 
+                "", 
+                "", 
+                [
+                    "LINE_1760788", 
+                    "LINE_9279269"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1760788", 
+                "LINE_9839113", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_1760788|", 
+                "", 
+                "", 
+                [
+                    "LINE_8919806"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 17, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "str", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8919806", 
+                "LINE_1760788", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_8919806|", 
+                "", 
+                "", 
+                [
+                    "LINE_5217936"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BigGameHunting_SQ_Start", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "50_Split", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HydeAddedToParty", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "JoinPartyAsFollower", 
+                        "SpeakerTag": "VAN-HYDE"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5217936", 
+                "LINE_8919806", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1970504", 
+                "LINE_9002312", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_1970504|", 
+                "", 
+                "", 
+                [
+                    "LINE_6171820"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Class", 
+                                    "Class": "Ranger"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9181786", 
+                "LINE_9518907", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_9181786|", 
+                "", 
+                "", 
+                [
+                    "LINE_3937296"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1864338", 
+                "LINE_8730378", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_1864338|", 
+                "", 
+                "", 
+                [
+                    "LINE_3937296"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7030039", 
+                "LINE_2452035", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_7030039|", 
+                "", 
+                "", 
+                [
+                    "LINE_3937296"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3937296", 
+                "LINE_7030039", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_3937296|", 
+                "", 
+                "", 
+                [
+                    "LINE_9726849"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "MeetWithHunter", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9726849", 
+                "LINE_3937296", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9279269", 
+                "LINE_1641817", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9279269|", 
+                "", 
+                "", 
+                [
+                    "LINE_9002312"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9002312", 
+                "LINE_6898468", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9002312|", 
+                "", 
+                "", 
+                [
+                    "LINE_3252195", 
+                    "LINE_1970504", 
+                    "LINE_9839113", 
+                    "LINE_1641817"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6171820", 
+                "LINE_1970504", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_6171820|", 
+                "", 
+                "", 
+                [
+                    "LINE_6818972"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FindTracks", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "VAN-HYDE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9659041", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9659041|", 
+                "", 
+                "", 
+                [
+                    "LINE_0555957"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0555957", 
+                "LINE_9659041", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_0555957|", 
+                "", 
+                "", 
+                [
+                    "LINE_4177451"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4177451", 
+                "LINE_0555957", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "LetsStartHuntAgain", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "VAN-HYDE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0664587", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_0664587|", 
+                "", 
+                "", 
+                [
+                    "LINE_0940907", 
+                    "LINE_7186119"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0940907", 
+                "LINE_0664587", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_0940907|", 
+                "", 
+                "", 
+                [
+                    "LINE_9004130"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7186119", 
+                "LINE_0664587", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_7186119|", 
+                "", 
+                "", 
+                [
+                    "LINE_6304260"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9004130", 
+                "LINE_0940907", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9004130|", 
+                "", 
+                "", 
+                [
+                    "LINE_2659859"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HydeAddedToParty", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "JoinPartyAsFollower", 
+                        "SpeakerTag": "VAN-HYDE"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6304260", 
+                "LINE_7186119", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_6304260|", 
+                "", 
+                "", 
+                [
+                    "LINE_7824814"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7824814", 
+                "LINE_6304260", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2659859", 
+                "LINE_9004130", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FindTrap", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "VAN-HYDE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1893756", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_1893756|", 
+                "", 
+                "", 
+                [
+                    "LINE_1073038"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "FindOtherClue", 
+                                    "Quest": "BigGameHunting_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1073038", 
+                "LINE_1893756", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_1073038|", 
+                "", 
+                "", 
+                [
+                    "LINE_0395501", 
+                    "LINE_6675133"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0395501", 
+                "LINE_1073038", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_0395501|", 
+                "", 
+                "", 
+                [
+                    "LINE_7130688", 
+                    "LINE_9413998"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6675133", 
+                "LINE_1073038", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_6675133|", 
+                "", 
+                "", 
+                [
+                    "LINE_7664716"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7130688", 
+                "LINE_0395501", 
+                "RPE", 
+                "|BigGameHunting_LINE_7130688|", 
+                "", 
+                "", 
+                [
+                    "LINE_9666227"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 16, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "int", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "OR", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9413998", 
+                "LINE_0395501", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9413998|", 
+                "", 
+                "", 
+                [
+                    "LINE_7664716"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9666227", 
+                "LINE_7130688", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9666227|", 
+                "", 
+                "", 
+                [
+                    "LINE_0684937"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0684937", 
+                "LINE_9666227", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_0684937|", 
+                "", 
+                "", 
+                [
+                    "LINE_4554019", 
+                    "LINE_5495284"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4554019", 
+                "LINE_0684937", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_4554019|", 
+                "", 
+                "BK rephrasing from \"You forgot where you placed it, and it triggered when you stepped on it, right?\"", 
+                [
+                    "LINE_4415018"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4415018", 
+                "LINE_4554019", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_4415018|", 
+                "", 
+                "", 
+                [
+                    "LINE_7664716"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7664716", 
+                "LINE_4415018", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_7664716|", 
+                "", 
+                "", 
+                [
+                    "LINE_9304606"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9304606", 
+                "LINE_7664716", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9304606|", 
+                "", 
+                "", 
+                [
+                    "LINE_1332966"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "FindOtherClue", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BigGameHunting_SQ_FollowTracks", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1332966", 
+                "LINE_9304606", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8092907", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_8092907|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HydeAddedToParty", 
+                                    "Quest": "BigGameHunting_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5495284", 
+                "LINE_0684937", 
+                "<PLAYER>", 
+                "|BigGameHunting_LINE_5495284|", 
+                "", 
+                "", 
+                [
+                    "LINE_4415018"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FoundSteelToothe", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "VAN-HYDE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0849251", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_0849251|", 
+                "", 
+                "", 
+                [
+                    "LINE_7695503"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "FindBear", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": true, 
+                        "FunctionName": "SetFactionFromConvo Baddies", 
+                        "SpeakerTag": "STEEL-TOOTHE"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7695503", 
+                "LINE_0849251", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_7695503|", 
+                "", 
+                "", 
+                [
+                    "LINE_7765551"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BigGameHunting_SQ_FindBearInCave", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7765551", 
+                "LINE_7695503", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "DefeatedSteelToothe", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "VAN-HYDE"
+                }, 
+                "NoEndFade": "True", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2368877", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_2368877|", 
+                "", 
+                "", 
+                [
+                    "LINE_4476820", 
+                    "LINE_5009598", 
+                    "LINE_6877349", 
+                    "LINE_5624452"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BigGameHunting_SQ_DefeatBear", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "True"
+            ], 
+            [
+                "LINE_4476820", 
+                "LINE_2368877", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_5624452"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 300", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "30_Split", 
+                                    "Quest": "BigGameHunting_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5009598", 
+                "LINE_2368877", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_5624452"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 700", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "70_Split", 
+                                    "Quest": "BigGameHunting_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6877349", 
+                "LINE_2368877", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_5624452"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 500", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "50_Split", 
+                                    "Quest": "BigGameHunting_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5624452", 
+                "LINE_4476820", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_5624452|", 
+                "", 
+                "", 
+                [
+                    "LINE_0342218"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": true, 
+                        "FunctionName": "LeaveParty", 
+                        "SpeakerTag": "VAN-HYDE"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Weapon:Cometfall"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0342218", 
+                "LINE_5624452", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "LeavePartyAndDelete", 
+                        "SpeakerTag": "VAN-HYDE"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FindCave", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "VAN-HYDE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9858079", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_9858079|", 
+                "", 
+                "", 
+                [
+                    "LINE_8282054"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "BigGameHunting_SQ_FollowTracks", 
+                        "Quest": "BigGameHunting_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8282054", 
+                "LINE_9858079", 
+                "<DEFAULT>", 
+                "|BigGameHunting_LINE_8282054|", 
+                "", 
+                "", 
+                [
+                    "LINE_5843005"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5843005", 
+                "LINE_8282054", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

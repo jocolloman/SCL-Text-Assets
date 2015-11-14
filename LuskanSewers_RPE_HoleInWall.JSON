@@ -1,0 +1,680 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Sewers_RPE_HoleInWall", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "RPE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0506455", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_0506455|", 
+                "", 
+                "", 
+                [
+                    "LINE_2050517"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "SearchedHole_Success", 
+                                    "Quest": "Ch2_SQ_RPE_HoleInWall", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2050517", 
+                "LINE_0506455", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_2050517|", 
+                "", 
+                "[Stick your hand in it?]", 
+                [
+                    "LINE_5699098", 
+                    "LINE_0674658"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5699098", 
+                "LINE_2050517", 
+                "<PLAYER>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_5699098|", 
+                "", 
+                "BK removed the player talking to himself.", 
+                [
+                    "LINE_4864208"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0674658", 
+                "LINE_2050517", 
+                "<PLAYER>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_0674658|", 
+                "", 
+                "", 
+                [
+                    "LINE_9004403"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9277149", 
+                "LINE_4864208", 
+                "<PLAYER>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_9277149|", 
+                "", 
+                "", 
+                [
+                    "LINE_8975815", 
+                    "LINE_5578459"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9004403", 
+                "LINE_0674658", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4864208", 
+                "LINE_5699098", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_4864208|", 
+                "", 
+                "", 
+                [
+                    "LINE_9277149", 
+                    "LINE_7652091", 
+                    "LINE_7028278", 
+                    "LINE_0515984", 
+                    "LINE_0546612"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7028278", 
+                "LINE_4864208", 
+                "<PLAYER>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_7028278|", 
+                "", 
+                "", 
+                [
+                    "LINE_3188528"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0515984", 
+                "LINE_4864208", 
+                "<PLAYER>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_0515984|", 
+                "", 
+                "", 
+                [
+                    "LINE_8423603"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7652091", 
+                "LINE_4864208", 
+                "<PLAYER>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_7652091|", 
+                "", 
+                "", 
+                [
+                    "LINE_7233328", 
+                    "LINE_8406185"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0546612", 
+                "LINE_4864208", 
+                "<PLAYER>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_0546612|", 
+                "", 
+                "", 
+                [
+                    "LINE_3188528"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8975815", 
+                "LINE_9277149", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_8975815|", 
+                "", 
+                "", 
+                [
+                    "LINE_6326363"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 17, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "dex", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5578459", 
+                "LINE_9277149", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_5578459|", 
+                "", 
+                "[FAILURE] [As you twist your hand inside, you feel something...you're not sure what it is, but it sure is painful as you yank your hand out!]", 
+                [
+                    "LINE_5179862"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5179862", 
+                "LINE_5578459", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6326363", 
+                "LINE_8975815", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_6326363|", 
+                "", 
+                "was [You pull your hand out and find a sack of gold inside! How did that get in there?....]\nI cut the commetary because it is not really used elsewhere in the game.", 
+                [
+                    "LINE_6755810"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 710", 
+                        "SpeakerTag": "<PLAYER>"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "SearchedHole_Success", 
+                        "Quest": "Ch2_SQ_RPE_HoleInWall", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Armor:Unique_Homeless_HighBoots_Poison"
+                ], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6755810", 
+                "LINE_6326363", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7233328", 
+                "LINE_7652091", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_7233328|", 
+                "", 
+                "", 
+                [
+                    "LINE_9277149", 
+                    "LINE_7028278", 
+                    "LINE_0515984", 
+                    "LINE_0546612"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 13, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "wis", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8406185", 
+                "LINE_7652091", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_8406185|", 
+                "", 
+                "", 
+                [
+                    "LINE_4864208"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3188528", 
+                "LINE_7028278", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_3188528|", 
+                "", 
+                "", 
+                [
+                    "LINE_2455419"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2455419", 
+                "LINE_3188528", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8423603", 
+                "LINE_0515984", 
+                "<DEFAULT>", 
+                "|LuskanSewers_RPE_HoleInWall_LINE_8423603|", 
+                "", 
+                "", 
+                [
+                    "LINE_6326363"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

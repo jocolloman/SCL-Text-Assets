@@ -1,0 +1,3079 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "B1StairsDoor", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_1060693", 
+                "<ROOT>", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8383590", 
+                    "LINE_5367922"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C3_CD_InvestigatedB1StairsDoor", 
+                        "Quest": "C3.1_Chasing_Dawn", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedB1StairsDoor", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedArchivesDoor_01", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedArchivesDoor_02", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8383590", 
+                "LINE_1060693", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8383590|", 
+                "", 
+                "", 
+                [
+                    "LINE_5667846", 
+                    "LINE_7893897"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7939929", 
+                "<ROOT>", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0021685", 
+                    "LINE_2902640"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C3_CD_InvestigatedB1StairsDoor", 
+                        "Quest": "C3.1_Chasing_Dawn", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedB1StairsDoor", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2279348", 
+                "LINE_5392492", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_2279348|", 
+                "", 
+                "", 
+                [
+                    "LINE_3260997"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3260997", 
+                "LINE_2279348", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_3260997|", 
+                "", 
+                "", 
+                [
+                    "LINE_7374713"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7566084", 
+                "<ROOT>", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6404702", 
+                    "LINE_6926311"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2322473", 
+                "<ROOT>", 
+                "ILLYDIA", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_5392492", 
+                    "LINE_7579679"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C3_CD_FindPrisonKey", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5367922", 
+                "LINE_1060693", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_5367922|", 
+                "", 
+                "", 
+                [
+                    "LINE_7893897"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5667846", 
+                "LINE_8383590", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_5667846|", 
+                "", 
+                "", 
+                [
+                    "LINE_5886671"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5886671", 
+                "LINE_5667846", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_5886671|", 
+                "", 
+                "", 
+                [
+                    "LINE_7387518", 
+                    "LINE_3414264"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7387518", 
+                "LINE_5886671", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_7387518|", 
+                "", 
+                "", 
+                [
+                    "LINE_4212561"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7893897", 
+                "LINE_8383590", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_7893897|", 
+                "", 
+                "", 
+                [
+                    "LINE_9566636"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9566636", 
+                "LINE_7893897", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_9566636|", 
+                "", 
+                "BK: Weay -> way", 
+                [
+                    "LINE_0466039"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3414264", 
+                "LINE_5886671", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_3414264|", 
+                "", 
+                "", 
+                [
+                    "LINE_0466039"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0466039", 
+                "LINE_4212561", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4212561", 
+                "LINE_7387518", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_4212561|", 
+                "", 
+                "", 
+                [
+                    "LINE_0466039"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0021685", 
+                "LINE_7939929", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_0021685|", 
+                "", 
+                "", 
+                [
+                    "LINE_3175406"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2902640", 
+                "LINE_7939929", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_2902640|", 
+                "", 
+                "", 
+                [
+                    "LINE_3175406"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3175406", 
+                "LINE_0021685", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6404702", 
+                "LINE_7566084", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_6404702|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6926311", 
+                "LINE_7566084", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_6926311|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5392492", 
+                "LINE_2322473", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_5392492|", 
+                "", 
+                "", 
+                [
+                    "LINE_2279348", 
+                    "LINE_3260997"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7579679", 
+                "LINE_2322473", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_7579679|", 
+                "", 
+                "", 
+                [
+                    "LINE_8107598"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7374713", 
+                "LINE_3260997", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8107598", 
+                "LINE_7579679", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8107598|", 
+                "", 
+                "", 
+                [
+                    "LINE_3260997"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "ArchivesDoor_01", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_1458317", 
+                "<ROOT>", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8546867", 
+                    "LINE_8115588"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C3_CD_InvestigatedArchivesDoor_01", 
+                        "Quest": "C3.1_Chasing_Dawn", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedB1StairsDoor", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedArchivesDoor_01", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedArchivesDoor_02", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5283072", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6977880", 
+                    "LINE_8203454"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C3_CD_InvestigatedArchivesDoor_01", 
+                        "Quest": "C3.1_Chasing_Dawn", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedArchivesDoor_01", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7627552", 
+                "<ROOT>", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_3338660", 
+                    "LINE_4661629"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8203454", 
+                "LINE_5283072", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8203454|", 
+                "", 
+                "", 
+                [
+                    "LINE_1303732", 
+                    "LINE_4655229"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0566025", 
+                "LINE_8546867", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_0566025|", 
+                "", 
+                "BK key was spelled wrong", 
+                [
+                    "LINE_0988901"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8546867", 
+                "LINE_1458317", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8546867|", 
+                "", 
+                "", 
+                [
+                    "LINE_0566025", 
+                    "LINE_6163568"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0988901", 
+                "LINE_0566025", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8115588", 
+                "LINE_1458317", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8115588|", 
+                "", 
+                "", 
+                [
+                    "LINE_6163568", 
+                    "LINE_0566025"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6163568", 
+                "LINE_8115588", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_6163568|", 
+                "", 
+                "", 
+                [
+                    "LINE_0988901"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6977880", 
+                "LINE_5283072", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_6977880|", 
+                "", 
+                "", 
+                [
+                    "LINE_4655229", 
+                    "LINE_1303732"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4655229", 
+                "LINE_6977880", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_4655229|", 
+                "", 
+                "", 
+                [
+                    "LINE_0988901"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1303732", 
+                "LINE_8203454", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_1303732|", 
+                "", 
+                "", 
+                [
+                    "LINE_0988901"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3338660", 
+                "LINE_7627552", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_3338660|", 
+                "", 
+                "", 
+                [
+                    "LINE_0988901"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4661629", 
+                "LINE_7627552", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_4661629|", 
+                "", 
+                "", 
+                [
+                    "LINE_0988901"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "ArchivesDoor_02", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_3146575", 
+                "<ROOT>", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_2890575", 
+                    "LINE_3963138"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C3_CD_InvestigatedArchivesDoor_02", 
+                        "Quest": "C3.1_Chasing_Dawn", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedB1StairsDoor", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedArchivesDoor_01", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedArchivesDoor_02", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0277674", 
+                "LINE_6738954", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_0277674|", 
+                "", 
+                "", 
+                [
+                    "LINE_8339980"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3696812", 
+                "<ROOT>", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6738954", 
+                    "LINE_6469306"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C3_CD_InvestigatedArchivesDoor_02", 
+                        "Quest": "C3.1_Chasing_Dawn", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedArchivesDoor_02", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6107086", 
+                "<ROOT>", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8426711", 
+                    "LINE_6697831"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8736595", 
+                "LINE_2890575", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8736595|", 
+                "", 
+                "", 
+                [
+                    "LINE_8339980"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2890575", 
+                "LINE_3146575", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_2890575|", 
+                "", 
+                "", 
+                [
+                    "LINE_8736595", 
+                    "LINE_4706195"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3963138", 
+                "LINE_3146575", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_3963138|", 
+                "", 
+                "", 
+                [
+                    "LINE_4706195", 
+                    "LINE_8736595"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4706195", 
+                "LINE_3963138", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_4706195|", 
+                "", 
+                "", 
+                [
+                    "LINE_8339980"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8339980", 
+                "LINE_8736595", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6738954", 
+                "LINE_3696812", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_6738954|", 
+                "", 
+                "", 
+                [
+                    "LINE_0277674", 
+                    "LINE_1062102"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6469306", 
+                "LINE_3696812", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_6469306|", 
+                "", 
+                "", 
+                [
+                    "LINE_8098471", 
+                    "LINE_9488149"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9488149", 
+                "LINE_6469306", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_9488149|", 
+                "", 
+                "BK: trimmed", 
+                [
+                    "LINE_8339980"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8098471", 
+                "LINE_6469306", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8098471|", 
+                "", 
+                "", 
+                [
+                    "LINE_8339980"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1062102", 
+                "LINE_6738954", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_1062102|", 
+                "", 
+                "", 
+                [
+                    "LINE_8339980"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8426711", 
+                "LINE_6107086", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8426711|", 
+                "", 
+                "", 
+                [
+                    "LINE_8339980"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6697831", 
+                "LINE_6107086", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_6697831|", 
+                "", 
+                "", 
+                [
+                    "LINE_8339980"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "PrisonDoor", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_4107656", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "Pre-Puzzle / Pre-Cutscene Convos", 
+                [
+                    "LINE_3300676", 
+                    "LINE_7099770"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_PrisonEntryPuzzleSolved", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3300676", 
+                "LINE_4107656", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9962987", 
+                    "LINE_5241465"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C3_CD_InvestigatedPrisonDoor_PrePuzzle", 
+                        "Quest": "C3.1_Chasing_Dawn", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedPrisonDoor_PrePuzzle", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3869842", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "Post-Cutscene Convos", 
+                [
+                    "LINE_6865695", 
+                    "LINE_2239529"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_CD_KnightsReturn_CutsceneOver", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6865695", 
+                "LINE_3869842", 
+                "ILLYDIA", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_7711362", 
+                    "LINE_8085916"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C3_CD_InvestigatedPrisonDoor_PostCutscene", 
+                        "Quest": "C3.1_Chasing_Dawn", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_CD_InvestigatedPrisonDoor_PostCutscene", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7099770", 
+                "LINE_4107656", 
+                "JARHILD", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9318642", 
+                    "LINE_3877567"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2239529", 
+                "LINE_3869842", 
+                "BRYN", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_2239529|", 
+                "", 
+                "", 
+                [
+                    "LINE_8349209"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6264846", 
+                "LINE_9962987", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_6264846|", 
+                "", 
+                "", 
+                [
+                    "LINE_3691237", 
+                    "LINE_2119989"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3691237", 
+                "LINE_6264846", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_3691237|", 
+                "", 
+                "", 
+                [
+                    "LINE_7070795"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0108439", 
+                "LINE_9318642", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_0108439|", 
+                "", 
+                "", 
+                [
+                    "LINE_7070795"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5628422", 
+                "LINE_7711362", 
+                "BRYN", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_5628422|", 
+                "", 
+                "", 
+                [
+                    "LINE_5340796", 
+                    "LINE_1849217"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "BRYN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5340796", 
+                "LINE_5628422", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_5340796|", 
+                "", 
+                "", 
+                [
+                    "LINE_8349209"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9962987", 
+                "LINE_3300676", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_9962987|", 
+                "", 
+                "", 
+                [
+                    "LINE_6264846", 
+                    "LINE_7892276"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7070795", 
+                "LINE_3691237", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5241465", 
+                "LINE_3300676", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_5241465|", 
+                "", 
+                "", 
+                [
+                    "LINE_7892276", 
+                    "LINE_6264846"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7892276", 
+                "LINE_5241465", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_7892276|", 
+                "", 
+                "", 
+                [
+                    "LINE_2119989", 
+                    "LINE_3691237"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2119989", 
+                "LINE_7892276", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_2119989|", 
+                "", 
+                "", 
+                [
+                    "LINE_7070795"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9318642", 
+                "LINE_7099770", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_9318642|", 
+                "", 
+                "", 
+                [
+                    "LINE_0108439", 
+                    "LINE_9805459"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3877567", 
+                "LINE_7099770", 
+                "LARETHAR", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_3877567|", 
+                "", 
+                "", 
+                [
+                    "LINE_9805459", 
+                    "LINE_0108439"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9805459", 
+                "LINE_3877567", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_9805459|", 
+                "", 
+                "", 
+                [
+                    "LINE_7070795"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7711362", 
+                "LINE_6865695", 
+                "ILLYDIA", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_7711362|", 
+                "", 
+                "", 
+                [
+                    "LINE_5628422"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8349209", 
+                "LINE_5340796", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8085916", 
+                "LINE_6865695", 
+                "HOMMET", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8085916|", 
+                "", 
+                "", 
+                [
+                    "LINE_8909650"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8909650", 
+                "LINE_8085916", 
+                "BRYN", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_8909650|", 
+                "", 
+                "", 
+                [
+                    "LINE_1849217", 
+                    "LINE_5340796"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "BRYN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1849217", 
+                "LINE_8909650", 
+                "JARHILD", 
+                "|Ch3_Chapterhouse_LockedDoorConvos_LINE_1849217|", 
+                "", 
+                "", 
+                [
+                    "LINE_8349209"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

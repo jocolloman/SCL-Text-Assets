@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" 
+
+MaxHallwayDistance="20"
+MaxHallwayTiles="2" >
+<HallwayTiles>
+    <Tile Name="SPI_10_C_Hall" TransitionOverride="SpiderCastleArch01" EndCapOverride="SpiderCastleCap_Blank" />  
+</HallwayTiles>
+</Settings>
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="SlimeCult" />  <!-- wolves obv -->
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="SlimeCult_SQ_Staging"/>   
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >	
+					<Tile Name="SPI_S_T_Anchor"  PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" ForceEntryPort = "03" ForceExitPort = "02" />		
+					
+                </Tiles>
+            </Trunk>
+        </Group> 
+        <Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="SPI_Diaghall" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" ForceEntryPort = "01" />                                                           
+                </Tiles>
+            </Trunk>
+        </Group> 
+        <Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="SPI_S_C_SixLegs"  PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1"  ForceEntryPort = "02" ForceExitPort = "06"/>                                        
+                </Tiles>
+            </Trunk>
+
+        </Group> 
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+
+					<Tile Name="SPI_36_C_Ballroom"  PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort = "011" ForceExitPort = "06"/>	
+
+                </Tiles>
+            </Trunk>
+			<Branch Min="1" Max="1">
+                <Tiles >
+
+					<Tile Name="SPI_10_C_Secret" ForceEntryPort="Port01" PortExtensionMin="1" PortExtensionMax="1" TransitionOverride="SpiderCastleSecretDoor" EndCapOverride="SpiderCastleCap_Blank" />
+
+                </Tiles>
+            </Branch>
+         </Group>
+
+		 <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+					<Tile Name="SPI_31_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort = "07" ForceExitPort = "02"/>
+                </Tiles>
+            </Trunk>
+         </Group> 
+		 		 
+	
+		<Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile 
+					   XMLID="SlimeCult_SQ_Altar"
+					   Name="SPI_S_C_TwinCornersDown" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort = "04" ForceExitPort = "01" TransitionOverride="SlimeCastleDoor"/>                                                           
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+		<Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="SPI_10_C_Hall" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" ForceEntryPort = "01" ForceExitPort = "04" />                                                           
+                </Tiles>
+            </Trunk>
+        </Group>
+    </Groups>  
+	
+	<PostBuildTiles>
+        <Tiles>
+            <Tile Name="SPI_10_C_Secret" ForceEntryPort="Port01" PortExtensionMin="1" PortExtensionMax="1" TransitionOverride="SpiderCastleSecretDoor" EndCapOverride="SpiderCastleCap_Blank" />
+           
+        </Tiles>
+    </PostBuildTiles>
+	
+</DungeonConfig>

@@ -1,0 +1,3461 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "IntroAmbient", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1440884", 
+                "<ROOT>", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_1440884|", 
+                "", 
+                "", 
+                [
+                    "LINE_7026903"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "JoinPartyAsLocalFollower", 
+                        "SpeakerTag": "ZGAK"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ROTC_SQ_SpeakWithZgak", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7026903", 
+                "LINE_1440884", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Bugbear Gate Guards", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "BUGBEARGUARDS"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1631134", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_1631134|", 
+                "", 
+                " ", 
+                [
+                    "LINE_9689242"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9689242", 
+                "LINE_1631134", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_9689242|", 
+                "", 
+                "", 
+                [
+                    "LINE_6915612"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6915612", 
+                "LINE_9689242", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_6915612|", 
+                "", 
+                "You're not the chief any more. Kazak is chief now.", 
+                [
+                    "LINE_3319453"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "MakeGoblinTraitorsHostile", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3319453", 
+                "LINE_6915612", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_3319453|", 
+                "", 
+                "", 
+                [
+                    "LINE_6909918"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6909918", 
+                "LINE_3319453", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ROTC_SQ_EnterZgak", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Goblin Ambient 1", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "GOBLINAMBIENT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0273932", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_0273932|", 
+                "", 
+                "", 
+                [
+                    "LINE_6440286"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "OppressedGoblinAmbient1", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "OppressedGoblinAmbient1", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6440286", 
+                "LINE_0273932", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1758833", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_1758833|", 
+                "", 
+                "Kazak took over and left all of us in this area.", 
+                [
+                    "LINE_1238733"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1238733", 
+                "LINE_1758833", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Goblin Ambient 2", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "GOBLINAMBIENT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_8672592", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_8672592|", 
+                "", 
+                "", 
+                [
+                    "LINE_1339141"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1339141", 
+                "LINE_8672592", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_1339141|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Goblin Ambient 3", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "GOBLINAMBIENT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5102653", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_5102653|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Goblin Ambient 4", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "GOBLINAMBIENT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5827228", 
+                "LINE_8208686", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8208686", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_8208686|", 
+                "", 
+                "Crush those bullies, chief!", 
+                [
+                    "LINE_5827228"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Goblin Ambient 5", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "GOBLINAMBIENT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9027492", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_9027492|", 
+                "", 
+                "BK I'm assuming these are goblins? Trying to simplify their speech\nWhat are you doing with overworlders?", 
+                [
+                    "LINE_5371079"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5371079", 
+                "LINE_9027492", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_5371079|", 
+                "", 
+                "Just my latest tools of war!", 
+                [
+                    "LINE_7900353"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7900353", 
+                "LINE_5371079", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Goblin Ambient 6", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "GOBLINAMBIENT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_3145221", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_3145221|", 
+                "", 
+                "I'll fight with you, Chief!", 
+                [
+                    "LINE_3447950"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HaveAnExtraFollower", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "JoinPartyAsLocalFollower", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "HaveAnExtraFollower", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DefeatedEncounter2", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2546839", 
+                "LINE_2340894", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6481648", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_6481648|", 
+                "", 
+                "I'll hold this area, Chief!", 
+                [
+                    "LINE_4665181"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DefeatedEncounter2", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3447950", 
+                "LINE_3145221", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2340894", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_2340894|", 
+                "", 
+                "We'll follow you anywhere, Chief!", 
+                [
+                    "LINE_2546839"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4665181", 
+                "LINE_6481648", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Goblin Ambient 7", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "GOBLINAMBIENT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1914309", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_1914309|", 
+                "", 
+                "Let's defeat them together, Chief!", 
+                [
+                    "LINE_2231461"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "HaveAnExtraFollower", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "JoinPartyAsLocalFollower", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DefeatedEncounter2", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "HaveAnExtraFollower", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0640608", 
+                "LINE_5338936", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9133464", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_9133464|", 
+                "", 
+                "I'll protect this area, Chief!", 
+                [
+                    "LINE_4855863"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DefeatedEncounter2", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6845803", 
+                "LINE_9654370", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "OppressedGoblinCharge1Activated", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9654370", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_9654370|", 
+                "", 
+                "Hehe!! Let's take them out!", 
+                [
+                    "LINE_6845803"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "EnableInteractionPoints", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "OppressedGoblinCharge1", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "OppressedGoblinCharge1Activated", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5338936", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_5338936|", 
+                "", 
+                "Be careful! Kazak has the hobgoblins and bugbears on his side!", 
+                [
+                    "LINE_0640608"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2231461", 
+                "LINE_1914309", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4855863", 
+                "LINE_9133464", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "ZgakAltar", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "RPE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_4470078", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_4470078|", 
+                "", 
+                "", 
+                [
+                    "LINE_9569738"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DefeatedSecretDoorEncounter", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9569738", 
+                "LINE_4470078", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "CheckZgakStatus", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4937962", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_4937962|", 
+                "", 
+                "", 
+                [
+                    "LINE_5565035"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5565035", 
+                "LINE_4937962", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Zgak Opens Door", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2131812", 
+                "<ROOT>", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_2131812|", 
+                "", 
+                "Look closely at the skull.", 
+                [
+                    "LINE_8621454"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8621454", 
+                "LINE_2131812", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_8621454|", 
+                "", 
+                "Secret button there!", 
+                [
+                    "LINE_9734020"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "InformedOfButton", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9734020", 
+                "LINE_8621454", 
+                "ZGAK", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Zgak Secret Hallway", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0719111", 
+                "<ROOT>", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_0719111|", 
+                "", 
+                "Hobgoblins and bugbears don't know of this passage.", 
+                [
+                    "LINE_0304678"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0304678", 
+                "LINE_0719111", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_0304678|", 
+                "", 
+                "We will sneak right up on them!!", 
+                [
+                    "LINE_7466521"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7466521", 
+                "LINE_0304678", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Secret Lever empty convo", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6817415", 
+                "<ROOT>", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_6817415|", 
+                "", 
+                "They won't suspect a thing!", 
+                [
+                    "LINE_6077077"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "OpenChieftainDoor", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6077077", 
+                "LINE_6817415", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Kazak Front Assault", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9113609", 
+                "<ROOT>", 
+                "KAZAK", 
+                "|ReturnOfTheChief_SQ_LINE_9113609|", 
+                "", 
+                "", 
+                [
+                    "LINE_6624130"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "KazakIntroAmbientFired", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ROTC_SQ_HelpZgak", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "KazakAggro", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "KazakIntroAmbientFired", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6624130", 
+                "LINE_9113609", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_6624130|", 
+                "", 
+                "No! I am the chief! Not you!", 
+                [
+                    "LINE_6906973"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6906973", 
+                "LINE_6624130", 
+                "KAZAK", 
+                "|ReturnOfTheChief_SQ_LINE_6906973|", 
+                "", 
+                "", 
+                [
+                    "LINE_6268052"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6268052", 
+                "LINE_6906973", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Kazak Back Assault", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1737079", 
+                "<ROOT>", 
+                "KAZAK", 
+                "|ReturnOfTheChief_SQ_LINE_1737079|", 
+                "", 
+                "", 
+                [
+                    "LINE_0521425"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "KazakIntroAmbientFired", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ROTC_SQ_HelpZgak", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "KazakAggro", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "KazakIntroAmbientFired", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0521425", 
+                "LINE_1737079", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_0521425|", 
+                "", 
+                "", 
+                [
+                    "LINE_6193117"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6193117", 
+                "LINE_0521425", 
+                "KAZAK", 
+                "|ReturnOfTheChief_SQ_LINE_6193117|", 
+                "", 
+                "", 
+                [
+                    "LINE_7283691"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7283691", 
+                "LINE_6193117", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "KAZAK DEFEATED", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_4840782", 
+                "<ROOT>", 
+                "KAZAK", 
+                "|ReturnOfTheChief_SQ_LINE_4840782|", 
+                "", 
+                "", 
+                [
+                    "LINE_9446110"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9446110", 
+                "LINE_4840782", 
+                "PLAYER", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 2.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.5, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "SwitchEncountersToGoblin", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Chief Zgak", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "True", 
+                "NeedsVO": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "ZGAK"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_3419187", 
+                "<ROOT>", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_3419187|", 
+                "", 
+                "Hah! Hahaha! Yes Yes! I have done it! Chief again!", 
+                [
+                    "LINE_1171602"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ROTC_SQ_RestoreZgakAsChief", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "ROTC_SQ_RestoreZgakAsChief", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1171602", 
+                "LINE_3419187", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_1171602|", 
+                "", 
+                "Stupid hobgoblin bullies! They are not smart like me!", 
+                [
+                    "LINE_2570214", 
+                    "LINE_7939376", 
+                    "LINE_1499433", 
+                    "LINE_7287262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2570214", 
+                "LINE_1171602", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_2570214|", 
+                "", 
+                "", 
+                [
+                    "LINE_6955562"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7939376", 
+                "LINE_1171602", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_7939376|", 
+                "", 
+                "", 
+                [
+                    "LINE_5105889"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1499433", 
+                "LINE_1171602", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_1499433|", 
+                "", 
+                "", 
+                [
+                    "LINE_7016910"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7287262", 
+                "LINE_1171602", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_7287262|", 
+                "", 
+                "", 
+                [
+                    "LINE_8991707"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6955562", 
+                "LINE_2570214", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_6955562|", 
+                "", 
+                "", 
+                [
+                    "LINE_3739979", 
+                    "LINE_8070996"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3739979", 
+                "LINE_6955562", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_3739979|", 
+                "", 
+                "", 
+                [
+                    "LINE_0819004"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8070996", 
+                "LINE_6955562", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_8070996|", 
+                "", 
+                "", 
+                [
+                    "LINE_1327440"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1327440", 
+                "LINE_8070996", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_1327440|", 
+                "", 
+                "", 
+                [
+                    "LINE_7939376", 
+                    "LINE_1499433", 
+                    "LINE_7287262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0819004", 
+                "LINE_3739979", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_0819004|", 
+                "", 
+                "", 
+                [
+                    "LINE_7939376", 
+                    "LINE_1499433", 
+                    "LINE_7287262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5105889", 
+                "LINE_7939376", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_5105889|", 
+                "", 
+                "You being allowed to leave is your reward!", 
+                [
+                    "LINE_8193606", 
+                    "LINE_0704154", 
+                    "LINE_4017384", 
+                    "LINE_4208634", 
+                    "LINE_5093844"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0704154", 
+                "LINE_5105889", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_0704154|", 
+                "", 
+                "", 
+                [
+                    "LINE_3870545", 
+                    "LINE_4469054"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "AttemptedCharismaCheck", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "AttemptedCharismaCheck", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4017384", 
+                "LINE_5105889", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_4017384|", 
+                "", 
+                "[STRENGTH] If you don't give us our reward, your reign will be quite short.", 
+                [
+                    "LINE_3647750", 
+                    "LINE_4469054"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "AttemptedStrengthCheck", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "AttemptedStrengthCheck", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4208634", 
+                "LINE_5105889", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_4208634|", 
+                "", 
+                "[INTELLIGENCE] You may want to keep us happy, lest you wish your subjects to know where you were all this time...", 
+                [
+                    "LINE_6020267", 
+                    "LINE_4469054"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "AttemptedIntelligenceCheck", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "AttemptedIntelligenceCheck", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8193606", 
+                "LINE_5105889", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_8193606|", 
+                "", 
+                "", 
+                [
+                    "LINE_1132744"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5093844", 
+                "LINE_5105889", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_5093844|", 
+                "", 
+                "", 
+                [
+                    "LINE_1026232"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1132744", 
+                "LINE_8193606", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_1132744|", 
+                "", 
+                "I don't remember that.", 
+                [
+                    "LINE_0704154", 
+                    "LINE_4017384", 
+                    "LINE_4208634", 
+                    "LINE_5093844", 
+                    "LINE_7287262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1026232", 
+                "LINE_5093844", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_1026232|", 
+                "", 
+                "", 
+                [
+                    "LINE_4890194"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4890194", 
+                "LINE_1026232", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ZgakAggro", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "MakeZgakHostile", 
+                        "SpeakerTag": "ZGAK"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3870545", 
+                "LINE_0704154", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_3870545|", 
+                "", 
+                "[SUCCESS] Yes, I do! My followers must be rewarded! You may loot one chest from my vault. Nothing more!", 
+                [
+                    "LINE_0007413", 
+                    "LINE_5093844"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CharismaReward", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 18, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "str", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3647750", 
+                "LINE_4017384", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_3647750|", 
+                "", 
+                "I don't want to lose more guards. You may loot one chest from my vault. Nothing more!", 
+                [
+                    "LINE_0007413", 
+                    "LINE_5093844"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "StrengthReward", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 18, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "str", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6020267", 
+                "LINE_4208634", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_6020267|", 
+                "", 
+                "BK 2015-0806 Found a missing SUCCCESS here.\nUmm... okay! Okay! No need for words. Take whatever you want from my vault and go.", 
+                [
+                    "LINE_0007413", 
+                    "LINE_5093844"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "IntelligenceReward", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 20, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "int", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0007413", 
+                "LINE_3870545", 
+                "<PLAYER>", 
+                "|ReturnOfTheChief_SQ_LINE_0007413|", 
+                "", 
+                "", 
+                [
+                    "LINE_8012362"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8012362", 
+                "LINE_0007413", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_8012362|", 
+                "", 
+                "", 
+                [
+                    "LINE_5789299"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8991707", 
+                "LINE_7287262", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_8991707|", 
+                "", 
+                "", 
+                [
+                    "LINE_5789299"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5789299", 
+                "LINE_8991707", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7016910", 
+                "LINE_1499433", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_7016910|", 
+                "", 
+                "Not my problem. If any trouble comes this way, Zgak will conquer it.", 
+                [
+                    "LINE_0704154", 
+                    "LINE_4017384", 
+                    "LINE_4208634", 
+                    "LINE_5093844", 
+                    "LINE_7287262"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6023917", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_6023917|", 
+                "", 
+                "", 
+                [
+                    "LINE_0704154", 
+                    "LINE_4017384", 
+                    "LINE_4208634", 
+                    "LINE_5093844", 
+                    "LINE_7287262"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "ZgakAggro", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CharismaReward", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "StrengthReward", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "IntelligenceReward", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0993419", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8012362"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "ZgakAggro", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "items": [
+                                    {
+                                        "item": {
+                                            "FlagState": "true", 
+                                            "Flag": "CharismaReward", 
+                                            "Quest": "ReturnOfTheChief_SQ", 
+                                            "Type": "Quest"
+                                        }, 
+                                        "type": "item"
+                                    }, 
+                                    {
+                                        "item": {
+                                            "FlagState": "true", 
+                                            "Flag": "StrengthReward", 
+                                            "Quest": "ReturnOfTheChief_SQ", 
+                                            "Type": "Quest"
+                                        }, 
+                                        "type": "item"
+                                    }, 
+                                    {
+                                        "item": {
+                                            "FlagState": "true", 
+                                            "Flag": "IntelligenceReward", 
+                                            "Quest": "ReturnOfTheChief_SQ", 
+                                            "Type": "Quest"
+                                        }, 
+                                        "type": "item"
+                                    }
+                                ], 
+                                "connection": "OR", 
+                                "type": "group"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4469054", 
+                "LINE_0704154", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_4469054|", 
+                "", 
+                "Added a failure option here to fit the system.", 
+                [
+                    "LINE_1825768"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1825768", 
+                "LINE_4469054", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Goblin Guard Ambient Aggro", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "GOBLINAMBIENTAGGRO"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_1266927", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_1266927|", 
+                "", 
+                "Thief! Only one chest was allowed! ", 
+                [
+                    "LINE_0048388"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "TooManyChestsAggro", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2291331", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_2291331|", 
+                "", 
+                "Thief! This is our loot!", 
+                [
+                    "LINE_0048388"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "OneChestAggro", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0048388", 
+                "LINE_1266927", 
+                "<OWNER>", 
+                "", 
+                "", 
+                " ", 
+                [], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "MakeZgakHostile", 
+                        "SpeakerTag": "ZGAK"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Zgak Aggro", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0320743", 
+                "<ROOT>", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_0320743|", 
+                "", 
+                "How dare you oppose me! I never should have trusted you!", 
+                [
+                    "LINE_8055647"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ZgakAggro", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8055647", 
+                "LINE_0320743", 
+                "ZGAK", 
+                "|ReturnOfTheChief_SQ_LINE_8055647|", 
+                "", 
+                "I will feed your bones to the rats!", 
+                [
+                    "LINE_4520344"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4520344", 
+                "LINE_8055647", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Activate Skull", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "IsStoryCritical": "False", 
+                "NeedsVO": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "RPE"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_7267740", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|ReturnOfTheChief_SQ_LINE_7267740|", 
+                "", 
+                "", 
+                [
+                    "LINE_4341236"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "OpenZgakSecret", 
+                        "SpeakerTag": "ZGAK"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "ClickedOnSkull", 
+                                    "Quest": "ReturnOfTheChief_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4341236", 
+                "LINE_7267740", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ClickedOnSkull", 
+                        "Quest": "ReturnOfTheChief_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

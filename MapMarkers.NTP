@@ -1,0 +1,221 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_MapMarkers"
+{
+     FORMAT
+     {
+          HASH             "ImageName"
+          INTEGER          "Color"
+          INTEGER          "DrawAboveFog"
+          INTEGER          "ClampToEdge"
+     }
+
+     TEMPLATE "Player_Self"
+     {
+          DESCRIPTION      "Local Player"
+          DATA             "Player_Self"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Player_Other"
+     {
+          DESCRIPTION      "Network Player"
+          DATA             "Player_Other"
+          DATA             ""
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Door"
+     {
+          DESCRIPTION      ""
+          DATA             "Door"
+          DATA             "-3014401"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Enemy"
+     {
+          DESCRIPTION      ""
+          DATA             "Enemy"
+          DATA             "-872414977"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Enemy_Big"
+     {
+          DESCRIPTION      ""
+          DATA             "Enemy_Big"
+          DATA             "-872414977"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Enemy_Boss"
+     {
+          DESCRIPTION      ""
+          DATA             "Enemy_Boss"
+          DATA             "-872414977"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "NPC_Quest"
+     {
+          DESCRIPTION      ""
+          DATA             "NPC_Quest"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "StoryQuest_Available"
+     {
+          DESCRIPTION      ""
+          DATA             "NPC_Quest"
+          DATA             "-338533121"
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "SideQuest_Available"
+     {
+          DESCRIPTION      ""
+          DATA             "NPC_Quest"
+          DATA             "2023803135"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Quest_Complete"
+     {
+          DESCRIPTION      ""
+          DATA             "NPC_Quest"
+          DATA             "-2130738945"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "NPC_Conversation"
+     {
+          DESCRIPTION      ""
+          DATA             "NPC_Conversation"
+          DATA             "-1"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "NPC_Vendor"
+     {
+          DESCRIPTION      ""
+          DATA             "NPC_Vendor"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "PotionVendor"
+     {
+          DESCRIPTION      ""
+          DATA             "PotionVendor"
+          DATA             "-11861761"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Transport"
+     {
+          DESCRIPTION      ""
+          DATA             "Atlas"
+          DATA             "-3014401"
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Checkpoint"
+     {
+          DESCRIPTION      ""
+          DATA             "Checkpoint"
+          DATA             "-1"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Objective"
+     {
+          DESCRIPTION      ""
+          DATA             "Objective"
+          DATA             "865730559"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Treasure"
+     {
+          DESCRIPTION      ""
+          DATA             "Treasure"
+          DATA             "-338533121"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "ClassIcon_J"
+     {
+          DESCRIPTION      ""
+          DATA             "ClassIcon_J"
+          DATA             "869020671"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "ClassIcon_A"
+     {
+          DESCRIPTION      ""
+          DATA             "ClassIcon_A"
+          DATA             "869020671"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "ClassIcon_G"
+     {
+          DESCRIPTION      ""
+          DATA             "ClassIcon_G"
+          DATA             "869020671"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "ClassIcon_S"
+     {
+          DESCRIPTION      ""
+          DATA             "ClassIcon_S"
+          DATA             "869020671"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "ValorVendor"
+     {
+          DESCRIPTION      ""
+          DATA             "ValorVendor"
+          DATA             "-4295681"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Ataraxis"
+     {
+          DESCRIPTION      ""
+          DATA             "Ataraxis"
+          DATA             "-1"
+          DATA             ""
+          DATA             ""
+     }
+
+}
+

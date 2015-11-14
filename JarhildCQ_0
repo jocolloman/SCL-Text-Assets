@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="-100" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="SpiderSet01" /> 
+		<CreatureSet Name="RatSet1" /> 
+		<CreatureSet Name="OozeSet1" />  
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                       <Tile Name="Jarhild_CQ_Staging"  />    <!--  Jarhild STAGING AREA  - opens world map --> 
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- End Staging -->        
+     <Group>
+            <Trunk>
+                <Tiles >
+                       <Tile Name="SEW_36_C_NarrowHalls" ForceEntryPort="Port010" ForceExitPort="Port03" />    
+                </Tiles>
+            </Trunk>
+        </Group>
+		    <Group>
+            <Trunk>
+                <Tiles >
+                       <Tile Name="SEW_S_C_CircleCross"  />    
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!--FLORTAL -->
+        
+        <Group>
+            <Trunk>
+                <Tiles >
+                  <Tile XMLID="Jarhild_CQ_SlaveQuarters"
+						Name="SEW_36_C_Flank" 
+                        PortExtensionMin= "12"
+                        PortExtensionMax= "12"
+						ForceEntryPort="Port011"
+						ForceExitPort="Port06"     />    
+                </Tiles>
+            </Trunk>
+			<Branch Min="1" Max="1" >
+                <Tiles>
+					<Tile Name="SEW_10_I_Hall" ForceEntryPort="Port01" TransitionOverride="CastleCellDoor01" PortExtensionMax= "0"/>    
+					<Tile Name="SEW_31_C_Hall" PortExtensionMin= "1" ForceEntryPort="Port06" Max="1"  TransitionOverride="SewerArch01"/> 					
+                </Tiles>
+            </Branch>
+			<Leaf Min="1" Max="1" >
+                <Tiles>
+					<Tile Name="SEW_S_T_DualPlat" Max="1" ForceEntryPort="Port02" OpenNoPorts = "1" />     				
+                </Tiles>
+            </Leaf>
+        </Group> 
+		<Group>
+            <Trunk>
+                <Tiles >
+                       <Tile XMLID="Jarhild_CQ_CubeRoom" Name="SEW_S_C_PitCross" TransitionOverride="SewerDoor_Jarhild_CQ" />   
+                </Tiles>
+            </Trunk>
+        </Group>
+		<Group>
+            <Trunk>
+                <Tiles >
+                       <Tile Name="Jarhild_CQ_Exit" />   
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+    </Groups>  
+	
+
+</DungeonConfig>

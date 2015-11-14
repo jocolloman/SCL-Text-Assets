@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="-100" PortWeightZ="-50" PlayerLighting="DrowCavesPlayerLighting" 
+EncounterProbabilityMin ="90"
+EncounterProbabilityMax ="95"
+MaxHallwayDistance="50"
+MaxHallwayTiles="5" >
+<HallwayTiles>
+<Tile Name="SEW_10_C_Hall" TransitionOverride="SewerHallArch01"/>
+</HallwayTiles>
+</Settings>
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="SewerSet1" />  
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                       <Tile Name="SEWA_Staging"/>  
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- End Staging -->
+
+<!-- 1 - Intro Hall -->    
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_S_T_DualPlat" ForceEntryPort="Port02" ForceExitPort="Port03" PortExtensionMin= "1" PortExtensionMax = "1" />
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_10_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" TransitionOverride="SewerHallArch01" />      
+                </Tiles>
+            </Branch>
+        </Group>
+
+<!-- 2 - Dead Rat Ambush --> 
+            
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_S_I_Hall" ForceEntryPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" TransitionOverride="SewerHallArch01" />                
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- 3 - Hall --> 
+            
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_31_C_Hall" ForceEntryPort="Port01" ForceExitPort="Port08" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" TransitionOverride="SewerHallArch01" />                
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+ <!-- Group 4 -->    
+ 		<Group>
+            <Trunk Min="1" Max="1">
+             <!-- Random Combat -->
+                <Tiles >
+                    <Tile Name="SEW_S_T_Curvy"    ForceEntryPort="Port01" ForceExitPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="SEW_S_T_SimpleT"  ForceEntryPort="Port03" ForceExitPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>-->
+            <!-- Dead Rats Group w/NPC Merchant-->
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_S_T_Op" XMLID="CH2_SQ_DD1" ForceEntryPort="Port04" ForceExitPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>   
+                </Tiles>
+            </Branch>           
+            
+            <Leaf Min="1" Max="1">
+            <!-- Small Random Combat hallway-->
+                <Tiles>
+                    <Tile Name="SEW_S_T_SmallFalls"  ForceEntryPort="Port03" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>       
+                    <Tile Name="SEW_S_T_Wrap"     ForceEntryPort="Port03" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>                     
+                </Tiles>
+            </Leaf>
+        </Group>
+                
+<!-- Group 5 -->    
+ 		<Group>
+            <Trunk Min="1" Max="1">
+            <!-- Small Random Combat hallway w/rats-->
+                <Tiles >
+             		 <Tile Name="SEW_36_C_NarrowHalls" ForceEntryPort="Port10" ForceExitPort="Port03"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1"/>
+<!--                     <Tile Name="SEW_36_C_Flank" ForceEntryPort="Port09" ForceExitPort="Port14"  PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1"/>-->
+                </Tiles>
+            </Trunk>
+            
+            <!-- Random Combat-->
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_S_C_PitCross"    PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>
+                    <Tile Name="SEW_S_C_CornerCross" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>
+                </Tiles>
+            </Branch>
+            
+            <!-- Random Combat w/info object (bed) -->
+            <Leaf Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_S_C_CircleCross" BranchingPriority="-1" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>   
+                </Tiles>
+            </Leaf>
+        </Group>
+
+ <!-- Group 6-->    
+ 		<Group>
+            <Trunk Min="1" Max="1">
+            <!-- Important crit path dead rat body-->
+                <Tiles >
+                    <Tile Name="SEW_S_C_Cesspit" ForceEntryPort="Port09" ForceExitPort="Port01" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>
+                </Tiles>
+            </Trunk>
+            <!-- Random Stranger-->
+            <Branch Min="1" Max="1">
+                <Tiles>
+					<Tile Name="SEW_S_T_BandStand" ForceEntryPort="Port02" XMLID="CH2_SQ_DD2" BranchingPriority="-1" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" /> 
+                </Tiles>
+            </Branch>
+        </Group>
+
+<!-- Group 7 -->    
+ 		<Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SEW_36_C_TripleH" ForceEntryPort="Port02" ForceExitPort="Port01"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/> 
+<!--                    <Tile Name="SEW_36_C_NarrowHalls" PlacementDistanceRequired="100" ForceEntryPort="Port09" ForceExitPort="Port05" PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts= "1" />   -->
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles>  
+<!--                    <Tile Name="SEW_S_C_CornerCross" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="SEW_S_C_PitCross"    PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>    
+                    <Tile Name="SEW_S_T_Op"          PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>    
+                    <Tile Name="SEW_S_T_SmallFalls"  PlacementDistanceRequired="100" ForceEntryPort="Port02"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>      -->
+                    <Tile Name="SEW_S_T_Wrap"  TransitionOverride="SewerDoor_Trapped"  ForceEntryPort="Port01" PlacementDistanceRequired="100" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1"/>         
+                </Tiles>
+            </Branch>
+<!--            
+            <Leaf Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_10_C_Hall" OpenAllPorts = "1" TransitionOverride="SewerHallArch01" /> 
+                </Tiles>
+            </Leaf>-->
+            
+        </Group>
+
+<!-- 8 - To Dead Rat Base -->         
+		<Group>
+            <Trunk Min="1" Max="1" HeightWeight="-100">
+                <Tiles >
+                    <Tile Name="SEW_S_I_Ramp" ForceEntryPort="Port02" XMLID="Ch2_DeadRatEntrance" PortExtensionMin= "1" PortExtensionMax = "1" BranchingPriority="-1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- 9 - Dead Rat Base -->         
+		<Group>
+            <Trunk Min="1" Max="1" HeightWeight="-100">
+                <Tiles >
+                    <Tile Name="SEW_Mid" ForceEntryPort="Port04"  ForceExitPort="Port03" BranchingPriority="-1" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+            
+             <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SEW_S_T_DualPlat" BranchingPriority="-1" ForceEntryPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="SEW_S_T_SimpleT"  BranchingPriority="-1" ForceEntryPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="SEW_S_T_Curvy"    BranchingPriority="-1" ForceEntryPort="Port02" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />      
+                </Tiles>
+            </Branch>           
+
+            <Leaf Sequential="1">
+                <Tiles >
+                    <Tile Name="SEW_S_I_Four" XMLID="CH2_SQ_DD3" ForceEntryPort="Port02" ForceExitPort="Port01" BranchingPriority="-1" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                    <Tile Name="SEWA_ExitA" Max="1" BranchingPriority="-1" />
+                </Tiles>
+            </Leaf>
+        </Group> 
+
+<!-- 10 - To Luskan -->        
+		<Group>
+            <Trunk Min="1" Max="1" HeightWeight="-100">
+                <Tiles >    
+                    <Tile Name="SEW_FlortalDOWN" OpenAllPorts= "1" TransitionOverride= "SewerDoor_ReqKey"/> 
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- To Luskan -->
+
+    </Groups>    
+  
+<!-- Secret Tiles -->     
+    <PostBuildTiles>
+        <Tiles>
+            <Tile Name="SEW_Secret" TransitionOverride="SewerSecretDoor01" Max="2" PlacementDistanceRequired="100"/> 
+            <Tile Name="SEW_Secret" TransitionOverride="SewerSecretDoor01" Max="2" PlacementDistanceRequired="100"/>
+        </Tiles>
+    </PostBuildTiles>
+            
+</DungeonConfig>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="100" PortWeightZ="-100" />
+ 
+ <!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DrowSet01" /> 
+        <CreatureSet Name="SpiderSet01" />       
+	</CreatureSets>
+	
+<!-- DUNGEON -->	
+    <Groups>
+        
+<!-- Starting Tile & Stairs down -->
+        <Group>  
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                   <Tile	Name="UnderdarkDescent_FlortalUp" TransitionOverride="DrowArch01" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+        <Group>
+			<Trunk Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_36_T_JStairs" ForceEntryPort="Port02" ForceExitPort="Port03" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch01" />
+                </Tiles>
+            </Trunk>
+<!-- Random Extensions -->		      
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="CAV_S_C_Hyundai" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />
+                    <Tile Name="CAV_S_C_Bolt" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />
+                </Tiles>
+            </Branch>
+		</Group>
+        
+		<Group>
+			<Trunk Min="1" Max="1" >  
+				<Tiles>
+                    <Tile Name="CAV_S_C_Hyundai" ForceEntryPort="Port01" ForceExitPort="Port02" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />
+                    <Tile Name="CAV_S_C_Bolt" ForceEntryPort="Port03" ForceExitPort="Port04" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />        
+                   <!-- fancy footwork -->
+                    <Tile Name="CAV_S_C_Hyundai" ForceEntryPort="Port02" ForceExitPort="Port01" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />
+                    <Tile Name="CAV_S_C_Bolt" ForceEntryPort="Port04" ForceExitPort="Port03" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />    
+				</Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="CAV_S_T_Donut" ForceEntryPort= "Port02" ForceExitPort="Port01" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" TransitionOverride="DrowArch02" /> 
+                    <Tile Name="CAV_S_T_Why" ForceEntryPort= "Port02" ForceExitPort="Port01" PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts = "1" TransitionOverride="DrowArch02" /> 
+                </Tiles>
+            </Branch>
+		</Group>
+				  
+<!-- More Stairs and Turns -->
+		<Group>
+			<Trunk  Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_S_E_Comma" ForceEntryPort="Port02" PortExtensionMin="0" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />   
+                </Tiles>
+            </Trunk>
+		</Group>
+        
+        <Group>
+			<Trunk  Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_S_I_Bridge" PortExtensionMin="0" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch01" />   
+                </Tiles>
+            </Trunk>
+		</Group>
+		
+<!-- Random Extensions -->
+		<Group>
+			<Trunk Min="2" Max="2" >
+				<Tiles>
+				  <Tile Name="CAV_L_Tower" ForceEntryPort="Port02" PortExtensionMin="0" PortExtensionMax="1" OpenAllPorts = "1" Max="1" TransitionOverride="DrowArch01"/>
+                </Tiles>
+            </Trunk>
+		</Group>
+        
+<!-- More Stairs and Turns -->
+         <Group>
+			<Trunk Min="1" Max="1" >
+				<Tiles>
+                    <Tile Name="CAV_S_C_Goat" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch02" />
+                </Tiles>
+            </Trunk>
+		</Group>
+
+<!-- Exit to City Time!! -->        
+        <Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="CAV_S_I_Noodle" PortExtensionMin="0" PortExtensionMax="1" OpenAllPorts = "1" TransitionOverride="DrowArch01" />   
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+		<Group>
+			<Trunk>
+				<Tiles>
+				  <Tile Name="UnderdarkDescent_FlortalDown" TransitionOverride="DrowArch02" />
+                </Tiles>
+            </Trunk>
+        </Group>
+ 
+    </Groups>  
+
+    <PostBuildTiles>
+        <Tiles>
+            <Tile Name="CAV_Secret" TransitionOverride="DrowSecretDoor01" Max="1" PlacementDistanceRequired="100"/>  
+        </Tiles>
+    </PostBuildTiles>
+
+</DungeonConfig>

@@ -1,0 +1,949 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "DeadRats_SQ_01": [
+            "DeadRats_SQ_Quest 0_Name", 
+            0, 
+            "DeadRats_SQ_01", 
+            "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+            "", 
+            {
+                "DeadRats_SQ1_Start": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 0_JournalEntry", 
+                    "DeadRats_SQ1_Start_Reward", 
+                    {}, 
+                    "", 
+                    1, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanSewers", 
+                    []
+                ], 
+                "DeadRats_SQ1_Secret": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 1_JournalEntry", 
+                    "DeadRats_SQ1_Secret_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ1_Start", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanSlums", 
+                    []
+                ], 
+                "DeadRats_SQ1_TalkedVendor": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 5_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 5_JournalEntry", 
+                    "DeadRats_SQ1_TalkedVendor_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "DeadRats_SQ1_Pargen": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 2_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 2_JournalEntry", 
+                    "DeadRats_SQ1_Pargen_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ1_Start", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "DeadRats_SQ1_TalkedVendor", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanSlums", 
+                    []
+                ], 
+                "DeadRats_SQ1_FoxberryCHAFail": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 17_Name", 
+                    5, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 17_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    []
+                ], 
+                "DeadRats_SQ1_FoxberryCHASuccess": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 16_Name", 
+                    6, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 16_JournalEntry", 
+                    "", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    []
+                ], 
+                "DeadRats_SQ1_FoxberryBought": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 18_Name", 
+                    7, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 18_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "groupStart": 1, 
+                            "join": "AND", 
+                            "groupItems": [
+                                {
+                                    "flag": "DeadRats_SQ1_Pargen", 
+                                    "quest": "DeadRats_SQ_01", 
+                                    "set": 1
+                                }, 
+                                {
+                                    "flag": "DeadRats_SQ1_FoxberryCHASuccess", 
+                                    "quest": "DeadRats_SQ_01", 
+                                    "set": 0
+                                }
+                            ]
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    true, 
+                    "", 
+                    "", 
+                    "", 
+                    []
+                ], 
+                "DeadRats_SQ1_FindMushoomVendor": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 19_Name", 
+                    8, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 19_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ1_LearnedMushroom", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "IntroCamp", 
+                    []
+                ], 
+                "DeadRats_SQ1_TalkedMushroom": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 7_Name", 
+                    9, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 7_JournalEntry", 
+                    "DeadRats_SQ1_TalkedMushroom_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "DeadRats_SQ1_Calcena": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 3_Name", 
+                    10, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 3_JournalEntry", 
+                    "DeadRats_SQ1_Calcena_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ1_Start", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "DeadRats_SQ1_TalkedVendor", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "DeadRats_SQ1_TalkedMushroom", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "IntroCamp", 
+                    []
+                ], 
+                "DeadRats_SQ1_BoughtMushroom": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 14_Name", 
+                    11, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 14_JournalEntry", 
+                    "DeadRats_SQ1_BoughtMushroom_Reward", 
+                    [], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "DeadRats_SQ1_GivenMushroom": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 15_Name", 
+                    12, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 15_JournalEntry", 
+                    "DeadRats_SQ1_GivenMushroom_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "DeadRats_SQ1_GatheredIngredients": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 8_Name", 
+                    13, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 8_JournalEntry", 
+                    "DeadRats_SQ1_GatheredIngredients_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ1_Secret", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "DeadRats_SQ1_Pargen", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }, 
+                        {
+                            "flag": "DeadRats_SQ1_Calcena", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    true, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "DeadRats_SQ1_Return": [
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 4_Name", 
+                    14, 
+                    false, 
+                    true, 
+                    false, 
+                    true, 
+                    "DeadRats_SQ_DeadRats_SQ_01_Flag 4_JournalEntry", 
+                    "DeadRats_SQ1_Return_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ1_GatheredIngredients", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanSewers", 
+                    []
+                ], 
+                "Utility Flags": {
+                    "DeadRats_SQ1_MoveLeader": [
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 10_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 10_JournalEntry", 
+                        "DeadRats_SQ1_MoveLeader_Reward", 
+                        [
+                            {
+                                "flag": "DeadRats_SQ1_GatheredIngredients", 
+                                "quest": "DeadRats_SQ_01", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ1_UsePotion": [
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 9_0_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 9_0_JournalEntry", 
+                        "DeadRats_SQ1_UsePotion_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ1_Cleanup": [
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 12_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 12_JournalEntry", 
+                        "DeadRats_SQ1_Cleanup_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ1_TalkLeader": [
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 13_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 13_JournalEntry", 
+                        "DeadRats_SQ1_TalkLeader_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ1_Wilgen": [
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 13_0_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 13_0_JournalEntry", 
+                        "DeadRats_SQ1_Wilgen_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ1_LearnedMushroom": [
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 6_Name", 
+                        20, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_01_Flag 6_JournalEntry", 
+                        "DeadRats_SQ1_LearnedMushroom_Reward", 
+                        [
+                            {
+                                "flag": "DeadRats_SQ1_TalkedVendor", 
+                                "quest": "DeadRats_SQ_01", 
+                                "set": 1
+                            }
+                        ], 
+                        "Removed reference to mushroom name", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "LuskanSewers", 
+            "Location"
+        ], 
+        "DeadRats_SQ_02": [
+            "DeadRats_SQ_Quest 1_Name", 
+            0, 
+            "DeadRats_SQ_02", 
+            "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+            "", 
+            {
+                "DeadRats_SQ2_Start": [
+                    "DeadRats_SQ_DeadRats_SQ_02_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_02_Flag 0_JournalEntry", 
+                    "DeadRats_SQ2_Start_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ1_Return", 
+                            "quest": "DeadRats_SQ_01", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    1, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanSewers", 
+                    []
+                ], 
+                "DeadRats_SQ2_DestroyPoisonComplete": [
+                    "DeadRats_SQ_DeadRats_SQ_02_Flag 5_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "DeadRats_SQ_DeadRats_SQ_02_Flag 5_JournalEntry", 
+                    "DeadRats_SQ2_DestroyPoisonComplete_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ2_Start", 
+                            "quest": "DeadRats_SQ_02", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanSewers", 
+                    []
+                ], 
+                "DeadRats_SQ2_ReturnTitus": [
+                    "DeadRats_SQ_DeadRats_SQ_02_Flag 6_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "DeadRats_SQ_DeadRats_SQ_02_Flag 6_JournalEntry", 
+                    "DeadRats_SQ2_ReturnTitus_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ2_DestroyPoisonComplete", 
+                            "quest": "DeadRats_SQ_02", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "LuskanSewers", 
+                    []
+                ], 
+                "DeadRats_SQ2_AfterTitus": [
+                    "DeadRats_SQ_DeadRats_SQ_02_Flag 14_Name", 
+                    4, 
+                    false, 
+                    true, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_02_Flag 14_JournalEntry", 
+                    "DeadRats_SQ2_AfterTitus_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQ2_ReturnTitus", 
+                            "quest": "DeadRats_SQ_02", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    true, 
+                    "", 
+                    "", 
+                    "", 
+                    []
+                ], 
+                "Utility Flags": {
+                    "DeadRats_SQ2_TalkedTitus": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 7_0_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 7_0_JournalEntry", 
+                        "DeadRats_SQ2_TalkedTitus_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ2_DestroyPoisonA": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 8_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 8_JournalEntry", 
+                        "DeadRats_SQ2_DestroyPoisonA_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ2_DestroyPoisonB": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 9_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 9_JournalEntry", 
+                        "DeadRats_SQ2_DestroyPoisonB_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ2_DestroyPoisonC": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 10_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 10_JournalEntry", 
+                        "DeadRats_SQ2_DestroyPoisonC_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ2_DestroyPoisonD": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 11_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 11_JournalEntry", 
+                        "DeadRats_SQ2_DestroyPoisonD_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ2_TalkedRickel": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 12_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 12_JournalEntry", 
+                        "DeadRats_SQ2_TalkedRickel_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ2_WilgenKey": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 13_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 13_JournalEntry", 
+                        "DeadRats_SQ2_WilgenKey_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ2_WilgenUnlocked": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 15_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 15_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DeadRats_SQ2_UsedKey": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 16_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 16_JournalEntry", 
+                        "", 
+                        {}, 
+                        "JAW: Adding this so we can remove the key from inventory", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CountingQuest": [
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 4343_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DeadRats_SQ_DeadRats_SQ_02_Flag 4343_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        {}
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "LuskanSewers", 
+            "Location"
+        ], 
+        "DeadRats_SQ_Cecie": [
+            "DeadRats_SQ_Quest 2_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "DeadRats_SQC_FoundScarf": [
+                    "DeadRats_SQ_Quest 2_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_Quest 2_Flag 0_JournalEntry", 
+                    "DeadRats_SQC_FoundScarf_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ], 
+                "DeadRats_SQC_DeliverScarf": [
+                    "DeadRats_SQ_DeadRats_SQ_Cecie_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DeadRats_SQ_DeadRats_SQ_Cecie_Flag 1_JournalEntry", 
+                    "DeadRats_SQC_DeliverScarf_Reward", 
+                    [
+                        {
+                            "flag": "DeadRats_SQC_FoundScarf", 
+                            "quest": "DeadRats_SQ_Cecie", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "None", 
+                    []
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "LuskanSewers", 
+            "Location"
+        ]
+    }
+}

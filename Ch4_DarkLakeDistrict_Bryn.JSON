@@ -1,0 +1,2176 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Bryn RPE", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoSendingStoneInSeq": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "SUCCUBRYN"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_6495971", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_6495971|", 
+                "", 
+                "", 
+                [
+                    "LINE_5439619"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_TDW_Start", 
+                                    "Quest": "C4.4_The_Demons_Wake", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C4_TDW_KillBryn", 
+                                    "Quest": "C4.4_The_Demons_Wake", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5439619", 
+                "LINE_6495971", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_5439619|", 
+                "", 
+                "", 
+                [
+                    "LINE_0486472", 
+                    "LINE_0012750", 
+                    "LINE_6791201", 
+                    "LINE_1277101", 
+                    "LINE_2433730", 
+                    "LINE_7290157", 
+                    "LINE_7241416", 
+                    "LINE_7089423"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3443852", 
+                "LINE_4243928", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_3443852|", 
+                "", 
+                "", 
+                [
+                    "LINE_1864062"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1864062", 
+                "LINE_3443852", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_1864062|", 
+                "", 
+                "", 
+                [
+                    "LINE_0439408"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7845108", 
+                "LINE_2107106", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7845108|", 
+                "", 
+                "", 
+                [
+                    "LINE_7495655", 
+                    "LINE_6468527", 
+                    "LINE_2048077", 
+                    "LINE_9525938"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2085099", 
+                "LINE_9113899", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_2085099|", 
+                "", 
+                "", 
+                [
+                    "LINE_2627656"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PLACEDAbyssalStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PLACEDBelaphossStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "Clear"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PLACEDCelestialStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "Clear"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Ch4_BrynStone_Abyssal", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8552578", 
+                "LINE_9113899", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_8552578|", 
+                "", 
+                "", 
+                [
+                    "LINE_6812085"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PLACEDCelestialStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PLACEDAbyssalStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "Clear"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PLACEDBelaphossStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "Clear"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Ch4_BrynStone_Celestial", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2048077", 
+                "LINE_7845108", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_2048077|", 
+                "", 
+                "", 
+                [
+                    "LINE_0915197"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7495655", 
+                "LINE_7845108", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7495655|", 
+                "", 
+                "", 
+                [
+                    "LINE_7011415"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Ch4_BrynStone_Abyssal", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0915197", 
+                "LINE_2048077", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_0915197|", 
+                "", 
+                "", 
+                [
+                    "LINE_7495655", 
+                    "LINE_6468527", 
+                    "LINE_7136525"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7864698", 
+                "LINE_4243928", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7864698|", 
+                "", 
+                "", 
+                [
+                    "LINE_3878011"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3878011", 
+                "LINE_7864698", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_3878011|", 
+                "", 
+                "", 
+                [
+                    "LINE_2107106", 
+                    "LINE_2251721", 
+                    "LINE_3443852"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6468527", 
+                "LINE_7845108", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_6468527|", 
+                "", 
+                "", 
+                [
+                    "LINE_6262450"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Ch4_BrynStone_Celestial", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7011415", 
+                "LINE_7495655", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7011415|", 
+                "", 
+                "", 
+                [
+                    "LINE_6468527", 
+                    "LINE_2048077", 
+                    "LINE_3774441"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6262450", 
+                "LINE_6468527", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_6262450|", 
+                "", 
+                "", 
+                [
+                    "LINE_4087767"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3774441", 
+                "LINE_7011415", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_3774441|", 
+                "", 
+                "", 
+                [
+                    "LINE_7233093"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6212747", 
+                "LINE_4087767", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_6212747|", 
+                "", 
+                "", 
+                [
+                    "LINE_0625600"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7136525", 
+                "LINE_0915197", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7136525|", 
+                "", 
+                "", 
+                [
+                    "LINE_5725475"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0625600", 
+                "LINE_6212747", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_0625600|", 
+                "", 
+                "", 
+                [
+                    "LINE_9153571"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5725475", 
+                "LINE_7136525", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_5725475|", 
+                "", 
+                "BK: tweaks", 
+                [
+                    "LINE_9153571"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9386136", 
+                "LINE_2686871", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_9386136|", 
+                "", 
+                "moved flags to empty line, will call this via uSequence", 
+                [
+                    "LINE_6658088"
+                ], 
+                [
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_BrynDeathCameraPan_Belaphoss", 
+                        "Async": true
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9208397", 
+                "LINE_6658088", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "Set the tracked quest flag an' we out, peace", 
+                [], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 1.0, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.25, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_TDW_KillBryn", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "GENERATE_SAVE", 
+                        "Quest": "UtilityQuestFlags", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 0.3, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_CQ_Failed", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_CQ_MapUnlockHideout", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "clear"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_CQ_MapUnlockWarehouse", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "clear"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5461695", 
+                "LINE_6812085", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_5461695|", 
+                "", 
+                "moved flags to empty line, will call this via uSequence", 
+                [
+                    "LINE_9456648"
+                ], 
+                [
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_BrynDeathCameraPan_Celestial", 
+                        "Async": true
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5927396", 
+                "LINE_2627656", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_5927396|", 
+                "", 
+                "moved flags to empty line, will call this via uSequence", 
+                [
+                    "LINE_1662897"
+                ], 
+                [
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_BrynDeathCameraPan_Abyssal", 
+                        "Async": true
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2251721", 
+                "LINE_4243928", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_2251721|", 
+                "", 
+                "", 
+                [
+                    "LINE_0855062"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2433730", 
+                "LINE_5439619", 
+                "JARHILD", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_2433730|", 
+                "", 
+                "", 
+                [
+                    "LINE_6016971", 
+                    "LINE_6786765", 
+                    "LINE_2700141", 
+                    "LINE_5360188", 
+                    "LINE_3873291", 
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7290157", 
+                "LINE_5439619", 
+                "LARETHAR", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7290157|", 
+                "", 
+                "", 
+                [
+                    "LINE_6016971", 
+                    "LINE_4062036", 
+                    "LINE_2700141", 
+                    "LINE_5360188", 
+                    "LINE_3873291", 
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6791201", 
+                "LINE_5439619", 
+                "ILLYDIA", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_6791201|", 
+                "", 
+                "", 
+                [
+                    "LINE_6016971", 
+                    "LINE_6786765", 
+                    "LINE_4062036", 
+                    "LINE_2700141", 
+                    "LINE_3873291", 
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0486472", 
+                "LINE_5439619", 
+                "HOMMET", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_0486472|", 
+                "", 
+                "", 
+                [
+                    "LINE_6016971", 
+                    "LINE_6786765", 
+                    "LINE_4062036", 
+                    "LINE_2700141", 
+                    "LINE_5360188", 
+                    "LINE_3873291", 
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0012750", 
+                "LINE_5439619", 
+                "DALANIR", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_0012750|", 
+                "", 
+                "", 
+                [
+                    "LINE_4300580", 
+                    "LINE_6016971", 
+                    "LINE_6786765", 
+                    "LINE_4062036", 
+                    "LINE_2700141", 
+                    "LINE_5360188", 
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1277101", 
+                "LINE_5439619", 
+                "IZHKIN", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_1277101|", 
+                "", 
+                "", 
+                [
+                    "LINE_6016971", 
+                    "LINE_6786765", 
+                    "LINE_4062036", 
+                    "LINE_5360188", 
+                    "LINE_3873291", 
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "IZHKIN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7241416", 
+                "LINE_5439619", 
+                "JAVEN", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7241416|", 
+                "", 
+                "", 
+                [
+                    "LINE_6786765", 
+                    "LINE_4062036", 
+                    "LINE_2700141", 
+                    "LINE_5360188", 
+                    "LINE_3873291", 
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JAVEN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6016971", 
+                "LINE_0486472", 
+                "JAVEN", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_6016971|", 
+                "", 
+                "", 
+                [
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JAVEN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6786765", 
+                "LINE_0486472", 
+                "LARETHAR", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_6786765|", 
+                "", 
+                "", 
+                [
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4062036", 
+                "LINE_0486472", 
+                "JARHILD", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_4062036|", 
+                "", 
+                "", 
+                [
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2700141", 
+                "LINE_0486472", 
+                "IZHKIN", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_2700141|", 
+                "", 
+                "BK: cut second maybe", 
+                [
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "IZHKIN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5360188", 
+                "LINE_0486472", 
+                "ILLYDIA", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_5360188|", 
+                "", 
+                "", 
+                [
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3873291", 
+                "LINE_0486472", 
+                "DALANIR", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_3873291|", 
+                "", 
+                "", 
+                [
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4300580", 
+                "LINE_0012750", 
+                "HOMMET", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_4300580|", 
+                "", 
+                "", 
+                [
+                    "LINE_7089423"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7089423", 
+                "LINE_5439619", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7089423|", 
+                "", 
+                "", 
+                [
+                    "LINE_4243928"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4243928", 
+                "LINE_7089423", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_4243928|", 
+                "", 
+                "", 
+                [
+                    "LINE_2251721", 
+                    "LINE_2107106", 
+                    "LINE_3443852", 
+                    "LINE_7864698"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0855062", 
+                "LINE_2251721", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_0855062|", 
+                "", 
+                "BK: made more active", 
+                [
+                    "LINE_0257077", 
+                    "LINE_2107106", 
+                    "LINE_3443852", 
+                    "LINE_7864698"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0257077", 
+                "LINE_0855062", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_0257077|", 
+                "", 
+                "", 
+                [
+                    "LINE_8398966"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8398966", 
+                "LINE_0257077", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_8398966|", 
+                "", 
+                "BK changed \"your help\" to mercy", 
+                [
+                    "LINE_2107106", 
+                    "LINE_3443852", 
+                    "LINE_7864698"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2107106", 
+                "LINE_4243928", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_2107106|", 
+                "", 
+                "", 
+                [
+                    "LINE_7845108"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0439408", 
+                "LINE_1864062", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_0439408|", 
+                "", 
+                "", 
+                [
+                    "LINE_2107106", 
+                    "LINE_2251721", 
+                    "LINE_7864698"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4087767", 
+                "LINE_6262450", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_4087767|", 
+                "", 
+                "", 
+                [
+                    "LINE_6212747", 
+                    "LINE_4836272", 
+                    "LINE_2048077", 
+                    "LINE_9525938"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4836272", 
+                "LINE_4087767", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_4836272|", 
+                "", 
+                "", 
+                [
+                    "LINE_7011415"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Ch4_BrynStone_Abyssal", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9525938", 
+                "LINE_7845108", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_9525938|", 
+                "", 
+                "", 
+                [
+                    "LINE_9096095"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9096095", 
+                "LINE_9525938", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_9096095|", 
+                "", 
+                "", 
+                [
+                    "LINE_7495655", 
+                    "LINE_6468527", 
+                    "LINE_2048077"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9153571", 
+                "LINE_7233093", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_9153571|", 
+                "", 
+                "BK changed second \"place\" to location", 
+                [
+                    "LINE_5884822"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5884822", 
+                "LINE_9153571", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_5884822|", 
+                "", 
+                "", 
+                [
+                    "LINE_9113899"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9113899", 
+                "LINE_5884822", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_9113899|", 
+                "", 
+                "", 
+                [
+                    "LINE_2085099", 
+                    "LINE_8552578", 
+                    "LINE_7767695"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7767695", 
+                "LINE_9113899", 
+                "<PLAYER>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7767695|", 
+                "", 
+                "", 
+                [
+                    "LINE_2686871"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PLACEDBelaphossStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "clear"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7233093", 
+                "LINE_3774441", 
+                "<DEFAULT>", 
+                "|Ch4_DarkLakeDistrict_Bryn_LINE_7233093|", 
+                "", 
+                "", 
+                [
+                    "LINE_9153571"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2627656", 
+                "LINE_2085099", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "Mood/anim, new...  also, SETTING DROP ITEM QUEST FLAGS and Future Convo Flags", 
+                [
+                    "LINE_5927396"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_CHOSE_leaveAbyssalStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_CHOSE_takeBelaphossStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_UsedAbyssalStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "TriggerAbyssalStone", 
+                        "SpeakerTag": "Bryn RPE"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Ch4_BrynStone_Belaphoss"
+                ], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6812085", 
+                "LINE_8552578", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "Mood/anim, new...  also, SETTING DROP ITEM QUEST FLAGS and Future Convo Flags", 
+                [
+                    "LINE_5461695"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_CHOSE_leaveCelestialStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_CHOSE_takeBelaphossStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_UsedCelestialStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "TriggerCelestialStone", 
+                        "SpeakerTag": "Bryn RPE"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Ch4_BrynStone_Belaphoss"
+                ], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2686871", 
+                "LINE_7767695", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "Mood/anim, new...  also, SETTING DROP ITEM QUEST FLAGS and Future Convo Flags", 
+                [
+                    "LINE_9386136"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_CHOSE_takeBelaphossStone", 
+                        "Quest": "C4.4_The_Demons_Wake", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "TriggerBelaphossStone", 
+                        "SpeakerTag": "Bryn RPE"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Ch4_BrynStone_Belaphoss"
+                ], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6658088", 
+                "LINE_9386136", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9208397"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 2.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9456648", 
+                "LINE_5461695", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9208397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1662897", 
+                "LINE_5927396", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9208397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "BRYN Post RPE", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoSendingStoneInSeq": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False"
+            }
+        ]
+    ]
+}

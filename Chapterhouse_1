@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Settings
+
+        PortWeightX="100"
+        PortWeightZ="100"
+        PlayerLighting="DrowCavesPlayerLighting"
+        EncounterProbabilityMin ="75"
+        EncounterProbabilityMax ="85"
+        MaxHallwayDistance="300"
+        MaxHallwayTiles="4" >
+
+        <HallwayTiles>
+            <Tile Name="CAS_10_C_Hall" TransitionOverride="Castle_HallArch" />
+        </HallwayTiles>
+
+    </Settings>
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="BurningDawnSet01" />
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+       <Group>
+            <Trunk>
+                <Tiles >
+                       <Tile Name="CAS_FlortalDOWN"  />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="CAS_36_C_ChamberStairs" PortExtensionMin="4" PortExtensionMax="4" OpenAllPorts="1" />
+                </Tiles>
+            </Trunk>
+
+            <Branch Min="1" Max="1" >
+                <Tiles>
+					<!-- Kitchen -->
+                    <Tile XMLID="Kitchen"
+						Name="CAS_S_C_Armor"     
+						ForceEntryPort="Port05"   
+						EndCapOverride="CastleCap_Blank"  
+						OpenNoPorts="1" 
+						Max="1" />
+					
+                    <Tile Name="CAS_S_C_SixLegs"        OpenAllPorts="1" Max="1" />
+                    <Tile Name="CAS_S_C_RaisedCorner"   OpenAllPorts="1" Max="1" />
+                    <Tile Name="CAS_S_C_Prongs"         OpenAllPorts="1" Max="1" />
+                </Tiles>
+            </Branch>
+        </Group>
+
+        <Group>
+            <Trunk Min="1" Max="1" Sequential="1">
+                <Tiles>
+                    <Tile Name="CAS_31_C_Hall" ForceEntryPort="Port05" ForceExitPort="Port06" OpenAllPorts="1" TransitionOverride="CastleArch02" MaxDynamicHallways="0" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+
+        <Group>
+            <Trunk Min="1" Max="1" Sequential="1">
+                <Tiles  >
+                    <Tile Name="CAS_S_C_UpStairs" ForceEntryPort="Port08" PortExtensionMin="6" PortExtensionMax="6" OpenAllPorts="1" BranchingPriority="-1" />
+                    <Tile Name="CAS_10_I_Hall" PortExtensionMin="0" PortExtensionMax="0" />
+                    <Tile XMLID="LeaderBedroom" Name="CAS_S_C_Antechamber" Max="1" ForceEntryPort="Port06" MaxDynamicHallways="0" MaxPostBuildTiles="0" />
+                </Tiles>
+            </Trunk>
+
+            <!-- BED ROOMS -->
+            <Branch>
+                <Tiles>
+					<Tile Name="CAS_Bedroom_Unique" TransitionOverride="CastleDoor_Trapped" Max="1" />
+                    <Tile Name="CAS_Closet" TransitionOverride="CastleDoor_Room" />
+                </Tiles>
+            </Branch>
+        </Group>
+
+    </Groups>  
+</DungeonConfig>

@@ -1,0 +1,1639 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_Traps"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "Name"
+          STRING           "AbilityName"
+          STRING           "DevastatingAbilityName"
+          RESOURCE         "Models"    "LocationSet"
+          INTEGER          "ThreatCost"
+          INTEGER          "DisarmXP"
+          INTEGER          "DisarmXPMax"
+          NUMBER           "SecsToDisarm"
+          INTEGER          "ChanceToFire"
+          INTEGER          "ChanceToDevastateOnDisarmFailure"
+          NUMBER           "PlacementRadius"
+          INTEGER          "DestroyAfterTrigger"
+          INTEGER          "ForDM"
+          INTEGER          "ForEncounters"
+          STRING           "Icon"
+          STRING           "DisarmSuccessString"
+          STRING           "DisarmFailString"
+          STRING           "DisarmAudioEvent"
+          RESOURCE         "Models"    "DM_Mode_Model"
+          STRING           "TrapVFX"
+          STRING           "VictimVFX"
+          RESOURCE         "Models"    "BasePrefab"
+     }
+
+     TEMPLATE "Duergar_Floor_Fire"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_fire"
+          DATA             "Trap_Floor_Fire"
+          DATA             "DevastatingTrap_Floor_Fire"
+          DATA             "Duergar_Floor_Fire_Set"
+          DATA             "15"
+          DATA             "30"
+          DATA             "300"
+          DATA             "3"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_fire"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Duergar_Floor_Shock"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_shock"
+          DATA             "Trap_Floor_Shock"
+          DATA             "DevastatingTrap_Floor_Shock"
+          DATA             "Duergar_Floor_Shock_Set"
+          DATA             "15"
+          DATA             "30"
+          DATA             "300"
+          DATA             "3"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_shock"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Duergar_Floor_Knockdown"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_knockdown"
+          DATA             "Trap_Floor_Knockdown"
+          DATA             "DevastatingTrap_Floor_Knockdown"
+          DATA             "Duergar_Floor_Knockdown_Set"
+          DATA             "10"
+          DATA             "30"
+          DATA             "300"
+          DATA             "3"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_thunderstone"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Duergar_Floor_Spike"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_spike"
+          DATA             "Trap_Floor_Spike"
+          DATA             "DevastatingTrap_Floor_Spike"
+          DATA             "Duergar_Floor_Spike_Set"
+          DATA             "15"
+          DATA             "30"
+          DATA             "300"
+          DATA             "3"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_spear_floor"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Trap_Floor_Acid"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_acid"
+          DATA             "Trap_Floor_Acid"
+          DATA             "DevastatingTrap_Floor_Acid"
+          DATA             "Duergar_Floor_PoisonGas_Set"
+          DATA             "15"
+          DATA             "30"
+          DATA             "300"
+          DATA             "3"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_acid"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Duergar_Floor_Explosion"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_explosion"
+          DATA             "Trap_Floor_Explosion"
+          DATA             "DevastatingTrap_Floor_Explosion"
+          DATA             "Duergar_Floor_Explosion_Set"
+          DATA             "15"
+          DATA             "30"
+          DATA             "300"
+          DATA             "3"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_explosion"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Duergar_Floor_Freeze"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_freeze"
+          DATA             "Trap_Floor_Freeze"
+          DATA             "DevastatingTrap_Floor_Freeze"
+          DATA             "Duergar_Floor_Explosion_Set"
+          DATA             "20"
+          DATA             "30"
+          DATA             "300"
+          DATA             "4"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_freeze"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Trap_Floor_Petrify"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_petrify"
+          DATA             "Trap_Floor_Petrify"
+          DATA             "DevastatingTrap_Floor_Petrify"
+          DATA             "Duergar_Floor_Explosion_Set"
+          DATA             "20"
+          DATA             "30"
+          DATA             "300"
+          DATA             "4"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_petrify"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Duergar_Floor_Slow"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_web"
+          DATA             "Trap_Floor_Web"
+          DATA             "DevastatingTrap_Floor_Web"
+          DATA             "Duergar_Floor_Slow_Set"
+          DATA             "10"
+          DATA             "30"
+          DATA             "300"
+          DATA             "3"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_web"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Duergar_Floor_Arrows"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_arrow"
+          DATA             "Trap_Floor_Arrow"
+          DATA             "DevastatingTrap_Floor_Arrow"
+          DATA             "Duergar_Floor_Explosion_Set"
+          DATA             "15"
+          DATA             "30"
+          DATA             "300"
+          DATA             "3"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_arrow"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Trap_Floor_PoisonCloud"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_poisoncloud"
+          DATA             "Trap_Floor_PoisonCloud"
+          DATA             "DevastatingTrap_Floor_PoisonCloud"
+          DATA             "Duergar_Floor_Explosion_Set"
+          DATA             "20"
+          DATA             "30"
+          DATA             "300"
+          DATA             "4"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_poisoncloud"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+     TEMPLATE "Trap_Floor_PoisonSpew"
+     {
+          DESCRIPTION      ""
+          DATA             "trap_floor_poisonspew"
+          DATA             "Trap_Floor_PoisonSpew"
+          DATA             "DevastatingTrap_Floor_PoisonSpew"
+          DATA             "Duergar_Floor_Explosion_Set"
+          DATA             "20"
+          DATA             "30"
+          DATA             "300"
+          DATA             "4"
+          DATA             "75"
+          DATA             "50"
+          DATA             "4"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "trap_floor_poisonspew"
+          DATA             "trap_disarm_success"
+          DATA             "trap_disarm_fail"
+          DATA             ""
+          DATA             "Models\Props\DM_Mode\DUE_Trap_Floor2x2_00_DM"
+          DATA             ""
+          DATA             ""
+          DATA             "Levels\TileParts\DuergarTraps\DUE_Trap_Floor2x2_00"
+     }
+
+}
+
+GROUP "RT_TrapsLocationSet"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "IntroForest"
+          RESOURCE         ""    "BanditCave"
+          RESOURCE         ""    "IntroCamp"
+     }
+
+     TEMPLATE "Duergar_Floor_Fire_Set"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Duergar_Floor_Shock_Set"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Duergar_Floor_Knockdown_Set"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Caves_Floor_Spike_Set"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Duergar_Floor_Spike_Set"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Duergar_Floor_PoisonGas_Set"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Duergar_Floor_Slow_Set"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Duergar_Floor_Explosion_Set"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+}
+
+GROUP "RT_Puzzles"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "Name"
+          RESOURCE         ""    "PrefabPath"
+          RESOURCE         "Models"    "DM_Mode_Model"
+     }
+
+     TEMPLATE "SoundStatuePuzzle"
+     {
+          DESCRIPTION      "(outdated)"
+          DATA             "SoundStatuePuzzle"
+          DATA             "Puzzles\SoundStatuePuzzle"
+          DATA             "Puzzles\SoundStatuePuzzle_DM_Preview"
+     }
+
+     TEMPLATE "MaferilStatuePuzzle"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Puzzles\MaferilStatuePuzzle"
+          DATA             ""
+     }
+
+     TEMPLATE "RPP_DUE_36_C_Hall"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_C_Hall"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_C_Hall_Preview"
+     }
+
+     TEMPLATE "RPP_DUE_S_C_SixLegs"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_S_C_SixLegs"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_S_C_SixLegs_Preview"
+     }
+
+     TEMPLATE "RPP_DUE_S_C_TwinCornersDown"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_S_C_TwinCornersDown"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_S_C_TwinCornersDown_Preview"
+     }
+
+     TEMPLATE "RPP_DUE_S_I_Balconies"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_S_I_Balconies"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_S_I_Balconies_Preview"
+     }
+
+     TEMPLATE "RPP_DUE_36_Ballroom"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_Ballroom"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_Ballroom_Preview"
+     }
+
+     TEMPLATE "RPP_DUE_36_C_Grand"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_C_Grand"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_C_Grand_Preview"
+     }
+
+     TEMPLATE "RPP_DUE_36_C_Lagoon"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_C_Lagoon"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_C_Lagoon_Preview"
+     }
+
+     TEMPLATE "RPP_DUE_36_T_Speed"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_T_Speed"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_DUE_36_T_Speed_Preview"
+     }
+
+     TEMPLATE "RPP_CAT_S_C_Prongs"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAT_S_C_Prongs"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAT_S_C_Prongs_Preview"
+     }
+
+     TEMPLATE "RPP_CAT_Staging"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAT_Staging"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAT_Staging_Preview"
+     }
+
+     TEMPLATE "RPP_CAV_36_C_Lagoon"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAV_36_C_Lagoon"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAV_36_C_Lagoon_Preview"
+     }
+
+     TEMPLATE "RPP_CAS_Hall"
+     {
+          DESCRIPTION      "InitialChapterhouse"
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAS_Hall"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAS_Hall_Preview"
+     }
+
+     TEMPLATE "RPP_CAS_Hall_Redux"
+     {
+          DESCRIPTION      "PostChapterhouse"
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAS_Hall_Redux"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_CAS_Hall_Preview"
+     }
+
+     TEMPLATE "RPP_Zone_Middledark"
+     {
+          DESCRIPTION      ""
+          DATA             "Rotating Pyramid Puzzle"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_Zone_Middledark"
+          DATA             "Puzzles\RotatingPyramidPuzzle\RPP_Zone_Middledark_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_DUE_36_C_Ballroom"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_36_C_Ballroom"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_36_C_Ballroom_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_DUE_S_C_Altar"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_Altar"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_Altar_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_DUE_S_C_Angle"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_Angle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_Angle_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_DUE_S_C_Prongs"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_Prongs"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_Prongs_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_DUE_S_C_TwinCornersDown"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_TwinCornersDown"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_TwinCornersDown_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_DUE_36_C_Grand"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_36_C_Grand"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_36_C_Grand_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_DUE_S_C_Platform"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_Platform"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_C_Platform_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_DUE_S_I_Regal"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_I_Regal"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_S_I_Regal_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_DUE_Vault_Exit"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_Vault_Exit"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_DUE_Vault_Exit_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_36_C_Ballroom"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_36_C_Ballroom"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_36_C_Ballroom_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_36_C_ChamberStairs"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_36_C_ChamberStairs"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_36_C_ChamberStairs_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_36_C_RaisedCorner"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_36_C_RaisedCorner"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_36_C_RaisedCorner_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_S_C_Altar"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_Altar"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_Altar_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_S_C_Prongs"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_Prongs"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_Prongs_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_S_C_RaisedCorner"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_RaisedCorner"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_RaisedCorner_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_S_C_Steps"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_Steps"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_Steps_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_S_C_TwinCornersDown"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_TwinCornersDown"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_TwinCornersDown_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_36_C_TwinCornersDown"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_36_C_TwinCornersDown"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_36_C_TwinCornersDown_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_BasicCross_01"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_BasicCross_01"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_BasicCross_01_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_S_C_Antechamber"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_Antechamber"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_C_Antechamber_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_S_I_LilDip"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_I_LilDip"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_I_LilDip_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DUE_S_T_Anchor"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_T_Anchor"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DUE_S_T_Anchor_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_CAV_S_C_Goat"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_C_Goat"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_C_Goat_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_CAV_S_C_Hyundai"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_C_Hyundai"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_C_Hyundai_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_CAV_S_I_Noodle"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_I_Noodle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_I_Noodle_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_CAV_M_C_Skull"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_M_C_Skull"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_M_C_Skull_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_CAV_36_C_River"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_36_C_River"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_36_C_River_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_CAV_M_C_Choke"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_M_C_Choke"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_M_C_Choke_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_CAV_S_C_Platform"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_C_Platform"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_C_Platform_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_CAV_S_C_Psi"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_C_Psi"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_C_Psi_Preview"
+     }
+
+     TEMPLATE "PPP_Seq_CAV_S_E_Platform"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_E_Platform"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Seq_CAV_S_E_Platform_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_36_T_Tadpole"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_36_T_Tadpole"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_36_T_Tadpole_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_M_C_Pretzel"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_M_C_Pretzel"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_M_C_Pretzel_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_S_C_Bolt"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_C_Bolt"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_C_Bolt_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_36_T_JStairs"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_36_T_Jstairs"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_36_T_JStairs_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_S_T_Why"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_T_Why"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_T_Why_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_S_T_Donut"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_T_Donut"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_T_Donut_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_S_E_TwoPlat"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_E_TwoPlat"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_E_TwoPlat_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_36_C_Ramps"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_36_C_Ramps"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_36_C_Ramps_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_S_C_Zcross"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_C_Zcross"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_C_Zcross_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_CAV_S_I_Bridge"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_I_Bridge"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_CAV_S_I_Bridge_Preview"
+     }
+
+     TEMPLATE "PPP_Stand_DC_36_T3_08"
+     {
+          DESCRIPTION      ""
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DC_36_T3_08"
+          DATA             "Puzzles\PressurePlatePuzzle\PPP_Stand_DC_36_T3_08_Preview"
+     }
+
+     TEMPLATE "Dalanir_CQ_CrystalPuzzleManager"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Puzzles\Dalanir_CQ_CrystalPuzzle\Dalanir_CQ_CrystalPuzzleManager"
+          DATA             ""
+     }
+
+     TEMPLATE "SigilPuzzleManager"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Puzzles\Dalanir_CQ_SigilPuzzle\SigilPuzzleManager"
+          DATA             ""
+     }
+
+     TEMPLATE "LOP_S_C_CornerCross"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+          DATA             "Puzzles\LightsOutPuzzle\LOP_S_C_CornerCross"
+          DATA             ""
+     }
+
+     TEMPLATE "LOP_CAT_S_T_BandStand"
+     {
+          DESCRIPTION      "(outdated, I think)"
+          DATA             ""
+          DATA             "Puzzles\LightsOutPuzzle\LOP_CAT_S_T_BandStand"
+          DATA             ""
+     }
+
+     TEMPLATE "PressurePlatePuzzle_SinglePlate"
+     {
+          DESCRIPTION      "exists in bandit caves, before martumal"
+          DATA             "Pressure Plate Puzzle"
+          DATA             "Puzzles\PressurePlatePuzzle\PressurePlatePuzzle_SinglePlate"
+          DATA             ""
+     }
+
+}
+
+GROUP "RT_EncounterPrefabOverrides"
+{
+     FORMAT
+     {
+          RESOURCE         ""    "Name"
+          RESOURCE         "Models"    "DM_Mode_Model"
+     }
+
+}
+
+GROUP "RT_ModifyActionable"
+{
+     FORMAT
+     {
+          INTEGER          "IsPlayerModify"
+          INTEGER          "IsDMModify"
+          INTEGER          "ThreatCost"
+          INTEGER          "DifficultyCheck"
+          STRING           "StatToCheck"
+          NUMBER           "ModifyTime"
+          STRING           "ModifyActionNameID"
+          STRING           "ModifyActionDescID"
+          STRING           "ModifyingTextID"
+          STRING           "SuccessTextID"
+          STRING           "FailTextID"
+          STRING           "ModifyingSoundID"
+          STRING           "SuccessSoundID"
+          STRING           "FailSoundID"
+          STRING           "ClassRestriction"
+          HASH             "ClassRestrictionTextID"
+          STRING           "ClassRestrictionSoundID"
+          RESOURCE         ""    "Icon"
+     }
+
+     TEMPLATE "Lock"
+     {
+          DESCRIPTION      ""
+          DATA             "0"
+          DATA             "1"
+          DATA             "10"
+          DATA             "5"
+          DATA             "Dexterity"
+          DATA             "5"
+          DATA             "modifyaction_lock_name"
+          DATA             "modifyaction_lock_desc"
+          DATA             ""
+          DATA             "lock_success"
+          DATA             "lock_fail"
+          DATA             "Play_UI_PickLock"
+          DATA             "Play_UI_PickLock_Success"
+          DATA             "Play_UI_PickLock_Failure"
+          DATA             ""
+          DATA             "no_skill"
+          DATA             "Play_VO_Fail"
+          DATA             "modifyAction_lock"
+     }
+
+     TEMPLATE "Unlock"
+     {
+          DESCRIPTION      ""
+          DATA             "0"
+          DATA             "1"
+          DATA             "-5"
+          DATA             "5"
+          DATA             "Dexterity"
+          DATA             "5"
+          DATA             "modifyaction_unlock_name"
+          DATA             "modifyaction_unlock_desc"
+          DATA             ""
+          DATA             "unlock_success"
+          DATA             "unlock_fail"
+          DATA             "Play_UI_PickLock"
+          DATA             "Play_UI_PickLock_Success"
+          DATA             "Play_UI_PickLock_Failure"
+          DATA             ""
+          DATA             "no_skill"
+          DATA             "Play_VO_Fail"
+          DATA             "modifyAction_unlock"
+     }
+
+     TEMPLATE "PickLock"
+     {
+          DESCRIPTION      ""
+          DATA             "1"
+          DATA             "0"
+          DATA             ""
+          DATA             "5"
+          DATA             "Dexterity"
+          DATA             "3"
+          DATA             "modifyaction_picklock_name"
+          DATA             "modifyaction_picklock_desc"
+          DATA             ""
+          DATA             "picklock_success"
+          DATA             "picklock_fail"
+          DATA             "Play_UI_PickLock"
+          DATA             "Play_UI_PickLock_Success"
+          DATA             "Play_UI_PickLock_Failure"
+          DATA             ""
+          DATA             "no_skill"
+          DATA             "Play_VO_Fail"
+          DATA             "modifyAction_pickLock"
+     }
+
+     TEMPLATE "ForceLock"
+     {
+          DESCRIPTION      ""
+          DATA             "1"
+          DATA             "0"
+          DATA             ""
+          DATA             "5"
+          DATA             "Dexterity"
+          DATA             "5"
+          DATA             "modifyaction_forcelock_name"
+          DATA             "modifyaction_forcelock_desc"
+          DATA             ""
+          DATA             "forcelock_success"
+          DATA             "forcelock_fail"
+          DATA             "Play_UI_PickLock"
+          DATA             "Play_UI_PickLock_Success"
+          DATA             "Play_UI_PickLock_Failure"
+          DATA             ""
+          DATA             "no_skill"
+          DATA             "Play_VO_Fail"
+          DATA             "modifyAction_forceLock"
+     }
+
+     TEMPLATE "PlaceTrap"
+     {
+          DESCRIPTION      ""
+          DATA             "0"
+          DATA             "1"
+          DATA             "10"
+          DATA             "5"
+          DATA             "Dexterity"
+          DATA             "5"
+          DATA             "modifyaction_placetrap_name"
+          DATA             "modifyaction_placetrap_desc"
+          DATA             ""
+          DATA             "placetrap_success"
+          DATA             "placetrap_fail"
+          DATA             "Play_UI_PickLock"
+          DATA             "Play_UI_PickLock_Success"
+          DATA             "Play_UI_PickLock_Failure"
+          DATA             ""
+          DATA             "no_skill"
+          DATA             "Play_VO_Fail"
+          DATA             "modifyAction_placeTrap"
+     }
+
+     TEMPLATE "DisableTrap"
+     {
+          DESCRIPTION      ""
+          DATA             "1"
+          DATA             "0"
+          DATA             ""
+          DATA             "5"
+          DATA             "Dexterity"
+          DATA             "3"
+          DATA             "modifyaction_disabletrap_name"
+          DATA             "modifyaction_disabletrap_desc"
+          DATA             ""
+          DATA             "disabletrap_success"
+          DATA             "disabletrap_fail"
+          DATA             "Play_UI_PickLock"
+          DATA             "Play_UI_PickLock_Success"
+          DATA             "Play_UI_PickLock_Failure"
+          DATA             ""
+          DATA             "no_skill"
+          DATA             "Play_VO_Fail"
+          DATA             "modifyAction_disableTrap"
+     }
+
+     TEMPLATE "RemoveTrap"
+     {
+          DESCRIPTION      ""
+          DATA             "0"
+          DATA             "1"
+          DATA             "-10"
+          DATA             "5"
+          DATA             "Dexterity"
+          DATA             "5"
+          DATA             "modifyaction_removetrap_name"
+          DATA             "modifyaction_removetrap_desc"
+          DATA             ""
+          DATA             "removetrap_success"
+          DATA             "removetrap_fail"
+          DATA             "Play_UI_PickLock"
+          DATA             "Play_UI_PickLock_Success"
+          DATA             "Play_UI_PickLock_Failure"
+          DATA             ""
+          DATA             "no_skill"
+          DATA             "Play_VO_Fail"
+          DATA             "modifyAction_removeTrap"
+     }
+
+}
+
+GROUP "RT_PerceptionDifficulty"
+{
+     FORMAT
+     {
+          INTEGER          "Level1"
+          INTEGER          "Level2"
+          INTEGER          "Level3"
+          INTEGER          "Level4"
+          INTEGER          "Level5"
+          INTEGER          "Level6"
+          INTEGER          "Level7"
+          INTEGER          "Level8"
+          INTEGER          "Level9"
+          INTEGER          "Level10"
+          INTEGER          "Level11"
+          INTEGER          "Level12"
+          INTEGER          "Level13"
+          INTEGER          "Level14"
+          INTEGER          "Level15"
+          INTEGER          "Level16"
+          INTEGER          "Level17"
+          INTEGER          "Level18"
+          INTEGER          "Level19"
+          INTEGER          "Level20"
+     }
+
+     TEMPLATE "Always"
+     {
+          DESCRIPTION      "Always Find"
+          DATA             "1"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Easy"
+     {
+          DESCRIPTION      ""
+          DATA             "12"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "13"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "14"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "15"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "16"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Normal"
+     {
+          DESCRIPTION      "Avg Player Active"
+          DATA             "16"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "19"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "20"
+          DATA             "22"
+          DATA             ""
+          DATA             ""
+          DATA             "23"
+          DATA             ""
+          DATA             "25"
+          DATA             ""
+          DATA             "26"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Hard"
+     {
+          DESCRIPTION      ""
+          DATA             "21"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             "24"
+          DATA             "25"
+          DATA             ""
+          DATA             ""
+          DATA             "26"
+          DATA             "28"
+          DATA             "29"
+          DATA             "30"
+          DATA             "31"
+          DATA             ""
+          DATA             "34"
+          DATA             ""
+          DATA             "35"
+          DATA             ""
+          DATA             ""
+          DATA             "36"
+     }
+
+     TEMPLATE "VeryHard"
+     {
+          DESCRIPTION      "Perception Build"
+          DATA             "24"
+          DATA             ""
+          DATA             ""
+          DATA             "25"
+          DATA             "28"
+          DATA             "30"
+          DATA             ""
+          DATA             ""
+          DATA             "31"
+          DATA             "33"
+          DATA             ""
+          DATA             "36"
+          DATA             "37"
+          DATA             ""
+          DATA             "41"
+          DATA             ""
+          DATA             "42"
+          DATA             ""
+          DATA             ""
+          DATA             "43"
+     }
+
+     TEMPLATE "Never"
+     {
+          DESCRIPTION      "Never Find"
+          DATA             "99"
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+          DATA             ""
+     }
+
+}
+
+GROUP "RT_LockpickDifficulty"
+{
+     FORMAT
+     {
+          INTEGER          "Level1"
+          INTEGER          "Level2"
+          INTEGER          "Level3"
+          INTEGER          "Level4"
+          INTEGER          "Level5"
+          INTEGER          "Level6"
+          INTEGER          "Level7"
+          INTEGER          "Level8"
+          INTEGER          "Level9"
+          INTEGER          "Level10"
+          INTEGER          "Level11"
+          INTEGER          "Level12"
+          INTEGER          "Level13"
+          INTEGER          "Level14"
+          INTEGER          "Level15"
+          INTEGER          "Level16"
+          INTEGER          "Level17"
+          INTEGER          "Level18"
+          INTEGER          "Level19"
+          INTEGER          "Level20"
+          INTEGER          "Level21"
+          INTEGER          "Level22"
+          INTEGER          "Level23"
+          INTEGER          "Level24"
+          INTEGER          "Level25"
+          INTEGER          "Level26"
+          INTEGER          "Level27"
+          INTEGER          "Level28"
+          INTEGER          "Level29"
+          INTEGER          "Level30"
+          INTEGER          "Level31"
+          INTEGER          "Level32"
+          INTEGER          "Level33"
+          INTEGER          "Level34"
+          INTEGER          "Level35"
+          INTEGER          "Level36"
+          INTEGER          "Level37"
+          INTEGER          "Level38"
+          INTEGER          "Level39"
+          INTEGER          "Level40"
+     }
+
+     TEMPLATE "Always"
+     {
+          DESCRIPTION      ""
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+          DATA             "1"
+     }
+
+     TEMPLATE "Easy"
+     {
+          DESCRIPTION      ""
+          DATA             "6"
+          DATA             "6"
+          DATA             "7"
+          DATA             "8"
+          DATA             "9"
+          DATA             "9"
+          DATA             "10"
+          DATA             "10"
+          DATA             "11"
+          DATA             "11"
+          DATA             "11"
+          DATA             "11"
+          DATA             "12"
+          DATA             "13"
+          DATA             "13"
+          DATA             "14"
+          DATA             "14"
+          DATA             "14"
+          DATA             "14"
+          DATA             "15"
+          DATA             "15"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+          DATA             "16"
+     }
+
+     TEMPLATE "Normal"
+     {
+          DESCRIPTION      ""
+          DATA             "10"
+          DATA             "11"
+          DATA             "12"
+          DATA             "13"
+          DATA             "14"
+          DATA             "14"
+          DATA             "15"
+          DATA             "15"
+          DATA             "16"
+          DATA             "17"
+          DATA             "19"
+          DATA             "20"
+          DATA             "21"
+          DATA             "21"
+          DATA             "22"
+          DATA             "23"
+          DATA             "24"
+          DATA             "25"
+          DATA             "27"
+          DATA             "28"
+          DATA             "29"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+          DATA             "30"
+     }
+
+     TEMPLATE "Hard"
+     {
+          DESCRIPTION      ""
+          DATA             "13"
+          DATA             "14"
+          DATA             "16"
+          DATA             "17"
+          DATA             "18"
+          DATA             "19"
+          DATA             "20"
+          DATA             "20"
+          DATA             "21"
+          DATA             "23"
+          DATA             "25"
+          DATA             "27"
+          DATA             "29"
+          DATA             "31"
+          DATA             "33"
+          DATA             "35"
+          DATA             "37"
+          DATA             "37"
+          DATA             "38"
+          DATA             "38"
+          DATA             "39"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+          DATA             "40"
+     }
+
+     TEMPLATE "VeryHard"
+     {
+          DESCRIPTION      ""
+          DATA             "18"
+          DATA             "18"
+          DATA             "19"
+          DATA             "23"
+          DATA             "26"
+          DATA             "27"
+          DATA             "29"
+          DATA             "30"
+          DATA             "32"
+          DATA             "34"
+          DATA             "36"
+          DATA             "38"
+          DATA             "40"
+          DATA             "40"
+          DATA             "41"
+          DATA             "41"
+          DATA             "42"
+          DATA             "42"
+          DATA             "43"
+          DATA             "44"
+          DATA             "45"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+          DATA             "46"
+     }
+
+     TEMPLATE "Never"
+     {
+          DESCRIPTION      ""
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+          DATA             "99"
+     }
+
+}
+

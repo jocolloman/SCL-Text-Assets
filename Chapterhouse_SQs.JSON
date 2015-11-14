@@ -1,0 +1,1113 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "DogGateConversation01", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "WARDOG"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_8829838", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9563368", 
+                    "LINE_1541588"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9563368", 
+                "LINE_8829838", 
+                "<DEFAULT>", 
+                "|Chapterhouse_SQs_LINE_9563368|", 
+                "", 
+                "", 
+                [
+                    "LINE_0557210", 
+                    "LINE_5389585", 
+                    "LINE_7653356"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "FedDog01", 
+                                    "Quest": "Wardog_UntrackedSQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0557210", 
+                "LINE_9563368", 
+                "<PLAYER>", 
+                "|Chapterhouse_SQs_LINE_0557210|", 
+                "", 
+                "", 
+                [
+                    "LINE_5642734"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Consumable_Food_TenderShortrib", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5389585", 
+                "LINE_9563368", 
+                "<PLAYER>", 
+                "|Chapterhouse_SQs_LINE_5389585|", 
+                "", 
+                "", 
+                [
+                    "LINE_2760216"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1541588", 
+                "LINE_8829838", 
+                "<DEFAULT>", 
+                "|Chapterhouse_SQs_LINE_1541588|", 
+                "", 
+                "", 
+                [
+                    "LINE_5389585", 
+                    "LINE_7653356"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5642734", 
+                "LINE_0557210", 
+                "<DEFAULT>", 
+                "|Chapterhouse_SQs_LINE_5642734|", 
+                "", 
+                "[The war dog looks delighted as you toss the rib into his cell. It quickly tears apart the rib and looks back up at you, with a much friendlier expression on its face.]", 
+                [
+                    "LINE_5389585", 
+                    "LINE_7653356"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "FedDog01", 
+                        "Quest": "Wardog_UntrackedSQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Consumable:Consumable_Food_TenderShortrib"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7653356", 
+                "LINE_9563368", 
+                "<PLAYER>", 
+                "|Chapterhouse_SQs_LINE_7653356|", 
+                "", 
+                "", 
+                [
+                    "LINE_0546803"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2760216", 
+                "LINE_5389585", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_7564733", 
+                    "LINE_5648009"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "OpenedDoor01", 
+                        "Quest": "Wardog_UntrackedSQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0546803", 
+                "LINE_7653356", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7564733", 
+                "LINE_2760216", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "If you fed him.", 
+                [
+                    "LINE_8860248"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "FedDog01", 
+                                    "Quest": "Wardog_UntrackedSQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5648009", 
+                "LINE_2760216", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "If you didnt feed him", 
+                [
+                    "LINE_8308653"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "FedDog01", 
+                                    "Quest": "Wardog_UntrackedSQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8860248", 
+                "LINE_7564733", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4609362"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "JoinPartyAsLocalFollower", 
+                        "SpeakerTag": "WARDOG"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8308653", 
+                "LINE_5648009", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4609362"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "MakeCreatureFactionHostile", 
+                        "SpeakerTag": "WARDOG"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4609362", 
+                "LINE_8860248", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "ForceActionDoor", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ForceActionDoor01", 
+                        "Quest": "Wardog_UntrackedSQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "DogGateConversation02", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "WARDOG2"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "NeedsVO": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0620287", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8819053", 
+                    "LINE_9976651"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8819053", 
+                "LINE_0620287", 
+                "<DEFAULT>", 
+                "|Chapterhouse_SQs_LINE_8819053|", 
+                "", 
+                "", 
+                [
+                    "LINE_6653724", 
+                    "LINE_3853216", 
+                    "LINE_2653715"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "FedDog02", 
+                                    "Quest": "Wardog_UntrackedSQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9976651", 
+                "LINE_0620287", 
+                "<DEFAULT>", 
+                "|Chapterhouse_SQs_LINE_9976651|", 
+                "", 
+                "", 
+                [
+                    "LINE_3853216", 
+                    "LINE_2653715"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6653724", 
+                "LINE_8819053", 
+                "<PLAYER>", 
+                "|Chapterhouse_SQs_LINE_6653724|", 
+                "", 
+                "", 
+                [
+                    "LINE_6071035"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "Consumable_Food_TenderShortrib", 
+                                    "Type": "HasItem", 
+                                    "ResourceCount": 1
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3853216", 
+                "LINE_8819053", 
+                "<PLAYER>", 
+                "|Chapterhouse_SQs_LINE_3853216|", 
+                "", 
+                "", 
+                [
+                    "LINE_7876296"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2653715", 
+                "LINE_8819053", 
+                "<PLAYER>", 
+                "|Chapterhouse_SQs_LINE_2653715|", 
+                "", 
+                "", 
+                [
+                    "LINE_4445398"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7876296", 
+                "LINE_3853216", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9393625", 
+                    "LINE_8208315"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "OpenedDoor02", 
+                        "Quest": "Wardog_UntrackedSQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9393625", 
+                "LINE_7876296", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "If you fed him", 
+                [
+                    "LINE_2203653"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "FedDog02", 
+                                    "Quest": "Wardog_UntrackedSQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4445398", 
+                "LINE_2653715", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6071035", 
+                "LINE_6653724", 
+                "<DEFAULT>", 
+                "|Chapterhouse_SQs_LINE_6071035|", 
+                "", 
+                "[The war dog looks delighted as you toss the rib into his cell. It quickly tears apart the rib and looks back up at you, with a much friendlier expression on its face.]", 
+                [
+                    "LINE_3853216", 
+                    "LINE_2653715"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "FedDog02", 
+                        "Quest": "Wardog_UntrackedSQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Consumable:Consumable_Food_TenderShortrib"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8208315", 
+                "LINE_7876296", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "If you didnt feed him", 
+                [
+                    "LINE_5331024"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "FedDog02", 
+                                    "Quest": "Wardog_UntrackedSQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2203653", 
+                "LINE_9393625", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0163410"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "JoinPartyAsLocalFollower", 
+                        "SpeakerTag": "WARDOG2"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5331024", 
+                "LINE_8208315", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0163410"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "MakeCreatureFactionHostile", 
+                        "SpeakerTag": "WARDOG2"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0163410", 
+                "LINE_2203653", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ForceActionDoor02", 
+                        "Quest": "Wardog_UntrackedSQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "ChefAmbient", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "False", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "CHEF"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "NeedsVO": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_7644138", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8098332"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "SetFactionFromConvo Baddies", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8098332", 
+                "LINE_7644138", 
+                "<DEFAULT>", 
+                "|Chapterhouse_SQs_LINE_8098332|", 
+                "", 
+                "", 
+                [
+                    "LINE_2005136"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2005136", 
+                "LINE_8098332", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

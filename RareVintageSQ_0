@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" />
+ 
+ <!-- CREATURES -->	
+    <CreatureSets>
+        <CreatureSet Name="SkeletonSet1" />            
+	</CreatureSets>
+	
+<!-- DUNGEON -->	
+    <Groups>
+        
+<!-- Starting Tile & Stairs down -->
+            <Group>  
+                <Trunk  Min="1" Max="1">
+                    <Tiles >
+                       <Tile Name="SPI_FlortalUp_RareVintageSQ" TransitionOverride="SpiderCastleDoor" OpenAllPorts = "1"/>
+                    </Tiles>
+                </Trunk>
+            </Group>
+            
+            <Group>  
+                <Trunk  Min="1" Max="1">
+                    <Tiles >
+                       <Tile Name="SPI_31_C_Hall" ForceEntryPort="Port05" ForceExitPort="Port06" OpenAllPorts = "1"/>
+                    </Tiles>
+                </Trunk>
+            </Group>
+
+         <Group>  
+                <Trunk  Min="1" Max="1">
+                    <Tiles >
+                       <Tile Name="SPI_S_C_Antechamber" ForceEntryPort="Port04" ForceExitPort="Port06" />
+                    </Tiles>
+                </Trunk>
+            </Group>
+            
+             <Group>  
+                <Trunk  Min="1" Max="1">
+                    <Tiles >
+                       <Tile Name="SPI_S_C_Armor_RareVintageBoss" ForceEntryPort="Port03" ForceExitPort="Port01" TransitionOverride="SpiderCastleArch02" />
+                    </Tiles>
+                </Trunk>
+        </Group>
+
+        <Group>  
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SPI_S_C_Hall" ForceEntryPort="Port02" ForceExitPort="Port03" TransitionOverride="SpiderCastleArch01" />
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+         <Group>  
+                <Trunk  Min="1" Max="1">
+                    <Tiles >
+                       <Tile Name="SPI_10_C_Hall" ForceEntryPort="Port02" ForceExitPort="Port03"  />   
+                    </Tiles>
+                </Trunk>
+        </Group>
+
+    </Groups>
+    
+     <PostBuildTiles>
+        <Tiles>
+            <!-- <Tile Name="SPI_10_C_Secret" ForceEntryPort="Port01" PortExtensionMin="1" PortExtensionMax="1" TransitionOverride="SpiderCastleSecretDoor" EndCapOverride="SpiderCastleCap_Blank" /> -->
+            <Tile Name="SPI_10_C_Secret" ForceEntryPort="Port01" PortExtensionMin="1" PortExtensionMax="1" TransitionOverride="SpiderCastleSecretDoor" EndCapOverride="SpiderCastleCap_Blank" />
+        </Tiles>
+    </PostBuildTiles>
+    
+</DungeonConfig>

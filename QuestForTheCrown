@@ -1,0 +1,222 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.8"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "QuestForTheCrown": [
+            "QuestForTheCrown_QuestForTheCrown_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "QFTC_SpeakWithKing": [
+                    "QuestForTheCrown_QuestForTheCrown_QFTC_SpeakWithKing_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "QuestForTheCrown_QuestForTheCrown_QFTC_SpeakWithKing_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "QFTC_Crown_One": [
+                    "QuestForTheCrown_QuestForTheCrown_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "QuestForTheCrown_QuestForTheCrown_Flag 1_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "QFTC_Crown_Two": [
+                    "QuestForTheCrown_QuestForTheCrown_Flag 2_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "QuestForTheCrown_QuestForTheCrown_Flag 2_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "QFTC_Crown_Three": [
+                    "QuestForTheCrown_QuestForTheCrown_Flag 3_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "QuestForTheCrown_QuestForTheCrown_Flag 3_JournalEntry", 
+                    "", 
+                    [], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "QFTC_ReturnToKing": [
+                    "QuestForTheCrown_QuestForTheCrown_Flag 4_Name", 
+                    5, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "QuestForTheCrown_QuestForTheCrown_Flag 4_JournalEntry", 
+                    "", 
+                    [
+                        {
+                            "flag": "QFTC_Crown_Three", 
+                            "quest": "QuestForTheCrown", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    0, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            ""
+        ]
+    }
+}

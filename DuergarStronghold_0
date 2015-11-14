@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+
+<!--  No puzzles (rotating, pressure plate) RANDOM encounters in the prison, this xml -->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DuergarSet01" />  
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>
+
+<!-- FLORTAL - Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DUE_Staging" />  <!-- The actual staging tile of this dungeon -->
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- Tree 1 -->       
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_Hall"  PortExtensionMin= "0" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+<!--END tree 1 -->
+
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DUE_S_C_OpenCross"  PortExtensionMin= "8" PortExtensionMax = "10" OpenAllPorts= "1"  ForceEntryPort="Port06" ForceExitPort="Port05"/>  <!-- Door LOCKED between groups in level settings  -->
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DUE_PrisonCell01" TransitionOverride="DuergarPrisonDoor01" Max = "1" XMLID = "CellBlock_A"/>   <!-- generic prisoners  -->
+                    
+                    <Tile Name="DUE_Prisoncell07" TransitionOverride="DuergarPrisonDoor07" Max = "1" XMLID = "CellBlock_A"/>    <!--  Stockholm Syndrome Dwarf  -->
+    
+                    <Tile Name="DUE_PrisonCell04" TransitionOverride="DuergarPrisonDoor04" Max = "1" XMLID = "CellBlock_A"/>   <!-- drow  -->
+                    
+                    <Tile Name="DUE_Prisoncell10" TransitionOverride="DuergarPrisonDoor" Max = "1" XMLID = "CellBlock_A"/>    <!--  Dead Duergar  - no need for special door-->  
+    
+                    <Tile Name="DUE_Prisoncell03" TransitionOverride="DuergarPrisonDoor03" Max = "1" XMLID = "CellBlock_A"/>    <!-- generic prisoners  -->
+
+                    <Tile Name="DUE_PrisonCell" PortExtensionMin= "2" PortExtensionMax = "2" TransitionOverride="DuergarPrisonDoor" Max = "1" XMLID = "CellBlock_A"/>    <!-- I TILE!!!!   w/ Secret -->
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DUE_PrisonSecret" TransitionOverride="DuergarPrisonSecretDoor" Max = "1" />   <!-- Secret Room connected to DUE_PrisonCell  -->
+                </Tiles>
+            </Leaf>
+            
+        </Group>
+        
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DUE_PrisonStaging" 
+                    TransitionOverride="DuergarArch01" 
+                    ForceEntryPort="Port01" />  <!-- This is where the players start the first time they visit this dungeon   Also, The other port is a locked door per level settings -->
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- Tree 3 -->       
+        <Group>
+            <Trunk Min="1" Max="1"> 
+                <Tiles >
+                   <Tile Name="DUE_S_C_OpenCross"  PortExtensionMin= "8" PortExtensionMax = "10" OpenAllPorts= "1" ForceEntryPort="Port05" ForceExitPort="Port06"/>  <!-- Door LOCKED between groups in level settings  -->
+                </Tiles>
+            </Trunk>
+            
+        <!-- Tree 3 BranchTiles -->
+            <Branch Min="1" Max="1">
+                <Tiles>
+                
+                    <Tile Name="DUE_Prisoncell02" TransitionOverride="DuergarPrisonDoor02" Max = "1" XMLID = "CellBlock_B"/>   <!-- generic prisoners  -->
+ 
+                    <Tile Name="DUE_Prisoncell08" TransitionOverride="DuergarPrisonDoor08" Max = "1" XMLID = "CellBlock_B"/>    <!--  Fighting Derro -->
+
+                    <Tile Name="DUE_Prisoncell05" TransitionOverride="DuergarPrisonDoor05" Max = "1" XMLID = "CellBlock_B"/>    <!-- generic prisoners  -->
+                    
+                    <Tile Name="DUE_Prisoncell09" TransitionOverride="DuergarPrisonDoor09" Max = "1" XMLID = "CellBlock_B"/>    <!--  Friendly Human -->
+
+                    <Tile Name="DUE_Prisoncell06" TransitionOverride="DuergarPrisonDoor06" Max = "1" XMLID = "CellBlock_B"/>     <!-- generic prisoners  -->
+                    
+                    <Tile Name="DUE_Prisoncell11" TransitionOverride="DuergarPrisonDoor" Max = "1" XMLID = "CellBlock_B"/>     <!-- searchable brick w/ shiv  - no need for special door -->
+                </Tiles>
+            </Branch>
+        </Group>
+<!--END tree 3 -->
+
+<!-- Inserting this section per feedback -->       
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_S_C_Armor"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />  
+                    <Tile Name="DUE_BasicCross_01"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />  
+                </Tiles>
+            </Trunk>
+
+            <Branch Min="4" Max="4" Probability="100"> <!-- 'Fake hallway -->
+                <Tiles>
+                    <Tile Name="DUE_10_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" TransitionOverride="DuergarArch02" />  
+                </Tiles>
+            </Branch>
+            
+               <Leaf Min="1" Max="1" Probability="100">
+                <Tiles>
+                    <Tile Name="DUE_S_C_Armor"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />  
+                    <Tile Name="DUE_BasicCross_01"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />   
+                </Tiles>
+            </Leaf>
+        </Group>
+<!-- End added section -->
+
+ <!-- Tree 4 -->       
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_S_C_SixLegs"  PortExtensionMin= "4" PortExtensionMax = "4"  XMLID = "KeyDrops" />  <!-- Jailer fight -->
+                </Tiles>
+            </Trunk>
+            
+        <!-- Tree 4 Branch -->
+            <Branch Min="1" Max="2" Probability="66">
+                <Tiles>
+                    <Tile Name="DUE_Closet" TransitionOverride="DuergarDoor_Trapped" Max = "1" />  
+                    <Tile Name="DUE_Closet" TransitionOverride="DuergarSecretDoor" Max = "1" /> 
+                    <Tile Name="DUE_10_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" TransitionOverride="DuergarArch02" />  
+                </Tiles>
+            </Branch>
+        </Group>
+<!--END tree 4 -->
+ 
+        <Group>
+            <Trunk>
+                <Tiles >
+                  <Tile Name="DUE_FlortalUP" TransitionOverride="DuergarPrisonDoor" />    
+                </Tiles>
+            </Trunk>
+        </Group> 
+
+    </Groups>  
+</DungeonConfig>

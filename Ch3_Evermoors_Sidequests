@@ -1,0 +1,1662 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "Ch3_Evermoors_Sidequests": {
+            "Ch3_SQ_SpiderRescue": [
+                "Ch3_Evermoors_Sidequests_Quest 0_Name", 
+                10, 
+                "Ch3_Evermoors_SpiderRescue", 
+                "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+                "Ch3_SpiderRescue_Reward", 
+                {
+                    "CH3_SR_Start": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_SR_RescueVillagers": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 1_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_SR_Start", 
+                                "quest": "Ch3_SQ_SpiderRescue", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_SR_RescueVillagerA": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 2_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_SR_RescueVillagerB": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 3_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 3_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_SR_RescueVillagerC": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 4_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 4_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_ST_RescuedAllTracker": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 10_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 10_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH3_SR_RescueVillagers", 
+                                        "quest": "Ch3_SQ_SpiderRescue", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_SR_ReturnAndra": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 5_Name", 
+                        7, 
+                        false, 
+                        true, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 5_JournalEntry", 
+                        "Ch3_SpiderRescue_Reward", 
+                        [
+                            {
+                                "flag": "CH3_ST_RescuedAllTracker", 
+                                "quest": "Ch3_SQ_SpiderRescue", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_SR_AndraResults": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 12_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 12_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_SR_ReturnAndra", 
+                                "quest": "Ch3_SQ_SpiderRescue", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "Utility Flags": {
+                        "CH3_SR_TalkedVillagerA": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 6_Name", 
+                            9, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 6_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_SR_TalkedVillagerB": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 7_Name", 
+                            10, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 7_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_SR_TalkedVillagerC": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 8_Name", 
+                            11, 
+                            false, 
+                            false, 
+                            false, 
+                            true, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 8_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CountingQuest": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 1169_Name", 
+                            12, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_SpiderRescue_Flag 1169_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            {}
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "LurkwoodBog", 
+                "Act2"
+            ], 
+            "Ch3_SQ_WebPotion": [
+                "Ch3_Evermoors_Sidequests_Quest 1_Name", 
+                10, 
+                "Ch3_Evermoors_WebPotion", 
+                "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+                "Ch3_WebPotion_Reward", 
+                {
+                    "CH3_WP_Start": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_Gather_MalyssRoot": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 8_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 8_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_WP_Start", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_ReturnRootAndra": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 10_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 10_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_WP_Gather_MalyssRoot", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_Gather_TrollFat": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 1_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 1_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_WP_ReturnRootAndra", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_Gather_FeyVenom": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 2_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 2_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_WP_ReturnRootAndra", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_Gather_IdMoss": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 3_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 3_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_WP_ReturnRootAndra", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "AndraMissing Flags": {
+                        "CH3_WP_EnteredHouse": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 5_Name", 
+                            7, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 5_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "LurkwoodBog", 
+                            []
+                        ], 
+                        "CH3_WP_FoundBench": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 14_Name", 
+                            8, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 14_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "LurkwoodBog", 
+                            []
+                        ], 
+                        "CH3_WP_FoundBook": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 15_Name", 
+                            9, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 15_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "LurkwoodBog", 
+                            []
+                        ]
+                    }, 
+                    "CH3_WP_ReturnIngredients": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 4_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 4_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH3_WP_Gather_TrollFat", 
+                                        "quest": "Ch3_SQ_WebPotion", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "CH3_WP_Gather_FeyVenom", 
+                                        "quest": "Ch3_SQ_WebPotion", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "CH3_WP_Gather_IdMoss", 
+                                        "quest": "Ch3_SQ_WebPotion", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_CheckAndra": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 18_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 18_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_WP_ReturnIngredients", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_PotionRecieved": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 31_Name", 
+                        12, 
+                        false, 
+                        true, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 31_JournalEntry", 
+                        "Ch3_WebPotion_Reward", 
+                        [
+                            {
+                                "flag": "CH3_WP_Waited", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "YennryAltar Flags": {
+                        "CH3_WP_PersuadedYenrry": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 21_Name", 
+                            13, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 21_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "flag": "CH3_WP_CheckAndra", 
+                                    "quest": "Ch3_SQ_WebPotion", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "LurkwoodBog", 
+                            []
+                        ], 
+                        "CH3_WP_IntimidatedYenrry": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 22_Name", 
+                            14, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 22_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "flag": "CH3_WP_CheckAndra", 
+                                    "quest": "Ch3_SQ_WebPotion", 
+                                    "set": 1
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "LurkwoodBog", 
+                            []
+                        ]
+                    }, 
+                    "CH3_WP_MeetYenrryAltar": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 23_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 23_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_WP_IntimidatedYenrry", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_YenrryMissing": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 32_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 32_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_InvestigateAltar": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 24_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 24_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH3_WP_PersuadedYenrry", 
+                                        "quest": "Ch3_SQ_WebPotion", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "CH3_WP_MeetYenrryAltar", 
+                                        "quest": "Ch3_SQ_WebPotion", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_EnterChambers": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 25_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 25_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH3_WP_InvestigateAltar", 
+                                        "quest": "Ch3_SQ_WebPotion", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_FindAndra": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 26_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 26_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_WP_EnterChambers", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_DefeatAndra": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 27_Name", 
+                        20, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 27_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_WP_EvilAndraConvo", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "CH3_WP_RetrievePotion": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 28_Name", 
+                        21, 
+                        false, 
+                        true, 
+                        false, 
+                        true, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 28_JournalEntry", 
+                        "Ch3_WebPotion_Reward", 
+                        [
+                            {
+                                "flag": "CH3_WP_DefeatAndra", 
+                                "quest": "Ch3_SQ_WebPotion", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "LurkwoodBog", 
+                        []
+                    ], 
+                    "Utility Flags": {
+                        "CH3_WP_GatheredAll": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 7_Name", 
+                            22, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 7_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "CH3_WP_Gather_TrollFat", 
+                                            "quest": "Ch3_SQ_WebPotion", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "CH3_WP_Gather_FeyVenom", 
+                                            "quest": "Ch3_SQ_WebPotion", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "CH3_WP_Gather_IdMoss", 
+                                            "quest": "Ch3_SQ_WebPotion", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_AskedAboutMalyss": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 9_Name", 
+                            23, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 9_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_TalkedToMerchant": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 11_Name", 
+                            24, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 11_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_BoughtRoot": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 12_Name", 
+                            25, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 12_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_StoleRoot": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 13_Name", 
+                            26, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 13_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_FoundMerchWagon": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 16_Name", 
+                            27, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 16_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_FoundMerchBodies": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 17_Name", 
+                            28, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 17_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_MetYenrry": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 20_Name", 
+                            29, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 20_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_Waited": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 19_Name", 
+                            30, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 19_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "flag": "CH3_WP_CheckAndra", 
+                                    "quest": "Ch3_SQ_WebPotion", 
+                                    "set": 1
+                                }
+                            ], 
+                            "Waited for the potion to be finished.", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_EvilAndraConvo": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 30_Name", 
+                            31, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 30_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_PickedUpPotion": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 30_0_Name", 
+                            32, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 30_0_JournalEntry", 
+                            "", 
+                            [
+                                {
+                                    "groupStart": 1, 
+                                    "join": "AND", 
+                                    "groupItems": [
+                                        {
+                                            "flag": "CH3_WP_DefeatAndra", 
+                                            "quest": "Ch3_SQ_WebPotion", 
+                                            "set": 1
+                                        }, 
+                                        {
+                                            "flag": "C3_TLOR_ObtainedPotion", 
+                                            "quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                            "set": 1
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "", 
+                            false, 
+                            true, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "CH3_WP_GotTrollFat": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 32_Name", 
+                            33, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 32_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "CH3_WP_GotVenom": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 33_Name", 
+                            34, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 33_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "CH3_WP_GotIdMoss": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 34_Name", 
+                            35, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 34_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            []
+                        ], 
+                        "CH3_WP_SpokeWithYendryAfterDefeat": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 1334_Name", 
+                            36, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 1334_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            {}
+                        ], 
+                        "CH3_WP_KnowsAboutWeb": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 1641_Name", 
+                            37, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_WebPotion_Flag 1641_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "", 
+                            {}
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "LurkwoodBog", 
+                "Act2"
+            ], 
+            "Ch3_SQ_DrowAmbush": [
+                "Ch3_Evermoors_Sidequests_Quest 2_Name", 
+                0, 
+                "Ch3_Evermoors_DrowAmbush", 
+                "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+                "", 
+                {
+                    "CH3_DA_CallForHelp": [
+                        "Ch3_Evermoors_Sidequests_Ch3_DrowAmbush_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_DrowAmbush_Flag 0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_DA_Helped": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 1_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_DA_NoHelped": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 2_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_DA_TriggerAmbush": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 7_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 7_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "CH3_DA_Helped", 
+                                        "quest": "Ch3_SQ_DrowAmbush", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "CH3_DA_NoHelped", 
+                                        "quest": "Ch3_SQ_DrowAmbush", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_DA_AmbushCleared": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 3_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 3_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_DA_TriggerAmbush", 
+                                "quest": "Ch3_SQ_DrowAmbush", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_DA_SpokeToVictim": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 4_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 4_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "CH3_DA_AmbushCleared", 
+                                "quest": "Ch3_SQ_DrowAmbush", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_DA_LetVictimGo": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 5_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 5_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_DA_KilledVictim": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 6_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_DrowAmbush_Flag 6_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "", 
+                "None"
+            ], 
+            "Ch3_SQ_FirstVictim": [
+                "Ch3_Evermoors_Sidequests_Quest 3_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "CH3_FV_HeardAboutRing": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 4_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 4_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_FV_FoundRing": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 1_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "CH3_FV_ReturnedRing": [
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 2_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Utility Flags": {
+                        "CH3_FV_TalkedEdward": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 3_0_Name", 
+                            4, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 3_0_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ], 
+                        "Ch3_FV_TalkedToIrene": [
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 0_Name", 
+                            5, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            "Ch3_Evermoors_Sidequests_Ch3_SQ_FirstVictim_Flag 0_JournalEntry", 
+                            "", 
+                            {}, 
+                            "", 
+                            false, 
+                            false, 
+                            "", 
+                            "", 
+                            "None", 
+                            []
+                        ]
+                    }
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "", 
+                "None"
+            ]
+        }, 
+        "Evermoors_UntrackedStuff": {
+            "Evermoors_RitualCircle_SQ": [
+                "Ch3_Evermoors_Sidequests_Quest 4_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "ObtainedRelic": [
+                        "Ch3_Evermoors_Sidequests_RitualCircle_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_RitualCircle_Flag 0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "PlacedRelic": [
+                        "Ch3_Evermoors_Sidequests_Evermoors_RitualCircle_SQ_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Evermoors_RitualCircle_SQ_Flag 1_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "SpokeToCoraAboutCircle": [
+                        "Ch3_Evermoors_Sidequests_Evermoors_RitualCircle_SQ_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Evermoors_RitualCircle_SQ_Flag 2_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "DiscoveredNodeInCircle": [
+                        "Ch3_Evermoors_Sidequests_Evermoors_RitualCircle_SQ_Flag 3_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Evermoors_RitualCircle_SQ_Flag 3_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "PassedWisomCheck": [
+                        "Ch3_Evermoors_Sidequests_Evermoors_RitualCircle_SQ_Flag 4_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_Evermoors_Sidequests_Evermoors_RitualCircle_SQ_Flag 4_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                "", 
+                "", 
+                "None"
+            ]
+        }
+    }
+}

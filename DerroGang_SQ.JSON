@@ -1,0 +1,2342 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Merchant Convo", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "DERROMERCHANT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_3359947", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_3359947|", 
+                "", 
+                "", 
+                [
+                    "LINE_8483972", 
+                    "LINE_7304897", 
+                    "LINE_5262408"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DerroGnag_SQ_MetVictim", 
+                                    "Quest": "DerroGang_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DerroGang_SQ_Defeat", 
+                                    "Quest": "DerroGang_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DerrorGang_SQ_CharismaWin", 
+                                    "Quest": "DerroGang_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8483972", 
+                "LINE_3359947", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_8483972|", 
+                "", 
+                "", 
+                [
+                    "LINE_5503522"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5503522", 
+                "LINE_8483972", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_5503522|", 
+                "", 
+                "", 
+                [
+                    "LINE_0940538"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0940538", 
+                "LINE_5503522", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_0940538|", 
+                "", 
+                "", 
+                [
+                    "LINE_0537280", 
+                    "LINE_2294711"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0537280", 
+                "LINE_0940538", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_0537280|", 
+                "", 
+                "BK revised from \"Maybe you should send someone with a little muscle to scare him off.\"", 
+                [
+                    "LINE_1999952"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1999952", 
+                "LINE_0537280", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_1999952|", 
+                "", 
+                "\nBK men -> they (BK WOTC)\nBK was I tried that too! The past tenday I had two of my bodyguards chase him to his hiding spot. I saw them enter, they never came out.", 
+                [
+                    "LINE_4687017"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4687017", 
+                "LINE_1999952", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_4687017|", 
+                "", 
+                "", 
+                [
+                    "LINE_2276137"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2276137", 
+                "LINE_4687017", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_2276137|", 
+                "", 
+                "", 
+                [
+                    "LINE_0094155", 
+                    "LINE_5572738"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0094155", 
+                "LINE_2276137", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_0094155|", 
+                "", 
+                "", 
+                [
+                    "LINE_1031880"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1031880", 
+                "LINE_0094155", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_1031880|", 
+                "", 
+                "", 
+                [
+                    "LINE_5622922"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5622922", 
+                "LINE_1031880", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DerroGang_SQ_Start", 
+                        "Quest": "DerroGang_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5572738", 
+                "LINE_2276137", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_5572738|", 
+                "", 
+                "BK cut \"  Fix this yourself.\"", 
+                [
+                    "LINE_7287482"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7287482", 
+                "LINE_5572738", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_7287482|", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DerroGnag_SQ_MetVictim", 
+                        "Quest": "DerroGang_SQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2294711", 
+                "LINE_0940538", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_2294711|", 
+                "", 
+                "", 
+                [
+                    "LINE_4779213"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4779213", 
+                "LINE_2294711", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_4779213|", 
+                "", 
+                "", 
+                [
+                    "LINE_8659313"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8659313", 
+                "LINE_4779213", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_8659313|", 
+                "", 
+                "BK was \"I tried that once.  He was so angry... I was sure he was going to kill me.  He said everyone gets one mistake.  Then he started laughing.", 
+                [
+                    "LINE_0303830"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0303830", 
+                "LINE_8659313", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_0303830|", 
+                "", 
+                "", 
+                [
+                    "LINE_4687017"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7304897", 
+                "LINE_3359947", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_7304897|", 
+                "", 
+                "", 
+                [
+                    "LINE_5503522"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5262408", 
+                "LINE_3359947", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_5262408|", 
+                "", 
+                "", 
+                [
+                    "LINE_5503522"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3214939", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6727282"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DerroGang_SQ_Defeat", 
+                                    "Quest": "DerroGang_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DerroGnag_SQ_MetVictim", 
+                                    "Quest": "DerroGang_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DerrorGang_SQ_CharismaWin", 
+                                    "Quest": "DerroGang_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2624142", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8650222"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "items": [
+                                    {
+                                        "item": {
+                                            "FlagState": "true", 
+                                            "Flag": "DerroGang_SQ_Defeat", 
+                                            "Quest": "DerroGang_SQ", 
+                                            "Type": "Quest"
+                                        }, 
+                                        "type": "item"
+                                    }, 
+                                    {
+                                        "item": {
+                                            "FlagState": "false", 
+                                            "Flag": "DerroGang_SQ_Return", 
+                                            "Quest": "DerroGang_SQ", 
+                                            "Type": "Quest"
+                                        }, 
+                                        "type": "item"
+                                    }
+                                ], 
+                                "connection": "AND", 
+                                "type": "group"
+                            }, 
+                            {
+                                "items": [
+                                    {
+                                        "item": {
+                                            "FlagState": "true", 
+                                            "Flag": "DerrorGang_SQ_CharismaWin", 
+                                            "Quest": "DerroGang_SQ", 
+                                            "Type": "Quest"
+                                        }, 
+                                        "type": "item"
+                                    }, 
+                                    {
+                                        "item": {
+                                            "FlagState": "false", 
+                                            "Flag": "DerroGang_SQ_Return", 
+                                            "Quest": "DerroGang_SQ", 
+                                            "Type": "Quest"
+                                        }, 
+                                        "type": "item"
+                                    }
+                                ], 
+                                "connection": "AND", 
+                                "type": "group"
+                            }
+                        ], 
+                        "connection": "OR", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6727282", 
+                "LINE_3214939", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_6727282|", 
+                "", 
+                "", 
+                [
+                    "LINE_8483972", 
+                    "LINE_7304897", 
+                    "LINE_5262408"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8650222", 
+                "LINE_2624142", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_8650222|", 
+                "", 
+                "", 
+                [
+                    "LINE_0430188", 
+                    "LINE_6277932", 
+                    "LINE_5293280"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0430188", 
+                "LINE_8650222", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_0430188|", 
+                "", 
+                "", 
+                [
+                    "LINE_6047263"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6277932", 
+                "LINE_8650222", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_6277932|", 
+                "", 
+                "", 
+                [
+                    "LINE_9243484"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5293280", 
+                "LINE_8650222", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_5293280|", 
+                "", 
+                "", 
+                [
+                    "LINE_7520103"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7520103", 
+                "LINE_5293280", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_7520103|", 
+                "", 
+                "", 
+                [
+                    "LINE_5190976", 
+                    "LINE_0298064"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9243484", 
+                "LINE_6277932", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_9243484|", 
+                "", 
+                "", 
+                [
+                    "LINE_8048638", 
+                    "LINE_7061189", 
+                    "LINE_8173492", 
+                    "LINE_4612655"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6047263", 
+                "LINE_0430188", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_6047263|", 
+                "", 
+                "", 
+                [
+                    "LINE_8048638", 
+                    "LINE_7061189", 
+                    "LINE_8173492", 
+                    "LINE_4612655"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8048638", 
+                "LINE_9243484", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_8048638|", 
+                "", 
+                "", 
+                [
+                    "LINE_3124544"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3124544", 
+                "LINE_8048638", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DerroGang_SQ_Return", 
+                        "Quest": "DerroGang_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5190976", 
+                "LINE_7520103", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_5190976|", 
+                "", 
+                "", 
+                [
+                    "LINE_8490056"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7061189", 
+                "LINE_9243484", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_7061189|", 
+                "", 
+                "", 
+                [
+                    "LINE_4939288", 
+                    "LINE_8494535"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8173492", 
+                "LINE_9243484", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_8173492|", 
+                "", 
+                "", 
+                [
+                    "LINE_3098768", 
+                    "LINE_8494535"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4612655", 
+                "LINE_9243484", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_4612655|", 
+                "", 
+                "", 
+                [
+                    "LINE_8494535"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8494535", 
+                "LINE_4612655", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_8494535|", 
+                "", 
+                "", 
+                [
+                    "LINE_5082284"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5082284", 
+                "LINE_8494535", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DerroGang_SQ_Return", 
+                        "Quest": "DerroGang_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2137974", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4122022"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DerroGang_SQ_Return", 
+                                    "Quest": "DerroGang_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4122022", 
+                "LINE_2137974", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_4122022|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3098768", 
+                "LINE_8173492", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_3098768|", 
+                "", 
+                "", 
+                [
+                    "LINE_3008645"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 19, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "cha", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4939288", 
+                "LINE_7061189", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_4939288|", 
+                "", 
+                "", 
+                [
+                    "LINE_3008645"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 19, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "str", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3008645", 
+                "LINE_4939288", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DerroGang_SQ_Return", 
+                        "Quest": "DerroGang_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 5000", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8490056", 
+                "LINE_5190976", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_8490056|", 
+                "", 
+                "", 
+                [
+                    "LINE_8048638", 
+                    "LINE_7061189", 
+                    "LINE_8173492", 
+                    "LINE_4612655"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0298064", 
+                "LINE_7520103", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_0298064|", 
+                "", 
+                "", 
+                [
+                    "LINE_0055106"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0055106", 
+                "LINE_0298064", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_0055106|", 
+                "", 
+                "", 
+                [
+                    "LINE_8048638", 
+                    "LINE_7061189", 
+                    "LINE_8173492", 
+                    "LINE_4612655"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Derro Convo", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "DERROTRAP"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9290795", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_9290795|", 
+                "", 
+                " ", 
+                [
+                    "LINE_6008397", 
+                    "LINE_0162350", 
+                    "LINE_5951638", 
+                    "LINE_1983492"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DerroGang_SQ_Chase", 
+                        "Quest": "DerroGang_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DerrorGang_SQ_CharismaWin", 
+                                    "Quest": "DerroGang_SQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6008397", 
+                "LINE_9290795", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_6008397|", 
+                "", 
+                "", 
+                [
+                    "LINE_0813265"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0162350", 
+                "LINE_9290795", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_0162350|", 
+                "", 
+                "", 
+                [
+                    "LINE_1504310"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1504310", 
+                "LINE_0162350", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_1504310|", 
+                "", 
+                "", 
+                [
+                    "LINE_0263740", 
+                    "LINE_1406685"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5951638", 
+                "LINE_9290795", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_5951638|", 
+                "", 
+                "Bk Oh good, it's been too long since I've killed someone.", 
+                [
+                    "LINE_7718941"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1983492", 
+                "LINE_9290795", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_1983492|", 
+                "", 
+                "", 
+                [
+                    "LINE_5673979", 
+                    "LINE_9426603"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5673979", 
+                "LINE_1983492", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_5673979|", 
+                "", 
+                "", 
+                [
+                    "LINE_3501039"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 19, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "cha", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [
+                    "Misc:Gem_BlackSapphire"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3738208", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_3738208|", 
+                "", 
+                "", 
+                [
+                    "LINE_2530858"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3501039", 
+                "LINE_5673979", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0548422"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DerrorGang_SQ_CharismaWin", 
+                        "Quest": "DerroGang_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Gem_BlackSapphire"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2530858", 
+                "LINE_3738208", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0813265", 
+                "LINE_6008397", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_0813265|", 
+                "", 
+                "BK was \"Of course not, I have no idea who you are. But I'm always waiting for someone.  Might as well be you.\"", 
+                [
+                    "LINE_6024724", 
+                    "LINE_3183044"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7718941", 
+                "LINE_5951638", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_7718941|", 
+                "", 
+                "", 
+                [
+                    "LINE_6369138", 
+                    "LINE_9603099"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6369138", 
+                "LINE_7718941", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_6369138|", 
+                "", 
+                "I don't want to join you, I want the sapphires.", 
+                [
+                    "LINE_3585053"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9603099", 
+                "LINE_7718941", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_9603099|", 
+                "", 
+                "", 
+                [
+                    "LINE_0890972"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3585053", 
+                "LINE_6369138", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_3585053|", 
+                "", 
+                "", 
+                [
+                    "LINE_7195741", 
+                    "LINE_2830117"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7195741", 
+                "LINE_3585053", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_7195741|", 
+                "", 
+                "", 
+                [
+                    "LINE_8378260"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2830117", 
+                "LINE_3585053", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_2830117|", 
+                "", 
+                "", 
+                [
+                    "LINE_7030243"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7030243", 
+                "LINE_2830117", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_7030243|", 
+                "", 
+                "", 
+                [
+                    "LINE_1986159"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8378260", 
+                "LINE_7195741", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_8378260|", 
+                "", 
+                "BK was \"Good.  Allow me to introduce my associates\"", 
+                [
+                    "LINE_1986159"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0263740", 
+                "LINE_1504310", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_0263740|", 
+                "", 
+                "BK was \"Ok, what do you want for those sapphires and a promise to leave the merchant alone.", 
+                [
+                    "LINE_9365564"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1406685", 
+                "LINE_1504310", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_1406685|", 
+                "", 
+                "", 
+                [
+                    "LINE_5681496"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9365564", 
+                "LINE_0263740", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_9365564|", 
+                "", 
+                "", 
+                [
+                    "LINE_1986159"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5681496", 
+                "LINE_1406685", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_5681496|", 
+                "", 
+                "", 
+                [
+                    "LINE_1986159"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6024724", 
+                "LINE_0813265", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_6024724|", 
+                "", 
+                "I'm here to ask you to leave that gem merchant alone and hand over his stolen goods.", 
+                [
+                    "LINE_3460452"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3183044", 
+                "LINE_0813265", 
+                "<PLAYER>", 
+                "|DerroGang_SQ_LINE_3183044|", 
+                "", 
+                "", 
+                [
+                    "LINE_6751302"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3460452", 
+                "LINE_6024724", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_3460452|", 
+                "", 
+                "", 
+                [
+                    "LINE_1986159"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6751302", 
+                "LINE_3183044", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_6751302|", 
+                "", 
+                "", 
+                [
+                    "LINE_1986159"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1986159", 
+                "LINE_3460452", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DerroGang_SQ_Attack", 
+                        "Quest": "DerroGang_SQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "MakeCreatureFactionHostile", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0890972", 
+                "LINE_9603099", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_0890972|", 
+                "", 
+                "", 
+                [
+                    "LINE_1986159"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9426603", 
+                "LINE_1983492", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_9426603|", 
+                "", 
+                "[FAILURE] I doubt someone of your obviously low station could convince anyone of anything.", 
+                [
+                    "LINE_0263740", 
+                    "LINE_1406685"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0548422", 
+                "LINE_3501039", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_2052647"
+                ], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Misc:Gem_BlackSapphire"
+                ], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2052647", 
+                "LINE_0548422", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [
+                    "Misc:Gem_BlackSapphire"
+                ], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Merchant Ambient", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "DERROMERCHANT"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9653681", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|DerroGang_SQ_LINE_9653681|", 
+                "", 
+                " ", 
+                [
+                    "LINE_3041902"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3041902", 
+                "<ROOT>", 
+                "DERROTRAP", 
+                "|DerroGang_SQ_LINE_3041902|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

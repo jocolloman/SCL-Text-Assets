@@ -1,0 +1,303 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.8"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "Interactive Scenes": {
+            "Boulder": [
+                "InteractiveScenes_Boulder_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "Strength 16": [
+                        "InteractiveScenes_Boulder_Strength 16_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        "InteractiveScenes_Boulder_Strength 16_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Strength 20": [
+                        "InteractiveScenes_Boulder_Strength 20_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        "InteractiveScenes_Boulder_Strength 20_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "HasItem Crowbar": [
+                        "InteractiveScenes_Boulder_HasItem Crowbar_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        "InteractiveScenes_Boulder_HasItem Crowbar_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "HasItem Dynamite": [
+                        "InteractiveScenes_Boulder_HasItem Dynamite_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        "InteractiveScenes_Boulder_HasItem Dynamite_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "HasItem ScrollOfLevitate": [
+                        "InteractiveScenes_Boulder_HasItem ScrollOfLevitate_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        "InteractiveScenes_Boulder_HasItem ScrollOfLevitate_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Search 16": [
+                        "InteractiveScenes_Boulder_Perception 18_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        "InteractiveScenes_Boulder_Perception 18_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Found Recess": [
+                        "InteractiveScenes_Boulder_Found Recess_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "InteractiveScenes_Boulder_Found Recess_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Charisma 16": [
+                        "InteractiveScenes_Boulder_Flag 7_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        "InteractiveScenes_Boulder_Flag 7_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Intimidate 16": [
+                        "InteractiveScenes_Boulder_Flag 8_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        "InteractiveScenes_Boulder_Flag 8_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "BoulderMoved": [
+                        "InteractiveScenes_Boulder_Flag 9_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "InteractiveScenes_Boulder_Flag 9_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                ""
+            ]
+        }
+    }
+}

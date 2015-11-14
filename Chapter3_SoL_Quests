@@ -1,0 +1,305 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.8"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "Chapter 3 SoL": {
+            "C3.SoL.1": [
+                "Chapter3_SoL_Quests_Quest 0_Name", 
+                0, 
+                "", 
+                "", 
+                "", 
+                {
+                    "C3.SoL.EnterForest": [
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 0_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3.SoL.StartQuest", 
+                                "quest": "C3.SoL.1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C3.SoL.AttackSite": [
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 1_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3.SoL.EnterForest", 
+                                "quest": "C3.SoL.1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C3.SoL.ReturnToElves": [
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 2_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3.SoL.AttackSite", 
+                                "quest": "C3.SoL.1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C3.SoL.DeeperForest": [
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 3_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 3_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3.SoL.AttackSite", 
+                                "quest": "C3.SoL.1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C3.SoL.ChillOut": [
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 4_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 4_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3.SoL.DeeperForest", 
+                                "quest": "C3.SoL.1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C3.SoL.ChillTower": [
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 5_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 5_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C3.SoL.ChillOut", 
+                                "quest": "C3.SoL.1", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C3.SoL.FindElves": [
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 6_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 6_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "C3.SoL.StartQuest": [
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 7_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Chapter3_SoL_Quests_C3.SoL.1_Flag 7_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "", 
+                false, 
+                "", 
+                "", 
+                ""
+            ]
+        }
+    }
+}

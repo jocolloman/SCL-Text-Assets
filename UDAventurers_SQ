@@ -1,0 +1,415 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "UDAdventurers_SQ": [
+            "UDAventurers_SQ_Quest 0_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "UDAdventurers_SQ": {
+                    "UDAdventurers_SQ_Leave": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 2_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 2_JournalEntry", 
+                        "UDAdventurers_SQ_Leave_Reward", 
+                        {}, 
+                        "This flag is set in the convo - looked for in script and sets the dudes to run off screen", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "UdAdventurers_SQ_Despawn": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 3_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 3_JournalEntry", 
+                        "UdAdventurers_SQ_Despawn_Reward", 
+                        {}, 
+                        "This flag despawns the adventurer encounter in the underdark", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "UDAdventurers_LeaveCutlass": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 9_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 9_JournalEntry", 
+                        "UDAdventurers_LeaveCutlass_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "UDAdventurers_DespawnCutlass": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 8_0_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 8_0_JournalEntry", 
+                        "UDAdventurers_DespawnCutlass_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "UDAdventurers_SQ_AdventurersSpawnAtCutlass": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 4_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 4_JournalEntry", 
+                        "UDAdventurers_SQ_AdventurersSpawnAtCutlass_Reward", 
+                        [], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }, 
+                "FightOption": {
+                    "UDAdventurers_SQ_Hostile": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 1_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 1_JournalEntry", 
+                        "UDAdventurers_SQ_Hostile_Reward", 
+                        {}, 
+                        "Only used to determine if the party turns hostile.", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }, 
+                "PorterOption": {
+                    "UDAdventurers_SQ_TakeQuest": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 0_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 0_JournalEntry", 
+                        "UDAdventurers_SQ_TakeQuest_Reward", 
+                        [], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "UDAdventurers_SQ_HaveStrongbox": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 5_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 5_JournalEntry", 
+                        "UDAdventurers_SQ_HaveStrongbox_Reward", 
+                        {}, 
+                        "SET in the convo when we give them the item", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "UDAdventurers_SQ_ReturnTheStrongbox": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 6_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 6_JournalEntry", 
+                        "UDAdventurers_SQ_ReturnTheStrongbox_Reward", 
+                        [
+                            {
+                                "flag": "UDAdventurers_SQ_TakeQuest", 
+                                "quest": "UDAdventurers_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LuskanStreets", 
+                        []
+                    ], 
+                    "UDAdventurers_FIRST_PlusOneG": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 10_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 10_JournalEntry", 
+                        "UDAdventurers_FIRST_PlusOneG_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "UDAdventurers_SECOND_PlusOneG": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 11_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 11_JournalEntry", 
+                        "UDAdventurers_SECOND_PlusOneG_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "UDAdventurers_SQ_FightInTheStreets": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 12_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 12_JournalEntry", 
+                        "UDAdventurers_SQ_FightInTheStreets_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "UDAdventurers_SQ_FINAL": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 11_0_Name", 
+                        13, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 11_0_JournalEntry", 
+                        "UDAdventurers_SQ_FINAL_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": []
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "UDAdventurers_SQ_Fought": [
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 13_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "UDAventurers_SQ_UDAdventurers_SQ_Flag 13_JournalEntry", 
+                        "UDAdventurers_SQ_Fought_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "UnderdarkDescent", 
+            "Location"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <Settings   PortWeightX="100" PortWeightZ="-100" />
+    <!-- 
+    Monster Sets
+    
+    
+    
+    
+     -->
+ 	<CreatureSets>
+		<CreatureSet Name="TestMobs" />
+	</CreatureSets>
+ 
+    <Groups>
+
+       <!-- Starting Tile 
+		<Group>
+			<Trunk>
+				<Tiles>
+				  <Tile
+						Name="CAT_MaferilBoss" />
+                </Tiles>
+            </Trunk>
+        </Group>
+        -->
+        <Group>
+			<Trunk>
+				<Tiles>
+				  <Tile
+						Name="AST_BasicCross" />
+                </Tiles>
+            </Trunk>
+        </Group>
+    </Groups>  
+</DungeonConfig>

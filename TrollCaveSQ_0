@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="TrollSet01" />  
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DEN_Staging_TrollCaveSQ"/>   
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+        <Group>
+         <Trunk Min="1" Max="1">
+            <Tiles >
+                <Tile Name="DEN_S_T_Donut" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" Max = "1" ForceEntryPort="03" TransitionOverride="BanditDoor01_Trapped"/> 
+                <Tile Name="DEN_S_T_Why" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" Max = "1" ForceEntryPort="01" TransitionOverride="BanditDoor01_Trapped"/> 
+            </Tiles>
+        </Trunk>
+        </Group> 
+        
+        <Group>
+             <Trunk Min="1" Max="1">
+                    <Tiles >
+                        <Tile Name="DEN_S_C_Goat"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" Max = "1" ForceEntryPort="01" ForceExitPort="03" TransitionOverride="BanditArch02"/>
+                        <Tile Name="DEN_S_C_Bolt" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" Max = "1" ForceEntryPort="01" ForceExitPort="03" TransitionOverride="BanditArch02"/>
+                        <Tile Name="DEN_S_C_Psi" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" Max = "1" ForceEntryPort="01" ForceExitPort="03" TransitionOverride="BanditArch02"/>
+                    </Tiles>
+            </Trunk>
+        </Group> 
+        
+     
+        
+        <Group>
+             <Trunk Min="1" Max="1"> 
+                <Tiles >                                    
+                     <Tile Name="DEN_S_C_Goat"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" Max = "1" ForceEntryPort="01" ForceExitPort="03" TransitionOverride="BanditArch01"/>
+                     <Tile Name="DEN_S_C_Bolt" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" Max = "1" ForceEntryPort="01" ForceExitPort="03" TransitionOverride="BanditArch01"/>
+                     <Tile Name="DEN_S_C_Psi" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" Max = "1" ForceEntryPort="01" ForceExitPort="03" TransitionOverride="BanditArch01"/>                 
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+        <!-->Boss Fight<-->
+        <Group>
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DEN_S_E_Platform" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" ForceEntryPort="01" XMLID="BossRoomTrollSQ"/>
+                </Tiles>
+            </Trunk>
+            
+        </Group> 
+ 
+     
+  
+    </Groups>  
+</DungeonConfig>

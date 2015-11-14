@@ -1,0 +1,464 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "SlimeCult_SQ": [
+            "SlimeCult_SQ_SlimeCult_SQ_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "Untracked": {
+                    "SlimeCult_SQ_Start": [
+                        "SlimeCult_SQ_SlimeCult_SQ_SlimeCult_SQ_Start_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_SlimeCult_SQ_Start_JournalEntry", 
+                        "SlimeCult_SQ_Start_Reward", 
+                        {}, 
+                        "", 
+                        1, 
+                        false, 
+                        "", 
+                        "", 
+                        "Chapterhouse"
+                    ], 
+                    "SlimeCult_SQ_MorleshLeaves": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 7_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 7_JournalEntry", 
+                        "SlimeCult_SQ_MorleshLeaves_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SlimeCult_SQ_InterruptConvo": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 1_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 1_JournalEntry", 
+                        "SlimeCult_SQ_InterruptConvo_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SlimeCult_SQ_Complete": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 6_Name", 
+                        4, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 6_JournalEntry", 
+                        "SlimeCult_SQ_Complete_Reward", 
+                        [
+                            {
+                                "flag": "SlimeCult_SQ_Meet", 
+                                "quest": "SlimeCult_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SlimeCult_SQ_Boon": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 8_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 8_JournalEntry", 
+                        "SlimeCult_SQ_Boon_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SlimeCult_SQ_PrayerDenied": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 9_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 9_JournalEntry", 
+                        "SlimeCult_SQ_PrayerDenied_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SlimeCult_SQ_Key": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 10_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 10_JournalEntry", 
+                        "SlimeCult_SQ_Key_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SlimeCult_SQ_KeyUsed01": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 13_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 13_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "SlimeCult_SQ_KeyUsed02": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 14_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 14_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "SlimeCult_SQ_KeyUsed01", 
+                                "quest": "SlimeCult_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "SlimeCult_SQ_KeyRemove": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 15_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 15_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "SlimeCult_SQ_KeyUsed01", 
+                                "quest": "SlimeCult_SQ", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "SlimeCult_SQ_KeyUsed02", 
+                                "quest": "SlimeCult_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }, 
+                "Tracked": {
+                    "SlimeCult_SQ_Enter": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 2_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 2_JournalEntry", 
+                        "SlimeCult_SQ_Enter_Reward", 
+                        [
+                            {
+                                "flag": "SlimeCult_SQ_Start", 
+                                "quest": "SlimeCult_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "SlimeCultCastleSQ"
+                    ], 
+                    "SlimeCult_SQ_DefeatLeader": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 3_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 3_JournalEntry", 
+                        "SlimeCult_SQ_DefeatLeader_Reward", 
+                        [
+                            {
+                                "flag": "SlimeCult_SQ_Enter", 
+                                "quest": "SlimeCult_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "SlimeCultCastleSQ"
+                    ], 
+                    "SlimeCult_SQ_MacGuffin": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 4_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 4_JournalEntry", 
+                        "SlimeCult_SQ_MacGuffin_Reward", 
+                        [
+                            {
+                                "flag": "SlimeCult_SQ_DefeatLeader", 
+                                "quest": "SlimeCult_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "SlimeCultCastleSQ"
+                    ], 
+                    "SlimeCult_SQ_Meet": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 5_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 5_JournalEntry", 
+                        "SlimeCult_SQ_Meet_Reward", 
+                        [
+                            {
+                                "flag": "SlimeCult_SQ_MacGuffin", 
+                                "quest": "SlimeCult_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "SlimeCultCastleSQ"
+                    ], 
+                    "SlimeCult_SQ_NoFightEnd": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 11_Name", 
+                        15, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 11_JournalEntry", 
+                        "SlimeCult_SQ_NoFightEnd_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "SlimeCultCastleSQ"
+                    ], 
+                    "SlimeCult_SQ_FightEnd": [
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 12_Name", 
+                        16, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "SlimeCult_SQ_SlimeCult_SQ_Flag 12_JournalEntry", 
+                        "SlimeCult_SQ_FightEnd_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "SlimeCultCastleSQ"
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "Chapterhouse", 
+            "Location"
+        ]
+    }
+}

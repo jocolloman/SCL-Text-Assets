@@ -1,0 +1,360 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "DerroGang_SQ": [
+            "DerroGang_SQ_Quest 0_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "DerroGang_SQ_Start": [
+                    "DerroGang_SQ_DerroGang_SQ_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "DerroGang_SQ_DerroGang_SQ_Flag 0_JournalEntry", 
+                    "DerroGang_SQ_Start_Reward", 
+                    {}, 
+                    "You came upon a duergar merchant being robbed by a mysterious derro. He asked you to help take care of this thieving derro and marked the derro's hideout on your map.", 
+                    1, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "Tracked": {
+                    "DerroGang_SQ_Chase": [
+                        "DerroGang_SQ_DerroGang_SQ_Flag 1_0_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "DerroGang_SQ_DerroGang_SQ_Flag 1_0_JournalEntry", 
+                        "DerroGang_SQ_Chase_Reward", 
+                        [
+                            {
+                                "flag": "DerroGang_SQ_Start", 
+                                "quest": "DerroGang_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DerroGang_SQ_Defeat": [
+                        "DerroGang_SQ_DerroGang_SQ_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "DerroGang_SQ_DerroGang_SQ_Flag 2_JournalEntry", 
+                        "DerroGang_SQ_Defeat_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "AND", 
+                                "groupItems": [
+                                    {
+                                        "flag": "DerroGang_SQ_Chase", 
+                                        "quest": "DerroGang_SQ", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "DerroGang_SQ_DefeatLeader", 
+                                        "quest": "DerroGang_SQ", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "DerroGang_SQ_DefeatGang", 
+                                        "quest": "DerroGang_SQ", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DerrorGang_SQ_CharismaWin": [
+                        "DerroGang_SQ_DerroGang_SQ_Flag 7_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DerroGang_SQ_DerroGang_SQ_Flag 7_JournalEntry", 
+                        "DerrorGang_SQ_CharismaWin_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DerroGang_SQ_DefeatGang": [
+                        "DerroGang_SQ_DerroGang_SQ_Flag 9_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DerroGang_SQ_DerroGang_SQ_Flag 9_JournalEntry", 
+                        "DerroGang_SQ_DefeatGang_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DerroGang_SQ_Return": [
+                        "DerroGang_SQ_DerroGang_SQ_Flag 3_Name", 
+                        6, 
+                        false, 
+                        true, 
+                        false, 
+                        true, 
+                        "DerroGang_SQ_DerroGang_SQ_Flag 3_JournalEntry", 
+                        "DerroGang_SQ_Return_Reward", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "DerroGang_SQ_Defeat", 
+                                        "quest": "DerroGang_SQ", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "DerrorGang_SQ_CharismaWin", 
+                                        "quest": "DerroGang_SQ", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Untracked": {
+                    "DerroGang_SQ_Attack": [
+                        "DerroGang_SQ_DerroGang_SQ_Flag 4_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DerroGang_SQ_DerroGang_SQ_Flag 4_JournalEntry", 
+                        "DerroGang_SQ_Attack_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DerroGang_SQ_Intro": [
+                        "DerroGang_SQ_DerroGang_SQ_Flag 5_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DerroGang_SQ_DerroGang_SQ_Flag 5_JournalEntry", 
+                        "DerroGang_SQ_Intro_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DerroGnag_SQ_MetVictim": [
+                        "DerroGang_SQ_DerroGang_SQ_Flag 6_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DerroGang_SQ_DerroGang_SQ_Flag 6_JournalEntry", 
+                        "DerroGnag_SQ_MetVictim_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DerroGang_SQ_DefeatLeader": [
+                        "DerroGang_SQ_DerroGang_SQ_Flag 8_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "DerroGang_SQ_DerroGang_SQ_Flag 8_JournalEntry", 
+                        "DerroGang_SQ_DefeatLeader_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "DarkLakeDistrict", 
+            "Location"
+        ]
+    }
+}

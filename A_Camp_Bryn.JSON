@@ -1,0 +1,2583 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NoMusic": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "A_Camp_Bryn", 
+                "NoBegFade": "False", 
+                "NeedsVO": "True", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "BRYN"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_8792258", 
+                "LINE_9869628", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_8792258|", 
+                "", 
+                "", 
+                [
+                    "LINE_9656637", 
+                    "LINE_9983046", 
+                    "LINE_1563642", 
+                    "LINE_5091490"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_CQ_Start", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Bryn_CQ_RecoverStone", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2912895", 
+                "LINE_9869628", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_2912895|", 
+                "", 
+                "", 
+                [
+                    "LINE_7015401"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "ThankedForQuest", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_CQ_RecoverStone", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "ThankedForQuest", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9869628", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_2912895", 
+                    "LINE_8792258", 
+                    "LINE_6064924", 
+                    "LINE_7371460", 
+                    "LINE_4916200", 
+                    "LINE_9897725"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9897725", 
+                "LINE_9869628", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8772195"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_CD_TalkedToBryn", 
+                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8772195", 
+                "LINE_9897725", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_8772195|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_1563642", 
+                    "LINE_5091490"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9983046", 
+                "LINE_8772195", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_9983046|", 
+                "", 
+                "BK \"your history.\" sounded real formal", 
+                [
+                    "LINE_8652462", 
+                    "LINE_8181032", 
+                    "LINE_1203669", 
+                    "LINE_9651033"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8652462", 
+                "LINE_9983046", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_8652462|", 
+                "", 
+                "BK revised from \"Why return to the past? We have many more exciting things in our future.\"", 
+                [
+                    "LINE_1563642", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_BG_2_3", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8181032", 
+                "LINE_9983046", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_8181032|", 
+                "", 
+                "", 
+                [
+                    "LINE_1563642", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_BG_1_3", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C4_IEN_FindTheCamp", 
+                                    "Quest": "C4.0_Into_Eternal_Night", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1203669", 
+                "LINE_9983046", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_1203669|", 
+                "", 
+                "", 
+                [
+                    "LINE_9771847", 
+                    "LINE_5679502", 
+                    "LINE_0581371", 
+                    "LINE_3733048", 
+                    "LINE_0159566"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_BG_1_1", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9771847", 
+                "LINE_1203669", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_9771847|", 
+                "", 
+                "BK used mentor instead of leadership to avoid duplicate use of word in sentence BK revised : \"They singled me out and began training me for leadership. That's why I was in the other caravan, and that's why I was captured, rather than killed. \"", 
+                [
+                    "LINE_4746076"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_BG_2_3", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_BG_2_2", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4746076", 
+                "LINE_9771847", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_4746076|", 
+                "", 
+                "BK rephrased from \"They saw the others deferring to me and assumed I was the field leader. They threw me in that cell, tortured and beat me, starved me, until there was almost nothing left. \"", 
+                [
+                    "LINE_5208862"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5208862", 
+                "LINE_4746076", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_5208862|", 
+                "", 
+                "BK revised from \"Thank all the gods that will listen that you arrived when you did. I would still have made my escape, but I would probably have died in the attempt.\"", 
+                [
+                    "LINE_7627977", 
+                    "LINE_1834666", 
+                    "LINE_5355494"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7627977", 
+                "LINE_5208862", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_7627977|", 
+                "", 
+                "", 
+                [
+                    "LINE_1513311"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1513311", 
+                "LINE_7627977", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_1513311|", 
+                "", 
+                "BK added zealous BK revise \"I would have taken many out with me, but Jessia would likely have cut me stem to stern.\"", 
+                [
+                    "LINE_0625621"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1834666", 
+                "LINE_5208862", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_1834666|", 
+                "", 
+                "Bk \"were alive\" -> \"still lived\"", 
+                [
+                    "LINE_3482111"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3482111", 
+                "LINE_1834666", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_3482111|", 
+                "", 
+                "BK revised fro 'Well, yes. And once he knew I was fine, he would immediately launch into an angry rant about how I should have done this, or I shouldn't have done that. He was such a sweetheart.\"", 
+                [
+                    "LINE_1563642", 
+                    "LINE_9428105", 
+                    "LINE_0625621"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5679502", 
+                "LINE_1203669", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_5679502|", 
+                "", 
+                "BK Wotc Tweak Neveriwnter Forest -> Neverwinter Wood\nBK cut \", on the road from Neverwinter\" -> seemed to indicate two places, didn't seem necessary\nBK revised from \"They did. We all felt a need to go our separate ways, in case the elves came hunting for us. I disappeared into the Neverwinter Forest, surviving on my wits... and my wiles... until the day Belamy found me, on the road from Neverwinter.\"", 
+                [
+                    "LINE_5337115"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_BG_2_2", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_BG_2_1", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5337115", 
+                "LINE_5679502", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_5337115|", 
+                "", 
+                "BK revised from \"He told me of a guild called the Burning Dawn. He said they would train us, equip us, pay us... feed us. And it sounded too good to be true. But I could tell my dear brother was sick and starving, and so I agreed to join him in the Order.\"", 
+                [
+                    "LINE_5979310", 
+                    "LINE_1563642", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5979310", 
+                "LINE_5337115", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_5979310|", 
+                "", 
+                "", 
+                [
+                    "LINE_6006912"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0581371", 
+                "LINE_1203669", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0581371|", 
+                "", 
+                "BKmerged the end of this sentence with the start of the next.", 
+                [
+                    "LINE_3189552"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_BG_2_1", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_BG_1_3", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_IEN_FindTheCamp", 
+                                    "Quest": "C4.0_Into_Eternal_Night", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3189552", 
+                "LINE_0581371", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_3189552|", 
+                "", 
+                "BK was: \"The elves of the Eldeth Veluuthra found us. They had sworn to clear the Forest of all humans, to return it to a more pure state. We had a tiny problem with that. So we fought, and as things tend to go with elves, they won.\" blended it with the prior sentence", 
+                [
+                    "LINE_3203516", 
+                    "LINE_1563642", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3203516", 
+                "LINE_3189552", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_3203516|", 
+                "", 
+                "", 
+                [
+                    "LINE_5679502"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3733048", 
+                "LINE_1203669", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_3733048|", 
+                "", 
+                "BK was: \"Not long after we left home, we got separated. By which I mean, Belamy wanted to go to Waterdeep and become a drunk, while I wished to become a ranger and a scout. So he went to town, and I disappeared into the Ardeep Forest.\"", 
+                [
+                    "LINE_0093810"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_BG_1_3", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_BG_1_2", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0093810", 
+                "LINE_3733048", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0093810|", 
+                "", 
+                "BK was \"And much to my complete lack of surprise, Belamy was a complete success at being a drunk, and a total failure at anything else. It's... rather sad to think of it now.\"", 
+                [
+                    "LINE_7960999"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0159566", 
+                "LINE_1203669", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0159566|", 
+                "", 
+                "Bk cut \" in the park\" because it sounded modern + I reordred the sentences, moving the 'leaving' to the end", 
+                [
+                    "LINE_3729985"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_BG_1_2", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_BG_1_1", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3729985", 
+                "LINE_0159566", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_3729985|", 
+                "", 
+                "", 
+                [
+                    "LINE_1203133", 
+                    "LINE_3614416", 
+                    "LINE_3141970"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3614416", 
+                "LINE_3729985", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_3614416|", 
+                "", 
+                "", 
+                [
+                    "LINE_6072180"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3141970", 
+                "LINE_3729985", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_3141970|", 
+                "", 
+                "", 
+                [
+                    "LINE_5722349"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5722349", 
+                "LINE_3141970", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_5722349|", 
+                "", 
+                "", 
+                [
+                    "LINE_1563642", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9651033", 
+                "LINE_9983046", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_9651033|", 
+                "", 
+                "Bk \"threat of\" -> brush with death", 
+                [
+                    "LINE_0008416"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_BG_1_1", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2912237", 
+                "LINE_0008416", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_2912237|", 
+                "", 
+                "", 
+                [
+                    "LINE_0159566"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1542814", 
+                "LINE_0008416", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_1542814|", 
+                "", 
+                "", 
+                [
+                    "LINE_0235842"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0235842", 
+                "LINE_1542814", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0235842|", 
+                "", 
+                "", 
+                [
+                    "LINE_1563642", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1563642", 
+                "LINE_8772195", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_1563642|", 
+                "", 
+                "", 
+                [
+                    "LINE_5933245", 
+                    "LINE_0788561", 
+                    "LINE_9607111", 
+                    "LINE_0687964", 
+                    "LINE_0603886", 
+                    "LINE_3206166"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5933245", 
+                "LINE_1563642", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_5933245|", 
+                "", 
+                "After meeting Gorflun", 
+                [
+                    "LINE_9983046", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_PM_Start", 
+                                    "Quest": "C4.2_Prison_For_The_Mind", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0788561", 
+                "LINE_1563642", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0788561|", 
+                "", 
+                "After finding Tezzarae's camp", 
+                [
+                    "LINE_7881773"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_COTGD_Start", 
+                                    "Quest": "C4.1_City_Of_The_Grey_Dwarves", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9607111", 
+                "LINE_1563642", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_9607111|", 
+                "", 
+                "After Rhylfang", 
+                [
+                    "LINE_6171140"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_IEN_Start", 
+                                    "Quest": "C4.0_Into_Eternal_Night", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0687964", 
+                "LINE_1563642", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0687964|", 
+                "", 
+                "elf friend -> Illydia\nAfter the Dalanir Reveal", 
+                [
+                    "LINE_0113500"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_TLOR_Start", 
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0603886", 
+                "LINE_1563642", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0603886|", 
+                "", 
+                "After the Chapterhouse", 
+                [
+                    "LINE_3508715"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_CBL_Start", 
+                                    "Quest": "C3.2_Chaos_Breaks_Loose", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3206166", 
+                "LINE_1563642", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_3206166|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9428105", 
+                "LINE_3206166", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_9428105|", 
+                "", 
+                "", 
+                [
+                    "LINE_5729301"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5091490", 
+                "LINE_8772195", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_5091490|", 
+                "", 
+                "", 
+                [
+                    "LINE_5729301"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5729301", 
+                "LINE_5091490", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_5729301|", 
+                "", 
+                "", 
+                [
+                    "LINE_1257692"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1257692", 
+                "LINE_5729301", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4916200", 
+                "LINE_9869628", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_4916200|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_1563642", 
+                    "LINE_5091490"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_TLOR_Start", 
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6064924", 
+                "LINE_9869628", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_6064924|", 
+                "", 
+                "", 
+                [
+                    "LINE_3810289"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Bryn_CQ_Start", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3810289", 
+                "LINE_6064924", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_3810289|", 
+                "", 
+                "BK WOTC fiend -> succubus\nBK replaced second \"fiend\" with \"her\" [I believe Madelith is female]", 
+                [
+                    "LINE_9256710", 
+                    "LINE_5390733"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7371460", 
+                "LINE_9869628", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_7371460|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_1563642", 
+                    "LINE_5091490"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_COTGD_Start", 
+                                    "Quest": "C4.1_City_Of_The_Grey_Dwarves", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3508715", 
+                "LINE_0603886", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_3508715|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0113500", 
+                "LINE_0687964", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0113500|", 
+                "", 
+                "BK rephrased \"if a friendly drow is the weirdest thing we have to ally ourselves with.\"", 
+                [
+                    "LINE_9983046", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6171140", 
+                "LINE_9607111", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_6171140|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7881773", 
+                "LINE_0788561", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_7881773|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0008416", 
+                "LINE_9651033", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0008416|", 
+                "", 
+                "BK I cut \". We couldn't wait to get out of there and blaze our own paths.\" because a couple lines down she says Belamy was the one who suggested the leave. But this cut sentence hinted that they were both itching to leave.", 
+                [
+                    "LINE_2912237", 
+                    "LINE_1542814"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6072180", 
+                "LINE_3614416", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_6072180|", 
+                "", 
+                "", 
+                [
+                    "LINE_3733048"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7960999", 
+                "LINE_0093810", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_7960999|", 
+                "", 
+                "BK was: \"Perhaps we could change the subject? Belamy's an... emotional subject for me, and I'm not an attractive crier. \"", 
+                [
+                    "LINE_3141970", 
+                    "LINE_5091490"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1203133", 
+                "LINE_3729985", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_1203133|", 
+                "", 
+                "BK WOTC past-tensed this.", 
+                [
+                    "LINE_0130873"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0130873", 
+                "LINE_1203133", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0130873|", 
+                "", 
+                "", 
+                [
+                    "LINE_3733048"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6006912", 
+                "LINE_5979310", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_6006912|", 
+                "", 
+                "", 
+                [
+                    "LINE_9771847"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5355494", 
+                "LINE_5208862", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_5355494|", 
+                "", 
+                "", 
+                [
+                    "LINE_6599445"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6599445", 
+                "LINE_5355494", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_6599445|", 
+                "", 
+                "BK tweaking along the lines of WOTC request Oh, do I? Well. I think we can probably find ways to make it up to you... if you use your imagination. Perhaps when all this is over?", 
+                [
+                    "LINE_0625621"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0625621", 
+                "LINE_1513311", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0625621|", 
+                "", 
+                "", 
+                [
+                    "LINE_1563642", 
+                    "LINE_9428105"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9256710", 
+                "LINE_3810289", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_9256710|", 
+                "", 
+                "", 
+                [
+                    "LINE_4665389"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5390733", 
+                "LINE_3810289", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_5390733|", 
+                "", 
+                "", 
+                [
+                    "LINE_7394990"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7394990", 
+                "LINE_5390733", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_7394990|", 
+                "", 
+                "", 
+                [
+                    "LINE_4665389"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4665389", 
+                "LINE_9256710", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_4665389|", 
+                "", 
+                "BK revised: \"While I was living among the rangers of the Ardeep Forest, I discovered that our band had been charged with protecting the Infernal Stone. We had strength of numbers, and we moved around a lot. The relic was safe with us.\"", 
+                [
+                    "LINE_0666503"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0666503", 
+                "LINE_4665389", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0666503|", 
+                "", 
+                "Bk revised from \"I became... close... with Elitha Windroot, the leader of our band. She was smart, sleek, powerful... and she kept the stone around her neck at all times. I begged her to bury it somewhere or to send it away. Anything to keep her safe.\"", 
+                [
+                    "LINE_4223450", 
+                    "LINE_0113623"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4223450", 
+                "LINE_0666503", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_4223450|", 
+                "", 
+                "", 
+                [
+                    "LINE_6457233"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0113623", 
+                "LINE_0666503", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_0113623|", 
+                "", 
+                "", 
+                [
+                    "LINE_2544430"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6457233", 
+                "LINE_4223450", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_6457233|", 
+                "", 
+                "", 
+                [
+                    "LINE_2544430"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2544430", 
+                "LINE_6457233", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_2544430|", 
+                "", 
+                "BK also added \"before her death\" because this line can be reached without hitting the line where Bryn explains that bit.\nBK revised from: Elitha had hidden the Stone, and she never even told me where it was. But I feel strongly that she would have wanted me to find it and keep it safe... and she certainly wouldn't want it in the possession of that succubus whore.", 
+                [
+                    "LINE_1787341", 
+                    "LINE_2099133", 
+                    "LINE_8088265"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1787341", 
+                "LINE_2544430", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_1787341|", 
+                "", 
+                "", 
+                [
+                    "LINE_6181674"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2099133", 
+                "LINE_2544430", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_2099133|", 
+                "", 
+                "whow -> how", 
+                [
+                    "LINE_4014488"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8088265", 
+                "LINE_2544430", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_8088265|", 
+                "", 
+                "BK revised to avoid \" if there's time\" because it is in next line", 
+                [
+                    "LINE_0230788"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6181674", 
+                "LINE_1787341", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_6181674|", 
+                "", 
+                "BK tweaking sentence, and last :\"Then we find out who has the Infernal Stone, and take it before Madelith can get to it.\"", 
+                [
+                    "LINE_6030010"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4014488", 
+                "LINE_2099133", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_4014488|", 
+                "", 
+                "", 
+                [
+                    "LINE_6181674"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0230788", 
+                "LINE_8088265", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_0230788|", 
+                "", 
+                "", 
+                [
+                    "LINE_6181674"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6030010", 
+                "LINE_6181674", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_6030010|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_1563642", 
+                    "LINE_5091490"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_CQ_Start", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9656637", 
+                "LINE_8792258", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_9656637|", 
+                "", 
+                "", 
+                [
+                    "LINE_4947210"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4947210", 
+                "LINE_9656637", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_4947210|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_1563642", 
+                    "LINE_5091490"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7015401", 
+                "LINE_2912895", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_7015401|", 
+                "", 
+                "", 
+                [
+                    "LINE_5945530", 
+                    "LINE_7363787"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5945530", 
+                "LINE_7015401", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_5945530|", 
+                "", 
+                "", 
+                [
+                    "LINE_1893712"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7363787", 
+                "LINE_7015401", 
+                "<PLAYER>", 
+                "|A_Camp_Bryn_LINE_7363787|", 
+                "", 
+                "", 
+                [
+                    "LINE_2164150"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2164150", 
+                "LINE_7363787", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_2164150|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_1563642", 
+                    "LINE_5091490"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1893712", 
+                "LINE_5945530", 
+                "<DEFAULT>", 
+                "|A_Camp_Bryn_LINE_1893712|", 
+                "", 
+                "", 
+                [
+                    "LINE_9983046", 
+                    "LINE_1563642", 
+                    "LINE_5091490"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

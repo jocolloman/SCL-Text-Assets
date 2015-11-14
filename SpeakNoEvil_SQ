@@ -1,0 +1,587 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "SpeakNoEvil_SQ": [
+            "SpeakNoEvil_SQ_Quest 0_Name", 
+            0, 
+            "SpeakNoEvil_SQ", 
+            "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+            "", 
+            {
+                "SNE_SQ_Start": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 0_Name", 
+                    1, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 0_JournalEntry", 
+                    "SNE_SQ_Start_Reward", 
+                    {}, 
+                    "", 
+                    1, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "SNE_SQ_HealDuergar": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 1_Name", 
+                    2, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 1_JournalEntry", 
+                    "SNE_SQ_HealDuergar_Reward", 
+                    [
+                        {
+                            "flag": "SNE_SQ_Start", 
+                            "quest": "SpeakNoEvil_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "Middledark"
+                ], 
+                "SNE_SQ_HealFollowup": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 2_Name", 
+                    3, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 2_JournalEntry", 
+                    "SNE_SQ_HealFollowup_Reward", 
+                    [
+                        {
+                            "flag": "SNE_SQ_HealDuergar", 
+                            "quest": "SpeakNoEvil_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "SNE_SQ_FindMerchant": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 4_0_Name", 
+                    4, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 4_0_JournalEntry", 
+                    "SNE_SQ_FindMerchant_Reward", 
+                    [
+                        {
+                            "flag": "SNE_SQ_HealFollowup", 
+                            "quest": "SpeakNoEvil_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "DarkLakeDistrict"
+                ], 
+                "SNE_SQ_FindBuyer": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 5_Name", 
+                    5, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 5_JournalEntry", 
+                    "SNE_SQ_FindBuyer_Reward", 
+                    [
+                        {
+                            "flag": "SNE_SQ_FindMerchant", 
+                            "quest": "SpeakNoEvil_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "UnderdarkDescent"
+                ], 
+                "SNE_SQ_BuyerComplete": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 13_Name", 
+                    6, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 13_JournalEntry", 
+                    "SNE_SQ_BuyerComplete_Reward", 
+                    [
+                        {
+                            "groupStart": 1, 
+                            "join": "OR", 
+                            "groupItems": [
+                                {
+                                    "flag": "SNE_SQ_LeftBuyer", 
+                                    "quest": "SpeakNoEvil_SQ", 
+                                    "set": 1
+                                }, 
+                                {
+                                    "flag": "SNE_SQ_ConvinceBuyer", 
+                                    "quest": "SpeakNoEvil_SQ", 
+                                    "set": 1
+                                }
+                            ]
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    true, 
+                    "", 
+                    "", 
+                    "UnderdarkDescent"
+                ], 
+                "SNE_SQ_ConvinceBuyer": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 7_0_Name", 
+                    7, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 7_0_JournalEntry", 
+                    "SNE_SQ_ConvinceBuyer_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "UnderdarkDescent"
+                ], 
+                "SNE_SQ_KilledBuyer": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 8_Name", 
+                    8, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 8_JournalEntry", 
+                    "SNE_SQ_KilledBuyer_Reward", 
+                    [
+                        {
+                            "flag": "SNE_SQ_BuyerHostile", 
+                            "quest": "SpeakNoEvil_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "UnderdarkDescent"
+                ], 
+                "SNE_SQ_LeftBuyer": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 12_Name", 
+                    9, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 12_JournalEntry", 
+                    "SNE_SQ_LeftBuyer_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "UnderdarkDescent"
+                ], 
+                "SNE_SQ_PickedUpLoot": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 17_Name", 
+                    10, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 17_JournalEntry", 
+                    "SNE_SQ_PickedUpLoot_Reward", 
+                    [
+                        {
+                            "flag": "SNE_SQ_KilledBuyer", 
+                            "quest": "SpeakNoEvil_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    3, 
+                    false, 
+                    "", 
+                    "", 
+                    "UnderdarkDescent"
+                ], 
+                "SNE_SQ_KilledBringBack": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 17_0_Name", 
+                    11, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 17_0_JournalEntry", 
+                    "SNE_SQ_KilledBringBack_Reward", 
+                    [
+                        {
+                            "flag": "SNE_SQ_PickedUpLoot", 
+                            "quest": "SpeakNoEvil_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    2, 
+                    false, 
+                    "", 
+                    "", 
+                    "Middledark"
+                ], 
+                "SNE_SQ_ReturnWizard": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 9_Name", 
+                    12, 
+                    false, 
+                    false, 
+                    false, 
+                    true, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 9_JournalEntry", 
+                    "SNE_SQ_ReturnWizard_Reward", 
+                    [
+                        {
+                            "flag": "SNE_SQ_BuyerComplete", 
+                            "quest": "SpeakNoEvil_SQ", 
+                            "set": 1
+                        }
+                    ], 
+                    "", 
+                    2, 
+                    false, 
+                    "", 
+                    "", 
+                    "Middledark"
+                ], 
+                "SNE_SQ_RemoveMask": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 10_0_Name", 
+                    13, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 10_0_JournalEntry", 
+                    "SNE_SQ_RemoveMask_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "Middledark"
+                ], 
+                "SNE_SQ_KeepMaskGood": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 11_Name", 
+                    14, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 11_JournalEntry", 
+                    "SNE_SQ_KeepMaskGood_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "Middledark"
+                ], 
+                "SNE_SQ_KeepMaskBad": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 14_Name", 
+                    15, 
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 14_JournalEntry", 
+                    "SNE_SQ_KeepMaskBad_Reward", 
+                    {}, 
+                    "", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "Middledark"
+                ], 
+                "SNE_SQ_QuestComplete": [
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 15_Name", 
+                    16, 
+                    false, 
+                    true, 
+                    false, 
+                    false, 
+                    "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 15_JournalEntry", 
+                    "SNE_SQ_QuestComplete_Reward", 
+                    [
+                        {
+                            "groupStart": 1, 
+                            "join": "OR", 
+                            "groupItems": [
+                                {
+                                    "flag": "SNE_SQ_RemoveMask", 
+                                    "quest": "SpeakNoEvil_SQ", 
+                                    "set": 1
+                                }, 
+                                {
+                                    "flag": "SNE_SQ_KeepMaskGood", 
+                                    "quest": "SpeakNoEvil_SQ", 
+                                    "set": 1
+                                }, 
+                                {
+                                    "flag": "SNE_SQ_KeepMaskBad", 
+                                    "quest": "SpeakNoEvil_SQ", 
+                                    "set": 1
+                                }
+                            ]
+                        }
+                    ], 
+                    "", 
+                    false, 
+                    true, 
+                    "", 
+                    "", 
+                    "None"
+                ], 
+                "Utility Flags": {
+                    "SNE_SQ_BuyerHostile": [
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 6_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 6_JournalEntry", 
+                        "SNE_SQ_BuyerHostile_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SNE_SQ_WizardUnEquip": [
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 16_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 16_JournalEntry", 
+                        "SNE_SQ_WizardUnEquip_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SNE_SQ_HealDuergar_PlayFX": [
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 18_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 18_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "SNE_SQ_HealDuergar_PlayPotionFX": [
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 19_Name", 
+                        20, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 19_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "SNE_SQ_NoMaskFade": [
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 20_Name", 
+                        21, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "SpeakNoEvil_SQ_SpeakNoEvil_SQ_Flag 20_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        ""
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "Middledark", 
+            "Location"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ZoneConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Settings InteriorLoadPath="Levels/Interiors/Zone_LuskanRuins"/>  <!--THIS IS POINTING TO THE OLD FOLDER -->
+
+    <!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="Cemetery" />  <!-- Make a new set because this zone is used for UNDEAD (c2) and DEMONS (c3) -->
+	</CreatureSets>
+
+  <Interiors>
+		<Interior  Name="Cemetery_Mausoleum1"/>
+		<Interior  Name="Cemetery_Mausoleum2"/>
+		<Interior  Name="Cemetery_Mausoleum3"/>
+		<Interior  Name="Slums_Interior_Hut_01"/>  <!-- Black Candle -->
+		<Interior  Name="Slums_Interior_Hut_02"/>  <!-- Crystal Jar -->
+        <!-- plus additional random slums interiors -->
+    </Interiors>
+    
+</ZoneConfig>

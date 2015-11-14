@@ -1,0 +1,3982 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "A_Camp_Illydia", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "ILLYDIA"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_1312864", 
+                "LINE_4664259", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_1312864|", 
+                "", 
+                "", 
+                [
+                    "LINE_9331975", 
+                    "LINE_0081213", 
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_CQ_GetIllydiaPastInfo", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9466065", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_6481889", 
+                    "LINE_7525516", 
+                    "LINE_7089061", 
+                    "LINE_7623539", 
+                    "LINE_7198397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6481889", 
+                "LINE_9466065", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8339351", 
+                    "LINE_4087275", 
+                    "LINE_4272917", 
+                    "LINE_0310135", 
+                    "LINE_7525516"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_IEN_FindTheCamp", 
+                                    "Quest": "C4.0_Into_Eternal_Night", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7525516", 
+                "LINE_9466065", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7525516|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_IEN_Start", 
+                                    "Quest": "C4.0_Into_Eternal_Night", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7623539", 
+                "LINE_9466065", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7623539|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_5674397", 
+                    "LINE_3502716"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ANQ_Start", 
+                                    "Quest": "C2.1_A_New_Quest", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7198397", 
+                "LINE_9466065", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9380009"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C1_WU_Start", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1176739", 
+                "LINE_9380009", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_1176739|", 
+                "", 
+                "", 
+                [
+                    "LINE_2078688", 
+                    "LINE_7660620", 
+                    "LINE_5296240", 
+                    "LINE_8823812", 
+                    "LINE_9732878"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2078688", 
+                "LINE_1176739", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_2078688|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_3_3", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9580037", 
+                "LINE_8823812", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_9580037|", 
+                "", 
+                "", 
+                [
+                    "LINE_4858271"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_BG_3_3", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_3_2", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8411285", 
+                "LINE_8823812", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8411285|", 
+                "", 
+                "BK revised from \"Several decades after I was enslaved by the drow, I met Tezzarae. She was masquerading as a slave, making plans to stage an escape to liberate us from captivity.", 
+                [
+                    "LINE_5712249"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_BG_3_2", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_3_1", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7984245", 
+                "LINE_8823812", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7984245|", 
+                "", 
+                "", 
+                [
+                    "LINE_0570032", 
+                    "LINE_9902497"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_BG_3_1", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_2_3", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_CQ_U_HasJournal", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2353131", 
+                "LINE_8823812", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_2353131|", 
+                "", 
+                "BK revised from \"I developed a deep hatred for the drow during my captivity. I have seen all the cruelty and brutality they can muster, all at the word of their demon goddess, Lolth.\"", 
+                [
+                    "LINE_7582455"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_BG_2_3", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_2_2", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4596815", 
+                "LINE_8823812", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4596815|", 
+                "", 
+                "Bk replaced second forced with \"compelled\"", 
+                [
+                    "LINE_8954128", 
+                    "LINE_7333247", 
+                    "LINE_9902497"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_BG_2_2", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_2_1", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0653002", 
+                "LINE_8823812", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_0653002|", 
+                "", 
+                "", 
+                [
+                    "LINE_6736821"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_BG_2_1", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_1_3", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_TLOR_Start", 
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8001739", 
+                "LINE_8823812", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8001739|", 
+                "", 
+                "", 
+                [
+                    "LINE_4940058"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_BG_1_3", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_1_2", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1186318", 
+                "LINE_8823812", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_1186318|", 
+                "", 
+                "", 
+                [
+                    "LINE_2788175", 
+                    "LINE_9036008"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_BG_1_2", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_1_1", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7660620", 
+                "LINE_1176739", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7660620|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_2_3", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Illydia_CQ_U_HasJournal", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3502716", 
+                "LINE_9380009", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_3502716|", 
+                "", 
+                "", 
+                [
+                    "LINE_0729919", 
+                    "LINE_0050971", 
+                    "LINE_8716185", 
+                    "LINE_8010798", 
+                    "LINE_5974406", 
+                    "LINE_4046573", 
+                    "LINE_7758278", 
+                    "LINE_1656516", 
+                    "LINE_5396330", 
+                    "LINE_3005380", 
+                    "LINE_5480902"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0729919", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_0729919|", 
+                "", 
+                "After Bryn betrayal", 
+                [
+                    "LINE_1132411"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_TDW_GetToPortal", 
+                                    "Quest": "C4.4_The_Demons_Wake", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0050971", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_0050971|", 
+                "", 
+                "After meeting Gorflun", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_PM_Start", 
+                                    "Quest": "C4.2_Prison_For_The_Mind", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8716185", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8716185|", 
+                "", 
+                "After reaching Gracklstugh", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_COTGD_TravelToGrack", 
+                                    "Quest": "C4.1_City_Of_The_Grey_Dwarves", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8010798", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8010798|", 
+                "", 
+                "After finding Tezzarae's camp", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_IEN_SearchForClues", 
+                                    "Quest": "C4.0_Into_Eternal_Night", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5974406", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_5974406|", 
+                "", 
+                "After Rhylfang", 
+                [
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C4_IEN_Start", 
+                                    "Quest": "C4.0_Into_Eternal_Night", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4046573", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4046573|", 
+                "", 
+                "After the Dalanir Reveal", 
+                [
+                    "LINE_1176739", 
+                    "LINE_5674397", 
+                    "LINE_1737981", 
+                    "LINE_8896763", 
+                    "LINE_2671118"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_TLOR_Start", 
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7758278", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7758278|", 
+                "", 
+                "After the Chapterhouse", 
+                [
+                    "LINE_9894627"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_CBL_Start", 
+                                    "Quest": "C3.2_Chaos_Breaks_Loose", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1656516", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_1656516|", 
+                "", 
+                "After Maferil", 
+                [
+                    "LINE_5500289"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_TNM_Start", 
+                                    "Quest": "C3.0_The_Next_Move", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5396330", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_5396330|", 
+                "", 
+                "BK WOTC tweaking find-find\nAfter finding Soronil", 
+                [
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ITDC_Start", 
+                                    "Quest": "C2.2_Into_The_Dead_City", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3005380", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_3005380|", 
+                "", 
+                "Reached Luskan Gates", 
+                [
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C2_ANQ_Start", 
+                                    "Quest": "C2.1_A_New_Quest", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5480902", 
+                "LINE_3502716", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_5480902|", 
+                "", 
+                "", 
+                [
+                    "LINE_1176739", 
+                    "LINE_5340470"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5340470", 
+                "LINE_5480902", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_5340470|", 
+                "", 
+                "", 
+                [
+                    "LINE_5444467"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5444467", 
+                "LINE_5340470", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_5444467|", 
+                "", 
+                "", 
+                [
+                    "LINE_6074458"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6074458", 
+                "LINE_5444467", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5674397", 
+                "LINE_9380009", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_5674397|", 
+                "", 
+                "", 
+                [
+                    "LINE_9684548"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9684548", 
+                "LINE_5674397", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_9684548|", 
+                "", 
+                "", 
+                [
+                    "LINE_0845579"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0845579", 
+                "LINE_9684548", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4272917", 
+                "LINE_6481889", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4272917|", 
+                "", 
+                "", 
+                [
+                    "LINE_1604595"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Illydia_CQ_Start", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_CQ_U_HasJournal", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0310135", 
+                "LINE_6481889", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_0310135|", 
+                "", 
+                "", 
+                [
+                    "LINE_8584189", 
+                    "LINE_5830956", 
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_CQ_Start", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_CQ_GetIllydiaPastInfo", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9380009", 
+                "LINE_7198397", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_9380009|", 
+                "", 
+                "TEXT: I was hoping you would come speak with me.\nVO:     I was hoping you would come and speak with me.", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1604595", 
+                "LINE_4272917", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_1604595|", 
+                "", 
+                "", 
+                [
+                    "LINE_4664259"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_CQ_Start", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Illydia_CQ_Start", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_CQ_U_HasJournal", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4664259", 
+                "LINE_1604595", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4664259|", 
+                "", 
+                "WOTC: making the line clearer", 
+                [
+                    "LINE_1312864"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5500289", 
+                "LINE_1656516", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_5500289|", 
+                "", 
+                "BK WOTC added \"Or what power they may hold over you.\"", 
+                [
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9894627", 
+                "LINE_7758278", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_9894627|", 
+                "", 
+                "", 
+                [
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7089061", 
+                "LINE_9466065", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7089061|", 
+                "", 
+                "", 
+                [
+                    "LINE_3258379", 
+                    "LINE_9531386", 
+                    "LINE_4024746"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Talked_About_Dalanir", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C3_TLOR_Start", 
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Talked_About_Dalanir", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1737981", 
+                "LINE_4046573", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_1737981|", 
+                "", 
+                "", 
+                [
+                    "LINE_6591932"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8896763", 
+                "LINE_4046573", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_8896763|", 
+                "", 
+                "", 
+                [
+                    "LINE_0098996"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2671118", 
+                "LINE_4046573", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_2671118|", 
+                "", 
+                "", 
+                [
+                    "LINE_6649186", 
+                    "LINE_2353131", 
+                    "LINE_4596815", 
+                    "LINE_0653002"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6649186", 
+                "LINE_2671118", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_6649186|", 
+                "", 
+                "BK replaced first \"past\" with \"experiences\"", 
+                [
+                    "LINE_1737981", 
+                    "LINE_8896763", 
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_2_3", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0098996", 
+                "LINE_8896763", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_0098996|", 
+                "", 
+                "", 
+                [
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6591932", 
+                "LINE_1737981", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_6591932|", 
+                "", 
+                "", 
+                [
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1132411", 
+                "LINE_0729919", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_1132411|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5296240", 
+                "LINE_1176739", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_5296240|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_1_3", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C3_TLOR_Start", 
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9732878", 
+                "LINE_1176739", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_9732878|", 
+                "", 
+                "", 
+                [
+                    "LINE_7167171", 
+                    "LINE_9902497"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_BG_1_1", 
+                        "Quest": "Illydia_CQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7167171", 
+                "LINE_9732878", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_7167171|", 
+                "", 
+                "", 
+                [
+                    "LINE_1186318"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9902497", 
+                "LINE_9732878", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_9902497|", 
+                "", 
+                "", 
+                [
+                    "LINE_4841551"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4841551", 
+                "LINE_9902497", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4841551|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2788175", 
+                "LINE_1186318", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_2788175|", 
+                "", 
+                "", 
+                [
+                    "LINE_6082032"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9036008", 
+                "LINE_1186318", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_9036008|", 
+                "", 
+                "", 
+                [
+                    "LINE_0343542"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0343542", 
+                "LINE_9036008", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_0343542|", 
+                "", 
+                "", 
+                [
+                    "LINE_6082032"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6082032", 
+                "LINE_2788175", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_6082032|", 
+                "", 
+                "I revised this to be clearer that the kids were actually forbidden from playing together. Original: \"My parents scolded and punished, but all I could see was that that they wanted to keep me from my dear friend, the one child with whom I could play, laugh, and experience joy.\"", 
+                [
+                    "LINE_5198437"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5198437", 
+                "LINE_6082032", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_5198437|", 
+                "", 
+                "BK tweaked", 
+                [
+                    "LINE_4562250"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4562250", 
+                "LINE_5198437", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4562250|", 
+                "", 
+                "Bk added anger note here and replaced \"my childhood friend\" with Cerric's name to reinforce that character's name", 
+                [
+                    "LINE_0511077", 
+                    "LINE_2879197", 
+                    "LINE_9902497"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0511077", 
+                "LINE_4562250", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_0511077|", 
+                "", 
+                "", 
+                [
+                    "LINE_8119351"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2879197", 
+                "LINE_4562250", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_2879197|", 
+                "", 
+                "", 
+                [
+                    "LINE_4734196"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8119351", 
+                "LINE_0511077", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8119351|", 
+                "", 
+                "", 
+                [
+                    "LINE_8001739"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4734196", 
+                "LINE_2879197", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4734196|", 
+                "", 
+                "", 
+                [
+                    "LINE_8001739"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8823812", 
+                "LINE_1176739", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8823812|", 
+                "", 
+                "", 
+                [
+                    "LINE_9580037", 
+                    "LINE_8411285", 
+                    "LINE_7984245", 
+                    "LINE_2353131", 
+                    "LINE_4596815", 
+                    "LINE_0653002", 
+                    "LINE_8001739", 
+                    "LINE_1186318"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_1_1", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4940058", 
+                "LINE_8001739", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4940058|", 
+                "", 
+                "BK cut the \"by the dozens\" because the actual counts seem to fluctuate", 
+                [
+                    "LINE_0146192"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0146192", 
+                "LINE_4940058", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_0146192|", 
+                "", 
+                "BK previous line she already said her family were captured, so I cut \"When they reached my home, they took my family prisoner, and in\" and revised \"We had been given the sacred honor of protecting a relic of Sehanine.\"", 
+                [
+                    "LINE_4898093", 
+                    "LINE_2953484"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4898093", 
+                "LINE_0146192", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_4898093|", 
+                "", 
+                "Bk rephrased from \"You got your own village destroyed?!\"", 
+                [
+                    "LINE_3642515"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2953484", 
+                "LINE_0146192", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_2953484|", 
+                "", 
+                "BK revised from \"You couldn't have known how it would play out. Not at your age.\"  \"play out\" sounded modern", 
+                [
+                    "LINE_6907823"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3642515", 
+                "LINE_4898093", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_3642515|", 
+                "", 
+                "", 
+                [
+                    "LINE_0891583"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6907823", 
+                "LINE_2953484", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_6907823|", 
+                "", 
+                "", 
+                [
+                    "LINE_0891583"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0891583", 
+                "LINE_3642515", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_0891583|", 
+                "", 
+                "BK cut \", even to the smallest extent,\" and tweaked end sentence.", 
+                [
+                    "LINE_4961880"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4961880", 
+                "LINE_0891583", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4961880|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6736821", 
+                "LINE_0653002", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_6736821|", 
+                "", 
+                "BK revised from \"When my village was attacked, the drow killed most, but they captured some to work as slaves. I was one among that number.\"", 
+                [
+                    "LINE_5760368", 
+                    "LINE_9902497"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5760368", 
+                "LINE_6736821", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_5760368|", 
+                "", 
+                "", 
+                [
+                    "LINE_4596815"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8954128", 
+                "LINE_4596815", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_8954128|", 
+                "", 
+                "", 
+                [
+                    "LINE_7390478"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7333247", 
+                "LINE_4596815", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_7333247|", 
+                "", 
+                "", 
+                [
+                    "LINE_9842822"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7390478", 
+                "LINE_8954128", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7390478|", 
+                "", 
+                "BK I cut \"attack on my village and the\" because it doesn't seem right... punishing them for losing the Moontear, yes, but not for being attacked.", 
+                [
+                    "LINE_2353131"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9842822", 
+                "LINE_7333247", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_9842822|", 
+                "", 
+                "", 
+                [
+                    "LINE_2353131"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7582455", 
+                "LINE_2353131", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7582455|", 
+                "", 
+                "Bk cut \"By all reckoning, \"", 
+                [
+                    "LINE_3902830"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3902830", 
+                "LINE_7582455", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_3902830|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0570032", 
+                "LINE_7984245", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_0570032|", 
+                "", 
+                "", 
+                [
+                    "LINE_8411285"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5712249", 
+                "LINE_8411285", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_5712249|", 
+                "", 
+                "BK revised from \"By then, most of us were too afraid to go along. But something told me to trust her. And, true to her word, her plan worked. I and about five other slaves, mostly human and dwarven, managed to escape.\"", 
+                [
+                    "LINE_8545432", 
+                    "LINE_6823669", 
+                    "LINE_9902497"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8545432", 
+                "LINE_5712249", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_8545432|", 
+                "", 
+                "", 
+                [
+                    "LINE_1149342"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6823669", 
+                "LINE_5712249", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_6823669|", 
+                "", 
+                "", 
+                [
+                    "LINE_9580037"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1149342", 
+                "LINE_8545432", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_1149342|", 
+                "", 
+                "", 
+                [
+                    "LINE_9580037"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4858271", 
+                "LINE_9580037", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4858271|", 
+                "", 
+                "BK revised from \"She taught me to survive in the Underdark, how to fight and find food, and she taught me the importance of faith. She showed me how to hide from duergar patrols, and she pointed the way to the surface world.\"", 
+                [
+                    "LINE_8905746"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8905746", 
+                "LINE_4858271", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8905746|", 
+                "", 
+                "", 
+                [
+                    "LINE_8686582"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8686582", 
+                "LINE_8905746", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8686582|", 
+                "", 
+                "", 
+                [
+                    "LINE_7777048"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7777048", 
+                "LINE_8686582", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7777048|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0081213", 
+                "LINE_1312864", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_0081213|", 
+                "", 
+                "", 
+                [
+                    "LINE_7049599"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Illydia_BG_1_2", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7049599", 
+                "LINE_0081213", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7049599|", 
+                "", 
+                "", 
+                [
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397", 
+                    "LINE_5304499", 
+                    "LINE_7870142"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9331975", 
+                "LINE_1312864", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_9331975|", 
+                "", 
+                "", 
+                [
+                    "LINE_6404817"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_BG_1_2", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6404817", 
+                "LINE_9331975", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_6404817|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8584189", 
+                "LINE_0310135", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_8584189|", 
+                "", 
+                "", 
+                [
+                    "LINE_6033004"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Illydia_CQ_U_MapPin", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5830956", 
+                "LINE_0310135", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_5830956|", 
+                "", 
+                "", 
+                [
+                    "LINE_7302326"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_CQ_U_MapPin", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6033004", 
+                "LINE_8584189", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_6033004|", 
+                "", 
+                "BK I don't quite like the last sentence but couldn't think of a suitable replacement.", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7302326", 
+                "LINE_5830956", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_7302326|", 
+                "", 
+                "BK WOTC dear -> old", 
+                [
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397", 
+                    "LINE_5304499", 
+                    "LINE_7870142"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4087275", 
+                "LINE_6481889", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4087275|", 
+                "", 
+                "", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Illydia_CQ_SearchForCerric", 
+                                    "Quest": "Illydia_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3258379", 
+                "LINE_7089061", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_3258379|", 
+                "", 
+                "", 
+                [
+                    "LINE_3024656"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9531386", 
+                "LINE_7089061", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_9531386|", 
+                "", 
+                "", 
+                [
+                    "LINE_8678190"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4024746", 
+                "LINE_7089061", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_4024746|", 
+                "", 
+                "BK trimmed out \"He won't catch us off our guard again.\"", 
+                [
+                    "LINE_3865308"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3024656", 
+                "LINE_3258379", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_3024656|", 
+                "", 
+                "BK I changed this sentence completely to focus on the player's use of the word trust. The agreement comes later in the chain.", 
+                [
+                    "LINE_3865308"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3865308", 
+                "LINE_3024656", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_3865308|", 
+                "", 
+                "BK revised from \"I have only ever met one drow that ever showed me what I'd consider a good heart. The rest have all been liars, sadists, murderers, and worshippers of demons.\"", 
+                [
+                    "LINE_5678992"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8678190", 
+                "LINE_9531386", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8678190|", 
+                "", 
+                "BK rephrased from :\"That is what angers me: he knows an awful lot about our quest, your guild, and the Moontear. If we didn't need him, I would see him punished for his betrayal.\"", 
+                [
+                    "LINE_3865308"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5678992", 
+                "LINE_3865308", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_5678992|", 
+                "", 
+                "BK hope -> pray", 
+                [
+                    "LINE_5304499", 
+                    "LINE_7870142", 
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8339351", 
+                "LINE_6481889", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_8339351|", 
+                "", 
+                "", 
+                [
+                    "LINE_4331628"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Illydia_Asked_About_Golgamann", 
+                        "Quest": "Izhkin_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Illydia_Asked_About_Golgamann", 
+                                    "Quest": "Izhkin_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4331628", 
+                "LINE_8339351", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4331628|", 
+                "", 
+                "", 
+                [
+                    "LINE_3130768", 
+                    "LINE_2446827", 
+                    "LINE_2375513"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3130768", 
+                "LINE_4331628", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_3130768|", 
+                "", 
+                "", 
+                [
+                    "LINE_4265686"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2446827", 
+                "LINE_4331628", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_2446827|", 
+                "", 
+                "", 
+                [
+                    "LINE_2568607"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2375513", 
+                "LINE_4331628", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_2375513|", 
+                "", 
+                "", 
+                [
+                    "LINE_3028659"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3028659", 
+                "LINE_2375513", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_3028659|", 
+                "", 
+                "", 
+                [
+                    "LINE_0369441"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0369441", 
+                "LINE_3028659", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_0369441|", 
+                "", 
+                "", 
+                [
+                    "LINE_3130768", 
+                    "LINE_2446827"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2568607", 
+                "LINE_2446827", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_2568607|", 
+                "", 
+                "", 
+                [
+                    "LINE_1604595", 
+                    "LINE_4613732"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4265686", 
+                "LINE_3130768", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4265686|", 
+                "", 
+                "", 
+                [
+                    "LINE_1604595", 
+                    "LINE_4613732"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4613732", 
+                "LINE_4265686", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4613732|", 
+                "", 
+                "", 
+                [
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5304499", 
+                "LINE_9380009", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_5304499|", 
+                "", 
+                "", 
+                [
+                    "LINE_4752966"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "TT_Illydia_About_Golgamann", 
+                        "Quest": "Izhkin_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Golgamann_Buried", 
+                                    "Quest": "Izhkin_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "TT_Illydia_About_Golgamann", 
+                                    "Quest": "Izhkin_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7870142", 
+                "LINE_9380009", 
+                "<PLAYER>", 
+                "|A_Camp_Illydia_LINE_7870142|", 
+                "", 
+                "", 
+                [
+                    "LINE_3275707"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "TT_Illydia_About_Golgamann", 
+                        "Quest": "Izhkin_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Golgamann_Burial_Refused", 
+                                    "Quest": "Izhkin_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "TT_Illydia_About_Golgamann", 
+                                    "Quest": "Izhkin_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3275707", 
+                "LINE_7870142", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_3275707|", 
+                "", 
+                "", 
+                [
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4752966", 
+                "LINE_5304499", 
+                "<DEFAULT>", 
+                "|A_Camp_Illydia_LINE_4752966|", 
+                "", 
+                "", 
+                [
+                    "LINE_1176739", 
+                    "LINE_3502716", 
+                    "LINE_5674397"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" 
+
+MaxHallwayDistance="20"
+MaxHallwayTiles="2" >
+<HallwayTiles>
+    <Tile Name="DUE_10_I_Hall" TransitionOverride="DuergarArch02" />  
+</HallwayTiles>
+</Settings>
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="DuergarSet01" /> 
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>
+
+<!-- FLORTAL - Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DUE_FlortalDOWN" />    
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+        <Group>
+            <Trunk Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="DUE_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+               <!--     <Tile Name="DUE_DiagHall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />  -->
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- Tree 1 -->       
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_S_C_RaisedCorner" PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1"  />  
+                    <Tile Name="DUE_S_C_TwinCornersDown"  PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1" />  
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DUE_10_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" TransitionOverride="DuergarArch02"/>
+                </Tiles>
+            </Branch>
+        </Group>
+<!--END tree 1 -->
+
+<!-- Tree 2 -->       
+        <Group>
+            <Trunk Min="1" Max="1">  <!-- MAXED OUT THE possible ports on all of these tiles -->
+                <Tiles >   
+                   <Tile Name="DUE_36_T_Speed" PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1" />
+                   <Tile Name="DUE_36_I_Dais"  PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!--END tree 2 -->
+
+<!-- Tree  3 -->   
+        <Group>
+            <Trunk Min="1" Max="1" >
+                <Tiles>
+               <!--     <Tile Name="DUE_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />  -->
+                    <Tile Name="DUE_DiagHall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- Little hallway break -->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                     <Tile Name="DUE_10_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" TransitionOverride="DuergarArch02"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+  <!--    REMOVING THIS TILE FOR ACTVITY CHAIN PASS
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_S_C_RaisedCorner" PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1"  />  
+                    <Tile Name="DUE_S_C_TwinCornersDown"  PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1" />  
+                    <Tile Name="DUE_S_C_Angle"  PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1" />  
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DUE_10_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" TransitionOverride="DuergarArch02"/>
+                </Tiles>
+            </Branch>
+        </Group>
+ -->
+ 
+ <!-- VAULT AND THRONE ROOM -->
+ 
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="DUE_S_I_LilDip"  PortExtensionMin= "4" PortExtensionMax = "4"/>   
+                </Tiles>
+            </Trunk>
+        </Group>
+
+        <!-- end of dungeon redux -->
+        
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="DUE_30_C_Hall"  PortExtensionMin= "1" PortExtensionMax = "1"   OpenAllPorts= "1" ForceEntryPort = "Port06" ForceExitPort = "Port07"/>   
+                </Tiles>
+            </Trunk>
+         </Group>
+         
+        <Group>
+            <Trunk Min="1" Max="1" Probability="100">
+                <Tiles >
+                    <Tile Name="DUE_S_D_Throne"  PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort = "Port01" ForceExitPort = "Port02" />    <!-- Throne Room -->
+                </Tiles>
+            </Trunk>
+         </Group>
+         
+        <Group>
+            <Trunk Min="1" Max="1" Probability="100">
+                <Tiles >
+                    <Tile Name="DUE_Vault_Exit"  PortExtensionMin= "1" PortExtensionMax = "1" TransitionOverride="DuergarVaultDoor" XMLID = "VaultDoor"/>   <!-- Vault  SUPER COOL SECRET THRONE DOOR THING -->
+                </Tiles>
+            </Trunk>
+         </Group>
+         
+</Groups>    
+    
+    <PostBuildTiles>
+        <Tiles>
+            <Tile Name="DUE_Closet" TransitionOverride="DuergarSecretDoor" Max="1" PlacementDistanceRequired="100"/>  
+		</Tiles>
+    </PostBuildTiles>
+    
+</DungeonConfig>

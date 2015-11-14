@@ -1,0 +1,1325 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch3_Evermoors_DrowAmbush_Setup", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "NEYRA"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0236494", 
+                "<ROOT>", 
+                "NEYRA", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_0236494|", 
+                "", 
+                "", 
+                [
+                    "LINE_2757953"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2757953", 
+                "LINE_0236494", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch3_Evermoors_DrowAmbush_Victim", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "NEYRA"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0499136", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_0499136|", 
+                "", 
+                "", 
+                [
+                    "LINE_3803369", 
+                    "LINE_5238397"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH3_DA_SpokeToVictim", 
+                        "Quest": "Ch3_SQ_DrowAmbush", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "CH3_DA_AmbushCleared", 
+                                    "Quest": "Ch3_SQ_DrowAmbush", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3803369", 
+                "LINE_0499136", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_3803369|", 
+                "", 
+                "", 
+                [
+                    "LINE_6166563"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5238397", 
+                "LINE_0499136", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_5238397|", 
+                "", 
+                "", 
+                [
+                    "LINE_4685039"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6166563", 
+                "LINE_3803369", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_6166563|", 
+                "", 
+                "BK: shortened", 
+                [
+                    "LINE_6052916"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6052916", 
+                "LINE_6166563", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_6052916|", 
+                "", 
+                "BK: major edits for brevity", 
+                [
+                    "LINE_3670018"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3670018", 
+                "LINE_6052916", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_3670018|", 
+                "", 
+                "", 
+                [
+                    "LINE_8193158", 
+                    "LINE_0022416"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8193158", 
+                "LINE_3670018", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_8193158|", 
+                "", 
+                "", 
+                [
+                    "LINE_5935469"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0022416", 
+                "LINE_3670018", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_0022416|", 
+                "", 
+                "", 
+                [
+                    "LINE_2561439"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5935469", 
+                "LINE_8193158", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_5935469|", 
+                "", 
+                "BK: massive restructure", 
+                [
+                    "LINE_6612586", 
+                    "LINE_7733211", 
+                    "LINE_4657682"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5190479", 
+                "LINE_6612586", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_5190479|", 
+                "", 
+                "", 
+                [
+                    "LINE_0492059"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0492059", 
+                "LINE_5190479", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_0492059|", 
+                "", 
+                "", 
+                [
+                    "LINE_5223182", 
+                    "LINE_2290193", 
+                    "LINE_9137080"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2561439", 
+                "LINE_0022416", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_2561439|", 
+                "", 
+                "", 
+                [
+                    "LINE_5935469"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5223182", 
+                "LINE_0492059", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_5223182|", 
+                "", 
+                "", 
+                [
+                    "LINE_2028202"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2290193", 
+                "LINE_0492059", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_2290193|", 
+                "", 
+                "", 
+                [
+                    "LINE_0142128"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2028202", 
+                "LINE_5223182", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_2028202|", 
+                "", 
+                "", 
+                [
+                    "LINE_0362331"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0362331", 
+                "LINE_2028202", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_0362331|", 
+                "", 
+                "BK: dropped mention of  \"the lady\" because this was not mentioned elsehwere, nor does the player get the chance to bring it up later.", 
+                [
+                    "LINE_2894011"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2894011", 
+                "LINE_0362331", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_2894011|", 
+                "", 
+                "", 
+                [
+                    "LINE_7748907"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7748907", 
+                "LINE_2894011", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH3_DA_LetVictimGo", 
+                        "Quest": "Ch3_SQ_DrowAmbush", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4685039", 
+                "LINE_5238397", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_4685039|", 
+                "", 
+                "", 
+                [
+                    "LINE_7968382"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7968382", 
+                "LINE_4685039", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_7968382|", 
+                "", 
+                "", 
+                [
+                    "LINE_6052916"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0142128", 
+                "LINE_2290193", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_0142128|", 
+                "", 
+                "", 
+                [
+                    "LINE_3903128"
+                ], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "Async": false, 
+                        "FunctionName": "AddGold 150", 
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3903128", 
+                "LINE_0142128", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_3903128|", 
+                "", 
+                "BK smart -> wise", 
+                [
+                    "LINE_7364501"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9353047", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_9353047|", 
+                "", 
+                "", 
+                [
+                    "LINE_3415570"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "CH3_DA_TriggerAmbush", 
+                                    "Quest": "Ch3_SQ_DrowAmbush", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3415570", 
+                "LINE_9353047", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_3415570|", 
+                "", 
+                "", 
+                [
+                    "LINE_4663774"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4663774", 
+                "LINE_3415570", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH3_DA_Helped", 
+                        "Quest": "Ch3_SQ_DrowAmbush", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7364501", 
+                "LINE_3903128", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "CH3_DA_LetVictimGo", 
+                        "Quest": "Ch3_SQ_DrowAmbush", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6612586", 
+                "LINE_5935469", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_6612586|", 
+                "", 
+                "BK: being clear the village is mentioned since this player response is linked to, elsehwere.", 
+                [
+                    "LINE_5190479"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7733211", 
+                "LINE_5935469", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_7733211|", 
+                "", 
+                "", 
+                [
+                    "LINE_7962445"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4657682", 
+                "LINE_5935469", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_4657682|", 
+                "", 
+                "", 
+                [
+                    "LINE_7963219"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7962445", 
+                "LINE_7733211", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_7962445|", 
+                "", 
+                "", 
+                [
+                    "LINE_6889592", 
+                    "LINE_6612586", 
+                    "LINE_4657682"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7963219", 
+                "LINE_4657682", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_7963219|", 
+                "", 
+                "", 
+                [
+                    "LINE_2617688", 
+                    "LINE_7733211"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2617688", 
+                "LINE_7963219", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_2617688|", 
+                "", 
+                "", 
+                [
+                    "LINE_5190479"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6889592", 
+                "LINE_7962445", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_6889592|", 
+                "", 
+                "", 
+                [
+                    "LINE_6805650", 
+                    "LINE_8655222"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6805650", 
+                "LINE_6889592", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_6805650|", 
+                "", 
+                "", 
+                [
+                    "LINE_1986378"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 15, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "int", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8655222", 
+                "LINE_6889592", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_8655222|", 
+                "", 
+                "", 
+                [
+                    "LINE_6612586", 
+                    "LINE_4657682"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1986378", 
+                "LINE_6805650", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_1986378|", 
+                "", 
+                "BK: no scripting on this line", 
+                [
+                    "LINE_6016297"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6016297", 
+                "LINE_1986378", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_6016297|", 
+                "", 
+                "", 
+                [
+                    "LINE_5834537"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "TrollMatriarch_SQ_START", 
+                        "Quest": "TrollMatriarch_SQ", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9137080", 
+                "LINE_0492059", 
+                "<PLAYER>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_9137080|", 
+                "", 
+                "", 
+                [
+                    "LINE_8346535"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8346535", 
+                "LINE_9137080", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_8346535|", 
+                "", 
+                "", 
+                [
+                    "LINE_7733211", 
+                    "LINE_4657682"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5834537", 
+                "LINE_6016297", 
+                "NEYRA", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_5834537|", 
+                "", 
+                "", 
+                [
+                    "LINE_6612586", 
+                    "LINE_4657682"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "DONOTUSE", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False"
+            }
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Ch3_Evermoors_DrowAmbush_NoHelp", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "NEYRA"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_2996552", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch3_Evermoors_DrowAmbush_LINE_2996552|", 
+                "", 
+                "", 
+                [
+                    "LINE_0450660"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0450660", 
+                "LINE_2996552", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

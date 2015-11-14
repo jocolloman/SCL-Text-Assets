@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds: 2080970629
+-->
+
+<!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DEN_Staging"  />   
+                </Tiles>
+            </Trunk>
+        </Group>
+        <Group>
+            <Trunk Min="16" Max="16">
+                <Tiles >
+					<Tile Name="DEN_36_C_Ramps"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_36_C_River"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_36_C_Lagoon"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_T_Why"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_T_Donut"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_I_Noodle"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_I_Bridge"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_E_Platform"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_E_Comma"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_C_ZCross"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_C_Psi"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_C_Platform"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_C_Goat"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_C_Bolt"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_S_C_Hyundai"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="DEN_Boss"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+
+                </Tiles>
+            </Trunk>
+        </Group>
+
+		<Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="DEN_Exit"  />   
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+    </Groups>
+</DungeonConfig>
+

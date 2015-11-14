@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->  
+    <CreatureSets>
+        <CreatureSet Name="MercCh1Set" />
+    </CreatureSets>
+
+ <!-- DUNGEON -->    
+    <Groups>
+
+<!-- Starting Tile -->
+        <Group>  
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BrynCQHideout_Staging"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- Group 1 -->
+        <Group>    
+            <Trunk  Min="1" Max="1" >
+                <Tiles>
+                    <Tile Name="BAN_S_C_Goat" TransitionOverride="BanditCellarArch01" ForceEntryPort="Port01" ForceExitPort="Port02"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_S_E_Platform" TransitionOverride="BanditCellarArch01" ForceEntryPort="Port02" ForceExitPort="Port01"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                </Tiles>
+            </Branch>
+        </Group>
+
+<!-- Group 2 -->
+       <Group>
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_S_C_Bolt" TransitionOverride="BanditCellarArch01" ForceEntryPort="Port01" ForceExitPort="Port03" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+
+<!-- Group 3  -->
+         <Group>
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_S_C_Psi" TransitionOverride="BanditCellarArch01" ForceEntryPort="Port03" ForceExitPort="Port01" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                </Tiles>
+            </Trunk>           
+            
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_S_D1_Secret" TransitionOverride="DrowSecretDoor01" Destructible="PD_Small"/> 
+                </Tiles>
+            </Branch>
+        </Group>
+
+<!-- Group 4 - Hallway -->
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="BAN_S_I_Noodle" TransitionOverride="BanditCellarArch01" Destructible="PD_Small" />
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- Group 5  -->
+         <Group>
+            <Trunk  Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="BAN_S_C_Platform" TransitionOverride="BanditCellarArch01" ForceEntryPort="Port04" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+    </Groups>
+</DungeonConfig>
+
+<!--
+<Tile Name="CAV_36_T_JStairs"   ForceEntryPort="Port01" ForceExitPort="Port02" Destructible="PD_Small" /> \
+-->

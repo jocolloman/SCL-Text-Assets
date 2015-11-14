@@ -1,0 +1,694 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "ItemReforgingFlags": [
+            "ItemReforgingFlags_ItemReforgingFlags_Name", 
+            0, 
+            "QS_ItemReforging", 
+            "..\\..\\..\\..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+            "", 
+            {
+                "Blacksmith_ConvoFlags": {
+                    "IRF_ProcessExplained": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 37_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 37_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "IRF_WhoAreYouAnswered": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 38_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 38_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "IRF_WhatDoYouDoAnswered": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 39_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 39_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Guildhall Armory Key - Quest Item": {
+                    "GAK_KeyPiece01": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 40_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 40_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Need this for conversations based on picking them up", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GAK_KeyPiece02": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 41_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 41_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Need this for conversations based on picking them up", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GAK_AnyPart": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 42_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 42_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "groupStart": 1, 
+                                "join": "OR", 
+                                "groupItems": [
+                                    {
+                                        "flag": "GAK_KeyPiece01", 
+                                        "quest": "ItemReforgingFlags", 
+                                        "set": 1
+                                    }, 
+                                    {
+                                        "flag": "GAK_KeyPiece02", 
+                                        "quest": "ItemReforgingFlags", 
+                                        "set": 1
+                                    }
+                                ]
+                            }
+                        ], 
+                        "Need this for conversations based on picking them up", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GAK_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 44_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 44_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "GAK_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 45_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 45_JournalEntry", 
+                        "", 
+                        {}, 
+                        "Using this flag to make sure we only mention this item once per convo. Reset in convo too.", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Da Choppa - Great Axe": {
+                    "DaChop_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 2_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 2_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "DaChop_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 22_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 22_JournalEntry", 
+                        "", 
+                        [], 
+                        "Using this flag to make sure we only mention this item once per convo. Reset in convo too.", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Bow of Hungering - Long Bow": {
+                    "Hunger_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 10_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 10_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Hunger_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 23_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 23_JournalEntry", 
+                        "", 
+                        [], 
+                        "Using this flag to make sure we only mention this item once per convo. Reset in convo too.", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Boom Stick - Staff": {
+                    "Boom_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 13_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 13_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Boom_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 24_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 24_JournalEntry", 
+                        "", 
+                        [], 
+                        "Using this flag to make sure we only mention this item once per convo. Reset in convo too.", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Aegis of Helm  - Shield": {
+                    "AoH_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 18_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 18_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "AoH_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 25_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 25_JournalEntry", 
+                        "", 
+                        [], 
+                        "Using this flag to make sure we only mention this item once per convo. Reset in convo too.", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Taoran's Blaze - Scimitar": {
+                    "TaoBlaze_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 20_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 20_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "TaoBlaze_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 26_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 26_JournalEntry", 
+                        "", 
+                        [], 
+                        "Using this flag to make sure we only mention this item once per convo. Reset in convo too.", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Holy Avenger - Longsword": {
+                    "HolyAvenger_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 15_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 15_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "HolyAvenger_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 16_Name", 
+                        20, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 16_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Thunder Hammer - Maul": {
+                    "ThunderHammer_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 17_Name", 
+                        21, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 17_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "ThunderHammer_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 18_Name", 
+                        22, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 18_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Assassin Hood - Helm": {
+                    "AssassinHood_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 19_Name", 
+                        23, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 19_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "AssassinHood_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 20_Name", 
+                        24, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 20_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Sun Blade - Longsword": {
+                    "SunBlade_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 21_Name", 
+                        25, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 21_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "SunBlade_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 22_Name", 
+                        26, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 22_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Immovable Boots - Boots": {
+                    "ImmovableBoots_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 23_Name", 
+                        27, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 23_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "ImmovableBoots_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 24_Name", 
+                        28, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 24_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Hitwoman Dagger - Dagger": {
+                    "Hitwoman_Reforged": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 25_Name", 
+                        29, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 25_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Hitwoman_ConvoFlag": [
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 26_Name", 
+                        30, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "ItemReforgingFlags_ItemReforgingFlags_Flag 26_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }
+            }, 
+            "Not really a quest, per se, but it does use quest flags!\n\nEach Item is a different set of branch of flags for simplicity's sake. Hopefully no one ever makes me switch this to a quest per item thing... cause that would be a painful swap.", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

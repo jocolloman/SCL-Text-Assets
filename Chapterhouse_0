@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Settings
+
+        PortWeightX="0"
+        PortWeightZ="0"
+        PlayerLighting="DrowCavesPlayerLighting"
+        EncounterProbabilityMin ="100"
+        EncounterProbabilityMax ="100"
+        MaxHallwayDistance="60"
+        MaxHallwayTiles="4" >
+
+        <HallwayTiles>
+            <Tile Name="CAS_10_C_Hall" TransitionOverride="CastleArch02" />
+        </HallwayTiles>
+
+    </Settings>
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->
+    <CreatureSets>
+    	<CreatureSet Name="BurningDawnSet01" />
+    </CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+    <!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+        <Group>
+            <Trunk>
+                <Tiles>
+                    <Tile Name="CAS_ChapterhouseStaging" TransitionOverride="CastleDoor01" ForceExitPort="Port01" OpenAllPorts="1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile
+                        Name="CAS_M_C_HammerStairs"
+                        ForceEntryPort="Port05"
+                        ForceExitPort="Port04"
+                        PortExtensionMin= "2"
+                        PortExtensionMax= "2"
+                        BranchingPriority="-1"
+                        OpenAllPorts="1"
+                    />
+                </Tiles>
+            </Trunk>
+
+            <Branch Min="1" Max="1" Sequential="1">
+                <Tiles>
+                    <Tile Name="CAS_31_C_Hall" PortExtensionMin="1" PortExtensionMax="1" OpenAllPorts="1" TransitionOverride="CastleArch02" />
+                </Tiles>
+            </Branch>
+
+            <Leaf Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="CAS_S_C_TwinCornersDown"    OpenAllPorts="1" TransitionOverride="CastleDoor01" Max="1" ForceEntryPort="Port05" />
+                    <Tile Name="CAS_S_C_Angle"              OpenAllPorts="1" TransitionOverride="CastleDoor01" Max="1" />
+                </Tiles>
+            </Leaf>
+        </Group>
+
+        <!-- Archives -->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile XMLID="Archives" Name="CAS_36_C_Ballroom" EndCapOverride="CastleCap_Blank" ForceEntryPort="Port09" ForceExitPort="Port014" MaxDynamicHallways="0" MaxPostBuildTiles="0" />
+                </Tiles>
+            </Trunk>
+        </Group>
+		<Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="CAS_Closet" MaxDynamicHallways="0" MaxPostBuildTiles="0"  TransitionOverride="CastleSecretBookcase"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+    </Groups>  
+
+    <PostBuildTiles>
+        <Tiles>
+            <!-- Flortal Tiles -->
+            <Tile XMLID="PrisonStairs" Name="CAS_FlortalDOWN" Max="1" TransitionOverride="Chapterhouse_StoryLockedB1StairsDoor" />
+            <Tile XMLID="BarrackStairs" Name="CAS_FlortalUP" Max="1" />
+            <Tile 
+				XMLID="Armory" 
+				Name="CAS_S_C_CurvedCross" 
+				ForceEntryPort="Port03" 
+				Max="1" 
+				OpenNoPorts="1" 
+				EndCapOverride="CastleCap_Blank" 
+				TransitionOverride="Chapterhouse_StoryLockedArmoryDoor"
+				/>
+        </Tiles>
+    </PostBuildTiles>
+
+</DungeonConfig>

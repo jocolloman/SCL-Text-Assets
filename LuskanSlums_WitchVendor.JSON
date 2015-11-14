@@ -1,0 +1,1247 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "LuskanSlums_WitchVendor", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "MIRANDA"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_0835165", 
+                "<ROOT>", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_0835165|", 
+                "", 
+                "", 
+                [
+                    "LINE_8948788", 
+                    "LINE_2136748", 
+                    "LINE_8177107", 
+                    "LINE_1469424"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DeadRats_SQ1_TalkedVendor", 
+                                    "Quest": "DeadRats_SQ_01", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DeadRats_SQ1_Pargen", 
+                                    "Quest": "DeadRats_SQ_01", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "OR", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8948788", 
+                "LINE_0835165", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_8948788|", 
+                "", 
+                "BK 7/27/2015 line variety pass", 
+                [
+                    "LINE_8907913"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1469424", 
+                "LINE_0835165", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_1469424|", 
+                "", 
+                "", 
+                [
+                    "LINE_6257379"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8907913", 
+                "LINE_8948788", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionCustomScript", 
+                        "FunctionName": "OpenVendor", 
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6257379", 
+                "LINE_1469424", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8177107", 
+                "LINE_0835165", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_8177107|", 
+                "", 
+                "", 
+                [
+                    "LINE_1368621"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Bryn_CQ_Start", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Bryn_CQ_FindMerchant", 
+                                    "Quest": "Bryn_CQ", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C4_B_BrynEscaped", 
+                                    "Quest": "C4.3_Betrayal", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1368621", 
+                "LINE_8177107", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_1368621|", 
+                "", 
+                "Why yes, some of the workers from the docks came by to tell me about it.  It sounded far too dangerous to keep in the store.  If you want to ask about it, I'd try the warehouse out by the docks.", 
+                [
+                    "LINE_3670515"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3670515", 
+                "LINE_1368621", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_CQ_FindMerchant", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Bryn_CQ_MapUnlockWarehouse", 
+                        "Quest": "Bryn_CQ", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4972661", 
+                "<ROOT>", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_4972661|", 
+                "", 
+                "", 
+                [
+                    "LINE_3382441", 
+                    "LINE_6166999"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DeadRats_SQ1_TalkedVendor", 
+                                    "Quest": "DeadRats_SQ_01", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DeadRats_SQ1_Pargen", 
+                                    "Quest": "DeadRats_SQ_01", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2136748", 
+                "LINE_0835165", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_2136748|", 
+                "", 
+                "", 
+                [
+                    "LINE_1456884"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DeadRats_SQ1_Start", 
+                                    "Quest": "DeadRats_SQ_01", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DeadRats_SQ1_TalkedVendor", 
+                                    "Quest": "DeadRats_SQ_01", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1456884", 
+                "LINE_2136748", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_1456884|", 
+                "", 
+                "", 
+                [
+                    "LINE_6871721"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DeadRats_SQ1_TalkedVendor", 
+                        "Quest": "DeadRats_SQ_01", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6871721", 
+                "LINE_1456884", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_6871721|", 
+                "", 
+                "You're aware he's a wanted man aren't you?  The Bregan D'aerthe have ears everywhere, especially here in the slums.  So don't go throwing that name around like it's nothing.", 
+                [
+                    "LINE_9232136"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9232136", 
+                "LINE_6871721", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_9232136|", 
+                "", 
+                "** BK cut \"I already told him I'm done making poisons for his gang.\" because it doesn't really come up again in the conversation", 
+                [
+                    "LINE_6728548"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6728548", 
+                "LINE_9232136", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_6728548|", 
+                "", 
+                "", 
+                [
+                    "LINE_4271930"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4271930", 
+                "LINE_6728548", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_4271930|", 
+                "", 
+                "Well I've got that special ingredient right here. Take this bag back to him, and don't open it. Definitely don't go sniffing it!", 
+                [
+                    "LINE_0071183", 
+                    "LINE_4211519", 
+                    "LINE_0573665"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DeadRats_SQ1_Secret", 
+                        "Quest": "DeadRats_SQ_01", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Deadrat_SQ_MirandaPackage"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0071183", 
+                "LINE_4271930", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_0071183|", 
+                "", 
+                "", 
+                [
+                    "LINE_0886484"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0886484", 
+                "LINE_0071183", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_0886484|", 
+                "", 
+                "", 
+                [
+                    "LINE_0350549"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DeadRats_SQ1_LearnedMushroom", 
+                        "Quest": "DeadRats_SQ_01", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0350549", 
+                "LINE_0886484", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_0350549|", 
+                "", 
+                "** BK in an ideal world we should have a check to see if they've worked with her before?", 
+                [
+                    "LINE_1879737", 
+                    "LINE_7449830"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1879737", 
+                "LINE_0350549", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_1879737|", 
+                "", 
+                "", 
+                [
+                    "LINE_0163939", 
+                    "LINE_9133768", 
+                    "LINE_3382441"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "DeadRats_SQ1_Pargen", 
+                                    "Quest": "DeadRats_SQ_01", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0163939", 
+                "LINE_1879737", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_0163939|", 
+                "", 
+                "", 
+                [
+                    "LINE_9204607"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9204607", 
+                "LINE_0163939", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_9204607|", 
+                "", 
+                "Yes, it's an expensive commodity and I'm not going to just give it away for free.  I certainly don't owe Titus that much!", 
+                [
+                    "LINE_9133768", 
+                    "LINE_3382441"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9133768", 
+                "LINE_1879737", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_9133768|", 
+                "", 
+                "", 
+                [
+                    "LINE_4868853"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4868853", 
+                "LINE_9133768", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_4868853|", 
+                "", 
+                "Bk ingredients -> buggers", 
+                [
+                    "LINE_8782498", 
+                    "LINE_3382441"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8782498", 
+                "LINE_4868853", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_8782498|", 
+                "", 
+                "[CHA] It wouldn't hurt to have Titus owe you a favor as well.", 
+                [
+                    "LINE_1694770", 
+                    "LINE_9077457"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1694770", 
+                "LINE_8782498", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_1694770|", 
+                "", 
+                "[SUCCESS] I suppose you're right. He still has connections, and can get me some of those less... legal... materials.", 
+                [
+                    "LINE_6797906"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "StatValue": 14, 
+                                    "StatActor": "<player>", 
+                                    "Stat": "cha", 
+                                    "Type": "MinStat"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6797906", 
+                "LINE_1694770", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_6797906|", 
+                "", 
+                "Fine, take it and get out of here. You're taking up space for a real customer!", 
+                [
+                    "LINE_7601305"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7601305", 
+                "LINE_6797906", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DeadRats_SQ1_Pargen", 
+                        "Quest": "DeadRats_SQ_01", 
+                        "FlagState": "Set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DeadRats_SQ1_FoxberryCHASuccess", 
+                        "Quest": "DeadRats_SQ_01", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [
+                    "Misc:Deadrat_SQ_PargenBerry"
+                ], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9077457", 
+                "LINE_8782498", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_9077457|", 
+                "", 
+                "[FAILURE] No, I'm done trading around favors.  Either you buy it or you find it somewhere else.  Though I don't know where you would, not in these parts.", 
+                [
+                    "LINE_3382441", 
+                    "LINE_6166999"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "DeadRats_SQ1_FoxberryCHAFail", 
+                        "Quest": "DeadRats_SQ_01", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6166999", 
+                "LINE_9077457", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_6166999|", 
+                "", 
+                "", 
+                [
+                    "LINE_4770258"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4770258", 
+                "LINE_6166999", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_4770258|", 
+                "", 
+                "", 
+                [
+                    "LINE_8999158"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8999158", 
+                "LINE_4770258", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3382441", 
+                "LINE_1879737", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_3382441|", 
+                "", 
+                "lets -> let's as per https://jira.n-space.com:8101/browse/HOTU-20860", 
+                [
+                    "LINE_8907913"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4211519", 
+                "LINE_4271930", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_4211519|", 
+                "", 
+                "", 
+                [
+                    "LINE_5556524"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5556524", 
+                "LINE_4211519", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_5556524|", 
+                "", 
+                "Something that you're better off not knowing about.  It's not all that dangerous, I already told you I'm done with making poisons.  Even still, I wouldn't go sniffing or eating it.  Now, as for the other ingredients...", 
+                [
+                    "LINE_0071183", 
+                    "LINE_0573665"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0573665", 
+                "LINE_4271930", 
+                "<PLAYER>", 
+                "|LuskanSlums_WitchVendor_LINE_0573665|", 
+                "", 
+                "", 
+                [
+                    "LINE_5300318"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5300318", 
+                "LINE_0573665", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_5300318|", 
+                "", 
+                "", 
+                [
+                    "LINE_0071183", 
+                    "LINE_4211519"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7449830", 
+                "LINE_0350549", 
+                "MIRANDA", 
+                "|LuskanSlums_WitchVendor_LINE_7449830|", 
+                "", 
+                "", 
+                [
+                    "LINE_5565469"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DeadRats_SQ1_Pargen", 
+                                    "Quest": "DeadRats_SQ_01", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5565469", 
+                "LINE_7449830", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

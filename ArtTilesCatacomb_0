@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds: 2080970629
+-->
+
+<!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAT_FlortalUP"  />   
+                </Tiles>
+            </Trunk>
+        </Group>
+        <Group>
+            <Trunk Min="29" Max="29">
+                <Tiles >
+					<Tile Name="CAT_DiagHall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+                    <Tile Name="CAT_36_C_Flank"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+                    <Tile Name="CAT_36_C_Hall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_36_C_Grand"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_C_SixLegs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_C_Armor"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_C_Altar"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_T_Anchor"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_T_BandStand"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_T_DualPlat"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_T_Curvy"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_36_T_BigM"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_I_Ramp"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_I_TightI"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_I_Sides"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_I_Hall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_36_I_Sauron"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_36_C_TripleH"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_C_Cesspit"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_M_I_Spokes"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_C_Prongs"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_10_C_Hall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_10_Secret"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_36_C_NarrowHalls"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_C_RaisedCorner"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_S_C_CornerCross"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_10_I_Hall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_36_I_ChannelVarient"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+					<Tile Name="CAT_31_C_Hall"  PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts="1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+
+		<Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAT_FlortalDOWN"  />   
+                </Tiles>
+            </Trunk>
+        </Group>
+		
+    </Groups>
+		<PostBuildTiles>
+        <Tiles>
+			<Tile Name="CAT_10_secret" TransitionOverride="lostminesSecretDoor01" Max="1" /> 
+		</Tiles>
+    </PostBuildTiles>
+</DungeonConfig>
+

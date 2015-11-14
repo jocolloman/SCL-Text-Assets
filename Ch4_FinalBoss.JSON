@@ -1,0 +1,1847 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FinalDungeon_Arrival", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_8722819", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_7617669", 
+                    "LINE_2298352", 
+                    "LINE_9467761", 
+                    "LINE_7509264", 
+                    "LINE_6179179", 
+                    "LINE_8185503", 
+                    "LINE_7880001", 
+                    "LINE_0914377"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7617669", 
+                "LINE_8722819", 
+                "ILLYDIA", 
+                "|Ch4_FinalBoss_LINE_7617669|", 
+                "", 
+                "", 
+                [
+                    "LINE_8088958"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ILLYDIA_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2298352", 
+                "LINE_8722819", 
+                "DALANIR", 
+                "|Ch4_FinalBoss_LINE_2298352|", 
+                "", 
+                "", 
+                [
+                    "LINE_8088958"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "DALANIR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9467761", 
+                "LINE_8722819", 
+                "JAVEN", 
+                "|Ch4_FinalBoss_LINE_9467761|", 
+                "", 
+                "", 
+                [
+                    "LINE_8088958"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JAVEN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8185503", 
+                "LINE_8722819", 
+                "JARHILD", 
+                "|Ch4_FinalBoss_LINE_8185503|", 
+                "", 
+                "", 
+                [
+                    "LINE_8088958"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6179179", 
+                "LINE_8722819", 
+                "LARETHAR", 
+                "|Ch4_FinalBoss_LINE_6179179|", 
+                "", 
+                "", 
+                [
+                    "LINE_8088958"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7880001", 
+                "LINE_8722819", 
+                "HOMMET", 
+                "|Ch4_FinalBoss_LINE_7880001|", 
+                "", 
+                "", 
+                [
+                    "LINE_8088958"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7509264", 
+                "LINE_8722819", 
+                "IZHKIN", 
+                "|Ch4_FinalBoss_LINE_7509264|", 
+                "", 
+                "", 
+                [
+                    "LINE_8088958"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "IZHKIN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0914377", 
+                "LINE_8722819", 
+                "ILLYDIA", 
+                "|Ch4_FinalBoss_LINE_0914377|", 
+                "", 
+                "", 
+                [
+                    "LINE_8088958"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8088958", 
+                "LINE_0914377", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_TC_ExitToBoss", 
+                        "Quest": "C4.5_The_Calling", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FinalDungeon_BelaphossIntro", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5610372", 
+                "<ROOT>", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_5610372|", 
+                "", 
+                "BK ORiginal Line: I knew you would come. Foolish mortal clay with dreams of grandeur. You are here in time to witness my ascension. Now is when I take my rightful place as a demon lord!\n\nBK as per WOTC demon lord not capitalized", 
+                [
+                    "LINE_9097007"
+                ], 
+                [
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_Belaphoss_Leap", 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9097007", 
+                "LINE_5610372", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_9097007|", 
+                "", 
+                "BK Original line: You will fall to your knees as I return to the Abyss as a god!", 
+                [
+                    "LINE_1307680", 
+                    "LINE_8080048", 
+                    "LINE_5341165"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1307680", 
+                "LINE_9097007", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_1307680|", 
+                "", 
+                "BK You're not a god yet, and we intend to keep it that way.", 
+                [
+                    "LINE_0056170"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0056170", 
+                "LINE_1307680", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_0056170|", 
+                "", 
+                "BK - tweaked substantially", 
+                [
+                    "LINE_3226983"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3226983", 
+                "LINE_0056170", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_3226983|", 
+                "", 
+                "TURNING ON TASYLLY'S SHIELD EFFECTS", 
+                [
+                    "LINE_8396040"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4528232", 
+                "LINE_8396040", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_4528232|", 
+                "", 
+                "", 
+                [
+                    "LINE_2961279"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 4.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2961279", 
+                "LINE_4528232", 
+                "BELAPHOSS", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_TC_FindBelaphoss", 
+                        "Quest": "C4.5_The_Calling", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8080048", 
+                "LINE_9097007", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_8080048|", 
+                "", 
+                "We seem to be pretty good at stopping grand schemes.", 
+                [
+                    "LINE_5577714"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5577714", 
+                "LINE_8080048", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_5577714|", 
+                "", 
+                "BK Original: And yet the Moontear is in my possession, and you have come to sacrifice yourselves at my hand.\nCaps on Moontear", 
+                [
+                    "LINE_3226983"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5341165", 
+                "LINE_9097007", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_5341165|", 
+                "", 
+                "BK We're done being your pawns! Time to end this game!", 
+                [
+                    "LINE_2641224"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2641224", 
+                "LINE_5341165", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_2641224|", 
+                "", 
+                "", 
+                [
+                    "LINE_3226983"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8396040", 
+                "LINE_3226983", 
+                "TASYLLYS", 
+                "|Ch4_FinalBoss_LINE_8396040|", 
+                "", 
+                "", 
+                [
+                    "LINE_4528232"
+                ], 
+                [
+                    {
+                        "Action": "ActionFade", 
+                        "Async": false, 
+                        "FadeSeconds": 0.5, 
+                        "FadeIn": false, 
+                        "FadeColor": 0
+                    }, 
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_FinalBoss_Intro", 
+                        "Async": true
+                    }, 
+                    {
+                        "Action": "ActionFade", 
+                        "Async": true, 
+                        "FadeSeconds": 0.5, 
+                        "FadeIn": true, 
+                        "FadeColor": 0
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "FinalDungeon_MoontearDecision", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "NoFadeIn": "False", 
+                "IsStoryCritical": "True", 
+                "NoFadeOut": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "BELAPHOSS"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_5890578", 
+                "LINE_2238474", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_5890578|", 
+                "", 
+                "Servant! Is the ritual ready yet?!", 
+                [
+                    "LINE_4807492"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4807492", 
+                "LINE_5890578", 
+                "TASYLLYS", 
+                "|Ch4_FinalBoss_LINE_4807492|", 
+                "", 
+                "BK Yes, my lord. The Moontear is fully prepared. All the power within is yours for the taking.", 
+                [
+                    "LINE_2759989"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2759989", 
+                "LINE_4807492", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_2759989|", 
+                "", 
+                "", 
+                [
+                    "LINE_7398886"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_TC_BelaphossInPosition", 
+                        "Quest": "C4.5_The_Calling", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7398886", 
+                "LINE_2759989", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_7398886|", 
+                "", 
+                "Despair mortals! For a god is about to be born in your midst!", 
+                [
+                    "LINE_8586732"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_TC_StartBelaphossChannel", 
+                        "Quest": "C4.5_The_Calling", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8586732", 
+                "LINE_7398886", 
+                "ILLYDIA", 
+                "|Ch4_FinalBoss_LINE_8586732|", 
+                "", 
+                "", 
+                [
+                    "LINE_8491093", 
+                    "LINE_3986231", 
+                    "LINE_2298462", 
+                    "LINE_5612178", 
+                    "LINE_3789552", 
+                    "LINE_9501336"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_TC_BelaphossPowered", 
+                        "Quest": "C4.5_The_Calling", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_Moontear_Belaphoss", 
+                        "Async": true
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8491093", 
+                "LINE_8586732", 
+                "JAVEN", 
+                "|Ch4_FinalBoss_LINE_8491093|", 
+                "", 
+                "", 
+                [
+                    "LINE_2612130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JAVEN_ON_TEAM", 
+                                    "Quest": "CompanionUnlocked", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2612130", 
+                "LINE_8491093", 
+                "ILLYDIA", 
+                "|Ch4_FinalBoss_LINE_2612130|", 
+                "", 
+                "", 
+                [
+                    "LINE_4153714", 
+                    "LINE_2063315", 
+                    "LINE_0307652"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4153714", 
+                "LINE_2612130", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_4153714|", 
+                "", 
+                "", 
+                [
+                    "LINE_7007904"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7007904", 
+                "LINE_4153714", 
+                "ILLYDIA", 
+                "|Ch4_FinalBoss_LINE_7007904|", 
+                "", 
+                "", 
+                [
+                    "LINE_6993115", 
+                    "LINE_6861133"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6993115", 
+                "LINE_7007904", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_6993115|", 
+                "", 
+                "added punc", 
+                [
+                    "LINE_7505349"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6861133", 
+                "LINE_7007904", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_6861133|", 
+                "", 
+                "Added punc", 
+                [
+                    "LINE_9876387"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2063315", 
+                "LINE_2612130", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_2063315|", 
+                "", 
+                "", 
+                [
+                    "LINE_3286347"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3286347", 
+                "LINE_2063315", 
+                "ILLYDIA", 
+                "|Ch4_FinalBoss_LINE_3286347|", 
+                "", 
+                "", 
+                [
+                    "LINE_6993115", 
+                    "LINE_6861133"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0307652", 
+                "LINE_2612130", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_0307652|", 
+                "", 
+                "", 
+                [
+                    "LINE_6009142", 
+                    "LINE_9876387"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6009142", 
+                "LINE_0307652", 
+                "JAVEN", 
+                "|Ch4_FinalBoss_LINE_6009142|", 
+                "", 
+                "", 
+                [
+                    "LINE_5287038", 
+                    "LINE_6110930"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JAVEN_ON_TEAM", 
+                                    "Quest": "CompanionUnlocked", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6110930", 
+                "LINE_6009142", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_6110930|", 
+                "", 
+                "", 
+                [
+                    "LINE_9876387"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9876387", 
+                "LINE_6110930", 
+                "ILLYDIA", 
+                "|Ch4_FinalBoss_LINE_9876387|", 
+                "", 
+                "", 
+                [
+                    "LINE_1874815"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_TC_DecidedPurifyMoontear", 
+                        "Quest": "C4.5_The_Calling", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_Moontear_Illydia", 
+                        "Async": true
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5287038", 
+                "LINE_6009142", 
+                "<PLAYER>", 
+                "|Ch4_FinalBoss_LINE_5287038|", 
+                "", 
+                "Added punc", 
+                [
+                    "LINE_7505349"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7505349", 
+                "LINE_5287038", 
+                "ILLYDIA", 
+                "|Ch4_FinalBoss_LINE_7505349|", 
+                "", 
+                "", 
+                [
+                    "LINE_7129719"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_TC_DecidedDestroyMoontear", 
+                        "Quest": "C4.5_The_Calling", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_Moontear_Player", 
+                        "Async": true
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3986231", 
+                "LINE_8586732", 
+                "LARETHAR", 
+                "|Ch4_FinalBoss_LINE_3986231|", 
+                "", 
+                "", 
+                [
+                    "LINE_2612130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "LARETHAR_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2298462", 
+                "LINE_8586732", 
+                "HOMMET", 
+                "|Ch4_FinalBoss_LINE_2298462|", 
+                "", 
+                "", 
+                [
+                    "LINE_2612130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "HOMMET_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5612178", 
+                "LINE_8586732", 
+                "IZHKIN", 
+                "|Ch4_FinalBoss_LINE_5612178|", 
+                "", 
+                "", 
+                [
+                    "LINE_2612130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "IZHKIN_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3789552", 
+                "LINE_8586732", 
+                "JARHILD", 
+                "|Ch4_FinalBoss_LINE_3789552|", 
+                "", 
+                "", 
+                [
+                    "LINE_2612130"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "JARHILD_IN_PARTY", 
+                                    "Quest": "CurrentParty", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9501336", 
+                "LINE_8586732", 
+                "DALANIR", 
+                "|Ch4_FinalBoss_LINE_9501336|", 
+                "", 
+                "", 
+                [
+                    "LINE_2612130"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1874815", 
+                "LINE_9876387", 
+                "ILLYDIA", 
+                "|Ch4_FinalBoss_LINE_1874815|", 
+                "Ch4_FinalBoss_LINE_4157886", 
+                "", 
+                [
+                    "LINE_7129719"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 3.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2238474", 
+                "<ROOT>", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_2238474|", 
+                "", 
+                "BK Enough of this! I grow weary from swatting at flies.", 
+                [
+                    "LINE_5890578"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7129719", 
+                "LINE_7505349", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_7129719|", 
+                "", 
+                "No! I will not be defeated! My power is infinite!", 
+                [
+                    "LINE_2266330"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 8.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "True", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2266330", 
+                "LINE_7129719", 
+                "TASYLLYS", 
+                "|Ch4_FinalBoss_LINE_2266330|", 
+                "Ch4_FinalBoss_LINE_0494862", 
+                "", 
+                [
+                    "LINE_4074135"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4074135", 
+                "LINE_2266330", 
+                "TASYLLYS", 
+                "|Ch4_FinalBoss_LINE_4074135|", 
+                "Ch4_FinalBoss_LINE_2673277", 
+                "", 
+                [
+                    "LINE_3964987"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 1.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0191372", 
+                "LINE_8936579", 
+                "TASYLLYS", 
+                "|Ch4_FinalBoss_LINE_0191372|", 
+                "Ch4_FinalBoss_LINE_5666176", 
+                "", 
+                [
+                    "LINE_8237121"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8237121", 
+                "LINE_0191372", 
+                "TASYLLAPHOSS", 
+                "|Ch4_FinalBoss_LINE_8237121|", 
+                "Ch4_FinalBoss_LINE_9668976", 
+                "", 
+                [
+                    "LINE_8358958"
+                ], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 14.0, 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8358958", 
+                "LINE_8237121", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3964987", 
+                "LINE_4074135", 
+                "BELAPHOSS", 
+                "|Ch4_FinalBoss_LINE_3964987|", 
+                "Ch4_FinalBoss_LINE_5743157", 
+                "", 
+                [
+                    "LINE_8936579"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8936579", 
+                "LINE_3964987", 
+                "TASYLLYS", 
+                "|Ch4_FinalBoss_LINE_8936579|", 
+                "Ch4_FinalBoss_LINE_2400934", 
+                "", 
+                [
+                    "LINE_0191372"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,3272 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "RandomGeneric01", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_4091068", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4091068|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1064823", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1064823|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1668972", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1668972|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4308611", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4308611|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "RandomGeneric02", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_2040393", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_2040393|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2711714", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_2711714|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6356302", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6356302|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7778650", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7778650|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "RandomGeneric03", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_2278496", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_2278496|", 
+                "", 
+                "Are we there yet?  How much longer?", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7540090", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7540090|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1427361", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1427361|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4681758", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4681758|", 
+                "", 
+                "Somehow I'll find the strength to carry on to Luskan.", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "RandomGeneric04", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_4482400", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4482400|", 
+                "", 
+                "..", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8253572", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_8253572|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7579850", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7579850|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5529900", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_5529900|", 
+                "", 
+                "Bless you for keeping us safe.", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "RandomGeneric05", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "BURNINGDAWNHATER"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_9885832", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_8260771", 
+                    "LINE_8372108"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0927095", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_0927095|", 
+                "", 
+                "", 
+                [
+                    "LINE_0833072", 
+                    "LINE_0212591", 
+                    "LINE_0781579"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8675668", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_9628959", 
+                    "LINE_4103821"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6846127", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_7867494", 
+                    "LINE_6825271"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8446930", 
+                "LINE_8260771", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_8446930|", 
+                "", 
+                "Why would there be any trouble?", 
+                [
+                    "LINE_1099932"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1522172", 
+                "LINE_8260771", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1522172|", 
+                "", 
+                "", 
+                [
+                    "LINE_1851046"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1851046", 
+                "LINE_1522172", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1851046|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8260771", 
+                "LINE_9885832", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_8260771|", 
+                "", 
+                "IF NOT: Grump_BeforeAmbush; SET: Grump_BeforeAmbush", 
+                [
+                    "LINE_8446930", 
+                    "LINE_1522172"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Grump_BeforeAmbush", 
+                        "Quest": "CH1_SQ_Grump", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Grump_BeforeAmbush", 
+                                    "Quest": "CH1_SQ_Grump", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8372108", 
+                "LINE_9885832", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_8372108|", 
+                "", 
+                "IF: Grump_BeforeAmbush", 
+                [
+                    "LINE_7590498", 
+                    "LINE_6164046"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Grump_BeforeAmbush", 
+                                    "Quest": "CH1_SQ_Grump", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1099932", 
+                "LINE_8446930", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1099932|", 
+                "", 
+                "SET: Grump_argument_started", 
+                [
+                    "LINE_7590498", 
+                    "LINE_0788044", 
+                    "LINE_1974690"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7590498", 
+                "LINE_1099932", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7590498|", 
+                "", 
+                "", 
+                [
+                    "LINE_7785893"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0788044", 
+                "LINE_1099932", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_0788044|", 
+                "", 
+                "You wanted to travel through this territory without guards?", 
+                [
+                    "LINE_6284355"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1974690", 
+                "LINE_1099932", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1974690|", 
+                "", 
+                "Guarding you is no picnic, either.", 
+                [
+                    "LINE_3322701"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7785893", 
+                "LINE_7590498", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7785893|", 
+                "", 
+                "I did a little research on your \"guild\"... a word I use in the loosest way possible. It turns out that records of your founding simply don't exist. No one can say what the Burning Dawn was doing, really, before fifty years ago.", 
+                [
+                    "LINE_2482352"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2482352", 
+                "LINE_7785893", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_2482352|", 
+                "", 
+                "And the name, \"Burning Dawn\"? Is that supposed to make me feel safe? It's not exactly a name that makes one feel safe. not like \"the Order of the Gauntlet\" or \"the Harpers.\"", 
+                [
+                    "LINE_1069917", 
+                    "LINE_9759834", 
+                    "LINE_6422774"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6284355", 
+                "LINE_0788044", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6284355|", 
+                "", 
+                "Ha! I can take care of myself. Far better than any fly-by-night guild of adventurers and likely thieves! Whenever we hire on mercs as guards, things seem to go missing from my crates. So who took them, eh? The other merchants?! I think NOT!", 
+                [
+                    "LINE_7590498", 
+                    "LINE_1974690"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3322701", 
+                "LINE_1974690", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_3322701|", 
+                "", 
+                "", 
+                [
+                    "LINE_7590498", 
+                    "LINE_0788044"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1069917", 
+                "LINE_2482352", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1069917|", 
+                "", 
+                "", 
+                [
+                    "LINE_7618576"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9759834", 
+                "LINE_2482352", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_9759834|", 
+                "", 
+                "", 
+                [
+                    "LINE_4400001"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6422774", 
+                "LINE_2482352", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6422774|", 
+                "", 
+                "What \"demonic goings-on\" are you talking about?", 
+                [
+                    "LINE_1696521"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1696521", 
+                "LINE_6422774", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1696521|", 
+                "", 
+                "", 
+                [
+                    "LINE_1069917", 
+                    "LINE_6111428"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6111428", 
+                "LINE_1696521", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6111428|", 
+                "", 
+                "", 
+                [
+                    "LINE_9121096"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9121096", 
+                "LINE_6111428", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_9121096|", 
+                "", 
+                "So you say. But I know better than to trust mercs at their word.", 
+                [
+                    "LINE_1069917", 
+                    "LINE_9759834", 
+                    "LINE_6164046"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6164046", 
+                "LINE_9121096", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6164046|", 
+                "", 
+                "", 
+                [
+                    "LINE_4776558"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4400001", 
+                "LINE_9759834", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4400001|", 
+                "", 
+                "", 
+                [
+                    "LINE_4453987"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4453987", 
+                "LINE_4400001", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4453987|", 
+                "", 
+                "", 
+                [
+                    "LINE_6503103", 
+                    "LINE_6182172", 
+                    "LINE_5865456"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7618576", 
+                "LINE_1069917", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7618576|", 
+                "", 
+                "", 
+                [
+                    "LINE_4453987"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6503103", 
+                "LINE_4453987", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6503103|", 
+                "", 
+                "", 
+                [
+                    "LINE_7373566"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6182172", 
+                "LINE_4453987", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6182172|", 
+                "", 
+                "BK It's been a peaceful trip so far. I sure hope nothing happens on the way to Luskan.", 
+                [
+                    "LINE_4309323"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5865456", 
+                "LINE_4453987", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_5865456|", 
+                "", 
+                "", 
+                [
+                    "LINE_7636215"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4776558", 
+                "LINE_6164046", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4776558|", 
+                "", 
+                "", 
+                [
+                    "LINE_3710631"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3710631", 
+                "LINE_4776558", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7636215", 
+                "LINE_5865456", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7636215|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4309323", 
+                "LINE_6182172", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4309323|", 
+                "", 
+                "Is that a threat? That sounded like a threat.", 
+                [
+                    "LINE_5382265"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7373566", 
+                "LINE_6503103", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7373566|", 
+                "", 
+                "", 
+                [
+                    "LINE_5382265"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5382265", 
+                "LINE_7373566", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_5382265|", 
+                "", 
+                "", 
+                [
+                    "LINE_5573430"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5573430", 
+                "LINE_5382265", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0833072", 
+                "LINE_0927095", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_0833072|", 
+                "", 
+                "IF: Grump_argument_started", 
+                [
+                    "LINE_1591915"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Grump_ArgumentStarted", 
+                                    "Quest": "CH1_SQ_Grump", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0212591", 
+                "LINE_0927095", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_0212591|", 
+                "", 
+                "", 
+                [
+                    "LINE_6677585"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6677585", 
+                "LINE_0212591", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6677585|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1591915", 
+                "LINE_0833072", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1591915|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1067718", 
+                "LINE_9628959", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1067718|", 
+                "", 
+                "", 
+                [
+                    "LINE_6864825"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7871017", 
+                "LINE_9628959", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7871017|", 
+                "", 
+                "IF: Grump_argument_started, IF NOT: Grump_OpinionChanged; SET: Grump_OpinionChanged", 
+                [
+                    "LINE_9495929"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Grump_OpinionChanged", 
+                        "Quest": "CH1_SQ_Grump", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Grump_ArgumentStarted", 
+                                    "Quest": "CH1_SQ_Grump", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Grump_OpinionChanged", 
+                                    "Quest": "CH1_SQ_Grump", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0781579", 
+                "LINE_0927095", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_0781579|", 
+                "", 
+                "", 
+                [
+                    "LINE_2713558"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2713558", 
+                "LINE_0781579", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_2713558|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8344379", 
+                "LINE_9628959", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_8344379|", 
+                "", 
+                "", 
+                [
+                    "LINE_8005772"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9725754", 
+                "LINE_9628959", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_9725754|", 
+                "", 
+                "", 
+                [
+                    "LINE_4148594"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9495929", 
+                "LINE_7871017", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_9495929|", 
+                "", 
+                "I... I'm so, so sorry about before. Whatever I may have said before, I am truly grateful for your guild now.", 
+                [
+                    "LINE_1306666", 
+                    "LINE_4420374"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1306666", 
+                "LINE_9495929", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1306666|", 
+                "", 
+                "", 
+                [
+                    "LINE_5012421"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6864825", 
+                "LINE_1067718", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6864825|", 
+                "", 
+                "No. You are not just mercenaries. You're bloody heroes! ", 
+                [
+                    "LINE_8435692"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8005772", 
+                "LINE_8344379", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_8005772|", 
+                "", 
+                "I hope you rout out every last one of them! They deserve to burn for what they did!", 
+                [
+                    "LINE_4113329"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4148594", 
+                "LINE_9725754", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4148594|", 
+                "", 
+                "", 
+                [
+                    "LINE_8435692"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8435692", 
+                "LINE_6864825", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_8435692|", 
+                "", 
+                "", 
+                [
+                    "LINE_5012421"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5012421", 
+                "LINE_1306666", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4113329", 
+                "LINE_8005772", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9628959", 
+                "LINE_8675668", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_9628959|", 
+                "", 
+                "IF NOT: Grump_AfterAmbush; SET: Grump_AfterAmbush", 
+                [
+                    "LINE_1067718", 
+                    "LINE_7871017", 
+                    "LINE_8344379", 
+                    "LINE_9725754"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Grump_AfterAmbush", 
+                        "Quest": "CH1_SQ_Grump", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Grump_AfterAmbush", 
+                                    "Quest": "CH1_SQ_Grump", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4103821", 
+                "LINE_8675668", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4103821|", 
+                "", 
+                "IF: Grump_AfterAmbush", 
+                [
+                    "LINE_1067718", 
+                    "LINE_7871017", 
+                    "LINE_8344379", 
+                    "LINE_9725754"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Grump_AfterAmbush", 
+                                    "Quest": "CH1_SQ_Grump", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4420374", 
+                "LINE_9495929", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4420374|", 
+                "", 
+                "", 
+                [
+                    "LINE_4971156"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7867494", 
+                "LINE_6846127", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7867494|", 
+                "", 
+                "IF NOT: Grump_AfterBanagar; SET: Grump_AfterBanagar", 
+                [
+                    "LINE_2544579", 
+                    "LINE_7871017", 
+                    "LINE_2023750"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "Grump_AfterBanagar", 
+                        "Quest": "CH1_SQ_Grump", 
+                        "FlagState": "Set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "Grump_AfterBanagar", 
+                                    "Quest": "CH1_SQ_Grump", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2544579", 
+                "LINE_7867494", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_2544579|", 
+                "", 
+                "", 
+                [
+                    "LINE_0660217"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2023750", 
+                "LINE_7867494", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_2023750|", 
+                "", 
+                "", 
+                [
+                    "LINE_0432157"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0432157", 
+                "LINE_2023750", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_0432157|", 
+                "", 
+                "", 
+                [
+                    "LINE_0226908"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0226908", 
+                "LINE_0432157", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0660217", 
+                "LINE_2544579", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_0660217|", 
+                "", 
+                "Yes. I'll speak a prayer to Tymora for her favor on the rest of the journey. Every little bit of luck helps.", 
+                [
+                    "LINE_3816267"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3816267", 
+                "LINE_0660217", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4971156", 
+                "LINE_4420374", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6825271", 
+                "LINE_6846127", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6825271|", 
+                "", 
+                "IF: Grump_AfterBanagar", 
+                [
+                    "LINE_6215457", 
+                    "LINE_4137955"
+                ], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "Grump_AfterBanagar", 
+                                    "Quest": "CH1_SQ_Grump", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6215457", 
+                "LINE_6825271", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6215457|", 
+                "", 
+                "", 
+                [
+                    "LINE_1775495"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4137955", 
+                "LINE_6825271", 
+                "<PLAYER>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4137955|", 
+                "", 
+                "", 
+                [
+                    "LINE_2070373"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1775495", 
+                "LINE_6215457", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_1775495|", 
+                "", 
+                "", 
+                [
+                    "LINE_9734364"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2070373", 
+                "LINE_4137955", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_2070373|", 
+                "", 
+                "", 
+                [
+                    "LINE_9734364"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9734364", 
+                "LINE_1775495", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "RandomGeneric06", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_9920748", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_9920748|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6862479", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_6862479|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4950333", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4950333|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4102513", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4102513|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "False", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "RandomGeneric07", 
+                "NoBegFade": "False", 
+                "NoMusic": "False", 
+                "NoPlayerWarp": "False", 
+                "IsFinal": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": ""
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "True"
+            }, 
+            [
+                "LINE_7245247", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_7245247|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4931137", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4931137|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_WarnCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4889153", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_4889153|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_WU_DefendCaravan", 
+                                    "Quest": "C1.1_Waking_Up", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "False", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9565560", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch1_Caravan_AmbientDialogue_LINE_9565560|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "True", 
+                                    "Flag": "C1_AT_FindEvidence", 
+                                    "Quest": "C1.2_After_Them", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

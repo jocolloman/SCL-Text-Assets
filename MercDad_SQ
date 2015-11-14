@@ -1,0 +1,335 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "MercDad_SQ": [
+            "MercDad_SQ_MercDad_SQ_Name", 
+            0, 
+            "QS_RabilsAmulet", 
+            "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+            "", 
+            {
+                "MercDad_Flags": {
+                    "MercDad_SQ_HealMercDad": [
+                        "MercDad_SQ_MercDad_SQ_MercDad_SQ_HealMercDad_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "MercDad_SQ_MercDad_SQ_MercDad_SQ_HealMercDad_JournalEntry", 
+                        "MercDad_SQ_HealMercDad_Reward", 
+                        {}, 
+                        "If you choose this option, he pays you gold and you never find out about the son or the statue.", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "MercDad_SQ_GotStatue": [
+                        "MercDad_SQ_MercDad_SQ_MercDad_SQ_GotStatue_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "MercDad_SQ_MercDad_SQ_MercDad_SQ_GotStatue_JournalEntry", 
+                        "MercDad_SQ_GotStatue_Reward", 
+                        {}, 
+                        "SET in Quest Templates but otherwise only used to track if you have the statue", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "MercDad_SQ_MercDadDies": [
+                        "MercDad_SQ_MercDad_SQ_Flag 2_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "MercDad_SQ_MercDad_SQ_Flag 2_JournalEntry", 
+                        "MercDad_SQ_MercDadDies_Reward", 
+                        {}, 
+                        "If you take the staute, he dies ", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "MercDad_SQ_KillMercDad": [
+                        "MercDad_SQ_MercDad_SQ_Flag 3_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "MercDad_SQ_MercDad_SQ_Flag 3_JournalEntry", 
+                        "MercDad_SQ_KillMercDad_Reward", 
+                        {}, 
+                        "Player chooses to kill him", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "MercDad_SQ_TookQuest": [
+                        "MercDad_SQ_MercDad_SQ_Flag 4_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "MercDad_SQ_MercDad_SQ_Flag 4_JournalEntry", 
+                        "MercDad_SQ_TookQuest_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "MercDad_SQ_FindRabil": [
+                        "MercDad_SQ_MercDad_SQ_Flag 9_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "MercDad_SQ_MercDad_SQ_Flag 9_JournalEntry", 
+                        "MercDad_SQ_FindRabil_Reward", 
+                        [
+                            {
+                                "flag": "MercDad_SQ_TookQuest", 
+                                "quest": "MercDad_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "LuskanStreets", 
+                        []
+                    ], 
+                    "MercDad_SQ_TalkedToMercDad": [
+                        "MercDad_SQ_MercDad_SQ_Flag 8_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "MercDad_SQ_MercDad_SQ_Flag 8_JournalEntry", 
+                        "MercDad_SQ_TalkedToMercDad_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }, 
+                "Rabil_Flags": {
+                    "MercDad_SQ_RabilTookStatue": [
+                        "MercDad_SQ_MercDad_SQ_Flag 5_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "MercDad_SQ_MercDad_SQ_Flag 5_JournalEntry", 
+                        "MercDad_SQ_RabilTookStatue_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "MercDad_SQ_PlayerToldRabilSoldStatue": [
+                        "MercDad_SQ_MercDad_SQ_Flag 6_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "MercDad_SQ_MercDad_SQ_Flag 6_JournalEntry", 
+                        "MercDad_SQ_PlayerToldRabilSoldStatue_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }, 
+                "MercDad_SQ_Final": [
+                    "MercDad_SQ_MercDad_SQ_Flag 7_Name", 
+                    10, 
+                    false, 
+                    true, 
+                    false, 
+                    false, 
+                    "MercDad_SQ_MercDad_SQ_Flag 7_JournalEntry", 
+                    "MercDad_SQ_Final_Reward", 
+                    {}, 
+                    "Set when you've resolved things with Rabil", 
+                    false, 
+                    false, 
+                    "", 
+                    "", 
+                    "", 
+                    []
+                ]
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "BanditCave", 
+            "Location"
+        ]
+    }
+}

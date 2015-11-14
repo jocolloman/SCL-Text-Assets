@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="100" PortWeightZ="50" PlayerLighting="DrowCavesPlayerLighting" 
+
+    MaxHallwayDistance="20"
+    MaxHallwayTiles="2" >
+
+    <HallwayTiles>
+        <Tile Name="SPI_10_C_Hall" TransitionOverride="SpiderCastleArch01" EndCapOverride="SpiderCastleCap_Blank" />
+    </HallwayTiles>
+</Settings>
+
+<!--
+Seeds:1400899087
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="SpiderSet01" />
+        <CreatureSet Name="DrowSet01" />
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups >
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+
+       <Group>
+            <Trunk>
+                <Tiles >
+                       <Tile Name="SPI_FlortalUP"  />
+                </Tiles>
+            </Trunk>
+        </Group>
+<!-- End Staging -->
+
+<!-- Tree 1 -->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SPI_Spider_StoryHall"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- Hall Break -->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                	<Tile Name="SPI_DiagHall" OpenAllPorts = "1" ForceEntryPort="Port02"/>
+                </Tiles>
+            </Trunk>
+        </Group>      
+
+<!-- Tree 2 (go big)-->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SPI_S_C_Angle"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port01" ForceExitPort="Port03"/>      
+                </Tiles>
+            </Trunk>          
+        </Group>
+
+<!-- Tree 3 (go small/medium)-->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile 
+                    	Name="SPI_S_T_Anchor"  
+                    	PortExtensionMin= "1" 
+                    	PortExtensionMax= "1" 
+                    	OpenAllPorts="1"  
+                    	BranchingPriority="-1"
+                        ForceEntryPort="Port02"
+                        ForceExitPort="Port01"
+                        />
+                </Tiles>
+            </Trunk>
+
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SPI_S_C_Antechamber"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" ForceEntryPort="Port02" />   <!--needs a hallway though...-->
+                </Tiles>
+            </Branch>
+
+            
+        </Group>
+
+<!-- Tree 4 (go big)-->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                <!--A north-south SixLegs is my favorite for the lead-up of a Rhylfang fight -->
+                    <Tile Name="SPI_S_C_SixLegs"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"
+                    ForceExitPort="Port04"
+                    ForceEntryPort="Port03"
+					TriggerAutoSave="true"/>
+                </Tiles>
+            </Trunk>
+
+            <!-- (go small)-->
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SPI_S_C_Altar"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"/>
+<!--                    <Tile Name="SPI_S_C_TwinCornersDown"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"/>-->
+                </Tiles>
+            </Branch>
+        </Group>
+        
+ <!-- Tree  5-->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="SPI_S_C_Prongs"  PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1"
+                    TransitionOverride="SpiderCastleArch03"
+                    ForceEntryPort="Port01"
+                    ForceExitPort="Port02"
+					TriggerAutoSave="true"/>
+                </Tiles>
+            </Trunk>
+
+            <!-- (go small)-->
+            <Branch Min="1" Max="1">
+                <Tiles>
+                    <Tile Name="SPI_S_C_CurvedCross" ForceEntryPort="Port03" PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts="1" Max="1" TransitionOverride="SpiderCastleDoor_Trapped"/>
+                </Tiles>
+            </Branch>
+        </Group>       
+        
+<!-- Boss Tile -->
+
+        <Group>
+            <Trunk>
+                <Tiles >
+                  <Tile Name="SPI_SpiderBoss" XMLID="SpiderBossRoom" TransitionOverride="SpiderCastleDoor"/>    
+                </Tiles>
+            </Trunk>
+        </Group> 
+                
+    </Groups>  
+</DungeonConfig>

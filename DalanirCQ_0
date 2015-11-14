@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="BearSet01" />  <!-- wolves obv -->
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile   Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+       <Group> <!-- group 0 -->
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAV_Staging" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1"/>   
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+		<Group> <!-- group 1 -->
+             <Trunk Min="1" Max="1">
+                <Tiles >                                    
+                       <Tile Name="CAV_S_T_Donut" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "0" ForceEntryPort = "03" ForceExitPort = "02" TransitionOverride = "DrowArch02"/>                                                
+                </Tiles>
+            </Trunk>
+        </Group> 
+		
+         <Group> <!-- group 2 -->
+             <Trunk Min="1" Max="1">
+                <Tiles >
+                       <Tile Name="CAV_36_C_Ramps" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "1" ForceEntryPort = "04" ForceExitPort = "06" XMLID = "CrystalShardPuzzle"/>                                                           
+                </Tiles>
+            </Trunk>
+			
+			<Branch Min="2" Max="2" Sequential="1">
+				<Tiles>
+						<Tile Name="CAV_36_T_Tadpole" PortExtensionMin= "2" PortExtensionMax = "2" OpenAllPorts = "0" ForceEntryPort = "03" XMLID = "CrystalSidePath"/>  
+                        <Tile Name="CAV_S_T_Why" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "0" ForceEntryPort = "03" ForceExitPort = "02"/>
+                </Tiles>
+			</Branch>
+			
+			<Leaf Min="1" Max="1">
+				<Tiles>
+						<Tile Name="CAV_S_C_ZCross" PortExtensionMin= "0" PortExtensionMax = "0" OpenAllPorts = "0" ForceEntryPort = "03" ForceExitPort = "02" TransitionOverride = "DrowSecretDoor01"/>
+						<Tile Name="CAV_S_C_Psi" PortExtensionMin= "0" PortExtensionMax = "0" OpenAllPorts = "0" ForceEntryPort = "03" ForceExitPort = "02"/>
+				</Tiles>
+			</Leaf>
+
+        </Group> 
+		
+		<Group> <!-- group 3 -->
+             <Trunk Min="1" Max="1">
+                <Tiles >                                    
+                       <Tile Name="CAV_S_T_Why" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "0" ForceEntryPort = "01" ForceExitPort = "02" TransitionOverride = "DrowArch02" XMLID = "BetweenPuzzles"/>                                                
+                </Tiles>
+            </Trunk>
+			
+        </Group> 
+		
+		<Group> <!-- group 4 -->
+             <Trunk Min="1" Max="1">
+                <Tiles >                                    
+                       <Tile Name="CAV_S_C_Platform" OpenAllPorts = "0" PortExtensionMin="2" PortExtensionMax="2" ForceEntryPort = "03" ForceExitPort = "04" TransitionOverride = "DrowArch02" XMLID = "SigilPuzzle"/>                                                
+                </Tiles>
+            </Trunk>
+			
+			<Branch Min="1" Max="1">
+				<Tiles>
+					<Tile Name="CAV_S_I_Noodle" PortExtensionMin= "1" ForceEntryPort ="02" PortExtensionMax = "1" OpenAllPorts = "0" Max="1" XMLID = "SigilComplete"/>
+					<Tile Name="CAV_Secret" XMLID = "SigilBonus"/>
+				</Tiles>
+			</Branch>
+			
+			<Leaf Min="1" Max="1" Sequential="1">
+				<Tiles>
+					<Tile Name="CAV_S_I_Bridge" TransitionOverride = "DrowArch01" XMLID = "GuardRoom"/> <!-- guard room -->
+					<Tile Name="CAV_10_C_Hall" TransitionOverride = "DrowDoor01" EndCapOverride="Drow_HallEndCap" XMLID = "BeforeSisterRoom"/>
+					<Tile Name="CAV_S_E_Platform" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts = "0" ForceEntryPort = "01" ForceExitPort = "02"/> <!-- sister room-->
+				</Tiles>
+			</Leaf>
+			
+        </Group> 
+		
+		<Group> <!-- group 5 -->
+             <Trunk Min="2" Max="2" Sequential="1">
+                <Tiles >                                    
+					<Tile Name = "CAV_36_C_River" ForceEntryPort="03" ForceExitPort="04" XMLID = "SigilTrap"/>
+					<Tile Name = "CAV_S_E_Comma" ForceEntryPort="01" TransitionOverride = "DrowDoor01"/> <!-- XMLID = "TrapRoom" -->				   
+                </Tiles>
+            </Trunk>
+			
+        </Group>
+		
+		<Group> <!-- group 6 -->
+             <Trunk Min="1" Max="1">
+                <Tiles >                                    
+					<Tile Name = "CAV_S_E_TwoPlat" ForceEntryPort="01"/> <!-- trap underhulk room -->					   
+                </Tiles>
+            </Trunk>
+			
+        </Group>
+ 
+
+  
+    </Groups>  
+</DungeonConfig>

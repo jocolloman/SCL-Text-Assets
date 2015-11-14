@@ -1,0 +1,1469 @@
+{
+    "FILE FORMAT": {
+        "Version": "0.11"
+    }, 
+    "LINE DATA DEFINITION": {
+        "NoVO": [
+            14, 
+            0
+        ], 
+        "NoEndFadeInLine": [
+            19, 
+            0
+        ], 
+        "LineText": [
+            3, 
+            0
+        ], 
+        "AudioLineName": [
+            4, 
+            0
+        ], 
+        "VOComment": [
+            12, 
+            0
+        ], 
+        "NoBegFadeInLine": [
+            18, 
+            0
+        ], 
+        "Unskippable": [
+            16, 
+            0
+        ], 
+        "Actions": [
+            7, 
+            0
+        ], 
+        "Comments": [
+            5, 
+            0
+        ], 
+        "RefID": [
+            0, 
+            0
+        ], 
+        "ResponseRef": [
+            6, 
+            0
+        ], 
+        "Moods": [
+            9, 
+            0
+        ], 
+        "ParentRef": [
+            1, 
+            0
+        ], 
+        "LocComment": [
+            13, 
+            0
+        ], 
+        "VOChange": [
+            15, 
+            0
+        ], 
+        "NoSendingStone": [
+            17, 
+            0
+        ], 
+        "Conditions": [
+            8, 
+            0
+        ], 
+        "ItemsToRemove": [
+            11, 
+            0
+        ], 
+        "ItemsToAdd": [
+            10, 
+            0
+        ], 
+        "SpeakerTag": [
+            2, 
+            0
+        ]
+    }, 
+    "CONVERSATION GROUP": [
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "ImNotPlayingAround", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "True", 
+                "IsAmbient": "False", 
+                "Defaults": {
+                    "Speaker": "MINDFLAYER"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_7197311", 
+                "LINE_1253653", 
+                "MINDFLAYER", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_7197311|", 
+                "", 
+                "I am the god of this city and soon my brethren and I will reclaim our rightful place as masters of this world.", 
+                [
+                    "LINE_2694125", 
+                    "LINE_4978736"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2694125", 
+                "LINE_7197311", 
+                "<PLAYER>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_2694125|", 
+                "", 
+                "I will do whatever I must to take the Moontear from you.", 
+                [
+                    "LINE_4241642"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3249532", 
+                "LINE_2933192", 
+                "MINDFLAYER", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_3249532|", 
+                "", 
+                "If you insist on fighting me... I will give you the challenge you demand. Face my most powerful servant: Themberchaud, Wyrmsmith of Gracklstugh!", 
+                [
+                    "LINE_2931936"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                0, 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4978736", 
+                "LINE_7197311", 
+                "<PLAYER>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_4978736|", 
+                "", 
+                "", 
+                [
+                    "LINE_4241642"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0548904", 
+                "<ROOT>", 
+                "MINDFLAYER", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_0548904|", 
+                "", 
+                "The gray dwarves thought they were safe from us. They thought they had won their freedom. That the Moontear could protect them.", 
+                [
+                    "LINE_9513904"
+                ], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "MindflayerPostEffectOn", 
+                        "Quest": "C4.2_Prison_For_The_Mind", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C4_PM_R_FlayerFight01", 
+                                    "Quest": "C4.2_Prison_For_The_Mind", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }, 
+                            {
+                                "item": {
+                                    "FlagState": "false", 
+                                    "Flag": "C4_PM_R_MindFlayerIntro", 
+                                    "Quest": "C4.2_Prison_For_The_Mind", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9513904", 
+                "LINE_0548904", 
+                "MINDFLAYER", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_9513904|", 
+                "", 
+                "How fitting that the Moontear became the source of their downfall. With its power, I have become their master.", 
+                [
+                    "LINE_1253653", 
+                    "LINE_9929844", 
+                    "LINE_3596207"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1253653", 
+                "LINE_9513904", 
+                "<PLAYER>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_1253653|", 
+                "", 
+                "Hand over the Moontear before there's any more trouble.", 
+                [
+                    "LINE_7197311"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9929844", 
+                "LINE_9513904", 
+                "<PLAYER>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_9929844|", 
+                "", 
+                "", 
+                [
+                    "LINE_8861502"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3596207", 
+                "LINE_9513904", 
+                "<PLAYER>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_3596207|", 
+                "", 
+                "", 
+                [
+                    "LINE_3221742"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "True", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3221742", 
+                "LINE_3596207", 
+                "MINDFLAYER", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_3221742|", 
+                "", 
+                "Fools! With the power of the Moontear in my hands nothing can stop me.", 
+                [
+                    "LINE_7197311"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8861502", 
+                "LINE_9929844", 
+                "MINDFLAYER", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_8861502|", 
+                "", 
+                "You think you can take it from me? Fools! The Moontear's power is beyond you.", 
+                [
+                    "LINE_7197311"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4241642", 
+                "LINE_2694125", 
+                "MINDFLAYER", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_4241642|", 
+                "", 
+                "You will fall to my control, and when you do, you will not remember what it was you fought so bravely to obtain.", 
+                [
+                    "LINE_2933192"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2933192", 
+                "LINE_4241642", 
+                "MINDFLAYER", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_2933192|", 
+                "", 
+                "BK cut If you will not bow, then fight. ", 
+                [
+                    "LINE_3249532"
+                ], 
+                [
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_Mindflayer_DragonIntro", 
+                        "Async": true
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "True", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2931936", 
+                "LINE_3249532", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionDelay", 
+                        "Seconds": 3.0, 
+                        "Async": false
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PM_R_MindFlayerIntro", 
+                        "Quest": "C4.2_Prison_For_The_Mind", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "MindflayerPostEffectOn", 
+                        "Quest": "C4.2_Prison_For_The_Mind", 
+                        "FlagState": "clear"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6260366", 
+                "<ROOT>", 
+                "MINDFLAYER", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_6260366|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ALWAYS_FALSE", 
+                                    "Quest": "UtilityQuestFlags", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9985065", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_9985065|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "FlagState": "true", 
+                                    "Flag": "ALWAYS_FALSE", 
+                                    "Quest": "UtilityQuestFlags", 
+                                    "Type": "Quest"
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1749589", 
+                "LINE_5775866", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_1749589|", 
+                "", 
+                "You freed my mind, and for that, you live. When next we meet, I will not extend that same... courtesy.\nBK I cut NPC lines\n HOMMET: That has to be the nicest thing a red dragon has ever said.\n ILYDIA: Go! We must retrieve the Moontear! Now!", 
+                [
+                    "LINE_2474061"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_0558550", 
+                "LINE_2474061", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [], 
+                [
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PM_R_FlayerFight02", 
+                        "Quest": "C4.2_Prison_For_The_Mind", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "C4_PM_R_DefeatTheMindflayer", 
+                        "Quest": "C4.2_Prison_For_The_Mind", 
+                        "FlagState": "set"
+                    }, 
+                    {
+                        "Action": "ActionQuest", 
+                        "Flag": "GENERATE_SAVE", 
+                        "Quest": "UtilityQuestFlags", 
+                        "FlagState": "set"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5775866", 
+                "<ROOT>", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_5775866|", 
+                "", 
+                "", 
+                [
+                    "LINE_1749589"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                "False", 
+                "False", 
+                "False", 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2474061", 
+                "LINE_1749589", 
+                "<OWNER>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_0558550"
+                ], 
+                [
+                    {
+                        "Action": "ActionUSequence", 
+                        "Path": "Chapter 4/Cutscene_Mindflayer_DragonLeave", 
+                        "Async": false
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ]
+        ], 
+        [
+            {
+                "NeedsVO": "True", 
+                "EventScripts": {
+                    "OnClose": ""
+                }, 
+                "Name": "Combat Ambients", 
+                "NoBegFade": "False", 
+                "IsFinal": "False", 
+                "NoPlayerWarp": "False", 
+                "NoMusic": "False", 
+                "IsStoryCritical": "False", 
+                "IsAmbient": "True", 
+                "Defaults": {
+                    "Speaker": "MINDFLAYER"
+                }, 
+                "NoEndFade": "False", 
+                "ShouldFacePlayer": "False", 
+                "NoSendingStone": "False", 
+                "ELock": "False"
+            }, 
+            [
+                "LINE_4331282", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4734624", 
+                    "LINE_9151973", 
+                    "LINE_6071764", 
+                    "LINE_7169208"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8752857", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4236464", 
+                    "LINE_7130536", 
+                    "LINE_8906466", 
+                    "LINE_7113613"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_5822775", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_1141346", 
+                    "LINE_6551653", 
+                    "LINE_8879155", 
+                    "LINE_2364743"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4596401", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_4807890", 
+                    "LINE_4795878", 
+                    "LINE_8394549"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4734624", 
+                "LINE_4331282", 
+                "<DEFAULT>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_4734624|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 25
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_9151973", 
+                "LINE_4331282", 
+                "<DEFAULT>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_9151973|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 50
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6071764", 
+                "LINE_4331282", 
+                "<DEFAULT>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_6071764|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 75
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7169208", 
+                "LINE_4331282", 
+                "<DEFAULT>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_7169208|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4236464", 
+                "LINE_8752857", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_4236464|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 25
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7130536", 
+                "LINE_8752857", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_7130536|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 50
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8906466", 
+                "LINE_8752857", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_8906466|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 75
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7113613", 
+                "LINE_8752857", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_7113613|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6744146", 
+                "<ROOT>", 
+                "<DEFAULT>", 
+                "", 
+                "", 
+                "", 
+                [
+                    "LINE_3040632", 
+                    "LINE_3374227", 
+                    "LINE_2064143", 
+                    "LINE_7989464"
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_1141346", 
+                "LINE_5822775", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_1141346|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 25
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_6551653", 
+                "LINE_5822775", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_6551653|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 50
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8879155", 
+                "LINE_5822775", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_8879155|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 75
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2364743", 
+                "LINE_5822775", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_2364743|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4807890", 
+                "LINE_4596401", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_4807890|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 33
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_4795878", 
+                "LINE_4596401", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_4795878|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 66
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_8394549", 
+                "LINE_4596401", 
+                "THEMBERCHAUD", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_8394549|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3040632", 
+                "LINE_6744146", 
+                "<DEFAULT>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_3040632|", 
+                "", 
+                "Mind flayer flays more minds", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 25
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_3374227", 
+                "LINE_6744146", 
+                "<DEFAULT>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_3374227|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 50
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_2064143", 
+                "LINE_6744146", 
+                "<DEFAULT>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_2064143|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [
+                    {
+                        "items": [
+                            {
+                                "item": {
+                                    "Type": "Random", 
+                                    "Pct": 75
+                                }, 
+                                "type": "item"
+                            }
+                        ], 
+                        "connection": "AND", 
+                        "type": "group"
+                    }
+                ], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ], 
+            [
+                "LINE_7989464", 
+                "LINE_6744146", 
+                "<DEFAULT>", 
+                "|Ch4_Mindflayer_ReturnedFromAstral_LINE_7989464|", 
+                "", 
+                "", 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                [], 
+                "", 
+                "", 
+                "", 
+                false, 
+                false, 
+                "False", 
+                "False"
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,361 @@
+<?xml version= "1.0" encoding= "utf-8"?>
+<DungeonConfig xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd= "http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX= "0" PortWeightZ= "0" PlayerLighting= "DrowCavesPlayerLighting" 
+EncounterProbabilityMin= "75"
+EncounterProbabilityMax= "85"
+DMAllowedChests ="6"
+MaxHallwayDistance= "35"
+MaxHallwayTiles= "3" >
+<HallwayTiles>
+<Tile Name= "SPI_10_C_Hall" TransitionOverride= "SpiderCastleArch01" />
+</HallwayTiles>
+</Settings>
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name= "DC_Duergar" /> 
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name= "SPI_FlortalUP" CanDMSpawn= "0" />    <!-- FLORTAL - Only ONE tile IN THIS GROUP   -->
+                </Tiles>
+            </Trunk>
+        </Group>
+      
+        <Group>
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_Ballroom"       	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_ChamberStairs"    PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_NarrowHalls"      PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min= "1" Max= "1">
+                <Tiles >
+                    <Tile Name= "SPI_36_C_Ballroom"       	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_ChamberStairs"    PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_NarrowHalls"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+        
+        <Group>
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+         </Group>
+		 
+		 <Group>
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_Ballroom"       	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_ChamberStairs"    PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_NarrowHalls"      PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min= "1" Max= "1">
+                <Tiles >
+                    <Tile Name= "SPI_36_C_Ballroom"       	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_ChamberStairs"    PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_NarrowHalls"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+        
+        <Group>
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+         </Group>
+		 
+		 <Group>
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_Ballroom"       	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_ChamberStairs"    PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_NarrowHalls"      PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+            
+            <Leaf Min= "1" Max= "1">
+                <Tiles >
+                    <Tile Name= "SPI_36_C_Ballroom"       	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_ChamberStairs"    PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_NarrowHalls"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+        
+        <Group>
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+         </Group>
+		 
+		 <Group>
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+                    <Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+			
+            <Branch Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_Ballroom"       	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_ChamberStairs"    PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_NarrowHalls"      PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "2" PortExtensionMax= "2" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Branch>
+
+            <Leaf Min= "1" Max= "1">
+                <Tiles >
+                    <Tile Name= "SPI_36_C_Ballroom"       	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_ChamberStairs"    PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_36_C_NarrowHalls"      PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Angle"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Armor"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_BasicCross"        PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_OpenCross"         PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Platform"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Prongs"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_SixLegs"         	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Steps"           	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersDown"	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_TwinCornersUp"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_I_LilDip"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Leaf>
+        </Group>
+
+		<Group>
+            <Trunk Min= "1" Max= "1">
+                <Tiles >
+					<Tile Name= "SPI_DiagHall"          	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Antechamber"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_CurvedCross"   	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_C_Hall"	        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+					<Tile Name= "SPI_S_T_Anchor"        	PortExtensionMin= "1" PortExtensionMax= "1" OpenAllPorts= "1" Destructible= "PD_DUE_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+		 
+        <Group>
+            <Trunk IsBossGroup= "1">
+                <Tiles >
+                  <Tile Name= "SPI_FlortalDOWN" Destructible= "PD_DUE_Small"/>    
+				  <Tile Name= "SPI_Boss" IsBossTile= "1" />
+				  <Tile Name= "SPI_DM_FlortalOUT" IsExitTile= "1" />
+                </Tiles>
+            </Trunk>
+        </Group> 
+    </Groups>  
+	
+	<PostBuildTiles>
+        <Tiles>
+            <Tile Name="SPI_Secret" TransitionOverride="SpiderCastleSecretDoor" Max="1" /> 
+		</Tiles>
+    </PostBuildTiles>
+</DungeonConfig>

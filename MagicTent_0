@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="0" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--MaxHallwayDistance="60"
+MaxHallwayTiles="6" >
+<HallwayTiles>
+    <Tile Name="CAS_10_I_Hall" OpenAllPorts = "1" TransitionOverride="WizardCastleArch" />
+</HallwayTiles>
+</Settings> -->
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="UndeadSet1" /> 
+	</CreatureSets>
+
+ <!-- DUNGEON -->	 
+    <Groups>
+
+<!-- FLORTAL           Only ONE tile IN THIS GROUP!!!!!!!!!!!!!!!!!!!!!     -->
+        <Group>
+            <Trunk Min="1" Max="1">
+                <Tiles>
+                   <Tile Name="CAS_S_C_Steps"  PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1" />  
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <Tile Name="CAS_S_C_OpenCross"  PortExtensionMin= "4" PortExtensionMax = "4" OpenAllPorts= "1"  ForceEntryPort = "08" TransitionOverride="WizardCastleDoor" />
+                </Tiles>
+            </Branch >
+            
+            <Leaf Min="2" Max="2" >
+                <Tiles >
+                    <Tile Name="CAS_10_C_Hall" OpenAllPorts= "1" TransitionOverride="WizardCastleArch" />
+                    <Tile Name="CAS_10_C_Hall" OpenAllPorts= "1" TransitionOverride="WizardCastleArch" />
+                </Tiles>
+            </Leaf >
+        </Group>
+    </Groups>  
+    
+    <PostBuildTiles Sequential = "1" >
+        <Tiles>
+                <Tile Name="CAS_FlortalUP_WizardSQ" TransitionOverride="WizardCastleLockedDoor" />
+
+                <Tile Name="CAS_Closet" TransitionOverride="WizardCastleSecretDoor" />
+                <Tile Name="CAS_Closet" TransitionOverride="WizardCastleSecretDoor" />
+                <Tile Name="CAS_Closet" TransitionOverride="WizardCastleSecretDoor" />
+                <Tile Name="CAS_Closet" TransitionOverride="WizardCastleSecretDoor" />
+                <Tile Name="CAS_Closet" TransitionOverride="WizardCastleSecretDoor" />
+                <Tile Name="CAS_Closet" TransitionOverride="WizardCastleSecretDoor" />   
+                <Tile Name="CAS_Closet" TransitionOverride="WizardCastleSecretDoor" /> 
+                
+                <Tile Name="CAS_10_I_Hall" Max = "1" OpenAllPorts = "1" ForceEntryPort = "01" TransitionOverride="WizardCastleArch" />
+
+        </Tiles>
+    </PostBuildTiles>
+ 
+</DungeonConfig>
+

@@ -1,0 +1,458 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_MadlibQuestTypes"
+{
+     FORMAT
+     {
+          HASH             "QuestName"
+          HASH             "ReasonType"
+          HASH             "Conversation"
+          HASH             "Incomplete"
+          HASH             "Complete"
+     }
+
+     TEMPLATE "Collect"
+     {
+          DESCRIPTION      ""
+          DATA             "Quest_Collect"
+          DATA             "Collect"
+          DATA             "DM_Collect_Conversation_0"
+          DATA             "DM_Collect_Conversation_0_Incomplete"
+          DATA             "DM_Collect_Conversation_0_Complete"
+     }
+
+     TEMPLATE "Defeat"
+     {
+          DESCRIPTION      ""
+          DATA             "Quest_Defeat"
+          DATA             "Defeat"
+          DATA             "DM_Defeat_Conversation_0"
+          DATA             "DM_Defeat_Conversation_0_Incomplete"
+          DATA             "DM_Defeat_Conversation_0_Complete"
+     }
+
+}
+
+GROUP "RT_MadlibItems"
+{
+     FORMAT
+     {
+          HASH             "ContainerPrefab"
+          HASH             "NameSingle"
+          HASH             "NamePlural"
+          HASH             "TileSet"
+     }
+
+     TEMPLATE "Amethyst"
+     {
+          DESCRIPTION      ""
+          DATA             "Prefabs/LootContainers/DM/DM_CollectContainer_Amethyst"
+          DATA             "item_dm_collect_amethyst"
+          DATA             "item_dm_collect_amethyst_plural"
+          DATA             ""
+     }
+
+     TEMPLATE "BoneDust"
+     {
+          DESCRIPTION      ""
+          DATA             "Prefabs/LootContainers/DM/DM_CollectContainer_BoneDust"
+          DATA             "item_dm_collect_bonedust"
+          DATA             "item_dm_collect_bonedust"
+          DATA             ""
+     }
+
+     TEMPLATE "Coal"
+     {
+          DESCRIPTION      ""
+          DATA             "Prefabs/LootContainers/DM/DM_CollectContainer_Coal"
+          DATA             "item_dm_collect_coal"
+          DATA             "item_dm_collect_coal"
+          DATA             ""
+     }
+
+     TEMPLATE "EggSack"
+     {
+          DESCRIPTION      ""
+          DATA             "Prefabs/LootContainers/DM/DM_CollectContainer_EggSack"
+          DATA             "item_dm_collect_eggsack"
+          DATA             "item_dm_collect_eggsack_plural"
+          DATA             ""
+     }
+
+     TEMPLATE "Scrap"
+     {
+          DESCRIPTION      ""
+          DATA             "Prefabs/LootContainers/DM/DM_CollectContainer_Scrap"
+          DATA             "item_dm_collect_scrap"
+          DATA             "item_dm_collect_scrap_plural"
+          DATA             ""
+     }
+
+     TEMPLATE "Tools"
+     {
+          DESCRIPTION      ""
+          DATA             "Prefabs/LootContainers/DM/DM_CollectContainer_Tools"
+          DATA             "item_dm_collect_tools"
+          DATA             "item_dm_collect_tools_plural"
+          DATA             ""
+     }
+
+}
+
+GROUP "RT_MadlibReasons"
+{
+     FORMAT
+     {
+          HASH             "DisplayReason"
+          HASH             "FullReason"
+          HASH             "TileSet"
+          HASH             "Type"
+          HASH             "IncompleteReason"
+          HASH             "CompleteReason"
+     }
+
+     TEMPLATE "NoReason"
+     {
+          DESCRIPTION      ""
+          DATA             "Reason_NoReason_Short"
+          DATA             "Reason_NoReason_Full"
+          DATA             "All"
+          DATA             "All"
+          DATA             "Reason_NoReason_Full"
+          DATA             "Reason_NoReason_Full"
+     }
+
+     TEMPLATE "NoExcuse"
+     {
+          DESCRIPTION      ""
+          DATA             "Excuse_NoExcuse_Short"
+          DATA             "Excuse_NoExcuse_Full"
+          DATA             "All"
+          DATA             "Excuse"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Frightened"
+     {
+          DESCRIPTION      "Frightened"
+          DATA             "Excuse_Scared_Short"
+          DATA             "Excuse_Scared_Full"
+          DATA             "All"
+          DATA             "Excuse"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Orphans"
+     {
+          DESCRIPTION      "Helpless Orphans"
+          DATA             "Excuse_Orphans_Short"
+          DATA             "Excuse_Orphans_Full"
+          DATA             "All"
+          DATA             "Excuse"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "ArrowToKnee"
+     {
+          DESCRIPTION      "Knee Injury"
+          DATA             "Excuse_Arrow_Short"
+          DATA             "Excuse_Arrow_Full"
+          DATA             "All"
+          DATA             "Excuse"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Stew"
+     {
+          DESCRIPTION      "Stew Boiling"
+          DATA             "Excuse_Stew_Short"
+          DATA             "Excuse_Stew_Full"
+          DATA             "All"
+          DATA             "Excuse"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Clumsy"
+     {
+          DESCRIPTION      "Uncoordinated"
+          DATA             "Excuse_Clumsy_Short"
+          DATA             "Excuse_Clumsy_Full"
+          DATA             "All"
+          DATA             "Excuse"
+          DATA             ""
+          DATA             ""
+     }
+
+     TEMPLATE "Collector"
+     {
+          DESCRIPTION      "The Collector"
+          DATA             "Reason_Collector_Short"
+          DATA             "Reason_Collector_Full"
+          DATA             "All"
+          DATA             "Collect"
+          DATA             "Reason_Collector_Inc"
+          DATA             "Reason_Collector_Comp"
+     }
+
+     TEMPLATE "MomSickEvil"
+     {
+          DESCRIPTION      "Evil Mother"
+          DATA             "Reason_MomSickE_Short"
+          DATA             "Reason_MomSickE_Full"
+          DATA             "All"
+          DATA             "Collect"
+          DATA             "Reason_MomSickE_Inc"
+          DATA             "Reason_MomSickE_Comp"
+     }
+
+     TEMPLATE "Gourmet"
+     {
+          DESCRIPTION      "The Gourmand"
+          DATA             "Reason_Gormet_Short"
+          DATA             "Reason_Gormet_Full"
+          DATA             "All"
+          DATA             "Collect"
+          DATA             "Reason_Gormet_Inc"
+          DATA             "Reason_Gormet_Comp"
+     }
+
+     TEMPLATE "Supplies"
+     {
+          DESCRIPTION      "Short Supply"
+          DATA             "Reason_Supplies_Short"
+          DATA             "Reason_Supplies_Full"
+          DATA             "All"
+          DATA             "Collect"
+          DATA             "Reason_Supplies_Inc"
+          DATA             "Reason_Supplies_Comp"
+     }
+
+     TEMPLATE "MomSickGood"
+     {
+          DESCRIPTION      "Sick Mother"
+          DATA             "Reason_MomSickG_Short"
+          DATA             "Reason_MomSickG_Full"
+          DATA             "All"
+          DATA             "Collect"
+          DATA             "Reason_MomSickG_Inc"
+          DATA             "Reason_MomSickG_Comp"
+     }
+
+     TEMPLATE "BadForBuisness"
+     {
+          DESCRIPTION      "Bad For Buisness"
+          DATA             "Reason_BadForB_Short"
+          DATA             "Reason_BadForB_Full"
+          DATA             "All"
+          DATA             "Defeat"
+          DATA             "Reason_BadForB_Inc"
+          DATA             "Reason_BadForB_Comp"
+     }
+
+     TEMPLATE "KilledDad"
+     {
+          DESCRIPTION      "Dad is Dead"
+          DATA             "Reason_KilledDad_Short"
+          DATA             "Reason_KilledDad_Full"
+          DATA             "All"
+          DATA             "Defeat"
+          DATA             "Reason_KilledDad_Inc"
+          DATA             "Reason_KilledDad_Comp"
+     }
+
+     TEMPLATE "Cheated"
+     {
+          DESCRIPTION      "Lousy Cheats"
+          DATA             "Reason_Cheated_Short"
+          DATA             "Reason_Cheated_Full"
+          DATA             "All"
+          DATA             "Defeat"
+          DATA             "Reason_Cheated_Inc"
+          DATA             "Reason_Cheated_Comp"
+     }
+
+     TEMPLATE "KilledMom"
+     {
+          DESCRIPTION      "Murdered Mom"
+          DATA             "Reason_KilledMom_Short"
+          DATA             "Reason_KilledMom_Full"
+          DATA             "All"
+          DATA             "Defeat"
+          DATA             "Reason_KilledMom_Inc"
+          DATA             "Reason_KilledMom_Comp"
+     }
+
+     TEMPLATE "Xenophobia"
+     {
+          DESCRIPTION      "Righ Xeno"
+          DATA             "Reason_Xenophobia_Short"
+          DATA             "Reason_Xenophobia_Full"
+          DATA             "All"
+          DATA             "Defeat"
+          DATA             "Reason_Xenophobia_Inc"
+          DATA             "Reason_Xenophobia_Comp"
+     }
+
+     TEMPLATE "Famine"
+     {
+          DESCRIPTION      "Cursed Land"
+          DATA             "Reason_Famine_Short"
+          DATA             "Reason_Famine_Full"
+          DATA             "All"
+          DATA             "DefeatBoss"
+          DATA             "Reason_Famine_Inc"
+          DATA             "Reason_Famine_Comp"
+     }
+
+     TEMPLATE "GatheringForces"
+     {
+          DESCRIPTION      "Gathering Forces"
+          DATA             "Reason_GatheringForces_Short"
+          DATA             "Reason_GatheringForces_Full"
+          DATA             "All"
+          DATA             "DefeatBoss"
+          DATA             "Reason_GatheringForces_Inc"
+          DATA             "Reason_GatheringForces_Comp"
+     }
+
+     TEMPLATE "Kidnappings"
+     {
+          DESCRIPTION      "Kidnappings"
+          DATA             "Reason_Kidnappings_Short"
+          DATA             "Reason_Kidnappings_Full"
+          DATA             "All"
+          DATA             "DefeatBoss"
+          DATA             "Reason_Kidnappings_Inc"
+          DATA             "Reason_Kidnappings_Comp"
+     }
+
+     TEMPLATE "Raids"
+     {
+          DESCRIPTION      "Night Raids"
+          DATA             "Reason_Raids_Short"
+          DATA             "Reason_Raids_Full"
+          DATA             "All"
+          DATA             "DefeatBoss"
+          DATA             "Reason_Raids_Inc"
+          DATA             "Reason_Raids_Comp"
+     }
+
+     TEMPLATE "SinisterSounds"
+     {
+          DESCRIPTION      "Sinister Sounds"
+          DATA             "Reason_SinisterSounds_Short"
+          DATA             "Reason_SinisterSounds_Full"
+          DATA             "All"
+          DATA             "DefeatBoss"
+          DATA             "Reason_SinisterSounds_Inc"
+          DATA             "Reason_SinisterSounds_Comp"
+     }
+
+     TEMPLATE "TEMPStory1"
+     {
+          DESCRIPTION      ""
+          DATA             "Reason_TEMP1_Short"
+          DATA             "Reason_TEMP1_Full"
+          DATA             "All"
+          DATA             "Discover"
+          DATA             "Reason_TEMP1_Inc"
+          DATA             "Reason_TEMP1_Comp"
+     }
+
+     TEMPLATE "TEMPStory2"
+     {
+          DESCRIPTION      ""
+          DATA             "Reason_TEMP2_Short"
+          DATA             "Reason_TEMP2_Full"
+          DATA             "All"
+          DATA             "Discover"
+          DATA             "Reason_TEMP2_Inc"
+          DATA             "Reason_TEMP2_Comp"
+     }
+
+     TEMPLATE "TEMPStory3"
+     {
+          DESCRIPTION      ""
+          DATA             "Reason_TEMP3_Short"
+          DATA             "Reason_TEMP3_Full"
+          DATA             "All"
+          DATA             "Discover"
+          DATA             "Reason_TEMP3_Inc"
+          DATA             "Reason_TEMP3_Comp"
+     }
+
+     TEMPLATE "TEMPStory4"
+     {
+          DESCRIPTION      ""
+          DATA             "Reason_TEMP4_Short"
+          DATA             "Reason_TEMP4_Full"
+          DATA             "All"
+          DATA             "Discover"
+          DATA             "Reason_TEMP4_Inc"
+          DATA             "Reason_TEMP4_Comp"
+     }
+
+}
+
+GROUP "RT_Bosses"
+{
+     FORMAT
+     {
+          HASH             "BossName"
+     }
+
+     TEMPLATE "HotU_Boss_AshenPriest"
+     {
+          DESCRIPTION      ""
+          DATA             "Name_DCBoss_AshenPriest"
+     }
+
+     TEMPLATE "Boss_Mercenary_Leader"
+     {
+          DESCRIPTION      ""
+          DATA             "Name_DCBoss_MercLeader"
+     }
+
+     TEMPLATE "Boss_Necro_Ghost"
+     {
+          DESCRIPTION      ""
+          DATA             "Name_DCBoss_NecroGhost"
+     }
+
+     TEMPLATE "Boss_Demonweb_Terror"
+     {
+          DESCRIPTION      ""
+          DATA             "Name_DCBoss_DemonwebTerror"
+     }
+
+     TEMPLATE "Boss_Shadow_Summon"
+     {
+          DESCRIPTION      ""
+          DATA             "Name_DCBoss_ShadowSummon"
+     }
+
+     TEMPLATE "Boss_Master_Assassin"
+     {
+          DESCRIPTION      ""
+          DATA             "Name_DCBoss_MasterAssassin"
+     }
+
+     TEMPLATE "Boss_Beholder"
+     {
+          DESCRIPTION      ""
+          DATA             "Name_DCBoss_Beholder"
+     }
+
+     TEMPLATE "Boss_SteelToothe"
+     {
+          DESCRIPTION      ""
+          DATA             "Name_DCBoss_Steeltooth"
+     }
+
+}
+

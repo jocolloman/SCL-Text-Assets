@@ -1,0 +1,335 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.10"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ]
+        }
+    }, 
+    "DATA": {
+        "Ch3_ChapterhouseForest_Hunter": [
+            "Ch3_ChapterhouseForest_Quest 0_Name", 
+            0, 
+            "Ch3_ChapterHouseForest_Hunter", 
+            "..\\..\\..\\..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+            "", 
+            {
+                "ConversationFlags": {
+                    "Hunter_BadLeg": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 0_JournalEntry", 
+                        "Hunter_BadLeg_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Hunter_ShackIsWest": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 6_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 6_JournalEntry", 
+                        "Hunter_ShackIsWest_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Hunter_HaveMet": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 7_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 7_JournalEntry", 
+                        "Hunter_HaveMet_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Quest Flags": {
+                    "Hunter_CollectBearMeat": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 1_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 1_JournalEntry", 
+                        "Hunter_CollectBearMeat_Reward", 
+                        [
+                            {
+                                "flag": "Hunter_HAS_CollectQuests", 
+                                "quest": "Ch3_ChapterhouseForest_Hunter", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Hunter_CollectRabbitFeet": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 2_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 2_JournalEntry", 
+                        "Hunter_CollectRabbitFeet_Reward", 
+                        [
+                            {
+                                "flag": "Hunter_HAS_CollectQuests", 
+                                "quest": "Ch3_ChapterhouseForest_Hunter", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Hunter_Justice": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 3_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 3_JournalEntry", 
+                        "Hunter_Justice_Reward", 
+                        [
+                            {
+                                "flag": "Hunter_HAS_JusticeQuest", 
+                                "quest": "Ch3_ChapterhouseForest_Hunter", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }, 
+                "Intermediate Flags": {
+                    "Hunter_HAS_CollectQuests": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 4_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 4_JournalEntry", 
+                        "Hunter_HAS_CollectQuests_Reward", 
+                        {}, 
+                        "", 
+                        1, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Hunter_HAS_JusticeQuest": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 5_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 5_JournalEntry", 
+                        "Hunter_HAS_JusticeQuest_Reward", 
+                        {}, 
+                        "", 
+                        1, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Hunter_MovedOn": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 8_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 8_JournalEntry", 
+                        "Hunter_MovedOn_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ], 
+                    "Hunter_HAS_Ax": [
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 9_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch3_ChapterhouseForest_Ch3_ChapterhouseForest_Hunter_Flag 9_JournalEntry", 
+                        "Hunter_HAS_Ax_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None"
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "", 
+            "None"
+        ]
+    }
+}

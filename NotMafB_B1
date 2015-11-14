@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="0" PortWeightZ="-100" PlayerLighting="DrowCavesPlayerLighting" 
+MaxHallwayDistance="120"
+MaxHallwayTiles="6" >
+
+<HallwayTiles>
+    <Tile Name="CAT_10_C_Hall"  TransitionOverride= "CatacombsArch01"/>   
+</HallwayTiles>
+
+</Settings>
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="MafCatacombs1" /> 
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>    
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="CAT_Staging_IzhkinCQ" TransitionOverride="CatacombsDoor_Trapped"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+      
+        <Group>
+            <Trunk>
+                <Tiles >
+					<Tile Name="CAT_S_C_Angle" ForceEntryPort="Port01" ForceExitPort="Port04" PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+		</Group>
+		
+		<Group>
+            <Trunk>
+                <Tiles > 
+					<Tile Name="CAT_S_C_Altar" ForceEntryPort="Port01" ForceExitPort="Port03" PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+        </Group>
+        <Group>
+            <Trunk>
+                <Tiles > 
+					<Tile Name="CAT_S_T_BandStand" ForceEntryPort="Port02"	ForceExitPort="Port01" PortExtensionMin= "1" PortExtensionMax = "2" OpenAllPorts= "1" />
+                </Tiles>
+            </Trunk>
+        </Group> 
+        
+        <Group>
+            <Trunk>
+                <Tiles > 
+					<Tile Name="CAT_S_I_Four" ForceEntryPort="Port02" ForceExitPort="Port01" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" />			
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+        
+        
+    </Groups>  
+</DungeonConfig>

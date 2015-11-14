@@ -1,0 +1,3390 @@
+// Resource Template File-- DO NOT EDIT THIS MANUALLY!
+
+GROUP "RT_DMZones"
+{
+     FORMAT
+     {
+          STRING           "SceneName"
+          HASH             "DisplayName"
+          HASH             "DisplayDescription"
+          HASH             "LoadPic"
+          XREF             ""    "TreasureSetName"
+          XREF             ""    "DestructibleSetName"
+          XREF             ""    "PlayerLightRigName"
+          INTERGER         "MinLocationLevel"
+          INTEGER          "MaxLocationLevel"
+          INTEGER          "LocationLevelOffset"
+          INTEGER          "Gated"
+          STRING           "Tag"
+          RESOURCE         ""    "Preview"
+          STRING           "Subregion"
+     }
+
+     TEMPLATE "dm_inn"
+     {
+     }
+
+     TEMPLATE "dm_partycamp"
+     {
+     }
+
+     TEMPLATE "dm_luskangates"
+     {
+     }
+
+     TEMPLATE "dm_luskanstreets"
+     {
+     }
+
+     TEMPLATE "dm_streets_a"
+     {
+     }
+
+     TEMPLATE "dm_streets_b"
+     {
+     }
+
+     TEMPLATE "dm_streets_c"
+     {
+     }
+
+     TEMPLATE "dm_streets_d"
+     {
+     }
+
+     TEMPLATE "dm_streets_e"
+     {
+     }
+
+     TEMPLATE "dm_luskanslums"
+     {
+     }
+
+     TEMPLATE "dm_introforest"
+     {
+     }
+
+     TEMPLATE "dm_chapterhousewoods"
+     {
+     }
+
+     TEMPLATE "dm_forest_a"
+     {
+     }
+
+     TEMPLATE "dm_forest_b"
+     {
+     }
+
+     TEMPLATE "dm_forest_c"
+     {
+     }
+
+     TEMPLATE "dm_mountain_a"
+     {
+     }
+
+     TEMPLATE "dm_mountain_b"
+     {
+     }
+
+     TEMPLATE "dm_grassland_a"
+     {
+     }
+
+     TEMPLATE "dm_grassland_b"
+     {
+     }
+
+     TEMPLATE "dm_evermoors"
+     {
+     }
+
+     TEMPLATE "dm_swamp_a"
+     {
+     }
+
+     TEMPLATE "dm_swamp_b"
+     {
+     }
+
+     TEMPLATE "dm_middledark"
+     {
+     }
+
+     TEMPLATE "dm_underdark_a"
+     {
+     }
+
+     TEMPLATE "dm_underdark_b"
+     {
+     }
+
+     TEMPLATE "dm_underdark_c"
+     {
+     }
+
+     TEMPLATE "dm_darklake"
+     {
+     }
+
+     TEMPLATE "dm_grackstreets"
+     {
+     }
+
+     TEMPLATE "dm_duergarramparts"
+     {
+     }
+
+     TEMPLATE "dm_finalboss"
+     {
+     }
+
+     TEMPLATE "dm_endoftime"
+     {
+     }
+
+     TEMPLATE "dm_cemetery_a"
+     {
+     }
+
+     TEMPLATE "dm_forest_d"
+     {
+     }
+
+}
+
+GROUP "RT_DMDungeon"
+{
+     FORMAT
+     {
+          XREF             ""    "DefaultMood"
+          RESOURCE         ""    "DungeonLightingOverride"
+          HASH             "DisplayName"
+          HASH             "DisplayDescription"
+          HASH             "LoadPic"
+          XREF             ""    "TransitionSet"
+          XREF             ""    "TreasureSetName"
+          XREF             ""    "DestructibleSetName"
+     }
+
+     TEMPLATE "BanditCave-DC-S-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Bandit_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_BanditCaves"
+          DATA             "loadScreen_desc_DM_BanditCaves"
+          DATA             "BanditCaves"
+          DATA             "BanditCavesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "BanditCave-DC-S-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Bandit_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_BanditCaves"
+          DATA             "loadScreen_desc_DM_BanditCaves"
+          DATA             "BanditCaves"
+          DATA             "BanditCavesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "BanditCave-DC-S-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Bandit_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_BanditCaves"
+          DATA             "loadScreen_desc_DM_BanditCaves"
+          DATA             "BanditCaves"
+          DATA             "BanditCavesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "BanditCave-DC-M-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Bandit_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_BanditCaves"
+          DATA             "loadScreen_desc_DM_BanditCaves"
+          DATA             "BanditCaves"
+          DATA             "BanditCavesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "BanditCave-DC-M-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Bandit_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_BanditCaves"
+          DATA             "loadScreen_desc_DM_BanditCaves"
+          DATA             "BanditCaves"
+          DATA             "BanditCavesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "BanditCave-DC-M-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Bandit_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_BanditCaves"
+          DATA             "loadScreen_desc_DM_BanditCaves"
+          DATA             "BanditCaves"
+          DATA             "BanditCavesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "BanditCave-DC-L-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Bandit_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_BanditCaves"
+          DATA             "loadScreen_desc_DM_BanditCaves"
+          DATA             "BanditCaves"
+          DATA             "BanditCavesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "BanditCave-DC-L-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Bandit_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_BanditCaves"
+          DATA             "loadScreen_desc_DM_BanditCaves"
+          DATA             "BanditCaves"
+          DATA             "BanditCavesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "BanditCave-DC-L-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Bandit_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_BanditCaves"
+          DATA             "loadScreen_desc_DM_BanditCaves"
+          DATA             "BanditCaves"
+          DATA             "BanditCavesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "Castle-DC-S-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "HumanCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Castle"
+          DATA             "loadScreen_desc_DM_Castle"
+          DATA             "Castle"
+          DATA             "CastleTransitions"
+          DATA             "CastleTreasures"
+          DATA             "CastleDestructibles"
+     }
+
+     TEMPLATE "Castle-DC-S-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "HumanCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Castle"
+          DATA             "loadScreen_desc_DM_Castle"
+          DATA             "Castle"
+          DATA             "CastleTransitions"
+          DATA             "CastleTreasures"
+          DATA             "CastleDestructibles"
+     }
+
+     TEMPLATE "Castle-DC-S-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "HumanCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Castle"
+          DATA             "loadScreen_desc_DM_Castle"
+          DATA             "Castle"
+          DATA             "CastleTransitions"
+          DATA             "CastleTreasures"
+          DATA             "CastleDestructibles"
+     }
+
+     TEMPLATE "Castle-DC-M-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "HumanCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Castle"
+          DATA             "loadScreen_desc_DM_Castle"
+          DATA             "Castle"
+          DATA             "CastleTransitions"
+          DATA             "CastleTreasures"
+          DATA             "CastleDestructibles"
+     }
+
+     TEMPLATE "Castle-DC-M-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "HumanCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Castle"
+          DATA             "loadScreen_desc_DM_Castle"
+          DATA             "Castle"
+          DATA             "CastleTransitions"
+          DATA             "CastleTreasures"
+          DATA             "CastleDestructibles"
+     }
+
+     TEMPLATE "Castle-DC-M-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "HumanCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Castle"
+          DATA             "loadScreen_desc_DM_Castle"
+          DATA             "Castle"
+          DATA             "CastleTransitions"
+          DATA             "CastleTreasures"
+          DATA             "CastleDestructibles"
+     }
+
+     TEMPLATE "Castle-DC-L-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "HumanCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Castle"
+          DATA             "loadScreen_desc_DM_Castle"
+          DATA             "Castle"
+          DATA             "CastleTransitions"
+          DATA             "CastleTreasures"
+          DATA             "CastleDestructibles"
+     }
+
+     TEMPLATE "Castle-DC-L-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "HumanCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Castle"
+          DATA             "loadScreen_desc_DM_Castle"
+          DATA             "Castle"
+          DATA             "CastleTransitions"
+          DATA             "CastleTreasures"
+          DATA             "CastleDestructibles"
+     }
+
+     TEMPLATE "Castle-DC-L-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "HumanCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Castle"
+          DATA             "loadScreen_desc_DM_Castle"
+          DATA             "Castle"
+          DATA             "CastleTransitions"
+          DATA             "CastleTreasures"
+          DATA             "CastleDestructibles"
+     }
+
+     TEMPLATE "Catacombs-DC-S-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Catacomb"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Catacombs"
+          DATA             "loadScreen_desc_DM_Catacombs"
+          DATA             "Catacombs"
+          DATA             "CatacombsTransitions"
+          DATA             "CatacombsTreasures"
+          DATA             "CatacombsDestructibles"
+     }
+
+     TEMPLATE "Catacombs-DC-S-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Catacomb"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Catacombs"
+          DATA             "loadScreen_desc_DM_Catacombs"
+          DATA             "Catacombs"
+          DATA             "CatacombsTransitions"
+          DATA             "CatacombsTreasures"
+          DATA             "CatacombsDestructibles"
+     }
+
+     TEMPLATE "Catacombs-DC-S-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Catacomb"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Catacombs"
+          DATA             "loadScreen_desc_DM_Catacombs"
+          DATA             "Catacombs"
+          DATA             "CatacombsTransitions"
+          DATA             "CatacombsTreasures"
+          DATA             "CatacombsDestructibles"
+     }
+
+     TEMPLATE "Catacombs-DC-M-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Catacomb"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Catacombs"
+          DATA             "loadScreen_desc_DM_Catacombs"
+          DATA             "Catacombs"
+          DATA             "CatacombsTransitions"
+          DATA             "CatacombsTreasures"
+          DATA             "CatacombsDestructibles"
+     }
+
+     TEMPLATE "Catacombs-DC-M-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Catacomb"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Catacombs"
+          DATA             "loadScreen_desc_DM_Catacombs"
+          DATA             "Catacombs"
+          DATA             "CatacombsTransitions"
+          DATA             "CatacombsTreasures"
+          DATA             "CatacombsDestructibles"
+     }
+
+     TEMPLATE "Catacombs-DC-M-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Catacomb"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Catacombs"
+          DATA             "loadScreen_desc_DM_Catacombs"
+          DATA             "Catacombs"
+          DATA             "CatacombsTransitions"
+          DATA             "CatacombsTreasures"
+          DATA             "CatacombsDestructibles"
+     }
+
+     TEMPLATE "Catacombs-DC-L-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Catacomb"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Catacombs"
+          DATA             "loadScreen_desc_DM_Catacombs"
+          DATA             "Catacombs"
+          DATA             "CatacombsTransitions"
+          DATA             "CatacombsTreasures"
+          DATA             "CatacombsDestructibles"
+     }
+
+     TEMPLATE "Catacombs-DC-L-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Catacomb"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Catacombs"
+          DATA             "loadScreen_desc_DM_Catacombs"
+          DATA             "Catacombs"
+          DATA             "CatacombsTransitions"
+          DATA             "CatacombsTreasures"
+          DATA             "CatacombsDestructibles"
+     }
+
+     TEMPLATE "Catacombs-DC-L-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Catacomb"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Catacombs"
+          DATA             "loadScreen_desc_DM_Catacombs"
+          DATA             "Catacombs"
+          DATA             "CatacombsTransitions"
+          DATA             "CatacombsTreasures"
+          DATA             "CatacombsDestructibles"
+     }
+
+     TEMPLATE "Drow-DC-S-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Drow_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Drow"
+          DATA             "loadScreen_desc_DM_Drow"
+          DATA             "Drow"
+          DATA             "DrowCavesTransitions"
+          DATA             "DrowCaveTreasures"
+          DATA             "DrowCaveDestructibles"
+     }
+
+     TEMPLATE "Drow-DC-S-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Drow_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Drow"
+          DATA             "loadScreen_desc_DM_Drow"
+          DATA             "Drow"
+          DATA             "DrowCavesTransitions"
+          DATA             "DrowCaveTreasures"
+          DATA             "DrowCaveDestructibles"
+     }
+
+     TEMPLATE "Drow-DC-S-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Drow_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Drow"
+          DATA             "loadScreen_desc_DM_Drow"
+          DATA             "Drow"
+          DATA             "DrowCavesTransitions"
+          DATA             "DrowCaveTreasures"
+          DATA             "DrowCaveDestructibles"
+     }
+
+     TEMPLATE "Drow-DC-M-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Drow_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Drow"
+          DATA             "loadScreen_desc_DM_Drow"
+          DATA             "Drow"
+          DATA             "DrowCavesTransitions"
+          DATA             "DrowCaveTreasures"
+          DATA             "DrowCaveDestructibles"
+     }
+
+     TEMPLATE "Drow-DC-M-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Drow_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Drow"
+          DATA             "loadScreen_desc_DM_Drow"
+          DATA             "Drow"
+          DATA             "DrowCavesTransitions"
+          DATA             "DrowCaveTreasures"
+          DATA             "DrowCaveDestructibles"
+     }
+
+     TEMPLATE "Drow-DC-M-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Drow_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Drow"
+          DATA             "loadScreen_desc_DM_Drow"
+          DATA             "Drow"
+          DATA             "DrowCavesTransitions"
+          DATA             "DrowCaveTreasures"
+          DATA             "DrowCaveDestructibles"
+     }
+
+     TEMPLATE "Drow-DC-L-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Drow_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Drow"
+          DATA             "loadScreen_desc_DM_Drow"
+          DATA             "Drow"
+          DATA             "DrowCavesTransitions"
+          DATA             "DrowCaveTreasures"
+          DATA             "DrowCaveDestructibles"
+     }
+
+     TEMPLATE "Drow-DC-L-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Drow_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Drow"
+          DATA             "loadScreen_desc_DM_Drow"
+          DATA             "Drow"
+          DATA             "DrowCavesTransitions"
+          DATA             "DrowCaveTreasures"
+          DATA             "DrowCaveDestructibles"
+     }
+
+     TEMPLATE "Drow-DC-L-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Drow_Caves"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Drow"
+          DATA             "loadScreen_desc_DM_Drow"
+          DATA             "Drow"
+          DATA             "DrowCavesTransitions"
+          DATA             "DrowCaveTreasures"
+          DATA             "DrowCaveDestructibles"
+     }
+
+     TEMPLATE "Duergar-DC-S-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "DuergarCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Duergar"
+          DATA             "loadScreen_desc_DM_Duergar"
+          DATA             "Duergar"
+          DATA             "DuergarTransitions"
+          DATA             "DuergarTreasures"
+          DATA             "DuergarDestructibles"
+     }
+
+     TEMPLATE "Duergar-DC-S-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "DuergarCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Duergar"
+          DATA             "loadScreen_desc_DM_Duergar"
+          DATA             "Duergar"
+          DATA             "DuergarTransitions"
+          DATA             "DuergarTreasures"
+          DATA             "DuergarDestructibles"
+     }
+
+     TEMPLATE "Duergar-DC-S-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "DuergarCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Duergar"
+          DATA             "loadScreen_desc_DM_Duergar"
+          DATA             "Duergar"
+          DATA             "DuergarTransitions"
+          DATA             "DuergarTreasures"
+          DATA             "DuergarDestructibles"
+     }
+
+     TEMPLATE "Duergar-DC-M-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "DuergarCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Duergar"
+          DATA             "loadScreen_desc_DM_Duergar"
+          DATA             "Duergar"
+          DATA             "DuergarTransitions"
+          DATA             "DuergarTreasures"
+          DATA             "DuergarDestructibles"
+     }
+
+     TEMPLATE "Duergar-DC-M-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "DuergarCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Duergar"
+          DATA             "loadScreen_desc_DM_Duergar"
+          DATA             "Duergar"
+          DATA             "DuergarTransitions"
+          DATA             "DuergarTreasures"
+          DATA             "DuergarDestructibles"
+     }
+
+     TEMPLATE "Duergar-DC-M-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "DuergarCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Duergar"
+          DATA             "loadScreen_desc_DM_Duergar"
+          DATA             "Duergar"
+          DATA             "DuergarTransitions"
+          DATA             "DuergarTreasures"
+          DATA             "DuergarDestructibles"
+     }
+
+     TEMPLATE "Duergar-DC-L-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "DuergarCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Duergar"
+          DATA             "loadScreen_desc_DM_Duergar"
+          DATA             "Duergar"
+          DATA             "DuergarTransitions"
+          DATA             "DuergarTreasures"
+          DATA             "DuergarDestructibles"
+     }
+
+     TEMPLATE "Duergar-DC-L-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "DuergarCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Duergar"
+          DATA             "loadScreen_desc_DM_Duergar"
+          DATA             "Duergar"
+          DATA             "DuergarTransitions"
+          DATA             "DuergarTreasures"
+          DATA             "DuergarDestructibles"
+     }
+
+     TEMPLATE "Duergar-DC-L-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "DuergarCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Duergar"
+          DATA             "loadScreen_desc_DM_Duergar"
+          DATA             "Duergar"
+          DATA             "DuergarTransitions"
+          DATA             "DuergarTreasures"
+          DATA             "DuergarDestructibles"
+     }
+
+     TEMPLATE "Sewers-DC-S-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Sewer"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Sewers"
+          DATA             "loadScreen_desc_DM_Sewers"
+          DATA             "Sewers"
+          DATA             "SewerTransitions"
+          DATA             "SewersTreasures"
+          DATA             "SewersDestructibles"
+     }
+
+     TEMPLATE "Sewers-DC-S-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Sewer"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Sewers"
+          DATA             "loadScreen_desc_DM_Sewers"
+          DATA             "Sewers"
+          DATA             "SewerTransitions"
+          DATA             "SewersTreasures"
+          DATA             "SewersDestructibles"
+     }
+
+     TEMPLATE "Sewers-DC-S-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Sewer"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Sewers"
+          DATA             "loadScreen_desc_DM_Sewers"
+          DATA             "Sewers"
+          DATA             "SewerTransitions"
+          DATA             "SewersTreasures"
+          DATA             "SewersDestructibles"
+     }
+
+     TEMPLATE "Sewers-DC-M-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Sewer"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Sewers"
+          DATA             "loadScreen_desc_DM_Sewers"
+          DATA             "Sewers"
+          DATA             "SewerTransitions"
+          DATA             "SewersTreasures"
+          DATA             "SewersDestructibles"
+     }
+
+     TEMPLATE "Sewers-DC-M-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Sewer"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Sewers"
+          DATA             "loadScreen_desc_DM_Sewers"
+          DATA             "Sewers"
+          DATA             "SewerTransitions"
+          DATA             "SewersTreasures"
+          DATA             "SewersDestructibles"
+     }
+
+     TEMPLATE "Sewers-DC-M-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Sewer"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Sewers"
+          DATA             "loadScreen_desc_DM_Sewers"
+          DATA             "Sewers"
+          DATA             "SewerTransitions"
+          DATA             "SewersTreasures"
+          DATA             "SewersDestructibles"
+     }
+
+     TEMPLATE "Sewers-DC-L-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "Sewer"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Sewers"
+          DATA             "loadScreen_desc_DM_Sewers"
+          DATA             "Sewers"
+          DATA             "SewerTransitions"
+          DATA             "SewersTreasures"
+          DATA             "SewersDestructibles"
+     }
+
+     TEMPLATE "Sewers-DC-L-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "Sewer"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Sewers"
+          DATA             "loadScreen_desc_DM_Sewers"
+          DATA             "Sewers"
+          DATA             "SewerTransitions"
+          DATA             "SewersTreasures"
+          DATA             "SewersDestructibles"
+     }
+
+     TEMPLATE "Sewers-DC-L-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "Sewer"
+          DATA             ""
+          DATA             "loadScreen_title_DM_Sewers"
+          DATA             "loadScreen_desc_DM_Sewers"
+          DATA             "Sewers"
+          DATA             "SewerTransitions"
+          DATA             "SewersTreasures"
+          DATA             "SewersDestructibles"
+     }
+
+     TEMPLATE "SpiderCastle-DC-S-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "SpiderCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_SpiderKeep"
+          DATA             "loadScreen_desc_DM_SpiderKeep"
+          DATA             "SpiderKeep"
+          DATA             "SpiderCastleTransitions"
+          DATA             "SpiderCastleTreasures"
+          DATA             "SpiderCastleDestructibles"
+     }
+
+     TEMPLATE "SpiderCastle-DC-S-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "SpiderCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_SpiderKeep"
+          DATA             "loadScreen_desc_DM_SpiderKeep"
+          DATA             "SpiderKeep"
+          DATA             "SpiderCastleTransitions"
+          DATA             "SpiderCastleTreasures"
+          DATA             "SpiderCastleDestructibles"
+     }
+
+     TEMPLATE "SpiderCastle-DC-S-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "SpiderCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_SpiderKeep"
+          DATA             "loadScreen_desc_DM_SpiderKeep"
+          DATA             "SpiderKeep"
+          DATA             "SpiderCastleTransitions"
+          DATA             "SpiderCastleTreasures"
+          DATA             "SpiderCastleDestructibles"
+     }
+
+     TEMPLATE "SpiderCastle-DC-M-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "SpiderCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_SpiderKeep"
+          DATA             "loadScreen_desc_DM_SpiderKeep"
+          DATA             "SpiderKeep"
+          DATA             "SpiderCastleTransitions"
+          DATA             "SpiderCastleTreasures"
+          DATA             "SpiderCastleDestructibles"
+     }
+
+     TEMPLATE "SpiderCastle-DC-M-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "SpiderCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_SpiderKeep"
+          DATA             "loadScreen_desc_DM_SpiderKeep"
+          DATA             "SpiderKeep"
+          DATA             "SpiderCastleTransitions"
+          DATA             "SpiderCastleTreasures"
+          DATA             "SpiderCastleDestructibles"
+     }
+
+     TEMPLATE "SpiderCastle-DC-M-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "SpiderCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_SpiderKeep"
+          DATA             "loadScreen_desc_DM_SpiderKeep"
+          DATA             "SpiderKeep"
+          DATA             "SpiderCastleTransitions"
+          DATA             "SpiderCastleTreasures"
+          DATA             "SpiderCastleDestructibles"
+     }
+
+     TEMPLATE "SpiderCastle-DC-L-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "SpiderCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_SpiderKeep"
+          DATA             "loadScreen_desc_DM_SpiderKeep"
+          DATA             "SpiderKeep"
+          DATA             "SpiderCastleTransitions"
+          DATA             "SpiderCastleTreasures"
+          DATA             "SpiderCastleDestructibles"
+     }
+
+     TEMPLATE "SpiderCastle-DC-L-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "SpiderCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_SpiderKeep"
+          DATA             "loadScreen_desc_DM_SpiderKeep"
+          DATA             "SpiderKeep"
+          DATA             "SpiderCastleTransitions"
+          DATA             "SpiderCastleTreasures"
+          DATA             "SpiderCastleDestructibles"
+     }
+
+     TEMPLATE "SpiderCastle-DC-L-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "SpiderCastle"
+          DATA             ""
+          DATA             "loadScreen_title_DM_SpiderKeep"
+          DATA             "loadScreen_desc_DM_SpiderKeep"
+          DATA             "SpiderKeep"
+          DATA             "SpiderCastleTransitions"
+          DATA             "SpiderCastleTreasures"
+          DATA             "SpiderCastleDestructibles"
+     }
+
+     TEMPLATE "LostMines-DC-S-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "LostMines"
+          DATA             ""
+          DATA             "loadScreen_title_DM_LostMines"
+          DATA             "loadScreen_desc_DM_LostMines"
+          DATA             "LostMines"
+          DATA             "LostMinesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "LostMines-DC-S-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "LostMines"
+          DATA             ""
+          DATA             "loadScreen_title_DM_LostMines"
+          DATA             "loadScreen_desc_DM_LostMines"
+          DATA             "LostMines"
+          DATA             "LostMinesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "LostMines-DC-S-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "LostMines"
+          DATA             ""
+          DATA             "loadScreen_title_DM_LostMines"
+          DATA             "loadScreen_desc_DM_LostMines"
+          DATA             "LostMines"
+          DATA             "LostMinesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "LostMines-DC-M-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "LostMines"
+          DATA             ""
+          DATA             "loadScreen_title_DM_LostMines"
+          DATA             "loadScreen_desc_DM_LostMines"
+          DATA             "LostMines"
+          DATA             "LostMinesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "LostMines-DC-M-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "LostMines"
+          DATA             ""
+          DATA             "loadScreen_title_DM_LostMines"
+          DATA             "loadScreen_desc_DM_LostMines"
+          DATA             "LostMines"
+          DATA             "LostMinesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "LostMines-DC-M-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "LostMines"
+          DATA             ""
+          DATA             "loadScreen_title_DM_LostMines"
+          DATA             "loadScreen_desc_DM_LostMines"
+          DATA             "LostMines"
+          DATA             "LostMinesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "LostMines-DC-L-Simple"
+     {
+          DESCRIPTION      ""
+          DATA             "LostMines"
+          DATA             ""
+          DATA             "loadScreen_title_DM_LostMines"
+          DATA             "loadScreen_desc_DM_LostMines"
+          DATA             "LostMines"
+          DATA             "LostMinesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "LostMines-DC-L-Moderate"
+     {
+          DESCRIPTION      ""
+          DATA             "LostMines"
+          DATA             ""
+          DATA             "loadScreen_title_DM_LostMines"
+          DATA             "loadScreen_desc_DM_LostMines"
+          DATA             "LostMines"
+          DATA             "LostMinesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+     TEMPLATE "LostMines-DC-L-Complex"
+     {
+          DESCRIPTION      ""
+          DATA             "LostMines"
+          DATA             ""
+          DATA             "loadScreen_title_DM_LostMines"
+          DATA             "loadScreen_desc_DM_LostMines"
+          DATA             "LostMines"
+          DATA             "LostMinesTransitions"
+          DATA             "BanditCaveTreasures"
+          DATA             "BanditCaveDestructibles"
+     }
+
+}
+
+GROUP "RT_DMActionableSimple"
+{
+     FORMAT
+     {
+          HASH             "Type"
+          HASH             "Name"
+          HASH             "Description"
+          RESOURCE         ""    "Icon"
+          RESOURCE         ""    "PrefabPath"
+          RESOURCE         ""    "DM_Mode_Model"
+          NUMBER           "PlacementRadius"
+          INTEGER          "ThreatCost"
+          STRING           "Tag"
+          INTEGER          "CanTrap"
+          INTEGER          "CanHide"
+          INTEGER          "IsTreasure"
+     }
+
+     TEMPLATE "DMA_Chicken"
+     {
+     }
+
+     TEMPLATE "DMA_Fish"
+     {
+     }
+
+     TEMPLATE "DMA_HorseBrown"
+     {
+     }
+
+     TEMPLATE "DMA_HorseWhite"
+     {
+     }
+
+     TEMPLATE "DMA_PigSleep"
+     {
+     }
+
+     TEMPLATE "DMA_Rabbit"
+     {
+     }
+
+     TEMPLATE "DMA_Rat"
+     {
+     }
+
+     TEMPLATE "DMA_FenceCorall"
+     {
+     }
+
+     TEMPLATE "DMA_FenceIron"
+     {
+     }
+
+     TEMPLATE "DMA_FenceWood"
+     {
+     }
+
+     TEMPLATE "DMA_FenceBandit"
+     {
+     }
+
+     TEMPLATE "DMA_FenceStone"
+     {
+     }
+
+     TEMPLATE "DMA_FenceMetal"
+     {
+     }
+
+     TEMPLATE "DMA_CastleStatue"
+     {
+     }
+
+     TEMPLATE "DMA_StatueMaiden"
+     {
+     }
+
+     TEMPLATE "DMA_JobBoard"
+     {
+     }
+
+     TEMPLATE "DMA_StreetSign"
+     {
+     }
+
+     TEMPLATE "DMA_Well"
+     {
+     }
+
+     TEMPLATE "DMA_Trash"
+     {
+     }
+
+     TEMPLATE "DMA_BarrelGrain"
+     {
+     }
+
+     TEMPLATE "DMA_BarrelWood_S"
+     {
+     }
+
+     TEMPLATE "DMA_Baskets"
+     {
+     }
+
+     TEMPLATE "DMA_Crate_S"
+     {
+     }
+
+     TEMPLATE "DMA_Crate_L"
+     {
+     }
+
+     TEMPLATE "DMA_CrateStack"
+     {
+     }
+
+     TEMPLATE "DMA_SackFlour"
+     {
+     }
+
+     TEMPLATE "DMA_Sacks1"
+     {
+     }
+
+     TEMPLATE "DMA_Sacks2"
+     {
+     }
+
+     TEMPLATE "DMA_Sacks3"
+     {
+     }
+
+     TEMPLATE "DMA_WineCask_Side"
+     {
+     }
+
+     TEMPLATE "DMA_WineCask_Upright"
+     {
+     }
+
+     TEMPLATE "DMA_BanditCrates"
+     {
+     }
+
+     TEMPLATE "DMA_Blood0"
+     {
+     }
+
+     TEMPLATE "DMA_Blood2"
+     {
+     }
+
+     TEMPLATE "DMA_Blood3"
+     {
+     }
+
+     TEMPLATE "DMA_Blood4"
+     {
+     }
+
+     TEMPLATE "DMA_Blood6"
+     {
+     }
+
+     TEMPLATE "DMA_Blood1"
+     {
+     }
+
+     TEMPLATE "DMA_Blood5"
+     {
+     }
+
+     TEMPLATE "DMA_Blood7"
+     {
+     }
+
+     TEMPLATE "DMA_Cage"
+     {
+     }
+
+     TEMPLATE "DMA_SmallCageEmpty"
+     {
+     }
+
+     TEMPLATE "DMA_SmallCageGlowing"
+     {
+     }
+
+     TEMPLATE "DMA_Cage_S"
+     {
+     }
+
+     TEMPLATE "DMA_CircleOfBones"
+     {
+     }
+
+     TEMPLATE "DMA_CorpseFresh"
+     {
+     }
+
+     TEMPLATE "DMA_CorpseFresh_HF"
+     {
+     }
+
+     TEMPLATE "DMA_Headstone_S"
+     {
+     }
+
+     TEMPLATE "DMA_Headstone_L"
+     {
+     }
+
+     TEMPLATE "DMA_Skeleton_A"
+     {
+     }
+
+     TEMPLATE "DMA_Skeleton_B"
+     {
+     }
+
+     TEMPLATE "DMA_BloodySkeleton_A"
+     {
+     }
+
+     TEMPLATE "DMA_BloodySkeleton_B"
+     {
+     }
+
+     TEMPLATE "DMA_TortureDevice2"
+     {
+     }
+
+     TEMPLATE "DMA_TortureDevice1"
+     {
+     }
+
+     TEMPLATE "DMA_HorseDead"
+     {
+     }
+
+     TEMPLATE "DMA_SpiderCorpse"
+     {
+     }
+
+     TEMPLATE "DMA_BonePile_S"
+     {
+     }
+
+     TEMPLATE "DMA_BonePile_M"
+     {
+     }
+
+     TEMPLATE "DMA_BonePile_L"
+     {
+     }
+
+     TEMPLATE "DMA_RugAnimal"
+     {
+     }
+
+     TEMPLATE "DMA_Books"
+     {
+     }
+
+     TEMPLATE "DMA_Books_Open"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_S1"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_S2"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_S3"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_L1"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_L2"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_L3"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_RndSml_Blu"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_RndSml_Grn"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_RndSml_Red"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_RndLrg_Blu"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_RndLrg_Grn"
+     {
+     }
+
+     TEMPLATE "DMA_Rug_RndLrg_Red"
+     {
+     }
+
+     TEMPLATE "DMA_BanditTotem"
+     {
+     }
+
+     TEMPLATE "DMA_Statue_Stone"
+     {
+     }
+
+     TEMPLATE "DMA_SuitOfArmor1"
+     {
+     }
+
+     TEMPLATE "DMA_SuitOfArmor2"
+     {
+     }
+
+     TEMPLATE "DMA_SuitOfArmor3"
+     {
+     }
+
+     TEMPLATE "DMA_FighterStatue"
+     {
+     }
+
+     TEMPLATE "DMA_RogueStatue"
+     {
+     }
+
+     TEMPLATE "DMA_WizardStatue"
+     {
+     }
+
+     TEMPLATE "DMA_SewerDeco_01"
+     {
+     }
+
+     TEMPLATE "DMA_SewerDeco_02"
+     {
+     }
+
+     TEMPLATE "DMA_Crystals_S"
+     {
+     }
+
+     TEMPLATE "DMA_Crystals_M"
+     {
+     }
+
+     TEMPLATE "DMA_Crystals_L"
+     {
+     }
+
+     TEMPLATE "DMA_LolthIdol"
+     {
+     }
+
+     TEMPLATE "DMA_StatueLolth"
+     {
+     }
+
+     TEMPLATE "DMA_StoneAltar"
+     {
+     }
+
+     TEMPLATE "DMA_DrowTorturePillar"
+     {
+     }
+
+     TEMPLATE "DMA_CartSmallStone"
+     {
+     }
+
+     TEMPLATE "DMA_CartMine"
+     {
+     }
+
+     TEMPLATE "DMA_CartParts"
+     {
+     }
+
+     TEMPLATE "DMA_DuergarHammer"
+     {
+     }
+
+     TEMPLATE "DMA_LogHollow"
+     {
+     }
+
+     TEMPLATE "DMA_MushroomCluster_Grey"
+     {
+     }
+
+     TEMPLATE "DMA_RockPile_S"
+     {
+     }
+
+     TEMPLATE "DMA_Sleepingbag"
+     {
+     }
+
+     TEMPLATE "DMA_MushroomCluster"
+     {
+     }
+
+     TEMPLATE "DMA_MushroomCluster_Pink"
+     {
+     }
+
+     TEMPLATE "DMA_SmallTentA"
+     {
+     }
+
+     TEMPLATE "DMA_SmallTentB"
+     {
+     }
+
+     TEMPLATE "DMA_SmallTentC"
+     {
+     }
+
+     TEMPLATE "DMA_TentTriangle"
+     {
+     }
+
+     TEMPLATE "DMA_BearTrap"
+     {
+     }
+
+     TEMPLATE "DMA_SpiderEggSack"
+     {
+     }
+
+     TEMPLATE "DMA_ArmoirWood"
+     {
+     }
+
+     TEMPLATE "DMA_Bed_Blue"
+     {
+     }
+
+     TEMPLATE "DMA_Bed_Peasant"
+     {
+     }
+
+     TEMPLATE "DMA_BedWood"
+     {
+     }
+
+     TEMPLATE "DMA_BedWood_Covered"
+     {
+     }
+
+     TEMPLATE "DMA_Bookshelf"
+     {
+     }
+
+     TEMPLATE "DMA_Bookshelf_Tall"
+     {
+     }
+
+     TEMPLATE "DMA_Bookshelf_Large"
+     {
+     }
+
+     TEMPLATE "DMA_BrokenChair"
+     {
+     }
+
+     TEMPLATE "DMA_ChairWood"
+     {
+     }
+
+     TEMPLATE "DMA_DresserWood"
+     {
+     }
+
+     TEMPLATE "DMA_ShelfWood_S"
+     {
+     }
+
+     TEMPLATE "DMA_StoolWood"
+     {
+     }
+
+     TEMPLATE "DMA_CardTable"
+     {
+     }
+
+     TEMPLATE "DMA_DinnerTable_Wood"
+     {
+     }
+
+     TEMPLATE "DMA_ResearchTable"
+     {
+     }
+
+     TEMPLATE "DMA_SmallBookTable"
+     {
+     }
+
+     TEMPLATE "DMA_TableAlchemy"
+     {
+     }
+
+     TEMPLATE "DMA_TableFish"
+     {
+     }
+
+     TEMPLATE "DMA_TableWood"
+     {
+     }
+
+     TEMPLATE "DMA_TableWoodRound"
+     {
+     }
+
+     TEMPLATE "DMA_WineRack"
+     {
+     }
+
+     TEMPLATE "DMA_BanditTortureTable"
+     {
+     }
+
+     TEMPLATE "DMA_Bench_Ornate"
+     {
+     }
+
+     TEMPLATE "DMA_ChairNoble"
+     {
+     }
+
+     TEMPLATE "DMA_CouchNoble"
+     {
+     }
+
+     TEMPLATE "DMA_TableCovered"
+     {
+     }
+
+     TEMPLATE "DMA_DrowChair"
+     {
+     }
+
+     TEMPLATE "DMA_StoneBed"
+     {
+     }
+
+     TEMPLATE "DMA_ChairStone"
+     {
+     }
+
+     TEMPLATE "DMA_CouchStone"
+     {
+     }
+
+     TEMPLATE "DMA_TableStone"
+     {
+     }
+
+     TEMPLATE "DMA_SewerTable"
+     {
+     }
+
+     TEMPLATE "DMA_AlchemistTable_Stone"
+     {
+     }
+
+     TEMPLATE "DMA_Brazier_Lit"
+     {
+     }
+
+     TEMPLATE "DMA_Brazier_Magic"
+     {
+     }
+
+     TEMPLATE "DMA_Brazier_Unlit"
+     {
+     }
+
+     TEMPLATE "DMA_OccultCandles"
+     {
+     }
+
+     TEMPLATE "DMA_Fireplace"
+     {
+     }
+
+     TEMPLATE "DMA_FireplaceDark"
+     {
+     }
+
+     TEMPLATE "DMA_LampTall"
+     {
+     }
+
+     TEMPLATE "DMA_FloatingMagicTorch_Green"
+     {
+     }
+
+     TEMPLATE "DMA_FloatingMagicTorch_Purple"
+     {
+     }
+
+     TEMPLATE "DMA_TorchWood"
+     {
+     }
+
+     TEMPLATE "DMA_BanditHangingLantern"
+     {
+     }
+
+     TEMPLATE "DMA_BanditTorch"
+     {
+     }
+
+     TEMPLATE "DMA_BanditTorchS"
+     {
+     }
+
+     TEMPLATE "DMA_LampStreet"
+     {
+     }
+
+     TEMPLATE "DMA_CairnLight"
+     {
+     }
+
+     TEMPLATE "DMA_DrowStatueLight"
+     {
+     }
+
+     TEMPLATE "DMA_TorchStone"
+     {
+     }
+
+     TEMPLATE "DMA_CampfireActive"
+     {
+     }
+
+     TEMPLATE "DMA_CampfireScattered"
+     {
+     }
+
+     TEMPLATE "DMA_BoxCart"
+     {
+     }
+
+     TEMPLATE "DMA_BoxCart_Destroyed"
+     {
+     }
+
+     TEMPLATE "DMA_MineCart"
+     {
+     }
+
+     TEMPLATE "DMA_MineCart_Destroyed"
+     {
+     }
+
+     TEMPLATE "DMA_BlueCrystals"
+     {
+     }
+
+     TEMPLATE "DMA_LOS_Lantern"
+     {
+     }
+
+     TEMPLATE "DMA_MineMachine_A"
+     {
+     }
+
+     TEMPLATE "DMA_MineMachine_B"
+     {
+     }
+
+     TEMPLATE "DMA_MineMachine_C"
+     {
+     }
+
+     TEMPLATE "DMA_MineMachine_D"
+     {
+     }
+
+     TEMPLATE "DMA_MineMachine_F"
+     {
+     }
+
+     TEMPLATE "DMA_MineMachine_G"
+     {
+     }
+
+     TEMPLATE "DMA_MineShelf_A"
+     {
+     }
+
+     TEMPLATE "DMA_MineShelf_B"
+     {
+     }
+
+     TEMPLATE "DMA_MineTable"
+     {
+     }
+
+     TEMPLATE "DMA_MineTrack_Bend"
+     {
+     }
+
+     TEMPLATE "DMA_MineTrack_Bend_Long"
+     {
+     }
+
+     TEMPLATE "DMA_MineTrack_Bend_Sharp"
+     {
+     }
+
+     TEMPLATE "DMA_MineTrack_Long"
+     {
+     }
+
+     TEMPLATE "DMA_MineTrack_Short"
+     {
+     }
+
+     TEMPLATE "DMA_Anvil"
+     {
+     }
+
+     TEMPLATE "DMA_Barrels1"
+     {
+     }
+
+     TEMPLATE "DMA_Barrels2"
+     {
+     }
+
+     TEMPLATE "DMA_Bottles"
+     {
+     }
+
+     TEMPLATE "DMA_CartSmall"
+     {
+     }
+
+     TEMPLATE "DMA_CombatDummy"
+     {
+     }
+
+     TEMPLATE "DMA_Grindstone"
+     {
+     }
+
+     TEMPLATE "DMA_Pottery1"
+     {
+     }
+
+     TEMPLATE "DMA_Pottery2"
+     {
+     }
+
+     TEMPLATE "DMA_Pottery3"
+     {
+     }
+
+     TEMPLATE "DMA_RackFish"
+     {
+     }
+
+     TEMPLATE "DMA_RackRat"
+     {
+     }
+
+     TEMPLATE "DMA_RackTanning"
+     {
+     }
+
+     TEMPLATE "DMA_RackPig"
+     {
+     }
+
+     TEMPLATE "DMA_AlchemistShelf"
+     {
+     }
+
+     TEMPLATE "DMA_AlchemistShelf_L"
+     {
+     }
+
+     TEMPLATE "DMA_VendorStall1"
+     {
+     }
+
+     TEMPLATE "DMA_VendorStall2"
+     {
+     }
+
+     TEMPLATE "DMA_ArcheryTarget"
+     {
+     }
+
+     TEMPLATE "DMA_Wagon"
+     {
+     }
+
+     TEMPLATE "DMA_WeaponRack"
+     {
+     }
+
+     TEMPLATE "DMA_WagonWheel"
+     {
+     }
+
+     TEMPLATE "DMA_CoalBucket"
+     {
+     }
+
+     TEMPLATE "DMA_CocoonLay"
+     {
+     }
+
+     TEMPLATE "DMA_CocoonSit"
+     {
+     }
+
+     TEMPLATE "DMA_Spiderweb"
+     {
+     }
+
+     TEMPLATE "DMA_TChestBone"
+     {
+     }
+
+     TEMPLATE "DMA_TChestWood"
+     {
+     }
+
+     TEMPLATE "DMA_TChest"
+     {
+     }
+
+     TEMPLATE "DMA_TChestStone"
+     {
+     }
+
+     TEMPLATE "DMA_TChestMoldy"
+     {
+     }
+
+     TEMPLATE "DMA_WolfCorpse"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Pumpkin_01"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Pumpkin_01Rotten"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Pumpkin_02"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Pumpkin_03"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Pumpkin_04"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Pumpkin_Jacko"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_PumpkinGroup01"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_PumpkinGroup02"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Gate_Closed"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Gate_Open"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Gate_Small"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Ground_Bricks"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Iron_Fence_Large"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Iron_Fence_Med"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Iron_Fence_Small"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Post"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Stone_Pillar"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Stone_Pillar_Candle"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Stone_Pillar_Lamp_A"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Stone_Pillar_Lamp_B"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Tree_A"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Wall_Stone_Long_A"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Wall_Stone_Long_B"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Wall_Stone_Med_A"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Wall_Stone_Med_B"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Wall_Stone_Small_A"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Grave_A"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Grave_B"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Grave_C"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Grave_D"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Grave_E"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Ground_Stones"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Cem_Ground_Stones_B"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Mausoleum_01"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_Scarecrow"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_HayBundles"
+     {
+     }
+
+     TEMPLATE "DMA_HLWN_CornStalks"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_A_Brown"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_B_Brown"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_Cluster_Brown"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Brown_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Brown_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Brown_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Brown_Small"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_Burnt_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_Burnt_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_Burnt_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_Bare_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_Cork_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Dead"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_Curved_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_Curved_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_Curved_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_Curved_D"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_Curved_E"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Dandelion"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Small"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Field"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Field_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Green_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Green_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Green_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_A_Green"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_B_Green"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_C_Green"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_D_Green"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Ground_Orange"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Ground_Purple"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Ground_White"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Ground_Yellow"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_Leafy_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_Log_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_Log_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Root_A_Moss"
+     {
+     }
+
+     TEMPLATE "DMA2_Root_B_Moss"
+     {
+     }
+
+     TEMPLATE "DMA2_Root_C_Moss"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Blue_Single"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Green_Single"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Orange_Single"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Purple_Single"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Red_Single"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Turquoise_Single"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_White_Single"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Yellow_Single"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Orange_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_White_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Orange_Cluster_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_White_Cluster_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Blue_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Green_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Purple_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Red_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Turquoise_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Mushroom_Yellow_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_Old_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_Old_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Orange_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Orange_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Orange_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Pine_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Pine_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Pine_Small"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_LurkPine_Cluster_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_LurkPine_Cluster_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Red_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Red_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Red_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_A_Red"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_B_Red"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_C_Red"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_D_Red"
+     {
+     }
+
+     TEMPLATE "DMA2_Root_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Root_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Root_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_Snow_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_Snow_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_Snow_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_Snow_D"
+     {
+     }
+
+     TEMPLATE "DMA2_Bush_Cluster_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Snow_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Snow_Small"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Snow_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Snow_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Fir_Snow_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_Tower_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_Tower_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_M"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_L"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_S"
+     {
+     }
+
+     TEMPLATE "DMA2_Wall_Stone_Pillar"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Stump_D"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_LurkPine_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_LurkPine_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_LurkPine_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Tall_Blue"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Tall_Red"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Tall_White"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Thistle_Yellow"
+     {
+     }
+
+     TEMPLATE "DMA2_Flower_Thistle_Yellow_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Yellow_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Yellow_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Cork_Yellow_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_A_Yellow"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_B_Yellow"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_C_Yellow"
+     {
+     }
+
+     TEMPLATE "DMA2_Tree_Gnarled_D_Yellow"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Med_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Cluster_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Cluster_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Island_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Med_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Highland_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Highland_Island_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Highland_D"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Highland_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Highland_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Highland_Cluster_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Highland_Cluster_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Highland_Cluster_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Highland_Island_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_B_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_C_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Med_A_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_A_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Cluster_A_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Cluster_B_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Island_A_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Rock_Med_B_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Tulips_Blue"
+     {
+     }
+
+     TEMPLATE "DMA2_Tulips_Green"
+     {
+     }
+
+     TEMPLATE "DMA2_Tulips_Orange"
+     {
+     }
+
+     TEMPLATE "DMA2_Tulips_Pink"
+     {
+     }
+
+     TEMPLATE "DMA2_Tulips_Purple"
+     {
+     }
+
+     TEMPLATE "DMA2_Tulips_Red"
+     {
+     }
+
+     TEMPLATE "DMA2_Tulips_White"
+     {
+     }
+
+     TEMPLATE "DMA2_Tulips_Yellow"
+     {
+     }
+
+     TEMPLATE "DMA2_Fern_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Fern_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Fern_C"
+     {
+     }
+
+     TEMPLATE "DMA2_Fern_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Grass"
+     {
+     }
+
+     TEMPLATE "DMA2_Grass_Dry"
+     {
+     }
+
+     TEMPLATE "DMA2_Grass_Mound_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Grass_Mound_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Grass_Mound_Single"
+     {
+     }
+
+     TEMPLATE "DMA2_Grass_Snow"
+     {
+     }
+
+     TEMPLATE "DMA2_Grass_Tall"
+     {
+     }
+
+     TEMPLATE "DMA2_Grass_Tall_Cluster"
+     {
+     }
+
+     TEMPLATE "DMA2_Ground_Plant_Brown"
+     {
+     }
+
+     TEMPLATE "DMA2_Ground_Plant_Leafy"
+     {
+     }
+
+     TEMPLATE "DMA2_Skinny_Tree_A"
+     {
+     }
+
+     TEMPLATE "DMA2_Skinny_Tree_A_Green"
+     {
+     }
+
+     TEMPLATE "DMA2_Skinny_Tree_A_Yellow"
+     {
+     }
+
+     TEMPLATE "DMA2_Skinny_Tree_B"
+     {
+     }
+
+     TEMPLATE "DMA2_Skinny_Tree_B_Green"
+     {
+     }
+
+     TEMPLATE "DMA2_Skinny_Tree_B_Yellow"
+     {
+     }
+
+}
+
+GROUP "RT_DMLevelXP"
+{
+     FORMAT
+     {
+          INTEGER          "XPToNextLevel"
+     }
+
+     TEMPLATE "Level1"
+     {
+          DESCRIPTION      ""
+          DATA             "250"
+     }
+
+     TEMPLATE "Level2"
+     {
+          DESCRIPTION      ""
+          DATA             "1110"
+     }
+
+     TEMPLATE "Level3"
+     {
+          DESCRIPTION      ""
+          DATA             "2800"
+     }
+
+     TEMPLATE "Level4"
+     {
+          DESCRIPTION      ""
+          DATA             "5650"
+     }
+
+     TEMPLATE "Level5"
+     {
+          DESCRIPTION      ""
+          DATA             "10150"
+     }
+
+     TEMPLATE "Level6"
+     {
+          DESCRIPTION      ""
+          DATA             "16850"
+     }
+
+     TEMPLATE "Level7"
+     {
+          DESCRIPTION      ""
+          DATA             "26500"
+     }
+
+     TEMPLATE "Level8"
+     {
+          DESCRIPTION      ""
+          DATA             "40500"
+     }
+
+     TEMPLATE "Level9"
+     {
+          DESCRIPTION      ""
+          DATA             "60750"
+     }
+
+     TEMPLATE "Level10"
+     {
+          DESCRIPTION      ""
+          DATA             "88700"
+     }
+
+     TEMPLATE "Level11"
+     {
+          DESCRIPTION      ""
+          DATA             "127500"
+     }
+
+     TEMPLATE "Level12"
+     {
+          DESCRIPTION      ""
+          DATA             "181000"
+     }
+
+     TEMPLATE "Level13"
+     {
+          DESCRIPTION      ""
+          DATA             "254000"
+     }
+
+     TEMPLATE "Level14"
+     {
+          DESCRIPTION      ""
+          DATA             "355000"
+     }
+
+     TEMPLATE "Level15"
+     {
+          DESCRIPTION      ""
+          DATA             "490000"
+     }
+
+     TEMPLATE "Level16"
+     {
+          DESCRIPTION      ""
+          DATA             "675500"
+     }
+
+     TEMPLATE "Level17"
+     {
+          DESCRIPTION      ""
+          DATA             "925000"
+     }
+
+     TEMPLATE "Level18"
+     {
+          DESCRIPTION      ""
+          DATA             "1262000"
+     }
+
+     TEMPLATE "Level19"
+     {
+          DESCRIPTION      ""
+          DATA             "1720000"
+     }
+
+     TEMPLATE "Level20"
+     {
+          DESCRIPTION      ""
+          DATA             ""
+     }
+
+}
+
+GROUP "RT_DMAbilities"
+{
+     FORMAT
+     {
+          INTEGER          "UnlockedAtLevel"
+          STRING           "AbilityName"
+          STRING           "AbilityDescription"
+          RESOURCE         ""    "AbilityIcon"
+     }
+
+     TEMPLATE "DM_Control_MoveCreature"
+     {
+          DESCRIPTION      "Can select and move creatures"
+          DATA             "1"
+          DATA             "Name_Control_MoveCreature"
+          DATA             "Desc_Control_MoveCreature"
+          DATA             "icon_ability_fireball"
+     }
+
+     TEMPLATE "DM_Control_SpawnCreature"
+     {
+          DESCRIPTION      "Can spawn creatures"
+          DATA             "1"
+          DATA             "Name_Control_SpawnCreature"
+          DATA             "Desc_Control_SpawnCreature"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Control_SpawnTrap"
+     {
+          DESCRIPTION      "Can spawn traps"
+          DATA             "1"
+          DATA             "Name_Control_SpawnTrap"
+          DATA             "Desc_Control_SpawnTrap"
+          DATA             "icon_ability_fireBolt"
+     }
+
+     TEMPLATE "DM_Control_SwapEncounter"
+     {
+          DESCRIPTION      "Can choose encounters from the encounter dice"
+          DATA             "1"
+          DATA             "Name_Control_SwapEncounter"
+          DATA             "Desc_Control_SwapEncounter"
+          DATA             "icon_ability_goForTheEyes"
+     }
+
+     TEMPLATE "DM_Influence_AlterDoorBasic"
+     {
+          DESCRIPTION      "Can alter dungeon doorways (Door, Archway)"
+          DATA             "1"
+          DATA             "Name_Influence_AlterDoorBasic"
+          DATA             "Desc_Influence_AlterDoorBasic"
+          DATA             "icon_ability_persuasion"
+     }
+
+     TEMPLATE "DM_Influence_CreateDungeon"
+     {
+          DESCRIPTION      "Can create single floor dungeons"
+          DATA             "1"
+          DATA             "Name_Influence_CreateDungeon"
+          DATA             "Desc_Influence_CreateDungeon"
+          DATA             "icon_ability_magicWeapon"
+     }
+
+     TEMPLATE "DM_Influence_CreateLocation"
+     {
+          DESCRIPTION      "Can create surface zones"
+          DATA             "1"
+          DATA             "Name_Influence_CreateLocation"
+          DATA             "Desc_Influence_CreateLocation"
+          DATA             "icon_ability_divineGrace"
+     }
+
+     TEMPLATE "DM_Influence_CreateQuest"
+     {
+          DESCRIPTION      "Can create quests with madlib dialog"
+          DATA             "1"
+          DATA             "Name_Influence_CreateQuest"
+          DATA             "Desc_Influence_CreateQuest"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Control_CustomizeEncounter"
+     {
+          DESCRIPTION      "Can move pewters of chosen encounters"
+          DATA             "2"
+          DATA             "Name_Control_CustomizeEncounter"
+          DATA             "Desc_Control_CustomizeEncounter"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_AlterDoorLocked"
+     {
+          DESCRIPTION      "Adds Locked Door to the alter doorways options"
+          DATA             "2"
+          DATA             "Name_Influence_AlterDoorLocked"
+          DATA             "Desc_Influence_AlterDoorLocked"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_AlterDoorsSecret"
+     {
+          DESCRIPTION      "Adds Secret Door to the alter doorways options"
+          DATA             "3"
+          DATA             "Name_Influence_AlterDoorsSecret"
+          DATA             "Desc_Influence_AlterDoorsSecret"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_MultiFloorDungeon"
+     {
+          DESCRIPTION      "Can create multi-floor dungeons"
+          DATA             "3"
+          DATA             "Name_Influence_MultiFloorDungeon"
+          DATA             "Desc_Influence_MultiFloorDungeon"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Control_PromoteCreature"
+     {
+          DESCRIPTION      "Can Promote/Demote creatures"
+          DATA             "4"
+          DATA             "Name_Control_PromoteCreature"
+          DATA             "Desc_Control_PromoteCreature"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_PlaceObject"
+     {
+          DESCRIPTION      "Can Place Objects"
+          DATA             "4"
+          DATA             "Name_Influence_PlaceObject"
+          DATA             "Desc_Influence_PlaceObject"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Control_UnsummonCreature"
+     {
+          DESCRIPTION      "Can Unsummon creatures for threat"
+          DATA             "5"
+          DATA             "Name_Control_UnsummonCreature"
+          DATA             "Desc_Control_UnsummonCreature"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_DualMonsterSets"
+     {
+          DESCRIPTION      "Can now use 2 monster sets in dungeons"
+          DATA             "6"
+          DATA             "Name_Influence_DualMonsterSets"
+          DATA             "Desc_Influence_DualMonsterSets"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_SetPerFloor"
+     {
+          DESCRIPTION      "Can now set Monster Sets & Dungeon Tile Set per dungeon floor"
+          DATA             "7"
+          DATA             "Name_Influence_SetPerFloor"
+          DATA             "Desc_Influence_SetPerFloor"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Control_PossessCreature"
+     {
+          DESCRIPTION      "Can Possess creatures for threat"
+          DATA             "8"
+          DATA             "Name_Control_PossessCreature"
+          DATA             "Desc_Control_PossessCreature"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_CreateCreature"
+     {
+          DESCRIPTION      "Can create custom creatures"
+          DATA             "9"
+          DATA             "Name_Influence_CreateCreature"
+          DATA             "Desc_Influence_CreateCreature"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_AlterMonsterSet1"
+     {
+          DESCRIPTION      "Can alter a monster set"
+          DATA             "10"
+          DATA             "Name_Influence_AlterMonsterSet1"
+          DATA             "Desc_Influence_AlterMonsterSet1"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_CustomQuestDialog"
+     {
+          DESCRIPTION      "Can create custom dialogs for quests"
+          DATA             "11"
+          DATA             "Name_Influence_CustomQuestDialog"
+          DATA             "Desc_Influence_CustomQuestDialog"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Influence_AlterMonsterSet2"
+     {
+          DESCRIPTION      "Can alter a second monster set"
+          DATA             "12"
+          DATA             "Name_Influence_AlterMonsterSet2"
+          DATA             "Desc_Influence_AlterMonsterSet2"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Threat_ReduceCreatureCost1"
+     {
+          DESCRIPTION      "Creature Spawn threat cost for 2% less"
+          DATA             "13"
+          DATA             "Name_Threat_ReduceCreatureCost1"
+          DATA             "Desc_Threat_ReduceCreatureCost1"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Threat_ReduceTrapCost1"
+     {
+          DESCRIPTION      "Trap Spawn threat cost at 2% less"
+          DATA             "14"
+          DATA             "Name_Threat_ReduceTrapCost1"
+          DATA             "Desc_Threat_ReduceTrapCost1"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Threat_ReduceControlCost1"
+     {
+          DESCRIPTION      "Controling threat costs at 2% less"
+          DATA             "15"
+          DATA             "Name_Threat_ReduceControlCost1"
+          DATA             "Desc_Threat_ReduceControlCost1"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Threat_IncreaseMaxThreat1"
+     {
+          DESCRIPTION      "Max Threat increased from 100 to 110"
+          DATA             "16"
+          DATA             "Name_Threat_IncreaseMaxThreat1"
+          DATA             "Desc_Threat_IncreaseMaxThreat1"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Threat_ReduceCreatureCost2"
+     {
+          DESCRIPTION      "Creature Spawn threat cost for 5% less"
+          DATA             "17"
+          DATA             "Name_Threat_ReduceCreatureCost2"
+          DATA             "Desc_Threat_ReduceCreatureCost2"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Threat_ReduceTrapCost2"
+     {
+          DESCRIPTION      "Trap Spawn threat cost at 5% less"
+          DATA             "18"
+          DATA             "Name_Threat_ReduceTrapCost2"
+          DATA             "Desc_Threat_ReduceTrapCost2"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Threat_ReduceControlCost2"
+     {
+          DESCRIPTION      "Controlling threat costs at 5% less"
+          DATA             "19"
+          DATA             "Name_Threat_ReduceControlCost2"
+          DATA             "Desc_Threat_ReduceControlCost2"
+          DATA             "icon_ability_explode"
+     }
+
+     TEMPLATE "DM_Threat_IncreaseMaxThreat2"
+     {
+          DESCRIPTION      "Max Threat increased from 110 to 120"
+          DATA             "20"
+          DATA             "Name_Threat_IncreaseMaxThreat2"
+          DATA             "Desc_Threat_IncreaseMaxThreat2"
+          DATA             "icon_ability_explode"
+     }
+
+}
+
+GROUP "RT_DMLimiting"
+{
+     FORMAT
+     {
+          HASH             "LimitType"
+     }
+
+     TEMPLATE "DC_Undead"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Mercenary"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Illithids"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Goblins"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Spiders"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Duergar"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Underdark"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Drow"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Cultists"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Sewers"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_GildedEye"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_Beasts"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DC_DeadRats"
+     {
+          DESCRIPTION      ""
+          DATA             "MonsterSet"
+     }
+
+     TEMPLATE "DM_Inn_WeaponVendor"
+     {
+          DESCRIPTION      ""
+          DATA             "Vendor"
+     }
+
+     TEMPLATE "DM_Inn_ArmorVendor"
+     {
+          DESCRIPTION      ""
+          DATA             "Vendor"
+     }
+
+     TEMPLATE "DM_Inn_PotionVendor"
+     {
+          DESCRIPTION      ""
+          DATA             "Vendor"
+     }
+
+     TEMPLATE "AS_Troll"
+     {
+          DESCRIPTION      "Trolls"
+          DATA             "AdditionalSet"
+     }
+
+     TEMPLATE "AS_Ogre"
+     {
+          DESCRIPTION      "Ogres"
+          DATA             "AdditionalSet"
+     }
+
+     TEMPLATE "DC_Devils"
+     {
+          DESCRIPTION      "Devils/Fiends"
+          DATA             "AdditionalSet"
+     }
+
+     TEMPLATE "DM_Bartender_Vendor"
+     {
+          DESCRIPTION      ""
+          DATA             "Vendor"
+     }
+
+}
+
+GROUP "RT_DMWisps"
+{
+     FORMAT
+     {
+          STRING           "Path"
+          STRING           "Name"
+          STRING           "Portrait"
+          NUMBER           "LightIntensity"
+          NUMBER           "LightRange"
+          INTEGER          "LightEnabled"
+          NUMBER           "R"
+          NUMBER           "G"
+          NUMBER           "B"
+          NUMBER           "A"
+     }
+
+     TEMPLATE "Default"
+     {
+     }
+
+     TEMPLATE "Red"
+     {
+     }
+
+     TEMPLATE "Purple"
+     {
+     }
+
+     TEMPLATE "None"
+     {
+     }
+
+}
+

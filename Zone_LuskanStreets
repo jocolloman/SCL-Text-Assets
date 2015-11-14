@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ZoneConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Settings InteriorLoadPath="Levels/Interiors/Zone_Luskan/"/>
+
+    <!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="BanditSet1" />
+	</CreatureSets>
+
+    <Interiors>
+         <Interior  Name="Luskan_GuildHall"/>    
+         <Interior  Name="Luskan_GuildHall_F1"/>
+         <Interior  Name="Luskan_GuildHall_B1"/>
+         <Interior  Name="Luskan_TheCutlassInn"/>
+		 <Interior  Name="Luskan_CrimeScene"/>
+         <Interior  Name="Luskan_Blacksmith"/>
+		 <Interior  Name="Luskan_AlchemistShop"/>
+		 <Interior  Name="Luskan_HerbalistShop"/>
+		 <Interior  Name="Luskan_CuriousShop"/>
+		 <Interior	Name="Luskan_DoctorOffice"/>
+		 <Interior	Name="Luskan_Library"/>
+         <Interior  Name="Luskan_CuriousUpstairs"/>
+		 <Interior  Name="Luskan_SafeHouse"/>
+		 <Interior  Name="Jarhild_CQ_Interior"/>
+         <Interior  Name="Bryn_CQ_Interior"/>
+         <Interior  Name="Luskan_CuriousCloset"/>
+
+
+         <!-- Fluff interiors, no major importance -->
+         <Interior  Name="Luskan_RandomHouse01"/>
+         <Interior  Name="Luskan_RandomHouse02"/>
+         <Interior  Name="Luskan_RandomHouse03"/>
+         <!--<Interior  Name="Luskan_RandomHouse04"/>-->
+		 <!-- spawning new transition here, as to limit changes to locations late in the project-->
+		 <Interior  Name="Luskan_BanditAmbush"/>
+         <Interior  Name="Luskan_RandomHouse05"/>
+         <Interior  Name="Luskan_BlacksmithUpstairs"/>
+		 
+
+		 
+
+    </Interiors>
+    
+</ZoneConfig>
+

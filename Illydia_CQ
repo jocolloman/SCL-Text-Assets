@@ -1,0 +1,741 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "Illydia_CQ": [
+            "Illydia_CQ_Illydia_CQ_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "QuestFlags": {
+                    "Illydia_CQ_Start": [
+                        "Illydia_CQ_Illydia_CQ_Illydia_CQ_Start_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Illydia_CQ_Start_JournalEntry", 
+                        "Illydia_CQ_Start_Reward", 
+                        [
+                            {
+                                "flag": "Illydia_CQ_U_HasJournal", 
+                                "quest": "Illydia_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        1, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_GetIllydiaPastInfo": [
+                        "Illydia_CQ_Illydia_CQ_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Illydia_CQ_Illydia_CQ_Flag 1_JournalEntry", 
+                        "Illydia_CQ_GetIllydiaPastInfo_Reward", 
+                        [
+                            {
+                                "flag": "Illydia_CQ_Start", 
+                                "quest": "Illydia_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "Illydia discovers info about her past in Tez's journal and informs the players of Cerric, her former friend", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "PartyCamp_Forest", 
+                        []
+                    ], 
+                    "Illydia_CQ_SpeakWithDalanir": [
+                        "Illydia_CQ_Illydia_CQ_Flag 3_0_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Illydia_CQ_Illydia_CQ_Flag 3_0_JournalEntry", 
+                        "Illydia_CQ_SpeakWithDalanir_Reward", 
+                        [
+                            {
+                                "flag": "Illydia_CQ_GetIllydiaPastInfo", 
+                                "quest": "Illydia_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "Dalanir tells players about Und'ok", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "PartyCamp_Forest", 
+                        []
+                    ], 
+                    "Illydia_CQ_TravelToDrowCave": [
+                        "Illydia_CQ_Illydia_CQ_Flag 4_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Illydia_CQ_Illydia_CQ_Flag 4_JournalEntry", 
+                        "Illydia_CQ_TravelToDrowCave_Reward", 
+                        [
+                            {
+                                "flag": "Illydia_CQ_SpeakWithDalanir", 
+                                "quest": "Illydia_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "Players found the cave and must now find the shrine", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "IllydiaCQ", 
+                        []
+                    ], 
+                    "Illydia_CQ_SearchForCerric": [
+                        "Illydia_CQ_Illydia_CQ_Flag 5_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Illydia_CQ_Illydia_CQ_Flag 5_JournalEntry", 
+                        "Illydia_CQ_SearchForCerric_Reward", 
+                        [
+                            {
+                                "flag": "Illydia_CQ_TravelToDrowCave", 
+                                "quest": "Illydia_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "IllydiaCQ", 
+                        []
+                    ], 
+                    "Illydia_CQ_DefeatPriestess": [
+                        "Illydia_CQ_Illydia_CQ_Flag 7_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Illydia_CQ_Illydia_CQ_Flag 7_JournalEntry", 
+                        "Illydia_CQ_DefeatPriestess_Reward", 
+                        [
+                            {
+                                "flag": "Illydia_CQ_SearchForCerric", 
+                                "quest": "Illydia_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "IllydiaCQ", 
+                        []
+                    ], 
+                    "Illydia_CQ_ReturnToStaging": [
+                        "Illydia_CQ_Illydia_CQ_Flag 9_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Illydia_CQ_Illydia_CQ_Flag 9_JournalEntry", 
+                        "Illydia_CQ_ReturnToStaging_Reward", 
+                        [
+                            {
+                                "flag": "Illydia_CQ_DefeatPriestess", 
+                                "quest": "Illydia_CQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "When this is true, the encounter is complete", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "IllydiaCQ", 
+                        []
+                    ], 
+                    "Illydia_CQ_Final": [
+                        "Illydia_CQ_Illydia_CQ_Flag 29_Name", 
+                        8, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 29_JournalEntry", 
+                        "Illydia_CQ_Final_Reward", 
+                        {}, 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        [
+                            "COMPLETE_ILLYDIAS_QUEST"
+                        ]
+                    ]
+                }, 
+                "UtilityFlags": {
+                    "Illydia_CQ_U_HasJournal": [
+                        "Illydia_CQ_Illydia_CQ_Flag 11_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 11_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C4_IEN_SearchForClues", 
+                                "quest": "C4.0_Into_Eternal_Night", 
+                                "set": 1
+                            }
+                        ], 
+                        "NO JOURNAL TEXT HERE PLEASE!!!!   ^^^  SHOULD AUTO COMPLETE AFTER PLAYERS get the journal in the middledark camp - players can now speak with Illydia about the list", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illyida_CQ_U_FindTezPage": [
+                        "Illydia_CQ_Illydia_CQ_Flag 10_Name", 
+                        10, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 10_JournalEntry", 
+                        "", 
+                        {}, 
+                        "NO JOURNAL TEXT HERE PLEASE!!!! ", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_MapPin": [
+                        "Illydia_CQ_Illydia_CQ_Flag 10_0_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 10_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_CerricDead": [
+                        "Illydia_CQ_Illydia_CQ_Flag 11_0_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 11_0_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_CompletedRitual": [
+                        "Illydia_CQ_Illydia_CQ_Flag 11_1_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 11_1_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_HasStatue": [
+                        "Illydia_CQ_Illydia_CQ_Flag 12_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 12_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_HasDagger": [
+                        "Illydia_CQ_Illydia_CQ_Flag 13_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 13_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_PlacedStatue": [
+                        "Illydia_CQ_Illydia_CQ_Flag 14_Name", 
+                        16, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 14_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_CerricLeaves": [
+                        "Illydia_CQ_Illydia_CQ_Flag 15_Name", 
+                        17, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 15_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_CerricHostile": [
+                        "Illydia_CQ_Illydia_CQ_Flag 16_Name", 
+                        18, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 16_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_FinalJournalEntryCerricAlive": [
+                        "Illydia_CQ_Illydia_CQ_Flag 27_Name", 
+                        19, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 27_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Illydia_CQ_U_FinalJournalEntryCerricDead": [
+                        "Illydia_CQ_Illydia_CQ_Flag 28_Name", 
+                        20, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 28_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }, 
+                "Camp Flags": {
+                    "Illydia_BG_1_1": [
+                        "Illydia_CQ_Illydia_CQ_Flag 17_Name", 
+                        21, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 17_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_BG_1_2": [
+                        "Illydia_CQ_Illydia_CQ_Flag 18_Name", 
+                        22, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 18_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_BG_1_3": [
+                        "Illydia_CQ_Illydia_CQ_Flag 19_Name", 
+                        23, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 19_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_BG_2_1": [
+                        "Illydia_CQ_Illydia_CQ_Flag 20_Name", 
+                        24, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 20_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_BG_2_2": [
+                        "Illydia_CQ_Illydia_CQ_Flag 21_Name", 
+                        25, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 21_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_BG_2_3": [
+                        "Illydia_CQ_Illydia_CQ_Flag 22_Name", 
+                        26, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 22_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_BG_3_1": [
+                        "Illydia_CQ_Illydia_CQ_Flag 23_Name", 
+                        27, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 23_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_BG_3_2": [
+                        "Illydia_CQ_Illydia_CQ_Flag 24_Name", 
+                        28, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 24_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Illydia_BG_3_3": [
+                        "Illydia_CQ_Illydia_CQ_Flag 25_Name", 
+                        29, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 25_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "Talked_About_Dalanir": [
+                        "Illydia_CQ_Illydia_CQ_Flag 26_Name", 
+                        30, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Illydia_CQ_Illydia_CQ_Flag 26_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "PartyCamp_Forest", 
+            "Hommet"
+        ]
+    }
+}

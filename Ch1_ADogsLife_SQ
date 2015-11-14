@@ -1,0 +1,538 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "Ch1_ADogsLife_SQ": [
+            "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Name", 
+            0, 
+            "Ch1_ADogsLife_SQ", 
+            "..\\..\\HeroesUnity\\Assets\\Design\\Quests\\Scripts\\SideQuests", 
+            "", 
+            {
+                "Tracked": {
+                    "Ch1_ADogsLife_SQ_Start": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 0_0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 0_0_JournalEntry", 
+                        "Ch1_ADogsLife_SQ_Start", 
+                        [], 
+                        "", 
+                        1, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "Ch1_ADogsLife_SQ_Tollin": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 1_JournalEntry", 
+                        "Ch1_ADogsLife_SQ_Tollin", 
+                        [
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_Start", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "Ch1_ADogsLife_TooLate", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "Ch1_ADogsLife_SQ_TruthTracked": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 9_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 9_JournalEntry", 
+                        "Ch1_ADogsLife_SQ_TruthTracked", 
+                        [
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_Tollin", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "Ch1_ADogsLife_SQ_Truth": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 3_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 3_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_Tollin", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_KillDog", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }, 
+                            {
+                                "flag": "CH1_ADogsLife_SQ_KillDogTime", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }, 
+                            {
+                                "flag": "CH1_ADogsLife-SQ_SaveDog", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_ADogsLife_SQ_InformedTollin": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 6_Name", 
+                        5, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 6_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_Truth", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        3, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_ADogsLife-SQ_SaveDog": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 5_Name", 
+                        6, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 5_JournalEntry", 
+                        "CH1_ADogsLife-SQ_SaveDog", 
+                        [
+                            {
+                                "flag": "CH1_ADogsLife_SQ_InformedTollin", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_KillDog", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }, 
+                            {
+                                "flag": "CH1_ADogsLife_SQ_KillDogTime", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroForest", 
+                        []
+                    ], 
+                    "Ch1_ADogsLife_SQ_KillDog": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 4_Name", 
+                        7, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 4_JournalEntry", 
+                        "Ch1_ADogsLife_SQ_KillDog", 
+                        [
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_Tollin", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "CH1_ADogsLife-SQ_SaveDog", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }, 
+                            {
+                                "flag": "CH1_ADogsLife_SQ_KillDogTime", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }, 
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_Truth", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "CH1_ADogsLife_SQ_KillDogTime": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 7_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 7_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "C1_AT_FindEvidence", 
+                                "quest": "C1.2_After_Them", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "CH1_ADogsLife_SQ_InformedTollin", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }, 
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_KillDog", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Ch2_SpokeToSister": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 11_Name", 
+                        9, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 11_JournalEntry", 
+                        "Ch2_SpokeToSister", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "IntroCamp", 
+                        []
+                    ], 
+                    "Ch1_SpokeToJaenaEnd": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 12_Name", 
+                        10, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 12_JournalEntry", 
+                        "Ch1_SpokeToJaenaEnd", 
+                        [
+                            {
+                                "flag": "CH1_ADogsLife-SQ_SaveDog", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }, 
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_KillDog", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 0
+                            }, 
+                            {
+                                "flag": "CH1_ADogsLife_SQ_KillDogTime", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        2, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Ch1_ADogsLfe_SQ_Tracker": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 13_Name", 
+                        11, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 13_JournalEntry", 
+                        "", 
+                        [
+                            {
+                                "flag": "Ch1_ADogsLife_SQ_Tollin", 
+                                "quest": "Ch1_ADogsLife_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ]
+                }, 
+                "Untracked": {
+                    "Ch1_ADogsLife_SQ_Jessup": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 2_Name", 
+                        12, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 2_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        0, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Ch2_SpokeToJaena": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 8_Name", 
+                        13, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 8_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Ch1_ADogsLife_DogGone": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 10_Name", 
+                        14, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 10_JournalEntry", 
+                        "", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "Ch1_ADogsLife_TooLate": [
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 4756_Name", 
+                        15, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "Ch1_ADogsLife_SQ_Ch1_ADogsLife_SQ_Flag 4756_JournalEntry", 
+                        "", 
+                        [], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "", 
+                        {}
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "IntroForest", 
+            "Location"
+        ]
+    }
+}

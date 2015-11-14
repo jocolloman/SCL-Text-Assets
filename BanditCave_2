@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DungeonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Settings   PortWeightX="-100" PortWeightZ="100" PlayerLighting="DrowCavesPlayerLighting" />
+
+<!--
+Seeds:
+-->
+
+<!-- CREATURES -->	
+    <CreatureSets>
+		<CreatureSet Name="Ch1GobMercSet" />  <!-- mercs and goblins -->
+	</CreatureSets>
+
+<!-- DUNGEON -->	 
+    <Groups>
+
+<!-- Starting Tile -->
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <Tile XMLID="GoblinTile" Name="BAN_FlortalDOWN" TransitionOverride="BanditDoor01"/>   <!-- need a door here to hide the goblin encounter -->
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+<!-- Tree 1 -->
+		<Group>
+            <Trunk>
+                <Tiles >
+                    <Tile Name="BAN_S_I_Bridge" ForceEntryPort="Port02" Destructible="PD_Small" TransitionOverride="BanditArch01" />   <!-- need an arch here so the goblin king can run away -->
+                </Tiles>
+            </Trunk>
+        </Group>
+        
+        <Group>
+            <Trunk  Min="1" Max="1" >   <!-- GOBLIN  / MERC FIGHT -->
+                <Tiles> 
+				<!-- These tiles have an important waypoint in them! If you add or replace these tiles, make sure to copy the waypoint over! -->
+	    		<Tile Name="BAN_36_C_River"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>  
+	    		<Tile Name="BAN_36_C_Lagoon"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>  
+                </Tiles>
+            </Trunk>
+            
+            <Branch Min="1" Max="1">
+                <Tiles >
+                    <!-- This tile has the stolen caravan loot  -->
+                    <Tile XMLID="CaravanLoot" Name="BAN_S_C_Bolt" PortExtensionMin= "1" PortExtensionMax = "1" ForceEntryPort="Port03" Destructible="PD_Small"/>
+                </Tiles>
+            </Branch>
+        </Group>  
+
+         <Group>
+            <Trunk  Min="1" Max="1" >   <!-- GOBLIN  / MERC FIGHT -->
+                <Tiles>
+                    <Tile Name="BAN_S_I_Noodle" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+
+                    <!-- this is actually an I tile...  -->
+                    <Tile Name="BAN_S_I_TwoPlat" PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>
+                </Tiles>
+            </Trunk>
+        </Group>
+
+         <Group>
+            <Trunk  Min="1" Max="1" >
+                <Tiles >
+                    <Tile Name="BAN_S_C_Platform"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small" TriggerAutoSave="true"/>
+                </Tiles>
+            </Trunk>
+
+              <Branch Min="1" Max="1">   <!-- Mercs only -->
+                <Tiles >
+                <Tile Name="BAN_S_T_Why"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>      
+	            <Tile Name="BAN_S_T_Donut"  PortExtensionMin= "1" PortExtensionMax = "1" OpenAllPorts= "1" Destructible="PD_Small"/>         
+                </Tiles>
+            </Branch>
+        </Group>
+
+<!-- Boss Tile -->                         
+        <Group>
+            <Trunk>
+                <Tiles >
+                    <!-- Forcing a door here to try and prevent the player from leading combat into the boss tile -->
+                    <Tile Name="BAN_Boss"  Destructible="PD_Small" TransitionOverride="BanditDoor01" XMLID = "Banagar" />
+                </Tiles>
+            </Trunk>
+        </Group> 
+  
+    </Groups>  
+</DungeonConfig>

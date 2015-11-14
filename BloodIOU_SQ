@@ -1,0 +1,328 @@
+{
+    "FILE FORMAT": {
+        "Version": "1.0.11"
+    }, 
+    "DATA MAPPING": {
+        "Quest Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Priority": [
+                1, 
+                1
+            ], 
+            "ScriptName": [
+                2, 
+                2
+            ], 
+            "ScriptPath": [
+                3, 
+                2
+            ], 
+            "DefaultReward": [
+                4, 
+                2
+            ], 
+            "Flags": [
+                5, 
+                3
+            ], 
+            "Comments": [
+                6, 
+                2
+            ], 
+            "IsCodex": [
+                7, 
+                0
+            ], 
+            "ImageName": [
+                8, 
+                2
+            ], 
+            "ImagePath": [
+                9, 
+                2
+            ], 
+            "ParentQuest": [
+                10, 
+                2
+            ], 
+            "Location": [
+                11, 
+                2
+            ], 
+            "QuestGroup": [
+                12, 
+                2
+            ]
+        }, 
+        "Flag Mapping": {
+            "Name": [
+                0, 
+                2
+            ], 
+            "Flag": [
+                1, 
+                1
+            ], 
+            "DefaultValue": [
+                2, 
+                0
+            ], 
+            "IsFinal": [
+                3, 
+                0
+            ], 
+            "IsRepeatable": [
+                4, 
+                0
+            ], 
+            "IsTracked": [
+                5, 
+                0
+            ], 
+            "JournalEntry": [
+                6, 
+                2
+            ], 
+            "Reward": [
+                7, 
+                2
+            ], 
+            "Prerequisites": [
+                8, 
+                3
+            ], 
+            "Comments": [
+                9, 
+                2
+            ], 
+            "ShowMarker": [
+                10, 
+                0
+            ], 
+            "AutoCompleteOnPrereqsMet": [
+                11, 
+                0
+            ], 
+            "ImageName": [
+                12, 
+                2
+            ], 
+            "ImagePath": [
+                13, 
+                2
+            ], 
+            "Location": [
+                14, 
+                2
+            ], 
+            "Achievements": [
+                15, 
+                3
+            ]
+        }
+    }, 
+    "DATA": {
+        "BloodIOU_SQ": [
+            "BloodIOU_SQ_Quest 0_Name", 
+            0, 
+            "", 
+            "", 
+            "", 
+            {
+                "BloodIOU_SQ_QuestFlags": {
+                    "BloodIOU_SQ_GotIOU": [
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 0_Name", 
+                        1, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 0_JournalEntry", 
+                        "BloodIOU_SQ_GotIOU_Reward", 
+                        {}, 
+                        "START!!!!", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "BloodIOU_SQ_TrackedDownDebtor": [
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 1_Name", 
+                        2, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 1_JournalEntry", 
+                        "BloodIOU_SQ_TrackedDownDebtor_Reward", 
+                        [
+                            {
+                                "flag": "BloodIOU_SQ_GotIOU", 
+                                "quest": "BloodIOU_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "DarkLakeDistrict", 
+                        []
+                    ], 
+                    "BloodIOU_SQ_SparedAxman": [
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 5_Name", 
+                        3, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 5_JournalEntry", 
+                        "BloodIOU_SQ_SparedAxman_Reward", 
+                        {}, 
+                        "set in convo if you don't kill him - alternate ending (END is also set here)", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "BloodIOU_SQ_AxmanDied": [
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 6_Name", 
+                        4, 
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 6_JournalEntry", 
+                        "BloodIOU_SQ_AxmanDied_Reward", 
+                        [
+                            {
+                                "flag": "BloodIOU_SQ_TrackedDownDebtor", 
+                                "quest": "BloodIOU_SQ", 
+                                "set": 1
+                            }, 
+                            {
+                                "flag": "BloodIOU_SQ_FoughtAxman", 
+                                "quest": "BloodIOU_SQ", 
+                                "set": 1
+                            }
+                        ], 
+                        "", 
+                        false, 
+                        true, 
+                        "", 
+                        "", 
+                        "DarkLakeDistrict", 
+                        []
+                    ], 
+                    "BloodIOU_SQ_End": [
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 4_Name", 
+                        5, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 4_JournalEntry", 
+                        "BloodIOU_SQ_End_Reward", 
+                        {}, 
+                        "UNTRACKED - completed by either FOUGHT or SPARED", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "DarkLakeDistrict", 
+                        []
+                    ]
+                }, 
+                "BloodIOU_SQ_UtilityFlags": {
+                    "BloodIOU_SQ_SpokeWithAxeman": [
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 2_Name", 
+                        6, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 2_JournalEntry", 
+                        "BloodIOU_SQ_SpokeWithAxeman_Reward", 
+                        {}, 
+                        "Set if you speak to him and end the convo without asking about the blood debt", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "BloodIOU_SQ_FoughtAxman": [
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 3_Name", 
+                        7, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 3_JournalEntry", 
+                        "BloodIOU_SQ_FoughtAxman_Reward", 
+                        {}, 
+                        "only used to track if you started a fight with him", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ], 
+                    "BloodIOU_SW_KilledAxeman": [
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 8_Name", 
+                        8, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 8_JournalEntry", 
+                        "BloodIOU_SW_KilledAxeman_Reward", 
+                        {}, 
+                        "Set AFTER the encounter is complete", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "", 
+                        []
+                    ], 
+                    "BloodIOU_SQ_SpokeAfterDemons": [
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 7_Name", 
+                        9, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        "BloodIOU_SQ_BloodIOU_SQ_Flag 7_JournalEntry", 
+                        "BloodIOU_SQ_SpokeAfterDemons_Reward", 
+                        {}, 
+                        "", 
+                        false, 
+                        false, 
+                        "", 
+                        "", 
+                        "None", 
+                        []
+                    ]
+                }
+            }, 
+            "", 
+            false, 
+            "", 
+            "", 
+            "", 
+            "UnderdarkDescent", 
+            "Location"
+        ]
+    }
+}
