@@ -1,342 +1,342 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NoMusic": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "Ch1_BanditCave_Note", 
-                "NoBegFade": "False", 
-                "NeedsVO": "True", 
-                "NoPlayerWarp": "False", 
-                "IsFinal": "True", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "True", 
                 "Defaults": {
                     "Speaker": "LARETHAR"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "True",
+                "IsStoryCritical": "False",
+                "Name": "Ch1_BanditCave_Note",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_7335144", 
-                "<ROOT>", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_Note_LINE_7335144|", 
-                "", 
-                "BK-> Dropped extra \"paid\" // Rephrased since you pick up the note. Old line: There's a note on the table. It mentions gold paid payments from the mercenaries to someone named Martumal.", 
+                "LINE_7335144",
+                "<ROOT>",
+                "LARETHAR",
+                "|Ch1_BanditCave_Note_LINE_7335144|",
+                "",
+                "BK-> Dropped extra \"paid\" // Rephrased since you pick up the note. Old line: There's a note on the table. It mentions gold paid payments from the mercenaries to someone named Martumal.",
                 [
                     "LINE_7746962"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "CH1_C_GI_MartumalNoteAmbientPlayed", 
-                        "Quest": "CH1_Cave_GoblinInformant", 
-                        "FlagState": "set"
+                        "Action": "ActionQuest",
+                        "Flag": "CH1_C_GI_MartumalNoteAmbientPlayed",
+                        "FlagState": "set",
+                        "Quest": "CH1_Cave_GoblinInformant"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7746962", 
-                "LINE_7335144", 
-                "ILLYDIA", 
-                "|Ch1_BanditCave_Note_LINE_7746962|", 
-                "", 
-                "", 
+                "LINE_7746962",
+                "LINE_7335144",
+                "ILLYDIA",
+                "|Ch1_BanditCave_Note_LINE_7746962|",
+                "",
+                "",
                 [
                     "LINE_7261242"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7261242", 
-                "LINE_7746962", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_Note_LINE_7261242|", 
-                "", 
-                "", 
+                "LINE_7261242",
+                "LINE_7746962",
+                "LARETHAR",
+                "|Ch1_BanditCave_Note_LINE_7261242|",
+                "",
+                "",
                 [
-                    "LINE_7320962", 
+                    "LINE_7320962",
                     "LINE_2931412"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7320962", 
-                "LINE_7261242", 
-                "ILLYDIA", 
-                "|Ch1_BanditCave_Note_LINE_7320962|", 
-                "", 
-                "", 
+                "LINE_7320962",
+                "LINE_7261242",
+                "ILLYDIA",
+                "|Ch1_BanditCave_Note_LINE_7320962|",
+                "",
+                "",
                 [
-                    "LINE_3341790", 
+                    "LINE_3341790",
                     "LINE_2931412"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3341790", 
-                "LINE_7320962", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_Note_LINE_3341790|", 
-                "", 
-                "", 
+                "LINE_3341790",
+                "LINE_7320962",
+                "LARETHAR",
+                "|Ch1_BanditCave_Note_LINE_3341790|",
+                "",
+                "",
                 [
                     "LINE_2931412"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3554825", 
-                "<ROOT>", 
-                "RPE", 
-                "|Ch1_BanditCave_Note_LINE_3554825|", 
-                "", 
-                "", 
+                "LINE_3554825",
+                "<ROOT>",
+                "RPE",
+                "|Ch1_BanditCave_Note_LINE_3554825|",
+                "",
+                "",
                 [
-                    "LINE_7320962", 
+                    "LINE_7320962",
                     "LINE_2931412"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "CH1_C_GI_MartumalNoteAmbientPlayed", 
-                        "Quest": "CH1_Cave_GoblinInformant", 
-                        "FlagState": "set"
+                        "Action": "ActionQuest",
+                        "Flag": "CH1_C_GI_MartumalNoteAmbientPlayed",
+                        "FlagState": "set",
+                        "Quest": "CH1_Cave_GoblinInformant"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2931412", 
-                "LINE_7261242", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                false, 
-                "False", 
-                "False", 
+                "LINE_2931412",
+                "LINE_7261242",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

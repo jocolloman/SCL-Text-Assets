@@ -1,456 +1,456 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NeedsVO": "True", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "Ch1_BanditCave_FirePlace", 
-                "NoBegFade": "False", 
-                "IsFinal": "True", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "True", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": "LARETHAR"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "True",
+                "IsStoryCritical": "True",
+                "Name": "Ch1_BanditCave_FirePlace",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_7062489", 
-                "<ROOT>", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_FirePlace_LINE_7062489|", 
-                "", 
-                "", 
+                "LINE_7062489",
+                "<ROOT>",
+                "LARETHAR",
+                "|Ch1_BanditCave_FirePlace_LINE_7062489|",
+                "",
+                "",
                 [
                     "LINE_5415345"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "C1_AT_FireConvoDone", 
-                                    "Quest": "C1.2_After_Them", 
+                                    "Flag": "C1_AT_FireConvoDone",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5415345", 
-                "LINE_7062489", 
-                "ILLYDIA", 
-                "|Ch1_BanditCave_FirePlace_LINE_5415345|", 
-                "", 
-                "BK: Dropped second there's and first \"on it\"", 
+                "LINE_5415345",
+                "LINE_7062489",
+                "ILLYDIA",
+                "|Ch1_BanditCave_FirePlace_LINE_5415345|",
+                "",
+                "BK: Dropped second there's and first \"on it\"",
                 [
-                    "LINE_6486761", 
-                    "LINE_3710461", 
+                    "LINE_6486761",
+                    "LINE_3710461",
                     "LINE_2193651"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_6486761", 
-                "LINE_5415345", 
-                "<PLAYER>", 
-                "|Ch1_BanditCave_FirePlace_LINE_6486761|", 
-                "", 
-                "", 
+                "LINE_6486761",
+                "LINE_5415345",
+                "<PLAYER>",
+                "|Ch1_BanditCave_FirePlace_LINE_6486761|",
+                "",
+                "",
                 [
                     "LINE_3155841"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3155841", 
-                "LINE_6486761", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_FirePlace_LINE_3155841|", 
-                "", 
-                "", 
+                "LINE_3155841",
+                "LINE_6486761",
+                "LARETHAR",
+                "|Ch1_BanditCave_FirePlace_LINE_3155841|",
+                "",
+                "",
                 [
                     "LINE_3357095"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3357095", 
-                "LINE_3155841", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
-                [], 
+                "LINE_3357095",
+                "LINE_3155841",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C1_AT_FireConvoDone", 
-                        "Quest": "C1.2_After_Them", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C1_AT_FireConvoDone",
+                        "FlagState": "Set",
+                        "Quest": "C1.2_After_Them"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3710461", 
-                "LINE_5415345", 
-                "<PLAYER>", 
-                "|Ch1_BanditCave_FirePlace_LINE_3710461|", 
-                "", 
-                "", 
+                "LINE_3710461",
+                "LINE_5415345",
+                "<PLAYER>",
+                "|Ch1_BanditCave_FirePlace_LINE_3710461|",
+                "",
+                "",
                 [
                     "LINE_9929848"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9929848", 
-                "LINE_3710461", 
-                "ILLYDIA", 
-                "|Ch1_BanditCave_FirePlace_LINE_9929848|", 
-                "", 
-                "", 
+                "LINE_9929848",
+                "LINE_3710461",
+                "ILLYDIA",
+                "|Ch1_BanditCave_FirePlace_LINE_9929848|",
+                "",
+                "",
                 [
                     "LINE_9935005"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2193651", 
-                "LINE_5415345", 
-                "<PLAYER>", 
-                "|Ch1_BanditCave_FirePlace_LINE_2193651|", 
-                "", 
-                "", 
+                "LINE_2193651",
+                "LINE_5415345",
+                "<PLAYER>",
+                "|Ch1_BanditCave_FirePlace_LINE_2193651|",
+                "",
+                "",
                 [
                     "LINE_7733332"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7733332", 
-                "LINE_2193651", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_FirePlace_LINE_7733332|", 
-                "", 
-                "", 
+                "LINE_7733332",
+                "LINE_2193651",
+                "LARETHAR",
+                "|Ch1_BanditCave_FirePlace_LINE_7733332|",
+                "",
+                "",
                 [
                     "LINE_3357095"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9935005", 
-                "LINE_9929848", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_FirePlace_LINE_9935005|", 
-                "", 
-                "BK - > cut first \"lying around\" phrase.", 
+                "LINE_9935005",
+                "LINE_9929848",
+                "LARETHAR",
+                "|Ch1_BanditCave_FirePlace_LINE_9935005|",
+                "",
+                "BK - > cut first \"lying around\" phrase.",
                 [
                     "LINE_0609937"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0609937", 
-                "LINE_9935005", 
-                "ILLYDIA", 
-                "|Ch1_BanditCave_FirePlace_LINE_0609937|", 
-                "", 
-                "", 
+                "LINE_0609937",
+                "LINE_9935005",
+                "ILLYDIA",
+                "|Ch1_BanditCave_FirePlace_LINE_0609937|",
+                "",
+                "",
                 [
                     "LINE_3357095"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1717264", 
-                "<ROOT>", 
-                "RPE", 
-                "|Ch1_BanditCave_FirePlace_LINE_1717264|", 
-                "", 
-                "", 
+                "LINE_1717264",
+                "<ROOT>",
+                "RPE",
+                "|Ch1_BanditCave_FirePlace_LINE_1717264|",
+                "",
+                "",
                 [
                     "LINE_3357095"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "C1_AT_FireConvoDone", 
-                                    "Quest": "C1.2_After_Them", 
+                                    "Flag": "C1_AT_FireConvoDone",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

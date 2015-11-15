@@ -1,299 +1,299 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NeedsVO": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "Ch2_Ruins_SlimeQueen_Teleporter", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": "RPE"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "True"
-            }, 
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch2_Ruins_SlimeQueen_Teleporter",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_9647218", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch2_Ruins_UntrackedQuests_LINE_9647218|", 
-                "", 
-                "BK standardization and edits", 
-                [], 
-                [], 
+                "LINE_9647218",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch2_Ruins_UntrackedQuests_LINE_9647218|",
+                "",
+                "BK standardization and edits",
+                [],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "CH2_QC_HaveStone", 
-                                    "Quest": "Ch2_SQ_QueenCube", 
+                                    "Flag": "CH2_QC_HaveStone",
+                                    "FlagState": "false",
+                                    "Quest": "Ch2_SQ_QueenCube",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9645698", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch2_Ruins_UntrackedQuests_LINE_9645698|", 
-                "", 
-                "", 
-                [], 
+                "LINE_9645698",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch2_Ruins_UntrackedQuests_LINE_9645698|",
+                "",
+                "",
+                [],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "CH2_QC_UnlockedLair", 
-                        "Quest": "Ch2_SQ_QueenCube", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "CH2_QC_UnlockedLair",
+                        "FlagState": "Set",
+                        "Quest": "Ch2_SQ_QueenCube"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "is true", 
-                                    "Flag": "CH2_QC_HaveStone", 
-                                    "Quest": "Ch2_SQ_QueenCube", 
+                                    "Flag": "CH2_QC_HaveStone",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch2_SQ_QueenCube",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
-        ], 
+        ],
         [
             {
-                "NeedsVO": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "Ch2_Ruins_SealedVault", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "True", 
                 "Defaults": {
                     "Speaker": "RPE"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "True"
-            }, 
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch2_Ruins_SealedVault",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_1100941", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch2_Ruins_UntrackedQuests_LINE_1100941|", 
-                "", 
-                "..", 
-                [], 
-                [], 
+                "LINE_1100941",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch2_Ruins_UntrackedQuests_LINE_1100941|",
+                "",
+                "..",
+                [],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "CH2_RL_HaveSeal", 
-                                    "Quest": "Ch2_SQ_RuinLockout", 
+                                    "Flag": "CH2_RL_HaveSeal",
+                                    "FlagState": "false",
+                                    "Quest": "Ch2_SQ_RuinLockout",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7773332", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch2_Ruins_UntrackedQuests_LINE_7773332|", 
-                "", 
-                "BK eidts", 
-                [], 
+                "LINE_7773332",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch2_Ruins_UntrackedQuests_LINE_7773332|",
+                "",
+                "BK eidts",
+                [],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "CH2_RL_UnlockedDoor", 
-                        "Quest": "Ch2_SQ_RuinLockout", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "CH2_RL_UnlockedDoor",
+                        "FlagState": "Set",
+                        "Quest": "Ch2_SQ_RuinLockout"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "is true", 
-                                    "Flag": "CH2_RL_HaveSeal", 
-                                    "Quest": "Ch2_SQ_RuinLockout", 
+                                    "Flag": "CH2_RL_HaveSeal",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch2_SQ_RuinLockout",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

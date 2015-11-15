@@ -1,793 +1,793 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NoMusic": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "CompleteAllCultistEncounters", 
-                "NoBegFade": "False", 
-                "NeedsVO": "True", 
-                "NoPlayerWarp": "False", 
-                "IsFinal": "False", 
-                "IsStoryCritical": "True", 
-                "IsAmbient": "True", 
                 "Defaults": {
                     "Speaker": "NARRATOR"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "True"
-            }, 
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "CompleteAllCultistEncounters",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_6399744", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
+                "LINE_6399744",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
                 [
                     "LINE_7683004"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7683004", 
-                "LINE_6399744", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
+                "LINE_7683004",
+                "LINE_6399744",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
                 [
-                    "LINE_1649396", 
-                    "LINE_8772574", 
-                    "LINE_5523864", 
-                    "LINE_5160128", 
-                    "LINE_9978368", 
-                    "LINE_7910251", 
-                    "LINE_5898467", 
+                    "LINE_1649396",
+                    "LINE_8772574",
+                    "LINE_5523864",
+                    "LINE_5160128",
+                    "LINE_9978368",
+                    "LINE_7910251",
+                    "LINE_5898467",
                     "LINE_7420859"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1649396", 
-                "LINE_7683004", 
-                "LARETHAR", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_1649396|", 
-                "", 
-                "", 
+                "LINE_1649396",
+                "LINE_7683004",
+                "LARETHAR",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_1649396|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4927598", 
-                "LINE_7420859", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_4927598",
+                "LINE_7420859",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8772574", 
-                "LINE_7683004", 
-                "DALANIR", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_8772574|", 
-                "", 
-                "", 
+                "LINE_8772574",
+                "LINE_7683004",
+                "DALANIR",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_8772574|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "DALANIR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5523864", 
-                "LINE_7683004", 
-                "ILLYDIA", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_5523864|", 
-                "", 
-                "", 
+                "LINE_5523864",
+                "LINE_7683004",
+                "ILLYDIA",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_5523864|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5160128", 
-                "LINE_7683004", 
-                "JARHILD", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_5160128|", 
-                "", 
-                "", 
+                "LINE_5160128",
+                "LINE_7683004",
+                "JARHILD",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_5160128|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9978368", 
-                "LINE_7683004", 
-                "BRYN", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_9978368|", 
-                "", 
-                "BK: \"get in\" -> \"get past\"", 
+                "LINE_9978368",
+                "LINE_7683004",
+                "BRYN",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_9978368|",
+                "",
+                "BK: \"get in\" -> \"get past\"",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "BRYN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7910251", 
-                "LINE_7683004", 
-                "HOMMET", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_7910251|", 
-                "", 
-                "", 
+                "LINE_7910251",
+                "LINE_7683004",
+                "HOMMET",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_7910251|",
+                "",
+                "",
                 [
                     "LINE_3699638"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7420859", 
-                "LINE_7683004", 
-                "<DEFAULT>", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_7420859|", 
-                "", 
-                "", 
+                "LINE_7420859",
+                "LINE_7683004",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_7420859|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3699638", 
-                "LINE_7910251", 
-                "HOMMET", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_3699638|", 
-                "", 
-                "", 
+                "LINE_3699638",
+                "LINE_7910251",
+                "HOMMET",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_3699638|",
+                "",
+                "",
                 [
                     "LINE_1347182"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1347182", 
-                "LINE_3699638", 
-                "HOMMET", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_1347182|", 
-                "", 
-                "", 
+                "LINE_1347182",
+                "LINE_3699638",
+                "HOMMET",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_1347182|",
+                "",
+                "",
                 [
                     "LINE_0497208"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0497208", 
-                "LINE_1347182", 
-                "HOMMET", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_0497208|", 
-                "", 
-                "", 
+                "LINE_0497208",
+                "LINE_1347182",
+                "HOMMET",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_0497208|",
+                "",
+                "",
                 [
-                    "LINE_3526745", 
-                    "LINE_3382162", 
-                    "LINE_7287396", 
-                    "LINE_2531686", 
-                    "LINE_3562320", 
+                    "LINE_3526745",
+                    "LINE_3382162",
+                    "LINE_7287396",
+                    "LINE_2531686",
+                    "LINE_3562320",
                     "LINE_4271574"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3526745", 
-                "LINE_0497208", 
-                "JARHILD", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_3526745|", 
-                "", 
-                "", 
+                "LINE_3526745",
+                "LINE_0497208",
+                "JARHILD",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_3526745|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3382162", 
-                "LINE_0497208", 
-                "DALANIR", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_3382162|", 
-                "", 
-                "", 
+                "LINE_3382162",
+                "LINE_0497208",
+                "DALANIR",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_3382162|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "DALANIR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7287396", 
-                "LINE_0497208", 
-                "ILLYDIA", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_7287396|", 
-                "", 
-                "", 
+                "LINE_7287396",
+                "LINE_0497208",
+                "ILLYDIA",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_7287396|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2531686", 
-                "LINE_0497208", 
-                "BRYN", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_2531686|", 
-                "", 
-                "", 
+                "LINE_2531686",
+                "LINE_0497208",
+                "BRYN",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_2531686|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "BRYN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3562320", 
-                "LINE_0497208", 
-                "LARETHAR", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_3562320|", 
-                "", 
-                "", 
+                "LINE_3562320",
+                "LINE_0497208",
+                "LARETHAR",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_3562320|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4271574", 
-                "LINE_0497208", 
-                "HOMMET", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_4271574|", 
-                "", 
-                "", 
+                "LINE_4271574",
+                "LINE_0497208",
+                "HOMMET",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_4271574|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5898467", 
-                "LINE_7683004", 
-                "JAVEN", 
-                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_5898467|", 
-                "", 
-                "", 
+                "LINE_5898467",
+                "LINE_7683004",
+                "JAVEN",
+                "|Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_5898467|",
+                "",
+                "",
                 [
                     "LINE_4927598"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JAVEN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "JAVEN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

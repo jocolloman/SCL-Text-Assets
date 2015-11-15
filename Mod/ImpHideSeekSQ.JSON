@@ -1,817 +1,817 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NeedsVO": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "ImpHideSeekSQ_Hiding", 
-                "NoBegFade": "False", 
-                "NoMusic": "False", 
-                "NoPlayerWarp": "False", 
-                "IsFinal": "True", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "True", 
                 "Defaults": {
                     "Speaker": "GLIUXNI"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "True",
+                "IsStoryCritical": "False",
+                "Name": "ImpHideSeekSQ_Hiding",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_4257103", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_4257103|", 
-                "", 
-                "", 
+                "LINE_4257103",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_4257103|",
+                "",
+                "",
                 [
                     "LINE_3143008"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ImpHS_SQ_Found03", 
-                                    "Quest": "ImpHideSeek_SQ", 
+                                    "Flag": "ImpHS_SQ_Found03",
+                                    "FlagState": "true",
+                                    "Quest": "ImpHideSeek_SQ",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "ImpHS_SQ_Found04", 
-                                    "Quest": "ImpHideSeek_SQ", 
+                                    "Flag": "ImpHS_SQ_Found04",
+                                    "FlagState": "false",
+                                    "Quest": "ImpHideSeek_SQ",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3143008", 
-                "LINE_4257103", 
-                "<OWNER>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_3143008",
+                "LINE_4257103",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7797189", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_7797189|", 
-                "", 
-                "", 
+                "LINE_7797189",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_7797189|",
+                "",
+                "",
                 [
                     "LINE_2769271"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ImpHS_SQ_Found02", 
-                                    "Quest": "ImpHideSeek_SQ", 
+                                    "Flag": "ImpHS_SQ_Found02",
+                                    "FlagState": "true",
+                                    "Quest": "ImpHideSeek_SQ",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "ImpHS_SQ_Found03", 
-                                    "Quest": "ImpHideSeek_SQ", 
+                                    "Flag": "ImpHS_SQ_Found03",
+                                    "FlagState": "false",
+                                    "Quest": "ImpHideSeek_SQ",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2769271", 
-                "LINE_7797189", 
-                "<OWNER>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_2769271",
+                "LINE_7797189",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9266794", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_9266794|", 
-                "", 
-                "", 
+                "LINE_9266794",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_9266794|",
+                "",
+                "",
                 [
                     "LINE_4807133"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ImpHS_SQ_Found01", 
-                                    "Quest": "ImpHideSeek_SQ", 
+                                    "Flag": "ImpHS_SQ_Found01",
+                                    "FlagState": "true",
+                                    "Quest": "ImpHideSeek_SQ",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "ImpHS_SQ_Found02", 
-                                    "Quest": "ImpHideSeek_SQ", 
+                                    "Flag": "ImpHS_SQ_Found02",
+                                    "FlagState": "false",
+                                    "Quest": "ImpHideSeek_SQ",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4807133", 
-                "LINE_9266794", 
-                "<OWNER>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_4807133",
+                "LINE_9266794",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4870646", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_4870646|", 
-                "", 
-                "", 
+                "LINE_4870646",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_4870646|",
+                "",
+                "",
                 [
                     "LINE_7069958"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7069958", 
-                "LINE_4870646", 
-                "<OWNER>", 
-                "", 
-                "", 
-                "", 
-                [], 
+                "LINE_7069958",
+                "LINE_4870646",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "ImpHS_SQ_Discovered", 
-                        "Quest": "ImpHideSeek_SQ", 
-                        "FlagState": "set"
+                        "Action": "ActionQuest",
+                        "Flag": "ImpHS_SQ_Discovered",
+                        "FlagState": "set",
+                        "Quest": "ImpHideSeek_SQ"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
-        ], 
+        ],
         [
             {
-                "NeedsVO": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "ImpHideSeekSQ_GaveUp", 
-                "NoBegFade": "False", 
-                "NoMusic": "False", 
-                "NoPlayerWarp": "False", 
-                "IsFinal": "True", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": "GLIUXNI"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
-            [
-                "LINE_2237678", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_2237678|", 
-                "", 
-                "", 
-                [
-                    "LINE_6272168", 
-                    "LINE_3442928"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "ImpHS_SQ_Found04", 
-                        "Quest": "ImpHideSeek_SQ", 
-                        "FlagState": "set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6272168", 
-                "LINE_2237678", 
-                "<PLAYER>", 
-                "|ImpHideSeekSQ_LINE_6272168|", 
-                "", 
-                "", 
-                [
-                    "LINE_9199205"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9199205", 
-                "LINE_6272168", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_9199205|", 
-                "", 
-                "", 
-                [
-                    "LINE_3103713"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3103713", 
-                "LINE_9199205", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_3103713|", 
-                "", 
-                "", 
-                [
-                    "LINE_7815535"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7815535", 
-                "LINE_3103713", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_7815535|", 
-                "", 
-                "", 
-                [
-                    "LINE_1981179"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1981179", 
-                "LINE_7815535", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_1981179|", 
-                "", 
-                "", 
-                [
-                    "LINE_0548758", 
-                    "LINE_6090468"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_0548758", 
-                "LINE_1981179", 
-                "<PLAYER>", 
-                "|ImpHideSeekSQ_LINE_0548758|", 
-                "", 
-                "", 
-                [
-                    "LINE_4003209"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6090468", 
-                "LINE_1981179", 
-                "<PLAYER>", 
-                "|ImpHideSeekSQ_LINE_6090468|", 
-                "", 
-                "", 
-                [
-                    "LINE_5997342"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5997342", 
-                "LINE_6090468", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_5997342|", 
-                "", 
-                "", 
-                [
-                    "LINE_2035299"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2035299", 
-                "LINE_5997342", 
-                "<OWNER>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "ImpHS_SQ_Hostile", 
-                        "Quest": "ImpHideSeek_SQ", 
-                        "FlagState": "set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4003209", 
-                "LINE_0548758", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_4003209|", 
-                "", 
-                "", 
-                [
-                    "LINE_3059337"
-                ], 
-                [], 
-                [], 
-                [], 
-                [
-                    "Gear:ImpHideSeek_SQ_Ring"
-                ], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3059337", 
-                "LINE_4003209", 
-                "<DEFAULT>", 
-                "|ImpHideSeekSQ_LINE_3059337|", 
-                "", 
-                "", 
-                [
-                    "LINE_2943485"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2943485", 
-                "LINE_3059337", 
-                "<OWNER>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3442928", 
-                "LINE_2237678", 
-                "<PLAYER>", 
-                "|ImpHideSeekSQ_LINE_3442928|", 
-                "", 
-                "", 
-                [
-                    "LINE_9199205"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ]
-        ], 
-        [
-            {
-                "NoMusic": "False", 
+                },
+                "ELock": "False",
                 "EventScripts": {
                     "OnClose": ""
-                }, 
-                "Name": "ImpHideSeekSQ_Rat", 
-                "NoBegFade": "False", 
-                "IsFinal": "True", 
-                "NoPlayerWarp": "False", 
-                "IsStoryCritical": "False", 
-                "NeedsVO": "False", 
-                "IsAmbient": "True", 
+                },
+                "IsAmbient": "False",
+                "IsFinal": "True",
+                "IsStoryCritical": "False",
+                "Name": "ImpHideSeekSQ_GaveUp",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_2237678",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_2237678|",
+                "",
+                "",
+                [
+                    "LINE_6272168",
+                    "LINE_3442928"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "ImpHS_SQ_Found04",
+                        "FlagState": "set",
+                        "Quest": "ImpHideSeek_SQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6272168",
+                "LINE_2237678",
+                "<PLAYER>",
+                "|ImpHideSeekSQ_LINE_6272168|",
+                "",
+                "",
+                [
+                    "LINE_9199205"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9199205",
+                "LINE_6272168",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_9199205|",
+                "",
+                "",
+                [
+                    "LINE_3103713"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3103713",
+                "LINE_9199205",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_3103713|",
+                "",
+                "",
+                [
+                    "LINE_7815535"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7815535",
+                "LINE_3103713",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_7815535|",
+                "",
+                "",
+                [
+                    "LINE_1981179"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1981179",
+                "LINE_7815535",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_1981179|",
+                "",
+                "",
+                [
+                    "LINE_0548758",
+                    "LINE_6090468"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0548758",
+                "LINE_1981179",
+                "<PLAYER>",
+                "|ImpHideSeekSQ_LINE_0548758|",
+                "",
+                "",
+                [
+                    "LINE_4003209"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6090468",
+                "LINE_1981179",
+                "<PLAYER>",
+                "|ImpHideSeekSQ_LINE_6090468|",
+                "",
+                "",
+                [
+                    "LINE_5997342"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5997342",
+                "LINE_6090468",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_5997342|",
+                "",
+                "",
+                [
+                    "LINE_2035299"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2035299",
+                "LINE_5997342",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "ImpHS_SQ_Hostile",
+                        "FlagState": "set",
+                        "Quest": "ImpHideSeek_SQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4003209",
+                "LINE_0548758",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_4003209|",
+                "",
+                "",
+                [
+                    "LINE_3059337"
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Gear:ImpHideSeek_SQ_Ring"
+                ],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3059337",
+                "LINE_4003209",
+                "<DEFAULT>",
+                "|ImpHideSeekSQ_LINE_3059337|",
+                "",
+                "",
+                [
+                    "LINE_2943485"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2943485",
+                "LINE_3059337",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3442928",
+                "LINE_2237678",
+                "<PLAYER>",
+                "|ImpHideSeekSQ_LINE_3442928|",
+                "",
+                "",
+                [
+                    "LINE_9199205"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
                 "Defaults": {
                     "Speaker": "RPE"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "True",
+                "IsStoryCritical": "False",
+                "Name": "ImpHideSeekSQ_Rat",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_4184560", 
-                "<ROOT>", 
-                "<OWNER>", 
-                "|ImpHideSeekSQ_LINE_4184560|", 
-                "", 
-                "[The rat stares up at you with fear in its eyes.  How did it manage to get down this far into the Underdark?>", 
+                "LINE_4184560",
+                "<ROOT>",
+                "<OWNER>",
+                "|ImpHideSeekSQ_LINE_4184560|",
+                "",
+                "[The rat stares up at you with fear in its eyes.  How did it manage to get down this far into the Underdark?>",
                 [
                     "LINE_0498839"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0498839", 
-                "LINE_4184560", 
-                "<OWNER>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_0498839",
+                "LINE_4184560",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

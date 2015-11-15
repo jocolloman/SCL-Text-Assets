@@ -1,2006 +1,2006 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NeedsVO": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "Shivanni CH3", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": "SHIVANNI"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Shivanni CH3",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_6615334", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_6615334|", 
-                "", 
-                "BK - I don't think this conditional is setup correctly.", 
+                "LINE_6615334",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_6615334|",
+                "",
+                "BK - I don't think this conditional is setup correctly.",
                 [
-                    "LINE_8689948", 
-                    "LINE_0725114", 
-                    "LINE_4991342", 
+                    "LINE_8689948",
+                    "LINE_0725114",
+                    "LINE_4991342",
                     "LINE_0041039"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "", 
-                                    "Quest": "", 
+                                    "Flag": "",
+                                    "FlagState": "True",
+                                    "Quest": "",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8689948", 
-                "LINE_6615334", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_8689948|", 
-                "", 
-                "", 
+                "LINE_8689948",
+                "LINE_6615334",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_8689948|",
+                "",
+                "",
                 [
                     "LINE_2564882"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "False", 
-                                    "Flag": "", 
-                                    "Quest": "", 
+                                    "Flag": "",
+                                    "FlagState": "False",
+                                    "Quest": "",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0725114", 
-                "LINE_6615334", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_0725114|", 
-                "", 
-                "", 
+                "LINE_0725114",
+                "LINE_6615334",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_0725114|",
+                "",
+                "",
                 [
                     "LINE_7768158"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4991342", 
-                "LINE_6615334", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_4991342|", 
-                "", 
-                "", 
+                "LINE_4991342",
+                "LINE_6615334",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_4991342|",
+                "",
+                "",
                 [
                     "LINE_8117173"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2564882", 
-                "LINE_8689948", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_2564882|", 
-                "", 
-                "BK she doesn't seem to hate the place in other conversations so I've tweaked the line \"I'm Shivanni, and I've owned this place for a bit longer than I've cared to.\"", 
+                "LINE_2564882",
+                "LINE_8689948",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_2564882|",
+                "",
+                "BK she doesn't seem to hate the place in other conversations so I've tweaked the line \"I'm Shivanni, and I've owned this place for a bit longer than I've cared to.\"",
                 [
                     "LINE_6615334"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7768158", 
-                "LINE_0725114", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_7768158|", 
-                "", 
-                "", 
+                "LINE_7768158",
+                "LINE_0725114",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_7768158|",
+                "",
+                "",
                 [
                     "LINE_6615334"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8117173", 
-                "LINE_4991342", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_8117173|", 
-                "", 
-                "", 
+                "LINE_8117173",
+                "LINE_4991342",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_8117173|",
+                "",
+                "",
                 [
                     "LINE_6615334"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0041039", 
-                "LINE_6615334", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_0041039|", 
-                "", 
-                "", 
+                "LINE_0041039",
+                "LINE_6615334",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_0041039|",
+                "",
+                "",
                 [
                     "LINE_8316689"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8316689", 
-                "LINE_0041039", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_8316689|", 
-                "", 
-                "", 
+                "LINE_8316689",
+                "LINE_0041039",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_8316689|",
+                "",
+                "",
                 [
                     "LINE_1861835"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1861835", 
-                "LINE_8316689", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_1861835",
+                "LINE_8316689",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
-        ], 
+        ],
         [
             {
-                "NeedsVO": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "Adrik CH3", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": "ADRIK"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
-            [
-                "LINE_8995665", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_8995665|", 
-                "", 
-                "", 
-                [
-                    "LINE_9221434"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_Start", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }, 
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "C2_TMOM_TakePortal", 
-                                    "Quest": "C2.3_The_Mind_Of_Madness", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2240952", 
-                "LINE_1997337", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_2240952|", 
-                "", 
-                "", 
-                [
-                    "LINE_4451920"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3183696", 
-                "LINE_1997337", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_3183696|", 
-                "", 
-                "", 
-                [
-                    "LINE_7937227"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5423257", 
-                "LINE_1997337", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_5423257|", 
-                "", 
-                "", 
-                [
-                    "LINE_2209996"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2209996", 
-                "LINE_5423257", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_2209996|", 
-                "", 
-                "", 
-                [
-                    "LINE_1634643"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1634643", 
-                "LINE_2209996", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4451920", 
-                "LINE_2240952", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_4451920|", 
-                "", 
-                "BK rewrote \"The name's Adrik Ironcross, and I have a bit of a talent for procuring some... special items.\"", 
-                [
-                    "LINE_4446600", 
-                    "LINE_1284053"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4446600", 
-                "LINE_4451920", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_4446600|", 
-                "", 
-                "", 
-                [
-                    "LINE_7937227"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1284053", 
-                "LINE_4451920", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_1284053|", 
-                "", 
-                "", 
-                [
-                    "LINE_2209996"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7937227", 
-                "LINE_3183696", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [
-                    {
-                        "Action": "ActionCustomScript", 
-                        "FunctionName": "OpenVendor", 
-                        "SpeakerTag": "<OWNER>"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9221434", 
-                "LINE_8995665", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_9221434|", 
-                "", 
-                "", 
-                [
-                    "LINE_2680774"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2680774", 
-                "LINE_9221434", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_2680774|", 
-                "", 
-                "", 
-                [
-                    "LINE_7634631", 
-                    "LINE_4596867", 
-                    "LINE_2456440"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7634631", 
-                "LINE_2680774", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_7634631|", 
-                "", 
-                "", 
-                [
-                    "LINE_5382638"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4596867", 
-                "LINE_2680774", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_4596867|", 
-                "", 
-                "", 
-                [
-                    "LINE_6356388"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2456440", 
-                "LINE_2680774", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_2456440|", 
-                "", 
-                "", 
-                [
-                    "LINE_7889398"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5382638", 
-                "LINE_7634631", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_5382638|", 
-                "", 
-                "", 
-                [
-                    "LINE_6356388"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6356388", 
-                "LINE_5382638", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_6356388|", 
-                "", 
-                "", 
-                [
-                    "LINE_6696941"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_Start", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6696941", 
-                "LINE_6356388", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_6696941|", 
-                "", 
-                "", 
-                [
-                    "LINE_7001797", 
-                    "LINE_9884948", 
-                    "LINE_0418857", 
-                    "LINE_0171605"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7001797", 
-                "LINE_6696941", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_7001797|", 
-                "", 
-                "", 
-                [
-                    "LINE_7033335"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7033335", 
-                "LINE_7001797", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_7033335|", 
-                "", 
-                "", 
-                [
-                    "LINE_0418857", 
-                    "LINE_0171605"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_0418857", 
-                "LINE_6696941", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_0418857|", 
-                "", 
-                "", 
-                [
-                    "LINE_0653959"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_0653959", 
-                "LINE_0418857", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_0653959|", 
-                "", 
-                "", 
-                [
-                    "LINE_3699866"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_0171605", 
-                "LINE_6696941", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_0171605|", 
-                "", 
-                "BK rewrote \"I don't feel comfortable about this.\" because I don't see why the player would be UNCOMFORTABLE... it's just grabbing a few gems.", 
-                [
-                    "LINE_9629321"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9629321", 
-                "LINE_0171605", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_9629321|", 
-                "", 
-                "", 
-                [
-                    "LINE_3699866"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3699866", 
-                "LINE_0653959", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_3699866|", 
-                "", 
-                "", 
-                [
-                    "LINE_3183696", 
-                    "LINE_9884948", 
-                    "LINE_5423257"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7889398", 
-                "LINE_2456440", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_7889398|", 
-                "", 
-                "", 
-                [
-                    "LINE_6356388"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9884948", 
-                "LINE_1997337", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_9884948|", 
-                "", 
-                "", 
-                [
-                    "LINE_1623279"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "MR_SQ_Start", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }, 
-                            {
-                                "item": {
-                                    "Resource": "MarkedRubies_SQ_MarkedRuby", 
-                                    "Type": "HasItem", 
-                                    "ResourceCount": 1
-                                }, 
-                                "type": "item"
-                            }, 
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn10", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1623279", 
-                "LINE_9884948", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_3308690", 
-                    "LINE_7496897", 
-                    "LINE_8412932", 
-                    "LINE_3079693", 
-                    "LINE_9381675", 
-                    "LINE_6364729", 
-                    "LINE_4635510", 
-                    "LINE_5798007", 
-                    "LINE_8081336", 
-                    "LINE_8648171"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [
-                    "Misc:MarkedRubies_SQ_MarkedRuby"
-                ], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1667368", 
-                "LINE_3308690", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_1667368|", 
-                "", 
-                "", 
-                [
-                    "LINE_3183696", 
-                    "LINE_9884948", 
-                    "LINE_8251894", 
-                    "LINE_5423257"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3308690", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_3308690|", 
-                "", 
-                "", 
-                [
-                    "LINE_1667368"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn1", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 500", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn1", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [
-                    "Gear:RingOfProtection"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7496897", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_7496897|", 
-                "", 
-                "", 
-                [
-                    "LINE_1667368"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn2", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 500", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn2", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [
-                    "Consumable:Consumable_SelfRevivePotion", 
-                    "Consumable:Consumable_SelfRevivePotion", 
-                    "Consumable:Consumable_SelfRevivePotion"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8412932", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_8412932|", 
-                "", 
-                "", 
-                [
-                    "LINE_1667368"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn3", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 2000", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn3", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3079693", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_3079693|", 
-                "", 
-                "", 
-                [
-                    "LINE_1667368"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn4", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 800", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn4", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [
-                    "Weapon:CleansingSpear"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9381675", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_9381675|", 
-                "", 
-                "", 
-                [
-                    "LINE_1667368"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn5", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 800", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn5", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [
-                    "Consumable:Consumable_PotionOfColdResist", 
-                    "Consumable:Consumable_PotionOfColdResist", 
-                    "Consumable:Consumable_PotionOfFireResist", 
-                    "Consumable:Consumable_PotionOfFireResist"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6364729", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_6364729|", 
-                "", 
-                "", 
-                [
-                    "LINE_1667368"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn6", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 1000", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn6", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [
-                    "Armor:CloudGiantBelt"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4635510", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_4635510|", 
-                "", 
-                "", 
-                [
-                    "LINE_1667368"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn7", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 1000", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn7", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [
-                    "Consumable:Consumable_PotionOfFireBreath", 
-                    "Consumable:Consumable_PotionOfFireBreath", 
-                    "Consumable:Consumable_PotionOfHeroism", 
-                    "Consumable:Consumable_PotionOfHeroism", 
-                    "Consumable:Consumable_PotionOfInvulnerability"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5798007", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_5798007|", 
-                "", 
-                "", 
-                [
-                    "LINE_1667368"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn8", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 1500", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn8", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [
-                    "Gear:RingOfEarth"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8081336", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_8081336|", 
-                "", 
-                "", 
-                [
-                    "LINE_1667368"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn9", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 1500", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn9", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [
-                    "Consumable:Consumable_ElixirOfConstitution"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8648171", 
-                "LINE_1623279", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_8648171|", 
-                "", 
-                "", 
-                [
-                    "LINE_6419927"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "MR_SQ_TurnedIn10", 
-                        "Quest": "MarkedRubies_SQ", 
-                        "FlagState": "Set"
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AddGold 2500", 
-                        "SpeakerTag": "<PLAYER>"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "MR_SQ_TurnedIn10", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [
-                    "Gear:MarkedRing"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8251894", 
-                "LINE_1997337", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_8251894|", 
-                "", 
-                "", 
-                [
-                    "LINE_8322276"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "MR_SQ_TurnedIn10", 
-                                    "Quest": "MarkedRubies_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6419927", 
-                "LINE_8648171", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_6419927|", 
-                "", 
-                "BK emanating was spelled wrong so I rewrote the entire second sentence :)\n[He hands you a ring with the same black marking as the gems. You sense an unsettling power emenating from it.]", 
-                [
-                    "LINE_1667368"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8322276", 
-                "LINE_8251894", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_8322276|", 
-                "", 
-                "", 
-                [
-                    "LINE_4561207", 
-                    "LINE_0841456"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4561207", 
-                "LINE_8322276", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_4561207|", 
-                "", 
-                "", 
-                [
-                    "LINE_7937227"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_0841456", 
-                "LINE_8322276", 
-                "<PLAYER>", 
-                "|CutlassAmbient_CH3_LINE_0841456|", 
-                "", 
-                "", 
-                [
-                    "LINE_4073408"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4073408", 
-                "LINE_0841456", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_4073408|", 
-                "", 
-                "", 
-                [
-                    "LINE_1634643"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1997337", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_1997337|", 
-                "", 
-                "BK edit", 
-                [
-                    "LINE_2240952", 
-                    "LINE_9884948", 
-                    "LINE_8251894", 
-                    "LINE_3183696", 
-                    "LINE_5423257"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ]
-        ], 
-        [
-            {
-                "NeedsVO": "False", 
+                },
+                "ELock": "False",
                 "EventScripts": {
                     "OnClose": ""
-                }, 
-                "Name": "Loadas CH3", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "True", 
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Adrik CH3",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8995665",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_8995665|",
+                "",
+                "",
+                [
+                    "LINE_9221434"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_Start",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_TMOM_TakePortal",
+                                    "FlagState": "true",
+                                    "Quest": "C2.3_The_Mind_Of_Madness",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2240952",
+                "LINE_1997337",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_2240952|",
+                "",
+                "",
+                [
+                    "LINE_4451920"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3183696",
+                "LINE_1997337",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_3183696|",
+                "",
+                "",
+                [
+                    "LINE_7937227"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5423257",
+                "LINE_1997337",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_5423257|",
+                "",
+                "",
+                [
+                    "LINE_2209996"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2209996",
+                "LINE_5423257",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_2209996|",
+                "",
+                "",
+                [
+                    "LINE_1634643"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1634643",
+                "LINE_2209996",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4451920",
+                "LINE_2240952",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_4451920|",
+                "",
+                "BK rewrote \"The name's Adrik Ironcross, and I have a bit of a talent for procuring some... special items.\"",
+                [
+                    "LINE_4446600",
+                    "LINE_1284053"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4446600",
+                "LINE_4451920",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_4446600|",
+                "",
+                "",
+                [
+                    "LINE_7937227"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1284053",
+                "LINE_4451920",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_1284053|",
+                "",
+                "",
+                [
+                    "LINE_2209996"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7937227",
+                "LINE_3183696",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9221434",
+                "LINE_8995665",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_9221434|",
+                "",
+                "",
+                [
+                    "LINE_2680774"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2680774",
+                "LINE_9221434",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_2680774|",
+                "",
+                "",
+                [
+                    "LINE_7634631",
+                    "LINE_4596867",
+                    "LINE_2456440"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7634631",
+                "LINE_2680774",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_7634631|",
+                "",
+                "",
+                [
+                    "LINE_5382638"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4596867",
+                "LINE_2680774",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_4596867|",
+                "",
+                "",
+                [
+                    "LINE_6356388"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2456440",
+                "LINE_2680774",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_2456440|",
+                "",
+                "",
+                [
+                    "LINE_7889398"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5382638",
+                "LINE_7634631",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_5382638|",
+                "",
+                "",
+                [
+                    "LINE_6356388"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6356388",
+                "LINE_5382638",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_6356388|",
+                "",
+                "",
+                [
+                    "LINE_6696941"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_Start",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6696941",
+                "LINE_6356388",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_6696941|",
+                "",
+                "",
+                [
+                    "LINE_7001797",
+                    "LINE_9884948",
+                    "LINE_0418857",
+                    "LINE_0171605"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7001797",
+                "LINE_6696941",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_7001797|",
+                "",
+                "",
+                [
+                    "LINE_7033335"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7033335",
+                "LINE_7001797",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_7033335|",
+                "",
+                "",
+                [
+                    "LINE_0418857",
+                    "LINE_0171605"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0418857",
+                "LINE_6696941",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_0418857|",
+                "",
+                "",
+                [
+                    "LINE_0653959"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0653959",
+                "LINE_0418857",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_0653959|",
+                "",
+                "",
+                [
+                    "LINE_3699866"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0171605",
+                "LINE_6696941",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_0171605|",
+                "",
+                "BK rewrote \"I don't feel comfortable about this.\" because I don't see why the player would be UNCOMFORTABLE... it's just grabbing a few gems.",
+                [
+                    "LINE_9629321"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9629321",
+                "LINE_0171605",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_9629321|",
+                "",
+                "",
+                [
+                    "LINE_3699866"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3699866",
+                "LINE_0653959",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_3699866|",
+                "",
+                "",
+                [
+                    "LINE_3183696",
+                    "LINE_9884948",
+                    "LINE_5423257"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7889398",
+                "LINE_2456440",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_7889398|",
+                "",
+                "",
+                [
+                    "LINE_6356388"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9884948",
+                "LINE_1997337",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_9884948|",
+                "",
+                "",
+                [
+                    "LINE_1623279"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_Start",
+                                    "FlagState": "true",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Resource": "MarkedRubies_SQ_MarkedRuby",
+                                    "ResourceCount": 1,
+                                    "Type": "HasItem"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn10",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1623279",
+                "LINE_9884948",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_3308690",
+                    "LINE_7496897",
+                    "LINE_8412932",
+                    "LINE_3079693",
+                    "LINE_9381675",
+                    "LINE_6364729",
+                    "LINE_4635510",
+                    "LINE_5798007",
+                    "LINE_8081336",
+                    "LINE_8648171"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                    "Misc:MarkedRubies_SQ_MarkedRuby"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1667368",
+                "LINE_3308690",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_1667368|",
+                "",
+                "",
+                [
+                    "LINE_3183696",
+                    "LINE_9884948",
+                    "LINE_8251894",
+                    "LINE_5423257"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3308690",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_3308690|",
+                "",
+                "",
+                [
+                    "LINE_1667368"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn1",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 500",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn1",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Gear:RingOfProtection"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7496897",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_7496897|",
+                "",
+                "",
+                [
+                    "LINE_1667368"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn2",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 500",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn2",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Consumable:Consumable_SelfRevivePotion",
+                    "Consumable:Consumable_SelfRevivePotion",
+                    "Consumable:Consumable_SelfRevivePotion"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8412932",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_8412932|",
+                "",
+                "",
+                [
+                    "LINE_1667368"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn3",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 2000",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn3",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3079693",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_3079693|",
+                "",
+                "",
+                [
+                    "LINE_1667368"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn4",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 800",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn4",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Weapon:CleansingSpear"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9381675",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_9381675|",
+                "",
+                "",
+                [
+                    "LINE_1667368"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn5",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 800",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn5",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Consumable:Consumable_PotionOfColdResist",
+                    "Consumable:Consumable_PotionOfColdResist",
+                    "Consumable:Consumable_PotionOfFireResist",
+                    "Consumable:Consumable_PotionOfFireResist"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6364729",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_6364729|",
+                "",
+                "",
+                [
+                    "LINE_1667368"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn6",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 1000",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn6",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Armor:CloudGiantBelt"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4635510",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_4635510|",
+                "",
+                "",
+                [
+                    "LINE_1667368"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn7",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 1000",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn7",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Consumable:Consumable_PotionOfFireBreath",
+                    "Consumable:Consumable_PotionOfFireBreath",
+                    "Consumable:Consumable_PotionOfHeroism",
+                    "Consumable:Consumable_PotionOfHeroism",
+                    "Consumable:Consumable_PotionOfInvulnerability"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5798007",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_5798007|",
+                "",
+                "",
+                [
+                    "LINE_1667368"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn8",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 1500",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn8",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Gear:RingOfEarth"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8081336",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_8081336|",
+                "",
+                "",
+                [
+                    "LINE_1667368"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn9",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 1500",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn9",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Consumable:Consumable_ElixirOfConstitution"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8648171",
+                "LINE_1623279",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_8648171|",
+                "",
+                "",
+                [
+                    "LINE_6419927"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "MR_SQ_TurnedIn10",
+                        "FlagState": "Set",
+                        "Quest": "MarkedRubies_SQ"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 2500",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn10",
+                                    "FlagState": "false",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Gear:MarkedRing"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8251894",
+                "LINE_1997337",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_8251894|",
+                "",
+                "",
+                [
+                    "LINE_8322276"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "MR_SQ_TurnedIn10",
+                                    "FlagState": "true",
+                                    "Quest": "MarkedRubies_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6419927",
+                "LINE_8648171",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_6419927|",
+                "",
+                "BK emanating was spelled wrong so I rewrote the entire second sentence :)\n[He hands you a ring with the same black marking as the gems. You sense an unsettling power emenating from it.]",
+                [
+                    "LINE_1667368"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8322276",
+                "LINE_8251894",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_8322276|",
+                "",
+                "",
+                [
+                    "LINE_4561207",
+                    "LINE_0841456"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4561207",
+                "LINE_8322276",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_4561207|",
+                "",
+                "",
+                [
+                    "LINE_7937227"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0841456",
+                "LINE_8322276",
+                "<PLAYER>",
+                "|CutlassAmbient_CH3_LINE_0841456|",
+                "",
+                "",
+                [
+                    "LINE_4073408"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4073408",
+                "LINE_0841456",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_4073408|",
+                "",
+                "",
+                [
+                    "LINE_1634643"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1997337",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_1997337|",
+                "",
+                "BK edit",
+                [
+                    "LINE_2240952",
+                    "LINE_9884948",
+                    "LINE_8251894",
+                    "LINE_3183696",
+                    "LINE_5423257"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
                 "Defaults": {
                     "Speaker": ""
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Loadas CH3",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_1451152", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|CutlassAmbient_CH3_LINE_1451152|", 
-                "", 
-                "", 
+                "LINE_1451152",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|CutlassAmbient_CH3_LINE_1451152|",
+                "",
+                "",
                 [
                     "LINE_7352499"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7352499", 
-                "LINE_1451152", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_7352499",
+                "LINE_1451152",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

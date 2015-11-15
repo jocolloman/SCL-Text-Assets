@@ -1,456 +1,456 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NoMusic": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "Ch1_BanditCave_Division", 
-                "NoBegFade": "False", 
-                "NeedsVO": "True", 
-                "NoPlayerWarp": "False", 
-                "IsFinal": "True", 
-                "IsStoryCritical": "True", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": ""
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "True",
+                "IsStoryCritical": "True",
+                "Name": "Ch1_BanditCave_Division",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_3159289", 
-                "<ROOT>", 
-                "ILLYDIA", 
-                "|Ch1_BanditCave_Division_LINE_3159289|", 
-                "", 
-                "", 
+                "LINE_3159289",
+                "<ROOT>",
+                "ILLYDIA",
+                "|Ch1_BanditCave_Division_LINE_3159289|",
+                "",
+                "",
                 [
                     "LINE_1501638"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C1_AT_GoblinLetterExamined", 
-                        "Quest": "C1.2_After_Them", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C1_AT_GoblinLetterExamined",
+                        "FlagState": "Set",
+                        "Quest": "C1.2_After_Them"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "C1_AT_GoblinLetterExamined", 
-                                    "Quest": "C1.2_After_Them", 
+                                    "Flag": "C1_AT_GoblinLetterExamined",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1501638", 
-                "LINE_3159289", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_Division_LINE_1501638|", 
-                "", 
-                "", 
+                "LINE_1501638",
+                "LINE_3159289",
+                "LARETHAR",
+                "|Ch1_BanditCave_Division_LINE_1501638|",
+                "",
+                "",
                 [
-                    "LINE_8931427", 
-                    "LINE_9530461", 
+                    "LINE_8931427",
+                    "LINE_9530461",
                     "LINE_8659733"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8931427", 
-                "LINE_1501638", 
-                "<PLAYER>", 
-                "|Ch1_BanditCave_Division_LINE_8931427|", 
-                "", 
-                "", 
+                "LINE_8931427",
+                "LINE_1501638",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Division_LINE_8931427|",
+                "",
+                "",
                 [
                     "LINE_5544558"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9530461", 
-                "LINE_1501638", 
-                "<PLAYER>", 
-                "|Ch1_BanditCave_Division_LINE_9530461|", 
-                "", 
-                "", 
+                "LINE_9530461",
+                "LINE_1501638",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Division_LINE_9530461|",
+                "",
+                "",
                 [
                     "LINE_9751459"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8659733", 
-                "LINE_1501638", 
-                "<PLAYER>", 
-                "|Ch1_BanditCave_Division_LINE_8659733|", 
-                "", 
-                "", 
+                "LINE_8659733",
+                "LINE_1501638",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Division_LINE_8659733|",
+                "",
+                "",
                 [
                     "LINE_1745102"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "is true", 
-                                    "Flag": "Ch1_SQ_ArtifactFound", 
-                                    "Quest": "Ch1_SQ_GoblinArtifact", 
+                                    "Flag": "Ch1_SQ_ArtifactFound",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_GoblinArtifact",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1745102", 
-                "LINE_8659733", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_Division_LINE_1745102|", 
-                "", 
-                "BK: Know -> Known, deal -> bargain", 
+                "LINE_1745102",
+                "LINE_8659733",
+                "LARETHAR",
+                "|Ch1_BanditCave_Division_LINE_1745102|",
+                "",
+                "BK: Know -> Known, deal -> bargain",
                 [
                     "LINE_9693460"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9751459", 
-                "LINE_9530461", 
-                "ILLYDIA", 
-                "|Ch1_BanditCave_Division_LINE_9751459|", 
-                "", 
-                "", 
+                "LINE_9751459",
+                "LINE_9530461",
+                "ILLYDIA",
+                "|Ch1_BanditCave_Division_LINE_9751459|",
+                "",
+                "",
                 [
                     "LINE_7200404"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7200404", 
-                "LINE_9751459", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_7200404",
+                "LINE_9751459",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5544558", 
-                "LINE_8931427", 
-                "LARETHAR", 
-                "|Ch1_BanditCave_Division_LINE_5544558|", 
-                "", 
-                "TEXT: It's true. My Uncle Norris got along with everyone, he was near famous for it. Got killed by goblins on the road to Neverwinter. Heard he offered to buy them a round before they filled him with arrows.\n\nBK: Last sentence seems to be referring to a group of goblins, so tweaked middle sentence to match.", 
+                "LINE_5544558",
+                "LINE_8931427",
+                "LARETHAR",
+                "|Ch1_BanditCave_Division_LINE_5544558|",
+                "",
+                "TEXT: It's true. My Uncle Norris got along with everyone, he was near famous for it. Got killed by goblins on the road to Neverwinter. Heard he offered to buy them a round before they filled him with arrows.\n\nBK: Last sentence seems to be referring to a group of goblins, so tweaked middle sentence to match.",
                 [
-                    "LINE_9530461", 
+                    "LINE_9530461",
                     "LINE_8659733"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9693460", 
-                "LINE_1745102", 
-                "ILLYDIA", 
-                "|Ch1_BanditCave_Division_LINE_9693460|", 
-                "", 
-                "", 
+                "LINE_9693460",
+                "LINE_1745102",
+                "ILLYDIA",
+                "|Ch1_BanditCave_Division_LINE_9693460|",
+                "",
+                "",
                 [
                     "LINE_7200404"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1997765", 
-                "<ROOT>", 
-                "RPE", 
-                "|Ch1_BanditCave_Division_LINE_1997765|", 
-                "", 
-                "", 
+                "LINE_1997765",
+                "<ROOT>",
+                "RPE",
+                "|Ch1_BanditCave_Division_LINE_1997765|",
+                "",
+                "",
                 [
                     "LINE_7200404"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C1_AT_GoblinLetterExamined", 
-                        "Quest": "C1.2_After_Them", 
-                        "FlagState": "set"
+                        "Action": "ActionQuest",
+                        "Flag": "C1_AT_GoblinLetterExamined",
+                        "FlagState": "set",
+                        "Quest": "C1.2_After_Them"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "C1_AT_GoblinLetterExamined", 
-                                    "Quest": "C1.2_After_Them", 
+                                    "Flag": "C1_AT_GoblinLetterExamined",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

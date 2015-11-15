@@ -1,308 +1,308 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NeedsVO": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "ForestIntro", 
-                "NoBegFade": "False", 
-                "NoMusic": "False", 
-                "NoPlayerWarp": "False", 
-                "IsFinal": "False", 
-                "IsStoryCritical": "True", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": ""
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "ForestIntro",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_0298602", 
-                "<ROOT>", 
-                "JARHILD", 
-                "|Ch2_ChapterhouseForest_Intro_LINE_0298602|", 
-                "", 
-                "Bk correct speaker tags though I'm not sure this dialog uses.", 
+                "LINE_0298602",
+                "<ROOT>",
+                "JARHILD",
+                "|Ch2_ChapterhouseForest_Intro_LINE_0298602|",
+                "",
+                "Bk correct speaker tags though I'm not sure this dialog uses.",
                 [
                     "LINE_5097923"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5097923", 
-                "LINE_0298602", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
+                "LINE_5097923",
+                "LINE_0298602",
+                "<SKIP>",
+                "",
+                "",
+                "",
                 [
                     "LINE_8870107"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8870107", 
-                "LINE_5097923", 
-                "LARETHAR", 
-                "|Ch2_ChapterhouseForest_Intro_LINE_8870107|", 
-                "", 
-                "", 
+                "LINE_8870107",
+                "LINE_5097923",
+                "LARETHAR",
+                "|Ch2_ChapterhouseForest_Intro_LINE_8870107|",
+                "",
+                "",
                 [
                     "LINE_9801899"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9801899", 
-                "LINE_8870107", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
+                "LINE_9801899",
+                "LINE_8870107",
+                "<SKIP>",
+                "",
+                "",
+                "",
                 [
                     "LINE_1077512"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1077512", 
-                "LINE_9801899", 
-                "JARHILD", 
-                "|Ch2_ChapterhouseForest_Intro_LINE_1077512|", 
-                "", 
-                "", 
+                "LINE_1077512",
+                "LINE_9801899",
+                "JARHILD",
+                "|Ch2_ChapterhouseForest_Intro_LINE_1077512|",
+                "",
+                "",
                 [
                     "LINE_4118659"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4118659", 
-                "LINE_1077512", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
+                "LINE_4118659",
+                "LINE_1077512",
+                "<SKIP>",
+                "",
+                "",
+                "",
                 [
                     "LINE_2215710"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2215710", 
-                "LINE_4118659", 
-                "ILLYDIA", 
-                "|Ch2_ChapterhouseForest_Intro_LINE_2215710|", 
-                "", 
-                "", 
+                "LINE_2215710",
+                "LINE_4118659",
+                "ILLYDIA",
+                "|Ch2_ChapterhouseForest_Intro_LINE_2215710|",
+                "",
+                "",
                 [
                     "LINE_1656702"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1656702", 
-                "LINE_2215710", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
-                [], 
+                "LINE_1656702",
+                "LINE_2215710",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "CS_SLOTD_EnterForest", 
-                        "Quest": "C2.4_Shining_Light_On_The_Dawn", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "CS_SLOTD_EnterForest",
+                        "FlagState": "Set",
+                        "Quest": "C2.4_Shining_Light_On_The_Dawn"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

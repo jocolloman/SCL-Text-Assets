@@ -1,202 +1,202 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NeedsVO": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "CaptiveUmberHulk", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "True", 
                 "Defaults": {
                     "Speaker": "DROWHULK"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "True"
-            }, 
-            [
-                "LINE_4424546", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch4_CaptiveUmberHulk_LINE_4424546|", 
-                "", 
-                "BK spell fix", 
-                [
-                    "LINE_3129584"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3129584", 
-                "LINE_4424546", 
-                "<DEFAULT>", 
-                "|Ch4_CaptiveUmberHulk_LINE_3129584|", 
-                "", 
-                "", 
-                [
-                    "LINE_1093548"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1093548", 
-                "LINE_3129584", 
-                "<DEFAULT>", 
-                "|Ch4_CaptiveUmberHulk_LINE_1093548|", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ]
-        ], 
-        [
-            {
-                "NeedsVO": "False", 
+                },
+                "ELock": "True",
                 "EventScripts": {
                     "OnClose": ""
-                }, 
-                "Name": "CONV_1973", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "False", 
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "CaptiveUmberHulk",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_4424546",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch4_CaptiveUmberHulk_LINE_4424546|",
+                "",
+                "BK spell fix",
+                [
+                    "LINE_3129584"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3129584",
+                "LINE_4424546",
+                "<DEFAULT>",
+                "|Ch4_CaptiveUmberHulk_LINE_3129584|",
+                "",
+                "",
+                [
+                    "LINE_1093548"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1093548",
+                "LINE_3129584",
+                "<DEFAULT>",
+                "|Ch4_CaptiveUmberHulk_LINE_1093548|",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
                 "Defaults": {
                     "Speaker": ""
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False"
+                },
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "CONV_1973",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
             }
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

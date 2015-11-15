@@ -1,1670 +1,1670 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NoMusic": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "FoundKeyConvo", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "IsStoryCritical": "True", 
-                "NeedsVO": "True", 
-                "IsAmbient": "True", 
                 "Defaults": {
                     "Speaker": "LARETHAR"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "True"
-            }, 
-            [
-                "LINE_1699835", 
-                "<ROOT>", 
-                "LARETHAR", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_1699835|", 
-                "", 
-                "", 
-                [
-                    "LINE_3594650", 
-                    "LINE_3638015"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3594650", 
-                "LINE_1699835", 
-                "ILLYDIA", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_3594650|", 
-                "", 
-                "", 
-                [
-                    "LINE_8642130"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8642130", 
-                "LINE_3594650", 
-                "<SKIP>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4509428", 
-                "<ROOT>", 
-                "JARHILD", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_4509428|", 
-                "", 
-                "", 
-                [
-                    "LINE_3638015", 
-                    "LINE_3594650"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3638015", 
-                "LINE_4509428", 
-                "HOMMET", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_3638015|", 
-                "", 
-                "", 
-                [
-                    "LINE_8642130"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3493142", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                false, 
-                false, 
-                false, 
-                false
-            ]
-        ], 
-        [
-            {
-                "NoMusic": "False", 
+                },
+                "ELock": "True",
                 "EventScripts": {
                     "OnClose": ""
-                }, 
-                "Name": "FoundPapers", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "IsStoryCritical": "True", 
-                "NeedsVO": "True", 
-                "IsAmbient": "False", 
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "FoundKeyConvo",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_1699835",
+                "<ROOT>",
+                "LARETHAR",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_1699835|",
+                "",
+                "",
+                [
+                    "LINE_3594650",
+                    "LINE_3638015"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3594650",
+                "LINE_1699835",
+                "ILLYDIA",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_3594650|",
+                "",
+                "",
+                [
+                    "LINE_8642130"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8642130",
+                "LINE_3594650",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4509428",
+                "<ROOT>",
+                "JARHILD",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_4509428|",
+                "",
+                "",
+                [
+                    "LINE_3638015",
+                    "LINE_3594650"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3638015",
+                "LINE_4509428",
+                "HOMMET",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_3638015|",
+                "",
+                "",
+                [
+                    "LINE_8642130"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3493142",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                false,
+                false,
+                false
+            ]
+        ],
+        [
+            {
                 "Defaults": {
                     "Speaker": "ILLYDIA"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "True"
-            }, 
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "FoundPapers",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_5886692", 
-                "<ROOT>", 
-                "HOMMET", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_5886692|", 
-                "", 
-                "", 
+                "LINE_5886692",
+                "<ROOT>",
+                "HOMMET",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_5886692|",
+                "",
+                "",
                 [
                     "LINE_3857426"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3857426", 
-                "LINE_3350074", 
-                "JAVEN", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_3857426|", 
-                "", 
-                "", 
+                "LINE_3857426",
+                "LINE_3350074",
+                "JAVEN",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_3857426|",
+                "",
+                "",
                 [
-                    "LINE_6353942", 
+                    "LINE_6353942",
                     "LINE_0896966"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "True", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "True",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_6353942", 
-                "LINE_3857426", 
-                "ILLYDIA", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_6353942|", 
-                "", 
-                "", 
+                "LINE_6353942",
+                "LINE_3857426",
+                "ILLYDIA",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_6353942|",
+                "",
+                "",
                 [
-                    "LINE_0876166", 
+                    "LINE_0876166",
                     "LINE_4425966"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0876166", 
-                "LINE_6353942", 
-                "JARHILD", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_0876166|", 
-                "", 
-                "", 
+                "LINE_0876166",
+                "LINE_6353942",
+                "JARHILD",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_0876166|",
+                "",
+                "",
                 [
                     "LINE_4425966"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4425966", 
-                "LINE_0876166", 
-                "JAVEN", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_4425966|", 
-                "", 
-                "", 
+                "LINE_4425966",
+                "LINE_0876166",
+                "JAVEN",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_4425966|",
+                "",
+                "",
                 [
-                    "LINE_0526046", 
+                    "LINE_0526046",
                     "LINE_4235021"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "True", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "True",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0526046", 
-                "LINE_4425966", 
-                "ILLYDIA", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_0526046|", 
-                "", 
-                "", 
+                "LINE_0526046",
+                "LINE_4425966",
+                "ILLYDIA",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_0526046|",
+                "",
+                "",
                 [
-                    "LINE_3266006", 
+                    "LINE_3266006",
                     "LINE_2034754"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3266006", 
-                "LINE_0526046", 
-                "JARHILD", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_3266006|", 
-                "", 
-                "", 
+                "LINE_3266006",
+                "LINE_0526046",
+                "JARHILD",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_3266006|",
+                "",
+                "",
                 [
                     "LINE_2034754"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2034754", 
-                "LINE_3266006", 
-                "JAVEN", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_2034754|", 
-                "", 
-                "", 
+                "LINE_2034754",
+                "LINE_3266006",
+                "JAVEN",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_2034754|",
+                "",
+                "",
                 [
-                    "LINE_5489026", 
+                    "LINE_5489026",
                     "LINE_7021352"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "True", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "True",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5489026", 
-                "LINE_2034754", 
-                "JARHILD", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_5489026|", 
-                "", 
-                "", 
+                "LINE_5489026",
+                "LINE_2034754",
+                "JARHILD",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_5489026|",
+                "",
+                "",
                 [
                     "LINE_3996886"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3996886", 
-                "LINE_5489026", 
-                "JAVEN", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_3996886|", 
-                "", 
-                "BK: Did not touch this line but \"highest prejudice\" seems like it could be something else.\nBK: WOTC: Removed Realms mention here.", 
+                "LINE_3996886",
+                "LINE_5489026",
+                "JAVEN",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_3996886|",
+                "",
+                "BK: Did not touch this line but \"highest prejudice\" seems like it could be something else.\nBK: WOTC: Removed Realms mention here.",
                 [
-                    "LINE_2386518", 
+                    "LINE_2386518",
                     "LINE_0250388"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "True", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "True",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2386518", 
-                "LINE_3996886", 
-                "ILLYDIA", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_2386518|", 
-                "", 
-                "BK: cut a just", 
+                "LINE_2386518",
+                "LINE_3996886",
+                "ILLYDIA",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_2386518|",
+                "",
+                "BK: cut a just",
                 [
-                    "LINE_4182125", 
+                    "LINE_4182125",
                     "LINE_0485089"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4182125", 
-                "LINE_2386518", 
-                "JARHILD", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_4182125|", 
-                "", 
-                "", 
+                "LINE_4182125",
+                "LINE_2386518",
+                "JARHILD",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_4182125|",
+                "",
+                "",
                 [
                     "LINE_5697658"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3350074", 
-                "<ROOT>", 
-                "ILLYDIA", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_3350074|", 
-                "", 
-                "", 
+                "LINE_3350074",
+                "<ROOT>",
+                "ILLYDIA",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_3350074|",
+                "",
+                "",
                 [
                     "LINE_3857426"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0896966", 
-                "LINE_3857426", 
-                "JARHILD", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_0896966|", 
-                "", 
-                "", 
+                "LINE_0896966",
+                "LINE_3857426",
+                "JARHILD",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_0896966|",
+                "",
+                "",
                 [
-                    "LINE_4132383", 
+                    "LINE_4132383",
                     "LINE_4425966"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4132383", 
-                "LINE_0896966", 
-                "LARETHAR", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_4132383|", 
-                "", 
-                "", 
+                "LINE_4132383",
+                "LINE_0896966",
+                "LARETHAR",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_4132383|",
+                "",
+                "",
                 [
                     "LINE_4425966"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4235021", 
-                "LINE_4425966", 
-                "HOMMET", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_4235021|", 
-                "", 
-                "", 
+                "LINE_4235021",
+                "LINE_4425966",
+                "HOMMET",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_4235021|",
+                "",
+                "",
                 [
-                    "LINE_3266006", 
+                    "LINE_3266006",
                     "LINE_2034754"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7021352", 
-                "LINE_2034754", 
-                "LARETHAR", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_7021352|", 
-                "", 
-                "", 
+                "LINE_7021352",
+                "LINE_2034754",
+                "LARETHAR",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_7021352|",
+                "",
+                "",
                 [
                     "LINE_3996886"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0250388", 
-                "LINE_3996886", 
-                "HOMMET", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_0250388|", 
-                "", 
-                "BK: dropped the \" under duress\" seemed to weaken the main thrust of the sentence. \"a  prisoner told them\"", 
+                "LINE_0250388",
+                "LINE_3996886",
+                "HOMMET",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_0250388|",
+                "",
+                "BK: dropped the \" under duress\" seemed to weaken the main thrust of the sentence. \"a  prisoner told them\"",
                 [
                     "LINE_4182125"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0485089", 
-                "LINE_2386518", 
-                "LARETHAR", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_0485089|", 
-                "", 
-                "", 
+                "LINE_0485089",
+                "LINE_2386518",
+                "LARETHAR",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_0485089|",
+                "",
+                "",
                 [
-                    "LINE_7999075", 
+                    "LINE_7999075",
                     "LINE_5697658"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7999075", 
-                "LINE_0485089", 
-                "HOMMET", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_7999075|", 
-                "", 
-                "", 
+                "LINE_7999075",
+                "LINE_0485089",
+                "HOMMET",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_7999075|",
+                "",
+                "",
                 [
                     "LINE_5697658"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5697658", 
-                "LINE_7999075", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_5697658",
+                "LINE_7999075",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8968667", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                false, 
-                false, 
-                false, 
+                "LINE_8968667",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                false,
+                false,
                 false
             ]
-        ], 
+        ],
         [
             {
-                "NoMusic": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "EnterBedroom", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "IsStoryCritical": "True", 
-                "NeedsVO": "True", 
-                "IsAmbient": "True", 
                 "Defaults": {
                     "Speaker": "LARETHAR"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "True"
-            }, 
-            [
-                "LINE_0621201", 
-                "<ROOT>", 
-                "JARHILD", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_9669649", 
-                    "LINE_2824753", 
-                    "LINE_8904047"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_CD_EnterChapterhouse", 
-                        "Quest": "C3.1_Chasing_Dawn", 
-                        "FlagState": "Set"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "C3_CD_EnterChapterhouse", 
-                                    "Quest": "C3.1_Chasing_Dawn", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }, 
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "C3_BID_EnteredSecretDoor", 
-                                    "Quest": "C3.05_Breaking_Into_Dawn", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8904047", 
-                "LINE_8161339", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_CD_EnteredTarkimosBedroom", 
-                        "Quest": "C3.1_Chasing_Dawn", 
-                        "FlagState": "Set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6184362", 
-                "<ROOT>", 
-                "JARHILD", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_6184362|", 
-                "", 
-                "JAW: This makes the player want to trash the bedroom... and NONE of the items here are destructible.  Turning this off.", 
-                [
-                    "LINE_8904047"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }, 
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "ALWAYS_TRUE", 
-                                    "Quest": "UtilityQuestFlags", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9669649", 
-                "LINE_0621201", 
-                "LARETHAR", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_9669649|", 
-                "", 
-                "", 
-                [
-                    "LINE_6184362", 
-                    "LINE_8161339"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2824753", 
-                "LINE_0621201", 
-                "HOMMET", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_2824753|", 
-                "", 
-                "", 
-                [
-                    "LINE_6184362", 
-                    "LINE_8161339"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8161339", 
-                "<ROOT>", 
-                "ILLYDIA", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_8161339|", 
-                "", 
-                "", 
-                [
-                    "LINE_8904047"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ]
-        ], 
-        [
-            {
-                "NoMusic": "False", 
+                },
+                "ELock": "True",
                 "EventScripts": {
                     "OnClose": ""
-                }, 
-                "Name": "FoundBarracks", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "IsStoryCritical": "True", 
-                "NeedsVO": "True", 
-                "IsAmbient": "True", 
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "EnterBedroom",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_0621201",
+                "<ROOT>",
+                "JARHILD",
+                "",
+                "",
+                "",
+                [
+                    "LINE_9669649",
+                    "LINE_2824753",
+                    "LINE_8904047"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CD_EnterChapterhouse",
+                        "FlagState": "Set",
+                        "Quest": "C3.1_Chasing_Dawn"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_CD_EnterChapterhouse",
+                                    "FlagState": "false",
+                                    "Quest": "C3.1_Chasing_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_EnteredSecretDoor",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8904047",
+                "LINE_8161339",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CD_EnteredTarkimosBedroom",
+                        "FlagState": "Set",
+                        "Quest": "C3.1_Chasing_Dawn"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6184362",
+                "<ROOT>",
+                "JARHILD",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_6184362|",
+                "",
+                "JAW: This makes the player want to trash the bedroom... and NONE of the items here are destructible.  Turning this off.",
+                [
+                    "LINE_8904047"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "ALWAYS_TRUE",
+                                    "FlagState": "false",
+                                    "Quest": "UtilityQuestFlags",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9669649",
+                "LINE_0621201",
+                "LARETHAR",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_9669649|",
+                "",
+                "",
+                [
+                    "LINE_6184362",
+                    "LINE_8161339"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2824753",
+                "LINE_0621201",
+                "HOMMET",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_2824753|",
+                "",
+                "",
+                [
+                    "LINE_6184362",
+                    "LINE_8161339"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8161339",
+                "<ROOT>",
+                "ILLYDIA",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_8161339|",
+                "",
+                "",
+                [
+                    "LINE_8904047"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
                 "Defaults": {
                     "Speaker": "JARHILD"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "True"
-            }, 
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "FoundBarracks",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_6212286", 
-                "<ROOT>", 
-                "JARHILD", 
-                "", 
-                "", 
-                "", 
+                "LINE_6212286",
+                "<ROOT>",
+                "JARHILD",
+                "",
+                "",
+                "",
                 [
-                    "LINE_2950694", 
+                    "LINE_2950694",
                     "LINE_5720160"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_CD_EnteredBarracks", 
-                        "Quest": "C3.1_Chasing_Dawn", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CD_EnteredBarracks",
+                        "FlagState": "Set",
+                        "Quest": "C3.1_Chasing_Dawn"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9853251", 
-                "LINE_2950694", 
-                "ILLYDIA", 
-                "", 
-                "", 
-                "", 
+                "LINE_9853251",
+                "LINE_2950694",
+                "ILLYDIA",
+                "",
+                "",
+                "",
                 [
-                    "LINE_1734427", 
+                    "LINE_1734427",
                     "LINE_7843339"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "C3_CD_FoundChapterhouseNote", 
-                                    "Quest": "C3.1_Chasing_Dawn", 
+                                    "Flag": "C3_CD_FoundChapterhouseNote",
+                                    "FlagState": "true",
+                                    "Quest": "C3.1_Chasing_Dawn",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1868742", 
-                "LINE_2950694", 
-                "ILLYDIA", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_1868742|", 
-                "", 
-                "", 
+                "LINE_1868742",
+                "LINE_2950694",
+                "ILLYDIA",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_1868742|",
+                "",
+                "",
                 [
                     "LINE_0008746"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2950694", 
-                "LINE_6212286", 
-                "JARHILD", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_2950694|", 
-                "", 
-                "", 
+                "LINE_2950694",
+                "LINE_6212286",
+                "JARHILD",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_2950694|",
+                "",
+                "",
                 [
-                    "LINE_9853251", 
-                    "LINE_1868742", 
+                    "LINE_9853251",
+                    "LINE_1868742",
                     "LINE_3170925"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5720160", 
-                "LINE_6212286", 
-                "LARETHAR", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_5720160|", 
-                "", 
-                "", 
+                "LINE_5720160",
+                "LINE_6212286",
+                "LARETHAR",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_5720160|",
+                "",
+                "",
                 [
-                    "LINE_9853251", 
-                    "LINE_1868742", 
+                    "LINE_9853251",
+                    "LINE_1868742",
                     "LINE_3170925"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1734427", 
-                "LINE_9853251", 
-                "ILLYDIA", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_1734427|", 
-                "", 
-                "", 
-                [], 
-                [], 
+                "LINE_1734427",
+                "LINE_9853251",
+                "ILLYDIA",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_1734427|",
+                "",
+                "",
+                [],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7843339", 
-                "LINE_9853251", 
-                "HOMMET", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_7843339|", 
-                "", 
-                "", 
-                [], 
-                [], 
+                "LINE_7843339",
+                "LINE_9853251",
+                "HOMMET",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_7843339|",
+                "",
+                "",
+                [],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3170925", 
-                "LINE_2950694", 
-                "HOMMET", 
-                "|Ch3_Chapterhouse_BedroomConvos_LINE_3170925|", 
-                "", 
-                "", 
+                "LINE_3170925",
+                "LINE_2950694",
+                "HOMMET",
+                "|Ch3_Chapterhouse_BedroomConvos_LINE_3170925|",
+                "",
+                "",
                 [
                     "LINE_0008746"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0008746", 
-                "LINE_1868742", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_0008746",
+                "LINE_1868742",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

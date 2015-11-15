@@ -1,2152 +1,2152 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NoMusic": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "StatuePuzzleConvo", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "IsStoryCritical": "True", 
-                "NeedsVO": "False", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": "RPE"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "StatuePuzzleConvo",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_4815113", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4815113|", 
-                "", 
-                "", 
+                "LINE_4815113",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4815113|",
+                "",
+                "",
                 [
-                    "LINE_3686106", 
-                    "LINE_3937996", 
-                    "LINE_8976311", 
-                    "LINE_1645025", 
-                    "LINE_5285813", 
+                    "LINE_3686106",
+                    "LINE_3937996",
+                    "LINE_8976311",
+                    "LINE_1645025",
+                    "LINE_5285813",
                     "LINE_1759311"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "Puz_StatEq_PuzSolved", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PuzSolved",
+                                    "FlagState": "false",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3686106", 
-                "LINE_4815113", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3686106|", 
-                "", 
-                "", 
+                "LINE_3686106",
+                "LINE_4815113",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3686106|",
+                "",
+                "",
                 [
                     "LINE_6028693"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3937996", 
-                "LINE_4815113", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3937996|", 
-                "", 
-                "", 
+                "LINE_3937996",
+                "LINE_4815113",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3937996|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1645025", 
-                "LINE_4815113", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1645025|", 
-                "", 
-                "", 
+                "LINE_1645025",
+                "LINE_4815113",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1645025|",
+                "",
+                "",
                 [
                     "LINE_9715237"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionCustomScript", 
-                        "FunctionName": "CheckPuzzleSolution", 
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "CheckPuzzleSolution",
                         "SpeakerTag": "<OWNER>"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1759311", 
-                "LINE_4815113", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1759311|", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_1759311",
+                "LINE_4815113",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1759311|",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9715237", 
-                "LINE_1645025", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
+                "LINE_9715237",
+                "LINE_1645025",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
                 [
-                    "LINE_0964472", 
+                    "LINE_0964472",
                     "LINE_4828621"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0964472", 
-                "LINE_9715237", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0964472|", 
-                "", 
-                "", 
+                "LINE_0964472",
+                "LINE_9715237",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0964472|",
+                "",
+                "",
                 [
                     "LINE_2571996"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PuzSolved", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PuzSolved",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4828621", 
-                "LINE_9715237", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4828621|", 
-                "", 
-                "", 
+                "LINE_4828621",
+                "LINE_9715237",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4828621|",
+                "",
+                "",
                 [
                     "LINE_9203257"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_6028693", 
-                "LINE_3686106", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_6028693|", 
-                "", 
-                "", 
+                "LINE_6028693",
+                "LINE_3686106",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_6028693|",
+                "",
+                "",
                 [
-                    "LINE_8501089", 
-                    "LINE_1705729", 
-                    "LINE_1210202", 
+                    "LINE_8501089",
+                    "LINE_1705729",
+                    "LINE_1210202",
                     "LINE_6274766"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "False", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "False",
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8501089", 
-                "LINE_6028693", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_8501089|", 
-                "", 
-                "", 
+                "LINE_8501089",
+                "LINE_6028693",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_8501089|",
+                "",
+                "",
                 [
                     "LINE_3362380"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "OR",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_HavePlateHelm", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HavePlateHelm",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_HaveCirclet", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveCirclet",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_HaveLeatherHelm", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveLeatherHelm",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "OR", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_6274766", 
-                "LINE_6028693", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_6274766|", 
-                "", 
-                "", 
+                "LINE_6274766",
+                "LINE_6028693",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_6274766|",
+                "",
+                "",
                 [
                     "LINE_4815113"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5382472", 
-                "LINE_3937996", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5382472|", 
-                "", 
-                "", 
+                "LINE_5382472",
+                "LINE_3937996",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5382472|",
+                "",
+                "",
                 [
-                    "LINE_7446917", 
-                    "LINE_5820953", 
-                    "LINE_0775443", 
-                    "LINE_5688123", 
-                    "LINE_0764039", 
-                    "LINE_1733481", 
-                    "LINE_7710643", 
-                    "LINE_3020241", 
-                    "LINE_1896589", 
+                    "LINE_7446917",
+                    "LINE_5820953",
+                    "LINE_0775443",
+                    "LINE_5688123",
+                    "LINE_0764039",
+                    "LINE_1733481",
+                    "LINE_7710643",
+                    "LINE_3020241",
+                    "LINE_1896589",
                     "LINE_5015136"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7446917", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7446917|", 
-                "", 
-                "", 
+                "LINE_7446917",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7446917|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedPlateHelm", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedPlateHelm",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PlacedPlateHelm", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PlacedPlateHelm",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
+                ],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_Helm"
-                ], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5820953", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5820953|", 
-                "", 
-                "", 
+                "LINE_5820953",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5820953|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_Placed1hSword", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_Placed1hSword",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_Placed1hSword", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_Placed1hSword",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
+                ],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_Sword"
-                ], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0775443", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0775443|", 
-                "", 
-                "", 
+                "LINE_0775443",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0775443|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedPlateChest", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedPlateChest",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PlacedPlateChest", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PlacedPlateChest",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
+                ],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_WarriorGem"
-                ], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5688123", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5688123|", 
-                "", 
-                "", 
+                "LINE_5688123",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5688123|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedLeatherHelm", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedLeatherHelm",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PlacedLeatherHelm", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PlacedLeatherHelm",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
+                ],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_RogueHood"
-                ], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0764039", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0764039|", 
-                "", 
-                "", 
+                "LINE_0764039",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0764039|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedDagger", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedDagger",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PlacedDagger", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PlacedDagger",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
+                ],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_Crossbow"
-                ], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1733481", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1733481|", 
-                "", 
-                "", 
+                "LINE_1733481",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1733481|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedLeatherChest", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedLeatherChest",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PlacedLeatherChest", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PlacedLeatherChest",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
+                ],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_RogueGem"
-                ], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3020241", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3020241|", 
-                "", 
-                "", 
+                "LINE_3020241",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3020241|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedStaff", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedStaff",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PlacedStaff", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PlacedStaff",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
+                ],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_Staff"
-                ], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1896589", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1896589|", 
-                "", 
-                "", 
+                "LINE_1896589",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1896589|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedRobe", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedRobe",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PlacedRobe", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PlacedRobe",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
+                ],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_WizardGem"
-                ], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5015136", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5015136|", 
-                "", 
-                "", 
+                "LINE_5015136",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5015136|",
+                "",
+                "",
                 [
                     "LINE_4815113"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1705729", 
-                "LINE_6028693", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1705729|", 
-                "", 
-                "", 
+                "LINE_1705729",
+                "LINE_6028693",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1705729|",
+                "",
+                "",
                 [
                     "LINE_2101793"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "OR",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_HavePlateChest", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HavePlateChest",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_HaveLeatherChest", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveLeatherChest",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_HaveRobe", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveRobe",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "OR", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2101793", 
-                "LINE_1705729", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_2101793|", 
-                "", 
-                "", 
+                "LINE_2101793",
+                "LINE_1705729",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_2101793|",
+                "",
+                "",
                 [
-                    "LINE_1666700", 
-                    "LINE_7473973", 
-                    "LINE_9745728", 
+                    "LINE_1666700",
+                    "LINE_7473973",
+                    "LINE_9745728",
                     "LINE_4418239"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1666700", 
-                "LINE_2101793", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1666700|", 
-                "", 
-                "When you place this item, it means we got the other items back, so set those flags to false.", 
+                "LINE_1666700",
+                "LINE_2101793",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1666700|",
+                "",
+                "When you place this item, it means we got the other items back, so set those flags to false.",
                 [
                     "LINE_4815113"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedPlateChest", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Set"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedPlateChest",
+                        "FlagState": "Set",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedLeatherChest", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedLeatherChest",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedRobe", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedRobe",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_HavePlateChest", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HavePlateChest",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_WarriorGem"
-                ], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7473973", 
-                "LINE_2101793", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7473973|", 
-                "", 
-                "When you place this item, it means we got the other items back, so set those flags to false.", 
+                "LINE_7473973",
+                "LINE_2101793",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7473973|",
+                "",
+                "When you place this item, it means we got the other items back, so set those flags to false.",
                 [
                     "LINE_4815113"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedLeatherChest", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Set"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedLeatherChest",
+                        "FlagState": "Set",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedPlateChest", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedPlateChest",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedRobe", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedRobe",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_HaveLeatherChest", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveLeatherChest",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_RogueGem"
-                ], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9745728", 
-                "LINE_2101793", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_9745728|", 
-                "", 
-                "When you place this item, it means we got the other items back, so set those flags to false.", 
+                "LINE_9745728",
+                "LINE_2101793",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_9745728|",
+                "",
+                "When you place this item, it means we got the other items back, so set those flags to false.",
                 [
                     "LINE_4815113"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedRobe", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Set"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedRobe",
+                        "FlagState": "Set",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedPlateChest", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedPlateChest",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedLeatherChest", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedLeatherChest",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_HaveRobe", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveRobe",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_WizardGem"
-                ], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3362380", 
-                "LINE_8501089", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3362380|", 
-                "", 
-                "", 
+                "LINE_3362380",
+                "LINE_8501089",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3362380|",
+                "",
+                "",
                 [
-                    "LINE_9340893", 
-                    "LINE_0094820", 
-                    "LINE_7929693", 
+                    "LINE_9340893",
+                    "LINE_0094820",
+                    "LINE_7929693",
                     "LINE_4418239"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9340893", 
-                "LINE_3362380", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_9340893|", 
-                "", 
-                "", 
+                "LINE_9340893",
+                "LINE_3362380",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_9340893|",
+                "",
+                "",
                 [
                     "LINE_4815113"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedPlateHelm", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Set"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedPlateHelm",
+                        "FlagState": "Set",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedLeatherHelm", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedLeatherHelm",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedCirclet", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedCirclet",
+                        "FlagState": "clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_HavePlateHelm", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HavePlateHelm",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_Helm"
-                ], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0094820", 
-                "LINE_3362380", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0094820|", 
-                "", 
-                "", 
+                "LINE_0094820",
+                "LINE_3362380",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0094820|",
+                "",
+                "",
                 [
                     "LINE_4815113"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedLeatherHelm", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Set"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedLeatherHelm",
+                        "FlagState": "Set",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedPlateHelm", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedPlateHelm",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedCirclet", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedCirclet",
+                        "FlagState": "clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_HaveLeatherHelm", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveLeatherHelm",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_RogueHood"
-                ], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1210202", 
-                "LINE_6028693", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1210202|", 
-                "", 
-                "", 
+                "LINE_1210202",
+                "LINE_6028693",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1210202|",
+                "",
+                "",
                 [
                     "LINE_1855290"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "OR",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_Have1hSword", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_Have1hSword",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_HaveStaff", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveStaff",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
-                            }, 
+                            },
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_HaveDagger", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveDagger",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "OR", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1855290", 
-                "LINE_1210202", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1855290|", 
-                "", 
-                "", 
+                "LINE_1855290",
+                "LINE_1210202",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1855290|",
+                "",
+                "",
                 [
-                    "LINE_0522432", 
-                    "LINE_4270699", 
-                    "LINE_5679979", 
+                    "LINE_0522432",
+                    "LINE_4270699",
+                    "LINE_5679979",
                     "LINE_4418239"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0522432", 
-                "LINE_1855290", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0522432|", 
-                "", 
-                "When you place this item, it means we got the other items back, so set those flags to false.", 
+                "LINE_0522432",
+                "LINE_1855290",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_0522432|",
+                "",
+                "When you place this item, it means we got the other items back, so set those flags to false.",
                 [
                     "LINE_4815113"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_Placed1hSword", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Set"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_Placed1hSword",
+                        "FlagState": "Set",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedDagger", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedDagger",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedStaff", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedStaff",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_Have1hSword", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_Have1hSword",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_Sword"
-                ], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4270699", 
-                "LINE_1855290", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4270699|", 
-                "", 
-                "When you place this item, it means we got the other items back, so set those flags to false.", 
+                "LINE_4270699",
+                "LINE_1855290",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4270699|",
+                "",
+                "When you place this item, it means we got the other items back, so set those flags to false.",
                 [
                     "LINE_4815113"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedDagger", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Set"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedDagger",
+                        "FlagState": "Set",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_Placed1hSword", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_Placed1hSword",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedStaff", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedStaff",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_HaveDagger", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveDagger",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_Crossbow"
-                ], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5679979", 
-                "LINE_1855290", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5679979|", 
-                "", 
-                "When you place this item, it means we got the other items back, so set those flags to false.", 
+                "LINE_5679979",
+                "LINE_1855290",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5679979|",
+                "",
+                "When you place this item, it means we got the other items back, so set those flags to false.",
                 [
                     "LINE_4815113"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedStaff", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Set"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedStaff",
+                        "FlagState": "Set",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_Placed1hSword", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_Placed1hSword",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedDagger", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "Clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedDagger",
+                        "FlagState": "Clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_HaveStaff", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveStaff",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_Staff"
-                ], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4418239", 
-                "LINE_1855290", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4418239|", 
-                "", 
-                "", 
+                "LINE_4418239",
+                "LINE_1855290",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4418239|",
+                "",
+                "",
                 [
                     "LINE_6028693"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8976311", 
-                "LINE_4815113", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_8976311|", 
-                "", 
-                "", 
+                "LINE_8976311",
+                "LINE_4815113",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_8976311|",
+                "",
+                "",
                 [
-                    "LINE_3585488", 
-                    "LINE_8007529", 
+                    "LINE_3585488",
+                    "LINE_8007529",
                     "LINE_4972451"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3585488", 
-                "LINE_8976311", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3585488|", 
-                "", 
-                "", 
+                "LINE_3585488",
+                "LINE_8976311",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_3585488|",
+                "",
+                "",
                 [
                     "LINE_4815113"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PuzWarrior", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PuzWarrior",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8007529", 
-                "LINE_8976311", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_8007529|", 
-                "", 
-                "", 
+                "LINE_8007529",
+                "LINE_8976311",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_8007529|",
+                "",
+                "",
                 [
                     "LINE_4815113"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PuzWizard", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PuzWizard",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4972451", 
-                "LINE_8976311", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4972451|", 
-                "", 
-                "", 
+                "LINE_4972451",
+                "LINE_8976311",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_4972451|",
+                "",
+                "",
                 [
                     "LINE_4815113"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "True", 
-                                    "Flag": "Puz_StatEq_PuzRogue", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PuzRogue",
+                                    "FlagState": "True",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                0, 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7449005", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7449005|", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_7449005",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7449005|",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7929693", 
-                "LINE_3362380", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7929693|", 
-                "", 
-                "", 
+                "LINE_7929693",
+                "LINE_3362380",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7929693|",
+                "",
+                "",
                 [
                     "LINE_4815113"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedCirclet", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "set"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedCirclet",
+                        "FlagState": "set",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedLeatherHelm", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "clear"
-                    }, 
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedLeatherHelm",
+                        "FlagState": "clear",
+                        "Quest": "Puz_StatueEquip"
+                    },
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedPlateHelm", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedPlateHelm",
+                        "FlagState": "clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_HaveCirclet", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_HaveCirclet",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_WizardHead"
-                ], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7710643", 
-                "LINE_5382472", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7710643|", 
-                "", 
-                "", 
+                "LINE_7710643",
+                "LINE_5382472",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7710643|",
+                "",
+                "",
                 [
                     "LINE_5382472"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_PlacedCirclet", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "clear"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_PlacedCirclet",
+                        "FlagState": "clear",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "Puz_StatEq_PlacedCirclet", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_PlacedCirclet",
+                                    "FlagState": "true",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
+                ],
+                [],
                 [
                     "Misc:Ch3_ChapterhouseStatue_WizardHead"
-                ], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9203257", 
-                "LINE_4828621", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_9203257|", 
-                "", 
-                "", 
+                "LINE_9203257",
+                "LINE_4828621",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_9203257|",
+                "",
+                "",
                 [
                     "LINE_3340721"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "Puz_StatEq_SpawnEnemiesTrap", 
-                        "Quest": "Puz_StatueEquip", 
-                        "FlagState": "set"
+                        "Action": "ActionQuest",
+                        "Flag": "Puz_StatEq_SpawnEnemiesTrap",
+                        "FlagState": "set",
+                        "Quest": "Puz_StatueEquip"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "Puz_StatEq_SpawnEnemiesTrap", 
-                                    "Quest": "Puz_StatueEquip", 
+                                    "Flag": "Puz_StatEq_SpawnEnemiesTrap",
+                                    "FlagState": "false",
+                                    "Quest": "Puz_StatueEquip",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3340721", 
-                "LINE_9203257", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                "LINE_3340721",
+                "LINE_9203257",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5285813", 
-                "LINE_4815113", 
-                "<PLAYER>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5285813|", 
-                "", 
-                "", 
+                "LINE_5285813",
+                "LINE_4815113",
+                "<PLAYER>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5285813|",
+                "",
+                "",
                 [
-                    "LINE_1613454", 
+                    "LINE_1613454",
                     "LINE_5269243"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1613454", 
-                "LINE_5285813", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1613454|", 
-                "", 
-                "BK there was a spelling mistake but I cut \" With the ornate engraving, perhapes it was a gem?\" because it seemed off.  Twaeked node to read hollow to encourage players to figure things out.", 
+                "LINE_1613454",
+                "LINE_5285813",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_1613454|",
+                "",
+                "BK there was a spelling mistake but I cut \" With the ornate engraving, perhapes it was a gem?\" because it seemed off.  Twaeked node to read hollow to encourage players to figure things out.",
                 [
                     "LINE_5624872"
-                ], 
-                [], 
+                ],
+                [],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "StatValue": 11, 
-                                    "StatActor": "<player>", 
-                                    "Stat": "wis", 
+                                    "Stat": "wis",
+                                    "StatActor": "<player>",
+                                    "StatValue": 11,
                                     "Type": "MinStat"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7579785", 
-                "LINE_5624872", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7579785|", 
-                "", 
-                "BK  I tweaked [Oh, and it's missing its head.] because it sounded very conversational. The [text] is observations, not narration. (Though it would have been cool if these could have had a voice, maybe)", 
+                "LINE_7579785",
+                "LINE_5624872",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_7579785|",
+                "",
+                "BK  I tweaked [Oh, and it's missing its head.] because it sounded very conversational. The [text] is observations, not narration. (Though it would have been cool if these could have had a voice, maybe)",
                 [
                     "LINE_4815113"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5269243", 
-                "LINE_5285813", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5269243|", 
-                "", 
-                "BK I toned down the conversational tone of the observation text\n[FAILURE] [The statue is clearly missing its head. It also looks like its missing a couple other components, but you can't place your finger on what's missing in particular....]", 
+                "LINE_5269243",
+                "LINE_5285813",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5269243|",
+                "",
+                "BK I toned down the conversational tone of the observation text\n[FAILURE] [The statue is clearly missing its head. It also looks like its missing a couple other components, but you can't place your finger on what's missing in particular....]",
                 [
                     "LINE_4815113"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_5624872", 
-                "LINE_1613454", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5624872|", 
-                "", 
-                "", 
+                "LINE_5624872",
+                "LINE_1613454",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_5624872|",
+                "",
+                "",
                 [
                     "LINE_7579785"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2571996", 
-                "LINE_0964472", 
-                "<DEFAULT>", 
-                "|Ch3_Chapterhouse_StatuePuzzle_LINE_2571996|", 
-                "", 
-                "", 
+                "LINE_2571996",
+                "LINE_0964472",
+                "<DEFAULT>",
+                "|Ch3_Chapterhouse_StatuePuzzle_LINE_2571996|",
+                "",
+                "",
                 [
                     "LINE_2054439"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
+                ],
+                [],
+                [],
+                [],
+                [],
                 [
-                    "Misc:Ch3_ChapterhouseStatue_Sword", 
-                    "Misc:Ch3_ChapterhouseStatue_Crossbow", 
-                    "Misc:Ch3_ChapterhouseStatue_Staff", 
-                    "Misc:Ch3_ChapterhouseStatue_Helm", 
-                    "Misc:Ch3_ChapterhouseStatue_WizardHead", 
-                    "Misc:Ch3_ChapterhouseStatue_RogueHood", 
-                    "Misc:Ch3_ChapterhouseStatue_WarriorGem", 
-                    "Misc:Ch3_ChapterhouseStatue_WizardGem", 
+                    "Misc:Ch3_ChapterhouseStatue_Sword",
+                    "Misc:Ch3_ChapterhouseStatue_Crossbow",
+                    "Misc:Ch3_ChapterhouseStatue_Staff",
+                    "Misc:Ch3_ChapterhouseStatue_Helm",
+                    "Misc:Ch3_ChapterhouseStatue_WizardHead",
+                    "Misc:Ch3_ChapterhouseStatue_RogueHood",
+                    "Misc:Ch3_ChapterhouseStatue_WarriorGem",
+                    "Misc:Ch3_ChapterhouseStatue_WizardGem",
                     "Misc:Ch3_ChapterhouseStatue_RogueGem"
-                ], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                ],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2054439", 
-                "LINE_2571996", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
+                "LINE_2054439",
+                "LINE_2571996",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

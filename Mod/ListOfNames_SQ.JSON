@@ -1,541 +1,541 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NoMusic": "False", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "BodyConvo01", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoFadeIn": "False", 
-                "IsStoryCritical": "False", 
-                "NoFadeOut": "False", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": ""
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "NeedsVO": "True", 
-                "ELock": "False"
-            }, 
-            [
-                "LINE_8074004", 
-                "<ROOT>", 
-                "JARHILD", 
-                "|ListOfNames_SQ_LINE_8074004|", 
-                "", 
-                "Ch1_IntroForest_Return_LINE_3646501\n", 
-                [
-                    "LINE_2937581"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "ListOfNames_SQ_1st", 
-                                    "Quest": "ListOfNames_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6249813", 
-                "LINE_5484094", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "ListOfNames_SQ_3rd", 
-                        "Quest": "ListOfNames_SQ", 
-                        "FlagState": "set"
-                    }, 
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "ListOfNames_SQ_FindThem", 
-                        "Quest": "ListOfNames_SQ", 
-                        "FlagState": "set"
-                    }, 
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "ListOfNames_SQ_FinalConvo", 
-                        "Quest": "ListOfNames_SQ", 
-                        "FlagState": "set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [
-                    "Misc:ListOfNames_SQ_Note"
-                ], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8471580", 
-                "<ROOT>", 
-                "JARHILD", 
-                "|ListOfNames_SQ_LINE_8471580|", 
-                "", 
-                "", 
-                [
-                    "LINE_6432657"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "ListOfNames_SQ_2nd", 
-                                    "Quest": "ListOfNames_SQ", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5484094", 
-                "<ROOT>", 
-                "JARHILD", 
-                "|ListOfNames_SQ_LINE_5484094|", 
-                "", 
-                "Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_5160128", 
-                [
-                    "LINE_6249813"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2937581", 
-                "LINE_8074004", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "ListOfNames_SQ_1st", 
-                        "Quest": "ListOfNames_SQ", 
-                        "FlagState": "set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6432657", 
-                "LINE_8471580", 
-                "<OWNER>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "ListOfNames_SQ_2nd", 
-                        "Quest": "ListOfNames_SQ", 
-                        "FlagState": "set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ]
-        ], 
-        [
-            {
-                "NoMusic": "False", 
+                },
+                "ELock": "False",
                 "EventScripts": {
                     "OnClose": ""
-                }, 
-                "Name": "GildedEyeConvo", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoFadeIn": "False", 
-                "IsStoryCritical": "False", 
-                "NoFadeOut": "False", 
-                "IsAmbient": "False", 
-                "Defaults": {
-                    "Speaker": "CLERICENEMY"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "NeedsVO": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "BodyConvo01",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_3091743", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|ListOfNames_SQ_LINE_3091743|", 
-                "", 
-                "", 
+                "LINE_8074004",
+                "<ROOT>",
+                "JARHILD",
+                "|ListOfNames_SQ_LINE_8074004|",
+                "",
+                "Ch1_IntroForest_Return_LINE_3646501\n",
                 [
-                    "LINE_8195032", 
-                    "LINE_9986290", 
-                    "LINE_3507765"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8195032", 
-                "LINE_3091743", 
-                "<PLAYER>", 
-                "|ListOfNames_SQ_LINE_8195032|", 
-                "", 
-                "", 
-                [
-                    "LINE_6497949"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9986290", 
-                "LINE_3091743", 
-                "<PLAYER>", 
-                "|ListOfNames_SQ_LINE_9986290|", 
-                "", 
-                "", 
-                [
-                    "LINE_8950424"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3507765", 
-                "LINE_3091743", 
-                "<PLAYER>", 
-                "|ListOfNames_SQ_LINE_3507765|", 
-                "", 
-                "", 
-                [
-                    "LINE_4807363"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6497949", 
-                "LINE_8195032", 
-                "<DEFAULT>", 
-                "|ListOfNames_SQ_LINE_6497949|", 
-                "", 
-                "", 
-                [
-                    "LINE_4400296"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4400296", 
-                "LINE_6497949", 
-                "<OWNER>", 
-                "", 
-                "", 
-                "", 
-                [], 
+                    "LINE_2937581"
+                ],
+                [],
                 [
                     {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "MakeCreatureFactionHostileForCombat", 
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ListOfNames_SQ_1st",
+                                    "FlagState": "false",
+                                    "Quest": "ListOfNames_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6249813",
+                "LINE_5484094",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "ListOfNames_SQ_3rd",
+                        "FlagState": "set",
+                        "Quest": "ListOfNames_SQ"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "ListOfNames_SQ_FindThem",
+                        "FlagState": "set",
+                        "Quest": "ListOfNames_SQ"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "ListOfNames_SQ_FinalConvo",
+                        "FlagState": "set",
+                        "Quest": "ListOfNames_SQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:ListOfNames_SQ_Note"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8471580",
+                "<ROOT>",
+                "JARHILD",
+                "|ListOfNames_SQ_LINE_8471580|",
+                "",
+                "",
+                [
+                    "LINE_6432657"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ListOfNames_SQ_2nd",
+                                    "FlagState": "false",
+                                    "Quest": "ListOfNames_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5484094",
+                "<ROOT>",
+                "JARHILD",
+                "|ListOfNames_SQ_LINE_5484094|",
+                "",
+                "Ch3_EvermoorsCastle_Ambient_DestroyAllCultists_LINE_5160128",
+                [
+                    "LINE_6249813"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2937581",
+                "LINE_8074004",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "ListOfNames_SQ_1st",
+                        "FlagState": "set",
+                        "Quest": "ListOfNames_SQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6432657",
+                "LINE_8471580",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "ListOfNames_SQ_2nd",
+                        "FlagState": "set",
+                        "Quest": "ListOfNames_SQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "CLERICENEMY"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "GildedEyeConvo",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3091743",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|ListOfNames_SQ_LINE_3091743|",
+                "",
+                "",
+                [
+                    "LINE_8195032",
+                    "LINE_9986290",
+                    "LINE_3507765"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8195032",
+                "LINE_3091743",
+                "<PLAYER>",
+                "|ListOfNames_SQ_LINE_8195032|",
+                "",
+                "",
+                [
+                    "LINE_6497949"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9986290",
+                "LINE_3091743",
+                "<PLAYER>",
+                "|ListOfNames_SQ_LINE_9986290|",
+                "",
+                "",
+                [
+                    "LINE_8950424"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3507765",
+                "LINE_3091743",
+                "<PLAYER>",
+                "|ListOfNames_SQ_LINE_3507765|",
+                "",
+                "",
+                [
+                    "LINE_4807363"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6497949",
+                "LINE_8195032",
+                "<DEFAULT>",
+                "|ListOfNames_SQ_LINE_6497949|",
+                "",
+                "",
+                [
+                    "LINE_4400296"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4400296",
+                "LINE_6497949",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "MakeCreatureFactionHostileForCombat",
                         "SpeakerTag": "CLERICENEMY"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8950424", 
-                "LINE_9986290", 
-                "<DEFAULT>", 
-                "|ListOfNames_SQ_LINE_8950424|", 
-                "", 
-                "", 
+                "LINE_8950424",
+                "LINE_9986290",
+                "<DEFAULT>",
+                "|ListOfNames_SQ_LINE_8950424|",
+                "",
+                "",
                 [
                     "LINE_4400296"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4807363", 
-                "LINE_3507765", 
-                "<DEFAULT>", 
-                "|ListOfNames_SQ_LINE_4807363|", 
-                "", 
-                "", 
+                "LINE_4807363",
+                "LINE_3507765",
+                "<DEFAULT>",
+                "|ListOfNames_SQ_LINE_4807363|",
+                "",
+                "",
                 [
                     "LINE_4400296"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

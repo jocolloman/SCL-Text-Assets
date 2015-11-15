@@ -1,3358 +1,3358 @@
 {
-    "FILE FORMAT": {
-        "Version": "0.11"
-    }, 
-    "LINE DATA DEFINITION": {
-        "NoVO": [
-            14, 
-            0
-        ], 
-        "NoEndFadeInLine": [
-            19, 
-            0
-        ], 
-        "LineText": [
-            3, 
-            0
-        ], 
-        "AudioLineName": [
-            4, 
-            0
-        ], 
-        "VOComment": [
-            12, 
-            0
-        ], 
-        "NoBegFadeInLine": [
-            18, 
-            0
-        ], 
-        "Unskippable": [
-            16, 
-            0
-        ], 
-        "Actions": [
-            7, 
-            0
-        ], 
-        "Comments": [
-            5, 
-            0
-        ], 
-        "RefID": [
-            0, 
-            0
-        ], 
-        "ResponseRef": [
-            6, 
-            0
-        ], 
-        "Moods": [
-            9, 
-            0
-        ], 
-        "ParentRef": [
-            1, 
-            0
-        ], 
-        "LocComment": [
-            13, 
-            0
-        ], 
-        "VOChange": [
-            15, 
-            0
-        ], 
-        "NoSendingStone": [
-            17, 
-            0
-        ], 
-        "Conditions": [
-            8, 
-            0
-        ], 
-        "ItemsToRemove": [
-            11, 
-            0
-        ], 
-        "ItemsToAdd": [
-            10, 
-            0
-        ], 
-        "SpeakerTag": [
-            2, 
-            0
-        ]
-    }, 
     "CONVERSATION GROUP": [
         [
             {
-                "NeedsVO": "True", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "Ch3_LoR_AltarNotice", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "False", 
-                "IsAmbient": "True", 
                 "Defaults": {
                     "Speaker": "RPE"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "True"
-            }, 
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch3_LoR_AltarNotice",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_7877437", 
-                "<ROOT>", 
-                "DALANIR", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7877437|", 
-                "", 
-                "", 
+                "LINE_7877437",
+                "<ROOT>",
+                "DALANIR",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7877437|",
+                "",
+                "",
                 [
                     "LINE_9321940"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "DALANIR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7682319", 
-                "LINE_8332021", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_7682319",
+                "LINE_8332021",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0629890", 
-                "<ROOT>", 
-                "HOMMET", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_0629890|", 
-                "", 
-                "", 
+                "LINE_0629890",
+                "<ROOT>",
+                "HOMMET",
+                "|Ch3_LairOfRhylfang_Boss_LINE_0629890|",
+                "",
+                "",
                 [
                     "LINE_4253218"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7688595", 
-                "LINE_1660579", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_7688595",
+                "LINE_1660579",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2232714", 
-                "<ROOT>", 
-                "ILLYDIA", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_2232714|", 
-                "", 
-                "", 
+                "LINE_2232714",
+                "<ROOT>",
+                "ILLYDIA",
+                "|Ch3_LairOfRhylfang_Boss_LINE_2232714|",
+                "",
+                "",
                 [
                     "LINE_3688887"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3688887", 
-                "LINE_2232714", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_3688887",
+                "LINE_2232714",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2964448", 
-                "<ROOT>", 
-                "BRYN", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_2964448|", 
-                "", 
-                "", 
+                "LINE_2964448",
+                "<ROOT>",
+                "BRYN",
+                "|Ch3_LairOfRhylfang_Boss_LINE_2964448|",
+                "",
+                "",
                 [
                     "LINE_3512282"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "BRYN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_4253218", 
-                "LINE_0629890", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_4253218",
+                "LINE_0629890",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8332021", 
-                "<ROOT>", 
-                "LARETHAR", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8332021|", 
-                "", 
-                "", 
+                "LINE_8332021",
+                "<ROOT>",
+                "LARETHAR",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8332021|",
+                "",
+                "",
                 [
                     "LINE_7682319"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_3512282", 
-                "LINE_2964448", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_3512282",
+                "LINE_2964448",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_1660579", 
-                "<ROOT>", 
-                "JARHILD", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1660579|", 
-                "", 
-                "", 
+                "LINE_1660579",
+                "<ROOT>",
+                "JARHILD",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1660579|",
+                "",
+                "",
                 [
                     "LINE_7688595"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
                     }
-                ], 
+                ],
                 [
                     {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_9321940", 
-                "LINE_7877437", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_9321940",
+                "LINE_7877437",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2324044", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_2324044|", 
-                "", 
-                "BK changed <> to []", 
-                [], 
+                "LINE_2324044",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_2324044|",
+                "",
+                "BK changed <> to []",
+                [],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_InvestigateRhylfangsAwakening",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "True",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
-        ], 
+        ],
         [
             {
-                "NeedsVO": "True", 
-                "EventScripts": {
-                    "OnClose": ""
-                }, 
-                "Name": "Ch3_LoR_AltarConvo", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "True", 
-                "IsAmbient": "False", 
                 "Defaults": {
                     "Speaker": "CORPSE"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
-            [
-                "LINE_3952318", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_4855673", 
-                    "LINE_1602621", 
-                    "LINE_1315121", 
-                    "LINE_8031024", 
-                    "LINE_3375105"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_InvestigateAltar", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "C3_TLOR_AltarConvoBefore", 
-                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_0161468", 
-                "LINE_3375105", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_0161468|", 
-                "", 
-                "added punc", 
-                [
-                    "LINE_7264786", 
-                    "LINE_1071351", 
-                    "LINE_8178122"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7264786", 
-                "LINE_0161468", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7264786|", 
-                "", 
-                "", 
-                [
-                    "LINE_7854952"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1071351", 
-                "LINE_0161468", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1071351|", 
-                "", 
-                "", 
-                [
-                    "LINE_3417530"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7561763", 
-                "LINE_7854952", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7561763|", 
-                "", 
-                "punc removed space BK", 
-                [
-                    "LINE_8394871", 
-                    "LINE_3934411"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8394871", 
-                "LINE_7561763", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8394871|", 
-                "", 
-                "", 
-                [
-                    "LINE_6663417"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3934411", 
-                "LINE_7561763", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_3934411|", 
-                "", 
-                "", 
-                [
-                    "LINE_6663417"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7854952", 
-                "LINE_7264786", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7854952|", 
-                "", 
-                "", 
-                [
-                    "LINE_7561763"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6663417", 
-                "LINE_8394871", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_6663417|", 
-                "", 
-                "", 
-                [
-                    "LINE_0144902"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_0144902", 
-                "LINE_6663417", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_0144902|", 
-                "", 
-                "", 
-                [
-                    "LINE_6343911"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6343911", 
-                "LINE_0144902", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_AltarConvoBefore", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5709780", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_5709780|", 
-                "", 
-                "", 
-                [
-                    "LINE_8570033"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_ReturnAltar", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
-                    }
-                ], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "C3_TLOR_AltarConvoBefore", 
-                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }, 
-                            {
-                                "item": {
-                                    "FlagState": "false", 
-                                    "Flag": "C3_TLOR_AltarConvoAfter", 
-                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }, 
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "C3_TLOR_DefeatRhylfang", 
-                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8570033", 
-                "LINE_5709780", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8570033|", 
-                "", 
-                "", 
-                [
-                    "LINE_9750867", 
-                    "LINE_2387667"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9750867", 
-                "LINE_8570033", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_9750867|", 
-                "", 
-                "", 
-                [
-                    "LINE_1785387"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2387667", 
-                "LINE_8570033", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_2387667|", 
-                "", 
-                "", 
-                [
-                    "LINE_0692393"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_0692393", 
-                "LINE_2387667", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_0692393|", 
-                "", 
-                "", 
-                [
-                    "LINE_7494065", 
-                    "LINE_4224520"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7494065", 
-                "LINE_0692393", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7494065|", 
-                "", 
-                "", 
-                [
-                    "LINE_4996198"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4224520", 
-                "LINE_0692393", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_4224520|", 
-                "", 
-                "", 
-                [
-                    "LINE_7500484"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7500484", 
-                "LINE_4224520", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7500484|", 
-                "", 
-                "", 
-                [
-                    "LINE_3733057"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1785387", 
-                "LINE_9750867", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1785387|", 
-                "", 
-                "", 
-                [
-                    "LINE_3733057"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3733057", 
-                "LINE_7500484", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_3733057|", 
-                "", 
-                "", 
-                [
-                    "LINE_7933562"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4996198", 
-                "LINE_7494065", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_4996198|", 
-                "", 
-                "", 
-                [
-                    "LINE_7933562"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7933562", 
-                "LINE_3733057", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7933562|", 
-                "", 
-                "", 
-                [
-                    "LINE_9024163", 
-                    "LINE_8914377", 
-                    "LINE_9978216"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8914377", 
-                "LINE_7933562", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8914377|", 
-                "", 
-                "Non-Cleric", 
-                [
-                    "LINE_2513642"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9978216", 
-                "LINE_7933562", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_9978216|", 
-                "", 
-                "", 
-                [
-                    "LINE_6753854", 
-                    "LINE_4057524", 
-                    "LINE_8054604", 
-                    "LINE_6828650", 
-                    "LINE_1283311", 
-                    "LINE_1963092", 
-                    "LINE_2923292", 
-                    "LINE_7171853"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9227884", 
-                "LINE_2513642", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_9227884|", 
-                "", 
-                "", 
-                [
-                    "LINE_8202297"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4057524", 
-                "LINE_9978216", 
-                "HOMMET", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_4057524|", 
-                "", 
-                "", 
-                [
-                    "LINE_1021204"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1976045", 
-                "LINE_1021204", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1976045|", 
-                "", 
-                "", 
-                [
-                    "LINE_8202297"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9024163", 
-                "LINE_7933562", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_9024163|", 
-                "", 
-                "Cleric", 
-                [
-                    "LINE_8412014"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "Type": "Class", 
-                                    "Class": "Cleric"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5316124", 
-                "LINE_8412014", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_5316124|", 
-                "", 
-                "", 
-                [
-                    "LINE_8202297"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3637028", 
-                "LINE_5935978", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_AltarConvoAfter", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8054604", 
-                "LINE_9978216", 
-                "ILLYDIA", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8054604|", 
-                "", 
-                "", 
-                [
-                    "LINE_2779311"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6743986", 
-                "LINE_2779311", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_6743986|", 
-                "", 
-                "", 
-                [
-                    "LINE_8202297"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6828650", 
-                "LINE_9978216", 
-                "JARHILD", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_6828650|", 
-                "", 
-                "", 
-                [
-                    "LINE_4509361"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1085039", 
-                "LINE_4509361", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1085039|", 
-                "", 
-                "", 
-                [
-                    "LINE_8202297"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1283311", 
-                "LINE_9978216", 
-                "DALANIR", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1283311|", 
-                "", 
-                "", 
-                [
-                    "LINE_2926751"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "DALANIR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3692199", 
-                "LINE_2926751", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_3692199|", 
-                "", 
-                "", 
-                [
-                    "LINE_8202297"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1963092", 
-                "LINE_9978216", 
-                "BRYN", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1963092|", 
-                "", 
-                "", 
-                [
-                    "LINE_7637597"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "BRYN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7618764", 
-                "LINE_7637597", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7618764|", 
-                "", 
-                "", 
-                [
-                    "LINE_8202297"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2923292", 
-                "LINE_9978216", 
-                "LARETHAR", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_2923292|", 
-                "", 
-                "", 
-                [
-                    "LINE_1429840"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4793647", 
-                "LINE_1429840", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_4793647|", 
-                "", 
-                "", 
-                [
-                    "LINE_8202297"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3375105", 
-                "LINE_3952318", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_3375105|", 
-                "", 
-                "", 
-                [
-                    "LINE_0161468"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4855673", 
-                "LINE_3952318", 
-                "ILLYDIA", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_4855673|", 
-                "", 
-                "", 
-                [
-                    "LINE_0161468"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1315121", 
-                "LINE_3952318", 
-                "HOMMET", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1315121|", 
-                "", 
-                "", 
-                [
-                    "LINE_0161468"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8031024", 
-                "LINE_3952318", 
-                "DALANIR", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8031024|", 
-                "", 
-                "", 
-                [
-                    "LINE_0161468"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "DALANIR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8178122", 
-                "LINE_0161468", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8178122|", 
-                "", 
-                "", 
-                [
-                    "LINE_7561763"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3417530", 
-                "LINE_1071351", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_3417530|", 
-                "", 
-                "", 
-                [
-                    "LINE_8394871", 
-                    "LINE_3934411"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6618041", 
-                "LINE_8202297", 
-                "ILLYDIA", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_6618041|", 
-                "", 
-                "", 
-                [
-                    "LINE_5935978", 
-                    "LINE_6827147", 
-                    "LINE_5204308", 
-                    "LINE_6764656", 
-                    "LINE_9760111"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9096200", 
-                "LINE_8202297", 
-                "DALANIR", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_9096200|", 
-                "", 
-                "", 
-                [
-                    "LINE_5935978", 
-                    "LINE_3442954", 
-                    "LINE_6764656", 
-                    "LINE_5204308", 
-                    "LINE_9760111"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "DALANIR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5333674", 
-                "LINE_8202297", 
-                "JARHILD", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_5333674|", 
-                "", 
-                "", 
-                [
-                    "LINE_5935978", 
-                    "LINE_6827147", 
-                    "LINE_3442954", 
-                    "LINE_5204308", 
-                    "LINE_9760111"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JARHILD_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8090745", 
-                "LINE_8202297", 
-                "BRYN", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8090745|", 
-                "", 
-                "", 
-                [
-                    "LINE_5935978", 
-                    "LINE_3442954", 
-                    "LINE_6827147", 
-                    "LINE_5204308", 
-                    "LINE_6764656"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "BRYN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1579367", 
-                "LINE_8202297", 
-                "LARETHAR", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1579367|", 
-                "", 
-                "", 
-                [
-                    "LINE_5935978", 
-                    "LINE_6827147", 
-                    "LINE_3442954", 
-                    "LINE_6764656", 
-                    "LINE_9760111"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_3442954", 
-                "LINE_8090745", 
-                "ILLYDIA", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_3442954|", 
-                "", 
-                "", 
-                [
-                    "LINE_3637028"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "ILLYDIA_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8202297", 
-                "LINE_1976045", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_8542480", 
-                    "LINE_8090745", 
-                    "LINE_6618041", 
-                    "LINE_9096200", 
-                    "LINE_5333674", 
-                    "LINE_1579367", 
-                    "LINE_0473781"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6827147", 
-                "LINE_8090745", 
-                "DALANIR", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_6827147|", 
-                "", 
-                "", 
-                [
-                    "LINE_3637028"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "DALANIR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9760111", 
-                "LINE_8542480", 
-                "BRYN", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_9760111|", 
-                "", 
-                "", 
-                [
-                    "LINE_3637028"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "BRYN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5204308", 
-                "LINE_8090745", 
-                "LARETHAR", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_5204308|", 
-                "", 
-                "", 
-                [
-                    "LINE_3637028"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "LARETHAR_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6764656", 
-                "LINE_8090745", 
-                "JARHILD", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_6764656|", 
-                "", 
-                "", 
-                [
-                    "LINE_3637028"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5935978", 
-                "LINE_8090745", 
-                "HOMMET", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_5935978|", 
-                "", 
-                "", 
-                [
-                    "LINE_3637028"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "HOMMET_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1602621", 
-                "LINE_3952318", 
-                "JAVEN", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_1602621|", 
-                "", 
-                "", 
-                [
-                    "LINE_0161468"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JAVEN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6753854", 
-                "LINE_9978216", 
-                "JAVEN", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_6753854|", 
-                "", 
-                "", 
-                [
-                    "LINE_5522146"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JAVEN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_9120278", 
-                "LINE_5522146", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_9120278|", 
-                "", 
-                "", 
-                [
-                    "LINE_8202297"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8542480", 
-                "LINE_8202297", 
-                "JAVEN", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8542480|", 
-                "", 
-                "", 
-                [
-                    "LINE_5935978", 
-                    "LINE_3442954", 
-                    "LINE_6827147", 
-                    "LINE_5204308", 
-                    "LINE_6764656", 
-                    "LINE_9760111"
-                ], 
-                [], 
-                [
-                    {
-                        "items": [
-                            {
-                                "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "JAVEN_IN_PARTY", 
-                                    "Quest": "CurrentParty", 
-                                    "Type": "Quest"
-                                }, 
-                                "type": "item"
-                            }
-                        ], 
-                        "connection": "AND", 
-                        "type": "group"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7171853", 
-                "LINE_9978216", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7171853|", 
-                "", 
-                "", 
-                [
-                    "LINE_8886695"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8886695", 
-                "LINE_7171853", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_8886695|", 
-                "", 
-                "", 
-                [
-                    "LINE_3637028"
-                ], 
-                [
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_KerendorAlive", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "set"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_0473781", 
-                "LINE_8202297", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_5935978", 
-                    "LINE_3442954", 
-                    "LINE_6827147", 
-                    "LINE_5204308", 
-                    "LINE_6764656", 
-                    "LINE_9760111", 
-                    "LINE_3637028"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_5522146", 
-                "LINE_6753854", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "Animations", 
-                [
-                    "LINE_9120278"
-                ], 
-                [
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "JavenAttacks", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AltarGuyDies", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1021204", 
-                "LINE_4057524", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_1976045"
-                ], 
-                [
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "HommetAttacks", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 0.5, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "PlayMercyFX_Dark", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "set"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AltarGuyDies", 
-                        "SpeakerTag": "CORPSE"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2779311", 
-                "LINE_8054604", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_6743986"
-                ], 
-                [
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "IllydiaAttacks", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 2.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "PlayMercyFX_Light", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "set"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AltarGuyDies", 
-                        "SpeakerTag": "CORPSE"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4509361", 
-                "LINE_6828650", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_1085039"
-                ], 
-                [
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "JarhildAttacks", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AltarGuyDies", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2926751", 
-                "LINE_1283311", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_3692199"
-                ], 
-                [
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "DalanirAttacks", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "PlayMercyFX_Dark", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "set"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AltarGuyDies", 
-                        "SpeakerTag": "CORPSE"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_7637597", 
-                "LINE_1963092", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_7618764"
-                ], 
-                [
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "BrynAttacks", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AltarGuyDies", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_1429840", 
-                "LINE_2923292", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_4793647"
-                ], 
-                [
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "LaretharAttacks", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AltarGuyDies", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_8412014", 
-                "LINE_9024163", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_5316124"
-                ], 
-                [
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "PlayerSummonsClericGuardian", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 0.5, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionQuest", 
-                        "Flag": "PlayMercyFX_Light", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "set"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 2.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AltarGuyDies", 
-                        "SpeakerTag": "CORPSE"
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_2513642", 
-                "LINE_8914377", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [
-                    "LINE_9227884"
-                ], 
-                [
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 0.5, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "PlayerAttacks", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }, 
-                    {
-                        "Action": "ActionCustomScript", 
-                        "Async": false, 
-                        "FunctionName": "AltarGuyDies", 
-                        "SpeakerTag": "CORPSE"
-                    }, 
-                    {
-                        "Action": "ActionDelay", 
-                        "Seconds": 1.0, 
-                        "Async": false
-                    }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                false, 
-                false, 
-                "False", 
-                "False"
-            ]
-        ], 
-        [
-            {
-                "NeedsVO": "False", 
+                },
+                "ELock": "False",
                 "EventScripts": {
                     "OnClose": ""
-                }, 
-                "Name": "Ch3_LoR_PortalDevice", 
-                "NoBegFade": "False", 
-                "IsFinal": "False", 
-                "NoPlayerWarp": "False", 
-                "NoMusic": "False", 
-                "IsStoryCritical": "True", 
-                "IsAmbient": "False", 
-                "Defaults": {
-                    "Speaker": "RPE"
-                }, 
-                "NoEndFade": "False", 
-                "ShouldFacePlayer": "False", 
-                "NoSendingStone": "False", 
-                "ELock": "False"
-            }, 
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch3_LoR_AltarConvo",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
             [
-                "LINE_2290867", 
-                "<ROOT>", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_2290867|", 
-                "", 
-                "<> -> [] (BK)", 
+                "LINE_3952318",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
                 [
-                    "LINE_6722274", 
-                    "LINE_4919331", 
-                    "LINE_7736613"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_6722274", 
-                "LINE_2290867", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_6722274|", 
-                "", 
-                "", 
-                [
-                    "LINE_0118402"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
-                "False"
-            ], 
-            [
-                "LINE_4919331", 
-                "LINE_2290867", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_4919331|", 
-                "", 
-                "", 
-                [
-                    "LINE_6224038"
-                ], 
-                [], 
+                    "LINE_4855673",
+                    "LINE_1602621",
+                    "LINE_1315121",
+                    "LINE_8031024",
+                    "LINE_3375105"
+                ],
                 [
                     {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_InvestigateAltar",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
                         "items": [
                             {
                                 "item": {
-                                    "FlagState": "true", 
-                                    "Flag": "C3_TLOR_AltarConvoAfter", 
-                                    "Quest": "C3.5_The_Lair_Of_Rhylfang", 
+                                    "Flag": "C3_TLOR_AltarConvoBefore",
+                                    "FlagState": "false",
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang",
                                     "Type": "Quest"
-                                }, 
+                                },
                                 "type": "item"
                             }
-                        ], 
-                        "connection": "AND", 
+                        ],
                         "type": "group"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_0118402", 
-                "LINE_6722274", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_0118402|", 
-                "", 
-                "", 
+                "LINE_0161468",
+                "LINE_3375105",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_0161468|",
+                "",
+                "added punc",
                 [
-                    "LINE_4919331", 
-                    "LINE_7736613"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "True", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                    "LINE_7264786",
+                    "LINE_1071351",
+                    "LINE_8178122"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_6224038", 
-                "LINE_4919331", 
-                "<DEFAULT>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_6224038|", 
-                "", 
-                "", 
+                "LINE_7264786",
+                "LINE_0161468",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7264786|",
+                "",
+                "",
+                [
+                    "LINE_7854952"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1071351",
+                "LINE_0161468",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1071351|",
+                "",
+                "",
+                [
+                    "LINE_3417530"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7561763",
+                "LINE_7854952",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7561763|",
+                "",
+                "punc removed space BK",
+                [
+                    "LINE_8394871",
+                    "LINE_3934411"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8394871",
+                "LINE_7561763",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8394871|",
+                "",
+                "",
+                [
+                    "LINE_6663417"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3934411",
+                "LINE_7561763",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_3934411|",
+                "",
+                "",
+                [
+                    "LINE_6663417"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7854952",
+                "LINE_7264786",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7854952|",
+                "",
+                "",
+                [
+                    "LINE_7561763"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6663417",
+                "LINE_8394871",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_6663417|",
+                "",
+                "",
+                [
+                    "LINE_0144902"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0144902",
+                "LINE_6663417",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_0144902|",
+                "",
+                "",
+                [
+                    "LINE_6343911"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6343911",
+                "LINE_0144902",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_AltarConvoBefore",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5709780",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_5709780|",
+                "",
+                "",
+                [
+                    "LINE_8570033"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_ReturnAltar",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_TLOR_AltarConvoBefore",
+                                    "FlagState": "true",
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_TLOR_AltarConvoAfter",
+                                    "FlagState": "false",
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_TLOR_DefeatRhylfang",
+                                    "FlagState": "true",
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8570033",
+                "LINE_5709780",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8570033|",
+                "",
+                "",
+                [
+                    "LINE_9750867",
+                    "LINE_2387667"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9750867",
+                "LINE_8570033",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_9750867|",
+                "",
+                "",
+                [
+                    "LINE_1785387"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2387667",
+                "LINE_8570033",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_2387667|",
+                "",
+                "",
+                [
+                    "LINE_0692393"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0692393",
+                "LINE_2387667",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_0692393|",
+                "",
+                "",
+                [
+                    "LINE_7494065",
+                    "LINE_4224520"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7494065",
+                "LINE_0692393",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7494065|",
+                "",
+                "",
+                [
+                    "LINE_4996198"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4224520",
+                "LINE_0692393",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_4224520|",
+                "",
+                "",
+                [
+                    "LINE_7500484"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7500484",
+                "LINE_4224520",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7500484|",
+                "",
+                "",
+                [
+                    "LINE_3733057"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1785387",
+                "LINE_9750867",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1785387|",
+                "",
+                "",
+                [
+                    "LINE_3733057"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3733057",
+                "LINE_7500484",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_3733057|",
+                "",
+                "",
+                [
+                    "LINE_7933562"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4996198",
+                "LINE_7494065",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_4996198|",
+                "",
+                "",
+                [
+                    "LINE_7933562"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7933562",
+                "LINE_3733057",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7933562|",
+                "",
+                "",
+                [
+                    "LINE_9024163",
+                    "LINE_8914377",
+                    "LINE_9978216"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8914377",
+                "LINE_7933562",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8914377|",
+                "",
+                "Non-Cleric",
+                [
+                    "LINE_2513642"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9978216",
+                "LINE_7933562",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_9978216|",
+                "",
+                "",
+                [
+                    "LINE_6753854",
+                    "LINE_4057524",
+                    "LINE_8054604",
+                    "LINE_6828650",
+                    "LINE_1283311",
+                    "LINE_1963092",
+                    "LINE_2923292",
+                    "LINE_7171853"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9227884",
+                "LINE_2513642",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_9227884|",
+                "",
+                "",
+                [
+                    "LINE_8202297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4057524",
+                "LINE_9978216",
+                "HOMMET",
+                "|Ch3_LairOfRhylfang_Boss_LINE_4057524|",
+                "",
+                "",
+                [
+                    "LINE_1021204"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1976045",
+                "LINE_1021204",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1976045|",
+                "",
+                "",
+                [
+                    "LINE_8202297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9024163",
+                "LINE_7933562",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_9024163|",
+                "",
+                "Cleric",
+                [
+                    "LINE_8412014"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Class": "Cleric",
+                                    "Type": "Class"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5316124",
+                "LINE_8412014",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_5316124|",
+                "",
+                "",
+                [
+                    "LINE_8202297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3637028",
+                "LINE_5935978",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_AltarConvoAfter",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8054604",
+                "LINE_9978216",
+                "ILLYDIA",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8054604|",
+                "",
+                "",
+                [
+                    "LINE_2779311"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6743986",
+                "LINE_2779311",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_6743986|",
+                "",
+                "",
+                [
+                    "LINE_8202297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6828650",
+                "LINE_9978216",
+                "JARHILD",
+                "|Ch3_LairOfRhylfang_Boss_LINE_6828650|",
+                "",
+                "",
+                [
+                    "LINE_4509361"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1085039",
+                "LINE_4509361",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1085039|",
+                "",
+                "",
+                [
+                    "LINE_8202297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1283311",
+                "LINE_9978216",
+                "DALANIR",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1283311|",
+                "",
+                "",
+                [
+                    "LINE_2926751"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3692199",
+                "LINE_2926751",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_3692199|",
+                "",
+                "",
+                [
+                    "LINE_8202297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1963092",
+                "LINE_9978216",
+                "BRYN",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1963092|",
+                "",
+                "",
+                [
+                    "LINE_7637597"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7618764",
+                "LINE_7637597",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7618764|",
+                "",
+                "",
+                [
+                    "LINE_8202297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2923292",
+                "LINE_9978216",
+                "LARETHAR",
+                "|Ch3_LairOfRhylfang_Boss_LINE_2923292|",
+                "",
+                "",
+                [
+                    "LINE_1429840"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4793647",
+                "LINE_1429840",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_4793647|",
+                "",
+                "",
+                [
+                    "LINE_8202297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3375105",
+                "LINE_3952318",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_3375105|",
+                "",
+                "",
+                [
+                    "LINE_0161468"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4855673",
+                "LINE_3952318",
+                "ILLYDIA",
+                "|Ch3_LairOfRhylfang_Boss_LINE_4855673|",
+                "",
+                "",
+                [
+                    "LINE_0161468"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1315121",
+                "LINE_3952318",
+                "HOMMET",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1315121|",
+                "",
+                "",
+                [
+                    "LINE_0161468"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8031024",
+                "LINE_3952318",
+                "DALANIR",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8031024|",
+                "",
+                "",
+                [
+                    "LINE_0161468"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8178122",
+                "LINE_0161468",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8178122|",
+                "",
+                "",
+                [
+                    "LINE_7561763"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3417530",
+                "LINE_1071351",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_3417530|",
+                "",
+                "",
+                [
+                    "LINE_8394871",
+                    "LINE_3934411"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6618041",
+                "LINE_8202297",
+                "ILLYDIA",
+                "|Ch3_LairOfRhylfang_Boss_LINE_6618041|",
+                "",
+                "",
+                [
+                    "LINE_5935978",
+                    "LINE_6827147",
+                    "LINE_5204308",
+                    "LINE_6764656",
+                    "LINE_9760111"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9096200",
+                "LINE_8202297",
+                "DALANIR",
+                "|Ch3_LairOfRhylfang_Boss_LINE_9096200|",
+                "",
+                "",
+                [
+                    "LINE_5935978",
+                    "LINE_3442954",
+                    "LINE_6764656",
+                    "LINE_5204308",
+                    "LINE_9760111"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5333674",
+                "LINE_8202297",
+                "JARHILD",
+                "|Ch3_LairOfRhylfang_Boss_LINE_5333674|",
+                "",
+                "",
+                [
+                    "LINE_5935978",
+                    "LINE_6827147",
+                    "LINE_3442954",
+                    "LINE_5204308",
+                    "LINE_9760111"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8090745",
+                "LINE_8202297",
+                "BRYN",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8090745|",
+                "",
+                "",
+                [
+                    "LINE_5935978",
+                    "LINE_3442954",
+                    "LINE_6827147",
+                    "LINE_5204308",
+                    "LINE_6764656"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1579367",
+                "LINE_8202297",
+                "LARETHAR",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1579367|",
+                "",
+                "",
+                [
+                    "LINE_5935978",
+                    "LINE_6827147",
+                    "LINE_3442954",
+                    "LINE_6764656",
+                    "LINE_9760111"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3442954",
+                "LINE_8090745",
+                "ILLYDIA",
+                "|Ch3_LairOfRhylfang_Boss_LINE_3442954|",
+                "",
+                "",
+                [
+                    "LINE_3637028"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8202297",
+                "LINE_1976045",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_8542480",
+                    "LINE_8090745",
+                    "LINE_6618041",
+                    "LINE_9096200",
+                    "LINE_5333674",
+                    "LINE_1579367",
+                    "LINE_0473781"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6827147",
+                "LINE_8090745",
+                "DALANIR",
+                "|Ch3_LairOfRhylfang_Boss_LINE_6827147|",
+                "",
+                "",
+                [
+                    "LINE_3637028"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9760111",
+                "LINE_8542480",
+                "BRYN",
+                "|Ch3_LairOfRhylfang_Boss_LINE_9760111|",
+                "",
+                "",
+                [
+                    "LINE_3637028"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5204308",
+                "LINE_8090745",
+                "LARETHAR",
+                "|Ch3_LairOfRhylfang_Boss_LINE_5204308|",
+                "",
+                "",
+                [
+                    "LINE_3637028"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6764656",
+                "LINE_8090745",
+                "JARHILD",
+                "|Ch3_LairOfRhylfang_Boss_LINE_6764656|",
+                "",
+                "",
+                [
+                    "LINE_3637028"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5935978",
+                "LINE_8090745",
+                "HOMMET",
+                "|Ch3_LairOfRhylfang_Boss_LINE_5935978|",
+                "",
+                "",
+                [
+                    "LINE_3637028"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1602621",
+                "LINE_3952318",
+                "JAVEN",
+                "|Ch3_LairOfRhylfang_Boss_LINE_1602621|",
+                "",
+                "",
+                [
+                    "LINE_0161468"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JAVEN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6753854",
+                "LINE_9978216",
+                "JAVEN",
+                "|Ch3_LairOfRhylfang_Boss_LINE_6753854|",
+                "",
+                "",
+                [
+                    "LINE_5522146"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JAVEN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9120278",
+                "LINE_5522146",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_9120278|",
+                "",
+                "",
+                [
+                    "LINE_8202297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8542480",
+                "LINE_8202297",
+                "JAVEN",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8542480|",
+                "",
+                "",
+                [
+                    "LINE_5935978",
+                    "LINE_3442954",
+                    "LINE_6827147",
+                    "LINE_5204308",
+                    "LINE_6764656",
+                    "LINE_9760111"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JAVEN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7171853",
+                "LINE_9978216",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7171853|",
+                "",
+                "",
+                [
+                    "LINE_8886695"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8886695",
+                "LINE_7171853",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_8886695|",
+                "",
+                "",
+                [
+                    "LINE_3637028"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_KerendorAlive",
+                        "FlagState": "set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0473781",
+                "LINE_8202297",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_5935978",
+                    "LINE_3442954",
+                    "LINE_6827147",
+                    "LINE_5204308",
+                    "LINE_6764656",
+                    "LINE_9760111",
+                    "LINE_3637028"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5522146",
+                "LINE_6753854",
+                "<DEFAULT>",
+                "",
+                "",
+                "Animations",
+                [
+                    "LINE_9120278"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "JavenAttacks",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AltarGuyDies",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1021204",
+                "LINE_4057524",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_1976045"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "HommetAttacks",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "PlayMercyFX_Dark",
+                        "FlagState": "set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AltarGuyDies",
+                        "SpeakerTag": "CORPSE"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2779311",
+                "LINE_8054604",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_6743986"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "IllydiaAttacks",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 2.0
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "PlayMercyFX_Light",
+                        "FlagState": "set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AltarGuyDies",
+                        "SpeakerTag": "CORPSE"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4509361",
+                "LINE_6828650",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_1085039"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "JarhildAttacks",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AltarGuyDies",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2926751",
+                "LINE_1283311",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_3692199"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "DalanirAttacks",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "PlayMercyFX_Dark",
+                        "FlagState": "set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AltarGuyDies",
+                        "SpeakerTag": "CORPSE"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7637597",
+                "LINE_1963092",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_7618764"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "BrynAttacks",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AltarGuyDies",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1429840",
+                "LINE_2923292",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_4793647"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "LaretharAttacks",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AltarGuyDies",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8412014",
+                "LINE_9024163",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_5316124"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "PlayerSummonsClericGuardian",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "PlayMercyFX_Light",
+                        "FlagState": "set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 2.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AltarGuyDies",
+                        "SpeakerTag": "CORPSE"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2513642",
+                "LINE_8914377",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_9227884"
+                ],
+                [
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "PlayerAttacks",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AltarGuyDies",
+                        "SpeakerTag": "CORPSE"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "RPE"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch3_LoR_PortalDevice",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_2290867",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_2290867|",
+                "",
+                "<> -> [] (BK)",
+                [
+                    "LINE_6722274",
+                    "LINE_4919331",
+                    "LINE_7736613"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6722274",
+                "LINE_2290867",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_6722274|",
+                "",
+                "",
+                [
+                    "LINE_0118402"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4919331",
+                "LINE_2290867",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_4919331|",
+                "",
+                "",
+                [
+                    "LINE_6224038"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_TLOR_AltarConvoAfter",
+                                    "FlagState": "true",
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0118402",
+                "LINE_6722274",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_0118402|",
+                "",
+                "",
+                [
+                    "LINE_4919331",
+                    "LINE_7736613"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6224038",
+                "LINE_4919331",
+                "<DEFAULT>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_6224038|",
+                "",
+                "",
                 [
                     "LINE_2050186"
-                ], 
+                ],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_ActivePortalFX", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_ActivePortalFX",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_2050186", 
-                "LINE_6224038", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
+                "LINE_2050186",
+                "LINE_6224038",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
                 [
                     {
-                        "Action": "ActionQuest", 
-                        "Flag": "C3_TLOR_UsePortal", 
-                        "Quest": "C3.5_The_Lair_Of_Rhylfang", 
-                        "FlagState": "Set"
+                        "Action": "ActionQuest",
+                        "Flag": "C3_TLOR_UsePortal",
+                        "FlagState": "Set",
+                        "Quest": "C3.5_The_Lair_Of_Rhylfang"
                     }
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_7736613", 
-                "LINE_2290867", 
-                "<PLAYER>", 
-                "|Ch3_LairOfRhylfang_Boss_LINE_7736613|", 
-                "", 
-                "", 
+                "LINE_7736613",
+                "LINE_2290867",
+                "<PLAYER>",
+                "|Ch3_LairOfRhylfang_Boss_LINE_7736613|",
+                "",
+                "",
                 [
                     "LINE_8162675"
-                ], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
-            ], 
+            ],
             [
-                "LINE_8162675", 
-                "LINE_7736613", 
-                "<DEFAULT>", 
-                "", 
-                "", 
-                "", 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                [], 
-                "", 
-                "", 
-                "", 
-                "False", 
-                "False", 
-                "False", 
-                "False", 
+                "LINE_8162675",
+                "LINE_7736613",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
                 "False"
             ]
         ]
-    ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }
