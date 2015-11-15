@@ -2926,4 +2926,2932 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "A_Camp_Larethar",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8640695",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_6625925",
+                    "LINE_1643909",
+                    "LINE_0382449",
+                    "LINE_3130461",
+                    "LINE_3063276"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3063276",
+                "LINE_8640695",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_2995786"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_WU_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C1.1_Waking_Up",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2995786",
+                "LINE_3063276",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_2995786|",
+                "",
+                "",
+                [
+                    "LINE_6301675",
+                    "LINE_1396799",
+                    "LINE_6475347"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6301675",
+                "LINE_2995786",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_6301675|",
+                "",
+                "",
+                [
+                    "LINE_0525457",
+                    "LINE_6641041",
+                    "LINE_9160618",
+                    "LINE_3427282",
+                    "LINE_6318297"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0525457",
+                "LINE_6301675",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_0525457|",
+                "",
+                "",
+                [
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_3_3",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6641041",
+                "LINE_6301675",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_6641041|",
+                "",
+                "BK Set this check frmo BG_1_3 to BG_2_3 to fix a Larethar bug.",
+                [
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_2_3",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_FindTheCamp",
+                                    "FlagState": "false",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3427282",
+                "LINE_6301675",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3427282|",
+                "",
+                "",
+                [
+                    "LINE_2765792",
+                    "LINE_6959482",
+                    "LINE_2320174",
+                    "LINE_3043542",
+                    "LINE_0661163",
+                    "LINE_2285917",
+                    "LINE_7170715",
+                    "LINE_3333678"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_1_1",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3043542",
+                "LINE_3427282",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3043542|",
+                "",
+                "",
+                [
+                    "LINE_7264217"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_BG_2_3",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_2_2",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7264217",
+                "LINE_3043542",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_7264217|",
+                "",
+                "",
+                [
+                    "LINE_6687201"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6687201",
+                "LINE_7264217",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_6687201|",
+                "",
+                "",
+                [
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0661163",
+                "LINE_3427282",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_0661163|",
+                "",
+                "",
+                [
+                    "LINE_8886763",
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_BG_2_2",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_2_1",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8886763",
+                "LINE_0661163",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_8886763|",
+                "",
+                "",
+                [
+                    "LINE_3043542"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2285917",
+                "LINE_3427282",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_2285917|",
+                "",
+                "",
+                [
+                    "LINE_6831903"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_BG_2_1",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_1_3",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_TC_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.15_The_Contact",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6831903",
+                "LINE_2285917",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_6831903|",
+                "",
+                "BK gangster -> thug",
+                [
+                    "LINE_5740538",
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5740538",
+                "LINE_6831903",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_5740538|",
+                "",
+                "",
+                [
+                    "LINE_0661163"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7170715",
+                "LINE_3427282",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_7170715|",
+                "",
+                "BK reprhased from \"Finally, there came the time when my father's stirges came home to roost. My father was murdered by his rivals, and my mother took my siblings and I, hopped on a caravan, and moved us all the way west to the City of Sails.\"",
+                [
+                    "LINE_2005537"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_BG_1_3",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_1_2",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2005537",
+                "LINE_7170715",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_2005537|",
+                "",
+                "",
+                [
+                    "LINE_9767341"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3333678",
+                "LINE_3427282",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3333678|",
+                "",
+                "",
+                [
+                    "LINE_9231787",
+                    "LINE_4583208"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_BG_1_2",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_1_1",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9231787",
+                "LINE_3333678",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_9231787|",
+                "",
+                "",
+                [
+                    "LINE_7036801"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7036801",
+                "LINE_9231787",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_7036801|",
+                "",
+                "",
+                [
+                    "LINE_7170715"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6318297",
+                "LINE_6301675",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_6318297|",
+                "",
+                "",
+                [
+                    "LINE_0939506"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_BG_1_1",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0939506",
+                "LINE_6318297",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_0939506|",
+                "",
+                "TEXT: My father made a lot of coin very quickly there, mostly doing things he probably shouldn't have been doing. Bribing officials for shipping contracts, smuggling goods into and out of town, that sort of thing.\nVO: Me father made a lot of coin very quickly there, mostly doing things he shouldn't have been doing. Bribing officials for shipping contracts, smuggling goods into and out of town, that sort of thing.",
+                [
+                    "LINE_0341690",
+                    "LINE_4583208"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4583208",
+                "LINE_0939506",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_4583208|",
+                "",
+                "",
+                [
+                    "LINE_1261118"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1261118",
+                "LINE_4583208",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_1261118|",
+                "",
+                "",
+                [
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1396799",
+                "LINE_2995786",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_1396799|",
+                "",
+                "",
+                [
+                    "LINE_3622754",
+                    "LINE_5899964",
+                    "LINE_3340209",
+                    "LINE_5731721",
+                    "LINE_3872740",
+                    "LINE_9918891",
+                    "LINE_5479943",
+                    "LINE_7010289",
+                    "LINE_9639676",
+                    "LINE_3158836",
+                    "LINE_0439147"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3622754",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3622754|",
+                "",
+                "After Bryn betrayal",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_TDW_GetToPortal",
+                                    "FlagState": "true",
+                                    "Quest": "C4.4_The_Demons_Wake",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5899964",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_5899964|",
+                "",
+                "After meeting Gorflun",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_PM_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3340209",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3340209|",
+                "",
+                "After reaching Gracklstugh",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_COTGD_TravelToGrack",
+                                    "FlagState": "true",
+                                    "Quest": "C4.1_City_Of_The_Grey_Dwarves",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5731721",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_5731721|",
+                "",
+                "After finding Tezzarae's camp",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_SearchForClues",
+                                    "FlagState": "true",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3872740",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3872740|",
+                "",
+                "After Rhylfang",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9918891",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_9918891|",
+                "",
+                "After the Dalanir Reveal",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_TLOR_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5479943",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_5479943|",
+                "",
+                "After the Chapterhouse",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_CBL_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C3.2_Chaos_Breaks_Loose",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0439147",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_0439147|",
+                "",
+                "",
+                [
+                    "LINE_6301675",
+                    "LINE_5543860"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5543860",
+                "LINE_0439147",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_5543860|",
+                "",
+                "",
+                [
+                    "LINE_7806258"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6475347",
+                "LINE_2995786",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_6475347|",
+                "",
+                "",
+                [
+                    "LINE_7806258"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7806258",
+                "LINE_6475347",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_7806258|",
+                "",
+                "",
+                [
+                    "LINE_1709239"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1709239",
+                "LINE_7806258",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3130461",
+                "LINE_8640695",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3130461|",
+                "",
+                "",
+                [
+                    "LINE_6301675",
+                    "LINE_1396799",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_ANQ_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.1_A_New_Quest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0382449",
+                "LINE_8640695",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_0382449|",
+                "",
+                "",
+                [
+                    "LINE_5221389",
+                    "LINE_5468675",
+                    "LINE_6387809"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Talked_About_Dalanir",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_CBL_DyingDrow",
+                                    "FlagState": "true",
+                                    "Quest": "C3.2_Chaos_Breaks_Loose",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Talked_About_Dalanir",
+                                    "FlagState": "false",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5221389",
+                "LINE_0382449",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_5221389|",
+                "",
+                "",
+                [
+                    "LINE_5648525"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5648525",
+                "LINE_5221389",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_5648525|",
+                "",
+                "",
+                [
+                    "LINE_3106798"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3106798",
+                "LINE_5648525",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3106798|",
+                "",
+                "",
+                [
+                    "LINE_4079087"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4079087",
+                "LINE_3106798",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_4079087|",
+                "",
+                "",
+                [
+                    "LINE_6301675",
+                    "LINE_1396799",
+                    "LINE_6475347"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5468675",
+                "LINE_0382449",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_5468675|",
+                "",
+                "",
+                [
+                    "LINE_2714510"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2714510",
+                "LINE_5468675",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_2714510|",
+                "",
+                "",
+                [
+                    "LINE_3106798"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6387809",
+                "LINE_0382449",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_6387809|",
+                "",
+                "Bk shortened the player response because Larethar expands on it anyway",
+                [
+                    "LINE_8145565"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8145565",
+                "LINE_6387809",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_8145565|",
+                "",
+                "",
+                [
+                    "LINE_3106798"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1643909",
+                "LINE_8640695",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_1643909|",
+                "",
+                " ",
+                [
+                    "LINE_6301675",
+                    "LINE_1396799",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6625925",
+                "LINE_8640695",
+                "LARETHAR",
+                "|A_Camp_Larethar_LINE_6625925|",
+                "",
+                "",
+                [
+                    "LINE_2129942",
+                    "LINE_0209369"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_CQ_Start",
+                                    "FlagState": "false",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_TNM_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C3.0_The_Next_Move",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0209369",
+                "LINE_6625925",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_0209369|",
+                "",
+                "",
+                [
+                    "LINE_7003809"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7003809",
+                "LINE_0209369",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_7003809|",
+                "",
+                "",
+                [
+                    "LINE_2930098"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2930098",
+                "LINE_7003809",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2129942",
+                "LINE_6625925",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_2129942|",
+                "",
+                "",
+                [
+                    "LINE_4881382"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4881382",
+                "LINE_2129942",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_4881382|",
+                "",
+                "",
+                [
+                    "LINE_2720175"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2720175",
+                "LINE_4881382",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_2720175|",
+                "",
+                "WOTC Now, back when I knew him, I wasn't the paragon of politeness and virtue you see before you today. No, I did somethings I wasn't proud of, and... let me put it this way: I don't think Lydie would like who I was back then. \nBK tweaked",
+                [
+                    "LINE_3520849"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3520849",
+                "LINE_2720175",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3520849|",
+                "",
+                "",
+                [
+                    "LINE_0525611",
+                    "LINE_4224217",
+                    "LINE_1367912",
+                    "LINE_5214970"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0525611",
+                "LINE_3520849",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_0525611|",
+                "",
+                "",
+                [
+                    "LINE_4822850"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4822850",
+                "LINE_0525611",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_4822850|",
+                "",
+                "BK cut \" with Ship Baram\" because it is repeated on the next line.",
+                [
+                    "LINE_4546508"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4546508",
+                "LINE_4822850",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_4546508|",
+                "",
+                "",
+                [
+                    "LINE_6922518",
+                    "LINE_2196391",
+                    "LINE_3192152"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6922518",
+                "LINE_4546508",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_6922518|",
+                "",
+                "",
+                [
+                    "LINE_0853834"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0853834",
+                "LINE_6922518",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_0853834|",
+                "",
+                "",
+                [
+                    "LINE_7193584"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7193584",
+                "LINE_0853834",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_7193584|",
+                "",
+                "BK rewrote \"So I took it. And come to find out, it belonged to High Captain Baram himself. Heh! Silly me!\"",
+                [
+                    "LINE_2946717"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2946717",
+                "LINE_7193584",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_2946717|",
+                "",
+                "",
+                [
+                    "LINE_5781675"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5781675",
+                "LINE_2946717",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_5781675|",
+                "",
+                "",
+                [
+                    "LINE_4224217",
+                    "LINE_1367912"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2196391",
+                "LINE_4546508",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_2196391|",
+                "",
+                "",
+                [
+                    "LINE_9364382"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9364382",
+                "LINE_2196391",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_9364382|",
+                "",
+                "",
+                [
+                    "LINE_0853834"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3192152",
+                "LINE_4546508",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_3192152|",
+                "",
+                "",
+                [
+                    "LINE_1641795"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1641795",
+                "LINE_3192152",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_1641795|",
+                "",
+                "",
+                [
+                    "LINE_0853834"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4224217",
+                "LINE_3520849",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_4224217|",
+                "",
+                "",
+                [
+                    "LINE_5669710"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5669710",
+                "LINE_4224217",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_5669710|",
+                "",
+                "",
+                [
+                    "LINE_0597395"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0597395",
+                "LINE_5669710",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_0597395|",
+                "",
+                "",
+                [
+                    "LINE_6301675",
+                    "LINE_1396799",
+                    "LINE_6475347"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_CQ_Start",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1367912",
+                "LINE_3520849",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_1367912|",
+                "",
+                "",
+                [
+                    "LINE_8985236"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8985236",
+                "LINE_1367912",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_8985236|",
+                "",
+                "",
+                [
+                    "LINE_0597395"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5214970",
+                "LINE_3520849",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_5214970|",
+                "",
+                "",
+                [
+                    "LINE_0916181"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0916181",
+                "LINE_5214970",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_0916181|",
+                "",
+                "",
+                [
+                    "LINE_9649590"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9649590",
+                "LINE_0916181",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_9649590|",
+                "",
+                "",
+                [
+                    "LINE_4224217",
+                    "LINE_1367912"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7010289",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_7010289|",
+                "",
+                "After Maferil",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_TNM_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C3.0_The_Next_Move",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9639676",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_9639676|",
+                "",
+                "After finding Soronil",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_ITDC_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3158836",
+                "LINE_1396799",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_3158836|",
+                "",
+                "Reached Luskan Gates",
+                [
+                    "LINE_6301675",
+                    "LINE_6475347"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_ANQ_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.1_A_New_Quest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0341690",
+                "LINE_0939506",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_0341690|",
+                "",
+                "",
+                [
+                    "LINE_3333678"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9767341",
+                "LINE_2005537",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_9767341|",
+                "",
+                "",
+                [
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2320174",
+                "LINE_3427282",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_2320174|",
+                "",
+                "",
+                [
+                    "LINE_3712871",
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_BG_3_1",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_2_3",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_FindTheCamp",
+                                    "FlagState": "true",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3712871",
+                "LINE_2320174",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_3712871|",
+                "",
+                "",
+                [
+                    "LINE_6959482"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6959482",
+                "LINE_3427282",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_6959482|",
+                "",
+                "",
+                [
+                    "LINE_4125106"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_BG_3_2",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_3_1",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1043102",
+                "LINE_4125106",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_1043102|",
+                "",
+                "",
+                [
+                    "LINE_2765792"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2765792",
+                "LINE_3427282",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_2765792|",
+                "",
+                "",
+                [
+                    "LINE_1396799",
+                    "LINE_5543860",
+                    "LINE_8902304"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Larethar_BG_3_3",
+                        "FlagState": "Set",
+                        "Quest": "Larethar_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_3_2",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8902304",
+                "LINE_2765792",
+                "<PLAYER>",
+                "|A_Camp_Larethar_LINE_8902304|",
+                "",
+                "",
+                [
+                    "LINE_8113786"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8113786",
+                "LINE_8902304",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_8113786|",
+                "",
+                "",
+                [
+                    "LINE_2510773"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4125106",
+                "LINE_6959482",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_4125106|",
+                "",
+                "",
+                [
+                    "LINE_1043102",
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2510773",
+                "LINE_8113786",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_2510773|",
+                "",
+                "",
+                [
+                    "LINE_1396799",
+                    "LINE_5543860"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9160618",
+                "LINE_6301675",
+                "<DEFAULT>",
+                "|A_Camp_Larethar_LINE_9160618|",
+                "",
+                "",
+                [
+                    "LINE_5543860",
+                    "LINE_1396799"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Larethar_BG_1_3",
+                                    "FlagState": "true",
+                                    "Quest": "Larethar_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_TC_Start",
+                                    "FlagState": "false",
+                                    "Quest": "C2.15_The_Contact",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

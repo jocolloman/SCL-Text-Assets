@@ -280,4 +280,286 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "CRAZY1"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "HelloIamCrazy",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8800514",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_8507246"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8507246",
+                "LINE_8800514",
+                "<DEFAULT>",
+                "|DuergarStrongholdBlacksmith_LINE_8507246|",
+                "",
+                "",
+                [
+                    "LINE_5254281",
+                    "LINE_4059169"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5254281",
+                "LINE_8507246",
+                "<PLAYER>",
+                "|DuergarStrongholdBlacksmith_LINE_5254281|",
+                "",
+                "",
+                [
+                    "LINE_4474779"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4059169",
+                "LINE_8507246",
+                "<PLAYER>",
+                "|DuergarStrongholdBlacksmith_LINE_4059169|",
+                "",
+                "",
+                [
+                    "LINE_7829939"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4474779",
+                "LINE_5254281",
+                "<DEFAULT>",
+                "|DuergarStrongholdBlacksmith_LINE_4474779|",
+                "",
+                "",
+                [
+                    "LINE_8886253"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7829939",
+                "LINE_4059169",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8886253",
+                "LINE_4474779",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

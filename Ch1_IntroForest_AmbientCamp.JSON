@@ -230,4 +230,236 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                },
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Unnamed Conversation",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            }
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ambient Camp",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_1327100",
+                "<ROOT>",
+                "LARETHAR",
+                "|Ch1_IntroForest_AmbientCamp_LINE_1327100|",
+                "",
+                "",
+                [
+                    "LINE_4859922"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4859922",
+                "LINE_1327100",
+                "ILLYDIA",
+                "|Ch1_IntroForest_AmbientCamp_LINE_4859922|",
+                "",
+                "",
+                [
+                    "LINE_2687844"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2687844",
+                "LINE_4859922",
+                "LARETHAR",
+                "|Ch1_IntroForest_AmbientCamp_LINE_2687844|",
+                "",
+                "",
+                [
+                    "LINE_9450753"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9450753",
+                "LINE_2687844",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_WU_DiscoveredSmallCamp",
+                        "FlagState": "Set",
+                        "Quest": "C1.1_Waking_Up"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

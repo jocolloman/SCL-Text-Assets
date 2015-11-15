@@ -912,4 +912,918 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "TRAX"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "True",
+                "IsStoryCritical": "True",
+                "Name": "Ch1_BanditCave_Goblins",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_6547673",
+                "<ROOT>",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_6547673|",
+                "",
+                "",
+                [
+                    "LINE_7800293",
+                    "LINE_8141468"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7800293",
+                "LINE_6547673",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_7800293|",
+                "",
+                "",
+                [
+                    "LINE_3541206"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3541206",
+                "LINE_7800293",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_3541206|",
+                "",
+                "BK -> simplified sentence a bit to remove exact reference to month.",
+                [
+                    "LINE_1975573",
+                    "LINE_2819608",
+                    "LINE_2231321",
+                    "LINE_8141468"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1975573",
+                "LINE_3541206",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_1975573|",
+                "",
+                "",
+                [
+                    "LINE_6985625"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_GoblinLetterExamined",
+                                    "FlagState": "true",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2231321",
+                "LINE_3541206",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_2231321|",
+                "",
+                "",
+                [
+                    "LINE_1792115"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1792115",
+                "LINE_2231321",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_1792115|",
+                "",
+                "",
+                [
+                    "LINE_1975573",
+                    "LINE_7476689"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8141468",
+                "LINE_6547673",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_8141468|",
+                "",
+                "",
+                [
+                    "LINE_5766361"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5766361",
+                "LINE_8141468",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_5766361|",
+                "",
+                "BK -> dropped here",
+                [
+                    "LINE_0060609"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0060609",
+                "LINE_5766361",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_GoblinAttack",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_GoblinArtifact"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:GoblinArtifact"
+                ],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2819608",
+                "LINE_3541206",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_2819608|",
+                "",
+                "",
+                [
+                    "LINE_0092080"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_AllowThiefToLeave",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_GoblinArtifact",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_ThiefEncountered",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_GoblinArtifact",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0092080",
+                "LINE_2819608",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_0092080|",
+                "",
+                "",
+                [
+                    "LINE_5603273",
+                    "LINE_9057489",
+                    "LINE_1222271"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5603273",
+                "LINE_0092080",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_5603273|",
+                "",
+                "",
+                [
+                    "LINE_2424470"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_ArtifactFound",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_GoblinArtifact",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2424470",
+                "LINE_5603273",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_2424470|",
+                "",
+                "",
+                [
+                    "LINE_3099536"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3099536",
+                "LINE_2424470",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_3099536|",
+                "",
+                "",
+                [
+                    "LINE_0561864",
+                    "LINE_8502622"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8502622",
+                "LINE_3099536",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_8502622|",
+                "",
+                "",
+                [
+                    "LINE_0060609"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_ArtifactRevealed",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_GoblinArtifact"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9057489",
+                "LINE_0092080",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_9057489|",
+                "",
+                "",
+                [
+                    "LINE_1284469"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1284469",
+                "LINE_9057489",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_1284469|",
+                "",
+                "",
+                [
+                    "LINE_5603273",
+                    "LINE_1222271"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1222271",
+                "LINE_0092080",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_1222271|",
+                "",
+                "",
+                [
+                    "LINE_6355161"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6355161",
+                "LINE_1222271",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_6355161|",
+                "",
+                "",
+                [
+                    "LINE_0060609"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6985625",
+                "LINE_1975573",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_6985625|",
+                "",
+                "",
+                [
+                    "LINE_5603273",
+                    "LINE_9057489",
+                    "LINE_1222271"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7476689",
+                "LINE_1792115",
+                "LARETHAR",
+                "|Ch1_BanditCave_Goblins_LINE_7476689|",
+                "",
+                "",
+                [
+                    "LINE_3914289"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3914289",
+                "LINE_7476689",
+                "ILLYDIA",
+                "|Ch1_BanditCave_Goblins_LINE_3914289|",
+                "",
+                "",
+                [
+                    "LINE_8649228",
+                    "LINE_7950801",
+                    "LINE_1975573",
+                    "LINE_2819608"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8649228",
+                "LINE_3914289",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_8649228|",
+                "",
+                "",
+                [
+                    "LINE_9235159"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_GoblinAttack",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_GoblinArtifact"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9235159",
+                "LINE_8649228",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_9235159|",
+                "",
+                "",
+                [
+                    "LINE_0060609"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7950801",
+                "LINE_3914289",
+                "<PLAYER>",
+                "|Ch1_BanditCave_Goblins_LINE_7950801|",
+                "",
+                "",
+                [
+                    "LINE_5973383"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5973383",
+                "LINE_7950801",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_5973383|",
+                "",
+                "BK: eat - > feast",
+                [
+                    "LINE_0060609"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0561864",
+                "LINE_3099536",
+                "LARETHAR",
+                "|Ch1_BanditCave_Goblins_LINE_0561864|",
+                "",
+                "",
+                [
+                    "LINE_7702418"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7702418",
+                "LINE_0561864",
+                "TRAX",
+                "|Ch1_BanditCave_Goblins_LINE_7702418|",
+                "",
+                "",
+                [
+                    "LINE_5226880"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5226880",
+                "LINE_7702418",
+                "LARETHAR",
+                "|Ch1_BanditCave_Goblins_LINE_5226880|",
+                "",
+                "",
+                [
+                    "LINE_8502622"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

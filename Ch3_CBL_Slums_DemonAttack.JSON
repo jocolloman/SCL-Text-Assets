@@ -2766,4 +2766,2772 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "TASYLLYS"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "True",
+                "IsStoryCritical": "True",
+                "Name": "Ch3_CBL_DemonAttack",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_4309154",
+                "<ROOT>",
+                "BANAGARCUT",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_4309154|",
+                "",
+                "",
+                [
+                    "LINE_8677834"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DawnAttacks",
+                        "FlagState": "set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_SaveKnight",
+                                    "FlagState": "is true",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_CBL_FightBanagar",
+                                    "FlagState": "false",
+                                    "Quest": "C3.2_Chaos_Breaks_Loose",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8677834",
+                "LINE_6006404",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_8677834|",
+                "",
+                "",
+                [
+                    "LINE_5497290",
+                    "LINE_1284856",
+                    "LINE_9787958",
+                    "LINE_0077605",
+                    "LINE_9460058"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6006404",
+                "<ROOT>",
+                "GLASTON",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_6006404|",
+                "",
+                "",
+                [
+                    "LINE_8677834"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DawnAttacks",
+                        "FlagState": "set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6911427",
+                "LINE_3674591",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_6911427|",
+                "",
+                "",
+                [
+                    "LINE_1310990"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_KnightsFall",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5497290",
+                "LINE_8677834",
+                "ILLYDIA",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_5497290|",
+                "",
+                "",
+                [
+                    "LINE_5253429"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1658996",
+                "LINE_3403646",
+                "JARHILD",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1658996|",
+                "",
+                "",
+                [
+                    "LINE_8592934",
+                    "LINE_2601540",
+                    "LINE_1827078"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DemonFades",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8592934",
+                "LINE_1658996",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_8592934|",
+                "",
+                "",
+                [
+                    "LINE_3522800"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2601540",
+                "LINE_1658996",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_2601540|",
+                "",
+                "",
+                [
+                    "LINE_7604911"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1827078",
+                "LINE_1658996",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1827078|",
+                "",
+                "",
+                [
+                    "LINE_6344495"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6344495",
+                "LINE_1827078",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_6344495|",
+                "",
+                "",
+                [
+                    "LINE_2085309"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3522800",
+                "LINE_8592934",
+                "JARHILD",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_3522800|",
+                "",
+                "",
+                [
+                    "LINE_5681138"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5681138",
+                "LINE_3522800",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DemonRises",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DemonsAttack",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7604911",
+                "LINE_2601540",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_7604911|",
+                "",
+                "",
+                [
+                    "LINE_1282247"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2085309",
+                "LINE_6344495",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DemonRises",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DemonsAttack",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1282247",
+                "LINE_7604911",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DemonRises",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DemonsAttack",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3403646",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_1658996"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ALWAYS_FALSE",
+                                    "FlagState": "true",
+                                    "Quest": "UtilityQuestFlags",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5253429",
+                "LINE_5497290",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_5253429|",
+                "",
+                "",
+                [
+                    "LINE_3674591"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9787958",
+                "LINE_8677834",
+                "JARHILD",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_9787958|",
+                "",
+                "",
+                [
+                    "LINE_5253429"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9460058",
+                "LINE_8677834",
+                "LARETHAR",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_9460058|",
+                "",
+                "",
+                [
+                    "LINE_5253429"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0077605",
+                "LINE_8677834",
+                "HOMMET",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_0077605|",
+                "",
+                "",
+                [
+                    "LINE_5253429"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1284856",
+                "LINE_8677834",
+                "BRYN",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1284856|",
+                "",
+                "",
+                [
+                    "LINE_5253429"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3674591",
+                "LINE_5253429",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_3674591|",
+                "",
+                "",
+                [
+                    "LINE_6911427"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1310990",
+                "LINE_6911427",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1310990|",
+                "",
+                "",
+                [
+                    "LINE_1852678"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1852678",
+                "LINE_1310990",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_SpawnBelaEncounter",
+                        "FlagState": "set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "JoinPartyAsLocalFollower",
+                        "SpeakerTag": "SORONIL"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "DYINGDROW"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "True",
+                "IsStoryCritical": "True",
+                "Name": "Ch3_CBL_DyingDrow",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_1075269",
+                "LINE_4536324",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1075269|",
+                "",
+                "",
+                [
+                    "LINE_1334922"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0259960",
+                "LINE_1334922",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_0259960|",
+                "",
+                "",
+                [
+                    "LINE_5494698",
+                    "LINE_9588812",
+                    "LINE_7381903",
+                    "LINE_6367662",
+                    "LINE_0234848",
+                    "LINE_3659293"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0234848",
+                "LINE_0259960",
+                "JARHILD",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_0234848|",
+                "",
+                "",
+                [
+                    "LINE_9809817"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9809817",
+                "LINE_0234848",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_9809817|",
+                "",
+                "BK: Found this line incomplete as: \"It matters not... No matter what you do... you wi\"  tweaked it to you \"will fail\"",
+                [
+                    "LINE_3659293"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3659293",
+                "LINE_9809817",
+                "SORONIL",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_3659293|",
+                "",
+                "",
+                [
+                    "LINE_0455983"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0455983",
+                "LINE_3659293",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_0455983|",
+                "",
+                "",
+                [
+                    "LINE_8237779",
+                    "LINE_1653852"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8237779",
+                "LINE_0455983",
+                "ILLYDIA",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_8237779|",
+                "",
+                "",
+                [
+                    "LINE_1653852"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4611667",
+                "LINE_1653852",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_4611667|",
+                "",
+                "",
+                [
+                    "LINE_8222216"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8222216",
+                "LINE_4611667",
+                "SORONIL",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_8222216|",
+                "",
+                "",
+                [
+                    "LINE_1034847"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1034847",
+                "LINE_8222216",
+                "SORONIL",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1034847|",
+                "",
+                "",
+                [
+                    "LINE_8017620"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DyingDrow",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8017620",
+                "LINE_1034847",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_DyingDrow",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "GENERATE_SAVE",
+                        "FlagState": "Set",
+                        "Quest": "UtilityQuestFlags"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5800055",
+                "LINE_1653852",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_5800055|",
+                "",
+                "",
+                [
+                    "LINE_4309685"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4309685",
+                "LINE_5800055",
+                "SORONIL",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_4309685|",
+                "",
+                "",
+                [
+                    "LINE_8222216"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2286914",
+                "LINE_1653852",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_2286914|",
+                "",
+                "",
+                [
+                    "LINE_9333226"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9333226",
+                "LINE_2286914",
+                "SORONIL",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_9333226|",
+                "",
+                "",
+                [
+                    "LINE_8222216"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1334922",
+                "LINE_1075269",
+                "SORONIL",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1334922|",
+                "",
+                "",
+                [
+                    "LINE_0259960"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1681843",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1681843|",
+                "",
+                "",
+                [
+                    "LINE_1641207",
+                    "LINE_4536324",
+                    "LINE_0197767"
+                ],
+                [
+                    {
+                        "Action": "ActionMoveToWaypoint",
+                        "Async": false,
+                        "MoveActor": "SORONIL",
+                        "MoveToWP": "WP_Standing (4)"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_CBL_DemonsDefeated",
+                                    "FlagState": "true",
+                                    "Quest": "C3.2_Chaos_Breaks_Loose",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1641207",
+                "LINE_1681843",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1641207|",
+                "",
+                "",
+                [
+                    "LINE_9824020"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4536324",
+                "LINE_1681843",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_4536324|",
+                "",
+                "",
+                [
+                    "LINE_1075269"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0197767",
+                "LINE_1681843",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_0197767|",
+                "",
+                "",
+                [
+                    "LINE_1578299"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1578299",
+                "LINE_0197767",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1578299|",
+                "",
+                "",
+                [
+                    "LINE_9824020"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9824020",
+                "LINE_1641207",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_9824020|",
+                "",
+                "",
+                [
+                    "LINE_7962348"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7962348",
+                "LINE_9824020",
+                "SORONIL",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_7962348|",
+                "",
+                "",
+                [
+                    "LINE_0259960"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5494698",
+                "LINE_0259960",
+                "ILLYDIA",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_5494698|",
+                "",
+                "",
+                [
+                    "LINE_9809817"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6367662",
+                "LINE_0259960",
+                "HOMMET",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_6367662|",
+                "",
+                "",
+                [
+                    "LINE_9809817"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7381903",
+                "LINE_0259960",
+                "LARETHAR",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_7381903|",
+                "",
+                "",
+                [
+                    "LINE_9809817"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9588812",
+                "LINE_0259960",
+                "BRYN",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_9588812|",
+                "",
+                "",
+                [
+                    "LINE_9809817"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1653852",
+                "LINE_0455983",
+                "SORONIL",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1653852|",
+                "",
+                "",
+                [
+                    "LINE_4611667",
+                    "LINE_5800055",
+                    "LINE_2286914"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "BANAGAR"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch3_CBL_Banagar",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_6059572",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_6059572|",
+                "",
+                "",
+                [
+                    "LINE_0280368",
+                    "LINE_2992196",
+                    "LINE_3035373"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_CBL_BanagarLeaves",
+                                    "FlagState": "false",
+                                    "Quest": "C3.2_Chaos_Breaks_Loose",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0280368",
+                "LINE_6059572",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_0280368|",
+                "",
+                "",
+                [
+                    "LINE_8804597"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2992196",
+                "LINE_6059572",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_2992196|",
+                "",
+                "",
+                [
+                    "LINE_8312590"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3035373",
+                "LINE_6059572",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_3035373|",
+                "",
+                "",
+                [
+                    "LINE_5263588"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5263588",
+                "LINE_3035373",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_5263588|",
+                "",
+                "",
+                [
+                    "LINE_4288875",
+                    "LINE_9973885"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8804597",
+                "LINE_0280368",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_8804597|",
+                "",
+                "",
+                [
+                    "LINE_8032997"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8032997",
+                "LINE_8804597",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_8032997|",
+                "",
+                "",
+                [
+                    "LINE_6783540"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6783540",
+                "LINE_8032997",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_6783540|",
+                "",
+                "",
+                [
+                    "LINE_7781894",
+                    "LINE_1594941",
+                    "LINE_2642580"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3264168",
+                "LINE_7781894",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_3264168|",
+                "",
+                "",
+                [
+                    "LINE_9817671"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_BanagarLeaves",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "JoinPartyAsLocalFollower",
+                        "SpeakerTag": "BANAGAR"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4288875",
+                "LINE_5263588",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_4288875|",
+                "",
+                "",
+                [
+                    "LINE_8312590"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9973885",
+                "LINE_5263588",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_9973885|",
+                "",
+                "",
+                [
+                    "LINE_1882633"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1882633",
+                "LINE_9973885",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1882633|",
+                "",
+                "",
+                [
+                    "LINE_6325974"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6325974",
+                "LINE_1882633",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_FightBanagar",
+                        "FlagState": "Set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8312590",
+                "LINE_4288875",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_8312590|",
+                "",
+                "",
+                [
+                    "LINE_8032997"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7781894",
+                "LINE_6783540",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_7781894|",
+                "",
+                "",
+                [
+                    "LINE_3264168"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1594941",
+                "LINE_6783540",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_1594941|",
+                "",
+                "",
+                [
+                    "LINE_4581135"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2642580",
+                "LINE_6783540",
+                "<PLAYER>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_2642580|",
+                "",
+                "",
+                [
+                    "LINE_7113232"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7113232",
+                "LINE_2642580",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_7113232|",
+                "",
+                "",
+                [
+                    "LINE_3264168"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4581135",
+                "LINE_1594941",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_4581135|",
+                "",
+                "men -> knights",
+                [
+                    "LINE_5358525"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5358525",
+                "LINE_4581135",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_5358525|",
+                "",
+                "",
+                [
+                    "LINE_3264168"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9817671",
+                "LINE_3264168",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "JoinPartyAsLocalFollower",
+                        "SpeakerTag": "JAVENMENTOR"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch3_CBL_AmbientNPC_01",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3827710",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_3827710|",
+                "",
+                "",
+                [
+                    "LINE_4449969"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4449969",
+                "LINE_3827710",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch3_CBL_AmbientNPC_02",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_0443171",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_0443171|",
+                "",
+                "",
+                [
+                    "LINE_2805136"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2805136",
+                "LINE_0443171",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch3_CBL_AmbientNPC_03",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8606213",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_8606213|",
+                "",
+                "",
+                [
+                    "LINE_4289120"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4289120",
+                "LINE_8606213",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch3_CBL_AmbientNPC_04",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3890533",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_3890533|",
+                "",
+                "",
+                [
+                    "LINE_5856725"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5856725",
+                "LINE_3890533",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch3_CBL_AmbientNPC_05",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7669824",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_7669824|",
+                "",
+                "",
+                [
+                    "LINE_8618343"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8618343",
+                "LINE_7669824",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch3_CBL_AmbientNPC_06",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_6207884",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_6207884|",
+                "",
+                "",
+                [
+                    "LINE_5901619"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5901619",
+                "LINE_6207884",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch3_CBL_BanagaUnfollow",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_5904303",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_4191343"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "LeaveParty",
+                        "SpeakerTag": "JAVENMENTOR"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4191343",
+                "LINE_5904303",
+                "BANAGAR",
+                "|Ch3_CBL_Slums_DemonAttack_LINE_4191343|",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "LeaveParty",
+                        "SpeakerTag": "BANAGAR"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

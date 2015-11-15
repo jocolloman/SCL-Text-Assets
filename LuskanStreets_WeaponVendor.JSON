@@ -349,4 +349,355 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "LUSKANWEAPONVENDOR"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "LuskanStreets_WeaponVendor",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3624715",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|LuskanStreets_WeaponVendor_LINE_3624715|",
+                "",
+                "",
+                [
+                    "LINE_8607878",
+                    "LINE_6617694",
+                    "LINE_2795331"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8607878",
+                "LINE_3624715",
+                "<PLAYER>",
+                "|LuskanStreets_WeaponVendor_LINE_8607878|",
+                "",
+                "",
+                [
+                    "LINE_5405869"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6617694",
+                "LINE_3624715",
+                "<PLAYER>",
+                "|LuskanStreets_WeaponVendor_LINE_6617694|",
+                "",
+                "Have you heard of an Infernal Stone?",
+                [
+                    "LINE_1915505"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Bryn_CQ_Start",
+                                    "FlagState": "true",
+                                    "Quest": "Bryn_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Bryn_CQ_FindMerchant",
+                                    "FlagState": "false",
+                                    "Quest": "Bryn_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C4_B_BrynEscaped",
+                                    "FlagState": "false",
+                                    "Quest": "C4.3_Betrayal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2795331",
+                "LINE_3624715",
+                "<PLAYER>",
+                "|LuskanStreets_WeaponVendor_LINE_2795331|",
+                "",
+                "",
+                [
+                    "LINE_7952062"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7952062",
+                "LINE_2795331",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5405869",
+                "LINE_8607878",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1915505",
+                "LINE_6617694",
+                "<DEFAULT>",
+                "|LuskanStreets_WeaponVendor_LINE_1915505|",
+                "",
+                "Why yes, some of the workers from the docks came by to tell me about it.  It sounded far too dangerous to keep in the store.  If you want to ask about it, I'd try the warehouse out by the docks.",
+                [
+                    "LINE_5996537"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5996537",
+                "LINE_1915505",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Bryn_CQ_FindMerchant",
+                        "FlagState": "Set",
+                        "Quest": "Bryn_CQ"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Bryn_CQ_MapUnlockWarehouse",
+                        "FlagState": "set",
+                        "Quest": "Bryn_CQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

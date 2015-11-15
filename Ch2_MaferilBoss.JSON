@@ -2332,4 +2332,2338 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "HOMMET"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "MaferilBossConvo",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_0073759",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_7785342"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_TMOM_SpawnMaferil",
+                        "FlagState": "set",
+                        "Quest": "C2.3_The_Mind_Of_Madness"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_TMOM_StartedMaferilFight",
+                                    "FlagState": "false",
+                                    "Quest": "C2.3_The_Mind_Of_Madness",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2264280",
+                "<ROOT>",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_2264280|",
+                "",
+                "",
+                [
+                    "LINE_6967661"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_TMOM_DefeatMaferilsGhost",
+                                    "FlagState": "True",
+                                    "Quest": "C2.3_The_Mind_Of_Madness",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_TMOM_MaferilFinalConvo",
+                                    "FlagState": "False",
+                                    "Quest": "C2.3_The_Mind_Of_Madness",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6967661",
+                "LINE_2264280",
+                "HOMMET",
+                "|Ch2_MaferilBoss_LINE_6967661|",
+                "",
+                "",
+                [
+                    "LINE_6457658"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6457658",
+                "LINE_6967661",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_6457658|",
+                "",
+                "",
+                [
+                    "LINE_4635295",
+                    "LINE_7642642",
+                    "LINE_3027867",
+                    "LINE_0531796",
+                    "LINE_3206716"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7642642",
+                "LINE_6457658",
+                "ILLYDIA",
+                "|Ch2_MaferilBoss_LINE_7642642|",
+                "",
+                "",
+                [
+                    "LINE_0317061"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0317061",
+                "LINE_7642642",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0317061|",
+                "",
+                "",
+                [
+                    "LINE_8398090",
+                    "LINE_6772840"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8398090",
+                "LINE_0317061",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_8398090|",
+                "",
+                "",
+                [
+                    "LINE_8379594"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8379594",
+                "LINE_8398090",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_8379594|",
+                "",
+                "",
+                [
+                    "LINE_0257917"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6772840",
+                "LINE_0317061",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_6772840|",
+                "",
+                "",
+                [
+                    "LINE_5389947"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5389947",
+                "LINE_6772840",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_5389947|",
+                "",
+                "",
+                [
+                    "LINE_3742745",
+                    "LINE_8850140"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3742745",
+                "LINE_5389947",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_3742745|",
+                "",
+                "",
+                [
+                    "LINE_8578743"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8850140",
+                "LINE_5389947",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_8850140|",
+                "",
+                "",
+                [
+                    "LINE_3691117"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3691117",
+                "LINE_8850140",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_3691117|",
+                "",
+                "",
+                [
+                    "LINE_4388125"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4388125",
+                "LINE_3691117",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_4388125|",
+                "",
+                "",
+                [
+                    "LINE_8398090",
+                    "LINE_3742745",
+                    "LINE_8850140"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8578743",
+                "LINE_3742745",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_8578743|",
+                "",
+                "",
+                [
+                    "LINE_9168412"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9168412",
+                "LINE_8578743",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_9168412|",
+                "",
+                "Bk of -> up",
+                [
+                    "LINE_9672741"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9672741",
+                "LINE_9168412",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_9672741|",
+                "",
+                "",
+                [
+                    "LINE_8398090",
+                    "LINE_3742745",
+                    "LINE_8850140"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0257917",
+                "LINE_8379594",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0257917|",
+                "",
+                "BK renamed Roth and Gareth",
+                [
+                    "LINE_6968298"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6968298",
+                "LINE_0257917",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_6968298|",
+                "",
+                "VO degendering They learned of the legend of a stone... a tear of the elven goddess of the moon... one they believed would allay the sadness... that men feel in Toril.",
+                [
+                    "LINE_7019272"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4708062",
+                "LINE_0966836",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_4708062|",
+                "",
+                "",
+                [
+                    "LINE_5525564"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5525564",
+                "LINE_4708062",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_5525564|",
+                "",
+                "",
+                [
+                    "LINE_4196703",
+                    "LINE_2755515",
+                    "LINE_8029766"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4196703",
+                "LINE_5525564",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_4196703|",
+                "",
+                "",
+                [
+                    "LINE_2175807"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2755515",
+                "LINE_5525564",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_2755515|",
+                "",
+                "",
+                [
+                    "LINE_2224096"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8029766",
+                "LINE_5525564",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_8029766|",
+                "",
+                "",
+                [
+                    "LINE_6766862"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6766862",
+                "LINE_8029766",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_6766862|",
+                "",
+                "",
+                [
+                    "LINE_7531537"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2224096",
+                "LINE_2755515",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_2224096|",
+                "",
+                "",
+                [
+                    "LINE_7531537"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2175807",
+                "LINE_4196703",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_2175807|",
+                "",
+                "",
+                [
+                    "LINE_7531537"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7531537",
+                "LINE_2175807",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_7531537|",
+                "",
+                "BK dropped \"gained members\" and grew - > became",
+                [
+                    "LINE_0929269"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0929269",
+                "LINE_7531537",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0929269|",
+                "",
+                "BK renamed narrator and heavily edited the dialog to remove so many \"the brother\" references and be clearer (I think)",
+                [
+                    "LINE_0670524"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0670524",
+                "LINE_0929269",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0670524|",
+                "",
+                "BK \"were dead\" -> died",
+                [
+                    "LINE_4702261",
+                    "LINE_8212886"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5834279",
+                "LINE_4702261",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_5834279|",
+                "",
+                "",
+                [
+                    "LINE_6615376",
+                    "LINE_3370223",
+                    "LINE_5889643",
+                    "LINE_0378477"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6349433",
+                "<ROOT>",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_6349433|",
+                "",
+                "",
+                [
+                    "LINE_0950892"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_TMOM_MaferilFinalConvo",
+                                    "FlagState": "True",
+                                    "Quest": "C2.3_The_Mind_Of_Madness",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0950892",
+                "LINE_6349433",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5889643",
+                "LINE_5834279",
+                "ILLYDIA",
+                "|Ch2_MaferilBoss_LINE_5889643|",
+                "",
+                "",
+                [
+                    "LINE_8355088",
+                    "LINE_0981077"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8355088",
+                "LINE_5889643",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_8355088|",
+                "",
+                "",
+                [
+                    "LINE_4332933"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4332933",
+                "LINE_8355088",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_4332933|",
+                "",
+                "",
+                [
+                    "LINE_1230821",
+                    "LINE_5006851",
+                    "LINE_7474856",
+                    "LINE_7321837",
+                    "LINE_0454687"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1230821",
+                "LINE_4332933",
+                "LARETHAR",
+                "|Ch2_MaferilBoss_LINE_1230821|",
+                "",
+                "",
+                [
+                    "LINE_5006851",
+                    "LINE_7474856",
+                    "LINE_7321837",
+                    "LINE_0454687"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0454687",
+                "LINE_7321837",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0454687|",
+                "",
+                "",
+                [
+                    "LINE_8501710"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0981077",
+                "LINE_5889643",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_0981077|",
+                "",
+                "",
+                [
+                    "LINE_0941658"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0941658",
+                "LINE_0981077",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0941658|",
+                "",
+                "",
+                [
+                    "LINE_1230821",
+                    "LINE_5006851",
+                    "LINE_7474856",
+                    "LINE_7321837",
+                    "LINE_0454687"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7785342",
+                "LINE_0073759",
+                "HOMMET",
+                "|Ch2_MaferilBoss_LINE_7785342|",
+                "",
+                "",
+                [
+                    "LINE_9698269"
+                ],
+                [
+                    {
+                        "Action": "ActionUSequence",
+                        "Async": true,
+                        "Path": "Chapter 2/MaferilSequence"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "True",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4355963",
+                "LINE_9698269",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_4355963|",
+                "",
+                "",
+                [
+                    "LINE_0758526"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0758526",
+                "LINE_4355963",
+                "HOMMET",
+                "|Ch2_MaferilBoss_LINE_0758526|",
+                "",
+                "",
+                [
+                    "LINE_9879184"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9879184",
+                "LINE_0758526",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_9879184|",
+                "",
+                "",
+                [
+                    "LINE_2664236",
+                    "LINE_7433789"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2664236",
+                "LINE_9879184",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_2664236|",
+                "",
+                "",
+                [
+                    "LINE_0322919"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0322919",
+                "LINE_2664236",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0322919|",
+                "",
+                "",
+                [
+                    "LINE_4033472"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4033472",
+                "LINE_0322919",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_TMOM_LocateMaferil",
+                        "FlagState": "set",
+                        "Quest": "C2.3_The_Mind_Of_Madness"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7433789",
+                "LINE_9879184",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_7433789|",
+                "",
+                "",
+                [
+                    "LINE_4872656"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4872656",
+                "LINE_7433789",
+                "HOMMET",
+                "|Ch2_MaferilBoss_LINE_4872656|",
+                "",
+                "",
+                [
+                    "LINE_7091477",
+                    "LINE_3771890"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7091477",
+                "LINE_4872656",
+                "ILLYDIA",
+                "|Ch2_MaferilBoss_LINE_7091477|",
+                "",
+                "BK: tweaked second sentence ",
+                [
+                    "LINE_9530177"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9530177",
+                "LINE_7091477",
+                "HOMMET",
+                "|Ch2_MaferilBoss_LINE_9530177|",
+                "",
+                "",
+                [
+                    "LINE_0819329"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3771890",
+                "LINE_4872656",
+                "LARETHAR",
+                "|Ch2_MaferilBoss_LINE_3771890|",
+                "",
+                "",
+                [
+                    "LINE_4225902"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "false",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0819329",
+                "LINE_9530177",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0819329|",
+                "",
+                "",
+                [
+                    "LINE_4033472"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4225902",
+                "LINE_3771890",
+                "HOMMET",
+                "|Ch2_MaferilBoss_LINE_4225902|",
+                "",
+                "",
+                [
+                    "LINE_0819329"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4635295",
+                "LINE_6457658",
+                "JARHILD",
+                "|Ch2_MaferilBoss_LINE_4635295|",
+                "",
+                "",
+                [
+                    "LINE_8394903",
+                    "LINE_0950954"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8394903",
+                "LINE_4635295",
+                "LARETHAR",
+                "|Ch2_MaferilBoss_LINE_8394903|",
+                "",
+                "",
+                [
+                    "LINE_8398090",
+                    "LINE_6772840"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8820632",
+                "LINE_7019272",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_8820632|",
+                "",
+                "",
+                [
+                    "LINE_0724378"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4409306",
+                "LINE_7019272",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_4409306|",
+                "",
+                "",
+                [
+                    "LINE_9714662"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0966836",
+                "LINE_7019272",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_0966836|",
+                "",
+                "",
+                [
+                    "LINE_4708062"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0724378",
+                "LINE_8820632",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0724378|",
+                "",
+                "",
+                [
+                    "LINE_0966836",
+                    "LINE_4409306"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9714662",
+                "LINE_4409306",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_9714662|",
+                "",
+                "",
+                [
+                    "LINE_4708062"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4702261",
+                "LINE_0670524",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_4702261|",
+                "",
+                "",
+                [
+                    "LINE_5834279"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8212886",
+                "LINE_0670524",
+                "<PLAYER>",
+                "|Ch2_MaferilBoss_LINE_8212886|",
+                "",
+                "",
+                [
+                    "LINE_1208653"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1208653",
+                "LINE_8212886",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_1208653|",
+                "",
+                "",
+                [
+                    "LINE_5834279"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6615376",
+                "LINE_5834279",
+                "JARHILD",
+                "|Ch2_MaferilBoss_LINE_6615376|",
+                "",
+                "",
+                [
+                    "LINE_8355088",
+                    "LINE_0981077"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5006851",
+                "LINE_4332933",
+                "ILLYDIA",
+                "|Ch2_MaferilBoss_LINE_5006851|",
+                "",
+                "",
+                [
+                    "LINE_0454687"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7321837",
+                "LINE_4332933",
+                "HOMMET",
+                "|Ch2_MaferilBoss_LINE_7321837|",
+                "",
+                "",
+                [
+                    "LINE_0454687"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7474856",
+                "LINE_1230821",
+                "JARHILD",
+                "|Ch2_MaferilBoss_LINE_7474856|",
+                "",
+                "",
+                [
+                    "LINE_0454687"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3027867",
+                "LINE_6457658",
+                "<DEFAULT>",
+                "|Ch2_MaferilBoss_LINE_3027867|",
+                "",
+                "",
+                [
+                    "LINE_8398090",
+                    "LINE_6772840"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0950954",
+                "LINE_4635295",
+                "MAFERIL'S SHADE",
+                "|Ch2_MaferilBoss_LINE_0950954|",
+                "",
+                "",
+                [
+                    "LINE_8398090",
+                    "LINE_6772840"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0531796",
+                "LINE_6457658",
+                "LARETHAR",
+                "|Ch2_MaferilBoss_LINE_0531796|",
+                "",
+                "",
+                [
+                    "LINE_8398090",
+                    "LINE_6772840"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3370223",
+                "LINE_5834279",
+                "HOMMET",
+                "|Ch2_MaferilBoss_LINE_3370223|",
+                "",
+                "",
+                [
+                    "LINE_8355088",
+                    "LINE_0981077"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0378477",
+                "LINE_5834279",
+                "LARETHAR",
+                "|Ch2_MaferilBoss_LINE_0378477|",
+                "",
+                "",
+                [
+                    "LINE_8355088",
+                    "LINE_0981077"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5906047",
+                "LINE_8501710",
+                "<OWNER>",
+                "",
+                "",
+                "!!!!   Setting the end of the quest here.   ",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_TMOM_MaferilFinalConvo",
+                        "FlagState": "Set",
+                        "Quest": "C2.3_The_Mind_Of_Madness"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8501710",
+                "LINE_0454687",
+                "<OWNER>",
+                "",
+                "",
+                "!!!!  Adding Boss loot here.",
+                [
+                    "LINE_5906047"
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Consumable:Consumable_BossLootMaferil"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3206716",
+                "LINE_6457658",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_8398090",
+                    "LINE_6772840"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7019272",
+                "LINE_6968298",
+                "ILLYDIA",
+                "|Ch2_MaferilBoss_LINE_7019272|",
+                "",
+                "",
+                [
+                    "LINE_0966836",
+                    "LINE_8820632",
+                    "LINE_4409306"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9698269",
+                "LINE_7785342",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_4355963"
+                ],
+                [
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.8
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                false,
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

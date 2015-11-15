@@ -2249,4 +2249,2255 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "BURKINS"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Shady_SideQuest",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_5567245",
+                "<ROOT>",
+                "<SKIP>",
+                "",
+                "",
+                "If you talk to him before the caravan attack happens",
+                [
+                    "LINE_2626867",
+                    "LINE_0398804"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_WU_Start",
+                                    "FlagState": "is true",
+                                    "Quest": "C1.1_Waking_Up",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_Start",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4506918",
+                "<ROOT>",
+                "<SKIP>",
+                "",
+                "",
+                "If you talk to him after the caravan attack happens",
+                [
+                    "LINE_6916245",
+                    "LINE_2777877"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_Start",
+                                    "FlagState": "is true",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0398804",
+                "LINE_5567245",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_0398804|",
+                "",
+                "BK Morning! I hoped you'd come by to say hello. We so rarely get to mingle with the hardy folk hired to keep us safe on the road. Sad, because you're the only thing standing between us and certain peril!\n\nShould play only the first time the player speaks with Burkins, and only if the ambush hasn't happened yet. Set a flag like \"Burkins_TalkedTo\" and check for it on the line above.",
+                [
+                    "LINE_1210441"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "CH1_Burkins_Intro",
+                        "FlagState": "set",
+                        "Quest": "CH1_SQ_BurkinsConvo"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6916245",
+                "LINE_4506918",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_6237319"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_BurkinsAfterAmbush",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_BurkinsIcon",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2777877",
+                "LINE_4506918",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_7072762",
+                    "LINE_9833138"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_BurkinsAfterAmbush",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6237319",
+                "LINE_6916245",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_6237319|",
+                "",
+                "What a day! We're almost to Luskan, and we get attacked by bandits. My clients won't be happy about the delay. I can only hope I can find something to give them to make them more... understanding.",
+                [
+                    "LINE_2163772"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2163772",
+                "LINE_6237319",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_2163772|",
+                "",
+                "Say, I hear they attacked another caravan before ours. I bet they carried away some of those people's cargo. Spoils of battle, you might say.",
+                [
+                    "LINE_6640383",
+                    "LINE_4070654",
+                    "LINE_6122046"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7072762",
+                "LINE_2777877",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_7072762|",
+                "",
+                "",
+                [
+                    "LINE_7154307",
+                    "LINE_1943651",
+                    "LINE_7529672"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_Finished",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9833138",
+                "LINE_2777877",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_2747972",
+                    "LINE_0355229"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_Finished",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2747972",
+                "LINE_9833138",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_2747972|",
+                "",
+                "",
+                [
+                    "LINE_8213853"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_SoldCargoToBuyer",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8213853",
+                "LINE_2747972",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_8213853|",
+                "",
+                "Since you and I are friends now, maybe you would like to see what I have for sale? I'll give you a little discount. Below my usual \"friends and family\" rates.",
+                [
+                    "LINE_2698701",
+                    "LINE_6872484"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7154307",
+                "LINE_7072762",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_7154307|",
+                "",
+                "",
+                [
+                    "LINE_6343395"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1943651",
+                "LINE_7072762",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_1943651|",
+                "",
+                "",
+                [
+                    "LINE_6566771"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_ReturnToDealer",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_BurkinsIcon",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_BurkinsAfterAmbush",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_FoundCargo",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_Finished",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6343395",
+                "LINE_7154307",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_6343395|",
+                "",
+                "",
+                [
+                    "LINE_6008851"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6566771",
+                "LINE_1943651",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_6566771|",
+                "",
+                "",
+                [
+                    "LINE_3521842",
+                    "LINE_4269728"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6640383",
+                "LINE_2163772",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_6640383|",
+                "",
+                "",
+                [
+                    "LINE_4324429"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4070654",
+                "LINE_2163772",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_4070654|",
+                "",
+                "",
+                [
+                    "LINE_5469964"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6122046",
+                "LINE_2163772",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_6122046|",
+                "",
+                "I don't have time for chit-chat.",
+                [
+                    "LINE_7459071"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7459071",
+                "LINE_6122046",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_7459071|",
+                "",
+                "",
+                [
+                    "LINE_8982920"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4324429",
+                "LINE_6640383",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_4324429|",
+                "",
+                "",
+                [
+                    "LINE_8982920"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5469964",
+                "LINE_4070654",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_5469964|",
+                "",
+                "",
+                [
+                    "LINE_7833994"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7833994",
+                "LINE_5469964",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_7833994|",
+                "",
+                "I hate to think of the others' valuable trade goods mouldering in the hands of such violent men. There must be something we can do!",
+                [
+                    "LINE_6640383",
+                    "LINE_4880644"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4880644",
+                "LINE_7833994",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_4880644|",
+                "",
+                "",
+                [
+                    "LINE_4407743"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4407743",
+                "LINE_4880644",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_4407743|",
+                "",
+                "",
+                [
+                    "LINE_8982920"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8982920",
+                "LINE_4324429",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_8982920|",
+                "",
+                "BK made more gender inclusive",
+                [
+                    "LINE_7949944",
+                    "LINE_8827988",
+                    "LINE_9965251",
+                    "LINE_9140193",
+                    "LINE_6044732"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9965251",
+                "LINE_8982920",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_9965251|",
+                "",
+                "",
+                [
+                    "LINE_4582284"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_EnterHideout",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7949944",
+                "LINE_8982920",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_7949944|",
+                "",
+                "",
+                [
+                    "LINE_6566771"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_LookForABuyer",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_BurkinsIcon",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_BurkinsAfterAmbush",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_FoundCargo",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_Finished",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9140193",
+                "LINE_8982920",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_9140193|",
+                "",
+                "",
+                [
+                    "LINE_9418300"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6044732",
+                "LINE_8982920",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_6044732|",
+                "",
+                "If you want stolen cargo, you can get it yourself.",
+                [
+                    "LINE_9254608"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9418300",
+                "LINE_9140193",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_9418300|",
+                "",
+                "",
+                [
+                    "LINE_9965251",
+                    "LINE_7949944",
+                    "LINE_6044732"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9254608",
+                "LINE_6044732",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_9254608|",
+                "",
+                "I think you have misunderstood each other. Never you mind, friend. I shouldn't have troubled you with this.",
+                [
+                    "LINE_5996191"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5996191",
+                "LINE_9254608",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_5996191|",
+                "",
+                "If you should happen to change your mind, you know where to find me.",
+                [
+                    "LINE_8089618"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8089618",
+                "LINE_5996191",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_TalkedToShady",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_BurkinsAfterAmbush",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4582284",
+                "LINE_9965251",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_4582284|",
+                "",
+                "",
+                [
+                    "LINE_8089618"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7529672",
+                "LINE_7072762",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_7529672|",
+                "",
+                "",
+                [
+                    "LINE_5961770"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5961770",
+                "LINE_7529672",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_5961770|",
+                "",
+                "",
+                [
+                    "LINE_6008851"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6008851",
+                "LINE_5961770",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3521842",
+                "LINE_6566771",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_3521842|",
+                "",
+                "",
+                [
+                    "LINE_8381453"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4269728",
+                "LINE_6566771",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_4269728|",
+                "",
+                "I don't think so. I think I'll sell this stuff myself.",
+                [
+                    "LINE_8749337"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8749337",
+                "LINE_4269728",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_8749337|",
+                "",
+                "",
+                [
+                    "LINE_4033949",
+                    "LINE_2451010"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4033949",
+                "LINE_8749337",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_4033949|",
+                "",
+                "",
+                [
+                    "LINE_8381453"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2451010",
+                "LINE_8749337",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_2451010|",
+                "",
+                "",
+                [
+                    "LINE_3408050"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8381453",
+                "LINE_3521842",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_8381453|",
+                "",
+                "",
+                [
+                    "LINE_7610408"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_Finished",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_SoldCargoToBuyer",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 200",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:MissingCargo"
+                ],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7610408",
+                "LINE_8381453",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_7610408|",
+                "",
+                "",
+                [
+                    "LINE_7178193"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7178193",
+                "LINE_7610408",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3408050",
+                "LINE_2451010",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_3408050|",
+                "",
+                "Well then, I wish you luck. I had better get back to work. With any luck this will all be behind us soon.",
+                [
+                    "LINE_7178193"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_Finished",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_SD_SaidNoDeal",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_ShadyDeal"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0355229",
+                "LINE_9833138",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_0355229|",
+                "",
+                "",
+                [
+                    "LINE_7017338"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2698701",
+                "LINE_8213853",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_2698701|",
+                "",
+                "",
+                [
+                    "LINE_9896713"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6872484",
+                "LINE_8213853",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_6872484|",
+                "",
+                "",
+                [
+                    "LINE_0355229"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7017338",
+                "LINE_0355229",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9896713",
+                "LINE_2698701",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1210441",
+                "LINE_0398804",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_1210441|",
+                "",
+                "",
+                [
+                    "LINE_5917520",
+                    "LINE_1708794",
+                    "LINE_8324797",
+                    "LINE_3104775"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5917520",
+                "LINE_1210441",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_5917520|",
+                "",
+                "",
+                [
+                    "LINE_3409292"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1708794",
+                "LINE_1210441",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_1708794|",
+                "",
+                "",
+                [
+                    "LINE_0872850"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8324797",
+                "LINE_1210441",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_8324797|",
+                "",
+                "",
+                [
+                    "LINE_0432403"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3104775",
+                "LINE_1210441",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_3104775|",
+                "",
+                "",
+                [
+                    "LINE_0833505"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0833505",
+                "LINE_3104775",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_0833505|",
+                "",
+                "",
+                [
+                    "LINE_2365997"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0432403",
+                "LINE_8324797",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_0432403|",
+                "",
+                "BK trimmed this... without VO I'm not sure the \"I know\" will make sense.\nI know. So many people think it's a name someone made up on a whim. But actually, it's an old family name. ",
+                [
+                    "LINE_3691608"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3691608",
+                "LINE_0432403",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_3691608|",
+                "",
+                "I got tired of people massacring the name \"Oraphelia.\" And well, to be honest, \"Burkins\" isn't any worse than that. ",
+                [
+                    "LINE_5917520",
+                    "LINE_1708794",
+                    "LINE_3104775"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0872850",
+                "LINE_1708794",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_0872850|",
+                "",
+                "",
+                [
+                    "LINE_8539320",
+                    "LINE_9097868",
+                    "LINE_5917520",
+                    "LINE_8324797",
+                    "LINE_3104775"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9097868",
+                "LINE_0872850",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_9097868|",
+                "",
+                "",
+                [
+                    "LINE_2956728"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8539320",
+                "LINE_0872850",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_8539320|",
+                "",
+                "",
+                [
+                    "LINE_4291954"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4291954",
+                "LINE_8539320",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_4291954|",
+                "",
+                "",
+                [
+                    "LINE_5354845"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5354845",
+                "LINE_4291954",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_5354845|",
+                "",
+                "",
+                [
+                    "LINE_5917520",
+                    "LINE_8324797",
+                    "LINE_3104775"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2956728",
+                "LINE_9097868",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_2956728|",
+                "",
+                "",
+                [
+                    "LINE_3186466",
+                    "LINE_6071782",
+                    "LINE_5917520",
+                    "LINE_8324797",
+                    "LINE_3104775"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3186466",
+                "LINE_2956728",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_3186466|",
+                "",
+                "",
+                [
+                    "LINE_9611528"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6071782",
+                "LINE_2956728",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_6071782|",
+                "",
+                "",
+                [
+                    "LINE_0050798"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9611528",
+                "LINE_3186466",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_9611528|",
+                "",
+                "",
+                [
+                    "LINE_5917520",
+                    "LINE_8324797",
+                    "LINE_3104775"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0050798",
+                "LINE_6071782",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_0050798|",
+                "",
+                "Me? Of course not. And if I were, I think I'd trust my caravan's hired mercenaries to remain discreet about it.",
+                [
+                    "LINE_5917520",
+                    "LINE_8324797",
+                    "LINE_3104775"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3409292",
+                "LINE_5917520",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_3409292|",
+                "",
+                "Nothing, for now. My wares are all packed up at the moment. I don't want random people from the caravan fooling about with my valuable items, do I?",
+                [
+                    "LINE_6631771"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6631771",
+                "LINE_3409292",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_6631771|",
+                "",
+                "Maybe once we get to town, or if we have to spend more time here in camp, I'll open things up for sale. But for now, I just want to get moving and get to town.",
+                [
+                    "LINE_1708794",
+                    "LINE_8324797",
+                    "LINE_3104775"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2365997",
+                "LINE_0833505",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2626867",
+                "LINE_5567245",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_2626867|",
+                "",
+                "Good to see you again! I can see you're working hard to keep us safe from brigands and ne'er-do-wells.",
+                [
+                    "LINE_5917520",
+                    "LINE_1708794",
+                    "LINE_8324797",
+                    "LINE_3104775"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "CH1_Burkins_Intro",
+                                    "FlagState": "true",
+                                    "Quest": "CH1_SQ_BurkinsConvo",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8827988",
+                "LINE_8982920",
+                "<PLAYER>",
+                "|Ch1_SideQuest_ShadyDeal_LINE_8827988|",
+                "",
+                "",
+                [
+                    "LINE_4582284"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_SD_FoundCargo",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_ShadyDeal",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_EnterHideout",
+                                    "FlagState": "is true",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

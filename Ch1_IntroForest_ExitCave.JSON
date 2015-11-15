@@ -545,4 +545,551 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "True",
+                "IsStoryCritical": "True",
+                "Name": "Ch1_IntroForest_BlockedPath",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7486886",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_2923141",
+                    "LINE_4496985",
+                    "LINE_0603075"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_AT_FoundBlockedPath",
+                        "FlagState": "Set",
+                        "Quest": "C1.2_After_Them"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_FoundBlockedPath",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2923141",
+                "LINE_7486886",
+                "LARETHAR",
+                "|Ch1_IntroForest_ExitCave_LINE_2923141|",
+                "",
+                "BK -> dropped the old, it sounded like two \"olds\" back to back",
+                [
+                    "LINE_4496985",
+                    "LINE_1884093"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4496985",
+                "LINE_2923141",
+                "ILLYDIA",
+                "|Ch1_IntroForest_ExitCave_LINE_4496985|",
+                "",
+                "",
+                [
+                    "LINE_1884093",
+                    "LINE_0603075"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1884093",
+                "LINE_4496985",
+                "LARETHAR",
+                "|Ch1_IntroForest_ExitCave_LINE_1884093|",
+                "",
+                "",
+                [
+                    "LINE_0603075"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0603075",
+                "LINE_1884093",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "True",
+                "IsStoryCritical": "True",
+                "Name": "Ch1_IntroForest_FoundSwitch",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_6327667",
+                "<ROOT>",
+                "LARETHAR",
+                "|Ch1_IntroForest_ExitCave_LINE_6327667|",
+                "",
+                "",
+                [
+                    "LINE_7760149"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7760149",
+                "LINE_6327667",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_AT_FoundSwitchConvo",
+                        "FlagState": "Set",
+                        "Quest": "C1.2_After_Them"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1994474",
+                "<ROOT>",
+                "RPE",
+                "|Ch1_IntroForest_ExitCave_LINE_1994474|",
+                "",
+                "",
+                [
+                    "LINE_7760149"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "True",
+                "IsStoryCritical": "True",
+                "Name": "Ch1_IntroForest_SwitchPulled",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_0707262",
+                "<ROOT>",
+                "ILLYDIA",
+                "|Ch1_IntroForest_ExitCave_LINE_0707262|",
+                "",
+                "",
+                [
+                    "LINE_4045138"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4045138",
+                "LINE_0707262",
+                "LARETHAR",
+                "|Ch1_IntroForest_ExitCave_LINE_4045138|",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_AT_ActivatedSwitchConvo",
+                        "FlagState": "Set",
+                        "Quest": "C1.2_After_Them"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9617705",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_AT_ActivatedSwitchConvo",
+                        "FlagState": "set",
+                        "Quest": "C1.2_After_Them"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

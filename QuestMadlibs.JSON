@@ -1,1 +1,372 @@
-{"rt_madlibquesttypes":[{"questname":[0,1],"reasontype":[1,1],"conversation":[2,1],"incomplete":[3,1],"complete":[4,1]},{"collect" : ["quest_collect","collect","dm_collect_conversation_0","dm_collect_conversation_0_incomplete","dm_collect_conversation_0_complete"], "defeat" : ["quest_defeat","defeat","dm_defeat_conversation_0","dm_defeat_conversation_0_incomplete","dm_defeat_conversation_0_complete"]}],"rt_madlibitems":[{"containerprefab":[0,1],"namesingle":[1,1],"nameplural":[2,1],"tileset":[3,1]},{"amethyst" : ["prefabs/lootcontainers/dm/dm_collectcontainer_amethyst","item_dm_collect_amethyst","item_dm_collect_amethyst_plural",null], "bonedust" : ["prefabs/lootcontainers/dm/dm_collectcontainer_bonedust","item_dm_collect_bonedust","item_dm_collect_bonedust",null], "coal" : ["prefabs/lootcontainers/dm/dm_collectcontainer_coal","item_dm_collect_coal","item_dm_collect_coal",null], "eggsack" : ["prefabs/lootcontainers/dm/dm_collectcontainer_eggsack","item_dm_collect_eggsack","item_dm_collect_eggsack_plural",null], "scrap" : ["prefabs/lootcontainers/dm/dm_collectcontainer_scrap","item_dm_collect_scrap","item_dm_collect_scrap_plural",null], "tools" : ["prefabs/lootcontainers/dm/dm_collectcontainer_tools","item_dm_collect_tools","item_dm_collect_tools_plural",null]}],"rt_madlibreasons":[{"displayreason":[0,1],"fullreason":[1,1],"tileset":[2,1],"type":[3,1],"incompletereason":[4,1],"completereason":[5,1]},{"noreason" : ["reason_noreason_short","reason_noreason_full","all","all","reason_noreason_full","reason_noreason_full"], "noexcuse" : ["excuse_noexcuse_short","excuse_noexcuse_full","all","excuse",null,null], "frightened" : ["excuse_scared_short","excuse_scared_full","all","excuse",null,null], "orphans" : ["excuse_orphans_short","excuse_orphans_full","all","excuse",null,null], "arrowtoknee" : ["excuse_arrow_short","excuse_arrow_full","all","excuse",null,null], "stew" : ["excuse_stew_short","excuse_stew_full","all","excuse",null,null], "clumsy" : ["excuse_clumsy_short","excuse_clumsy_full","all","excuse",null,null], "collector" : ["reason_collector_short","reason_collector_full","all","collect","reason_collector_inc","reason_collector_comp"], "momsickevil" : ["reason_momsicke_short","reason_momsicke_full","all","collect","reason_momsicke_inc","reason_momsicke_comp"], "gourmet" : ["reason_gormet_short","reason_gormet_full","all","collect","reason_gormet_inc","reason_gormet_comp"], "supplies" : ["reason_supplies_short","reason_supplies_full","all","collect","reason_supplies_inc","reason_supplies_comp"], "momsickgood" : ["reason_momsickg_short","reason_momsickg_full","all","collect","reason_momsickg_inc","reason_momsickg_comp"], "badforbuisness" : ["reason_badforb_short","reason_badforb_full","all","defeat","reason_badforb_inc","reason_badforb_comp"], "killeddad" : ["reason_killeddad_short","reason_killeddad_full","all","defeat","reason_killeddad_inc","reason_killeddad_comp"], "cheated" : ["reason_cheated_short","reason_cheated_full","all","defeat","reason_cheated_inc","reason_cheated_comp"], "killedmom" : ["reason_killedmom_short","reason_killedmom_full","all","defeat","reason_killedmom_inc","reason_killedmom_comp"], "xenophobia" : ["reason_xenophobia_short","reason_xenophobia_full","all","defeat","reason_xenophobia_inc","reason_xenophobia_comp"], "famine" : ["reason_famine_short","reason_famine_full","all","defeatboss","reason_famine_inc","reason_famine_comp"], "gatheringforces" : ["reason_gatheringforces_short","reason_gatheringforces_full","all","defeatboss","reason_gatheringforces_inc","reason_gatheringforces_comp"], "kidnappings" : ["reason_kidnappings_short","reason_kidnappings_full","all","defeatboss","reason_kidnappings_inc","reason_kidnappings_comp"], "raids" : ["reason_raids_short","reason_raids_full","all","defeatboss","reason_raids_inc","reason_raids_comp"], "sinistersounds" : ["reason_sinistersounds_short","reason_sinistersounds_full","all","defeatboss","reason_sinistersounds_inc","reason_sinistersounds_comp"], "tempstory1" : ["reason_temp1_short","reason_temp1_full","all","discover","reason_temp1_inc","reason_temp1_comp"], "tempstory2" : ["reason_temp2_short","reason_temp2_full","all","discover","reason_temp2_inc","reason_temp2_comp"], "tempstory3" : ["reason_temp3_short","reason_temp3_full","all","discover","reason_temp3_inc","reason_temp3_comp"], "tempstory4" : ["reason_temp4_short","reason_temp4_full","all","discover","reason_temp4_inc","reason_temp4_comp"]}],"rt_bosses":[{"bossname":[0,1]},{"hotu_boss_ashenpriest" : ["name_dcboss_ashenpriest"], "boss_mercenary_leader" : ["name_dcboss_mercleader"], "boss_necro_ghost" : ["name_dcboss_necroghost"], "boss_demonweb_terror" : ["name_dcboss_demonwebterror"], "boss_shadow_summon" : ["name_dcboss_shadowsummon"], "boss_master_assassin" : ["name_dcboss_masterassassin"], "boss_beholder" : ["name_dcboss_beholder"], "boss_steeltoothe" : ["name_dcboss_steeltooth"]}]}
+{"rt_madlibquesttypes":[{"questname":[0,1],"reasontype":[1,1],"conversation":[2,1],"incomplete":[3,1],"complete":[4,1]},{"collect" : ["quest_collect","collect","dm_collect_conversation_0","dm_collect_conversation_0_incomplete","dm_collect_conversation_0_complete"], "defeat" : ["quest_defeat","defeat","dm_defeat_conversation_0","dm_defeat_conversation_0_incomplete","dm_defeat_conversation_0_complete"]}],"rt_madlibitems":[{"containerprefab":[0,1],"namesingle":[1,1],"nameplural":[2,1],"tileset":[3,1]},{"amethyst" : ["prefabs/lootcontainers/dm/dm_collectcontainer_amethyst","item_dm_collect_amethyst","item_dm_collect_amethyst_plural",null], "bonedust" : ["prefabs/lootcontainers/dm/dm_collectcontainer_bonedust","item_dm_collect_bonedust","item_dm_collect_bonedust",null], "coal" : ["prefabs/lootcontainers/dm/dm_collectcontainer_coal","item_dm_collect_coal","item_dm_collect_coal",null], "eggsack" : ["prefabs/lootcontainers/dm/dm_collectcontainer_eggsack","item_dm_collect_eggsack","item_dm_collect_eggsack_plural",null], "scrap" : ["prefabs/lootcontainers/dm/dm_collectcontainer_scrap","item_dm_collect_scrap","item_dm_collect_scrap_plural",null], "tools" : ["prefabs/lootcontainers/dm/dm_collectcontainer_tools","item_dm_collect_tools","item_dm_collect_tools_plural",null]}],"rt_madlibreasons":[{"displayreason":[0,1],"fullreason":[1,1],"tileset":[2,1],"type":[3,1],"incompletereason":[4,1],"completereason":[5,1]},{"noreason" : ["reason_noreason_short","reason_noreason_full","all","all","reason_noreason_full","reason_noreason_full"], "noexcuse" : ["excuse_noexcuse_short","excuse_noexcuse_full","all","excuse",null,null], "frightened" : ["excuse_scared_short","excuse_scared_full","all","excuse",null,null], "orphans" : ["excuse_orphans_short","excuse_orphans_full","all","excuse",null,null], "arrowtoknee" : ["excuse_arrow_short","excuse_arrow_full","all","excuse",null,null], "stew" : ["excuse_stew_short","excuse_stew_full","all","excuse",null,null], "clumsy" : ["excuse_clumsy_short","excuse_clumsy_full","all","excuse",null,null], "collector" : ["reason_collector_short","reason_collector_full","all","collect","reason_collector_inc","reason_collector_comp"], "momsickevil" : ["reason_momsicke_short","reason_momsicke_full","all","collect","reason_momsicke_inc","reason_momsicke_comp"], "gourmet" : ["reason_gormet_short","reason_gormet_full","all","collect","reason_gormet_inc","reason_gormet_comp"], "supplies" : ["reason_supplies_short","reason_supplies_full","all","collect","reason_supplies_inc","reason_supplies_comp"], "momsickgood" : ["reason_momsickg_short","reason_momsickg_full","all","collect","reason_momsickg_inc","reason_momsickg_comp"], "badforbuisness" : ["reason_badforb_short","reason_badforb_full","all","defeat","reason_badforb_inc","reason_badforb_comp"], "killeddad" : ["reason_killeddad_short","reason_killeddad_full","all","defeat","reason_killeddad_inc","reason_killeddad_comp"], "cheated" : ["reason_cheated_short","reason_cheated_full","all","defeat","reason_cheated_inc","reason_cheated_comp"], "killedmom" : ["reason_killedmom_short","reason_killedmom_full","all","defeat","reason_killedmom_inc","reason_killedmom_comp"], "xenophobia" : ["reason_xenophobia_short","reason_xenophobia_full","all","defeat","reason_xenophobia_inc","reason_xenophobia_comp"], "famine" : ["reason_famine_short","reason_famine_full","all","defeatboss","reason_famine_inc","reason_famine_comp"], "gatheringforces" : ["reason_gatheringforces_short","reason_gatheringforces_full","all","defeatboss","reason_gatheringforces_inc","reason_gatheringforces_comp"], "kidnappings" : ["reason_kidnappings_short","reason_kidnappings_full","all","defeatboss","reason_kidnappings_inc","reason_kidnappings_comp"], "raids" : ["reason_raids_short","reason_raids_full","all","defeatboss","reason_raids_inc","reason_raids_comp"], "sinistersounds" : ["reason_sinistersounds_short","reason_sinistersounds_full","all","defeatboss","reason_sinistersounds_inc","reason_sinistersounds_comp"], "tempstory1" : ["reason_temp1_short","reason_temp1_full","all","discover","reason_temp1_inc","reason_temp1_comp"], "tempstory2" : ["reason_temp2_short","reason_temp2_full","all","discover","reason_temp2_inc","reason_temp2_comp"], "tempstory3" : ["reason_temp3_short","reason_temp3_full","all","discover","reason_temp3_inc","reason_temp3_comp"], "tempstory4" : ["reason_temp4_short","reason_temp4_full","all","discover","reason_temp4_inc","reason_temp4_comp"]}],"rt_bosses":[{"bossname":[0,1]},{"hotu_boss_ashenpriest" : ["name_dcboss_ashenpriest"], "boss_mercenary_leader" : ["name_dcboss_mercleader"], "boss_necro_ghost" : ["name_dcboss_necroghost"], "boss_demonweb_terror" : ["name_dcboss_demonwebterror"], "boss_shadow_summon" : ["name_dcboss_shadowsummon"], "boss_master_assassin" : ["name_dcboss_masterassassin"], "boss_beholder" : ["name_dcboss_beholder"], "boss_steeltoothe" : ["name_dcboss_steeltooth"]}]}{
+    "rt_bosses": [
+        {
+            "bossname": [
+                0,
+                1
+            ]
+        },
+        {
+            "boss_beholder": [
+                "name_dcboss_beholder"
+            ],
+            "boss_demonweb_terror": [
+                "name_dcboss_demonwebterror"
+            ],
+            "boss_master_assassin": [
+                "name_dcboss_masterassassin"
+            ],
+            "boss_mercenary_leader": [
+                "name_dcboss_mercleader"
+            ],
+            "boss_necro_ghost": [
+                "name_dcboss_necroghost"
+            ],
+            "boss_shadow_summon": [
+                "name_dcboss_shadowsummon"
+            ],
+            "boss_steeltoothe": [
+                "name_dcboss_steeltooth"
+            ],
+            "hotu_boss_ashenpriest": [
+                "name_dcboss_ashenpriest"
+            ]
+        }
+    ],
+    "rt_madlibitems": [
+        {
+            "containerprefab": [
+                0,
+                1
+            ],
+            "nameplural": [
+                2,
+                1
+            ],
+            "namesingle": [
+                1,
+                1
+            ],
+            "tileset": [
+                3,
+                1
+            ]
+        },
+        {
+            "amethyst": [
+                "prefabs/lootcontainers/dm/dm_collectcontainer_amethyst",
+                "item_dm_collect_amethyst",
+                "item_dm_collect_amethyst_plural",
+                null
+            ],
+            "bonedust": [
+                "prefabs/lootcontainers/dm/dm_collectcontainer_bonedust",
+                "item_dm_collect_bonedust",
+                "item_dm_collect_bonedust",
+                null
+            ],
+            "coal": [
+                "prefabs/lootcontainers/dm/dm_collectcontainer_coal",
+                "item_dm_collect_coal",
+                "item_dm_collect_coal",
+                null
+            ],
+            "eggsack": [
+                "prefabs/lootcontainers/dm/dm_collectcontainer_eggsack",
+                "item_dm_collect_eggsack",
+                "item_dm_collect_eggsack_plural",
+                null
+            ],
+            "scrap": [
+                "prefabs/lootcontainers/dm/dm_collectcontainer_scrap",
+                "item_dm_collect_scrap",
+                "item_dm_collect_scrap_plural",
+                null
+            ],
+            "tools": [
+                "prefabs/lootcontainers/dm/dm_collectcontainer_tools",
+                "item_dm_collect_tools",
+                "item_dm_collect_tools_plural",
+                null
+            ]
+        }
+    ],
+    "rt_madlibquesttypes": [
+        {
+            "complete": [
+                4,
+                1
+            ],
+            "conversation": [
+                2,
+                1
+            ],
+            "incomplete": [
+                3,
+                1
+            ],
+            "questname": [
+                0,
+                1
+            ],
+            "reasontype": [
+                1,
+                1
+            ]
+        },
+        {
+            "collect": [
+                "quest_collect",
+                "collect",
+                "dm_collect_conversation_0",
+                "dm_collect_conversation_0_incomplete",
+                "dm_collect_conversation_0_complete"
+            ],
+            "defeat": [
+                "quest_defeat",
+                "defeat",
+                "dm_defeat_conversation_0",
+                "dm_defeat_conversation_0_incomplete",
+                "dm_defeat_conversation_0_complete"
+            ]
+        }
+    ],
+    "rt_madlibreasons": [
+        {
+            "completereason": [
+                5,
+                1
+            ],
+            "displayreason": [
+                0,
+                1
+            ],
+            "fullreason": [
+                1,
+                1
+            ],
+            "incompletereason": [
+                4,
+                1
+            ],
+            "tileset": [
+                2,
+                1
+            ],
+            "type": [
+                3,
+                1
+            ]
+        },
+        {
+            "arrowtoknee": [
+                "excuse_arrow_short",
+                "excuse_arrow_full",
+                "all",
+                "excuse",
+                null,
+                null
+            ],
+            "badforbuisness": [
+                "reason_badforb_short",
+                "reason_badforb_full",
+                "all",
+                "defeat",
+                "reason_badforb_inc",
+                "reason_badforb_comp"
+            ],
+            "cheated": [
+                "reason_cheated_short",
+                "reason_cheated_full",
+                "all",
+                "defeat",
+                "reason_cheated_inc",
+                "reason_cheated_comp"
+            ],
+            "clumsy": [
+                "excuse_clumsy_short",
+                "excuse_clumsy_full",
+                "all",
+                "excuse",
+                null,
+                null
+            ],
+            "collector": [
+                "reason_collector_short",
+                "reason_collector_full",
+                "all",
+                "collect",
+                "reason_collector_inc",
+                "reason_collector_comp"
+            ],
+            "famine": [
+                "reason_famine_short",
+                "reason_famine_full",
+                "all",
+                "defeatboss",
+                "reason_famine_inc",
+                "reason_famine_comp"
+            ],
+            "frightened": [
+                "excuse_scared_short",
+                "excuse_scared_full",
+                "all",
+                "excuse",
+                null,
+                null
+            ],
+            "gatheringforces": [
+                "reason_gatheringforces_short",
+                "reason_gatheringforces_full",
+                "all",
+                "defeatboss",
+                "reason_gatheringforces_inc",
+                "reason_gatheringforces_comp"
+            ],
+            "gourmet": [
+                "reason_gormet_short",
+                "reason_gormet_full",
+                "all",
+                "collect",
+                "reason_gormet_inc",
+                "reason_gormet_comp"
+            ],
+            "kidnappings": [
+                "reason_kidnappings_short",
+                "reason_kidnappings_full",
+                "all",
+                "defeatboss",
+                "reason_kidnappings_inc",
+                "reason_kidnappings_comp"
+            ],
+            "killeddad": [
+                "reason_killeddad_short",
+                "reason_killeddad_full",
+                "all",
+                "defeat",
+                "reason_killeddad_inc",
+                "reason_killeddad_comp"
+            ],
+            "killedmom": [
+                "reason_killedmom_short",
+                "reason_killedmom_full",
+                "all",
+                "defeat",
+                "reason_killedmom_inc",
+                "reason_killedmom_comp"
+            ],
+            "momsickevil": [
+                "reason_momsicke_short",
+                "reason_momsicke_full",
+                "all",
+                "collect",
+                "reason_momsicke_inc",
+                "reason_momsicke_comp"
+            ],
+            "momsickgood": [
+                "reason_momsickg_short",
+                "reason_momsickg_full",
+                "all",
+                "collect",
+                "reason_momsickg_inc",
+                "reason_momsickg_comp"
+            ],
+            "noexcuse": [
+                "excuse_noexcuse_short",
+                "excuse_noexcuse_full",
+                "all",
+                "excuse",
+                null,
+                null
+            ],
+            "noreason": [
+                "reason_noreason_short",
+                "reason_noreason_full",
+                "all",
+                "all",
+                "reason_noreason_full",
+                "reason_noreason_full"
+            ],
+            "orphans": [
+                "excuse_orphans_short",
+                "excuse_orphans_full",
+                "all",
+                "excuse",
+                null,
+                null
+            ],
+            "raids": [
+                "reason_raids_short",
+                "reason_raids_full",
+                "all",
+                "defeatboss",
+                "reason_raids_inc",
+                "reason_raids_comp"
+            ],
+            "sinistersounds": [
+                "reason_sinistersounds_short",
+                "reason_sinistersounds_full",
+                "all",
+                "defeatboss",
+                "reason_sinistersounds_inc",
+                "reason_sinistersounds_comp"
+            ],
+            "stew": [
+                "excuse_stew_short",
+                "excuse_stew_full",
+                "all",
+                "excuse",
+                null,
+                null
+            ],
+            "supplies": [
+                "reason_supplies_short",
+                "reason_supplies_full",
+                "all",
+                "collect",
+                "reason_supplies_inc",
+                "reason_supplies_comp"
+            ],
+            "tempstory1": [
+                "reason_temp1_short",
+                "reason_temp1_full",
+                "all",
+                "discover",
+                "reason_temp1_inc",
+                "reason_temp1_comp"
+            ],
+            "tempstory2": [
+                "reason_temp2_short",
+                "reason_temp2_full",
+                "all",
+                "discover",
+                "reason_temp2_inc",
+                "reason_temp2_comp"
+            ],
+            "tempstory3": [
+                "reason_temp3_short",
+                "reason_temp3_full",
+                "all",
+                "discover",
+                "reason_temp3_inc",
+                "reason_temp3_comp"
+            ],
+            "tempstory4": [
+                "reason_temp4_short",
+                "reason_temp4_full",
+                "all",
+                "discover",
+                "reason_temp4_inc",
+                "reason_temp4_comp"
+            ],
+            "xenophobia": [
+                "reason_xenophobia_short",
+                "reason_xenophobia_full",
+                "all",
+                "defeat",
+                "reason_xenophobia_inc",
+                "reason_xenophobia_comp"
+            ]
+        }
+    ]
+}

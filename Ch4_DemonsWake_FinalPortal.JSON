@@ -266,4 +266,272 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "RPE"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch4_FinalPortal_PointOfNoReturn",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "True",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_4926781",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch4_DemonsWake_FinalPortal_LINE_4926781|",
+                "",
+                "[Are you sure you want to go through?  You won't be able to return.]",
+                [
+                    "LINE_4667874",
+                    "LINE_7824452"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4667874",
+                "LINE_4926781",
+                "<PLAYER>",
+                "|Ch4_DemonsWake_FinalPortal_LINE_4667874|",
+                "",
+                "",
+                [
+                    "LINE_2972659"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2972659",
+                "LINE_4667874",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": false,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C4_TDW_UsePortal",
+                        "FlagState": "set",
+                        "Quest": "C4.4_The_Demons_Wake"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7824452",
+                "LINE_4926781",
+                "<PLAYER>",
+                "|Ch4_DemonsWake_FinalPortal_LINE_7824452|",
+                "",
+                "",
+                [
+                    "LINE_4824621"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4824621",
+                "LINE_7824452",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": false,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionFade",
+                        "Async": true,
+                        "FadeColor": 0,
+                        "FadeIn": true,
+                        "FadeSeconds": 1.0
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

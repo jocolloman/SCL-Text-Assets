@@ -552,4 +552,558 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "LARETHAR"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "FindFirstBody",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_9775413",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_BanditCave_BelamysWake_LINE_9775413|",
+                "",
+                "",
+                [
+                    "LINE_4771856"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4771856",
+                "LINE_9775413",
+                "LARETHAR",
+                "|Ch1_BanditCave_BelamysWake_LINE_4771856|",
+                "",
+                "BK: cut Yer buddy came through here, no mistake.   --> the double \"buddy\" sounds funny",
+                [
+                    "LINE_6605052"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6605052",
+                "LINE_4771856",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1497917",
+                "<ROOT>",
+                "RPE",
+                "|Ch1_BanditCave_BelamysWake_LINE_1497917|",
+                "",
+                "",
+                [
+                    "LINE_6605052"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "ILLYDIA"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "FindPotionBottle",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3741737",
+                "<ROOT>",
+                "LARETHAR",
+                "|Ch1_BanditCave_BelamysWake_LINE_3741737|",
+                "",
+                "",
+                [
+                    "LINE_3675576"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_ExaminedPotion",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3675576",
+                "LINE_3741737",
+                "ILLYDIA",
+                "|Ch1_BanditCave_BelamysWake_LINE_3675576|",
+                "",
+                "",
+                [
+                    "LINE_4818706"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4818706",
+                "LINE_3675576",
+                "LARETHAR",
+                "|Ch1_BanditCave_BelamysWake_LINE_4818706|",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_AT_ExaminedPotion",
+                        "FlagState": "Set",
+                        "Quest": "C1.2_After_Them"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8668120",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_BanditCave_BelamysWake_LINE_8668120|",
+                "",
+                "",
+                [
+                    "LINE_6369418"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_ExaminedPotion",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6369418",
+                "LINE_8668120",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_AT_ExaminedPotion",
+                        "FlagState": "set",
+                        "Quest": "C1.2_After_Them"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "DYINGMERC"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "DyingMerc",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7665085",
+                "<ROOT>",
+                "DYINGMERC",
+                "|Ch1_BanditCave_BelamysWake_LINE_7665085|",
+                "",
+                "",
+                [
+                    "LINE_2051601",
+                    "LINE_4325851"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2051601",
+                "LINE_7665085",
+                "LARETHAR",
+                "|Ch1_BanditCave_BelamysWake_LINE_2051601|",
+                "",
+                "",
+                [
+                    "LINE_0015693",
+                    "LINE_4325851"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0015693",
+                "LINE_2051601",
+                "ILLYDIA",
+                "|Ch1_BanditCave_BelamysWake_LINE_0015693|",
+                "",
+                "",
+                [
+                    "LINE_4325851"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4325851",
+                "LINE_0015693",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

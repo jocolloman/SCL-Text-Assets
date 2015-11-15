@@ -1376,4 +1376,1382 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "WILLIAMRAY"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch1_SQ_WagonDown_Owner",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_6001100",
+                "<ROOT>",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_6001100|",
+                "",
+                "",
+                [
+                    "LINE_3850314",
+                    "LINE_2709400",
+                    "LINE_8461984"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_WD_Final",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_WagonDown",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_WD_TalkedToOwner",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_WagonDown",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_ANQ_Start",
+                                    "FlagState": "false",
+                                    "Quest": "C2.1_A_New_Quest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3850314",
+                "LINE_6001100",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_3850314|",
+                "",
+                "",
+                [
+                    "LINE_5925979"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2709400",
+                "LINE_6001100",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_2709400|",
+                "",
+                "",
+                [
+                    "LINE_0407385"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8461984",
+                "LINE_6001100",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_8461984|",
+                "",
+                "",
+                [
+                    "LINE_8087383"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5925979",
+                "LINE_3850314",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_5925979|",
+                "",
+                "",
+                [
+                    "LINE_7971867",
+                    "LINE_6423195",
+                    "LINE_8461984"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7971867",
+                "LINE_5925979",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_7971867|",
+                "",
+                "",
+                [
+                    "LINE_9719822"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6423195",
+                "LINE_5925979",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_6423195|",
+                "",
+                "BK -> removed reference to \"in a field\" and dropped the \"where the player thinks it came from.\" Players should think less.",
+                [
+                    "LINE_2573995"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_WD_RetrievedBridle",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_WagonDown",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_WD_Final",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_WagonDown",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9719822",
+                "LINE_7971867",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_9719822|",
+                "",
+                "BK -> reversed order of last sentence to break pattern",
+                [
+                    "LINE_5014288"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5014288",
+                "LINE_9719822",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_5014288|",
+                "",
+                "BK her->sarah",
+                [
+                    "LINE_7480766"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7480766",
+                "LINE_5014288",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_WD_TalkedToOwner",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_WagonDown"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2573995",
+                "LINE_6423195",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_2573995|",
+                "",
+                "",
+                [
+                    "LINE_0666243"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0666243",
+                "LINE_2573995",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_0666243|",
+                "",
+                "",
+                [
+                    "LINE_3608956",
+                    "LINE_2832160"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_WD_ReturnToOwner",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_WagonDown"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_WD_FindOwner",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_WagonDown"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:MissingHorse_Bridle"
+                ],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2832160",
+                "LINE_0666243",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_2832160|",
+                "",
+                "",
+                [
+                    "LINE_0574633"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0574633",
+                "LINE_2832160",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_0574633|",
+                "",
+                "",
+                [
+                    "LINE_6939581"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6939581",
+                "LINE_0574633",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_WD_Final",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_WagonDown"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Consumable:Consumable_Drink_Belbuck",
+                    "Consumable:Consumable_Food_DaleCheese",
+                    "Consumable:Consumable_Food_TashalarDateCakes",
+                    "Consumable:Consumable_HealersKit"
+                ],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8087383",
+                "LINE_8461984",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_8087383|",
+                "",
+                "",
+                [
+                    "LINE_9050237",
+                    "LINE_9238078"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9050237",
+                "LINE_8087383",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_9050237|",
+                "",
+                "",
+                [
+                    "LINE_5925979"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9238078",
+                "LINE_8087383",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_9238078|",
+                "",
+                "",
+                [
+                    "LINE_6415080"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6415080",
+                "LINE_9238078",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_6415080|",
+                "",
+                "",
+                [
+                    "LINE_9050237",
+                    "LINE_0745325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0745325",
+                "LINE_6415080",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_0745325|",
+                "",
+                "",
+                [
+                    "LINE_7747378"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7747378",
+                "LINE_0745325",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_7747378|",
+                "",
+                "",
+                [
+                    "LINE_9050237",
+                    "LINE_5742509"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5742509",
+                "LINE_7747378",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_5742509|",
+                "",
+                "",
+                [
+                    "LINE_7263375"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7263375",
+                "LINE_5742509",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_7263375|",
+                "",
+                "",
+                [
+                    "LINE_9050237",
+                    "LINE_9238078"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0407385",
+                "LINE_2709400",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_0407385|",
+                "",
+                "BK: dropped extra 'out'",
+                [
+                    "LINE_5014288"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2885387",
+                "<ROOT>",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_2885387|",
+                "",
+                "",
+                [
+                    "LINE_6423195",
+                    "LINE_6061928"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_WD_Final",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_WagonDown",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_WD_TalkedToOwner",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_WagonDown",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6061928",
+                "LINE_2885387",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_6061928|",
+                "",
+                "",
+                [
+                    "LINE_3164470"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3164470",
+                "LINE_6061928",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_3164470|",
+                "",
+                "BK dropped 'the forest' to avoid misleading players",
+                [
+                    "LINE_0699527"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0699527",
+                "LINE_3164470",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3332986",
+                "<ROOT>",
+                "WILLIAMRAY",
+                "|Ch1_IntroForest_WagonDown_LINE_3332986|",
+                "",
+                "",
+                [
+                    "LINE_6423195",
+                    "LINE_5326614"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5326614",
+                "LINE_3332986",
+                "<PLAYER>",
+                "|Ch1_IntroForest_WagonDown_LINE_5326614|",
+                "",
+                "",
+                [
+                    "LINE_8860016"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3608956",
+                "LINE_0666243",
+                "<DEFAULT>",
+                "|Ch1_IntroForest_WagonDown_LINE_3608956|",
+                "",
+                "",
+                [
+                    "LINE_6939581"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_ANQ_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.1_A_New_Quest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8860016",
+                "LINE_5326614",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                false,
+                false
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch1_SQ_WagonDown_Discover",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3436369",
+                "<ROOT>",
+                "LARETHAR",
+                "|Ch1_IntroForest_WagonDown_LINE_3436369|",
+                "",
+                "",
+                [
+                    "LINE_0727738"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_WD_DiscoveredBody",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_WagonDown",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0727738",
+                "LINE_3436369",
+                "ILLYDIA",
+                "|Ch1_IntroForest_WagonDown_LINE_0727738|",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_WD_DiscoveredBody",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_WagonDown"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch1_SQ_WagonDown_RetrievedBridle",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_9579684",
+                "<ROOT>",
+                "ILLYDIA",
+                "|Ch1_IntroForest_WagonDown_LINE_9579684|",
+                "",
+                "",
+                [
+                    "LINE_5238330",
+                    "LINE_8562784"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5238330",
+                "LINE_9579684",
+                "ILLYDIA",
+                "|Ch1_IntroForest_WagonDown_LINE_5238330|",
+                "",
+                "",
+                [
+                    "LINE_6153275"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_WD_TalkedToOwner",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_WagonDown",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8562784",
+                "LINE_9579684",
+                "ILLYDIA",
+                "|Ch1_IntroForest_WagonDown_LINE_8562784|",
+                "",
+                "",
+                [
+                    "LINE_2189688"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_WD_FindSarah",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_WagonDown"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_WD_TalkedToOwner",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_WagonDown",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2189688",
+                "LINE_8562784",
+                "LARETHAR",
+                "|Ch1_IntroForest_WagonDown_LINE_2189688|",
+                "",
+                "",
+                [
+                    "LINE_8423044"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8423044",
+                "LINE_2189688",
+                "ILLYDIA",
+                "|Ch1_IntroForest_WagonDown_LINE_8423044|",
+                "",
+                "",
+                [
+                    "LINE_6153275"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6153275",
+                "LINE_5238330",
+                "LARETHAR",
+                "|Ch1_IntroForest_WagonDown_LINE_6153275|",
+                "",
+                "",
+                [
+                    "LINE_3958580"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3958580",
+                "LINE_6153275",
+                "LARETHAR",
+                "|Ch1_IntroForest_WagonDown_LINE_3958580|",
+                "",
+                "",
+                [
+                    "LINE_5047734"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_WD_SpawnSpider",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_WagonDown"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5047734",
+                "LINE_3958580",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_WD_BridleConvo",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_WagonDown"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_FD_SpawnSpiderWave1",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_ForestDen"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

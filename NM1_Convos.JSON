@@ -2583,4 +2583,2589 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "GILL"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Opening Convo",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_0415451",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_0415451|",
+                "",
+                "",
+                [
+                    "LINE_3665361",
+                    "LINE_3270435"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9826525",
+                "LINE_3665361",
+                "NEDDY",
+                "|NM1_Convos_LINE_9826525|",
+                "",
+                "Belamy Lightfingers is calling for our help. Get your equipment and head downstairs, now!",
+                [
+                    "LINE_4785184",
+                    "LINE_6483819"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3665361",
+                "LINE_0415451",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_3665361|",
+                "",
+                "",
+                [
+                    "LINE_9826525"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3270435",
+                "LINE_0415451",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_3270435|",
+                "",
+                "",
+                [
+                    "LINE_6970171"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6970171",
+                "LINE_3270435",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_6970171|",
+                "",
+                "",
+                [
+                    "LINE_9826525"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4785184",
+                "LINE_9826525",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_4785184|",
+                "",
+                "",
+                [
+                    "LINE_7196918"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6483819",
+                "LINE_9826525",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_6483819|",
+                "",
+                "",
+                [
+                    "LINE_2520247"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7196918",
+                "LINE_4785184",
+                "GILL",
+                "|NM1_Convos_LINE_7196918|",
+                "",
+                "Bk I dropped '. We have to get downstairs!' because this is basically said 3x in a row",
+                [
+                    "LINE_7633948"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7633948",
+                "LINE_7196918",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_GilAndNeddyLeave",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_Start",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2520247",
+                "LINE_6483819",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_2520247|",
+                "",
+                "One moment. And then we need you ready to fight!",
+                [
+                    "LINE_7196918"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "TUTBELAMY"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Downstairs Convos",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_9136060",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_9136060|",
+                "",
+                "",
+                [
+                    "LINE_3595153",
+                    "LINE_9337298",
+                    "LINE_3703913"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "NM1_DefeatInvasion",
+                                    "FlagState": "false",
+                                    "Quest": "NM1",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3595153",
+                "LINE_9136060",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_3595153|",
+                "",
+                "",
+                [
+                    "LINE_1255415"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3703913",
+                "LINE_9136060",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_3703913|",
+                "",
+                "",
+                [
+                    "LINE_0988426"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9337298",
+                "LINE_9136060",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_9337298|",
+                "",
+                "",
+                [
+                    "LINE_5673661"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5673661",
+                "LINE_9337298",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_5673661|",
+                "",
+                "",
+                [
+                    "LINE_4211643",
+                    "LINE_5431339",
+                    "LINE_9661656"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0988426",
+                "LINE_3703913",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_0988426|",
+                "",
+                "I wish I knew. All I do know is that they've caught us unaware. We sent out a message by sending stone... it's not just us. They're after the entire Burning Dawn.",
+                [
+                    "LINE_4211643",
+                    "LINE_5431339",
+                    "LINE_9661656"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1255415",
+                "LINE_3595153",
+                "GILL",
+                "|NM1_Convos_LINE_1255415|",
+                "",
+                "",
+                [
+                    "LINE_4211643",
+                    "LINE_5431339",
+                    "LINE_9661656"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4211643",
+                "LINE_1255415",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_4211643|",
+                "",
+                "",
+                [
+                    "LINE_2991152"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5431339",
+                "LINE_1255415",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_5431339|",
+                "",
+                "",
+                [
+                    "LINE_3907041"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9661656",
+                "LINE_1255415",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_9661656|",
+                "",
+                "",
+                [
+                    "LINE_8593084"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8593084",
+                "LINE_9661656",
+                "NEDDY",
+                "|NM1_Convos_LINE_8593084|",
+                "",
+                "",
+                [
+                    "LINE_2991152"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3907041",
+                "LINE_5431339",
+                "GILL",
+                "|NM1_Convos_LINE_3907041|",
+                "",
+                "",
+                [
+                    "LINE_2991152"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3414453",
+                "LINE_1867888",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_3414453|",
+                "",
+                "We have to get out there, find out what's going on, and put a stop to it. Objections?",
+                [
+                    "LINE_4440748"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4440748",
+                "LINE_3414453",
+                "GILL",
+                "|NM1_Convos_LINE_4440748|",
+                "",
+                "",
+                [
+                    "LINE_0269228"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0269228",
+                "LINE_4440748",
+                "NEDDY",
+                "|NM1_Convos_LINE_0269228|",
+                "",
+                "",
+                [
+                    "LINE_3086127",
+                    "LINE_7686173",
+                    "LINE_4948628"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7686173",
+                "LINE_0269228",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_7686173|",
+                "",
+                "",
+                [
+                    "LINE_4430556"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4948628",
+                "LINE_0269228",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_4948628|",
+                "",
+                "",
+                [
+                    "LINE_2700278"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3086127",
+                "LINE_0269228",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_3086127|",
+                "",
+                "",
+                [
+                    "LINE_2645234"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2700278",
+                "LINE_4948628",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_2700278|",
+                "",
+                "",
+                [
+                    "LINE_2645234"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2645234",
+                "LINE_3086127",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_2645234|",
+                "",
+                "",
+                [
+                    "LINE_3922312"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3922312",
+                "LINE_2645234",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_DownstairsConvoDone",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4430556",
+                "LINE_7686173",
+                "GILL",
+                "|NM1_Convos_LINE_4430556|",
+                "",
+                "",
+                [
+                    "LINE_2645234"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2991152",
+                "LINE_4211643",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_DefeatInvasion",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_JoinGroup",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1867888",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_3414453"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "NM1_DefeatInvasion",
+                                    "FlagState": "true",
+                                    "Quest": "NM1",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                false,
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "TUTBELAPHOSS"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Belaphoss Tutorial",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "True",
+                "NoFadeIn": "True",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_4383855",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_4383855|",
+                "",
+                "BK fairly big edit here. \"Why waste time invading a place, when the mortal fools will come straight to me?",
+                [
+                    "LINE_4429805"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4429805",
+                "LINE_4383855",
+                "TUTBELAMY",
+                "|NM1_Convos_LINE_4429805|",
+                "",
+                "",
+                [
+                    "LINE_7777612"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7777612",
+                "LINE_4429805",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_7777612|",
+                "",
+                "",
+                [
+                    "LINE_8491988",
+                    "LINE_8920736",
+                    "LINE_2268620"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8491988",
+                "LINE_7777612",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_8491988|",
+                "",
+                "",
+                [
+                    "LINE_8514121"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8920736",
+                "LINE_7777612",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_8920736|",
+                "",
+                "",
+                [
+                    "LINE_0981890"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2268620",
+                "LINE_7777612",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_2268620|",
+                "",
+                "",
+                [
+                    "LINE_6205500"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6205500",
+                "LINE_2268620",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_6205500|",
+                "",
+                "",
+                [
+                    "LINE_4779389"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0981890",
+                "LINE_8920736",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_0981890|",
+                "",
+                "",
+                [
+                    "LINE_4779389"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8514121",
+                "LINE_8491988",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_8514121|",
+                "",
+                "",
+                [
+                    "LINE_4779389"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4779389",
+                "LINE_8514121",
+                "TUTBELAMY",
+                "|NM1_Convos_LINE_4779389|",
+                "",
+                "",
+                [
+                    "LINE_2819154"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2819154",
+                "LINE_4779389",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_2819154|",
+                "",
+                "Of course. You obviously came out here to die. I shall not disappoint you.",
+                [
+                    "LINE_4062659"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4062659",
+                "LINE_2819154",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_InvestigateSource",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:NM1_Skull"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "BURNINGKNIGHT"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Burning Knight Ambient Threat",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3885015",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_7249810"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7249810",
+                "LINE_3885015",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_7249810|",
+                "",
+                "",
+                [
+                    "LINE_2947154"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "MakeCreatureFactionHostileForCombat",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2947154",
+                "LINE_7249810",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "TUTBELAMY"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Belamy Regroup Ambient",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_0667278",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_0667278|",
+                "",
+                "",
+                [
+                    "LINE_3471504"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3471504",
+                "LINE_0667278",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "TUTBELAMY"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Jarhild corpse ambient",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8048317",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_8048317|",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_JarhildCorpse",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "NM1_JarhildCorpse",
+                                    "FlagState": "false",
+                                    "Quest": "NM1",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "TUTBELAMY"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Bryn corpse ambient",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_9789464",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_9789464|",
+                "",
+                "",
+                [
+                    "LINE_1449462"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_BrynCorpse",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "NM1_BrynCorpse",
+                                    "FlagState": "false",
+                                    "Quest": "NM1",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1449462",
+                "LINE_9789464",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_1449462|",
+                "",
+                "",
+                [
+                    "LINE_9282415"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9282415",
+                "LINE_1449462",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "GILL"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Gill Door Ambient",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8103062",
+                "<ROOT>",
+                "GILL",
+                "|NM1_Convos_LINE_8103062|",
+                "",
+                "",
+                [
+                    "LINE_6742449",
+                    "LINE_3186829",
+                    "LINE_9324807"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6742449",
+                "LINE_8103062",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_6742449|",
+                "",
+                "",
+                [
+                    "LINE_7509268"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7509268",
+                "LINE_6742449",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_7509268|",
+                "",
+                "",
+                [
+                    "LINE_3246821"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3246821",
+                "LINE_7509268",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_3246821|",
+                "",
+                "",
+                [
+                    "LINE_0366520"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0366520",
+                "LINE_3246821",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_0366520|",
+                "",
+                "",
+                [
+                    "LINE_3435539"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3186829",
+                "LINE_8103062",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_3186829|",
+                "",
+                "",
+                [
+                    "LINE_3246821"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9324807",
+                "LINE_8103062",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_9324807|",
+                "",
+                "",
+                [
+                    "LINE_7777898"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7777898",
+                "LINE_9324807",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_7777898|",
+                "",
+                "",
+                [
+                    "LINE_0366520"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3435539",
+                "LINE_0366520",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "GILL"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Gill Basement Ambient",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8722802",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_8722802|",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "RPE"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Brazier Convo",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7933406",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_7933406|",
+                "",
+                "",
+                [
+                    "LINE_1667309",
+                    "LINE_5470891"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1667309",
+                "LINE_7933406",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_1667309|",
+                "",
+                "",
+                [
+                    "LINE_4535782"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "NM1_UnlockBasement",
+                                    "FlagState": "true",
+                                    "Quest": "NM1",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5470891",
+                "LINE_7933406",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_5470891|",
+                "",
+                "",
+                [
+                    "LINE_0934057"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4535782",
+                "LINE_1667309",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_BasementRitual",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:NM1_Skull"
+                ],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0934057",
+                "LINE_5470891",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "TUTFOLLOWER"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Follower Convo",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8318135",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_8318135|",
+                "",
+                "BK removing extra whitespace through this conversation.",
+                [
+                    "LINE_3544492",
+                    "LINE_8266428",
+                    "LINE_9684482"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3544492",
+                "LINE_8318135",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_3544492|",
+                "",
+                "",
+                [
+                    "LINE_1653126"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8266428",
+                "LINE_8318135",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_8266428|",
+                "",
+                "BK I trimmed the end of this line to avoid the double use of \"attack\" The guild hall is under attack. We're trying to find out who's attacking us.",
+                [
+                    "LINE_5069667"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9684482",
+                "LINE_8318135",
+                "<PLAYER>",
+                "|NM1_Convos_LINE_9684482|",
+                "",
+                "",
+                [
+                    "LINE_0515212"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0515212",
+                "LINE_9684482",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_0515212|",
+                "",
+                "",
+                [
+                    "LINE_0328994"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1653126",
+                "LINE_3544492",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_1653126|",
+                "",
+                "",
+                [
+                    "LINE_0328994"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0328994",
+                "LINE_1653126",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_0328994|",
+                "",
+                "",
+                [
+                    "LINE_6431215"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6431215",
+                "LINE_0328994",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "JoinPartyAsLocalFollower",
+                        "SpeakerTag": "TUTFOLLOWER"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_AddFollower",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5069667",
+                "LINE_8266428",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_5069667|",
+                "",
+                "",
+                [
+                    "LINE_0328994"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "NMKNIGHT01"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Knights Convo",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_9068809",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_8138232"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_BeforePanCam",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_ExitArmory",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 1.0
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8138232",
+                "LINE_9068809",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_8138232|",
+                "",
+                "",
+                [
+                    "LINE_3593365"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3593365",
+                "LINE_8138232",
+                "NMKNIGHT02",
+                "|NM1_Convos_LINE_3593365|",
+                "",
+                "",
+                [
+                    "LINE_2366565"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2366565",
+                "LINE_3593365",
+                "<DEFAULT>",
+                "|NM1_Convos_LINE_2366565|",
+                "",
+                "BK removed extra space",
+                [
+                    "LINE_7232253"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7232253",
+                "LINE_2366565",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": false,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "NM1_AfterCamPan",
+                        "FlagState": "set",
+                        "Quest": "NM1"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

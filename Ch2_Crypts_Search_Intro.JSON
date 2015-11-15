@@ -1525,4 +1525,1531 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Crypt_Intro",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3529607",
+                "<ROOT>",
+                "ILLYDIA",
+                "",
+                "",
+                "Recited on the FIRST staging tile of the three possible hommet catacombs",
+                [
+                    "LINE_6942630",
+                    "LINE_6380256",
+                    "LINE_2581916",
+                    "LINE_1165229",
+                    "LINE_1212020"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "VisitedBossTile_1",
+                                    "FlagState": "false",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "VisitedBossTile_2",
+                                    "FlagState": "false",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "VisitedBossTile_3",
+                                    "FlagState": "false",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FIRST_StagingConvo",
+                                    "FlagState": "false",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1993279",
+                "<ROOT>",
+                "JARHILD",
+                "",
+                "",
+                "Recited on the SECOND staging tile of the three possible hommet catacombs",
+                [
+                    "LINE_0907241",
+                    "LINE_8871506",
+                    "LINE_5455770",
+                    "LINE_9013218",
+                    "LINE_7161514"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "connection": "AND",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Flag": "VisitedBossTile_1",
+                                            "FlagState": "true",
+                                            "Quest": "C2.2_Into_The_Dead_City",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "VisitedBossTile_2",
+                                            "FlagState": "false",
+                                            "Quest": "C2.2_Into_The_Dead_City",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            },
+                            {
+                                "connection": "AND",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Flag": "VisitedBossTile_1",
+                                            "FlagState": "false",
+                                            "Quest": "C2.2_Into_The_Dead_City",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "VisitedBossTile_2",
+                                            "FlagState": "true",
+                                            "Quest": "C2.2_Into_The_Dead_City",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "VisitedBossTile_3",
+                                    "FlagState": "false",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FIRST_StagingConvo",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "SECOND_StagingConvo",
+                                    "FlagState": "false",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6364954",
+                "LINE_6380256",
+                "ILLYDIA",
+                "|Ch2_Crypts_Search_Intro_LINE_6364954|",
+                "",
+                "",
+                [
+                    "LINE_1212020"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0091444",
+                "<ROOT>",
+                "LARETHAR",
+                "",
+                "",
+                "Recited on the THIRD staging tile of the three possible hommet catacombs.",
+                [
+                    "LINE_2663327",
+                    "LINE_7920565",
+                    "LINE_6853539",
+                    "LINE_6020832",
+                    "LINE_9513104"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "VisitedBossTile_1",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "VisitedBossTile_2",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "VisitedBossTile_3",
+                                    "FlagState": "false",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FIRST_StagingConvo",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "SECOND_StagingConvo",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8871506",
+                "LINE_1993279",
+                "ILLYDIA",
+                "|Ch2_Crypts_Search_Intro_LINE_8871506|",
+                "",
+                "",
+                [
+                    "LINE_7161514"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "SECOND_StagingConvo",
+                        "FlagState": "Set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9513104",
+                "LINE_0091444",
+                "JARHILD",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "THIRD_StagingConvo",
+                        "FlagState": "Set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5263724",
+                "<ROOT>",
+                "LARETHAR",
+                "",
+                "",
+                "THIS ONLY gets recited if the players found hommet before they visited the alternate catacombs",
+                [
+                    "LINE_5198868",
+                    "LINE_1631668",
+                    "LINE_1802124",
+                    "LINE_6434529",
+                    "LINE_0989564"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FIRST_StagingConvo",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "SECOND_StagingConvo",
+                                    "FlagState": "false",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "VisitedStaging_3",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0989564",
+                "LINE_5263724",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "SECOND_StagingConvo",
+                        "FlagState": "set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2907497",
+                "<ROOT>",
+                "JARHILD",
+                "",
+                "",
+                "THIS ONLY gets recited if the players found hommet before they visited the alternate catacombs x2.",
+                [
+                    "LINE_3543409",
+                    "LINE_5629167",
+                    "LINE_5593997",
+                    "LINE_4311580",
+                    "LINE_6231545"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FIRST_StagingConvo",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "SECOND_StagingConvo",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "VisitedBossTile_3",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6231545",
+                "LINE_2907497",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "THIRD_StagingConvo",
+                        "FlagState": "set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6380256",
+                "LINE_3529607",
+                "ILLYDIA",
+                "|Ch2_Crypts_Search_Intro_LINE_6380256|",
+                "",
+                "",
+                [
+                    "LINE_6364954"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6942630",
+                "LINE_3529607",
+                "HOMMET",
+                "|Ch2_Crypts_Search_Intro_LINE_6942630|",
+                "",
+                "",
+                [
+                    "LINE_1212020"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "FIRST_StagingConvo",
+                        "FlagState": "set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5455770",
+                "LINE_1993279",
+                "JARHILD",
+                "|Ch2_Crypts_Search_Intro_LINE_5455770|",
+                "",
+                "",
+                [
+                    "LINE_4069433"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0907241",
+                "LINE_1993279",
+                "HOMMET",
+                "|Ch2_Crypts_Search_Intro_LINE_0907241|",
+                "",
+                "",
+                [
+                    "LINE_7161514"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "SECOND_StagingConvo",
+                        "FlagState": "Set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7920565",
+                "LINE_0091444",
+                "LARETHAR",
+                "|Ch2_Crypts_Search_Intro_LINE_7920565|",
+                "",
+                "",
+                [
+                    "LINE_9513104"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2663327",
+                "LINE_0091444",
+                "HOMMET",
+                "|Ch2_Crypts_Search_Intro_LINE_2663327|",
+                "",
+                "",
+                [
+                    "LINE_9513104"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "THIRD_StagingConvo",
+                        "FlagState": "Set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6434529",
+                "LINE_5263724",
+                "LARETHAR",
+                "|Ch2_Crypts_Search_Intro_LINE_6434529|",
+                "",
+                "",
+                [
+                    "LINE_0989564"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5198868",
+                "LINE_5263724",
+                "HOMMET",
+                "|Ch2_Crypts_Search_Intro_LINE_5198868|",
+                "",
+                "",
+                [
+                    "LINE_0989564"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4311580",
+                "LINE_2907497",
+                "JARHILD",
+                "|Ch2_Crypts_Search_Intro_LINE_4311580|",
+                "",
+                "",
+                [
+                    "LINE_6231545"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3543409",
+                "LINE_2907497",
+                "HOMMET",
+                "|Ch2_Crypts_Search_Intro_LINE_3543409|",
+                "",
+                "",
+                [
+                    "LINE_6231545"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4069433",
+                "LINE_5455770",
+                "ILLYDIA",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "SECOND_StagingConvo",
+                        "FlagState": "Set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2581916",
+                "LINE_3529607",
+                "LARETHAR",
+                "|Ch2_Crypts_Search_Intro_LINE_2581916|",
+                "",
+                "",
+                [
+                    "LINE_1212020"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1165229",
+                "LINE_3529607",
+                "JARHILD",
+                "|Ch2_Crypts_Search_Intro_LINE_1165229|",
+                "",
+                "",
+                [
+                    "LINE_1212020"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9013218",
+                "LINE_1993279",
+                "LARETHAR",
+                "|Ch2_Crypts_Search_Intro_LINE_9013218|",
+                "",
+                "",
+                [
+                    "LINE_7161514"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6853539",
+                "LINE_0091444",
+                "JARHILD",
+                "|Ch2_Crypts_Search_Intro_LINE_6853539|",
+                "",
+                "",
+                [
+                    "LINE_9513104"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6020832",
+                "LINE_0091444",
+                "ILLYDIA",
+                "|Ch2_Crypts_Search_Intro_LINE_6020832|",
+                "",
+                "",
+                [
+                    "LINE_9513104"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1802124",
+                "LINE_5263724",
+                "JARHILD",
+                "|Ch2_Crypts_Search_Intro_LINE_1802124|",
+                "",
+                "",
+                [
+                    "LINE_0989564"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1631668",
+                "LINE_5263724",
+                "ILLYDIA",
+                "|Ch2_Crypts_Search_Intro_LINE_1631668|",
+                "",
+                "",
+                [
+                    "LINE_0989564"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5593997",
+                "LINE_2907497",
+                "LARETHAR",
+                "|Ch2_Crypts_Search_Intro_LINE_5593997|",
+                "",
+                "",
+                [
+                    "LINE_6231545"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5629167",
+                "LINE_2907497",
+                "ILLYDIA",
+                "|Ch2_Crypts_Search_Intro_LINE_5629167|",
+                "",
+                "",
+                [
+                    "LINE_6231545"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1212020",
+                "LINE_3529607",
+                "HOMMET",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "FIRST_StagingConvo",
+                        "FlagState": "set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7161514",
+                "LINE_1993279",
+                "ILLYDIA",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "SECOND_StagingConvo",
+                        "FlagState": "Set",
+                        "Quest": "C2.2_Into_The_Dead_City"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

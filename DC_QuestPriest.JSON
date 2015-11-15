@@ -607,4 +607,613 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THOMAS"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Introduction",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3362826",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DC_QuestPriest_LINE_3362826|",
+                "",
+                "BK Note: I had to add \"end conversations\" to this conversation. Also, this line was: You there! Do you seek the defeat the Ashen Priest?",
+                [
+                    "LINE_6049726"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "DC_ATP_TalkedToPriest",
+                        "FlagState": "Set",
+                        "Quest": "DC_AidThePriest"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DC_ATP_TalkedToPriest",
+                                    "FlagState": "false",
+                                    "Quest": "DC_AidThePriest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6049726",
+                "LINE_3362826",
+                "<PLAYER>",
+                "|DC_QuestPriest_LINE_6049726|",
+                "",
+                "BK was : \"Yes, we have a common enemy.\" ... I don't see any scripting on this to indicate the player knows it is ac ommon enemy (I am completley unfamiliar with this plot)",
+                [
+                    "LINE_2547684"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2547684",
+                "LINE_6049726",
+                "<DEFAULT>",
+                "|DC_QuestPriest_LINE_2547684|",
+                "",
+                "Based on this (BK) assumes this is out-dated stuff? In case it is used I decided TEMPUS is a decent god. Original line had placeholder text. \"I am Thomas, a priest of some god that Jay needs to decide. It is my divine duty to see this monster purgued from the lands. Care to join forces for this task?",
+                [
+                    "LINE_1734313",
+                    "LINE_6666930"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1734313",
+                "LINE_2547684",
+                "<PLAYER>",
+                "|DC_QuestPriest_LINE_1734313|",
+                "",
+                "",
+                [
+                    "LINE_9522321"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9522321",
+                "LINE_1734313",
+                "<DEFAULT>",
+                "|DC_QuestPriest_LINE_9522321|",
+                "",
+                "BK was \"Hah! I may be a priest, but my spear has seen many battles. Together, we will end the priest's reign.\"",
+                [
+                    "LINE_5299578"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "DC_ATP_PriestJoinedParty",
+                        "FlagState": "Set",
+                        "Quest": "DC_AidThePriest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6666930",
+                "LINE_2547684",
+                "<PLAYER>",
+                "|DC_QuestPriest_LINE_6666930|",
+                "",
+                "",
+                [
+                    "LINE_1703119"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1703119",
+                "LINE_6666930",
+                "<DEFAULT>",
+                "|DC_QuestPriest_LINE_1703119|",
+                "",
+                "",
+                [
+                    "LINE_5299578"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6926146",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DC_QuestPriest_LINE_6926146|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DC_ATP_TalkedToPriest",
+                                    "FlagState": "is true",
+                                    "Quest": "DC_AidThePriest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "DC_ATP_PriestJoinedParty",
+                                    "FlagState": "false",
+                                    "Quest": "DC_AidThePriest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1181936",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DC_QuestPriest_LINE_1181936|",
+                "",
+                "BK rewrote \" I can't begin to express the meaning of what you have accomplished today.\"",
+                [
+                    "LINE_3287041"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DC_ATP_PriestJoinedParty",
+                                    "FlagState": "is true",
+                                    "Quest": "DC_AidThePriest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "DC_ATP_DefeatedAshenPriest",
+                                    "FlagState": "is true",
+                                    "Quest": "DC_AidThePriest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "DC_ATP_ReceivedRewardFromPriest",
+                                    "FlagState": "false",
+                                    "Quest": "DC_AidThePriest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3287041",
+                "LINE_1181936",
+                "<DEFAULT>",
+                "|DC_QuestPriest_LINE_3287041|",
+                "",
+                "BK rewrote \"As a token of my gratitude, you can have my spear. I won't be needing it anymore.\"",
+                [
+                    "LINE_3369288",
+                    "LINE_8780520"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3369288",
+                "LINE_3287041",
+                "<PLAYER>",
+                "|DC_QuestPriest_LINE_3369288|",
+                "",
+                "",
+                [
+                    "LINE_9942494"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8780520",
+                "LINE_3287041",
+                "<PLAYER>",
+                "|DC_QuestPriest_LINE_8780520|",
+                "",
+                "",
+                [
+                    "LINE_9370208"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9370208",
+                "LINE_8780520",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "DC_ATP_ReceivedRewardFromPriest",
+                        "FlagState": "Set",
+                        "Quest": "DC_AidThePriest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9889860",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DC_QuestPriest_LINE_9889860|",
+                "",
+                "BK was \"May the blessings of whatever God I worship be with you.\"",
+                [
+                    "LINE_5299578"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DC_ATP_PriestJoinedParty",
+                                    "FlagState": "is true",
+                                    "Quest": "DC_AidThePriest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "DC_ATP_ReceivedRewardFromPriest",
+                                    "FlagState": "is true",
+                                    "Quest": "DC_AidThePriest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9942494",
+                "LINE_3369288",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5299578",
+                "LINE_9889860",
+                "<PLAYER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

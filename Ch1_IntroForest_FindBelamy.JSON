@@ -1140,4 +1140,1146 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "BELAMY"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "True",
+                "IsStoryCritical": "True",
+                "Name": "Ch1_IntroForest_FindBelamy",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7093859",
+                "<ROOT>",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_7093859|",
+                "",
+                "",
+                [
+                    "LINE_4323830",
+                    "LINE_2018986",
+                    "LINE_6500446"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_WU_FindBelamy",
+                        "FlagState": "Set",
+                        "Quest": "C1.1_Waking_Up"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_WU_FindBelamy",
+                                    "FlagState": "False",
+                                    "Quest": "C1.1_Waking_Up",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4323830",
+                "LINE_7093859",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_4323830|",
+                "",
+                "",
+                [
+                    "LINE_3669215"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3669215",
+                "LINE_4323830",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_3669215|",
+                "",
+                "",
+                [
+                    "LINE_7775127"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7775127",
+                "LINE_3669215",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_7775127|",
+                "",
+                "",
+                [
+                    "LINE_3035766",
+                    "LINE_2568036",
+                    "LINE_5790330"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3035766",
+                "LINE_7775127",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_3035766|",
+                "",
+                "",
+                [
+                    "LINE_0126981"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0126981",
+                "LINE_3035766",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_0126981|",
+                "",
+                "",
+                [
+                    "LINE_6543938"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3986319",
+                "LINE_1055915",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_3986319|",
+                "",
+                "",
+                [
+                    "LINE_0504639"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0504639",
+                "LINE_3986319",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_0504639|",
+                "",
+                "TEXT: I can hear Jarhild now: \"Ye warn't here when de bandits attacked! Whar was ye?!\"\nAUDIO: I can hear Jarhild now: \"Ye warn't around when de bandits attacked! Whar was ye?!\"",
+                [
+                    "LINE_5574593",
+                    "LINE_6561590"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5574593",
+                "LINE_0504639",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_5574593|",
+                "",
+                "",
+                [
+                    "LINE_7529957"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7529957",
+                "LINE_5574593",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_7529957|",
+                "",
+                "",
+                [
+                    "LINE_4502252"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4502252",
+                "LINE_7529957",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_WU_BelamyAfterAmbush",
+                        "FlagState": "Set",
+                        "Quest": "C1.1_Waking_Up"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "JoinParty",
+                        "SpeakerTag": "<OWNER>"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "GENERATE_SAVE",
+                        "FlagState": "set",
+                        "Quest": "UtilityQuestFlags"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2018986",
+                "LINE_7093859",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_2018986|",
+                "",
+                "",
+                [
+                    "LINE_6711435"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6500446",
+                "LINE_7093859",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_6500446|",
+                "",
+                "",
+                [
+                    "LINE_2539640"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2539640",
+                "LINE_6500446",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_2539640|",
+                "",
+                "",
+                [
+                    "LINE_3669215"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6711435",
+                "LINE_2018986",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_6711435|",
+                "",
+                "",
+                [
+                    "LINE_3669215"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2568036",
+                "LINE_7775127",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_2568036|",
+                "",
+                "",
+                [
+                    "LINE_7161540"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5790330",
+                "LINE_7775127",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_5790330|",
+                "",
+                "",
+                [
+                    "LINE_5168823"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5168823",
+                "LINE_5790330",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_5168823|",
+                "",
+                "",
+                [
+                    "LINE_4693548"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4693548",
+                "LINE_5168823",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_4693548|",
+                "",
+                "",
+                [
+                    "LINE_3035766",
+                    "LINE_2568036",
+                    "LINE_5075904"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5075904",
+                "LINE_4693548",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_5075904|",
+                "",
+                "",
+                [
+                    "LINE_1901181"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1901181",
+                "LINE_5075904",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_1901181|",
+                "",
+                "",
+                [
+                    "LINE_3035766",
+                    "LINE_2568036"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7161540",
+                "LINE_2568036",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_7161540|",
+                "",
+                "",
+                [
+                    "LINE_2811587"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2811587",
+                "LINE_7161540",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_2811587|",
+                "",
+                "",
+                [
+                    "LINE_3035766",
+                    "LINE_0844186",
+                    "LINE_5790330"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0844186",
+                "LINE_2811587",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_0844186|",
+                "",
+                "",
+                [
+                    "LINE_1604653"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1604653",
+                "LINE_0844186",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_1604653|",
+                "",
+                "",
+                [
+                    "LINE_3035766",
+                    "LINE_5790330"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8581489",
+                "LINE_1055915",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_8581489|",
+                "",
+                "",
+                [
+                    "LINE_4795635"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4795635",
+                "LINE_8581489",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_4795635|",
+                "",
+                "",
+                [
+                    "LINE_6716486"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6716486",
+                "LINE_4795635",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_6716486|",
+                "",
+                "",
+                [
+                    "LINE_4502252"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6561590",
+                "LINE_0504639",
+                "<PLAYER>",
+                "|Ch1_IntroForest_FindBelamy_LINE_6561590|",
+                "",
+                "",
+                [
+                    "LINE_2588415"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2588415",
+                "LINE_6561590",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_2588415|",
+                "",
+                "",
+                [
+                    "LINE_6716486"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1055915",
+                "<ROOT>",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_1055915|",
+                "",
+                "",
+                [
+                    "LINE_3986319",
+                    "LINE_8581489"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_WU_SurviveAmbush",
+                                    "FlagState": "is true",
+                                    "Quest": "C1.1_Waking_Up",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6543938",
+                "LINE_0126981",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_WU_SpawnGateNPC",
+                        "FlagState": "Set",
+                        "Quest": "C1.1_Waking_Up"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch1_IntroForest_BelamyDefend",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_2209206",
+                "<ROOT>",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_2209206|",
+                "",
+                "BK removed caps from caravan",
+                [
+                    "LINE_1488176"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1488176",
+                "LINE_2209206",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "BELAMY"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch1_IntroForest_BackToCaravan",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_6441245",
+                "<ROOT>",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_6441245|",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C1_WU_BelamyAfterAmbush",
+                        "FlagState": "Set",
+                        "Quest": "C1.1_Waking_Up"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "JoinParty",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch1_FindBelamy_Cutscene",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8928875",
+                "<ROOT>",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_8928875|",
+                "",
+                "",
+                [
+                    "LINE_2806132"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2806132",
+                "LINE_8928875",
+                "BELAMY",
+                "|Ch1_IntroForest_FindBelamy_LINE_2806132|",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

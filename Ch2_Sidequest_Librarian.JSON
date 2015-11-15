@@ -1819,4 +1819,1825 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "SCROLLVENDOR"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Librarian",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_5344865",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_5344865|",
+                "",
+                "",
+                [
+                    "LINE_4740759",
+                    "LINE_1433878",
+                    "LINE_9090446",
+                    "LINE_2670944",
+                    "LINE_1873011",
+                    "LINE_8206785",
+                    "LINE_8137950",
+                    "LINE_9031666"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4740759",
+                "LINE_5344865",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_4740759|",
+                "",
+                "",
+                [
+                    "LINE_3318660"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_TalkedToLibrarian",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_TalkedToLibrarian",
+                                    "FlagState": "false",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1433878",
+                "LINE_5344865",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_1433878|",
+                "",
+                "",
+                [
+                    "LINE_5091052"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1873011",
+                "LINE_5344865",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_1873011|",
+                "",
+                "",
+                [
+                    "LINE_4379167"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_AskedAboutBooks",
+                                    "FlagState": "true",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_StartedQuest",
+                                    "FlagState": "false",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "connection": "OR",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Resource": "AlterationObservations_SQ",
+                                            "ResourceCount": 1,
+                                            "Type": "HasItem"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Resource": "AlterationObservations_SQ_Vol2",
+                                            "ResourceCount": 1,
+                                            "Type": "HasItem"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Resource": "AlterationObservations_SQ_Vol3",
+                                            "ResourceCount": 1,
+                                            "Type": "HasItem"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9090446",
+                "LINE_5344865",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_9090446|",
+                "",
+                "",
+                [
+                    "LINE_7786323"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "CH2_TDC_InvestigateMurder",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_TheDemonCultist"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "CH2_TDC_InvestigateMurder",
+                                    "FlagState": "false",
+                                    "Quest": "CH2_SQ_TheDemonCultist",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "CH2_TDC_GetInfoFromIndra",
+                                    "FlagState": "is true",
+                                    "Quest": "CH2_SQ_TheDemonCultist",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9031666",
+                "LINE_5344865",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_9031666|",
+                "",
+                "",
+                [
+                    "LINE_7951858"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3318660",
+                "LINE_4740759",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_3318660|",
+                "",
+                "BK adding character's name to help with later Sherm reference",
+                [
+                    "LINE_3617605"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3617605",
+                "LINE_3318660",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_3617605|",
+                "",
+                "BK WOTC rewrite of line to make it less modern sounding.\nBK I figured there must be others in Luskan that love books as much as I do... so I opened my collection to the public. Strangely, I don't get too many visitors.",
+                [
+                    "LINE_1433878",
+                    "LINE_9090446",
+                    "LINE_2670944",
+                    "LINE_1873011",
+                    "LINE_8206785",
+                    "LINE_8137950",
+                    "LINE_9031666"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5091052",
+                "LINE_1433878",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_5091052|",
+                "",
+                "..",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7786323",
+                "LINE_9090446",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_7786323|",
+                "",
+                "BK Bertrand was a good friend of mine. His business often left him in the possession of rare tomes, and he contributed many tomes to my library.",
+                [
+                    "LINE_5131987"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5131987",
+                "LINE_7786323",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_5131987|",
+                "",
+                "In the days preceding Bertrand's death, an unassuming person took a peculiar interest in some of our books, particularly those detailing demons.",
+                [
+                    "LINE_2797641"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2797641",
+                "LINE_5131987",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_2797641|",
+                "",
+                "However, on the morrow after the murder, this same person came in suddenly looking for information about arcane jewels.",
+                [
+                    "LINE_6130044",
+                    "LINE_7299402",
+                    "LINE_5567492"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6130044",
+                "LINE_2797641",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_6130044|",
+                "",
+                "",
+                [
+                    "LINE_1693954"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5567492",
+                "LINE_2797641",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_5567492|",
+                "",
+                "",
+                [
+                    "LINE_0677474"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "int",
+                                    "StatActor": "<player>",
+                                    "StatValue": 14,
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0677474",
+                "LINE_5567492",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_0677474|",
+                "",
+                "Yes. I believe that Bertrand's murder had nothing to do with who he was, but rather the jewelry he possessed.",
+                [
+                    "LINE_7299402",
+                    "LINE_6130044"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7333081",
+                "LINE_1693954",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_7333081|",
+                "",
+                "If a demon cult is acquiring these jewels, no doubt they wish to use it to summon and bind a demon into their service.",
+                [
+                    "LINE_7299402",
+                    "LINE_5567492"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1693954",
+                "LINE_6130044",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_1693954|",
+                "",
+                "The specific jewel he asked about has several uses... one of which is as a component to bind a demon to this realm.",
+                [
+                    "LINE_7333081"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7299402",
+                "LINE_2797641",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_7299402|",
+                "",
+                "",
+                [
+                    "LINE_5560425"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5560425",
+                "LINE_7299402",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_5560425|",
+                "",
+                "The herbalist, Sherm. Don't let his demeanor fool you - he's deceptively intelligent. And I don't really trust what he has going on in that shop of his. If you're going to confront him, be careful.",
+                [
+                    "LINE_4544266"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4544266",
+                "LINE_5560425",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_4544266|",
+                "",
+                "BK ...and you did NOT hear this from me.",
+                [
+                    "LINE_6909353"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6909353",
+                "LINE_4544266",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_6909353|",
+                "",
+                "",
+                [
+                    "LINE_4740759",
+                    "LINE_1433878",
+                    "LINE_2670944",
+                    "LINE_1873011",
+                    "LINE_8206785",
+                    "LINE_8137950",
+                    "LINE_9031666"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4379167",
+                "LINE_1873011",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_4379167|",
+                "",
+                "",
+                [
+                    "LINE_6826211"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7951858",
+                "LINE_9031666",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2670944",
+                "LINE_5344865",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_2670944|",
+                "",
+                "",
+                [
+                    "LINE_2328403"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_AskedAboutBooks",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_AskedAboutBooks",
+                                    "FlagState": "false",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2328403",
+                "LINE_2670944",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_2328403|",
+                "",
+                "Hah hah! I sincerely doubt that you've come across anything we'd be interested in. We are one of the most respected libraries on the Sword Coast. Still, if you come across anything particularly arcane in nature, I'll take a look.",
+                [
+                    "LINE_4740759",
+                    "LINE_1433878",
+                    "LINE_9090446",
+                    "LINE_1873011",
+                    "LINE_9031666"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6826211",
+                "LINE_4379167",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_6826211|",
+                "",
+                "This line was return referring to a man but Drenna is female",
+                [
+                    "LINE_4344510"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4344510",
+                "LINE_6826211",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_4344510|",
+                "",
+                "This is quite a find here. Yes, I believe we are interested. Though I see it is only one of a three volume set. You will be fairly paid for this, yes. It's just a shame that you only have one...",
+                [
+                    "LINE_9351727",
+                    "LINE_8889509",
+                    "LINE_1059375"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_StartedQuest",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2095883",
+                "LINE_9351727",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_2095883|",
+                "",
+                "Here you are. Of course, were you to come across the full series, that would indeed be most impressive..",
+                [
+                    "LINE_2762452",
+                    "LINE_1211804",
+                    "LINE_7923988"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2762452",
+                "LINE_2095883",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_2762452|",
+                "",
+                "",
+                [
+                    "LINE_4374720"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnedVolumeI",
+                        "FlagState": "set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "AlterationObservations_SQ",
+                                    "ResourceCount": 1,
+                                    "Type": "HasItem"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_StartedQuest",
+                                    "FlagState": "true",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1211804",
+                "LINE_2095883",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_1211804|",
+                "",
+                "I came across Volume II in an old abandoned castle.",
+                [
+                    "LINE_3102128"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnedVolumeII",
+                        "FlagState": "set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "AlterationObservations_SQ_Vol2",
+                                    "ResourceCount": 1,
+                                    "Type": "HasItem"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_StartedQuest",
+                                    "FlagState": "true",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7923988",
+                "LINE_2095883",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_7923988|",
+                "",
+                "",
+                [
+                    "LINE_8292523"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnedVolumeIII",
+                        "FlagState": "set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "AlterationObservations_SQ_Vol3",
+                                    "ResourceCount": 1,
+                                    "Type": "HasItem"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_StartedQuest",
+                                    "FlagState": "true",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4374720",
+                "LINE_2762452",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_4374720|",
+                "",
+                "",
+                [
+                    "LINE_5915530",
+                    "LINE_4148320"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnedVolumeI",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:AlterationObservations_SQ"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9351727",
+                "LINE_4344510",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_2095883"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnedVolumeI",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "AlterationObservations_SQ",
+                                    "ResourceCount": 1,
+                                    "Type": "HasItem"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:AlterationObservations_SQ"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8889509",
+                "LINE_4344510",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_2095883"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnedVolumeII",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "AlterationObservations_SQ_Vol2",
+                                    "ResourceCount": 1,
+                                    "Type": "HasItem"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:AlterationObservations_SQ_Vol2"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1059375",
+                "LINE_4344510",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_2095883"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnedVolumeIII",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Resource": "AlterationObservations_SQ_Vol3",
+                                    "ResourceCount": 1,
+                                    "Type": "HasItem"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:AlterationObservations_SQ_Vol3"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3102128",
+                "LINE_1211804",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_3102128|",
+                "",
+                "An abandoned castle? I'm surprised a work of such value would be left behind.",
+                [
+                    "LINE_5915530",
+                    "LINE_4148320"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnedVolumeII",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:AlterationObservations_SQ_Vol2"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8292523",
+                "LINE_7923988",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_8292523|",
+                "",
+                "",
+                [
+                    "LINE_5915530",
+                    "LINE_4148320"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnedVolumeIII",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:AlterationObservations_SQ_Vol3"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5915530",
+                "LINE_4374720",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_5915530|",
+                "",
+                "",
+                [
+                    "LINE_4740759",
+                    "LINE_1433878",
+                    "LINE_9090446",
+                    "LINE_2762452",
+                    "LINE_1211804",
+                    "LINE_7923988",
+                    "LINE_9031666"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_ReturnedVolumeI",
+                                    "FlagState": "false",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_ReturnedVolumeII",
+                                    "FlagState": "false",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_ReturnedVolumeIII",
+                                    "FlagState": "false",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4148320",
+                "LINE_4374720",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_4148320|",
+                "",
+                "",
+                [
+                    "LINE_0304893"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_BH_ReturnAllVolumes",
+                        "FlagState": "Set",
+                        "Quest": "CH2_SQ_BookHunt"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Consumable:Consumable_TomeOfKnowledge"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0304893",
+                "LINE_4148320",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_0304893|",
+                "",
+                "",
+                [
+                    "LINE_4740759",
+                    "LINE_1433878",
+                    "LINE_9090446",
+                    "LINE_9031666"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8206785",
+                "LINE_5344865",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_8206785|",
+                "",
+                "",
+                [
+                    "LINE_8926389"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_StartedQuest",
+                                    "FlagState": "true",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "connection": "OR",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Resource": "AlterationObservations_SQ",
+                                            "ResourceCount": 1,
+                                            "Type": "HasItem"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Resource": "AlterationObservations_SQ_Vol2",
+                                            "ResourceCount": 1,
+                                            "Type": "HasItem"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Resource": "AlterationObservations_SQ_Vol3",
+                                            "ResourceCount": 1,
+                                            "Type": "HasItem"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8926389",
+                "LINE_8206785",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_8926389|",
+                "",
+                "",
+                [
+                    "LINE_2762452",
+                    "LINE_1211804",
+                    "LINE_7923988"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8137950",
+                "LINE_5344865",
+                "<PLAYER>",
+                "|Ch2_Sidequest_Librarian_LINE_8137950|",
+                "",
+                "",
+                [
+                    "LINE_7453564"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_StartedQuest",
+                                    "FlagState": "true",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_BH_ReturnAllVolumes",
+                                    "FlagState": "false",
+                                    "Quest": "CH2_SQ_BookHunt",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7453564",
+                "LINE_8137950",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_7453564|",
+                "",
+                "",
+                [
+                    "LINE_4740759",
+                    "LINE_1433878",
+                    "LINE_9090446",
+                    "LINE_8206785",
+                    "LINE_9031666"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "FAN"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "NovelFan",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_6616528",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_6616528|",
+                "",
+                "",
+                [
+                    "LINE_9089720"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9089720",
+                "LINE_6616528",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "READER"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "BookIsMissingMan",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7772668",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch2_Sidequest_Librarian_LINE_7772668|",
+                "",
+                "..",
+                [
+                    "LINE_6586714"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6586714",
+                "LINE_7772668",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

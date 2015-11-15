@@ -2112,4 +2112,2118 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "JAVEN"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch3_EvermoorsCastle_GildedIntro",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_0087259",
+                "LINE_9383014",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_0087259|",
+                "",
+                "Edited per Jay as we're moving this encounter into a forest ",
+                [
+                    "LINE_6862717",
+                    "LINE_8454454",
+                    "LINE_0638685",
+                    "LINE_6547810",
+                    "LINE_1890848",
+                    "LINE_4820724",
+                    "LINE_1693543"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6005052",
+                "LINE_1693543",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_6005052|",
+                "",
+                "",
+                [
+                    "LINE_9368723"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9980357",
+                "LINE_6826856",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "JavenAmbush_StartFight",
+                        "FlagState": "set",
+                        "Quest": "JavenAmbush"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8227460",
+                "LINE_1693543",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8227460|",
+                "",
+                "",
+                [
+                    "LINE_8707375"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6660166",
+                "LINE_1693543",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_6660166|",
+                "",
+                "",
+                [
+                    "LINE_6597689"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5305866",
+                "LINE_1693543",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_5305866|",
+                "",
+                "",
+                [
+                    "LINE_4928275"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4820724",
+                "LINE_0087259",
+                "BRYN",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_4820724|",
+                "",
+                "",
+                [
+                    "LINE_7906408"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0638685",
+                "LINE_0087259",
+                "DALANIR",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_0638685|",
+                "",
+                "",
+                [
+                    "LINE_5088863"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1890848",
+                "LINE_0087259",
+                "JARHILD",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_1890848|",
+                "",
+                "BK Javen spelled wrong",
+                [
+                    "LINE_4276583"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6862717",
+                "LINE_0087259",
+                "ILLYDIA",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_6862717|",
+                "",
+                "",
+                [
+                    "LINE_1583461"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8454454",
+                "LINE_0087259",
+                "HOMMET",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8454454|",
+                "",
+                "",
+                [
+                    "LINE_6219600"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6547810",
+                "LINE_0087259",
+                "LARETHAR",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_6547810|",
+                "",
+                "",
+                [
+                    "LINE_8314717"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7906408",
+                "LINE_4820724",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_7906408|",
+                "",
+                "BK: dropped the \"then you've heard of me\"\"",
+                [
+                    "LINE_1693543"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4276583",
+                "LINE_1890848",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_4276583|",
+                "",
+                "",
+                [
+                    "LINE_1693543"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1583461",
+                "LINE_6862717",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_1583461|",
+                "",
+                "BK: Perhaps overstepping my bounds, I tweaked \"It is sad to see you give in to it.\" to \"It is disheartening to see you succumb to it.\"",
+                [
+                    "LINE_1693543"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6219600",
+                "LINE_8454454",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_6219600|",
+                "",
+                "",
+                [
+                    "LINE_1693543"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1693543",
+                "LINE_1583461",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_1693543|",
+                "",
+                "",
+                [
+                    "LINE_8227460",
+                    "LINE_6660166",
+                    "LINE_5305866",
+                    "LINE_6005052"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5088863",
+                "LINE_0638685",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_5088863|",
+                "",
+                "",
+                [
+                    "LINE_8227460",
+                    "LINE_6660166",
+                    "LINE_5305866",
+                    "LINE_6005052"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8314717",
+                "LINE_6547810",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8314717|",
+                "",
+                "BK joke -> jest",
+                [
+                    "LINE_1693543"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8707375",
+                "LINE_8227460",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8707375|",
+                "",
+                "",
+                [
+                    "LINE_6826856"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9368723",
+                "LINE_6005052",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_9368723|",
+                "",
+                "",
+                [
+                    "LINE_6826856"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6597689",
+                "LINE_6660166",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_6597689|",
+                "",
+                "",
+                [
+                    "LINE_6826856"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4928275",
+                "LINE_5305866",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_4928275|",
+                "",
+                "BK: \"across the whole of the region\" -> \"far and wide\"",
+                [
+                    "LINE_6826856"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6826856",
+                "LINE_9368723",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_6826856|",
+                "",
+                "",
+                [
+                    "LINE_9980357"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9383014",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "This is being moved to a random encounter stage on the way to the Evermoors. Javen and his knights ambush the players, speak the first conversation in this convo, trigger a fight, and then trigger the second conversation in this convo when the fight is over. Javen should rise to a knee when the fight is over. ",
+                [
+                    "LINE_0087259"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JavenAmbush_EndFight",
+                                    "FlagState": "false",
+                                    "Quest": "JavenAmbush",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8947053",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "Triggered from when Javen is at low `health (from script) ",
+                [
+                    "LINE_2140610"
+                ],
+                [
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": false,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "JavenAmbush_SpawnCowerJaven",
+                        "FlagState": "set",
+                        "Quest": "JavenAmbush"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": true,
+                        "FadeSeconds": 1.0
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JavenAmbush_EndFight",
+                                    "FlagState": "true",
+                                    "Quest": "JavenAmbush",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2140610",
+                "LINE_8947053",
+                "JAVEN",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_2140610|",
+                "",
+                "IF: Javen_defeated",
+                [
+                    "LINE_3360302"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JavenAmbush_EndFight",
+                                    "FlagState": "true",
+                                    "Quest": "JavenAmbush",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3360302",
+                "LINE_2140610",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_3360302|",
+                "",
+                "VO: Fix added \"of my order\"\nBK: dropped the phrase \"self-same\" because same it used in next sentence",
+                [
+                    "LINE_5986068"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5986068",
+                "LINE_3360302",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_5986068|",
+                "",
+                "",
+                [
+                    "LINE_7554815",
+                    "LINE_3942425",
+                    "LINE_3335988"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7554815",
+                "LINE_5986068",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_7554815|",
+                "",
+                "",
+                [
+                    "LINE_6095121"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6095121",
+                "LINE_7554815",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_6095121|",
+                "",
+                "",
+                [
+                    "LINE_5416592",
+                    "LINE_6430435"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5416592",
+                "LINE_6095121",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_5416592|",
+                "",
+                "",
+                [
+                    "LINE_8750169",
+                    "LINE_5295319",
+                    "LINE_7602176",
+                    "LINE_8566304",
+                    "LINE_7235058",
+                    "LINE_3613460",
+                    "LINE_4633118"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8750169",
+                "LINE_5416592",
+                "ILLYDIA",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8750169|",
+                "",
+                "",
+                [
+                    "LINE_1442555",
+                    "LINE_4633118"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1442555",
+                "LINE_8750169",
+                "LARETHAR",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_1442555|",
+                "",
+                "",
+                [
+                    "LINE_4633118"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5295319",
+                "LINE_5416592",
+                "LARETHAR",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_5295319|",
+                "",
+                "",
+                [
+                    "LINE_4633118"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7602176",
+                "LINE_5416592",
+                "JARHILD",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_7602176|",
+                "",
+                "",
+                [
+                    "LINE_4633118"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_ON_TEAM",
+                                    "FlagState": "true",
+                                    "Quest": "CompanionUnlocked",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8566304",
+                "LINE_5416592",
+                "DALANIR",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8566304|",
+                "",
+                "",
+                [
+                    "LINE_4633118"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7235058",
+                "LINE_5416592",
+                "HOMMET",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_7235058|",
+                "",
+                "",
+                [
+                    "LINE_4633118"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3613460",
+                "LINE_5416592",
+                "BRYN",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_3613460|",
+                "",
+                "",
+                [
+                    "LINE_4633118"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4633118",
+                "LINE_5416592",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_4633118|",
+                "",
+                "",
+                [
+                    "LINE_8168366",
+                    "LINE_2739634",
+                    "LINE_8365476"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8168366",
+                "LINE_4633118",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8168366|",
+                "",
+                "",
+                [
+                    "LINE_4892589",
+                    "LINE_1471466"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4892589",
+                "LINE_8168366",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_4892589|",
+                "",
+                "JW: We wanted this check to be nearly impossible to fail.  ",
+                [
+                    "LINE_0490999",
+                    "LINE_7092661",
+                    "LINE_0426137"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "cha",
+                                    "StatActor": "<player>",
+                                    "StatValue": 8,
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0426137",
+                "LINE_4892589",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_0426137|",
+                "",
+                "",
+                [
+                    "LINE_8988606"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8988606",
+                "LINE_0426137",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8988606|",
+                "",
+                "",
+                [
+                    "LINE_7624113"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7092661",
+                "LINE_4892589",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_7092661|",
+                "",
+                "",
+                [
+                    "LINE_7299125"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7299125",
+                "LINE_7092661",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_7299125|",
+                "",
+                "",
+                [
+                    "LINE_7624113"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0490999",
+                "LINE_4892589",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_0490999|",
+                "",
+                "",
+                [
+                    "LINE_0222492"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0222492",
+                "LINE_0490999",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_0222492|",
+                "",
+                "",
+                [
+                    "LINE_7624113"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7624113",
+                "LINE_0222492",
+                "<OWNER>",
+                "",
+                "",
+                "This is where we have javen join the party - he no longer becomes a fake follower because of a serious issue.",
+                [],
+                [
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": false,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "JavenAmbush_SpareJaven",
+                        "FlagState": "set",
+                        "Quest": "JavenAmbush"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": true,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "JoinParty",
+                        "SpeakerTag": "JAVEN"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "GENERATE_SAVE",
+                        "FlagState": "set",
+                        "Quest": "UtilityQuestFlags"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1471466",
+                "LINE_8168366",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_1471466|",
+                "",
+                "",
+                [
+                    "LINE_8672092"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2739634",
+                "LINE_4633118",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_2739634|",
+                "",
+                "",
+                [
+                    "LINE_5194164",
+                    "LINE_1471466"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5194164",
+                "LINE_2739634",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_5194164|",
+                "",
+                "JW: We wanted this check to be nearly impossible to fail.  ",
+                [
+                    "LINE_0490999",
+                    "LINE_7092661",
+                    "LINE_0426137"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "wis",
+                                    "StatActor": "<player>",
+                                    "StatValue": 7,
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8365476",
+                "LINE_4633118",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8365476|",
+                "",
+                "",
+                [
+                    "LINE_7943720",
+                    "LINE_1471466"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7943720",
+                "LINE_8365476",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_7943720|",
+                "",
+                "JW: We wanted this check to be nearly impossible to fail.  ",
+                [
+                    "LINE_0490999",
+                    "LINE_7092661",
+                    "LINE_0426137"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "str",
+                                    "StatActor": "<player>",
+                                    "StatValue": 9,
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6430435",
+                "LINE_6095121",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_6430435|",
+                "",
+                "",
+                [
+                    "LINE_8672092"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3942425",
+                "LINE_5986068",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_3942425|",
+                "",
+                "",
+                [
+                    "LINE_7138051"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7138051",
+                "LINE_3942425",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_7138051|",
+                "",
+                "",
+                [
+                    "LINE_9140555"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9140555",
+                "LINE_7138051",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_9140555|",
+                "",
+                "men -> knights (BK-WOTC) VO warning did not appear for this line.",
+                [
+                    "LINE_3335988",
+                    "LINE_7554815"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3335988",
+                "LINE_5986068",
+                "<PLAYER>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_3335988|",
+                "",
+                "",
+                [
+                    "LINE_8672092"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8672092",
+                "LINE_3335988",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8672092|",
+                "",
+                "",
+                [
+                    "LINE_3138626"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3138626",
+                "LINE_8672092",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_3138626|",
+                "",
+                "",
+                [
+                    "LINE_9813306"
+                ],
+                [
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": false,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "JavenAmbush_KillJaven",
+                        "FlagState": "set",
+                        "Quest": "JavenAmbush"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": true,
+                        "FadeSeconds": 1.0
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9813306",
+                "LINE_3138626",
+                "ILLYDIA",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_9813306|",
+                "",
+                "",
+                [
+                    "LINE_0040923"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0040923",
+                "LINE_9813306",
+                "JARHILD",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_0040923|",
+                "",
+                "",
+                [
+                    "LINE_8741829"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8741829",
+                "LINE_0040923",
+                "DALANIR",
+                "|Ch3_EvermoorsCastle_GildedEye_LINE_8741829|",
+                "",
+                "",
+                [
+                    "LINE_1456045"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1456045",
+                "LINE_8741829",
+                "<DEFAULT>",
+                "",
+                "",
+                "I'm not sure what plot flag is needed here in order for the game to continue.  JW: None",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

@@ -3002,4 +3002,3008 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "FIZZLEBANKS"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch1_SideQuest_TwinCrest",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7276774",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7276774|",
+                "",
+                "",
+                [
+                    "LINE_5472875",
+                    "LINE_3476911",
+                    "LINE_2758073",
+                    "LINE_0823821",
+                    "LINE_7876240"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch2_SQ_TC_TalkedToFizzlebanks",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_ANQ_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.1_A_New_Quest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8544162",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_8544162|",
+                "",
+                "",
+                [
+                    "LINE_8740699"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_LiedAboutShield",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3969749",
+                "LINE_4448822",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_3969749|",
+                "",
+                "",
+                [
+                    "LINE_0145150"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6078586",
+                "LINE_4448822",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_6078586|",
+                "",
+                "",
+                [
+                    "LINE_1825696"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0145150",
+                "LINE_3969749",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0145150|",
+                "",
+                "He'll be carrying an ancient elven artifact, very valuable. I need it back... oh, and him too... maybe he just got lost out there and can't find his way back",
+                [
+                    "LINE_7588351",
+                    "LINE_4085727",
+                    "LINE_4901221",
+                    "LINE_0387224",
+                    "LINE_0548912",
+                    "LINE_4434845",
+                    "LINE_0753630"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0595917",
+                "LINE_5813450",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0595917|",
+                "",
+                "",
+                [
+                    "LINE_6846404"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_FoundShield",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_FightBrew",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3359592",
+                "LINE_5813450",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_3359592|",
+                "",
+                "",
+                [
+                    "LINE_0492362"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Antique",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Bribe",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Convince",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0492362",
+                "LINE_3359592",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0492362|",
+                "",
+                "",
+                [
+                    "LINE_9834264"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1825696",
+                "LINE_6078586",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_1825696|",
+                "",
+                "",
+                [
+                    "LINE_0145150"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7588351",
+                "LINE_0145150",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7588351|",
+                "",
+                "BK Some of these changes felt a bit rough. I believe this was meant to be a consent line.\nDo you want us to find your brother or this artifact?",
+                [
+                    "LINE_6153537"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4085727",
+                "LINE_0145150",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_4085727|",
+                "",
+                "",
+                [
+                    "LINE_0394925"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0394925",
+                "LINE_4085727",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0394925|",
+                "",
+                "",
+                [
+                    "LINE_6153537"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6153537",
+                "LINE_7588351",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_6153537|",
+                "",
+                "BK - pretty sure his name is Richard\nI need that artifact.  This entire trip will be a disaster without it.  If you find Wildred, get that artifact back.  Then send him back here. I could use his help getting all packed up.",
+                [
+                    "LINE_0287065"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_Start",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0287065",
+                "LINE_6153537",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch2_SQ_TC_TalkedToFizzlebanks",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8148439",
+                "LINE_5813450",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_8148439|",
+                "",
+                "",
+                [
+                    "LINE_2699168"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7288151",
+                "LINE_4448822",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7288151|",
+                "",
+                "",
+                [
+                    "LINE_7403912"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7403912",
+                "LINE_7288151",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7403912|",
+                "",
+                "",
+                [
+                    "LINE_8347499"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8347499",
+                "LINE_7403912",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch2_SQ_TC_TalkedToFizzlebanks",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4901221",
+                "LINE_0145150",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_4901221|",
+                "",
+                "We found an artifact in the mercenaries' hideout. Maybe it was with your brother.",
+                [
+                    "LINE_9386908"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_FoundShield",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Antique",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Bribe",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Convince",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9386908",
+                "LINE_4901221",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_9386908|",
+                "",
+                "",
+                [
+                    "LINE_7061117"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7061117",
+                "LINE_9386908",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7061117|",
+                "",
+                "",
+                [
+                    "LINE_7762400"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_InformBro",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7762400",
+                "LINE_7061117",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7762400|",
+                "",
+                "May I have the artifact?  After I sell it I should be able to hire some competent help.",
+                [
+                    "LINE_2811462",
+                    "LINE_7024959"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2811462",
+                "LINE_7762400",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_2811462|",
+                "",
+                "",
+                [
+                    "LINE_9633123"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7024959",
+                "LINE_7762400",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7024959|",
+                "",
+                "\n",
+                [
+                    "LINE_5392936"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9633123",
+                "LINE_2811462",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_9633123|",
+                "",
+                "I trimmed this because too many reward givers are saying \"it is not much\". Going to give the player's a complex.\nBK  Thank you, my friend. Here. Take this. It's not much, but you provided some closure, and that's worth a little something.",
+                [
+                    "LINE_6217601"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_ReturnedShield",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "Give Gold 5",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6217601",
+                "LINE_9633123",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_6217601|",
+                "",
+                "I'll get my cart ready, now. There's no more reason to delay, anyway.",
+                [
+                    "LINE_2763678"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5392936",
+                "LINE_7024959",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_5392936|",
+                "",
+                "",
+                [
+                    "LINE_2763678"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_ReturnedShield",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2763678",
+                "LINE_5392936",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_1778660"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1778660",
+                "LINE_2763678",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_InformBro",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:TwinCrest_LC_Artifact"
+                ],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2699168",
+                "LINE_8148439",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_2699168|",
+                "",
+                "",
+                [
+                    "LINE_1843853"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1843853",
+                "LINE_2699168",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6846404",
+                "LINE_0595917",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_6846404|",
+                "",
+                "",
+                [
+                    "LINE_7061117"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9834264",
+                "LINE_0492362",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_9834264|",
+                "",
+                "",
+                [
+                    "LINE_1843853"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1407738",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_1407738|",
+                "",
+                "",
+                [
+                    "LINE_0041049"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_LiedAboutShield",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_ReturnedShield",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7018775",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7018775|",
+                "",
+                "",
+                [
+                    "LINE_5364644"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_ReturnedShield",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_LiedAboutShield",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3683335",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_3683335|",
+                "",
+                "",
+                [
+                    "LINE_5900891"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_LiedAboutShield",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5900891",
+                "LINE_3683335",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0041049",
+                "LINE_1407738",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5364644",
+                "LINE_7018775",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5813450",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_5813450|",
+                "",
+                "",
+                [
+                    "LINE_0595917",
+                    "LINE_0548912",
+                    "LINE_0753630",
+                    "LINE_4434845",
+                    "LINE_2003700",
+                    "LINE_0387224",
+                    "LINE_3359592",
+                    "LINE_8148439"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Start",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_InformBro",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_ReturnedShield",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_LiedAboutShield",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0668307",
+                "LINE_5518753",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5174207",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_5174207|",
+                "",
+                "",
+                [
+                    "LINE_3969749",
+                    "LINE_6078586",
+                    "LINE_7288151"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch2_SQ_TC_TalkedToFizzlebanks",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Start",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0387224",
+                "LINE_0145150",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0387224|",
+                "",
+                "",
+                [
+                    "LINE_9300021",
+                    "LINE_6511689"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_FoundShield",
+                                    "FlagState": "is true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Convince",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Antique",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Bribe",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9300021",
+                "LINE_0387224",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_9300021|",
+                "",
+                "No... I.... Fine. At least I have the my other goods. My brother is gone! Now how will I get all this packed up in time?!",
+                [
+                    "LINE_4791996"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_InformBro",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_ReturnedShield",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_LieBelieved",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "cha",
+                                    "StatActor": "<PLAYER>",
+                                    "StatValue": "14",
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4791996",
+                "LINE_9300021",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_4791996|",
+                "",
+                "",
+                [
+                    "LINE_6217601"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "AddGold 50",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6511689",
+                "LINE_0387224",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_6511689|",
+                "",
+                "BK removed the condition here, default = true",
+                [
+                    "LINE_8328428"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8328428",
+                "LINE_6511689",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_8328428|",
+                "",
+                "BK I did not understand this sentence. I think the lying bit is distracting (and the player was caught on the previous line).\nBK Thank you. It means a lot that you were willing to admit his treachery only after I caught you lying about it.  At least I have what's important, my artifact.",
+                [
+                    "LINE_6217601"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_ReturnedShield",
+                        "FlagState": "Set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Weapon:FamilyShield"
+                ],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4448822",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_4448822|",
+                "",
+                "",
+                [
+                    "LINE_3969749",
+                    "LINE_6078586",
+                    "LINE_7288151"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch2_SQ_TC_TalkedToFizzlebanks",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_ANQ_Start",
+                                    "FlagState": "false",
+                                    "Quest": "C2.1_A_New_Quest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2758073",
+                "LINE_7276774",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_2758073|",
+                "",
+                "My brother's dead... and every day we spend out here is another cut taken out of my profits.",
+                [
+                    "LINE_9780584",
+                    "LINE_7311305",
+                    "LINE_4277121"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_InformBro",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "item": {
+                            "Flag": "Ch1_SQ_TC_Start",
+                            "FlagState": "true",
+                            "Quest": "Ch1_SQ_TwinCrest",
+                            "Type": "Quest"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0823821",
+                "LINE_7276774",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0823821|",
+                "",
+                "We never did find my brother... and every day we spend out here is another cut taken out of my profits.",
+                [
+                    "LINE_4277121",
+                    "LINE_0595917",
+                    "LINE_0548912",
+                    "LINE_0753630",
+                    "LINE_4434845",
+                    "LINE_2003700",
+                    "LINE_4901221"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "connection": "AND",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_Start",
+                                            "FlagState": "true",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_InformBro",
+                                            "FlagState": "false",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            },
+                            {
+                                "connection": "AND",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_Convince",
+                                            "FlagState": "true",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_InformBro",
+                                            "FlagState": "false",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            },
+                            {
+                                "connection": "AND",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_Bribe",
+                                            "FlagState": "true",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_InformBro",
+                                            "FlagState": "false",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            },
+                            {
+                                "connection": "AND",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_Antique",
+                                            "FlagState": "true",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_InformBro",
+                                            "FlagState": "false",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7876240",
+                "LINE_7276774",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7876240|",
+                "",
+                "",
+                [
+                    "LINE_9780584",
+                    "LINE_4277121"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Start",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Convince",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Antique",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Bribe",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9780584",
+                "LINE_2758073",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_9780584|",
+                "",
+                "",
+                [
+                    "LINE_8618855"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7311305",
+                "LINE_2758073",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7311305|",
+                "",
+                "",
+                [
+                    "LINE_9086093",
+                    "LINE_7027200"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4277121",
+                "LINE_2758073",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_4277121|",
+                "",
+                "",
+                [
+                    "LINE_1442979"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1442979",
+                "LINE_4277121",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_1442979|",
+                "",
+                "",
+                [
+                    "LINE_3064661"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3064661",
+                "LINE_1442979",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8618855",
+                "LINE_9780584",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_8618855|",
+                "",
+                "",
+                [
+                    "LINE_8693991"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9086093",
+                "LINE_7311305",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_9086093|",
+                "",
+                "",
+                [
+                    "LINE_9780584",
+                    "LINE_4277121"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_InformBro",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7027200",
+                "LINE_7311305",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_7027200|",
+                "",
+                "Thanks. I'm sure he'll turn up. I'm not too worried, I guess.",
+                [
+                    "LINE_9780584",
+                    "LINE_4277121"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_InformBro",
+                                    "FlagState": "false",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8693991",
+                "LINE_8618855",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3476911",
+                "LINE_7276774",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_3476911|",
+                "",
+                "",
+                [
+                    "LINE_4725598"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_LiedAboutShield",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "item": {
+                            "Flag": "Ch1_SQ_TC_Start",
+                            "FlagState": "true",
+                            "Quest": "Ch1_SQ_TwinCrest",
+                            "Type": "Quest"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4725598",
+                "LINE_3476911",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_4725598|",
+                "",
+                "",
+                [
+                    "LINE_4395495"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4395495",
+                "LINE_4725598",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5472875",
+                "LINE_7276774",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_5472875|",
+                "",
+                "IF: Ch2_SQ_TC_TalkedToFizzlebanks",
+                [
+                    "LINE_4277121"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "connection": "AND",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Flag": "Ch2_SQ_TC_TalkedToFizzlebanks",
+                                            "FlagState": "true",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_Start",
+                                            "FlagState": "false",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_InformBro",
+                                            "FlagState": "false",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_Convince",
+                                            "FlagState": "false",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_Antique",
+                                            "FlagState": "false",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_Bribe",
+                                            "FlagState": "false",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            },
+                            {
+                                "connection": "AND",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_Start",
+                                            "FlagState": "true",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch2_SQ_TC_TalkedToFizzlebanks",
+                                            "FlagState": "true",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch1_SQ_TC_InformBro",
+                                            "FlagState": "true",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "Ch2_SQ_TC_TalkedToFizzlebanks",
+                                            "FlagState": "true",
+                                            "Quest": "Ch1_SQ_TwinCrest",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0548912",
+                "LINE_5813450",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0548912|",
+                "",
+                "BK adding liar text here.",
+                [
+                    "LINE_8397970",
+                    "LINE_2945995"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Bribe",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8397970",
+                "LINE_0548912",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_8397970|",
+                "",
+                "",
+                [
+                    "LINE_2763678"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_LiedAboutShield",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_LieBelieved",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "cha",
+                                    "StatActor": "<player>",
+                                    "StatValue": 11,
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0753630",
+                "LINE_5813450",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0753630|",
+                "",
+                "",
+                [
+                    "LINE_5782249"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Bribe",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2945995",
+                "LINE_0548912",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_2945995|",
+                "",
+                "",
+                [
+                    "LINE_5270329",
+                    "LINE_2316472",
+                    "LINE_1222417"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_LiedAboutShield",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5270329",
+                "LINE_2945995",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_5270329|",
+                "",
+                "I can't stand by and let a man suffer from abuse.  He deserves a chance to start a new life.",
+                [
+                    "LINE_0698003"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2316472",
+                "LINE_2945995",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_2316472|",
+                "",
+                "",
+                [
+                    "LINE_0776924"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1222417",
+                "LINE_2945995",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_1222417|",
+                "",
+                "",
+                [
+                    "LINE_0679594"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0679594",
+                "LINE_1222417",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0679594|",
+                "",
+                "",
+                [
+                    "LINE_2763678"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0776924",
+                "LINE_2316472",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0776924|",
+                "",
+                "",
+                [
+                    "LINE_2763678"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0698003",
+                "LINE_5270329",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_0698003|",
+                "",
+                "The only thing he deserves is a whipping! Tollin is going to hear about this!",
+                [
+                    "LINE_2763678"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5782249",
+                "LINE_0753630",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_5782249|",
+                "",
+                "",
+                [
+                    "LINE_5270329",
+                    "LINE_2316472",
+                    "LINE_1222417"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_LiedAboutShield",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4434845",
+                "LINE_5813450",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_4434845|",
+                "",
+                "",
+                [
+                    "LINE_9386908"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_FightBrew",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2003700",
+                "LINE_5813450",
+                "<PLAYER>",
+                "|Ch1_SideQuest_TwinCrest_LINE_2003700|",
+                "",
+                "",
+                [
+                    "LINE_5755326"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Ch1_SQ_TC_Convince",
+                                    "FlagState": "true",
+                                    "Quest": "Ch1_SQ_TwinCrest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5755326",
+                "LINE_2003700",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_5755326|",
+                "",
+                "",
+                [
+                    "LINE_5500864"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5500864",
+                "LINE_5755326",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_5500864|",
+                "",
+                "",
+                [
+                    "LINE_4336165"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4336165",
+                "LINE_5500864",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_ReturnedShield",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch1_SQ_TC_InformBro",
+                        "FlagState": "set",
+                        "Quest": "Ch1_SQ_TwinCrest"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:TwinCrest_LC_Artifact"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5518753",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch1_SideQuest_TwinCrest_LINE_5518753|",
+                "",
+                "",
+                [
+                    "LINE_4901221",
+                    "LINE_0668307"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8740699",
+                "LINE_8544162",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

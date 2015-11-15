@@ -807,4 +807,813 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "NARRATOR"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "DefeatedTheFirstCultists",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_0477291",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_9558736",
+                    "LINE_9925572",
+                    "LINE_8934132",
+                    "LINE_0824805",
+                    "LINE_1979209",
+                    "LINE_5458490",
+                    "LINE_5505813",
+                    "LINE_9301506"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9301506",
+                "LINE_0477291",
+                "LARETHAR",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_9301506|",
+                "",
+                "",
+                [
+                    "LINE_0054633",
+                    "LINE_4836379",
+                    "LINE_3746891",
+                    "LINE_1372036",
+                    "LINE_0952459",
+                    "LINE_6045285",
+                    "LINE_2549235"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8934132",
+                "LINE_0477291",
+                "DALANIR",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_8934132|",
+                "",
+                "",
+                [
+                    "LINE_0054633",
+                    "LINE_1372036",
+                    "LINE_4836379",
+                    "LINE_4963117",
+                    "LINE_0952459",
+                    "LINE_6045285",
+                    "LINE_2549235"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0054633",
+                "LINE_8934132",
+                "ILLYDIA",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_0054633|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9925572",
+                "LINE_0477291",
+                "ILLYDIA",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_9925572|",
+                "",
+                "",
+                [
+                    "LINE_3746891",
+                    "LINE_4836379",
+                    "LINE_1372036",
+                    "LINE_4963117",
+                    "LINE_0952459",
+                    "LINE_6045285",
+                    "LINE_2549235"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3746891",
+                "LINE_9925572",
+                "DALANIR",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_3746891|",
+                "",
+                "",
+                [
+                    "LINE_1128532"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1128532",
+                "LINE_3746891",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1372036",
+                "LINE_9925572",
+                "BRYN",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_1372036|",
+                "",
+                "",
+                [
+                    "LINE_1128532"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4963117",
+                "LINE_9925572",
+                "LARETHAR",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_4963117|",
+                "",
+                "",
+                [
+                    "LINE_2549235"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2549235",
+                "LINE_4963117",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0952459",
+                "LINE_9925572",
+                "JARHILD",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_0952459|",
+                "",
+                "",
+                [
+                    "LINE_1128532"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6045285",
+                "LINE_9925572",
+                "HOMMET",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_6045285|",
+                "",
+                "",
+                [
+                    "LINE_1128532"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5458490",
+                "LINE_0477291",
+                "JARHILD",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_5458490|",
+                "",
+                "",
+                [
+                    "LINE_3746891",
+                    "LINE_4836379",
+                    "LINE_4963117",
+                    "LINE_1372036",
+                    "LINE_0054633",
+                    "LINE_6045285",
+                    "LINE_2549235"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9558736",
+                "LINE_0477291",
+                "BRYN",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_9558736|",
+                "",
+                "",
+                [
+                    "LINE_3746891",
+                    "LINE_4836379",
+                    "LINE_4963117",
+                    "LINE_0054633",
+                    "LINE_0952459",
+                    "LINE_6045285",
+                    "LINE_2549235"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1979209",
+                "LINE_0477291",
+                "HOMMET",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_1979209|",
+                "",
+                "",
+                [
+                    "LINE_1372036",
+                    "LINE_4836379",
+                    "LINE_4963117",
+                    "LINE_3746891",
+                    "LINE_0054633",
+                    "LINE_0952459",
+                    "LINE_2549235"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5505813",
+                "LINE_0477291",
+                "<DEFAULT>",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_5505813|",
+                "",
+                "",
+                [
+                    "LINE_2549235"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "True",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0824805",
+                "LINE_0477291",
+                "JAVEN",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_0824805|",
+                "",
+                "",
+                [
+                    "LINE_0054633",
+                    "LINE_3746891",
+                    "LINE_1372036",
+                    "LINE_4963117",
+                    "LINE_0952459",
+                    "LINE_6045285",
+                    "LINE_2549235"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JAVEN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4836379",
+                "LINE_9925572",
+                "JAVEN",
+                "|Ch3_EvermoorsCastle_AfterBattle_LINE_4836379|",
+                "",
+                "",
+                [
+                    "LINE_1128532"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JAVEN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

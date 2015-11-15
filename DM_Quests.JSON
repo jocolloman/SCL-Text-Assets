@@ -2474,4 +2474,2480 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THE_DM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "DM_Defeat_Conversation_0",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_2050032",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_2050032|",
+                "",
+                "",
+                [
+                    "LINE_7038630",
+                    "LINE_4646152"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestNotStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7038630",
+                "LINE_2050032",
+                "<PLAYER>",
+                "|DM_Quests_LINE_7038630|",
+                "",
+                "",
+                [
+                    "LINE_5597790"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4646152",
+                "LINE_2050032",
+                "<PLAYER>",
+                "|DM_Quests_LINE_4646152|",
+                "",
+                "",
+                [
+                    "LINE_6189743"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5597790",
+                "LINE_7038630",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "TriggerGiveQuest",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6189743",
+                "LINE_4646152",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7614344",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_7614344|",
+                "",
+                "",
+                [
+                    "LINE_8178308"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_KilledAllCreatures",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "False",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9127372",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_9127372|",
+                "",
+                "",
+                [
+                    "LINE_5611718"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_KilledAllCreatures",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8178308",
+                "LINE_7614344",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5611718",
+                "LINE_9127372",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "",
+                        "FlagState": "",
+                        "Quest": ""
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "HandleQuestCompleted",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THE_DM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "DM_Collect_Conversation_0",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3739743",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_3739743|",
+                "",
+                " ",
+                [
+                    "LINE_8112934",
+                    "LINE_0846660"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestNotStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8112934",
+                "LINE_3739743",
+                "<PLAYER>",
+                "|DM_Quests_LINE_8112934|",
+                "",
+                "",
+                [
+                    "LINE_6039632"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6039632",
+                "LINE_8112934",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "TriggerGiveQuest",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0846660",
+                "LINE_3739743",
+                "<PLAYER>",
+                "|DM_Quests_LINE_0846660|",
+                "",
+                "",
+                [
+                    "LINE_2617429"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2617429",
+                "LINE_0846660",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9435469",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_9435469|",
+                "",
+                "",
+                [
+                    "LINE_8568474"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_AllItemsCollected",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "False",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8235668",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_8235668|",
+                "",
+                "",
+                [
+                    "LINE_1958739"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_AllItemsCollected",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8568474",
+                "LINE_9435469",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1958739",
+                "LINE_8235668",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "",
+                        "FlagState": "",
+                        "Quest": ""
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "HandleQuestCompleted",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THE_DM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "DM_Boss_Conversation_0",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_4539846",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_4539846|",
+                "",
+                "",
+                [
+                    "LINE_7822935",
+                    "LINE_4957317"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestNotStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7822935",
+                "LINE_4539846",
+                "<PLAYER>",
+                "|DM_Quests_LINE_7822935|",
+                "",
+                "",
+                [
+                    "LINE_0931160"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4957317",
+                "LINE_4539846",
+                "<PLAYER>",
+                "|DM_Quests_LINE_4957317|",
+                "",
+                "",
+                [
+                    "LINE_6351048"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0435178",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_0435178|",
+                "",
+                "",
+                [
+                    "LINE_3657877"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_KilledAllCreatures",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "False",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1431569",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_1431569|",
+                "",
+                "",
+                [
+                    "LINE_4034445"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_KilledAllCreatures",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0931160",
+                "LINE_7822935",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "TriggerGiveQuest",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6351048",
+                "LINE_4957317",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3657877",
+                "LINE_0435178",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4034445",
+                "LINE_1431569",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "",
+                        "FlagState": "",
+                        "Quest": ""
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "HandleQuestCompleted",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THE_DM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "DM_Defeat_Conversation_Custom",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_5272919",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "Couldn't paste directly onto the conversation root, so this is the best I can do. I don't have any way of moving it upwards either.",
+                [
+                    "LINE_0109067",
+                    "LINE_0611829",
+                    "LINE_4664786"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0109067",
+                "LINE_5272919",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_0109067|",
+                "",
+                "",
+                [
+                    "LINE_0528107",
+                    "LINE_7737996"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestNotStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0528107",
+                "LINE_0109067",
+                "<PLAYER>",
+                "|DM_Quests_LINE_0528107|",
+                "",
+                "",
+                [
+                    "LINE_9425415"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9425415",
+                "LINE_0528107",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "TriggerGiveQuest",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7737996",
+                "LINE_0109067",
+                "<PLAYER>",
+                "|DM_Quests_LINE_7737996|",
+                "",
+                "",
+                [
+                    "LINE_0621101"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0621101",
+                "LINE_7737996",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0611829",
+                "LINE_5272919",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_0611829|",
+                "",
+                "",
+                [
+                    "LINE_6158519"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_KilledAllCreatures",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "False",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6158519",
+                "LINE_0611829",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4664786",
+                "LINE_5272919",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_4664786|",
+                "",
+                "",
+                [
+                    "LINE_4230953"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_KilledAllCreatures",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4230953",
+                "LINE_4664786",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "",
+                        "FlagState": "",
+                        "Quest": ""
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "HandleQuestCompleted",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THE_DM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "DM_Collect_Conversation_Custom",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3724168",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_2456588",
+                    "LINE_0548552",
+                    "LINE_6950307"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2456588",
+                "LINE_3724168",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_2456588|",
+                "",
+                "",
+                [
+                    "LINE_0941781",
+                    "LINE_0907174"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestNotStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0941781",
+                "LINE_2456588",
+                "<PLAYER>",
+                "|DM_Quests_LINE_0941781|",
+                "",
+                "",
+                [
+                    "LINE_6215594"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6215594",
+                "LINE_0941781",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "TriggerGiveQuest",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0907174",
+                "LINE_2456588",
+                "<PLAYER>",
+                "|DM_Quests_LINE_0907174|",
+                "",
+                "",
+                [
+                    "LINE_1451839"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1451839",
+                "LINE_0907174",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0548552",
+                "LINE_3724168",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_0548552|",
+                "",
+                "",
+                [
+                    "LINE_9464316"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_AllItemsCollected",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "False",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9464316",
+                "LINE_0548552",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6950307",
+                "LINE_3724168",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_6950307|",
+                "",
+                "",
+                [
+                    "LINE_0558817"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_AllItemsCollected",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0558817",
+                "LINE_6950307",
+                "<SKIP>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "",
+                        "FlagState": "",
+                        "Quest": ""
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "HandleQuestCompleted",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THE_DM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "DM_Boss_Conversation_Custom",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_9964637",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_0632380",
+                    "LINE_2046515",
+                    "LINE_8735559"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0632380",
+                "LINE_9964637",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_0632380|",
+                "",
+                "",
+                [
+                    "LINE_0454930",
+                    "LINE_6546832"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "TriggerGiveQuest",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestNotStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0454930",
+                "LINE_0632380",
+                "<PLAYER>",
+                "|DM_Quests_LINE_0454930|",
+                "",
+                "",
+                [
+                    "LINE_5132179"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5132179",
+                "LINE_0454930",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6546832",
+                "LINE_0632380",
+                "<PLAYER>",
+                "|DM_Quests_LINE_6546832|",
+                "",
+                "",
+                [
+                    "LINE_5667390"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5667390",
+                "LINE_6546832",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2046515",
+                "LINE_9964637",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_2046515|",
+                "",
+                "",
+                [
+                    "LINE_0096554"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_KilledAllCreatures",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "False",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0096554",
+                "LINE_2046515",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8735559",
+                "LINE_9964637",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_8735559|",
+                "",
+                "",
+                [
+                    "LINE_1054823"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_KilledAllCreatures",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "ScriptAction": "DMDynamic_QuestStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1054823",
+                "LINE_8735559",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "",
+                        "FlagState": "",
+                        "Quest": ""
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "HandleQuestCompleted",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THE_DM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "DM_Conversation_Give",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_1709011",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_1709011|",
+                "",
+                "",
+                [
+                    "LINE_2647241",
+                    "LINE_7030488"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "QuestHasNotStarted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2647241",
+                "LINE_1709011",
+                "<PLAYER>",
+                "|DM_Quests_LINE_2647241|",
+                "",
+                "",
+                [
+                    "LINE_5631943"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7030488",
+                "LINE_1709011",
+                "<PLAYER>",
+                "|DM_Quests_LINE_7030488|",
+                "",
+                "",
+                [
+                    "LINE_3285902"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5631943",
+                "LINE_2647241",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "HandleQuestGive",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3285902",
+                "LINE_7030488",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8292384",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_8292384|",
+                "",
+                "",
+                [
+                    "LINE_1292708"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1292708",
+                "LINE_8292384",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THE_DM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "DM_Conversation_Update",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_4409362",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_4409362|",
+                "",
+                "",
+                [
+                    "LINE_7172957"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7172957",
+                "LINE_4409362",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "HandleQuestUpdate",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "THE_DM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "DM_Conversation_Complete",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3094970",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_3094970|",
+                "",
+                "",
+                [
+                    "LINE_4658252"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "ScriptAction": "QuestHasNotCompleted",
+                                    "ScriptActor": "<OWNER>",
+                                    "ScriptIsTrue": "True",
+                                    "Type": "Script"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2876366",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|DM_Quests_LINE_2876366|",
+                "",
+                "",
+                [
+                    "LINE_1507858"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4658252",
+                "LINE_3094970",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "HandleQuestComplete",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1507858",
+                "LINE_2876366",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

@@ -481,4 +481,487 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "TROLLMOM"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "AmbientWarCry",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_4297858",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|TrollMatriarch_SQ_LINE_4297858|",
+                "",
+                "",
+                [
+                    "LINE_4335934"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4335934",
+                "LINE_4297858",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "RUNNER"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "AmbientHelp",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_2009655",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|TrollMatriarch_SQ_LINE_2009655|",
+                "",
+                "",
+                [
+                    "LINE_9972549"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "MoveToPoint",
+                        "SpeakerTag": "RUNNER"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9972549",
+                "LINE_2009655",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "SELLSWORD_HUMAN"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "FreeCaptives",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "True",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7622447",
+                "<ROOT>",
+                "<OWNER>",
+                "|TrollMatriarch_SQ_LINE_7622447|",
+                "",
+                "Thank you so much! We don't have much to offer to thank you...but there is a chest back there full of loot that these monsters ripped from other victims. Thanks again!",
+                [
+                    "LINE_3638074"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3638074",
+                "LINE_7622447",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": false,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "RescueTheCaptives",
+                        "FlagState": "set",
+                        "Quest": "TrollMatriarch_SQ"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionFade",
+                        "Async": true,
+                        "FadeColor": 0,
+                        "FadeIn": true,
+                        "FadeSeconds": 1.0
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "RUNNER"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "RunningCaptive",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7114624",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|TrollMatriarch_SQ_LINE_7114624|",
+                "",
+                "Help!! T-the trolls have captured my squad... I escaped when they got into a frenzy when you guys were ripping apart their tribe.",
+                [
+                    "LINE_2721724",
+                    "LINE_0346516"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2721724",
+                "LINE_7114624",
+                "<PLAYER>",
+                "|TrollMatriarch_SQ_LINE_2721724|",
+                "",
+                "",
+                [
+                    "LINE_9576954"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0346516",
+                "LINE_7114624",
+                "<PLAYER>",
+                "|TrollMatriarch_SQ_LINE_0346516|",
+                "",
+                "BK I didn't understand this? Was it meant to be a mean response (knocking out the squad?) Or knocking out the trolls?",
+                [
+                    "LINE_9576954"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9576954",
+                "LINE_2721724",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_7074898"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "TrollMatriarch_SQ_START",
+                        "FlagState": "Set",
+                        "Quest": "TrollMatriarch_SQ"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "FindTrollCamp",
+                        "FlagState": "Set",
+                        "Quest": "TrollMatriarch_SQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7074898",
+                "LINE_9576954",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

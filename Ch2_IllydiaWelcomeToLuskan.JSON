@@ -480,4 +480,486 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "ILLYDIA"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "IllydiaWelcomToLuskan",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_2259150",
+                "<ROOT>",
+                "JARHILD",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_2259150|",
+                "",
+                "",
+                [
+                    "LINE_6337529"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_TC_WelcomeToCutlassConvoTrigger",
+                                    "FlagState": "false",
+                                    "Quest": "C2.15_The_Contact",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6337529",
+                "LINE_2259150",
+                "LARETHAR",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_6337529|",
+                "",
+                "",
+                [
+                    "LINE_5177299"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5177299",
+                "LINE_6337529",
+                "ILLYDIA",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_5177299|",
+                "",
+                "BK MAJOR: I removed a Jarhild line because I thought it disrupted the flow of conversation (didn't sound natural). ",
+                [
+                    "LINE_0397769",
+                    "LINE_6529124",
+                    "LINE_6595637"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0397769",
+                "LINE_5177299",
+                "<PLAYER>",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_0397769|",
+                "",
+                "",
+                [
+                    "LINE_0899629"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6529124",
+                "LINE_5177299",
+                "<PLAYER>",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_6529124|",
+                "",
+                "",
+                [
+                    "LINE_7005128"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6595637",
+                "LINE_5177299",
+                "<PLAYER>",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_6595637|",
+                "",
+                "",
+                [
+                    "LINE_4619994"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4619994",
+                "LINE_6595637",
+                "LARETHAR",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_4619994|",
+                "",
+                "",
+                [
+                    "LINE_1448746"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1448746",
+                "LINE_4619994",
+                "LARETHAR",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_1448746|",
+                "",
+                "BK cut \"Way safer than Jax's or any other rundown dive.\" as per WOTC",
+                [
+                    "LINE_0397769",
+                    "LINE_6529124"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7005128",
+                "LINE_6529124",
+                "JARHILD",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_7005128|",
+                "",
+                "",
+                [
+                    "LINE_5789552"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5789552",
+                "LINE_7005128",
+                "LARETHAR",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_5789552|",
+                "",
+                "",
+                [
+                    "LINE_9030629"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9030629",
+                "LINE_5789552",
+                "ILLYDIA",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_9030629|",
+                "",
+                "",
+                [
+                    "LINE_8485562"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0899629",
+                "LINE_0397769",
+                "JARHILD",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_0899629|",
+                "",
+                "",
+                [
+                    "LINE_7643238"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7643238",
+                "LINE_0899629",
+                "ILLYDIA",
+                "|Ch2_IllydiaWelcomeToLuskan_LINE_7643238|",
+                "",
+                "",
+                [
+                    "LINE_8485562"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8485562",
+                "LINE_9030629",
+                "ILLYDIA",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_TC_WelcomeToCutlassConvoTrigger",
+                        "FlagState": "Set",
+                        "Quest": "C2.15_The_Contact"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_ANQ_ExitToLuskan",
+                        "FlagState": "set",
+                        "Quest": "C2.1_A_New_Quest"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C2_TC_Start",
+                        "FlagState": "set",
+                        "Quest": "C2.15_The_Contact"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                0,
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

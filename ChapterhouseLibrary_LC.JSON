@@ -3615,4 +3615,3621 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "RPE"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Library Shelf",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7456582",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_9329579",
+                    "LINE_1880458",
+                    "LINE_5676129",
+                    "LINE_9782857"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8102086",
+                "LINE_7456582",
+                "<DEFAULT>",
+                "|ChapterhouseLibrary_LC_LINE_8102086|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_0494885"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledFirstSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledSecondSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledThirdSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1184349",
+                "LINE_8102086",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_1184349|",
+                "",
+                "",
+                [
+                    "LINE_8107939",
+                    "LINE_5315529",
+                    "LINE_7189161",
+                    "LINE_1922408",
+                    "LINE_9975529",
+                    "LINE_2758889",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledFirstSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8877199",
+                "LINE_8102086",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_8877199|",
+                "",
+                "",
+                [
+                    "LINE_7308094",
+                    "LINE_2127274",
+                    "LINE_2181505",
+                    "LINE_0320187",
+                    "LINE_8230130",
+                    "LINE_1835727",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledSecondSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4056331",
+                "LINE_8102086",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_4056331|",
+                "",
+                "",
+                [
+                    "LINE_3689467",
+                    "LINE_4388333",
+                    "LINE_8386811",
+                    "LINE_6158393",
+                    "LINE_9797109",
+                    "LINE_5061285",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledThirdSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8107939",
+                "LINE_1184349",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_8107939|",
+                "",
+                "BK adding <>  action brackets and quoting book title",
+                [
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_8480105",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_6387970"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book01",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book01_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book01_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book01"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5315529",
+                "LINE_1184349",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_5315529|",
+                "",
+                "",
+                [
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_7890118",
+                    "LINE_2246957",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book02",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book02_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book02_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book02"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7189161",
+                "LINE_1184349",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_7189161|",
+                "",
+                "",
+                [
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_0851095",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_6387970"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book03",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book03_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book03_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book03"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1922408",
+                "LINE_1184349",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_1922408|",
+                "",
+                "",
+                [
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_0217563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_3490381",
+                    "LINE_3466189"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book04",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book04_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book04_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book04"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9975529",
+                "LINE_1184349",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_9975529|",
+                "",
+                "",
+                [
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_4049555",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3466189"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book05",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book05_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book05_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book05"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2758889",
+                "LINE_1184349",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_2758889|",
+                "",
+                "",
+                [
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book06",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book06_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book06_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book06"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3589438",
+                "LINE_1184349",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_3589438|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_0494885"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7308094",
+                "LINE_8877199",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_7308094|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_2246957",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book01",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book01_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book01_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book01"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2127274",
+                "LINE_8877199",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_2127274|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_6103636",
+                    "LINE_8480105",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_9360258",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_6387970"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book02",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book02_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book02_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book02"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2181505",
+                "LINE_8877199",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_2181505|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_8011574",
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book03",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book03_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book03_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book03"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0320187",
+                "LINE_8877199",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_0320187|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_5971751",
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_3490381",
+                    "LINE_3466189"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book04",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book04_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book04_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book04"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8230130",
+                "LINE_8877199",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_8230130|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_1016667",
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4067563",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3466189",
+                    "LINE_6387970"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book05",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book05_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book05_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book05"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1835727",
+                "LINE_8877199",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_1835727|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_4056331",
+                    "LINE_0494885",
+                    "LINE_5492580",
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book06",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book06_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book06_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book06"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3689467",
+                "LINE_4056331",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_3689467|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_0494885",
+                    "LINE_9360258",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book01",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book01_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book01_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book01"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4388333",
+                "LINE_4056331",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_4388333|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_0494885",
+                    "LINE_9015971",
+                    "LINE_8480105",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_6387970"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book02",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book02_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book02_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book02"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8386811",
+                "LINE_4056331",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_8386811|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_0494885",
+                    "LINE_9560965",
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_6387970"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book03",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book03_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book03_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book03"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6158393",
+                "LINE_4056331",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_6158393|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_0494885",
+                    "LINE_6337098",
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_1016667",
+                    "LINE_5492580"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book04",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book04_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book04_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book04"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9797109",
+                "LINE_4056331",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_9797109|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_0494885",
+                    "LINE_3490381",
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_5492580"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book05",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book05_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book05_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book05"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5061285",
+                "LINE_4056331",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_5061285|",
+                "",
+                "",
+                [
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_0494885",
+                    "LINE_3466189",
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book06",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book06_Inventory",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Book06_Inventory",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book06"
+                ],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2148514",
+                "LINE_7456582",
+                "<DEFAULT>",
+                "|ChapterhouseLibrary_LC_LINE_2148514|",
+                "",
+                "First book slot filled",
+                [
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "connection": "AND",
+                                "items": [
+                                    {
+                                        "item": {
+                                            "Flag": "FilledFirstSlot",
+                                            "FlagState": "true",
+                                            "Quest": "ChapterhouseLibrary_LC",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "FilledSecondSlot",
+                                            "FlagState": "false",
+                                            "Quest": "ChapterhouseLibrary_LC",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    },
+                                    {
+                                        "item": {
+                                            "Flag": "FilledThirdSlot",
+                                            "FlagState": "false",
+                                            "Quest": "ChapterhouseLibrary_LC",
+                                            "Type": "Quest"
+                                        },
+                                        "type": "item"
+                                    }
+                                ],
+                                "type": "group"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9782857",
+                "LINE_7456582",
+                "<DEFAULT>",
+                "|ChapterhouseLibrary_LC_LINE_9782857|",
+                "",
+                "all slots filled",
+                [
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledFirstSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledSecondSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledThirdSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8480105",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_8480105|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book01",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book01_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space01_Book01",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book01"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7890118",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_7890118|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book02",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book02_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space01_Book02",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book02"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0851095",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_0851095|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book03",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book03_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space01_Book03",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book03"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0217563",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_0217563|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book04",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book04_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space01_Book04",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book04"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4049555",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_4049555|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book05",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book05_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space01_Book05",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book05"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4067563",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_4067563|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space01_Book06",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book06_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space01_Book06",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book06"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0494885",
+                "LINE_8102086",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_0494885|",
+                "",
+                "",
+                [
+                    "LINE_0685966"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0685966",
+                "LINE_0494885",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9329579",
+                "LINE_7456582",
+                "<DEFAULT>",
+                "|ChapterhouseLibrary_LC_LINE_9329579|",
+                "",
+                "2nd book slot is filled\n",
+                [
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledFirstSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledSecondSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledThirdSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2246957",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_2246957|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book01",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book01_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space02_Book01",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book01"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6103636",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_6103636|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book02",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book02_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space02_Book02",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book02"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8011574",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_8011574|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book03",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book03_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space02_Book03",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book03"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5971751",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_5971751|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book04",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book04_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space02_Book04",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book04"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1016667",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_1016667|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book05",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book05_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space02_Book05",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book05"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5492580",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_5492580|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space02_Book06",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book06_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space02_Book06",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book06"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9360258",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_9360258|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book01",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book01_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space03_Book01",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book01"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9015971",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_9015971|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book02",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book02_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space03_Book02",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book02"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9560965",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_9560965|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book03",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book03_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space03_Book03",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book03"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6337098",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_6337098|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book04",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book04_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space03_Book04",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book04"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3490381",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_3490381|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book05",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book05_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space03_Book05",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book05"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3466189",
+                "LINE_2148514",
+                "<PLAYER>",
+                "|ChapterhouseLibrary_LC_LINE_3466189|",
+                "",
+                "",
+                [
+                    "LINE_0494885",
+                    "LINE_8102086",
+                    "LINE_2148514",
+                    "LINE_9329579",
+                    "LINE_9583742",
+                    "LINE_9529993",
+                    "LINE_1880458",
+                    "LINE_5676129"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Space03_Book06",
+                        "FlagState": "Clear",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Book06_Inventory",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Space03_Book06",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [
+                    "Misc:Chapterhouse_LC_Book06"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9583742",
+                "LINE_7456582",
+                "<DEFAULT>",
+                "|ChapterhouseLibrary_LC_LINE_9583742|",
+                "",
+                "",
+                [
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledFirstSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledSecondSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledThirdSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9529993",
+                "LINE_7456582",
+                "<DEFAULT>",
+                "|ChapterhouseLibrary_LC_LINE_9529993|",
+                "",
+                "",
+                [
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledFirstSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledSecondSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledThirdSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5676129",
+                "LINE_7456582",
+                "<DEFAULT>",
+                "|ChapterhouseLibrary_LC_LINE_5676129|",
+                "",
+                "",
+                [
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledFirstSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledSecondSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledThirdSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1880458",
+                "LINE_7456582",
+                "<DEFAULT>",
+                "|ChapterhouseLibrary_LC_LINE_1880458|",
+                "",
+                "",
+                [
+                    "LINE_8480105",
+                    "LINE_7890118",
+                    "LINE_0851095",
+                    "LINE_0217563",
+                    "LINE_4049555",
+                    "LINE_4067563",
+                    "LINE_2246957",
+                    "LINE_6103636",
+                    "LINE_8011574",
+                    "LINE_5971751",
+                    "LINE_1016667",
+                    "LINE_5492580",
+                    "LINE_9360258",
+                    "LINE_9015971",
+                    "LINE_9560965",
+                    "LINE_6337098",
+                    "LINE_3490381",
+                    "LINE_3466189",
+                    "LINE_1184349",
+                    "LINE_8877199",
+                    "LINE_4056331",
+                    "LINE_3589438"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "FilledFirstSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledSecondSlot",
+                                    "FlagState": "false",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "FilledThirdSlot",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6387970",
+                "LINE_8107939",
+                "<DEFAULT>",
+                "|ChapterhouseLibrary_LC_LINE_6387970|",
+                "",
+                "",
+                [
+                    "LINE_1041738"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "OpenSecretDoor",
+                        "FlagState": "Set",
+                        "Quest": "ChapterhouseLibrary_LC"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "PuzzleComplete",
+                                    "FlagState": "true",
+                                    "Quest": "ChapterhouseLibrary_LC",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1041738",
+                "LINE_6387970",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

@@ -627,4 +627,633 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "ABANDONEDDROW"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Abandoned Drow",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_5160528",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|AbandonedDrow_SQ_LINE_5160528|",
+                "",
+                "",
+                [
+                    "LINE_5174422",
+                    "LINE_5322261",
+                    "LINE_7154490"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "AbandonedDrow_SQ_Release",
+                                    "FlagState": "false",
+                                    "Quest": "AbandonedDrow_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5174422",
+                "LINE_5160528",
+                "<PLAYER>",
+                "|AbandonedDrow_SQ_LINE_5174422|",
+                "",
+                "BK the drow does not really answer this question until the next time the player asks.",
+                [
+                    "LINE_9553585"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5322261",
+                "LINE_5160528",
+                "<PLAYER>",
+                "|AbandonedDrow_SQ_LINE_5322261|",
+                "",
+                "",
+                [
+                    "LINE_5416633"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7154490",
+                "LINE_5160528",
+                "<PLAYER>",
+                "|AbandonedDrow_SQ_LINE_7154490|",
+                "",
+                "",
+                [
+                    "LINE_7030567"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9553585",
+                "LINE_5174422",
+                "<DEFAULT>",
+                "|AbandonedDrow_SQ_LINE_9553585|",
+                "",
+                "",
+                [
+                    "LINE_2299509",
+                    "LINE_3102172",
+                    "LINE_2218180",
+                    "LINE_3075300"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2299509",
+                "LINE_9553585",
+                "<PLAYER>",
+                "|AbandonedDrow_SQ_LINE_2299509|",
+                "",
+                "",
+                [
+                    "LINE_7030804"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3102172",
+                "LINE_9553585",
+                "<PLAYER>",
+                "|AbandonedDrow_SQ_LINE_3102172|",
+                "",
+                "BK rewrote from \"Why haven't you returned home?\" so that it makes sense with NPC reply",
+                [
+                    "LINE_1891891"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1891891",
+                "LINE_3102172",
+                "<DEFAULT>",
+                "|AbandonedDrow_SQ_LINE_1891891|",
+                "",
+                "",
+                [
+                    "LINE_2299509",
+                    "LINE_2218180",
+                    "LINE_3075300"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2218180",
+                "LINE_9553585",
+                "<PLAYER>",
+                "|AbandonedDrow_SQ_LINE_2218180|",
+                "",
+                "",
+                [
+                    "LINE_5483065"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7030804",
+                "LINE_2299509",
+                "<DEFAULT>",
+                "|AbandonedDrow_SQ_LINE_7030804|",
+                "",
+                "",
+                [
+                    "LINE_3102172",
+                    "LINE_2218180",
+                    "LINE_3075300"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5483065",
+                "LINE_2218180",
+                "<DEFAULT>",
+                "|AbandonedDrow_SQ_LINE_5483065|",
+                "",
+                "BK rewrote (sounded very undrowlike) \"It wasn't our fault!  We never wanted to come to the surface.  I was perfectly happy before Tasyllys showed up.  Don't know why I ever listened to him.\"",
+                [
+                    "LINE_2299509",
+                    "LINE_3102172",
+                    "LINE_3075300"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3075300",
+                "LINE_9553585",
+                "<PLAYER>",
+                "|AbandonedDrow_SQ_LINE_3075300|",
+                "",
+                "",
+                [
+                    "LINE_1059933"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1059933",
+                "LINE_3075300",
+                "<DEFAULT>",
+                "|AbandonedDrow_SQ_LINE_1059933|",
+                "",
+                "BK rewrote to be more drow-like \"Is letting us go an option?  We swear to do no more harm to any surface dwellers... unless they attack first.\"",
+                [
+                    "LINE_6468768",
+                    "LINE_9705279"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6468768",
+                "LINE_1059933",
+                "<PLAYER>",
+                "|AbandonedDrow_SQ_LINE_6468768|",
+                "",
+                "",
+                [
+                    "LINE_5308438"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9705279",
+                "LINE_1059933",
+                "<PLAYER>",
+                "|AbandonedDrow_SQ_LINE_9705279|",
+                "",
+                "",
+                [
+                    "LINE_7030567"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7030567",
+                "LINE_9705279",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "MakeCreatureFactionHostile",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5308438",
+                "LINE_6468768",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "AbandonedDrow_SQ_Release",
+                        "FlagState": "Set",
+                        "Quest": "AbandonedDrow_SQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6752619",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|AbandonedDrow_SQ_LINE_6752619|",
+                "",
+                "BK rewrote \"I can't believe you let us live.  I'm grateful, but I wouldn't have made that choice.\"",
+                [
+                    "LINE_4132329"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4132329",
+                "LINE_6752619",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5416633",
+                "LINE_5322261",
+                "<DEFAULT>",
+                "|AbandonedDrow_SQ_LINE_5416633|",
+                "",
+                "BK rewrote to be more drowlike",
+                [
+                    "LINE_2299509",
+                    "LINE_3102172",
+                    "LINE_2218180",
+                    "LINE_3075300"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

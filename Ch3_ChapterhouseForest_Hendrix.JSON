@@ -3044,4 +3044,3050 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "HENDRIX"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch3_ChapterhouseForest_HendrixConvo",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3018071",
+                "<ROOT>",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3018071|",
+                "",
+                "",
+                [
+                    "LINE_1647089",
+                    "LINE_3088595"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_SpokeWithMusicianOnce",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "CH2_BT_BardMet",
+                                    "FlagState": "true",
+                                    "Quest": "Ch2_LG_SQ_BardsTale",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_TalkToMusician",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_SpokeWithMusicianOnce",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_NEW_HasSigil",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7266928",
+                "LINE_9595803",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_7266928|",
+                "",
+                "",
+                [
+                    "LINE_9190594"
+                ],
+                [],
+                [
+                    {
+                        "item": {
+                            "Flag": "C3_BID_AskedBardAboutChapterhouse",
+                            "FlagState": "false",
+                            "Quest": "C3.05_Breaking_Into_Dawn",
+                            "Type": "Quest"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4632079",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_4632079|",
+                "",
+                "We know the bands name now.   (should we move this information deeper into the conversation?)",
+                [
+                    "LINE_9271325"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_SpokeWithMusicianOnce",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_KnowsBandName",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_SpokeWithMusicianOnce",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_NEW_HasSigil",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9467431",
+                "LINE_9595803",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_9467431|",
+                "",
+                "",
+                [
+                    "LINE_3164246"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_FoundBaritoneCorpses",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_NEW_KnowAboutAxlerad",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9595803",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_9595803|",
+                "",
+                "",
+                [
+                    "LINE_9467431",
+                    "LINE_7266928",
+                    "LINE_3273160",
+                    "LINE_8339067",
+                    "LINE_5854146",
+                    "LINE_4835802"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_SpokeWithMusicianOnce",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_NEW_HasSigil",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1240918",
+                "LINE_0702155",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0702155",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_0702155|",
+                "",
+                "",
+                [
+                    "LINE_1240918"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_NEW_HasSigil",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1647089",
+                "LINE_3018071",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_1647089|",
+                "",
+                "f",
+                [
+                    "LINE_9271325"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_KnowsBandName",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "CH2_BT_Give50Gold",
+                                    "FlagState": "true",
+                                    "Quest": "Ch2_LG_SQ_BardsTale",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3088595",
+                "LINE_3018071",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3088595|",
+                "",
+                "",
+                [
+                    "LINE_9271325"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_KnowsBandName",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9271325",
+                "LINE_1647089",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_9271325|",
+                "",
+                "WOTC SAYS TOO MODERN: but a gig's a gig!\nREPLACED with: but it pays for drinks",
+                [
+                    "LINE_2806969",
+                    "LINE_9534978",
+                    "LINE_0552857"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9534978",
+                "LINE_9271325",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_9534978|",
+                "",
+                "",
+                [
+                    "LINE_1070667"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2806969",
+                "LINE_9271325",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_2806969|",
+                "",
+                "",
+                [
+                    "LINE_9190594"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0552857",
+                "LINE_9271325",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_0552857|",
+                "",
+                "",
+                [
+                    "LINE_3364659"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1070667",
+                "LINE_9534978",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_1070667|",
+                "",
+                "",
+                [
+                    "LINE_2806969",
+                    "LINE_0552857"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3364659",
+                "LINE_0552857",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3364659|",
+                "",
+                "",
+                [
+                    "LINE_3746369"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3746369",
+                "LINE_3364659",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3746369|",
+                "",
+                "",
+                [
+                    "LINE_7345036",
+                    "LINE_2806969",
+                    "LINE_9534978"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7345036",
+                "LINE_3746369",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_7345036|",
+                "",
+                "BK: removed the \"to the guy you replaced\" because I don't think the player knows this other person was a guy",
+                [
+                    "LINE_5960117"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5960117",
+                "LINE_7345036",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_5960117|",
+                "",
+                "",
+                [
+                    "LINE_2806969",
+                    "LINE_9534978"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9190594",
+                "LINE_2806969",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_9190594|",
+                "",
+                "",
+                [
+                    "LINE_8501132",
+                    "LINE_6665650",
+                    "LINE_6004163"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6665650",
+                "LINE_9190594",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_6665650|",
+                "",
+                "",
+                [
+                    "LINE_7415846"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8501132",
+                "LINE_9190594",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8501132|",
+                "",
+                "",
+                [
+                    "LINE_9004016",
+                    "LINE_6863729",
+                    "LINE_6905335"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6863729",
+                "LINE_8501132",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_6863729|",
+                "",
+                "BK: shortened sentence",
+                [
+                    "LINE_7668897"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "cha",
+                                    "StatActor": "<player>",
+                                    "StatValue": 19,
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9004016",
+                "LINE_8501132",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_9004016|",
+                "",
+                "",
+                [
+                    "LINE_7668897"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "CH2_BT_Give50Gold",
+                                    "FlagState": "true",
+                                    "Quest": "Ch2_LG_SQ_BardsTale",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6905335",
+                "LINE_8501132",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_6905335|",
+                "",
+                "",
+                [
+                    "LINE_7668897"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7668897",
+                "LINE_9004016",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_7668897|",
+                "",
+                "BK: dropped the second \"in there\" for \"in\"",
+                [
+                    "LINE_8339067",
+                    "LINE_5854146",
+                    "LINE_1259031"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6004163",
+                "LINE_9190594",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_6004163|",
+                "",
+                "",
+                [
+                    "LINE_1830664"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1259031",
+                "LINE_7668897",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_1259031|",
+                "",
+                "",
+                [
+                    "LINE_4737084"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5854146",
+                "LINE_7668897",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_5854146|",
+                "",
+                "",
+                [
+                    "LINE_1562349",
+                    "LINE_4367629"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_NEW_KnowAboutAxlerad",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8339067",
+                "LINE_7668897",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8339067|",
+                "",
+                "BK: extra->spare",
+                [
+                    "LINE_6408051"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_OfferedCostumeDeal50",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_OfferedCostumeDeal75",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4737084",
+                "LINE_1259031",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_4737084|",
+                "",
+                "",
+                [
+                    "LINE_1689263"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1562349",
+                "LINE_5854146",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_1562349|",
+                "",
+                "BK:dropped the \"little\" / BK: replaced alternative entrance with \"back entrance\" sounded better to me.",
+                [
+                    "LINE_2778889"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_NEW_KnowAboutAxlerad",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_CompletedBaritoneQuest",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2778889",
+                "LINE_1562349",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_2778889|",
+                "",
+                "BK: \"starting to get\" -> \"getting\"",
+                [
+                    "LINE_1363559",
+                    "LINE_0941381",
+                    "LINE_8339067",
+                    "LINE_4835802"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_FindBaritones",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1363559",
+                "LINE_2778889",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_1363559|",
+                "",
+                "",
+                [
+                    "LINE_0165123"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_FoundBaritoneCorpses",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0941381",
+                "LINE_2778889",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_0941381|",
+                "",
+                "",
+                [
+                    "LINE_3164246"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_FoundBaritoneCorpses",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3164246",
+                "LINE_0941381",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3164246|",
+                "",
+                "BK:  trimmed",
+                [
+                    "LINE_8303503",
+                    "LINE_9631274"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8303503",
+                "LINE_3164246",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8303503|",
+                "",
+                "",
+                [
+                    "LINE_7651420"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_LootedBaritoneCorpses",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9631274",
+                "LINE_3164246",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_9631274|",
+                "",
+                "",
+                [
+                    "LINE_3592983"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7651420",
+                "LINE_8303503",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_7651420|",
+                "",
+                "BK: Way too many uses of the word LUTE",
+                [
+                    "LINE_1689263",
+                    "LINE_6257632"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_CompletedBaritoneQuest",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:Ch3_BaritonesLute"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3592983",
+                "LINE_9631274",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3592983|",
+                "",
+                "BK: completely rewrote this to focus on the lute",
+                [
+                    "LINE_1689263",
+                    "LINE_6257632"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1689263",
+                "LINE_7651420",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_1689263|",
+                "",
+                "",
+                [
+                    "LINE_8277175",
+                    "LINE_8339067"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_HasChestKey",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8277175",
+                "LINE_1689263",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8277175|",
+                "",
+                "",
+                [
+                    "LINE_4672497"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4672497",
+                "LINE_8277175",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_4672497|",
+                "",
+                "",
+                [
+                    "LINE_0846456",
+                    "LINE_8339067",
+                    "LINE_4835802"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0165123",
+                "LINE_1363559",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_0165123|",
+                "",
+                "BK: dropped \"over it\"",
+                [
+                    "LINE_8339067",
+                    "LINE_9897314",
+                    "LINE_4835802"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6408051",
+                "LINE_8339067",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_6408051|",
+                "",
+                "",
+                [
+                    "LINE_3032741"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3032741",
+                "LINE_6408051",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3032741|",
+                "",
+                "BK: I think it was implied that the troupe owns the costumes. Cut.",
+                [
+                    "LINE_5536597",
+                    "LINE_6866725",
+                    "LINE_4374481"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5536597",
+                "LINE_3032741",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_5536597|",
+                "",
+                "BK: edited     JW: changed this 5/26/15  - felt like we needed reinforce the fact that the player knows hindryx",
+                [
+                    "LINE_3951447"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "CH2_BT_Give50Gold",
+                                    "FlagState": "true",
+                                    "Quest": "Ch2_LG_SQ_BardsTale",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7806586",
+                "LINE_4374481",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_7806586|",
+                "",
+                "",
+                [
+                    "LINE_2564941",
+                    "LINE_1457974"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4861171",
+                "LINE_4374481",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_4861171|",
+                "",
+                "BK: made big tweaks here, original line felt \"too modern\"  JAW: Recommend removing this line",
+                [
+                    "LINE_2564941",
+                    "LINE_1457974"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Gender": "Female",
+                                    "GenderAction": 0,
+                                    "GenderActor": "<player>",
+                                    "Type": "Gender"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "ALWAYS_TRUE",
+                                    "FlagState": "false",
+                                    "Quest": "UtilityQuestFlags",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4374481",
+                "LINE_3032741",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_4374481|",
+                "",
+                "BK we seem to be talking about a singular \"sigil\" now so replaced \"THEM\" with \"IT\"",
+                [
+                    "LINE_7806586",
+                    "LINE_4808779",
+                    "LINE_8478740",
+                    "LINE_4861171"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_OfferedCostumeDeal75",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8478740",
+                "LINE_4374481",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8478740|",
+                "",
+                "",
+                [
+                    "LINE_1338817"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2564941",
+                "LINE_7806586",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_2564941|",
+                "",
+                "",
+                [
+                    "LINE_8582799",
+                    "LINE_8478740"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_OfferedCostumeDeal50",
+                        "FlagState": "Set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "cha",
+                                    "StatActor": "<player>",
+                                    "StatValue": 17,
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1457974",
+                "LINE_7806586",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_1457974|",
+                "",
+                "JAW: updated 5/26/15 ",
+                [
+                    "LINE_4808779",
+                    "LINE_8478740"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8582799",
+                "LINE_2564941",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8582799|",
+                "",
+                "",
+                [
+                    "LINE_3529935"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "RemoveGold 500",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "G": 500,
+                                    "Type": "MinGold"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4808779",
+                "LINE_4374481",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_4808779|",
+                "",
+                "",
+                [
+                    "LINE_3529935"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "RemoveGold 1000",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [
+                    {
+                        "item": {
+                            "G": 1000,
+                            "Type": "MinGold"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1338817",
+                "LINE_8478740",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_1338817|",
+                "",
+                "BK dropped \"suit yourself\" seemed a bit \"defensive\" for what I take to be this character's personality.",
+                [
+                    "LINE_7032357"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7032357",
+                "LINE_1338817",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_BID_SpokeWithMusicianOnce",
+                        "FlagState": "set",
+                        "Quest": "C3.05_Breaking_Into_Dawn"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3529935",
+                "LINE_8582799",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3529935|",
+                "",
+                "BK-E",
+                [
+                    "LINE_9091946"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9091946",
+                "LINE_3529935",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_9091946|",
+                "",
+                "JAW: Changing 'show it to the'  to 'GIVE it to the' as we are doing an item removal pass.  ",
+                [
+                    "LINE_8060609"
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:Ch3_MusicianSigil"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6866725",
+                "LINE_3032741",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_6866725|",
+                "",
+                "",
+                [
+                    "LINE_9091946"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_LootedBaritoneCorpses",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_FindBaritones",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7415846",
+                "LINE_6665650",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_7415846|",
+                "",
+                "",
+                [
+                    "LINE_7668897"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1830664",
+                "LINE_6004163",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_1830664|",
+                "",
+                "",
+                [
+                    "LINE_7668897"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4367629",
+                "LINE_5854146",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_4367629|",
+                "",
+                "BK: tweaked second sentence for variety",
+                [
+                    "LINE_8339067",
+                    "LINE_4835802"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_CompletedBaritoneQuest",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6257632",
+                "LINE_7651420",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_6257632|",
+                "",
+                "",
+                [
+                    "LINE_3343576"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3343576",
+                "LINE_6257632",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4835802",
+                "LINE_0165123",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_4835802|",
+                "",
+                "",
+                [
+                    "LINE_3479066"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3479066",
+                "LINE_4835802",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3479066|",
+                "",
+                "",
+                [
+                    "LINE_4233368"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4233368",
+                "LINE_3479066",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6314182",
+                "LINE_8060609",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "GENERATE_SAVE",
+                        "FlagState": "Set",
+                        "Quest": "UtilityQuestFlags"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8060609",
+                "LINE_9091946",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8060609|",
+                "",
+                "",
+                [
+                    "LINE_6314182"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3273160",
+                "LINE_9595803",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3273160|",
+                "",
+                "Set this up so you can only haggle once (can't spam and try to get the 500 deal)",
+                [
+                    "LINE_8327455"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_OfferedCostumeDeal50",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_OfferedCostumeDeal75",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8327455",
+                "LINE_3273160",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8327455|",
+                "",
+                "",
+                [
+                    "LINE_4795821",
+                    "LINE_5959917"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4795821",
+                "LINE_8327455",
+                "HENDRIX",
+                "",
+                "",
+                "",
+                [
+                    "LINE_4808779",
+                    "LINE_8478740",
+                    "LINE_4835802"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_OfferedCostumeDeal50",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_OfferedCostumeDeal75",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5959917",
+                "LINE_8327455",
+                "HENDRIX",
+                "",
+                "",
+                "",
+                [
+                    "LINE_8582799",
+                    "LINE_8478740",
+                    "LINE_4835802"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_OfferedCostumeDeal50",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0846456",
+                "LINE_4672497",
+                "<PLAYER>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_0846456|",
+                "",
+                "",
+                [
+                    "LINE_3032741"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3951447",
+                "LINE_5536597",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_3951447|",
+                "",
+                "JAW: Added 5/27/15 (getting the hats just for fun, not critical)",
+                [
+                    "LINE_2963150"
+                ],
+                [],
+                [],
+                [],
+                [
+                    "Misc:Ch3_MusicianTrunkKey"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2963150",
+                "LINE_3951447",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_2963150|",
+                "",
+                "",
+                [
+                    "LINE_0163583"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0163583",
+                "LINE_2963150",
+                "HENDRIX",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_0163583|",
+                "",
+                "",
+                [
+                    "LINE_9091946"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "True",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch3_ChapterhouseForest_Musicians",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_2222669",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_7490857",
+                    "LINE_2282839",
+                    "LINE_2874251",
+                    "LINE_0545781",
+                    "LINE_7882606"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_NEW_HasSigil",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3570258",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_0249816",
+                    "LINE_5680177",
+                    "LINE_8922236",
+                    "LINE_8296273",
+                    "LINE_0086948"
+                ],
+                [],
+                [
+                    {
+                        "connection": "OR",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_NEW_CHStagingFoughtAsMusicians",
+                                    "FlagState": "true",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C3_BID_NEW_HasSigil",
+                                    "FlagState": "false",
+                                    "Quest": "C3.05_Breaking_Into_Dawn",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7490857",
+                "LINE_2222669",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_7490857|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Pct": 20,
+                                    "Type": "Random"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2282839",
+                "LINE_2222669",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_2282839|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Pct": 40,
+                                    "Type": "Random"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2874251",
+                "LINE_2222669",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_2874251|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Pct": 60,
+                                    "Type": "Random"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0545781",
+                "LINE_2222669",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_0545781|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Pct": 80,
+                                    "Type": "Random"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7882606",
+                "LINE_2222669",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_7882606|",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0249816",
+                "LINE_3570258",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_0249816|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Pct": 20,
+                                    "Type": "Random"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5680177",
+                "LINE_3570258",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_5680177|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Pct": 40,
+                                    "Type": "Random"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8922236",
+                "LINE_3570258",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8922236|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Pct": 60,
+                                    "Type": "Random"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8296273",
+                "LINE_3570258",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_8296273|",
+                "",
+                "",
+                [],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Pct": 80,
+                                    "Type": "Random"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0086948",
+                "LINE_3570258",
+                "<DEFAULT>",
+                "|Ch3_ChapterhouseForest_Hendrix_LINE_0086948|",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                false,
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

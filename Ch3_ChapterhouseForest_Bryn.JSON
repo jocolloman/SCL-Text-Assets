@@ -406,4 +406,412 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch3_ChapterhouseForest_Bryn",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3605009",
+                "<ROOT>",
+                "JARHILD",
+                "|Ch3_ChapterhouseForest_Bryn_LINE_3605009|",
+                "",
+                "",
+                [
+                    "LINE_8961736"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8961736",
+                "LINE_3605009",
+                "BRYN",
+                "|Ch3_ChapterhouseForest_Bryn_LINE_8961736|",
+                "",
+                "BK: dropped the \"just need\"",
+                [
+                    "LINE_5751330"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5751330",
+                "LINE_8961736",
+                "ILLYDIA",
+                "|Ch3_ChapterhouseForest_Bryn_LINE_5751330|",
+                "",
+                "",
+                [
+                    "LINE_8481426"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8481426",
+                "LINE_5751330",
+                "LARETHAR",
+                "|Ch3_ChapterhouseForest_Bryn_LINE_8481426|",
+                "",
+                "BK: \"removed \"count our blessing to be alive\"",
+                [
+                    "LINE_4218904"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4218904",
+                "LINE_8481426",
+                "ILLYDIA",
+                "|Ch3_ChapterhouseForest_Bryn_LINE_4218904|",
+                "",
+                "BK: rephrased may be harming innocents AND replaced \"this issue\" with \"them\"",
+                [
+                    "LINE_6116077",
+                    "LINE_6689714"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6116077",
+                "LINE_4218904",
+                "JARHILD",
+                "|Ch3_ChapterhouseForest_Bryn_LINE_6116077|",
+                "",
+                "",
+                [
+                    "LINE_6689714"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6689714",
+                "LINE_6116077",
+                "LARETHAR",
+                "|Ch3_ChapterhouseForest_Bryn_LINE_6689714|",
+                "",
+                "",
+                [
+                    "LINE_9598442"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5811911",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_8961736"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9598442",
+                "LINE_6689714",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": false,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "UnlockCompanion",
+                        "SpeakerTag": "BRYN"
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "JoinActiveParty",
+                        "SpeakerTag": "BRYN"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": true,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CD_EscapeDawn",
+                        "FlagState": "set",
+                        "Quest": "C3.1_Chasing_Dawn"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C3_CBL_Start",
+                        "FlagState": "set",
+                        "Quest": "C3.2_Chaos_Breaks_Loose"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                false,
+                false,
+                false
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

@@ -2362,4 +2362,2368 @@
             }
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "DUEKING"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "True",
+                "Name": "Ch4_DuergarStronghold_KingRPE",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8340355",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "(Potential) Third convo with king - after vault",
+                [
+                    "LINE_5396679"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_PM_OpenTheVault",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C4_PM_VaultLeverOne",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8852578",
+                "LINE_6387394",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_8852578|",
+                "",
+                "",
+                [
+                    "LINE_9062488"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "KingRestored",
+                                    "FlagState": "false",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9062488",
+                "LINE_8852578",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6387394",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "(Potential) Second convo with king - before vault",
+                [
+                    "LINE_8852578"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_PM_OpenTheVault",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C4_PM_VaultLeverOne",
+                                    "FlagState": "false",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0234397",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "First convo w/ king\n",
+                [
+                    "LINE_0328460"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_PM_SpeakWithTheKing",
+                                    "FlagState": "false",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0328460",
+                "LINE_0234397",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0328460|",
+                "",
+                "JAY!  3/3  - Options for solving this RPE:     King pulls the statue arm for you/animate arm (CHA check,)   Player finds the arm w/ Wisdom (Dex check to see if he sees you.)     -  Either can Cure his madness (gives you a cool ring,)  -OR-  Take his Crown (DEX) (king calls guards.)",
+                [
+                    "LINE_5209406"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5209406",
+                "LINE_0328460",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_5209406|",
+                "",
+                "",
+                [
+                    "LINE_3798025",
+                    "LINE_7246756",
+                    "LINE_4221673"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3798025",
+                "LINE_5209406",
+                "<PLAYER>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_3798025|",
+                "",
+                "",
+                [
+                    "LINE_6263519"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3008956",
+                "LINE_6263519",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_3008956|",
+                "",
+                "",
+                [
+                    "LINE_3162231",
+                    "LINE_2954873",
+                    "LINE_4305739",
+                    "LINE_9436271",
+                    "LINE_3544447",
+                    "LINE_1439180",
+                    "LINE_3479419",
+                    "LINE_0905030"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3162231",
+                "LINE_3008956",
+                "LARETHAR",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_3162231|",
+                "",
+                "",
+                [
+                    "LINE_6579144"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2954873",
+                "LINE_3008956",
+                "JARHILD",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_2954873|",
+                "",
+                "",
+                [
+                    "LINE_6579144"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4305739",
+                "LINE_3008956",
+                "HOMMET",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_4305739|",
+                "",
+                "",
+                [
+                    "LINE_6579144"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0905030",
+                "LINE_3008956",
+                "ILLYDIA",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0905030|",
+                "",
+                "",
+                [
+                    "LINE_6579144"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6579144",
+                "LINE_3162231",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_6579144|",
+                "",
+                "",
+                [
+                    "LINE_0463492"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0463492",
+                "LINE_6579144",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0463492|",
+                "",
+                "",
+                [
+                    "LINE_2330451",
+                    "LINE_4626320",
+                    "LINE_2465121",
+                    "LINE_0612868"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2330451",
+                "LINE_0463492",
+                "<PLAYER>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_2330451|",
+                "",
+                "",
+                [
+                    "LINE_7130284",
+                    "LINE_0414122"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "CharismaAttempt",
+                                    "FlagState": "false",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7130284",
+                "LINE_2330451",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_7130284|",
+                "",
+                "",
+                [
+                    "LINE_5878106",
+                    "LINE_2693040",
+                    "LINE_2574998",
+                    "LINE_7207606",
+                    "LINE_5670317",
+                    "LINE_9512955",
+                    "LINE_9975393",
+                    "LINE_1687116",
+                    "LINE_2157575"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "CharismaAttempt",
+                        "FlagState": "Set",
+                        "Quest": "C4.2_Prison_For_The_Mind"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "cha",
+                                    "StatActor": "<player>",
+                                    "StatValue": 19,
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5878106",
+                "LINE_7130284",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_5878106|",
+                "",
+                "VAULT COMBO: 111",
+                [
+                    "LINE_9105701"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_VaultSwitch_111",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2693040",
+                "LINE_7130284",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_2693040|",
+                "",
+                "VAULT COMBO: 110",
+                [
+                    "LINE_9105701"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_VaultSwitch_110",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2574998",
+                "LINE_7130284",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_2574998|",
+                "",
+                "VAULT COMBO: 101",
+                [
+                    "LINE_9105701"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_VaultSwitch_101",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7207606",
+                "LINE_7130284",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_7207606|",
+                "",
+                "VAULT COMBO: 100",
+                [
+                    "LINE_9105701"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_VaultSwitch_100",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5670317",
+                "LINE_7130284",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_5670317|",
+                "",
+                "VAULT COMBO: 011",
+                [
+                    "LINE_9105701"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_VaultSwitch_011",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9512955",
+                "LINE_7130284",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_9512955|",
+                "",
+                "VAULT COMBO: 010",
+                [
+                    "LINE_9105701"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_VaultSwitch_010",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9975393",
+                "LINE_7130284",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_9975393|",
+                "",
+                "VAULT COMBO: 001",
+                [
+                    "LINE_9105701"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_VaultSwitch_001",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1687116",
+                "LINE_7130284",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_1687116|",
+                "",
+                "VAULT COMBO:  000",
+                [
+                    "LINE_9105701"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_VaultSwitch_000",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9105701",
+                "LINE_5878106",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_9105701|",
+                "",
+                "",
+                [
+                    "LINE_1084796"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2157575",
+                "LINE_7130284",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_2157575|",
+                "",
+                "If this line plays, the puzzle, and therefore the game, is broken...",
+                [
+                    "LINE_9105701"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0414122",
+                "LINE_2330451",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0414122|",
+                "",
+                "",
+                [
+                    "LINE_4626320",
+                    "LINE_2465121",
+                    "LINE_0612868"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "CharismaAttempt",
+                        "FlagState": "Set",
+                        "Quest": "C4.2_Prison_For_The_Mind"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4626320",
+                "LINE_0463492",
+                "<PLAYER>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_4626320|",
+                "",
+                "We need a case here for a SCROLL as well as the ABILITY   -  also particle effects and stuff",
+                [
+                    "LINE_4775990",
+                    "LINE_0471788",
+                    "LINE_5365079"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5365079",
+                "LINE_4626320",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_5365079|",
+                "",
+                "The king wouldn't let us in to steal his shit if he wasn't flayed...",
+                [
+                    "LINE_0612868",
+                    "LINE_2465121",
+                    "LINE_2330451"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2465121",
+                "LINE_0463492",
+                "<PLAYER>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_2465121|",
+                "",
+                "",
+                [
+                    "LINE_1023070"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1023070",
+                "LINE_2465121",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_1023070|",
+                "",
+                "",
+                [
+                    "LINE_2330451",
+                    "LINE_4626320",
+                    "LINE_0612868"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0612868",
+                "LINE_0463492",
+                "<PLAYER>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0612868|",
+                "",
+                "",
+                [
+                    "LINE_0528325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0528325",
+                "LINE_0612868",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0528325|",
+                "",
+                "",
+                [
+                    "LINE_0996849"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0996849",
+                "LINE_0528325",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0996849|",
+                "",
+                "",
+                [
+                    "LINE_0486141"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0486141",
+                "LINE_0996849",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0486141|",
+                "",
+                "USING THIS LINE AS A GATE",
+                [
+                    "LINE_3131921",
+                    "LINE_0593517"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3131921",
+                "LINE_0486141",
+                "<PLAYER>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_3131921|",
+                "",
+                "",
+                [
+                    "LINE_2796912"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0593517",
+                "LINE_0486141",
+                "<PLAYER>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0593517|",
+                "",
+                "",
+                [
+                    "LINE_1976209"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1976209",
+                "LINE_0593517",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_1976209|",
+                "",
+                "",
+                [
+                    "LINE_2796912"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2796912",
+                "LINE_1976209",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_2796912|",
+                "",
+                "BK: level -> lever ? Editing crazy people iz hard",
+                [
+                    "LINE_1047310"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1047310",
+                "LINE_2796912",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_1047310|",
+                "",
+                "",
+                [
+                    "LINE_4002890"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4002890",
+                "LINE_1047310",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_4002890|",
+                "",
+                "",
+                [
+                    "LINE_7005934"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7005934",
+                "LINE_4002890",
+                "<DEFAULT>",
+                "",
+                "",
+                "THIS IS THE LINE THAT COMPLETES THE QUEST and OPENS THE DOOR!",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C4_PM_OpenTheVault",
+                        "FlagState": "Set",
+                        "Quest": "C4.2_Prison_For_The_Mind"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C4_PM_SpeakWithTheKing",
+                        "FlagState": "Set",
+                        "Quest": "C4.2_Prison_For_The_Mind"
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "C4_PM_GateA",
+                        "FlagState": "Set",
+                        "Quest": "C4.2_Prison_For_The_Mind"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9436271",
+                "LINE_3008956",
+                "JAVEN",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_9436271|",
+                "",
+                "",
+                [
+                    "LINE_6579144"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JAVEN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3544447",
+                "LINE_3008956",
+                "DALANIR",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_3544447|",
+                "",
+                "",
+                [
+                    "LINE_6579144"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1439180",
+                "LINE_3008956",
+                "IZHKIN",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_1439180|",
+                "",
+                "",
+                [
+                    "LINE_6579144"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "IZHKIN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3479419",
+                "LINE_3008956",
+                "BRYN",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_3479419|",
+                "",
+                "",
+                [
+                    "LINE_6579144"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7246756",
+                "LINE_5209406",
+                "<PLAYER>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_7246756|",
+                "",
+                "",
+                [
+                    "LINE_1154190",
+                    "LINE_5417938",
+                    "LINE_0085473",
+                    "LINE_7896318",
+                    "LINE_3937269",
+                    "LINE_9525200",
+                    "LINE_1370423",
+                    "LINE_0648579",
+                    "LINE_0269090"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1154190",
+                "LINE_7246756",
+                "IZHKIN",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_1154190|",
+                "",
+                "",
+                [
+                    "LINE_0269090"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "IZHKIN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5417938",
+                "LINE_7246756",
+                "ILLYDIA",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_5417938|",
+                "",
+                "",
+                [
+                    "LINE_0269090"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0085473",
+                "LINE_7246756",
+                "LARETHAR",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0085473|",
+                "",
+                "",
+                [
+                    "LINE_0269090"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "LARETHAR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7896318",
+                "LINE_7246756",
+                "JARHILD",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_7896318|",
+                "",
+                "",
+                [
+                    "LINE_0269090"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JARHILD_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3937269",
+                "LINE_7246756",
+                "BRYN",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_3937269|",
+                "",
+                "",
+                [
+                    "LINE_0269090"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "BRYN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9525200",
+                "LINE_7246756",
+                "DALANIR",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_9525200|",
+                "",
+                "",
+                [
+                    "LINE_0269090"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "DALANIR_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1370423",
+                "LINE_7246756",
+                "HOMMET",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_1370423|",
+                "",
+                "",
+                [
+                    "LINE_0269090"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "HOMMET_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0648579",
+                "LINE_7246756",
+                "JAVEN",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0648579|",
+                "",
+                "",
+                [
+                    "LINE_0269090"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JAVEN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0269090",
+                "LINE_1154190",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0269090|",
+                "",
+                "",
+                [
+                    "LINE_0463492"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4221673",
+                "LINE_5209406",
+                "<PLAYER>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_4221673|",
+                "",
+                "",
+                [
+                    "LINE_4927589"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4927589",
+                "LINE_4221673",
+                "<DEFAULT>",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_4927589|",
+                "",
+                "",
+                [
+                    "LINE_0463492"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5396679",
+                "LINE_8340355",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_5396679|",
+                "",
+                "https://jira.n-space.com:8101/browse/HOTU-21430 to make flows match flown",
+                [
+                    "LINE_3485836"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3485836",
+                "LINE_5396679",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4775990",
+                "LINE_4626320",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_0681884"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "ILLYDIA_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0471788",
+                "LINE_4626320",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_5069284"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "JAVEN_IN_PARTY",
+                                    "FlagState": "true",
+                                    "Quest": "CurrentParty",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0681884",
+                "LINE_4775990",
+                "ILLYDIA",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_0681884|",
+                "",
+                "",
+                [
+                    "LINE_2330451",
+                    "LINE_2465121",
+                    "LINE_0612868"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5069284",
+                "LINE_0471788",
+                "JAVEN",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_5069284|",
+                "",
+                "",
+                [
+                    "LINE_2330451",
+                    "LINE_2465121",
+                    "LINE_0612868"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1084796",
+                "LINE_9105701",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_1084796|",
+                "",
+                "",
+                [
+                    "LINE_2796912"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6263519",
+                "LINE_3798025",
+                "DUEKING",
+                "|Ch4_DuergarStronghold_KingRPE_LINE_6263519|",
+                "",
+                "",
+                [
+                    "LINE_3008956"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "CONV_2054",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            }
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "CONV_9597",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            }
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "CONV_6465",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            }
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

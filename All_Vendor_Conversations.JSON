@@ -2680,4 +2680,2686 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "DARBY"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "CrazyJunkVendor",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_1153763",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_1153763|",
+                "",
+                "",
+                [
+                    "LINE_3216782",
+                    "LINE_7898983",
+                    "LINE_3406464",
+                    "LINE_8183901",
+                    "LINE_5511199"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3406464",
+                "LINE_1153763",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_3406464|",
+                "",
+                "",
+                [
+                    "LINE_7158199"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7158199",
+                "LINE_3406464",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_7158199|",
+                "",
+                "",
+                [
+                    "LINE_7898983",
+                    "LINE_0184175"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7898983",
+                "LINE_1153763",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_7898983|",
+                "",
+                "",
+                [
+                    "LINE_3149321"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0184175",
+                "LINE_7158199",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_0184175|",
+                "",
+                "",
+                [
+                    "LINE_5319182"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3149321",
+                "LINE_7898983",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "",
+                        "FlagState": "",
+                        "Quest": ""
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8183901",
+                "LINE_1153763",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_8183901|",
+                "",
+                "",
+                [
+                    "LINE_4738804"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4738804",
+                "LINE_8183901",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_4738804|",
+                "",
+                "",
+                [
+                    "LINE_5027258",
+                    "LINE_4812923",
+                    "LINE_7898983",
+                    "LINE_0184175"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Ch2_DeadRats_LeaderKnown",
+                        "FlagState": "Set",
+                        "Quest": "Ch2_SQ_DeadRats"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5027258",
+                "LINE_4738804",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_5027258|",
+                "",
+                "",
+                [
+                    "LINE_3131331"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4812923",
+                "LINE_4738804",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_4812923|",
+                "",
+                "",
+                [
+                    "LINE_7377641"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5511199",
+                "LINE_1153763",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_5511199|",
+                "",
+                "",
+                [
+                    "LINE_5319182"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5319182",
+                "LINE_5511199",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_5319182|",
+                "",
+                "",
+                [
+                    "LINE_5065344"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5065344",
+                "LINE_5319182",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3131331",
+                "LINE_5027258",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_3131331|",
+                "",
+                "",
+                [
+                    "LINE_4127507"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4127507",
+                "LINE_3131331",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_4127507|",
+                "",
+                "",
+                [
+                    "LINE_8642608",
+                    "LINE_4812923",
+                    "LINE_7898983",
+                    "LINE_0184175"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8642608",
+                "LINE_4127507",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_8642608|",
+                "",
+                "",
+                [
+                    "LINE_3455360"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3455360",
+                "LINE_8642608",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_3455360|",
+                "",
+                "",
+                [
+                    "LINE_7898983",
+                    "LINE_0184175"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7377641",
+                "LINE_4812923",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_7377641|",
+                "",
+                "",
+                [
+                    "LINE_8642608",
+                    "LINE_5027258",
+                    "LINE_7898983",
+                    "LINE_0184175"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3216782",
+                "LINE_1153763",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_3216782|",
+                "",
+                "",
+                [
+                    "LINE_0711399"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "SkullInInventory",
+                                    "FlagState": "true",
+                                    "Quest": "PureIrony_SQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0711399",
+                "LINE_3216782",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_0711399|",
+                "",
+                "",
+                [
+                    "LINE_4140396"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4140396",
+                "LINE_0711399",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_4140396|",
+                "",
+                "",
+                [
+                    "LINE_4988795"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4988795",
+                "LINE_4140396",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_4988795|",
+                "",
+                "",
+                [
+                    "LINE_0445293"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0445293",
+                "LINE_4988795",
+                "SKULL",
+                "|All_Vendor_Conversations_LINE_0445293|",
+                "",
+                "",
+                [
+                    "LINE_7810791"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7810791",
+                "LINE_0445293",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_7810791|",
+                "",
+                "BK buddy->friend (buddy seems modern)",
+                [
+                    "LINE_2742102"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2742102",
+                "LINE_7810791",
+                "SKULL",
+                "|All_Vendor_Conversations_LINE_2742102|",
+                "",
+                "",
+                [
+                    "LINE_1594178"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1594178",
+                "LINE_2742102",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_1594178|",
+                "",
+                "",
+                [
+                    "LINE_3591496"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3591496",
+                "LINE_1594178",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_3591496|",
+                "",
+                "",
+                [
+                    "LINE_6025704"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6025704",
+                "LINE_3591496",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_6025704|",
+                "",
+                "",
+                [
+                    "LINE_0419526"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0419526",
+                "LINE_6025704",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_0419526|",
+                "",
+                "",
+                [
+                    "LINE_9218877",
+                    "LINE_5964434",
+                    "LINE_8225964",
+                    "LINE_5511199"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5964434",
+                "LINE_0419526",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_5964434|",
+                "",
+                "",
+                [
+                    "LINE_1981718"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9218877",
+                "LINE_0419526",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_9218877|",
+                "",
+                "",
+                [
+                    "LINE_2750178"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8225964",
+                "LINE_0419526",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_8225964|",
+                "",
+                "BK spelling mistakes",
+                [
+                    "LINE_0599232"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0599232",
+                "LINE_8225964",
+                "SKULL",
+                "|All_Vendor_Conversations_LINE_0599232|",
+                "",
+                "",
+                [
+                    "LINE_3265032",
+                    "LINE_6016768"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3265032",
+                "LINE_0599232",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_3265032|",
+                "",
+                "",
+                [
+                    "LINE_5602085"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Stat": "cha",
+                                    "StatActor": "<player>",
+                                    "StatValue": 17,
+                                    "Type": "MinStat"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6016768",
+                "LINE_0599232",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_6016768|",
+                "",
+                "",
+                [
+                    "LINE_0419526"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5602085",
+                "LINE_3265032",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_5602085|",
+                "",
+                "",
+                [
+                    "LINE_3317124",
+                    "LINE_5511199"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1981718",
+                "LINE_5964434",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_1981718|",
+                "",
+                "",
+                [
+                    "LINE_7271559"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7271559",
+                "LINE_1981718",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_7271559|",
+                "",
+                "",
+                [
+                    "LINE_0419526"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2750178",
+                "LINE_9218877",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_2750178|",
+                "",
+                "",
+                [
+                    "LINE_5418880"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 5",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Armor:Unique_LuckyHeadband"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5418880",
+                "LINE_2750178",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_5418880|",
+                "",
+                "",
+                [
+                    "LINE_2923049"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2923049",
+                "LINE_5418880",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_2923049|",
+                "",
+                "",
+                [
+                    "LINE_6125012"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6125012",
+                "LINE_2923049",
+                "SKULL",
+                "|All_Vendor_Conversations_LINE_6125012|",
+                "",
+                "",
+                [
+                    "LINE_8331443"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8331443",
+                "LINE_6125012",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_8331443|",
+                "",
+                "",
+                [
+                    "LINE_2233872"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                    "Misc:PureIrony_SQ_TalkingHead"
+                ],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3317124",
+                "LINE_5602085",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_3317124|",
+                "",
+                "",
+                [
+                    "LINE_4431428"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4431428",
+                "LINE_3317124",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_4431428|",
+                "",
+                "",
+                [
+                    "LINE_5418880"
+                ],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "AddGold 10",
+                        "SpeakerTag": "<PLAYER>"
+                    }
+                ],
+                [],
+                [],
+                [
+                    "Armor:Unique_LuckyHeadband"
+                ],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2233872",
+                "LINE_8331443",
+                "SKULL",
+                "|All_Vendor_Conversations_LINE_2233872|",
+                "",
+                "",
+                [
+                    "LINE_4480399"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "SkullInInventory",
+                        "FlagState": "Clear",
+                        "Quest": "PureIrony_SQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4480399",
+                "LINE_2233872",
+                "<OWNER>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionFade",
+                        "Async": false,
+                        "FadeColor": 0,
+                        "FadeIn": false,
+                        "FadeSeconds": 1.0
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    },
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "HandOverSkullTo_CrazyVendor",
+                        "FlagState": "set",
+                        "Quest": "PureIrony_SQ"
+                    },
+                    {
+                        "Action": "ActionDelay",
+                        "Async": false,
+                        "Seconds": 0.5
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": "RORIK_VENDOR"
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Ch1_Caravan_vendor",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_8046764",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_8046764|",
+                "",
+                "SET: Merchant_AfterBanagar  BK rewrote from \"Very nearly time to go. There's only a limited time if you need anything for the trip to Luskan\"",
+                [
+                    "LINE_8398677",
+                    "LINE_2928121",
+                    "LINE_4930106"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_DecideKnightsFate",
+                                    "FlagState": "true",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "item": {
+                            "Flag": "Merchant_AfterBanagar",
+                            "FlagState": "true",
+                            "Quest": "CH1_SQ_Vendor",
+                            "Type": "Quest"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5610823",
+                "LINE_4366183",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_5610823|",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "",
+                        "FlagState": "",
+                        "Quest": ""
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0628017",
+                "LINE_4366183",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_0628017|",
+                "",
+                "",
+                [
+                    "LINE_5595955"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4177115",
+                "LINE_4366183",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_4177115|",
+                "",
+                "",
+                [
+                    "LINE_0197810"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5595955",
+                "LINE_0628017",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_5595955|",
+                "",
+                "",
+                [
+                    "LINE_8398677",
+                    "LINE_4177115",
+                    "LINE_8608205"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8398677",
+                "LINE_5595955",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_8398677|",
+                "",
+                "",
+                [
+                    "LINE_0578353"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0197810",
+                "LINE_4177115",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_0197810|",
+                "",
+                "BK: coffee -> kaeth",
+                [
+                    "LINE_7112489"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7112489",
+                "LINE_0197810",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_7112489|",
+                "",
+                "",
+                [
+                    "LINE_8398677",
+                    "LINE_6561794",
+                    "LINE_8608205"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6561794",
+                "LINE_7112489",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_6561794|",
+                "",
+                "",
+                [
+                    "LINE_9144630"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9144630",
+                "LINE_6561794",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_9144630|",
+                "",
+                "",
+                [
+                    "LINE_8398677",
+                    "LINE_8608205"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8608205",
+                "LINE_9144630",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_8608205|",
+                "",
+                "",
+                [
+                    "LINE_8749763"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8749763",
+                "LINE_8608205",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_8749763|",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6940733",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_6940733|",
+                "",
+                "SET: Merchant_AfterBanagar  BK edited out a few too many \"yous\"",
+                [
+                    "LINE_8398677",
+                    "LINE_2928121",
+                    "LINE_4930106"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Merchant_AfterBanagar",
+                        "FlagState": "Set",
+                        "Quest": "CH1_SQ_Vendor"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_DecideKnightsFate",
+                                    "FlagState": "true",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "item": {
+                            "Flag": "Merchant_AfterBanagar",
+                            "FlagState": "false",
+                            "Quest": "CH1_SQ_Vendor",
+                            "Type": "Quest"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2591413",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_2591413|",
+                "",
+                "IF: Merchant_AfterAmbush",
+                [
+                    "LINE_8398677",
+                    "LINE_3684139",
+                    "LINE_1580992",
+                    "LINE_1759040"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "item": {
+                            "Flag": "Merchant_AfterAmbush",
+                            "FlagState": "true",
+                            "Quest": "CH1_SQ_Vendor",
+                            "Type": "Quest"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3684139",
+                "LINE_9125431",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_3684139|",
+                "",
+                "",
+                [
+                    "LINE_6151913"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1580992",
+                "LINE_9125431",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_1580992|",
+                "",
+                "",
+                [
+                    "LINE_3064608"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1759040",
+                "LINE_9125431",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_1759040|",
+                "",
+                "",
+                [
+                    "LINE_8452967"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8452967",
+                "LINE_1759040",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_8452967|",
+                "",
+                "",
+                [
+                    "LINE_4202899"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4202899",
+                "LINE_8452967",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6151913",
+                "LINE_3684139",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_6151913|",
+                "",
+                "",
+                [
+                    "LINE_8398677",
+                    "LINE_1580992",
+                    "LINE_1759040",
+                    "LINE_0679742"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3064608",
+                "LINE_1580992",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_3064608|",
+                "",
+                "",
+                [
+                    "LINE_8398677",
+                    "LINE_3684139",
+                    "LINE_1759040"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0679742",
+                "LINE_6151913",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_0679742|",
+                "",
+                "",
+                [
+                    "LINE_7368081"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7368081",
+                "LINE_0679742",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_7368081|",
+                "",
+                "BK rewrote \"But my feelings don't enter into it! I provide an important service. I will make my amends to the gods when I pass from this world.\"",
+                [
+                    "LINE_8398677",
+                    "LINE_1580992",
+                    "LINE_1759040"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9125431",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_9125431|",
+                "",
+                "SET: Merchant_AfterAmbush",
+                [
+                    "LINE_8398677",
+                    "LINE_3684139",
+                    "LINE_1580992",
+                    "LINE_1759040"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Merchant_AfterAmbush",
+                        "FlagState": "Set",
+                        "Quest": "CH1_SQ_Vendor"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "item": {
+                            "Flag": "Merchant_AfterAmbush",
+                            "FlagState": "false",
+                            "Quest": "CH1_SQ_Vendor",
+                            "Type": "Quest"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1280652",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_1280652|",
+                "",
+                "IF: Merchant_BeforeAmbush",
+                [
+                    "LINE_8398677",
+                    "LINE_0628017",
+                    "LINE_4177115",
+                    "LINE_8608205"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_Start",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "item": {
+                            "Flag": "Merchant_BeforeAmbush",
+                            "FlagState": "true",
+                            "Quest": "CH1_SQ_Vendor",
+                            "Type": "Quest"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2928121",
+                "LINE_6940733",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_2928121|",
+                "",
+                "",
+                [
+                    "LINE_6807994"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4930106",
+                "LINE_6940733",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_4930106|",
+                "",
+                "",
+                [
+                    "LINE_8185914"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4366183",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_4366183|",
+                "",
+                "SET: Merchant_BeforeAmbush",
+                [
+                    "LINE_5610823",
+                    "LINE_0628017",
+                    "LINE_4177115",
+                    "LINE_8608205"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Merchant_BeforeAmbush",
+                        "FlagState": "Set",
+                        "Quest": "CH1_SQ_Vendor"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_AT_Start",
+                                    "FlagState": "false",
+                                    "Quest": "C1.2_After_Them",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    },
+                    {
+                        "item": {
+                            "Flag": "Merchant_BeforeAmbush",
+                            "FlagState": "false",
+                            "Quest": "CH1_SQ_Vendor",
+                            "Type": "Quest"
+                        },
+                        "type": "item"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6807994",
+                "LINE_2928121",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_6807994|",
+                "",
+                "",
+                [
+                    "LINE_8398677",
+                    "LINE_4930106"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8185914",
+                "LINE_4930106",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_8185914|",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0578353",
+                "LINE_8398677",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "",
+                        "FlagState": "",
+                        "Quest": ""
+                    },
+                    {
+                        "Action": "ActionCustomScript",
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Duergar Vendors",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_7721621",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_7721621|",
+                "",
+                "",
+                [
+                    "LINE_2520887",
+                    "LINE_5971385"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2520887",
+                "LINE_7721621",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_2520887|",
+                "",
+                "",
+                [
+                    "LINE_9422489"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5971385",
+                "LINE_7721621",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_5971385|",
+                "",
+                "",
+                [
+                    "LINE_5157130"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5157130",
+                "LINE_5971385",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_5157130|",
+                "",
+                "",
+                [
+                    "LINE_3974097"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3974097",
+                "LINE_5157130",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9422489",
+                "LINE_2520887",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ],
+        [
+            {
+                "Defaults": {
+                    "Speaker": ""
+                },
+                "ELock": "False",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "Drow Vendors",
+                "NeedsVO": "False",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoFadeIn": "False",
+                "NoFadeOut": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_3771594",
+                "<ROOT>",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_3771594|",
+                "",
+                "",
+                [
+                    "LINE_1328067",
+                    "LINE_7483150"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1328067",
+                "LINE_3771594",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_1328067|",
+                "",
+                "",
+                [
+                    "LINE_2610190"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7483150",
+                "LINE_3771594",
+                "<PLAYER>",
+                "|All_Vendor_Conversations_LINE_7483150|",
+                "",
+                "",
+                [
+                    "LINE_6570340"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6570340",
+                "LINE_7483150",
+                "<DEFAULT>",
+                "|All_Vendor_Conversations_LINE_6570340|",
+                "",
+                "",
+                [
+                    "LINE_5674456"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5674456",
+                "LINE_6570340",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2610190",
+                "LINE_1328067",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [
+                    {
+                        "Action": "ActionCustomScript",
+                        "Async": false,
+                        "FunctionName": "OpenVendor",
+                        "SpeakerTag": "<OWNER>"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                false,
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

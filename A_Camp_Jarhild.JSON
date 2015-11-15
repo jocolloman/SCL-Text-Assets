@@ -2732,4 +2732,2738 @@
             ]
         ]
     ]
+}{
+    "CONVERSATION GROUP": [
+        [
+            {
+                "Defaults": {
+                    "Speaker": "JARHILD"
+                },
+                "ELock": "True",
+                "EventScripts": {
+                    "OnClose": ""
+                },
+                "IsAmbient": "False",
+                "IsFinal": "False",
+                "IsStoryCritical": "False",
+                "Name": "A_Camp_Jarhild",
+                "NeedsVO": "True",
+                "NoBegFade": "False",
+                "NoEndFade": "False",
+                "NoMusic": "False",
+                "NoPlayerWarp": "False",
+                "NoSendingStone": "False",
+                "ShouldFacePlayer": "False"
+            },
+            [
+                "LINE_6804798",
+                "<ROOT>",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_3823428",
+                    "LINE_0647025",
+                    "LINE_7038462",
+                    "LINE_8415268",
+                    "LINE_5369787"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5369787",
+                "LINE_6804798",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [
+                    "LINE_7167105"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C1_WU_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C1.1_Waking_Up",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7167105",
+                "LINE_5369787",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7167105|",
+                "",
+                "",
+                [
+                    "LINE_9063857",
+                    "LINE_3421970",
+                    "LINE_0675559"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9063857",
+                "LINE_7167105",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_9063857|",
+                "",
+                "",
+                [
+                    "LINE_7148001",
+                    "LINE_6431446",
+                    "LINE_3787254",
+                    "LINE_5344938",
+                    "LINE_1244290"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7148001",
+                "LINE_9063857",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7148001|",
+                "",
+                "",
+                [
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_3_3",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6431446",
+                "LINE_9063857",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_6431446|",
+                "",
+                "",
+                [
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_1_3",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_FindTheCamp",
+                                    "FlagState": "false",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3787254",
+                "LINE_9063857",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_3787254|",
+                "",
+                "",
+                [
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_1_3",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_TC_Start",
+                                    "FlagState": "false",
+                                    "Quest": "C2.15_The_Contact",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5344938",
+                "LINE_9063857",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_5344938|",
+                "",
+                "",
+                [
+                    "LINE_9478729",
+                    "LINE_5697970",
+                    "LINE_0174363",
+                    "LINE_3692289",
+                    "LINE_9154161",
+                    "LINE_7952164",
+                    "LINE_9844581",
+                    "LINE_1986075"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_1_1",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9478729",
+                "LINE_5344938",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9478729|",
+                "",
+                "BK tweaked this line \"I'd been in th' guild fer a few years when Bryn an' Belamy showed up, and then you came along. I don't know if you remember th' time we were hired t' hunt down that owlbear outside o' Triboar.\"",
+                [
+                    "LINE_9304591",
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_BG_3_3",
+                        "FlagState": "set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_3_2",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9304591",
+                "LINE_9478729",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9304591|",
+                "",
+                "",
+                [
+                    "LINE_1245198"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1245198",
+                "LINE_9304591",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_1245198|",
+                "",
+                "",
+                [
+                    "LINE_8139915"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8139915",
+                "LINE_1245198",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_8139915|",
+                "",
+                "",
+                [
+                    "LINE_3988143",
+                    "LINE_0564644"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5697970",
+                "LINE_5344938",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_5697970|",
+                "",
+                "",
+                [
+                    "LINE_5771281"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_BG_3_2",
+                        "FlagState": "set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_3_1",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5771281",
+                "LINE_5697970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_5771281|",
+                "",
+                "",
+                [
+                    "LINE_6471609",
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6471609",
+                "LINE_5771281",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_6471609|",
+                "",
+                "",
+                [
+                    "LINE_4360818"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0174363",
+                "LINE_5344938",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_0174363|",
+                "",
+                "",
+                [
+                    "LINE_4256968"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_BG_3_1",
+                        "FlagState": "set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_2_3",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_FindTheCamp",
+                                    "FlagState": "true",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6585161",
+                "LINE_4256968",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_6585161|",
+                "",
+                "",
+                [
+                    "LINE_5697970"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3692289",
+                "LINE_5344938",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_3692289|",
+                "",
+                "bK cut \"like a warrior, \" and tweaked end of sentence",
+                [
+                    "LINE_9948380"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_BG_2_3",
+                        "FlagState": "set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_2_2",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9948380",
+                "LINE_3692289",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9948380|",
+                "",
+                "",
+                [
+                    "LINE_9040226"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9040226",
+                "LINE_9948380",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9040226|",
+                "",
+                "",
+                [
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9154161",
+                "LINE_5344938",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9154161|",
+                "",
+                "",
+                [
+                    "LINE_4361691"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_BG_2_2",
+                        "FlagState": "set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_2_1",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2376385",
+                "LINE_4361691",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_2376385|",
+                "",
+                "",
+                [
+                    "LINE_7885532"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7952164",
+                "LINE_5344938",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7952164|",
+                "",
+                "",
+                [
+                    "LINE_2102057"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_BG_2_1",
+                        "FlagState": "set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_1_3",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_TC_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.15_The_Contact",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2102057",
+                "LINE_7952164",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_2102057|",
+                "",
+                "",
+                [
+                    "LINE_1150920",
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1150920",
+                "LINE_2102057",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_1150920|",
+                "",
+                "",
+                [
+                    "LINE_9154161"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9844581",
+                "LINE_5344938",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9844581|",
+                "",
+                "",
+                [
+                    "LINE_2119313"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_BG_1_3",
+                        "FlagState": "set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_1_2",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2119313",
+                "LINE_9844581",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_2119313|",
+                "",
+                "",
+                [
+                    "LINE_8841210"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8841210",
+                "LINE_2119313",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_8841210|",
+                "",
+                "",
+                [
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1986075",
+                "LINE_5344938",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_1986075|",
+                "",
+                "",
+                [
+                    "LINE_9318007"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_BG_1_2",
+                        "FlagState": "set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_BG_1_1",
+                                    "FlagState": "true",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9807739",
+                "LINE_9318007",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_9807739|",
+                "",
+                "",
+                [
+                    "LINE_9098576"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9098576",
+                "LINE_9807739",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9098576|",
+                "",
+                "",
+                [
+                    "LINE_9844581"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8258389",
+                "LINE_9318007",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_8258389|",
+                "",
+                "",
+                [
+                    "LINE_9767609"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9767609",
+                "LINE_8258389",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9767609|",
+                "",
+                "",
+                [
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1244290",
+                "LINE_9063857",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_1244290|",
+                "",
+                "",
+                [
+                    "LINE_7019904"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_BG_1_1",
+                        "FlagState": "set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7019904",
+                "LINE_1244290",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7019904|",
+                "",
+                "TEXT: Well, me family goes way back, back t' Mithral Hall, if ye believe that. Our family scattered from there after Shimmergloom attacked, an' we returned when King Battlehammer signed th' treaty with the Many-Arrow orcs.\nVO: Me family goes way back, back t' Mithral Hall, if ye believe that. Our family scattered from there after Shimmergloom attacked, an' we returned when King Battlehammer signed th' treaty with the Many-Arrow orcs.\n",
+                [
+                    "LINE_4910736",
+                    "LINE_9315217"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "True",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4910736",
+                "LINE_7019904",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_4910736|",
+                "",
+                "",
+                [
+                    "LINE_1986075"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9315217",
+                "LINE_7019904",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_9315217|",
+                "",
+                "",
+                [
+                    "LINE_4296161"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4296161",
+                "LINE_9315217",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_4296161|",
+                "",
+                "",
+                [
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3421970",
+                "LINE_7167105",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_3421970|",
+                "",
+                "",
+                [
+                    "LINE_7719008",
+                    "LINE_7500705",
+                    "LINE_4881356",
+                    "LINE_9634699",
+                    "LINE_8885903",
+                    "LINE_4831539",
+                    "LINE_1481272",
+                    "LINE_8017571",
+                    "LINE_0737491",
+                    "LINE_5333281",
+                    "LINE_7399968"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7719008",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7719008|",
+                "",
+                "After Bryn betrayal",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_TDW_GetToPortal",
+                                    "FlagState": "true",
+                                    "Quest": "C4.4_The_Demons_Wake",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7500705",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7500705|",
+                "",
+                "After meeting Gorflun",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_PM_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C4.2_Prison_For_The_Mind",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4881356",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_4881356|",
+                "",
+                "After reaching Gracklstugh  BK - is this tactically true in-game?",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_COTGD_TravelToGrack",
+                                    "FlagState": "true",
+                                    "Quest": "C4.1_City_Of_The_Grey_Dwarves",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9634699",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9634699|",
+                "",
+                "After finding Tezzarae's camp",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_SearchForClues",
+                                    "FlagState": "true",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8885903",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_8885903|",
+                "",
+                "After Rhylfang",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4831539",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_4831539|",
+                "",
+                "After the Dalanir Reveal",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_TLOR_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C3.5_The_Lair_Of_Rhylfang",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1481272",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_1481272|",
+                "",
+                "After the Chapterhouse",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_CBL_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C3.2_Chaos_Breaks_Loose",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8017571",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_8017571|",
+                "",
+                "After Maferil",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_TNM_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C3.0_The_Next_Move",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0737491",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_0737491|",
+                "",
+                "After finding Soronil",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_ITDC_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_5333281",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_5333281|",
+                "",
+                "Reached Luskan Gates",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_ANQ_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.1_A_New_Quest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7399968",
+                "LINE_3421970",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7399968|",
+                "",
+                "",
+                [
+                    "LINE_9063857",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4583325",
+                "LINE_7399968",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_4583325|",
+                "",
+                "",
+                [
+                    "LINE_6952447"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0675559",
+                "LINE_7167105",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_0675559|",
+                "",
+                "",
+                [
+                    "LINE_6952447"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6952447",
+                "LINE_0675559",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_6952447|",
+                "",
+                "",
+                [
+                    "LINE_2153220"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_2153220",
+                "LINE_6952447",
+                "<DEFAULT>",
+                "",
+                "",
+                "",
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8415268",
+                "LINE_6804798",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_8415268|",
+                "",
+                "",
+                [
+                    "LINE_9063857",
+                    "LINE_3421970",
+                    "LINE_0675559"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C2_ANQ_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.1_A_New_Quest",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7038462",
+                "LINE_6804798",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7038462|",
+                "",
+                "",
+                [
+                    "LINE_9984091",
+                    "LINE_0275976",
+                    "LINE_3879838"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Talked_About_Dalanir",
+                        "FlagState": "Set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C3_CBL_DyingDrow",
+                                    "FlagState": "true",
+                                    "Quest": "C3.2_Chaos_Breaks_Loose",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "Talked_About_Dalanir",
+                                    "FlagState": "false",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9984091",
+                "LINE_7038462",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_9984091|",
+                "",
+                "",
+                [
+                    "LINE_8126639"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_8126639",
+                "LINE_9984091",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_8126639|",
+                "",
+                "",
+                [
+                    "LINE_3273540"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3273540",
+                "LINE_8126639",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_3273540|",
+                "",
+                "",
+                [
+                    "LINE_9063857",
+                    "LINE_3421970",
+                    "LINE_0675559"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0275976",
+                "LINE_7038462",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_0275976|",
+                "",
+                "",
+                [
+                    "LINE_3141346"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3141346",
+                "LINE_0275976",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_3141346|",
+                "",
+                "",
+                [
+                    "LINE_3273540"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3879838",
+                "LINE_7038462",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_3879838|",
+                "",
+                "BK trimmed player response",
+                [
+                    "LINE_6698908"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_6698908",
+                "LINE_3879838",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_6698908|",
+                "",
+                "",
+                [
+                    "LINE_3273540"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0647025",
+                "LINE_6804798",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_0647025|",
+                "",
+                "",
+                [
+                    "LINE_9063857",
+                    "LINE_3421970",
+                    "LINE_0675559"
+                ],
+                [],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "C4_IEN_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C4.0_Into_Eternal_Night",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3823428",
+                "LINE_6804798",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_3823428|",
+                "",
+                "",
+                [
+                    "LINE_9109017"
+                ],
+                [
+                    {
+                        "Action": "ActionQuest",
+                        "Flag": "Jarhild_CQ_Start",
+                        "FlagState": "Set",
+                        "Quest": "Jarhild_CQ"
+                    }
+                ],
+                [
+                    {
+                        "connection": "AND",
+                        "items": [
+                            {
+                                "item": {
+                                    "Flag": "Jarhild_CQ_Start",
+                                    "FlagState": "false",
+                                    "Quest": "Jarhild_CQ",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            },
+                            {
+                                "item": {
+                                    "Flag": "C2_ITDC_Start",
+                                    "FlagState": "true",
+                                    "Quest": "C2.2_Into_The_Dead_City",
+                                    "Type": "Quest"
+                                },
+                                "type": "item"
+                            }
+                        ],
+                        "type": "group"
+                    }
+                ],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1816428",
+                "LINE_9109017",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_1816428|",
+                "",
+                "",
+                [
+                    "LINE_0583357"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9109017",
+                "LINE_3823428",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9109017|",
+                "",
+                "",
+                [
+                    "LINE_1939113",
+                    "LINE_1816428"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_1939113",
+                "LINE_9109017",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_1939113|",
+                "",
+                "",
+                [
+                    "LINE_3859410"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3859410",
+                "LINE_1939113",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_3859410|",
+                "",
+                "WOTC \"me mother\"",
+                [
+                    "LINE_0099694"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0099694",
+                "LINE_3859410",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_0099694|",
+                "",
+                "",
+                [
+                    "LINE_7646151",
+                    "LINE_3421970",
+                    "LINE_0675559"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0583357",
+                "LINE_1816428",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_0583357|",
+                "",
+                "",
+                [
+                    "LINE_0099694"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7646151",
+                "LINE_0099694",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_7646151|",
+                "",
+                "",
+                [
+                    "LINE_7992603"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7992603",
+                "LINE_7646151",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7992603|",
+                "",
+                "",
+                [
+                    "LINE_3421970",
+                    "LINE_0675559"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9318007",
+                "LINE_1986075",
+                "JARHILD",
+                "|A_Camp_Jarhild_LINE_9318007|",
+                "",
+                "",
+                [
+                    "LINE_9807739",
+                    "LINE_8258389"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4361691",
+                "LINE_9154161",
+                "JARHILD",
+                "|A_Camp_Jarhild_LINE_4361691|",
+                "",
+                "",
+                [
+                    "LINE_2376385",
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7885532",
+                "LINE_2376385",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7885532|",
+                "",
+                "",
+                [
+                    "LINE_3692289"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4256968",
+                "LINE_0174363",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_4256968|",
+                "",
+                "",
+                [
+                    "LINE_6585161",
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_4360818",
+                "LINE_6471609",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_4360818|",
+                "",
+                "",
+                [
+                    "LINE_9478729"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_3988143",
+                "LINE_8139915",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_3988143|",
+                "",
+                "BK revised to be more personal",
+                [
+                    "LINE_7311382"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0564644",
+                "LINE_8139915",
+                "<PLAYER>",
+                "|A_Camp_Jarhild_LINE_0564644|",
+                "",
+                "",
+                [
+                    "LINE_0778782"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_0778782",
+                "LINE_0564644",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_0778782|",
+                "",
+                "BK revised from \"Aye, ye're right. No time but now, right?\"",
+                [
+                    "LINE_9372609"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_7311382",
+                "LINE_3988143",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_7311382|",
+                "",
+                "WOTC request second line",
+                [
+                    "LINE_9372609"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ],
+            [
+                "LINE_9372609",
+                "LINE_7311382",
+                "<DEFAULT>",
+                "|A_Camp_Jarhild_LINE_9372609|",
+                "",
+                "",
+                [
+                    "LINE_3421970",
+                    "LINE_4583325"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                "",
+                "",
+                "",
+                "",
+                "False",
+                "False",
+                "False",
+                "False"
+            ]
+        ]
+    ],
+    "FILE FORMAT": {
+        "Version": "0.11"
+    },
+    "LINE DATA DEFINITION": {
+        "Actions": [
+            7,
+            0
+        ],
+        "AudioLineName": [
+            4,
+            0
+        ],
+        "Comments": [
+            5,
+            0
+        ],
+        "Conditions": [
+            8,
+            0
+        ],
+        "ItemsToAdd": [
+            10,
+            0
+        ],
+        "ItemsToRemove": [
+            11,
+            0
+        ],
+        "LineText": [
+            3,
+            0
+        ],
+        "LocComment": [
+            13,
+            0
+        ],
+        "Moods": [
+            9,
+            0
+        ],
+        "NoBegFadeInLine": [
+            18,
+            0
+        ],
+        "NoEndFadeInLine": [
+            19,
+            0
+        ],
+        "NoSendingStone": [
+            17,
+            0
+        ],
+        "NoVO": [
+            14,
+            0
+        ],
+        "ParentRef": [
+            1,
+            0
+        ],
+        "RefID": [
+            0,
+            0
+        ],
+        "ResponseRef": [
+            6,
+            0
+        ],
+        "SpeakerTag": [
+            2,
+            0
+        ],
+        "Unskippable": [
+            16,
+            0
+        ],
+        "VOChange": [
+            15,
+            0
+        ],
+        "VOComment": [
+            12,
+            0
+        ]
+    }
 }

@@ -1,1 +1,1598 @@
-{"rt_transitionsets":[{"arch01":[0,0],"arch02":[1,0],"arch03":[2,2],"door01":[3,2],"door02":[4,2],"door03":[5,2],"secretdoor01":[6,2],"secretdoor02":[7,2],"secretdoor03":[8,2],"endcap01":[9,2],"endcap02":[10,2],"endcap03":[11,2]},{"whiteboxtransitions" : ["whiteboxarch",null,null,"WhiteBoxDoor",null,null,"WhiteBoxSecretDoor",null,null,"CastleCap",null,null], "drowcavestransitions" : ["drowarch02","drowarch01",null,"DrowDoor01",null,null,"DrowSecretDoor01",null,null,"Drow_EndCap",null,null], "smallinteriorstransitions" : ["tavernarch01",null,null,"TavernDoor01",null,null,"TavernSecretDoor01",null,null,"SmInterior_Cap",null,null], "wolfdentransitions" : ["wolfcolumn01",null,null,null,null,null,null,null,null,"Bandit_EndCap",null,null], "castletransitions" : ["castlearch01","castlearch02",null,"CastleDoor01","CastleCellDoor01",null,"CastleSecretDoor01","CastleSecretBookcaseDM",null,"CastleCap",null,null], "sewertransitions" : ["sewerarch01","sewerarch02","SewerArch03","SewerDoor01",null,null,"SewerSecretDoor01",null,null,"SewerCap",null,null], "cavetransitions" : ["cavearch01","cavearch02",null,"CaveDoor01",null,null,"DrowSecretDoor01",null,null,"CaveCap01",null,null], "lurkwoodtransitions" : ["whiteboxarch",null,null,null,null,null,null,null,null,null,null,null], "duergartransitions" : ["duergararch01","duergararch02","DuergarArch03","DuergarDoor",null,null,"DuergarSecretDoor",null,null,"DuergarCap",null,null], "barbariancavetransitions" : ["cavearch01","cavearch02",null,null,null,null,null,null,null,"CaveCap01",null,null], "spidercastletransitions" : ["spidercastlearch01","spidercastlearch03","SpiderCastleArch04","SpiderCastleDoor",null,null,"SpiderCastleSecretDoor",null,null,"SpiderCastleCap",null,null], "banditcavestransitions" : ["banditarch01","banditarch02",null,"BanditDoor01",null,null,"DrowSecretDoor01",null,null,"Bandit_EndCap",null,null], "catacombstransitions" : ["catacombsarch01","catacombsarch02","CatacombsArch03","CatacombsDoor01",null,null,"CatacombsSecretDoor01",null,null,"CatacombsCap",null,null], "nightmaretransitions" : ["nightmarearch01",null,null,"NightmareDoor01",null,null,null,null,null,"Nightmare_EndCap",null,null], "magictenttransitions" : ["wizardcastlearch",null,null,"WizardCastleDoor",null,null,"WizardCastleSecretDoor",null,null,"WizardCap",null,null], "lostminestransitions" : ["lostminesarch01","lostminesarch02",null,"LostMinesDoor01",null,null,"LostMinesSecretDoor01",null,null,"LostMinesEndCap",null,null]}],"rt_transitions":[{"type":[0,2],"prefabpath":[1,2],"weight":[2,3],"threatcost":[3,3],"lockedthreatcost":[4,3],"name":[5,1],"desc":[6,1],"icon":[7,1]},{"storysecretdoor" : ["SecretDoor","Prefabs/Doors/StorySecretDoor",1,0,0,"transition_name_storysecretdoor","transition_desc_storysecretdoor","transition_secret"], "whiteboxdoor" : ["Door","Levels/TileParts/CastleTransitions/CastleDoor",1,0,10,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "whiteboxsecretdoor" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretDoor",1,15,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "whiteboxarch" : ["Arch","Levels/TileParts/CastleTransitions/CastleArch",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_archway"], "drowarch01" : ["Arch","Levels/TileParts/DrowArch/DrowArch_New",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_archway"], "drowarch02" : ["Arch","Levels/TileParts/DrowColumn/DrowColumn_New",1,0,0,"transition_name_drowarch02","transition_desc_drowarch02","transition_open"], "drow_hallarch" : ["Arch","Levels/TileParts/DrowArch/Drow_HallArch",1,0,0,"transition_name_drow_hallarch","transition_desc_drow_hallarch","transition_open"], "drowdoor01" : ["Door","Prefabs/Doors/DrowDoor_01_Prefab",1,0,15,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "drowsecretdoor01" : ["SecretDoor","Prefabs/Doors/SecretDoor",1,15,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "hommet_cq_secretdoor" : ["SecretDoor","Levels/TileParts/DrowTransitions/Hommet_CQ_SecretDoor",1,0,0,"transition_name_hommet_cq_secretdoor","transition_desc_hommet_cq_secretdoor","transition_secret"], "dalanir_cq_secretdoor" : ["SecretDoor","Levels/TileParts/DrowTransitions/Dalanir_CQ_SecretDoor",1,0,0,"transition_name_hommet_cq_secretdoor","transition_desc_hommet_cq_secretdoor","transition_secret"], "dalanir_cq_crystalpuzzledoor" : ["SecretDoor","Prefabs/Doors/DalanirCirclePuzzleDoor",1,0,0,"transition_name_hommet_cq_secretdoor","transition_desc_hommet_cq_secretdoor","transition_secret"], "burningambition_sq_lockeddoor" : ["Door","Levels/TileParts/DrowTransitions/BurningAmbition_SQ_LockedDoor",1,0,15,"transition_name_burningambition_sq_lockeddoor","transition_desc_burningambition_sq_lockeddoor","transition_door"], "tavernarch01" : ["Arch","Levels/TileParts/SmInteriors/SmInterior_Arch/SmInterior_Arch",1,0,0,null,null,null], "taverndoor01" : ["Door","Levels/TileParts/SmInteriors/SmInterior_Door/SmInterior_Door",1,0,15,"transition_name_genericdoor","transition_desc_genericdoor","transition_door"], "tavernsecretdoor01" : ["SecretDoor","Levels/TileParts/SmInteriors/Tavern_SecretDoor/Tavern_SecretDoor",1,15,15,"transition_name_tavernsecretdoor01","transition_desc_tavernsecretdoor01","transition_secret"], "wolfcolumn01" : ["Arch","Levels/TileParts/DrowColumn/DrowColumn_New",1,0,0,null,null,null], "castlearch01" : ["Arch","Levels/TileParts/CastleTransitions/CastleArch",1,0,0,"transition_name_castlearch01","transition_desc_castlearch01","transition_archway"], "castlearch02" : ["Arch","Levels/TileParts/CastleTransitions/CastleSecondArch",1,0,0,"transition_name_castlearch02","transition_desc_castlearch02","transition_open"], "castle_hallarch" : ["Arch","Levels/TileParts/CastleTransitions/Castle_HallArch",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_open"], "castledoor01" : ["Door","Levels/TileParts/CastleTransitions/CastleDoor",1,15,15,"transition_name_castledoor01","transition_desc_castledoor01","transition_door"], "castledoor_room" : ["Door","Levels/TileParts/CastleTransitions/CastleDoor_Room",1,15,15,"transition_desc_drowdoor01","transition_desc_drowdoor01","transition_door"], "castlesecretdoor01" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretDoor",1,15,0,"transition_name_castlesecretdoor01","transition_desc_castlesecretdoor01","transition_secret"], "castlesecretbookcase" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretBookcase",1,15,0,"transition_name_drowsecretbookcase","transition_desc_drowsecretbookcase","transition_secret"], "castlesecretbookcasedm" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretBookcaseDM",0,15,0,"transition_name_castlesecretdoor02","transition_desc_castlesecretdoor02","transition_secret"], "castlecelldoor01" : ["Door","Levels/TileParts/CastleTransitions/CastleCellDoor",0,0,15,"transition_name_castledoor02","transition_desc_castledoor02","transition_door"], "chapterhouse_storylockedb1stairsdoor" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedB1StairsDoor",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedarmorydoor" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedArmoryDoor",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedarchivesdoor_01" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedArchivesDoor_01",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedarchivesdoor_02" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedArchivesDoor_02",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedprisondoor" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedPrisonDoor",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_secretdoortocatacombs" : ["SecretDoor","Levels/TileParts/CastleTransitions/Chapterhouse_SecretDoorToCatacombs",1,0,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "castlecelldoordog01" : ["Door","Levels/TileParts/CastleTransitions/CastleCellDoorDog01",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "castlecelldoordog02" : ["Door","Levels/TileParts/CastleTransitions/CastleCellDoorDog02",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedstatuepuzzledoor" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsDoor_StatuePuzzle",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "spidercastle_storysealeddoor" : ["Door","Levels/TileParts/CastleTransitions/SpiderCastle_StorySealedDoor",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "wizardcastlesecretdoor" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretDoorWizard",0,0,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "wizardcastledoor" : ["Door","Levels/TileParts/CastleTransitions/CastleDoorWizard",0,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "wizardcastlelockeddoor" : ["Door","Levels/TileParts/CastleTransitions/CastleDoorWizardLocked",0,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "wizardcastlearch" : ["Arch","Levels/TileParts/CastleTransitions/CastleSecondArchWizard",0,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_open"], "sewerarch01" : ["Arch","Levels/TileParts/SewerTransitions/SewerArch_01",1,0,0,"transition_name_sewerarch01","transition_desc_sewerarch01","transition_archway"], "sewerarch02" : ["Arch","Levels/TileParts/SewerTransitions/SewerArch_02",1,0,0,"transition_name_sewerarch02","transition_desc_sewerarch02","transition_open"], "sewerarch03" : ["Arch","Levels/TileParts/SewerTransitions/SewerArch_03",1,0,0,"transition_name_sewerarch01","transition_desc_drowarch01","transition_open"], "sewerhallarch01" : ["Arch","Levels/TileParts/SewerTransitions/SewerHallArch_01",1,0,0,"transition_name_sewerarch01","transition_desc_drowhallarch01","transition_open"], "sewerdoor01" : ["Door","Levels/TileParts/SewerTransitions/SewerDoor",1,0,15,"transition_name_sewerdoor01","transition_desc_sewerdoor01","transition_door"], "sewerportcullisdoor" : ["Door","Levels/TileParts/SewerTransitions/SewerPortcullisDoor",1,0,15,"transition_name_sewerportcullisdoor","transition_desc_drowdoor01","transition_door"], "sewersecretdoor01" : ["SecretDoor","Levels/TileParts/SewerTransitions/SewerSecretDoor",1,15,0,"transition_name_sewersecretdoor01","transition_desc_sewersecretdoor01","transition_secret"], "sewerdoor_deadrats" : ["Door","Levels/TileParts/SewerTransitions/SewerDoor_GuardDialogue",0,0,0,"transition_name_sewerdoor01","transition_desc_drowdoor01","transition_door"], "sewerdoor_jarhild_cq" : ["Door","Levels/TileParts/SewerTransitions/SewerDoor_Jarhild_CQ",0,0,0,"transition_name_sewerdoor01","transition_desc_sewerdoor01","transition_door"], "sewerdoor_reqkey" : ["Door","Levels/TileParts/SewerTransitions/SewerDoor_ReqKey",0,0,0,"transition_name_sewerdoor01","transition_desc_sewerdoor01","transition_door"], "cavearch01" : ["Arch","Levels/TileParts/CaveTransitions/CaveArch01",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_archway"], "cavearch02" : ["Arch","Levels/TileParts/CaveTransitions/CaveArch01",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_open"], "cavedoor01" : ["Door","Levels/TileParts/CaveTransitions/CaveDoor01",1,0,15,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "cavesecretdoor01" : ["SecretDoor","Prefabs/Doors/SecretDoor",1,15,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "bearcavesecretdoor" : ["SecretDoor","Levels/TileParts/WolfDenTransitions/BearCaveSecretDoor",0,0,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "duergararch01" : ["Arch","Levels/TileParts/DuergarTransitions/DuergarArch01",1,0,0,"transition_name_duergararch01","transition_desc_duergararch01","transition_archway"], "duergararch02" : ["Arch","Levels/TileParts/DuergarTransitions/DuergarArch02",1,0,0,"transition_name_duergararch02","transition_desc_duergararch02","transition_archway"], "duergararch03" : ["Arch","Levels/TileParts/DuergarTransitions/DuergarArch03",1,0,0,"transition_name_duergararch03","transition_desc_duergararch03","transition_archway"], "duergardoor" : ["Door","Levels/TileParts/DuergarTransitions/DuergarDoor",1,0,0,"transition_name_duergardoor","transition_desc_duergardoor","transition_door"], "duergarprisondoor" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarvaultdoor" : ["SecretDoor","Levels/TileParts/DuergarTransitions/Duergar_VaultDoor",0,0,0,"transition_name_duergarvaultdoor","transition_desc_duergarvaultdoor","transition_secret"], "duergarsecretdoor" : ["SecretDoor","Levels/TileParts/DuergarTransitions/Duergar_SecretDoor",0,15,0,"transition_name_duergarsecretdoor","transition_desc_duergarsecretdoor","transition_secret"], "duergarprisondoor01" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor01",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor02" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor02",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor03" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor03",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor04" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor04",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor05" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor05",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor06" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor06",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor07" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor07",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor08" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor08",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor09" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor09",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor10" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor10",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor11" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor11",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor12" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor12",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisonsecretdoor" : ["SecretDoor","Levels/TileParts/DuergarTransitions/DuergarPrisonSecretDoor",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergardoor_crown_lc" : ["Door","Levels/TileParts/DuergarTransitions/DuergarDoor_Crown_LC",1,0,0,"transition_name_duergardoor","transition_desc_duergardoor","transition_door"], "banditdoor01" : ["Door","Levels/TileParts/BanditCaveTransitions/BanditDoor01",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "banditarch01" : ["Arch","Levels/TileParts/BanditCaveTransitions/BanditArch01",1,0,0,"transition_name_banditarch01","transition_desc_banditarch01","transition_archway"], "banditarch02" : ["Arch","Levels/TileParts/BanditCaveTransitions/BanditArch02",1,0,0,"transition_name_banditarch02","transition_desc_banditarch02","transition_archway"], "banditcellararch01" : ["Arch","Levels/TileParts/BanditCaveTransitions/BanditCellarArch01",1,0,0,"transition_name_banditcellararch01","transition_desc_banditcellararch01","transition_archway"], "bandit_hallarch" : ["Arch","Levels/TileParts/DrowArch/Drow_HallArch",1,0,0,"transition_name_banditarch","transition_desc_banditarch","transition_archway"], "banditcaves_storylockeddoor" : ["Door","Levels/TileParts/BanditCaveTransitions/BanditCaves_StoryLockedDoor",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "banditdoor01_trapped" : ["Door","Levels/TileParts/BanditCaveTransitions/BanditDoor01_Trapped",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "banditdoor01_locked" : ["Door","Levels/TileParts/BanditCaveTransitions/BanditDoor01_Locked",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "catacombsarch01" : ["Arch","Levels/TileParts/CatacombsTransitions/CatacombsArch",1,0,0,"transition_name_catacombsarch","transition_desc_catacombsarch","transition_archway"], "catacombsarch02" : ["Arch","Levels/TileParts/CatacombsTransitions/CatacombsArch2",1,0,0,"transition_name_catacombsarch02","transition_desc_catacombsarch02","transition_archway"], "catacombsarch03" : ["Arch","Levels/TileParts/CatacombsTransitions/CatacombsArch",1,0,0,"transition_name_catacombsarch03","transition_desc_catacombsarch03","transition_archway"], "catacombsdoor01" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsDoor",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "catacombsdoor_puzzlelocked" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsDoor_PuzzleLocked",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "catacombsdoor_puzzlelocked2" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsDoor_PuzzleLocked2",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "catacombssecretdoor01" : ["SecretDoor","Levels/TileParts/CatacombsTransitions/Catacombs_SecretDoor",1,15,0,"transition_name_catacombssecretdoor01","transition_desc_catacombssecretdoor","transition_secret"], "catacombsimpossiblesecretdoor" : ["SecretDoor","Levels/TileParts/CatacombsTransitions/Catacombs_ImpossibleSecretDoor",1,15,0,"transition_name_catacombssecretdoor01","transition_desc_catacombssecretdoor","transition_secret"], "catacombsbossdoor" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsBossDoor",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "spidercastledoor" : ["Door","Levels/TileParts/SpiderCastleTransitions/SpiderCastleDoor",1,15,15,"transition_name_spiderdoor01","transition_desc_spiderdoor01","transition_door"], "spidercastlearch01" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_01",1,0,0,"transition_name_spidercastlearch01","transition_desc_spidercastlearch01","transition_archway"], "spidercastlearch02" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_02",1,0,0,"transition_name_spidercastlearch02","transition_desc_spidercastlearch02","transition_archway"], "endoftimestagingdoor" : ["Door","Levels/TileParts/DrowTransitions/EoT_StagingDoor",1,0,0,"transition_name_drowarch01","transition_desc_drowdoor01","transition_door"], "spidercastlesecretdoor" : ["SecretDoor","Levels/TileParts/SpiderCastleTransitions/SpiderCastleSecretDoor",1,15,15,"transition_name_spidersecretdoor01","transition_desc_spidersecretdoor01","transition_secret"], "nightmarearch01" : ["Arch","Levels/TileParts/NightmareTransitions/Nightmare_Arch",1,15,15,"transition_name_nightmarearch01","transition_desc_nightmarearch01","transition_archway"], "nightmaredoor01" : ["Door","Levels/TileParts/NightmareTransitions/Nightmare_Door",1,15,15,"transition_name_nightmaredoor01","transition_desc_nightmaredoor01","transition_door"], "gdc_sewersecretdoor" : ["SecretDoor","Levels/TileParts/SewerTransitions/GDC_SewerSecretDoor",1,15,0,"transition_name_sewersecretdoor01","transition_desc_sewersecretdoor01","transition_secret"], "luskancultbasement_door" : ["Door","Levels/TileParts/SmInteriors/SmInterior_Door/LuskanCultBasement_Door",1,15,15,"transition_name_genericdoor","transition_desc_genericdoor","transition_door"], "returnofthechief_sq_storydoor1" : ["Door","Levels/TileParts/BanditCaveTransitions/ReturnOfTheChief_StoryDoor1",1,15,15,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "spidercastlearch03" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_03",1,0,0,"transition_name_spidercastlearch03","transition_desc_spidercastlearch03","transition_archway"], "spidercastlearch04" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_04",1,0,0,"transition_name_spidercastlearch04","transition_desc_spidercastlearch04","transition_archway"], "spidercastlearch05" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_05",1,0,0,"transition_name_spidercastlearch05","transition_desc_spidercastlearch05","transition_archway"], "slimecastledoor" : ["Door","Levels/TileParts/SpiderCastleTransitions/SlimeCastleDoor",1,15,15,"transition_name_spiderdoor01","transition_desc_spiderdoor01","transition_door"], "lostminesarch01" : ["Arch","Levels/TileParts/LostMinesTransitions/LostMinesArch01",1,0,0,"transition_name_lostminesarch01","transition_desc_drowarch01","transition_archway"], "lostminesarch02" : ["Arch","Levels/TileParts/LostMinesTransitions/LostMinesArch02",1,0,0,"transition_name_lostminesarch02","transition_desc_drowarch02","transition_open"], "lostmineshallarch" : ["Arch","Levels/TileParts/LostMinesTransitions/LostMinesHallArch",1,0,0,"transition_name_lostminesarch01","transition_desc_drowarch01","transition_open"], "lostminesdoor01" : ["Door","Levels/TileParts/LostMinesTransitions/LostMinesDoor01",1,0,15,"transition_name_lostminesdoor01","transition_desc_lostminesdoor01","transition_door"], "lostminessecretdoor01" : ["SecretDoor","Levels/TileParts/LostMinesTransitions/LostMinesSecretDoor_01",1,15,0,"transition_name_lostminessecretdoor01","transition_desc_lostminessecretdoor01","transition_secret"], "banditdoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/BanditDoor_Trapped",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "castledoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/CastleDoor_Trapped",1,0,0,"transition_name_castledoor01","transition_desc_castledoor01","transition_door"], "catacombsdoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/CatacombsDoor_Trapped",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "drowdoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/DrowDoor_Trapped",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "duergardoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/DuergarDoor_Trapped",1,0,0,"transition_name_duergardoor","transition_desc_duergardoor","transition_door"], "sewerdoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/SewerDoor_Trapped",1,0,0,"transition_name_sewerdoor01","transition_desc_sewerdoor01","transition_door"], "spidercastledoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/SpiderCastleDoor_Trapped",1,0,0,"transition_name_spiderdoor01","transition_desc_spiderdoor01","transition_door"]}],"rt_endcaps":[{"prefabpath":[0,2],"weight":[1,3]},{"castlecap" : ["Levels/TileParts/CastleTransitions/CastleCap",1], "castlecap_blank" : ["Levels/TileParts/CastleTransitions/CastleCap_Blank",1], "drow_endcap" : ["Levels/TileParts/DrowCap/Drow_EndCap",1], "sminterior_cap" : ["Levels/TileParts/SmInteriors/SmInterior_Cap/SmInterior_Cap",1], "bandit_endcap" : ["Levels/TileParts/BanditCaveTransitions/Bandit_EndCap",1], "sewercap" : ["Levels/TileParts/SewerTransitions/SewerCap",1], "cavecap01" : ["Levels/TileParts/CaveTransitions/CaveCap01",1], "duergarcap" : ["Levels/TileParts/DuergarTransitions/DuergarCap",1], "spidercastlecap" : ["Levels/TileParts/SpiderCastleTransitions/SpiderCastleCap",1], "spidercastlecap_blank" : ["Levels/TileParts/SpiderCastleTransitions/SpiderCastleCap_Blank",1], "catacombscap" : ["Levels/TileParts/CatacombsTransitions/CatacombsCap",1], "catacombscap_blank" : ["Levels/TileParts/CatacombsTransitions/CatacombsCap_Blank",1], "endcap" : ["Levels/TileParts/NightmareTransitions/Nightmare_EndCap",1], "drow_hallendcap" : ["Levels/TileParts/DrowCap/Drow_HallEndCap",1], "bandit_hallendcap" : ["Levels/TileParts/DrowCap/Drow_HallEndCap",1], "wizardcap" : ["Levels/TileParts/CastleTransitions/CastleCap_Wizard",1], "lostminesendcap" : ["Levels/TileParts/LostMinesTransitions/LostMinesEndCap",1], "lostmineshallendcap" : ["Levels/TileParts/LostMinesTransitions/LostMinesHallEndCap",1], "drow_specialcurve" : ["Levels/TileParts/DrowTransitions/Drow_SpecialCurve",1]}]}
+{"rt_transitionsets":[{"arch01":[0,0],"arch02":[1,0],"arch03":[2,2],"door01":[3,2],"door02":[4,2],"door03":[5,2],"secretdoor01":[6,2],"secretdoor02":[7,2],"secretdoor03":[8,2],"endcap01":[9,2],"endcap02":[10,2],"endcap03":[11,2]},{"whiteboxtransitions" : ["whiteboxarch",null,null,"WhiteBoxDoor",null,null,"WhiteBoxSecretDoor",null,null,"CastleCap",null,null], "drowcavestransitions" : ["drowarch02","drowarch01",null,"DrowDoor01",null,null,"DrowSecretDoor01",null,null,"Drow_EndCap",null,null], "smallinteriorstransitions" : ["tavernarch01",null,null,"TavernDoor01",null,null,"TavernSecretDoor01",null,null,"SmInterior_Cap",null,null], "wolfdentransitions" : ["wolfcolumn01",null,null,null,null,null,null,null,null,"Bandit_EndCap",null,null], "castletransitions" : ["castlearch01","castlearch02",null,"CastleDoor01","CastleCellDoor01",null,"CastleSecretDoor01","CastleSecretBookcaseDM",null,"CastleCap",null,null], "sewertransitions" : ["sewerarch01","sewerarch02","SewerArch03","SewerDoor01",null,null,"SewerSecretDoor01",null,null,"SewerCap",null,null], "cavetransitions" : ["cavearch01","cavearch02",null,"CaveDoor01",null,null,"DrowSecretDoor01",null,null,"CaveCap01",null,null], "lurkwoodtransitions" : ["whiteboxarch",null,null,null,null,null,null,null,null,null,null,null], "duergartransitions" : ["duergararch01","duergararch02","DuergarArch03","DuergarDoor",null,null,"DuergarSecretDoor",null,null,"DuergarCap",null,null], "barbariancavetransitions" : ["cavearch01","cavearch02",null,null,null,null,null,null,null,"CaveCap01",null,null], "spidercastletransitions" : ["spidercastlearch01","spidercastlearch03","SpiderCastleArch04","SpiderCastleDoor",null,null,"SpiderCastleSecretDoor",null,null,"SpiderCastleCap",null,null], "banditcavestransitions" : ["banditarch01","banditarch02",null,"BanditDoor01",null,null,"DrowSecretDoor01",null,null,"Bandit_EndCap",null,null], "catacombstransitions" : ["catacombsarch01","catacombsarch02","CatacombsArch03","CatacombsDoor01",null,null,"CatacombsSecretDoor01",null,null,"CatacombsCap",null,null], "nightmaretransitions" : ["nightmarearch01",null,null,"NightmareDoor01",null,null,null,null,null,"Nightmare_EndCap",null,null], "magictenttransitions" : ["wizardcastlearch",null,null,"WizardCastleDoor",null,null,"WizardCastleSecretDoor",null,null,"WizardCap",null,null], "lostminestransitions" : ["lostminesarch01","lostminesarch02",null,"LostMinesDoor01",null,null,"LostMinesSecretDoor01",null,null,"LostMinesEndCap",null,null]}],"rt_transitions":[{"type":[0,2],"prefabpath":[1,2],"weight":[2,3],"threatcost":[3,3],"lockedthreatcost":[4,3],"name":[5,1],"desc":[6,1],"icon":[7,1]},{"storysecretdoor" : ["SecretDoor","Prefabs/Doors/StorySecretDoor",1,0,0,"transition_name_storysecretdoor","transition_desc_storysecretdoor","transition_secret"], "whiteboxdoor" : ["Door","Levels/TileParts/CastleTransitions/CastleDoor",1,0,10,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "whiteboxsecretdoor" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretDoor",1,15,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "whiteboxarch" : ["Arch","Levels/TileParts/CastleTransitions/CastleArch",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_archway"], "drowarch01" : ["Arch","Levels/TileParts/DrowArch/DrowArch_New",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_archway"], "drowarch02" : ["Arch","Levels/TileParts/DrowColumn/DrowColumn_New",1,0,0,"transition_name_drowarch02","transition_desc_drowarch02","transition_open"], "drow_hallarch" : ["Arch","Levels/TileParts/DrowArch/Drow_HallArch",1,0,0,"transition_name_drow_hallarch","transition_desc_drow_hallarch","transition_open"], "drowdoor01" : ["Door","Prefabs/Doors/DrowDoor_01_Prefab",1,0,15,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "drowsecretdoor01" : ["SecretDoor","Prefabs/Doors/SecretDoor",1,15,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "hommet_cq_secretdoor" : ["SecretDoor","Levels/TileParts/DrowTransitions/Hommet_CQ_SecretDoor",1,0,0,"transition_name_hommet_cq_secretdoor","transition_desc_hommet_cq_secretdoor","transition_secret"], "dalanir_cq_secretdoor" : ["SecretDoor","Levels/TileParts/DrowTransitions/Dalanir_CQ_SecretDoor",1,0,0,"transition_name_hommet_cq_secretdoor","transition_desc_hommet_cq_secretdoor","transition_secret"], "dalanir_cq_crystalpuzzledoor" : ["SecretDoor","Prefabs/Doors/DalanirCirclePuzzleDoor",1,0,0,"transition_name_hommet_cq_secretdoor","transition_desc_hommet_cq_secretdoor","transition_secret"], "burningambition_sq_lockeddoor" : ["Door","Levels/TileParts/DrowTransitions/BurningAmbition_SQ_LockedDoor",1,0,15,"transition_name_burningambition_sq_lockeddoor","transition_desc_burningambition_sq_lockeddoor","transition_door"], "tavernarch01" : ["Arch","Levels/TileParts/SmInteriors/SmInterior_Arch/SmInterior_Arch",1,0,0,null,null,null], "taverndoor01" : ["Door","Levels/TileParts/SmInteriors/SmInterior_Door/SmInterior_Door",1,0,15,"transition_name_genericdoor","transition_desc_genericdoor","transition_door"], "tavernsecretdoor01" : ["SecretDoor","Levels/TileParts/SmInteriors/Tavern_SecretDoor/Tavern_SecretDoor",1,15,15,"transition_name_tavernsecretdoor01","transition_desc_tavernsecretdoor01","transition_secret"], "wolfcolumn01" : ["Arch","Levels/TileParts/DrowColumn/DrowColumn_New",1,0,0,null,null,null], "castlearch01" : ["Arch","Levels/TileParts/CastleTransitions/CastleArch",1,0,0,"transition_name_castlearch01","transition_desc_castlearch01","transition_archway"], "castlearch02" : ["Arch","Levels/TileParts/CastleTransitions/CastleSecondArch",1,0,0,"transition_name_castlearch02","transition_desc_castlearch02","transition_open"], "castle_hallarch" : ["Arch","Levels/TileParts/CastleTransitions/Castle_HallArch",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_open"], "castledoor01" : ["Door","Levels/TileParts/CastleTransitions/CastleDoor",1,15,15,"transition_name_castledoor01","transition_desc_castledoor01","transition_door"], "castledoor_room" : ["Door","Levels/TileParts/CastleTransitions/CastleDoor_Room",1,15,15,"transition_desc_drowdoor01","transition_desc_drowdoor01","transition_door"], "castlesecretdoor01" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretDoor",1,15,0,"transition_name_castlesecretdoor01","transition_desc_castlesecretdoor01","transition_secret"], "castlesecretbookcase" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretBookcase",1,15,0,"transition_name_drowsecretbookcase","transition_desc_drowsecretbookcase","transition_secret"], "castlesecretbookcasedm" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretBookcaseDM",0,15,0,"transition_name_castlesecretdoor02","transition_desc_castlesecretdoor02","transition_secret"], "castlecelldoor01" : ["Door","Levels/TileParts/CastleTransitions/CastleCellDoor",0,0,15,"transition_name_castledoor02","transition_desc_castledoor02","transition_door"], "chapterhouse_storylockedb1stairsdoor" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedB1StairsDoor",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedarmorydoor" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedArmoryDoor",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedarchivesdoor_01" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedArchivesDoor_01",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedarchivesdoor_02" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedArchivesDoor_02",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedprisondoor" : ["Door","Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedPrisonDoor",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_secretdoortocatacombs" : ["SecretDoor","Levels/TileParts/CastleTransitions/Chapterhouse_SecretDoorToCatacombs",1,0,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "castlecelldoordog01" : ["Door","Levels/TileParts/CastleTransitions/CastleCellDoorDog01",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "castlecelldoordog02" : ["Door","Levels/TileParts/CastleTransitions/CastleCellDoorDog02",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "chapterhouse_storylockedstatuepuzzledoor" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsDoor_StatuePuzzle",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "spidercastle_storysealeddoor" : ["Door","Levels/TileParts/CastleTransitions/SpiderCastle_StorySealedDoor",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "wizardcastlesecretdoor" : ["SecretDoor","Levels/TileParts/CastleTransitions/CastleSecretDoorWizard",0,0,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "wizardcastledoor" : ["Door","Levels/TileParts/CastleTransitions/CastleDoorWizard",0,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "wizardcastlelockeddoor" : ["Door","Levels/TileParts/CastleTransitions/CastleDoorWizardLocked",0,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "wizardcastlearch" : ["Arch","Levels/TileParts/CastleTransitions/CastleSecondArchWizard",0,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_open"], "sewerarch01" : ["Arch","Levels/TileParts/SewerTransitions/SewerArch_01",1,0,0,"transition_name_sewerarch01","transition_desc_sewerarch01","transition_archway"], "sewerarch02" : ["Arch","Levels/TileParts/SewerTransitions/SewerArch_02",1,0,0,"transition_name_sewerarch02","transition_desc_sewerarch02","transition_open"], "sewerarch03" : ["Arch","Levels/TileParts/SewerTransitions/SewerArch_03",1,0,0,"transition_name_sewerarch01","transition_desc_drowarch01","transition_open"], "sewerhallarch01" : ["Arch","Levels/TileParts/SewerTransitions/SewerHallArch_01",1,0,0,"transition_name_sewerarch01","transition_desc_drowhallarch01","transition_open"], "sewerdoor01" : ["Door","Levels/TileParts/SewerTransitions/SewerDoor",1,0,15,"transition_name_sewerdoor01","transition_desc_sewerdoor01","transition_door"], "sewerportcullisdoor" : ["Door","Levels/TileParts/SewerTransitions/SewerPortcullisDoor",1,0,15,"transition_name_sewerportcullisdoor","transition_desc_drowdoor01","transition_door"], "sewersecretdoor01" : ["SecretDoor","Levels/TileParts/SewerTransitions/SewerSecretDoor",1,15,0,"transition_name_sewersecretdoor01","transition_desc_sewersecretdoor01","transition_secret"], "sewerdoor_deadrats" : ["Door","Levels/TileParts/SewerTransitions/SewerDoor_GuardDialogue",0,0,0,"transition_name_sewerdoor01","transition_desc_drowdoor01","transition_door"], "sewerdoor_jarhild_cq" : ["Door","Levels/TileParts/SewerTransitions/SewerDoor_Jarhild_CQ",0,0,0,"transition_name_sewerdoor01","transition_desc_sewerdoor01","transition_door"], "sewerdoor_reqkey" : ["Door","Levels/TileParts/SewerTransitions/SewerDoor_ReqKey",0,0,0,"transition_name_sewerdoor01","transition_desc_sewerdoor01","transition_door"], "cavearch01" : ["Arch","Levels/TileParts/CaveTransitions/CaveArch01",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_archway"], "cavearch02" : ["Arch","Levels/TileParts/CaveTransitions/CaveArch01",1,0,0,"transition_name_drowarch01","transition_desc_drowarch01","transition_open"], "cavedoor01" : ["Door","Levels/TileParts/CaveTransitions/CaveDoor01",1,0,15,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "cavesecretdoor01" : ["SecretDoor","Prefabs/Doors/SecretDoor",1,15,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "bearcavesecretdoor" : ["SecretDoor","Levels/TileParts/WolfDenTransitions/BearCaveSecretDoor",0,0,0,"transition_name_drowsecretdoor01","transition_desc_drowsecretdoor01","transition_secret"], "duergararch01" : ["Arch","Levels/TileParts/DuergarTransitions/DuergarArch01",1,0,0,"transition_name_duergararch01","transition_desc_duergararch01","transition_archway"], "duergararch02" : ["Arch","Levels/TileParts/DuergarTransitions/DuergarArch02",1,0,0,"transition_name_duergararch02","transition_desc_duergararch02","transition_archway"], "duergararch03" : ["Arch","Levels/TileParts/DuergarTransitions/DuergarArch03",1,0,0,"transition_name_duergararch03","transition_desc_duergararch03","transition_archway"], "duergardoor" : ["Door","Levels/TileParts/DuergarTransitions/DuergarDoor",1,0,0,"transition_name_duergardoor","transition_desc_duergardoor","transition_door"], "duergarprisondoor" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarvaultdoor" : ["SecretDoor","Levels/TileParts/DuergarTransitions/Duergar_VaultDoor",0,0,0,"transition_name_duergarvaultdoor","transition_desc_duergarvaultdoor","transition_secret"], "duergarsecretdoor" : ["SecretDoor","Levels/TileParts/DuergarTransitions/Duergar_SecretDoor",0,15,0,"transition_name_duergarsecretdoor","transition_desc_duergarsecretdoor","transition_secret"], "duergarprisondoor01" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor01",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor02" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor02",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor03" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor03",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor04" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor04",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor05" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor05",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor06" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor06",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor07" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor07",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor08" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor08",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor09" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor09",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor10" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor10",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor11" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor11",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisondoor12" : ["Door","Levels/TileParts/DuergarTransitions/DuergarPrisonDoor12",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergarprisonsecretdoor" : ["SecretDoor","Levels/TileParts/DuergarTransitions/DuergarPrisonSecretDoor",0,0,0,"transition_name_duergarprisondoor","transition_desc_duergarprisondoor","transition_door"], "duergardoor_crown_lc" : ["Door","Levels/TileParts/DuergarTransitions/DuergarDoor_Crown_LC",1,0,0,"transition_name_duergardoor","transition_desc_duergardoor","transition_door"], "banditdoor01" : ["Door","Levels/TileParts/BanditCaveTransitions/BanditDoor01",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "banditarch01" : ["Arch","Levels/TileParts/BanditCaveTransitions/BanditArch01",1,0,0,"transition_name_banditarch01","transition_desc_banditarch01","transition_archway"], "banditarch02" : ["Arch","Levels/TileParts/BanditCaveTransitions/BanditArch02",1,0,0,"transition_name_banditarch02","transition_desc_banditarch02","transition_archway"], "banditcellararch01" : ["Arch","Levels/TileParts/BanditCaveTransitions/BanditCellarArch01",1,0,0,"transition_name_banditcellararch01","transition_desc_banditcellararch01","transition_archway"], "bandit_hallarch" : ["Arch","Levels/TileParts/DrowArch/Drow_HallArch",1,0,0,"transition_name_banditarch","transition_desc_banditarch","transition_archway"], "banditcaves_storylockeddoor" : ["Door","Levels/TileParts/BanditCaveTransitions/BanditCaves_StoryLockedDoor",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "banditdoor01_trapped" : ["Door","Levels/TileParts/BanditCaveTransitions/BanditDoor01_Trapped",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "banditdoor01_locked" : ["Door","Levels/TileParts/BanditCaveTransitions/BanditDoor01_Locked",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "catacombsarch01" : ["Arch","Levels/TileParts/CatacombsTransitions/CatacombsArch",1,0,0,"transition_name_catacombsarch","transition_desc_catacombsarch","transition_archway"], "catacombsarch02" : ["Arch","Levels/TileParts/CatacombsTransitions/CatacombsArch2",1,0,0,"transition_name_catacombsarch02","transition_desc_catacombsarch02","transition_archway"], "catacombsarch03" : ["Arch","Levels/TileParts/CatacombsTransitions/CatacombsArch",1,0,0,"transition_name_catacombsarch03","transition_desc_catacombsarch03","transition_archway"], "catacombsdoor01" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsDoor",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "catacombsdoor_puzzlelocked" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsDoor_PuzzleLocked",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "catacombsdoor_puzzlelocked2" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsDoor_PuzzleLocked2",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "catacombssecretdoor01" : ["SecretDoor","Levels/TileParts/CatacombsTransitions/Catacombs_SecretDoor",1,15,0,"transition_name_catacombssecretdoor01","transition_desc_catacombssecretdoor","transition_secret"], "catacombsimpossiblesecretdoor" : ["SecretDoor","Levels/TileParts/CatacombsTransitions/Catacombs_ImpossibleSecretDoor",1,15,0,"transition_name_catacombssecretdoor01","transition_desc_catacombssecretdoor","transition_secret"], "catacombsbossdoor" : ["Door","Levels/TileParts/CatacombsTransitions/CatacombsBossDoor",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "spidercastledoor" : ["Door","Levels/TileParts/SpiderCastleTransitions/SpiderCastleDoor",1,15,15,"transition_name_spiderdoor01","transition_desc_spiderdoor01","transition_door"], "spidercastlearch01" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_01",1,0,0,"transition_name_spidercastlearch01","transition_desc_spidercastlearch01","transition_archway"], "spidercastlearch02" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_02",1,0,0,"transition_name_spidercastlearch02","transition_desc_spidercastlearch02","transition_archway"], "endoftimestagingdoor" : ["Door","Levels/TileParts/DrowTransitions/EoT_StagingDoor",1,0,0,"transition_name_drowarch01","transition_desc_drowdoor01","transition_door"], "spidercastlesecretdoor" : ["SecretDoor","Levels/TileParts/SpiderCastleTransitions/SpiderCastleSecretDoor",1,15,15,"transition_name_spidersecretdoor01","transition_desc_spidersecretdoor01","transition_secret"], "nightmarearch01" : ["Arch","Levels/TileParts/NightmareTransitions/Nightmare_Arch",1,15,15,"transition_name_nightmarearch01","transition_desc_nightmarearch01","transition_archway"], "nightmaredoor01" : ["Door","Levels/TileParts/NightmareTransitions/Nightmare_Door",1,15,15,"transition_name_nightmaredoor01","transition_desc_nightmaredoor01","transition_door"], "gdc_sewersecretdoor" : ["SecretDoor","Levels/TileParts/SewerTransitions/GDC_SewerSecretDoor",1,15,0,"transition_name_sewersecretdoor01","transition_desc_sewersecretdoor01","transition_secret"], "luskancultbasement_door" : ["Door","Levels/TileParts/SmInteriors/SmInterior_Door/LuskanCultBasement_Door",1,15,15,"transition_name_genericdoor","transition_desc_genericdoor","transition_door"], "returnofthechief_sq_storydoor1" : ["Door","Levels/TileParts/BanditCaveTransitions/ReturnOfTheChief_StoryDoor1",1,15,15,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "spidercastlearch03" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_03",1,0,0,"transition_name_spidercastlearch03","transition_desc_spidercastlearch03","transition_archway"], "spidercastlearch04" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_04",1,0,0,"transition_name_spidercastlearch04","transition_desc_spidercastlearch04","transition_archway"], "spidercastlearch05" : ["Arch","Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_05",1,0,0,"transition_name_spidercastlearch05","transition_desc_spidercastlearch05","transition_archway"], "slimecastledoor" : ["Door","Levels/TileParts/SpiderCastleTransitions/SlimeCastleDoor",1,15,15,"transition_name_spiderdoor01","transition_desc_spiderdoor01","transition_door"], "lostminesarch01" : ["Arch","Levels/TileParts/LostMinesTransitions/LostMinesArch01",1,0,0,"transition_name_lostminesarch01","transition_desc_drowarch01","transition_archway"], "lostminesarch02" : ["Arch","Levels/TileParts/LostMinesTransitions/LostMinesArch02",1,0,0,"transition_name_lostminesarch02","transition_desc_drowarch02","transition_open"], "lostmineshallarch" : ["Arch","Levels/TileParts/LostMinesTransitions/LostMinesHallArch",1,0,0,"transition_name_lostminesarch01","transition_desc_drowarch01","transition_open"], "lostminesdoor01" : ["Door","Levels/TileParts/LostMinesTransitions/LostMinesDoor01",1,0,15,"transition_name_lostminesdoor01","transition_desc_lostminesdoor01","transition_door"], "lostminessecretdoor01" : ["SecretDoor","Levels/TileParts/LostMinesTransitions/LostMinesSecretDoor_01",1,15,0,"transition_name_lostminessecretdoor01","transition_desc_lostminessecretdoor01","transition_secret"], "banditdoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/BanditDoor_Trapped",1,0,0,"transition_name_banditdoor","transition_desc_banditdoor","transition_door"], "castledoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/CastleDoor_Trapped",1,0,0,"transition_name_castledoor01","transition_desc_castledoor01","transition_door"], "catacombsdoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/CatacombsDoor_Trapped",1,0,0,"transition_name_catacombsdoor","transition_desc_catacombsdoor","transition_door"], "drowdoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/DrowDoor_Trapped",1,0,0,"transition_name_drowdoor01","transition_desc_drowdoor01","transition_door"], "duergardoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/DuergarDoor_Trapped",1,0,0,"transition_name_duergardoor","transition_desc_duergardoor","transition_door"], "sewerdoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/SewerDoor_Trapped",1,0,0,"transition_name_sewerdoor01","transition_desc_sewerdoor01","transition_door"], "spidercastledoor_trapped" : ["Door","Levels/TileParts/TrappedDoors/SpiderCastleDoor_Trapped",1,0,0,"transition_name_spiderdoor01","transition_desc_spiderdoor01","transition_door"]}],"rt_endcaps":[{"prefabpath":[0,2],"weight":[1,3]},{"castlecap" : ["Levels/TileParts/CastleTransitions/CastleCap",1], "castlecap_blank" : ["Levels/TileParts/CastleTransitions/CastleCap_Blank",1], "drow_endcap" : ["Levels/TileParts/DrowCap/Drow_EndCap",1], "sminterior_cap" : ["Levels/TileParts/SmInteriors/SmInterior_Cap/SmInterior_Cap",1], "bandit_endcap" : ["Levels/TileParts/BanditCaveTransitions/Bandit_EndCap",1], "sewercap" : ["Levels/TileParts/SewerTransitions/SewerCap",1], "cavecap01" : ["Levels/TileParts/CaveTransitions/CaveCap01",1], "duergarcap" : ["Levels/TileParts/DuergarTransitions/DuergarCap",1], "spidercastlecap" : ["Levels/TileParts/SpiderCastleTransitions/SpiderCastleCap",1], "spidercastlecap_blank" : ["Levels/TileParts/SpiderCastleTransitions/SpiderCastleCap_Blank",1], "catacombscap" : ["Levels/TileParts/CatacombsTransitions/CatacombsCap",1], "catacombscap_blank" : ["Levels/TileParts/CatacombsTransitions/CatacombsCap_Blank",1], "endcap" : ["Levels/TileParts/NightmareTransitions/Nightmare_EndCap",1], "drow_hallendcap" : ["Levels/TileParts/DrowCap/Drow_HallEndCap",1], "bandit_hallendcap" : ["Levels/TileParts/DrowCap/Drow_HallEndCap",1], "wizardcap" : ["Levels/TileParts/CastleTransitions/CastleCap_Wizard",1], "lostminesendcap" : ["Levels/TileParts/LostMinesTransitions/LostMinesEndCap",1], "lostmineshallendcap" : ["Levels/TileParts/LostMinesTransitions/LostMinesHallEndCap",1], "drow_specialcurve" : ["Levels/TileParts/DrowTransitions/Drow_SpecialCurve",1]}]}{
+    "rt_endcaps": [
+        {
+            "prefabpath": [
+                0,
+                2
+            ],
+            "weight": [
+                1,
+                3
+            ]
+        },
+        {
+            "bandit_endcap": [
+                "Levels/TileParts/BanditCaveTransitions/Bandit_EndCap",
+                1
+            ],
+            "bandit_hallendcap": [
+                "Levels/TileParts/DrowCap/Drow_HallEndCap",
+                1
+            ],
+            "castlecap": [
+                "Levels/TileParts/CastleTransitions/CastleCap",
+                1
+            ],
+            "castlecap_blank": [
+                "Levels/TileParts/CastleTransitions/CastleCap_Blank",
+                1
+            ],
+            "catacombscap": [
+                "Levels/TileParts/CatacombsTransitions/CatacombsCap",
+                1
+            ],
+            "catacombscap_blank": [
+                "Levels/TileParts/CatacombsTransitions/CatacombsCap_Blank",
+                1
+            ],
+            "cavecap01": [
+                "Levels/TileParts/CaveTransitions/CaveCap01",
+                1
+            ],
+            "drow_endcap": [
+                "Levels/TileParts/DrowCap/Drow_EndCap",
+                1
+            ],
+            "drow_hallendcap": [
+                "Levels/TileParts/DrowCap/Drow_HallEndCap",
+                1
+            ],
+            "drow_specialcurve": [
+                "Levels/TileParts/DrowTransitions/Drow_SpecialCurve",
+                1
+            ],
+            "duergarcap": [
+                "Levels/TileParts/DuergarTransitions/DuergarCap",
+                1
+            ],
+            "endcap": [
+                "Levels/TileParts/NightmareTransitions/Nightmare_EndCap",
+                1
+            ],
+            "lostminesendcap": [
+                "Levels/TileParts/LostMinesTransitions/LostMinesEndCap",
+                1
+            ],
+            "lostmineshallendcap": [
+                "Levels/TileParts/LostMinesTransitions/LostMinesHallEndCap",
+                1
+            ],
+            "sewercap": [
+                "Levels/TileParts/SewerTransitions/SewerCap",
+                1
+            ],
+            "sminterior_cap": [
+                "Levels/TileParts/SmInteriors/SmInterior_Cap/SmInterior_Cap",
+                1
+            ],
+            "spidercastlecap": [
+                "Levels/TileParts/SpiderCastleTransitions/SpiderCastleCap",
+                1
+            ],
+            "spidercastlecap_blank": [
+                "Levels/TileParts/SpiderCastleTransitions/SpiderCastleCap_Blank",
+                1
+            ],
+            "wizardcap": [
+                "Levels/TileParts/CastleTransitions/CastleCap_Wizard",
+                1
+            ]
+        }
+    ],
+    "rt_transitions": [
+        {
+            "desc": [
+                6,
+                1
+            ],
+            "icon": [
+                7,
+                1
+            ],
+            "lockedthreatcost": [
+                4,
+                3
+            ],
+            "name": [
+                5,
+                1
+            ],
+            "prefabpath": [
+                1,
+                2
+            ],
+            "threatcost": [
+                3,
+                3
+            ],
+            "type": [
+                0,
+                2
+            ],
+            "weight": [
+                2,
+                3
+            ]
+        },
+        {
+            "bandit_hallarch": [
+                "Arch",
+                "Levels/TileParts/DrowArch/Drow_HallArch",
+                1,
+                0,
+                0,
+                "transition_name_banditarch",
+                "transition_desc_banditarch",
+                "transition_archway"
+            ],
+            "banditarch01": [
+                "Arch",
+                "Levels/TileParts/BanditCaveTransitions/BanditArch01",
+                1,
+                0,
+                0,
+                "transition_name_banditarch01",
+                "transition_desc_banditarch01",
+                "transition_archway"
+            ],
+            "banditarch02": [
+                "Arch",
+                "Levels/TileParts/BanditCaveTransitions/BanditArch02",
+                1,
+                0,
+                0,
+                "transition_name_banditarch02",
+                "transition_desc_banditarch02",
+                "transition_archway"
+            ],
+            "banditcaves_storylockeddoor": [
+                "Door",
+                "Levels/TileParts/BanditCaveTransitions/BanditCaves_StoryLockedDoor",
+                1,
+                0,
+                0,
+                "transition_name_banditdoor",
+                "transition_desc_banditdoor",
+                "transition_door"
+            ],
+            "banditcellararch01": [
+                "Arch",
+                "Levels/TileParts/BanditCaveTransitions/BanditCellarArch01",
+                1,
+                0,
+                0,
+                "transition_name_banditcellararch01",
+                "transition_desc_banditcellararch01",
+                "transition_archway"
+            ],
+            "banditdoor01": [
+                "Door",
+                "Levels/TileParts/BanditCaveTransitions/BanditDoor01",
+                1,
+                0,
+                0,
+                "transition_name_banditdoor",
+                "transition_desc_banditdoor",
+                "transition_door"
+            ],
+            "banditdoor01_locked": [
+                "Door",
+                "Levels/TileParts/BanditCaveTransitions/BanditDoor01_Locked",
+                1,
+                0,
+                0,
+                "transition_name_banditdoor",
+                "transition_desc_banditdoor",
+                "transition_door"
+            ],
+            "banditdoor01_trapped": [
+                "Door",
+                "Levels/TileParts/BanditCaveTransitions/BanditDoor01_Trapped",
+                1,
+                0,
+                0,
+                "transition_name_banditdoor",
+                "transition_desc_banditdoor",
+                "transition_door"
+            ],
+            "banditdoor_trapped": [
+                "Door",
+                "Levels/TileParts/TrappedDoors/BanditDoor_Trapped",
+                1,
+                0,
+                0,
+                "transition_name_banditdoor",
+                "transition_desc_banditdoor",
+                "transition_door"
+            ],
+            "bearcavesecretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/WolfDenTransitions/BearCaveSecretDoor",
+                0,
+                0,
+                0,
+                "transition_name_drowsecretdoor01",
+                "transition_desc_drowsecretdoor01",
+                "transition_secret"
+            ],
+            "burningambition_sq_lockeddoor": [
+                "Door",
+                "Levels/TileParts/DrowTransitions/BurningAmbition_SQ_LockedDoor",
+                1,
+                0,
+                15,
+                "transition_name_burningambition_sq_lockeddoor",
+                "transition_desc_burningambition_sq_lockeddoor",
+                "transition_door"
+            ],
+            "castle_hallarch": [
+                "Arch",
+                "Levels/TileParts/CastleTransitions/Castle_HallArch",
+                1,
+                0,
+                0,
+                "transition_name_drowarch01",
+                "transition_desc_drowarch01",
+                "transition_open"
+            ],
+            "castlearch01": [
+                "Arch",
+                "Levels/TileParts/CastleTransitions/CastleArch",
+                1,
+                0,
+                0,
+                "transition_name_castlearch01",
+                "transition_desc_castlearch01",
+                "transition_archway"
+            ],
+            "castlearch02": [
+                "Arch",
+                "Levels/TileParts/CastleTransitions/CastleSecondArch",
+                1,
+                0,
+                0,
+                "transition_name_castlearch02",
+                "transition_desc_castlearch02",
+                "transition_open"
+            ],
+            "castlecelldoor01": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/CastleCellDoor",
+                0,
+                0,
+                15,
+                "transition_name_castledoor02",
+                "transition_desc_castledoor02",
+                "transition_door"
+            ],
+            "castlecelldoordog01": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/CastleCellDoorDog01",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "castlecelldoordog02": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/CastleCellDoorDog02",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "castledoor01": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/CastleDoor",
+                1,
+                15,
+                15,
+                "transition_name_castledoor01",
+                "transition_desc_castledoor01",
+                "transition_door"
+            ],
+            "castledoor_room": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/CastleDoor_Room",
+                1,
+                15,
+                15,
+                "transition_desc_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "castledoor_trapped": [
+                "Door",
+                "Levels/TileParts/TrappedDoors/CastleDoor_Trapped",
+                1,
+                0,
+                0,
+                "transition_name_castledoor01",
+                "transition_desc_castledoor01",
+                "transition_door"
+            ],
+            "castlesecretbookcase": [
+                "SecretDoor",
+                "Levels/TileParts/CastleTransitions/CastleSecretBookcase",
+                1,
+                15,
+                0,
+                "transition_name_drowsecretbookcase",
+                "transition_desc_drowsecretbookcase",
+                "transition_secret"
+            ],
+            "castlesecretbookcasedm": [
+                "SecretDoor",
+                "Levels/TileParts/CastleTransitions/CastleSecretBookcaseDM",
+                0,
+                15,
+                0,
+                "transition_name_castlesecretdoor02",
+                "transition_desc_castlesecretdoor02",
+                "transition_secret"
+            ],
+            "castlesecretdoor01": [
+                "SecretDoor",
+                "Levels/TileParts/CastleTransitions/CastleSecretDoor",
+                1,
+                15,
+                0,
+                "transition_name_castlesecretdoor01",
+                "transition_desc_castlesecretdoor01",
+                "transition_secret"
+            ],
+            "catacombsarch01": [
+                "Arch",
+                "Levels/TileParts/CatacombsTransitions/CatacombsArch",
+                1,
+                0,
+                0,
+                "transition_name_catacombsarch",
+                "transition_desc_catacombsarch",
+                "transition_archway"
+            ],
+            "catacombsarch02": [
+                "Arch",
+                "Levels/TileParts/CatacombsTransitions/CatacombsArch2",
+                1,
+                0,
+                0,
+                "transition_name_catacombsarch02",
+                "transition_desc_catacombsarch02",
+                "transition_archway"
+            ],
+            "catacombsarch03": [
+                "Arch",
+                "Levels/TileParts/CatacombsTransitions/CatacombsArch",
+                1,
+                0,
+                0,
+                "transition_name_catacombsarch03",
+                "transition_desc_catacombsarch03",
+                "transition_archway"
+            ],
+            "catacombsbossdoor": [
+                "Door",
+                "Levels/TileParts/CatacombsTransitions/CatacombsBossDoor",
+                1,
+                0,
+                0,
+                "transition_name_catacombsdoor",
+                "transition_desc_catacombsdoor",
+                "transition_door"
+            ],
+            "catacombsdoor01": [
+                "Door",
+                "Levels/TileParts/CatacombsTransitions/CatacombsDoor",
+                1,
+                0,
+                0,
+                "transition_name_catacombsdoor",
+                "transition_desc_catacombsdoor",
+                "transition_door"
+            ],
+            "catacombsdoor_puzzlelocked": [
+                "Door",
+                "Levels/TileParts/CatacombsTransitions/CatacombsDoor_PuzzleLocked",
+                1,
+                0,
+                0,
+                "transition_name_catacombsdoor",
+                "transition_desc_catacombsdoor",
+                "transition_door"
+            ],
+            "catacombsdoor_puzzlelocked2": [
+                "Door",
+                "Levels/TileParts/CatacombsTransitions/CatacombsDoor_PuzzleLocked2",
+                1,
+                0,
+                0,
+                "transition_name_catacombsdoor",
+                "transition_desc_catacombsdoor",
+                "transition_door"
+            ],
+            "catacombsdoor_trapped": [
+                "Door",
+                "Levels/TileParts/TrappedDoors/CatacombsDoor_Trapped",
+                1,
+                0,
+                0,
+                "transition_name_catacombsdoor",
+                "transition_desc_catacombsdoor",
+                "transition_door"
+            ],
+            "catacombsimpossiblesecretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/CatacombsTransitions/Catacombs_ImpossibleSecretDoor",
+                1,
+                15,
+                0,
+                "transition_name_catacombssecretdoor01",
+                "transition_desc_catacombssecretdoor",
+                "transition_secret"
+            ],
+            "catacombssecretdoor01": [
+                "SecretDoor",
+                "Levels/TileParts/CatacombsTransitions/Catacombs_SecretDoor",
+                1,
+                15,
+                0,
+                "transition_name_catacombssecretdoor01",
+                "transition_desc_catacombssecretdoor",
+                "transition_secret"
+            ],
+            "cavearch01": [
+                "Arch",
+                "Levels/TileParts/CaveTransitions/CaveArch01",
+                1,
+                0,
+                0,
+                "transition_name_drowarch01",
+                "transition_desc_drowarch01",
+                "transition_archway"
+            ],
+            "cavearch02": [
+                "Arch",
+                "Levels/TileParts/CaveTransitions/CaveArch01",
+                1,
+                0,
+                0,
+                "transition_name_drowarch01",
+                "transition_desc_drowarch01",
+                "transition_open"
+            ],
+            "cavedoor01": [
+                "Door",
+                "Levels/TileParts/CaveTransitions/CaveDoor01",
+                1,
+                0,
+                15,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "cavesecretdoor01": [
+                "SecretDoor",
+                "Prefabs/Doors/SecretDoor",
+                1,
+                15,
+                0,
+                "transition_name_drowsecretdoor01",
+                "transition_desc_drowsecretdoor01",
+                "transition_secret"
+            ],
+            "chapterhouse_secretdoortocatacombs": [
+                "SecretDoor",
+                "Levels/TileParts/CastleTransitions/Chapterhouse_SecretDoorToCatacombs",
+                1,
+                0,
+                0,
+                "transition_name_drowsecretdoor01",
+                "transition_desc_drowsecretdoor01",
+                "transition_secret"
+            ],
+            "chapterhouse_storylockedarchivesdoor_01": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedArchivesDoor_01",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "chapterhouse_storylockedarchivesdoor_02": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedArchivesDoor_02",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "chapterhouse_storylockedarmorydoor": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedArmoryDoor",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "chapterhouse_storylockedb1stairsdoor": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedB1StairsDoor",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "chapterhouse_storylockedprisondoor": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/Chapterhouse_StoryLockedPrisonDoor",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "chapterhouse_storylockedstatuepuzzledoor": [
+                "Door",
+                "Levels/TileParts/CatacombsTransitions/CatacombsDoor_StatuePuzzle",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "dalanir_cq_crystalpuzzledoor": [
+                "SecretDoor",
+                "Prefabs/Doors/DalanirCirclePuzzleDoor",
+                1,
+                0,
+                0,
+                "transition_name_hommet_cq_secretdoor",
+                "transition_desc_hommet_cq_secretdoor",
+                "transition_secret"
+            ],
+            "dalanir_cq_secretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/DrowTransitions/Dalanir_CQ_SecretDoor",
+                1,
+                0,
+                0,
+                "transition_name_hommet_cq_secretdoor",
+                "transition_desc_hommet_cq_secretdoor",
+                "transition_secret"
+            ],
+            "drow_hallarch": [
+                "Arch",
+                "Levels/TileParts/DrowArch/Drow_HallArch",
+                1,
+                0,
+                0,
+                "transition_name_drow_hallarch",
+                "transition_desc_drow_hallarch",
+                "transition_open"
+            ],
+            "drowarch01": [
+                "Arch",
+                "Levels/TileParts/DrowArch/DrowArch_New",
+                1,
+                0,
+                0,
+                "transition_name_drowarch01",
+                "transition_desc_drowarch01",
+                "transition_archway"
+            ],
+            "drowarch02": [
+                "Arch",
+                "Levels/TileParts/DrowColumn/DrowColumn_New",
+                1,
+                0,
+                0,
+                "transition_name_drowarch02",
+                "transition_desc_drowarch02",
+                "transition_open"
+            ],
+            "drowdoor01": [
+                "Door",
+                "Prefabs/Doors/DrowDoor_01_Prefab",
+                1,
+                0,
+                15,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "drowdoor_trapped": [
+                "Door",
+                "Levels/TileParts/TrappedDoors/DrowDoor_Trapped",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "drowsecretdoor01": [
+                "SecretDoor",
+                "Prefabs/Doors/SecretDoor",
+                1,
+                15,
+                0,
+                "transition_name_drowsecretdoor01",
+                "transition_desc_drowsecretdoor01",
+                "transition_secret"
+            ],
+            "duergararch01": [
+                "Arch",
+                "Levels/TileParts/DuergarTransitions/DuergarArch01",
+                1,
+                0,
+                0,
+                "transition_name_duergararch01",
+                "transition_desc_duergararch01",
+                "transition_archway"
+            ],
+            "duergararch02": [
+                "Arch",
+                "Levels/TileParts/DuergarTransitions/DuergarArch02",
+                1,
+                0,
+                0,
+                "transition_name_duergararch02",
+                "transition_desc_duergararch02",
+                "transition_archway"
+            ],
+            "duergararch03": [
+                "Arch",
+                "Levels/TileParts/DuergarTransitions/DuergarArch03",
+                1,
+                0,
+                0,
+                "transition_name_duergararch03",
+                "transition_desc_duergararch03",
+                "transition_archway"
+            ],
+            "duergardoor": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarDoor",
+                1,
+                0,
+                0,
+                "transition_name_duergardoor",
+                "transition_desc_duergardoor",
+                "transition_door"
+            ],
+            "duergardoor_crown_lc": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarDoor_Crown_LC",
+                1,
+                0,
+                0,
+                "transition_name_duergardoor",
+                "transition_desc_duergardoor",
+                "transition_door"
+            ],
+            "duergardoor_trapped": [
+                "Door",
+                "Levels/TileParts/TrappedDoors/DuergarDoor_Trapped",
+                1,
+                0,
+                0,
+                "transition_name_duergardoor",
+                "transition_desc_duergardoor",
+                "transition_door"
+            ],
+            "duergarprisondoor": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor01": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor01",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor02": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor02",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor03": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor03",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor04": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor04",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor05": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor05",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor06": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor06",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor07": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor07",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor08": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor08",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor09": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor09",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor10": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor10",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor11": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor11",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisondoor12": [
+                "Door",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonDoor12",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarprisonsecretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/DuergarTransitions/DuergarPrisonSecretDoor",
+                0,
+                0,
+                0,
+                "transition_name_duergarprisondoor",
+                "transition_desc_duergarprisondoor",
+                "transition_door"
+            ],
+            "duergarsecretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/DuergarTransitions/Duergar_SecretDoor",
+                0,
+                15,
+                0,
+                "transition_name_duergarsecretdoor",
+                "transition_desc_duergarsecretdoor",
+                "transition_secret"
+            ],
+            "duergarvaultdoor": [
+                "SecretDoor",
+                "Levels/TileParts/DuergarTransitions/Duergar_VaultDoor",
+                0,
+                0,
+                0,
+                "transition_name_duergarvaultdoor",
+                "transition_desc_duergarvaultdoor",
+                "transition_secret"
+            ],
+            "endoftimestagingdoor": [
+                "Door",
+                "Levels/TileParts/DrowTransitions/EoT_StagingDoor",
+                1,
+                0,
+                0,
+                "transition_name_drowarch01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "gdc_sewersecretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/SewerTransitions/GDC_SewerSecretDoor",
+                1,
+                15,
+                0,
+                "transition_name_sewersecretdoor01",
+                "transition_desc_sewersecretdoor01",
+                "transition_secret"
+            ],
+            "hommet_cq_secretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/DrowTransitions/Hommet_CQ_SecretDoor",
+                1,
+                0,
+                0,
+                "transition_name_hommet_cq_secretdoor",
+                "transition_desc_hommet_cq_secretdoor",
+                "transition_secret"
+            ],
+            "lostminesarch01": [
+                "Arch",
+                "Levels/TileParts/LostMinesTransitions/LostMinesArch01",
+                1,
+                0,
+                0,
+                "transition_name_lostminesarch01",
+                "transition_desc_drowarch01",
+                "transition_archway"
+            ],
+            "lostminesarch02": [
+                "Arch",
+                "Levels/TileParts/LostMinesTransitions/LostMinesArch02",
+                1,
+                0,
+                0,
+                "transition_name_lostminesarch02",
+                "transition_desc_drowarch02",
+                "transition_open"
+            ],
+            "lostminesdoor01": [
+                "Door",
+                "Levels/TileParts/LostMinesTransitions/LostMinesDoor01",
+                1,
+                0,
+                15,
+                "transition_name_lostminesdoor01",
+                "transition_desc_lostminesdoor01",
+                "transition_door"
+            ],
+            "lostmineshallarch": [
+                "Arch",
+                "Levels/TileParts/LostMinesTransitions/LostMinesHallArch",
+                1,
+                0,
+                0,
+                "transition_name_lostminesarch01",
+                "transition_desc_drowarch01",
+                "transition_open"
+            ],
+            "lostminessecretdoor01": [
+                "SecretDoor",
+                "Levels/TileParts/LostMinesTransitions/LostMinesSecretDoor_01",
+                1,
+                15,
+                0,
+                "transition_name_lostminessecretdoor01",
+                "transition_desc_lostminessecretdoor01",
+                "transition_secret"
+            ],
+            "luskancultbasement_door": [
+                "Door",
+                "Levels/TileParts/SmInteriors/SmInterior_Door/LuskanCultBasement_Door",
+                1,
+                15,
+                15,
+                "transition_name_genericdoor",
+                "transition_desc_genericdoor",
+                "transition_door"
+            ],
+            "nightmarearch01": [
+                "Arch",
+                "Levels/TileParts/NightmareTransitions/Nightmare_Arch",
+                1,
+                15,
+                15,
+                "transition_name_nightmarearch01",
+                "transition_desc_nightmarearch01",
+                "transition_archway"
+            ],
+            "nightmaredoor01": [
+                "Door",
+                "Levels/TileParts/NightmareTransitions/Nightmare_Door",
+                1,
+                15,
+                15,
+                "transition_name_nightmaredoor01",
+                "transition_desc_nightmaredoor01",
+                "transition_door"
+            ],
+            "returnofthechief_sq_storydoor1": [
+                "Door",
+                "Levels/TileParts/BanditCaveTransitions/ReturnOfTheChief_StoryDoor1",
+                1,
+                15,
+                15,
+                "transition_name_banditdoor",
+                "transition_desc_banditdoor",
+                "transition_door"
+            ],
+            "sewerarch01": [
+                "Arch",
+                "Levels/TileParts/SewerTransitions/SewerArch_01",
+                1,
+                0,
+                0,
+                "transition_name_sewerarch01",
+                "transition_desc_sewerarch01",
+                "transition_archway"
+            ],
+            "sewerarch02": [
+                "Arch",
+                "Levels/TileParts/SewerTransitions/SewerArch_02",
+                1,
+                0,
+                0,
+                "transition_name_sewerarch02",
+                "transition_desc_sewerarch02",
+                "transition_open"
+            ],
+            "sewerarch03": [
+                "Arch",
+                "Levels/TileParts/SewerTransitions/SewerArch_03",
+                1,
+                0,
+                0,
+                "transition_name_sewerarch01",
+                "transition_desc_drowarch01",
+                "transition_open"
+            ],
+            "sewerdoor01": [
+                "Door",
+                "Levels/TileParts/SewerTransitions/SewerDoor",
+                1,
+                0,
+                15,
+                "transition_name_sewerdoor01",
+                "transition_desc_sewerdoor01",
+                "transition_door"
+            ],
+            "sewerdoor_deadrats": [
+                "Door",
+                "Levels/TileParts/SewerTransitions/SewerDoor_GuardDialogue",
+                0,
+                0,
+                0,
+                "transition_name_sewerdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "sewerdoor_jarhild_cq": [
+                "Door",
+                "Levels/TileParts/SewerTransitions/SewerDoor_Jarhild_CQ",
+                0,
+                0,
+                0,
+                "transition_name_sewerdoor01",
+                "transition_desc_sewerdoor01",
+                "transition_door"
+            ],
+            "sewerdoor_reqkey": [
+                "Door",
+                "Levels/TileParts/SewerTransitions/SewerDoor_ReqKey",
+                0,
+                0,
+                0,
+                "transition_name_sewerdoor01",
+                "transition_desc_sewerdoor01",
+                "transition_door"
+            ],
+            "sewerdoor_trapped": [
+                "Door",
+                "Levels/TileParts/TrappedDoors/SewerDoor_Trapped",
+                1,
+                0,
+                0,
+                "transition_name_sewerdoor01",
+                "transition_desc_sewerdoor01",
+                "transition_door"
+            ],
+            "sewerhallarch01": [
+                "Arch",
+                "Levels/TileParts/SewerTransitions/SewerHallArch_01",
+                1,
+                0,
+                0,
+                "transition_name_sewerarch01",
+                "transition_desc_drowhallarch01",
+                "transition_open"
+            ],
+            "sewerportcullisdoor": [
+                "Door",
+                "Levels/TileParts/SewerTransitions/SewerPortcullisDoor",
+                1,
+                0,
+                15,
+                "transition_name_sewerportcullisdoor",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "sewersecretdoor01": [
+                "SecretDoor",
+                "Levels/TileParts/SewerTransitions/SewerSecretDoor",
+                1,
+                15,
+                0,
+                "transition_name_sewersecretdoor01",
+                "transition_desc_sewersecretdoor01",
+                "transition_secret"
+            ],
+            "slimecastledoor": [
+                "Door",
+                "Levels/TileParts/SpiderCastleTransitions/SlimeCastleDoor",
+                1,
+                15,
+                15,
+                "transition_name_spiderdoor01",
+                "transition_desc_spiderdoor01",
+                "transition_door"
+            ],
+            "spidercastle_storysealeddoor": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/SpiderCastle_StorySealedDoor",
+                1,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "spidercastlearch01": [
+                "Arch",
+                "Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_01",
+                1,
+                0,
+                0,
+                "transition_name_spidercastlearch01",
+                "transition_desc_spidercastlearch01",
+                "transition_archway"
+            ],
+            "spidercastlearch02": [
+                "Arch",
+                "Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_02",
+                1,
+                0,
+                0,
+                "transition_name_spidercastlearch02",
+                "transition_desc_spidercastlearch02",
+                "transition_archway"
+            ],
+            "spidercastlearch03": [
+                "Arch",
+                "Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_03",
+                1,
+                0,
+                0,
+                "transition_name_spidercastlearch03",
+                "transition_desc_spidercastlearch03",
+                "transition_archway"
+            ],
+            "spidercastlearch04": [
+                "Arch",
+                "Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_04",
+                1,
+                0,
+                0,
+                "transition_name_spidercastlearch04",
+                "transition_desc_spidercastlearch04",
+                "transition_archway"
+            ],
+            "spidercastlearch05": [
+                "Arch",
+                "Levels/TileParts/SpiderCastleTransitions/SpiderCastleArch_05",
+                1,
+                0,
+                0,
+                "transition_name_spidercastlearch05",
+                "transition_desc_spidercastlearch05",
+                "transition_archway"
+            ],
+            "spidercastledoor": [
+                "Door",
+                "Levels/TileParts/SpiderCastleTransitions/SpiderCastleDoor",
+                1,
+                15,
+                15,
+                "transition_name_spiderdoor01",
+                "transition_desc_spiderdoor01",
+                "transition_door"
+            ],
+            "spidercastledoor_trapped": [
+                "Door",
+                "Levels/TileParts/TrappedDoors/SpiderCastleDoor_Trapped",
+                1,
+                0,
+                0,
+                "transition_name_spiderdoor01",
+                "transition_desc_spiderdoor01",
+                "transition_door"
+            ],
+            "spidercastlesecretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/SpiderCastleTransitions/SpiderCastleSecretDoor",
+                1,
+                15,
+                15,
+                "transition_name_spidersecretdoor01",
+                "transition_desc_spidersecretdoor01",
+                "transition_secret"
+            ],
+            "storysecretdoor": [
+                "SecretDoor",
+                "Prefabs/Doors/StorySecretDoor",
+                1,
+                0,
+                0,
+                "transition_name_storysecretdoor",
+                "transition_desc_storysecretdoor",
+                "transition_secret"
+            ],
+            "tavernarch01": [
+                "Arch",
+                "Levels/TileParts/SmInteriors/SmInterior_Arch/SmInterior_Arch",
+                1,
+                0,
+                0,
+                null,
+                null,
+                null
+            ],
+            "taverndoor01": [
+                "Door",
+                "Levels/TileParts/SmInteriors/SmInterior_Door/SmInterior_Door",
+                1,
+                0,
+                15,
+                "transition_name_genericdoor",
+                "transition_desc_genericdoor",
+                "transition_door"
+            ],
+            "tavernsecretdoor01": [
+                "SecretDoor",
+                "Levels/TileParts/SmInteriors/Tavern_SecretDoor/Tavern_SecretDoor",
+                1,
+                15,
+                15,
+                "transition_name_tavernsecretdoor01",
+                "transition_desc_tavernsecretdoor01",
+                "transition_secret"
+            ],
+            "whiteboxarch": [
+                "Arch",
+                "Levels/TileParts/CastleTransitions/CastleArch",
+                1,
+                0,
+                0,
+                "transition_name_drowarch01",
+                "transition_desc_drowarch01",
+                "transition_archway"
+            ],
+            "whiteboxdoor": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/CastleDoor",
+                1,
+                0,
+                10,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "whiteboxsecretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/CastleTransitions/CastleSecretDoor",
+                1,
+                15,
+                0,
+                "transition_name_drowsecretdoor01",
+                "transition_desc_drowsecretdoor01",
+                "transition_secret"
+            ],
+            "wizardcastlearch": [
+                "Arch",
+                "Levels/TileParts/CastleTransitions/CastleSecondArchWizard",
+                0,
+                0,
+                0,
+                "transition_name_drowarch01",
+                "transition_desc_drowarch01",
+                "transition_open"
+            ],
+            "wizardcastledoor": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/CastleDoorWizard",
+                0,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "wizardcastlelockeddoor": [
+                "Door",
+                "Levels/TileParts/CastleTransitions/CastleDoorWizardLocked",
+                0,
+                0,
+                0,
+                "transition_name_drowdoor01",
+                "transition_desc_drowdoor01",
+                "transition_door"
+            ],
+            "wizardcastlesecretdoor": [
+                "SecretDoor",
+                "Levels/TileParts/CastleTransitions/CastleSecretDoorWizard",
+                0,
+                0,
+                0,
+                "transition_name_drowsecretdoor01",
+                "transition_desc_drowsecretdoor01",
+                "transition_secret"
+            ],
+            "wolfcolumn01": [
+                "Arch",
+                "Levels/TileParts/DrowColumn/DrowColumn_New",
+                1,
+                0,
+                0,
+                null,
+                null,
+                null
+            ]
+        }
+    ],
+    "rt_transitionsets": [
+        {
+            "arch01": [
+                0,
+                0
+            ],
+            "arch02": [
+                1,
+                0
+            ],
+            "arch03": [
+                2,
+                2
+            ],
+            "door01": [
+                3,
+                2
+            ],
+            "door02": [
+                4,
+                2
+            ],
+            "door03": [
+                5,
+                2
+            ],
+            "endcap01": [
+                9,
+                2
+            ],
+            "endcap02": [
+                10,
+                2
+            ],
+            "endcap03": [
+                11,
+                2
+            ],
+            "secretdoor01": [
+                6,
+                2
+            ],
+            "secretdoor02": [
+                7,
+                2
+            ],
+            "secretdoor03": [
+                8,
+                2
+            ]
+        },
+        {
+            "banditcavestransitions": [
+                "banditarch01",
+                "banditarch02",
+                null,
+                "BanditDoor01",
+                null,
+                null,
+                "DrowSecretDoor01",
+                null,
+                null,
+                "Bandit_EndCap",
+                null,
+                null
+            ],
+            "barbariancavetransitions": [
+                "cavearch01",
+                "cavearch02",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "CaveCap01",
+                null,
+                null
+            ],
+            "castletransitions": [
+                "castlearch01",
+                "castlearch02",
+                null,
+                "CastleDoor01",
+                "CastleCellDoor01",
+                null,
+                "CastleSecretDoor01",
+                "CastleSecretBookcaseDM",
+                null,
+                "CastleCap",
+                null,
+                null
+            ],
+            "catacombstransitions": [
+                "catacombsarch01",
+                "catacombsarch02",
+                "CatacombsArch03",
+                "CatacombsDoor01",
+                null,
+                null,
+                "CatacombsSecretDoor01",
+                null,
+                null,
+                "CatacombsCap",
+                null,
+                null
+            ],
+            "cavetransitions": [
+                "cavearch01",
+                "cavearch02",
+                null,
+                "CaveDoor01",
+                null,
+                null,
+                "DrowSecretDoor01",
+                null,
+                null,
+                "CaveCap01",
+                null,
+                null
+            ],
+            "drowcavestransitions": [
+                "drowarch02",
+                "drowarch01",
+                null,
+                "DrowDoor01",
+                null,
+                null,
+                "DrowSecretDoor01",
+                null,
+                null,
+                "Drow_EndCap",
+                null,
+                null
+            ],
+            "duergartransitions": [
+                "duergararch01",
+                "duergararch02",
+                "DuergarArch03",
+                "DuergarDoor",
+                null,
+                null,
+                "DuergarSecretDoor",
+                null,
+                null,
+                "DuergarCap",
+                null,
+                null
+            ],
+            "lostminestransitions": [
+                "lostminesarch01",
+                "lostminesarch02",
+                null,
+                "LostMinesDoor01",
+                null,
+                null,
+                "LostMinesSecretDoor01",
+                null,
+                null,
+                "LostMinesEndCap",
+                null,
+                null
+            ],
+            "lurkwoodtransitions": [
+                "whiteboxarch",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "magictenttransitions": [
+                "wizardcastlearch",
+                null,
+                null,
+                "WizardCastleDoor",
+                null,
+                null,
+                "WizardCastleSecretDoor",
+                null,
+                null,
+                "WizardCap",
+                null,
+                null
+            ],
+            "nightmaretransitions": [
+                "nightmarearch01",
+                null,
+                null,
+                "NightmareDoor01",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "Nightmare_EndCap",
+                null,
+                null
+            ],
+            "sewertransitions": [
+                "sewerarch01",
+                "sewerarch02",
+                "SewerArch03",
+                "SewerDoor01",
+                null,
+                null,
+                "SewerSecretDoor01",
+                null,
+                null,
+                "SewerCap",
+                null,
+                null
+            ],
+            "smallinteriorstransitions": [
+                "tavernarch01",
+                null,
+                null,
+                "TavernDoor01",
+                null,
+                null,
+                "TavernSecretDoor01",
+                null,
+                null,
+                "SmInterior_Cap",
+                null,
+                null
+            ],
+            "spidercastletransitions": [
+                "spidercastlearch01",
+                "spidercastlearch03",
+                "SpiderCastleArch04",
+                "SpiderCastleDoor",
+                null,
+                null,
+                "SpiderCastleSecretDoor",
+                null,
+                null,
+                "SpiderCastleCap",
+                null,
+                null
+            ],
+            "whiteboxtransitions": [
+                "whiteboxarch",
+                null,
+                null,
+                "WhiteBoxDoor",
+                null,
+                null,
+                "WhiteBoxSecretDoor",
+                null,
+                null,
+                "CastleCap",
+                null,
+                null
+            ],
+            "wolfdentransitions": [
+                "wolfcolumn01",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "Bandit_EndCap",
+                null,
+                null
+            ]
+        }
+    ]
+}
